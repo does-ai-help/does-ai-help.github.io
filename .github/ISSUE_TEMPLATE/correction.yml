@@ -1,0 +1,23 @@
+name: Report a correction
+description: Broken links, incorrect identities, misleading claims, or missing qualifications
+title: "[Correction] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Release and location
+      description: Release version plus source ID or article passage.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and supporting evidence
+      description: Describe the error, give primary links/identifiers, and distinguish access failure from citation mismatch or unsupported interpretation.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Suggested wording or verified replacement URL, with remaining uncertainty.

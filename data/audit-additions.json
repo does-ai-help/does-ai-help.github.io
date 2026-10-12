@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ref-283d4e8368",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+    "title": "Reference awaiting identity verification",
+    "topics": [],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Candidate reference; no substantive conclusion is attributed before source review.",
+    "limitations": "Result-level appraisal pending.",
+    "verification": {
+      "level": "candidate",
+      "checked_on": null
+    },
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    }
+  },
+  {
+    "id": "ref-776550e112",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+    "title": "Reference awaiting identity verification",
+    "topics": [],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Candidate reference; no substantive conclusion is attributed before source review.",
+    "limitations": "Result-level appraisal pending.",
+    "verification": {
+      "level": "candidate",
+      "checked_on": null
+    },
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    }
+  },
+  {
+    "id": "ref-0754d05007",
+    "url": "https://queue.acm.org/detail.cfm?id=3454124",
+    "title": "Reference awaiting identity verification",
+    "topics": [],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Candidate reference; no substantive conclusion is attributed before source review.",
+    "limitations": "Result-level appraisal pending.",
+    "verification": {
+      "level": "candidate",
+      "checked_on": null
+    },
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    }
+  }
+]

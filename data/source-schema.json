@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI and Intellectual Work Evidence Map",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title", "url", "authors", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification", "editorial_priority"],
+    "properties": {
+      "id": {"type":"string","pattern":"^[a-z0-9-]+$"},
+      "title": {"type":"string","minLength":1},
+      "url": {"type":"string","format":"uri"},
+      "authors": {"type":"array","items":{"type":"string"}},
+      "year": {"type":["integer","null"],"minimum":1900,"maximum":2100},
+      "date": {"type":["string","null"]},
+      "topics": {"type":"array","items":{"type":"string"}},
+      "method": {"type":"string"},
+      "publication_status": {"type":"string"},
+      "summary": {"type":"string"},
+      "limitations": {"type":"string"},
+      "verified": {"type":"boolean"},
+      "editorial_priority": {"enum":["core","supporting","pending"]},
+      "verification": {
+        "type":"object",
+        "required":["level","checked_on"],
+        "properties": {
+          "level":{"enum":["content-checked","identity-checked","candidate"]},
+          "checked_on":{"type":["string","null"]},
+          "basis":{"type":"string"},
+          "source_url":{"type":"string","format":"uri"}
+        }
+      },
+      "version_note":{"type":"string"},
+      "doi":{"type":"string"},
+      "arxiv_id":{"type":"string","pattern":"^[0-9]{4}\\.[0-9]{4,5}(v[0-9]+)?$"},
+      "title_aliases":{"type":"array","items":{"type":"string","minLength":1}},
+      "related_to":{"type":"array","items":{"type":"string"}},
+      "dataset_family":{"type":"string"}
+    }
+  }
+}

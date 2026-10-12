@@ -1,0 +1,30 @@
+name: Suggest evidence
+description: Propose a study, analysis, report, or related source
+title: "[Evidence] "
+body:
+  - type: textarea
+    id: citation
+    attributes:
+      label: Bibliographic identity
+      description: Title, authors, date/version, primary URL and DOI/arXiv/report ID if available.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Results and limitations
+      description: Study design, outcome measured, key finding, limitations, and exact passage/table inspected. Separate evidence from interpretation.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and overlap
+      description: Relevant review section, release/source IDs, related versions or shared datasets, and why this adds evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Disclosure
+      description: Relevant interests, source access restrictions, and AI assistance or human verification performed.

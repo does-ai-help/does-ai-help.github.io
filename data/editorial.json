@@ -1,0 +1,1306 @@
+[
+  {
+    "id": "noy2023",
+    "url": "https://doi.org/10.1126/science.adh2586",
+    "title": "Experimental evidence on the productivity effects of generative artificial intelligence",
+    "authors": [
+      "Noy, Shakked",
+      "Zhang, Whitney"
+    ],
+    "year": 2023,
+    "date": "2023-07-14",
+    "doi": "10.1126/science.adh2586",
+    "method": "experiment",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "productivity",
+      "business"
+    ],
+    "summary": "A preregistered experiment with 453 professionals found shorter completion times and higher assessed quality on occupational writing tasks with ChatGPT.",
+    "limitations": "Short writing assignments and assessed artifacts; not long-run firm productivity.",
+    "verification_scope": "publisher abstract and study description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "brynjolfsson2025",
+    "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+    "title": "Generative AI at Work",
+    "authors": [
+      "Brynjolfsson, Erik",
+      "Li, Danielle",
+      "Raymond, Lindsey"
+    ],
+    "year": 2025,
+    "date": "2025-02-04",
+    "doi": "10.1093/qje/qjae044",
+    "method": "quasi-experiment",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "productivity",
+      "business",
+      "work"
+    ],
+    "summary": "A staggered workplace deployment increased customer issues resolved per hour by 15% on average, with greater benefits for less experienced workers.",
+    "limitations": "One customer-support environment; assistance is embedded in a specific workflow. The published estimate differs from the earlier 14% working-paper figure.",
+    "verification_scope": "journal abstract and introduction",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "dellacqua2023",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+    "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+    "authors": [
+      "Dell'Acqua, Fabrizio",
+      "McFowland III, Edward",
+      "Mollick, Ethan",
+      "Lifshitz-Assaf, Hila",
+      "Kellogg, Katherine",
+      "Rajendran, Saran",
+      "Krayer, Lisa",
+      "Candelon, François",
+      "Lakhani, Karim"
+    ],
+    "year": 2023,
+    "version_note": "Study first circulated in 2023; linked author manuscript is a 2026 revision.",
+    "method": "experiment",
+    "publication_status": "author-manuscript",
+    "topics": [
+      "productivity",
+      "business",
+      "reasoning"
+    ],
+    "summary": "An experiment with 758 consultants distinguishes tasks within the model's effective capability frontier from tasks on which AI assistance can worsen correctness.",
+    "limitations": "Task-specific frontier and 2023 GPT-4; do not infer present model limitations directly.",
+    "verification_scope": "author manuscript, methods and reported task contrast",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "peng2023",
+    "url": "https://arxiv.org/abs/2302.06590",
+    "method": "experiment",
+    "topics": [
+      "productivity",
+      "engineering"
+    ],
+    "summary": "Developers given Copilot completed a JavaScript HTTP-server task in substantially less time; the reported reduction was 55.8%.",
+    "limitations": "An isolated task and early tool; completion-conditioned estimates and uncertainty matter.",
+    "verification_scope": "primary abstract and experimental description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "paradis2024",
+    "url": "https://arxiv.org/abs/2410.12944",
+    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial",
+    "authors": [
+      "Paradis, Elise",
+      "Grey, Kate",
+      "Madison, Quinn",
+      "Nam, Daye",
+      "Macvean, Andrew",
+      "Meimand, Vahid",
+      "Zhang, Nan",
+      "Ferrari-Church, Ben",
+      "Chandra, Satish"
+    ],
+    "year": 2024,
+    "method": "experiment",
+    "publication_status": "preprint",
+    "version_note": "2024 preprint; associated ICSE 2025 Software Engineering in Practice presentation is catalogued separately.",
+    "topics": [
+      "productivity",
+      "engineering"
+    ],
+    "summary": "A trial with 96 Google engineers estimated approximately 21% shorter task time with internal AI features.",
+    "limitations": "Wide uncertainty, one complex task, internal tooling; not an estimate for all engineering work.",
+    "verification_scope": "primary abstract and methods summary",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "cui2025",
+    "url": "https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers",
+    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+    "authors": [
+      "Cui, Zheyuan (Kevin)",
+      "Demirer, Mert",
+      "Jaffe, Sonia",
+      "Musolff, Leon",
+      "Peng, Sida",
+      "Salz, Tobias"
+    ],
+    "year": 2025,
+    "date": "2025-06",
+    "method": "experiment",
+    "publication_status": "research-publication",
+    "topics": [
+      "productivity",
+      "engineering"
+    ],
+    "summary": "Three workplace experiments covering 4,867 developers report a pooled increase of about 26% in completed tasks following access to coding assistance.",
+    "limitations": "Completed-task measures vary across firms; access, actual use, quality, and commercial value are distinct.",
+    "verification_scope": "research publication page and reported pooled result",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "metr2025",
+    "url": "https://arxiv.org/abs/2507.09089",
+    "method": "experiment",
+    "topics": [
+      "productivity",
+      "engineering"
+    ],
+    "summary": "Experienced maintainers took 19% longer on tasks in familiar repositories when allowed early-2025 AI tools, despite expecting and perceiving speedups.",
+    "limitations": "A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents.",
+    "verification_scope": "primary paper abstract and linked experiment report",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "metr2026update",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update",
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "authors": [
+      "Becker, Joel",
+      "Rush, Nate",
+      "Cunningham, Tom",
+      "Rein, David",
+      "Mahamud, Khalid"
+    ],
+    "year": 2026,
+    "date": "2026-02-24",
+    "method": "experiment-update",
+    "publication_status": "organization-report",
+    "topics": [
+      "productivity",
+      "methods"
+    ],
+    "summary": "METR's follow-up describes selection and measurement problems as developers increasingly decline AI-disallowed work and operate agents concurrently.",
+    "limitations": "Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect.",
+    "verification_scope": "full methodological update",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "metr2026survey",
+    "url": "https://metr.org/blog/2026-05-11-ai-usage-survey",
+    "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
+    "authors": [
+      "METR"
+    ],
+    "year": 2026,
+    "date": "2026-05-11",
+    "method": "survey",
+    "publication_status": "organization-report",
+    "topics": [
+      "productivity",
+      "work"
+    ],
+    "summary": "A survey of 349 technical workers estimates perceived changes in the value of work, extending beyond time saved on fixed tasks.",
+    "limitations": "Self-reported counterfactuals, selection, and unusually technical respondents; not independently measured causal uplift.",
+    "verification_scope": "organization report and sample description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "demirer2026",
+    "url": "https://www.nber.org/papers/w35275",
+    "authors": [
+      "Demirer, Mert",
+      "Musolff, Leon",
+      "Yang, Liyuan"
+    ],
+    "year": 2026,
+    "doi": "10.3386/w35275",
+    "version_note": "September 2026 revision; first issued May 2026.",
+    "method": "observational",
+    "publication_status": "working-paper",
+    "topics": [
+      "productivity",
+      "engineering",
+      "business"
+    ],
+    "summary": "A matched event study of more than 500,000 developers finds large cumulative commit effects that attenuate for projects, releases, and application usage.",
+    "limitations": "Nonrandom adoption, heterogeneous tools and outcomes; cumulative event-study estimates are not daily speedup percentages.",
+    "verification_scope": "current publisher abstract and revision metadata",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "chenstratton2026",
+    "url": "https://fion.ac/jellyfish.pdf",
+    "title": "Artificial Intelligence in the Firm: Bottlenecks in Software Production",
+    "authors": [
+      "Chen, Fiona",
+      "Stratton, James"
+    ],
+    "year": 2026,
+    "date": "2026-08-04",
+    "version_note": "Current linked version August 4, 2026; first version January 7, 2026.",
+    "method": "quasi-experiment",
+    "publication_status": "working-paper",
+    "topics": [
+      "productivity",
+      "engineering",
+      "business"
+    ],
+    "summary": "Firm-level adoption analysis using Jellyfish data finds increased coding activity, longer review cycles, and limited pass-through to resolved issues or epics.",
+    "limitations": "Proprietary data, parallel-trends assumptions, firm-level adoption, and output proxies; insignificant effects are not proof of exactly zero benefit.",
+    "verification_scope": "author PDF, abstract, introduction, review analysis and sample table",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "murphyhill2026",
+    "url": "https://arxiv.org/abs/2607.01418",
+    "method": "observational",
+    "topics": [
+      "productivity",
+      "engineering",
+      "cost"
+    ],
+    "summary": "Microsoft's early-2026 CLI-agent rollout is associated with roughly 24% more merged pull requests among adopters across four months.",
+    "limitations": "Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "dora2024",
+    "url": "https://dora.dev/research/2024/dora-report",
+    "authors": [
+      "DORA"
+    ],
+    "year": 2024,
+    "method": "survey",
+    "publication_status": "organization-report",
+    "topics": [
+      "engineering",
+      "business",
+      "productivity"
+    ],
+    "summary": "Organization-level research links AI use to individual benefits while reporting adverse associations with delivery stability and throughput in the 2024 sample.",
+    "limitations": "Survey-based relationships, self-selection and organizational context; not randomized deployment effects.",
+    "verification_scope": "report landing page and primary organizational interpretation",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "dora2025",
+    "url": "https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report",
+    "authors": [
+      "DeBellis, Derek",
+      "Storer, Kevin",
+      "Harvey, Nathen",
+      "Beane, Matt",
+      "Edwards, Rob",
+      "Fraser, Edward",
+      "Good, Ben",
+      "Kalliamvakou, Eirini",
+      "Kim, Gene",
+      "Maxwell, Eric",
+      "D'Angelo, Sarah",
+      "Inman, Sarah",
+      "Murillo, Ambar",
+      "Villalba, Daniella"
+    ],
+    "year": 2025,
+    "method": "survey",
+    "publication_status": "organization-report",
+    "topics": [
+      "engineering",
+      "business"
+    ],
+    "summary": "The 2025 report interprets AI as an amplifier of existing organizational capabilities and weaknesses.",
+    "limitations": "Organizational associations do not imply that mature practices guarantee positive outcomes for every adoption.",
+    "verification_scope": "research publication page and report synthesis",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "doratensions2026",
+    "url": "https://dora.dev/insights/balancing-ai-tensions",
+    "authors": [
+      "DORA"
+    ],
+    "year": 2026,
+    "method": "commentary",
+    "publication_status": "organization-analysis",
+    "topics": [
+      "engineering",
+      "business"
+    ],
+    "summary": "Discusses tensions between AI adoption, trust, verification, workflow design, and effective use across the software lifecycle.",
+    "limitations": "Interpretive and practical guidance; not a new randomized productivity estimate.",
+    "verification_scope": "primary analysis",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "faros2026",
+    "url": "https://www.faros.ai/research/ai-acceleration-whiplash",
+    "authors": [
+      "Faros AI"
+    ],
+    "year": 2026,
+    "method": "observational",
+    "publication_status": "vendor-report",
+    "topics": [
+      "engineering",
+      "productivity",
+      "quality"
+    ],
+    "summary": "Vendor telemetry reports higher output alongside larger changes, review pressure, defects and incidents as AI adoption intensifies.",
+    "limitations": "Selection, changing workflows, relative metrics, limited baselines, and vendor interests impede causal attribution.",
+    "verification_scope": "primary report overview; numerical details require report-specific denominator checks",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "gitclear2025",
+    "url": "https://www.gitclear.com/ai_assistant_code_quality_2025_research",
+    "authors": [
+      "GitClear"
+    ],
+    "year": 2025,
+    "method": "observational",
+    "publication_status": "vendor-report",
+    "topics": [
+      "engineering",
+      "quality"
+    ],
+    "summary": "Tracks code-change patterns, duplication and moved-code metrics across the period of expanding AI-assistant adoption.",
+    "limitations": "Calendar-time association is not treatment identification; moved-code measures are not the entirety of refactoring.",
+    "verification_scope": "primary report page and stated metric definitions",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "stackoverflow2025",
+    "url": "https://survey.stackoverflow.co/2025/ai",
+    "title": "AI | 2025 Stack Overflow Developer Survey",
+    "title_aliases": ["Stack Overflow Developer Survey 2025: AI"],
+    "authors": [
+      "Stack Overflow"
+    ],
+    "year": 2025,
+    "method": "survey",
+    "publication_status": "organization-report",
+    "topics": [
+      "engineering",
+      "trust",
+      "work"
+    ],
+    "summary": "High reported use or planned use coexists with greater distrust than trust of AI accuracy and widespread frustration with nearly correct answers.",
+    "limitations": "Opt-in survey and question-specific denominators; planned use is not adoption, and frustration is not measured net time loss.",
+    "verification_scope": "AI section including exact question wording",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "tran2026",
+    "url": "https://arxiv.org/abs/2608.06640",
+    "method": "observational",
+    "topics": [
+      "engineering",
+      "quality",
+      "cost"
+    ],
+    "summary": "Production C++ telemetry finds distinct warning profiles, added review effort, and higher compute consumption in the studied AI-code cohort.",
+    "limitations": "One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier.",
+    "verification_scope": "primary abstract and study scope",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "cotroneo2025",
+    "url": "https://arxiv.org/abs/2508.21634",
+    "method": "benchmark-analysis",
+    "topics": [
+      "engineering",
+      "quality",
+      "security"
+    ],
+    "summary": "Compares more than 500,000 Python and Java samples and identifies different defect, vulnerability and structural-complexity profiles in human and model code.",
+    "limitations": "Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "sabra2025",
+    "url": "https://arxiv.org/abs/2508.14727",
+    "method": "benchmark-analysis",
+    "topics": [
+      "engineering",
+      "quality",
+      "security"
+    ],
+    "summary": "Static analysis of 4,442 Java assignments finds that passing functional tests does not reliably indicate broader code quality or security.",
+    "limitations": "Assignments, selected models, and analyzer findings are not direct observations of production exploitation.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "maintenance2025",
+    "url": "https://arxiv.org/abs/2510.10165",
+    "method": "observational",
+    "topics": [
+      "engineering",
+      "quality",
+      "work"
+    ],
+    "summary": "An open-source study reports greater activity among peripheral contributors alongside added review and rework burdens for core contributors.",
+    "limitations": "Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value.",
+    "verification_scope": "current primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "sweci2026",
+    "url": "https://arxiv.org/abs/2603.03823",
+    "method": "benchmark",
+    "topics": [
+      "engineering",
+      "quality",
+      "agents"
+    ],
+    "summary": "Evaluates agents across successive repository changes rather than a single static issue, making regression and maintainability central outcomes.",
+    "limitations": "A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "coverage2026",
+    "url": "https://arxiv.org/abs/2607.18057",
+    "method": "observational",
+    "topics": [
+      "engineering",
+      "quality",
+      "agents"
+    ],
+    "summary": "Coverage measurements on 4,882 agent PRs show incomplete execution of changed lines and uneven benefits from agent-written tests.",
+    "limitations": "Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "vero2026",
+    "url": "https://arxiv.org/abs/2608.13522",
+    "method": "benchmark",
+    "topics": [
+      "engineering",
+      "verification",
+      "agents"
+    ],
+    "summary": "Joint implementation-and-proof generation succeeds on 27 of 43 curated multi-module Lean repositories in the strongest evaluated configuration, with no complete success on the hardest cases.",
+    "limitations": "Formal validity is conditional on specification; small curated benchmark and configuration-dependent result.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "iac2026",
+    "url": "https://arxiv.org/abs/2608.13404",
+    "method": "benchmark-analysis",
+    "topics": [
+      "engineering",
+      "security",
+      "methods"
+    ],
+    "summary": "Iterative infrastructure-code repair can regress security; changing the regression definition reduces measured affected scenarios from 13.8% to 3.3%.",
+    "limitations": "Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures.",
+    "verification_scope": "primary abstract and measurement definitions",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "shen2026",
+    "url": "https://arxiv.org/abs/2601.20245",
+    "method": "experiment",
+    "topics": [
+      "learning",
+      "engineering"
+    ],
+    "summary": "Randomized study of learning a programming library finds reduced conceptual understanding, code reading and debugging with AI assistance on average.",
+    "limitations": "A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized.",
+    "verification_scope": "primary abstract and preregistered design description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "bastani2025",
+    "url": "https://doi.org/10.1073/pnas.2422633122",
+    "title": "Generative AI without guardrails can harm learning",
+    "authors": [
+      "Bastani, Hamsa",
+      "Bastani, Osbert",
+      "Sungu, Alp",
+      "Ge, Haosen",
+      "Kabakcı, Özge",
+      "Mariman, Rei"
+    ],
+    "year": 2025,
+    "doi": "10.1073/pnas.2422633122",
+    "method": "experiment",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "learning"
+    ],
+    "summary": "A school mathematics trial distinguishes AI-assisted practice from unaided assessment and shows the importance of tutor guardrails for preserving learning.",
+    "limitations": "Mathematics education and a specific instructional implementation; not a result for every tutor or subject.",
+    "verification_scope": "publisher abstract and experiment description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "bergh2026",
+    "url": "https://arxiv.org/abs/2609.21194",
+    "method": "experiment",
+    "topics": [
+      "learning",
+      "engineering",
+      "cognition"
+    ],
+    "summary": "Students assisted by ChatGPT produced stronger C solutions but showed lower immediate and 48-hour recall, with no significant difference in the rate of forgetting.",
+    "limitations": "55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness.",
+    "verification_scope": "primary abstract, full HTML methods and results",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "lepp2026",
+    "url": "https://arxiv.org/abs/2607.24755",
+    "method": "survey",
+    "topics": [
+      "learning",
+      "engineering"
+    ],
+    "summary": "Among 210 first-year OOP students, different self-reported AI-use profiles did not significantly differ in unaided assessment performance.",
+    "limitations": "One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "wang2026",
+    "url": "https://arxiv.org/abs/2609.29874",
+    "method": "retrospective-computational",
+    "topics": [
+      "learning",
+      "engineering"
+    ],
+    "summary": "Combines risk prediction, evidence-bounded feedback and progressive assistance using historical failed submissions from 215 students.",
+    "limitations": "Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning.",
+    "verification_scope": "abstract and full HTML research-design section",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "brand2026",
+    "url": "https://arxiv.org/abs/2609.37645",
+    "method": "field-observation",
+    "topics": [
+      "cognition",
+      "engineering",
+      "work"
+    ],
+    "summary": "A four-day study of 21 SAP developers relates perceived cognitive load to AI use and task context; wearable measurements add limited information.",
+    "limitations": "Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort.",
+    "verification_scope": "primary abstract only",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "vella2026",
+    "url": "https://arxiv.org/abs/2605.23135",
+    "method": "longitudinal-survey",
+    "topics": [
+      "engineering",
+      "cognition",
+      "work"
+    ],
+    "summary": "A six-month survey panel reports a shift toward supervisory engineering work and growing experience-related costs despite stable perceived productivity gains.",
+    "limitations": "Perceived effects, attrition and 95 matched participants; not independently timed task performance.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "chen2026",
+    "url": "https://arxiv.org/abs/2602.03593",
+    "method": "mixed-methods",
+    "topics": [
+      "productivity",
+      "engineering",
+      "methods"
+    ],
+    "summary": "A BNY Mellon survey with 2,989 responses and 11 interviews argues for measuring expertise, ownership and longer-run productivity alongside activity.",
+    "limitations": "Self-reports within one organization; identifies constructs rather than a causal effect size.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "afroz2025",
+    "url": "https://arxiv.org/abs/2510.24265",
+    "method": "survey",
+    "topics": [
+      "productivity",
+      "engineering",
+      "methods"
+    ],
+    "summary": "A survey of 415 practitioners maps perceived gains and shifted effort across SPACE dimensions, including review and verification costs.",
+    "limitations": "Self-report and adoption differences; neither proves net losses nor measures firm-level product value.",
+    "verification_scope": "current primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "era2026",
+    "url": "https://www.nature.com/articles/s41586-026-10658-6",
+    "method": "benchmark",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "engineering",
+      "agents"
+    ],
+    "summary": "ERA iteratively searches software candidates for scorable scientific and engineering tasks, demonstrating strong empirical-software performance.",
+    "limitations": "Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation.",
+    "verification_scope": "journal abstract and task design",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "coscientist2026",
+    "url": "https://www.nature.com/articles/s41586-026-10644-y",
+    "method": "benchmark-and-experimental-validation",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "agents"
+    ],
+    "summary": "Co-Scientist generates and prioritizes research hypotheses, with selected results assessed through expert and experimental validation.",
+    "limitations": "Selected biological cases and human direction; broad autonomy is not demonstrated.",
+    "verification_scope": "journal abstract and validation description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "robin2026",
+    "url": "https://www.nature.com/articles/s41586-026-10652-y",
+    "method": "experimental-demonstration",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "agents"
+    ],
+    "summary": "Robin connects literature work, hypothesis generation and analysis to selected laboratory experiments in a multi-agent discovery workflow.",
+    "limitations": "A limited number of tasks and experiments; repeatable general discovery requires broader independent testing.",
+    "verification_scope": "journal abstract and experimental scope",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "aiscientist2026",
+    "url": "https://www.nature.com/articles/s41586-026-10265-5",
+    "method": "benchmark",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "agents"
+    ],
+    "summary": "Demonstrates an extended automated ML-research workflow and evaluation of generated work through workshop peer review.",
+    "limitations": "Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence.",
+    "verification_scope": "journal abstract and primary publication description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "alphaproof2025",
+    "url": "https://www.nature.com/articles/s41586-025-09833-y",
+    "method": "benchmark",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "mathematics",
+      "verification"
+    ],
+    "summary": "AlphaProof combines reinforcement learning with formal mathematical reasoning and machine-checked proofs at olympiad level.",
+    "limitations": "Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question.",
+    "verification_scope": "journal abstract and stated evaluation scope",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "alphaevolve2025",
+    "url": "https://arxiv.org/abs/2506.13131",
+    "method": "experimental-demonstration",
+    "topics": [
+      "science",
+      "engineering",
+      "ai-rd"
+    ],
+    "summary": "An evolutionary coding agent improves algorithms and infrastructure through evaluator-driven search, including selected novel mathematical procedures.",
+    "limitations": "Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "discorl2025",
+    "url": "https://www.nature.com/articles/s41586-025-09761-x",
+    "method": "benchmark",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "ai-rd"
+    ],
+    "summary": "Automated discovery of reinforcement-learning rules yields methods competitive with hand-designed algorithms and tested in additional environments.",
+    "limitations": "Search objective, environments and compute allocation are human-designed; transfer has a defined scope.",
+    "verification_scope": "journal abstract and evaluation description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "dgm2025",
+    "url": "https://arxiv.org/abs/2505.22954",
+    "method": "benchmark",
+    "topics": [
+      "ai-rd",
+      "engineering",
+      "agents"
+    ],
+    "summary": "Darwin Godel Machine evolves the code of coding agents using an archive and external benchmarks while retaining a foundation model as the engine.",
+    "limitations": "Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "darwinx2026",
+    "url": "https://arxiv.org/abs/2608.07545",
+    "method": "benchmark",
+    "topics": [
+      "ai-rd",
+      "agents"
+    ],
+    "summary": "Population search over harnesses improves benchmark performance with a frozen model, treating tools, prompts and control flow as evolvable components.",
+    "limitations": "Recent author-reported benchmark results require independent replication and careful train-test separation.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "interfaces2026",
+    "url": "https://arxiv.org/abs/2608.11386",
+    "method": "benchmark-experiment",
+    "topics": [
+      "agents",
+      "engineering",
+      "cost"
+    ],
+    "summary": "Across 11,700 trajectories, different tool architectures alter coding-agent behavior, consistency and token consumption despite similar available actions.",
+    "limitations": "Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "innovationeval2026",
+    "url": "https://epoch.ai/publications/innovationeval",
+    "authors": [
+      "Owen, David"
+    ],
+    "year": 2026,
+    "date": "2026-10-07",
+    "method": "benchmark",
+    "publication_status": "organization-report",
+    "topics": [
+      "ai-rd",
+      "science",
+      "methods"
+    ],
+    "summary": "An end-to-end test of novel post-training research finds weak improvements relative to a withheld human method and exposes misleading result selection.",
+    "limitations": "One task, few expensive runs, partly human scope assessment, and contamination in successor models.",
+    "verification_scope": "full report including methods, results and limitations",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "researchgym2026",
+    "url": "https://arxiv.org/abs/2602.15112",
+    "method": "benchmark",
+    "topics": [
+      "science",
+      "ai-rd",
+      "agents"
+    ],
+    "summary": "Five research environments expose a gap between occasional strong research results and reliable completion of long research workflows.",
+    "limitations": "Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance.",
+    "verification_scope": "primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "alignment2026",
+    "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers",
+    "authors": [
+      "Chen Yueh-Han",
+      "Wen, Jiaxin",
+      "Kirchner, Jan Hendrik"
+    ],
+    "year": 2026,
+    "method": "benchmark-and-experimental-validation",
+    "publication_status": "vendor-research-report",
+    "topics": [
+      "ai-rd",
+      "science",
+      "security"
+    ],
+    "summary": "Automated researchers improve benchmarks for ten defined alignment failures, with selected transfer and behavioral auditing tests.",
+    "limitations": "Unequal iterative opportunities in the human comparison, selective capability tests, and vendor-produced evidence; detected cheating trajectories were excluded.",
+    "verification_scope": "technical report, evaluation protocol and caveats",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "schwartz2026",
+    "url": "https://www.anthropic.com/research/claude-shaped-science",
+    "authors": [
+      "Schwartz, Matthew"
+    ],
+    "year": 2026,
+    "date": "2026-10-01",
+    "method": "case-study",
+    "publication_status": "vendor-hosted-essay",
+    "topics": [
+      "science",
+      "engineering",
+      "judgment"
+    ],
+    "summary": "BootLoops connects methods across quantitative fields; domain experts redirect technically correct results toward questions with scientific significance.",
+    "limitations": "Selected personal case studies and manuscripts under further verification; the author was a visiting researcher at Anthropic.",
+    "verification_scope": "full essay and disclosure",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "rdmetrics2026",
+    "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+    "authors": [
+      "Anthropic"
+    ],
+    "year": 2026,
+    "date": "2026-09-17",
+    "method": "observational",
+    "publication_status": "vendor-report",
+    "topics": [
+      "ai-rd",
+      "methods",
+      "work"
+    ],
+    "summary": "A prototype internal R&D index distinguishes AI assistance, collaboration and leadership from full autonomy using a fixed task basket.",
+    "limitations": "Model-rated internal documentation and approximate time weights; automation share is not research speedup or independent safety evidence.",
+    "verification_scope": "full methods and index interpretation",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "hao2026",
+    "url": "https://www.nature.com/articles/s41586-025-09922-y",
+    "method": "observational",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "work",
+      "diversity"
+    ],
+    "summary": "Analysis of 41.3 million papers associates AI use with individual career and output advantages but a narrower collective distribution of research topics.",
+    "limitations": "Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading.",
+    "verification_scope": "journal abstract and publication metadata",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "alphafoldimpact2026",
+    "url": "https://www.nber.org/papers/w35143",
+    "authors": [
+      "Hill, Ryan R.",
+      "Stein, Carolyn"
+    ],
+    "year": 2026,
+    "doi": "10.3386/w35143",
+    "method": "observational",
+    "publication_status": "working-paper",
+    "topics": [
+      "science",
+      "business"
+    ],
+    "summary": "AlphaFold structure availability appears to complement experimental biology and expand basic research on previously understudied proteins, without comparable downstream drug-development effects so far.",
+    "limitations": "Domain-specific transition and observation window; predicted structures do not settle biological function or translational success.",
+    "verification_scope": "current publisher abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "messeri2024",
+    "url": "https://www.nature.com/articles/s41586-024-07146-0",
+    "title": "Artificial intelligence and illusions of understanding in scientific research",
+    "authors": [
+      "Messeri, Lisa",
+      "Crockett, M. J."
+    ],
+    "year": 2024,
+    "date": "2024-03-06",
+    "doi": "10.1038/s41586-024-07146-0",
+    "method": "perspective",
+    "publication_status": "peer-reviewed-perspective",
+    "topics": [
+      "science",
+      "cognition",
+      "diversity"
+    ],
+    "summary": "A conceptual taxonomy examines how AI's promises of productivity and objectivity can produce illusions of understanding and scientific monocultures.",
+    "limitations": "A theoretical perspective rather than an estimate of the incidence or size of effects.",
+    "verification_scope": "journal perspective abstract and metadata",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "humlum2026",
+    "url": "https://www.nber.org/papers/w33777",
+    "authors": [
+      "Humlum, Anders",
+      "Vestergaard, Emilie"
+    ],
+    "year": 2025,
+    "doi": "10.3386/w33777",
+    "version_note": "March 2026 revision of May 2025 working paper.",
+    "method": "quasi-experiment",
+    "publication_status": "working-paper",
+    "topics": [
+      "work",
+      "business",
+      "productivity"
+    ],
+    "summary": "Danish adoption surveys linked to administrative records reveal task reorganization but limited early average effects on earnings or recorded hours.",
+    "limitations": "Denmark's institutions, short horizon and averages; null aggregate effects can coexist with occupational transitions.",
+    "verification_scope": "current publisher abstract and revision metadata",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "westby2026",
+    "url": "https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work",
+    "authors": [
+      "Westby, Samuel",
+      "Modestino, Alicia Sasser",
+      "Cheng, Peiran"
+    ],
+    "year": 2026,
+    "method": "quasi-experiment",
+    "publication_status": "working-paper",
+    "topics": [
+      "work",
+      "engineering",
+      "learning"
+    ],
+    "summary": "U.S. vacancy data show a relative decline in junior software openings and higher experience requirements after ChatGPT's release.",
+    "limitations": "Vacancies and posting requirements are not headcount or direct measures of individual AI substitution.",
+    "verification_scope": "primary discussion-paper abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "norway2026",
+    "url": "https://docs.iza.org/dp18767.pdf",
+    "title": "Has AI Widened Employment Gaps?",
+    "authors": [
+      "Hernæs, Øystein",
+      "Kostøl, Andreas"
+    ],
+    "year": 2026,
+    "method": "observational",
+    "publication_status": "working-paper",
+    "topics": [
+      "work"
+    ],
+    "summary": "Candidate administrative-data study retained for verification of geographic differences in AI exposure and employment.",
+    "limitations": "Current PDF retrieval timed out; citation and findings require renewed checking before use in the synthesis.",
+    "verification_level": "candidate",
+    "verification_scope": "Inherited candidate; current verification incomplete",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "stanford2025",
+    "url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence",
+    "authors": [
+      "Brynjolfsson, Erik",
+      "Chandar, Bharat",
+      "Chen, Ruyu"
+    ],
+    "year": 2025,
+    "method": "observational",
+    "publication_status": "working-paper",
+    "topics": [
+      "work",
+      "engineering"
+    ],
+    "summary": "U.S. payroll evidence documents disproportionate early-career employment weakness in highly AI-exposed occupations.",
+    "limitations": "Exposure, age, and employment trends do not uniquely identify AI as the cause; versions and panel construction change estimates.",
+    "verification_scope": "primary publication page and stated research design",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "ramp2026",
+    "url": "https://ramp.com/data/ai-jobs-impact/paper",
+    "title": "A New Look at AI's Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment",
+    "authors": [
+      "Kharazian, Ara",
+      "Simon, Lisa",
+      "Stevens, Ryan"
+    ],
+    "year": 2026,
+    "method": "observational",
+    "publication_status": "vendor-working-paper",
+    "topics": [
+      "work",
+      "business"
+    ],
+    "summary": "Links firm AI spending and workforce records, finding stronger hiring among high-intensity adopters than among comparison firms.",
+    "limitations": "Growing, larger, technical and venture-backed adopters differ before treatment; spending intensity is not a randomized intervention.",
+    "verification_scope": "public paper and accompanying analysis",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "babina2026",
+    "url": "https://www.nber.org/papers/w35684",
+    "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+    "authors": [
+      "Babina, Tania",
+      "He, Alex X.",
+      "Jiang, Renhao"
+    ],
+    "year": 2026,
+    "doi": "10.3386/w35684",
+    "method": "observational",
+    "publication_status": "working-paper",
+    "topics": [
+      "business",
+      "productivity",
+      "work"
+    ],
+    "summary": "Firm-level AI-skilled employment measures link recent productivity improvements to investment in durable organizational knowledge and processes.",
+    "limitations": "Broader AI than chatbots, employment-based investment proxies and identification assumptions; not a license-purchase ROI estimate.",
+    "verification_scope": "publisher abstract and scope",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "retail2025",
+    "url": "https://arxiv.org/abs/2510.12049",
+    "title": "Generative AI and Sales Productivity: Field Experiments in Online Retail",
+    "authors": [
+      "Fang, Lu",
+      "Yuan, Zhe",
+      "Zhang, Kaifu",
+      "Donati, Dante",
+      "Sarvary, Miklos"
+    ],
+    "year": 2025,
+    "version_note": "June 29, 2026 revision; earlier title referred to firm productivity.",
+    "method": "experiment",
+    "publication_status": "preprint",
+    "topics": [
+      "business",
+      "productivity"
+    ],
+    "summary": "Retail experiments across seven workflows report heterogeneous sales effects, primarily through conversion rather than basket value.",
+    "limitations": "One platform, 2023-2024 interventions and short-run sales measures; not aggregate total-factor productivity.",
+    "verification_scope": "current primary abstract",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "space2021",
+    "doi": "10.1145/3454122.3454124",
+    "title_aliases": ["The SPACE of Developer Productivity"],
+    "version_note": "ACM Queue uses the full subtitle; the same DOI's Crossref record uses The SPACE of Developer Productivity. Title, authors and 2021 publication year compared on 13 October 2026.",
+    "url": "https://queue.acm.org/detail.cfm?id=3454124",
+    "title": "The SPACE of Developer Productivity: There's More to It than You Think",
+    "authors": [
+      "Forsgren, Nicole",
+      "Storey, Margaret-Anne",
+      "Maddila, Chandra",
+      "Zimmermann, Thomas",
+      "Houck, Brian",
+      "Butler, Jenna"
+    ],
+    "year": 2021,
+    "method": "framework",
+    "publication_status": "research-framework",
+    "topics": [
+      "methods",
+      "engineering",
+      "productivity"
+    ],
+    "summary": "Defines productivity through satisfaction, performance, activity, communication and collaboration, and efficiency and flow.",
+    "limitations": "A measurement framework, not an AI-effect estimate; activity is one dimension rather than a complete measure.",
+    "verification_scope": "primary framework description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "alphafold2021",
+    "url": "https://www.nature.com/articles/s41586-021-03819-2",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "authors": [
+      "Jumper, John",
+      "Evans, Richard",
+      "Pritzel, Alexander",
+      "Green, Tim",
+      "Figurnov, Michael",
+      "Ronneberger, Olaf",
+      "Tunyasuvunakool, Kathryn",
+      "Bates, Russ",
+      "Žídek, Augustin",
+      "Potapenko, Anna",
+      "Bridgland, Alex",
+      "Meyer, Clemens",
+      "Kohl, Simon A. A.",
+      "Ballard, Andrew J.",
+      "Cowie, Andrew",
+      "Romera-Paredes, Bernardino",
+      "Nikolov, Stanislav",
+      "Jain, Rishub",
+      "Adler, Jonas",
+      "Back, Trevor",
+      "Petersen, Stig",
+      "Reiman, David",
+      "Clancy, Ellen",
+      "Zielinski, Michal",
+      "Steinegger, Martin",
+      "Pacholska, Michalina",
+      "Berghammer, Tamas",
+      "Bodenstein, Sebastian",
+      "Silver, David",
+      "Vinyals, Oriol",
+      "Senior, Andrew W.",
+      "Kavukcuoglu, Koray",
+      "Kohli, Pushmeet",
+      "Hassabis, Demis"
+    ],
+    "year": 2021,
+    "doi": "10.1038/s41586-021-03819-2",
+    "method": "benchmark-and-experimental-validation",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science"
+    ],
+    "summary": "Demonstrates highly accurate protein-structure prediction and establishes a foundational example of specialized AI supporting science.",
+    "limitations": "Predicted structure is not equivalent to experimentally established function, dynamics or drug efficacy.",
+    "verification_scope": "publisher abstract and bibliographic identity",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "funsearch2023",
+    "url": "https://www.nature.com/articles/s41586-023-06924-6",
+    "title": "Mathematical discoveries from program search with large language models",
+    "authors": [
+      "Romera-Paredes, Bernardino",
+      "Barekatain, Mohammadamin",
+      "Novikov, Alexander",
+      "Balog, Matej",
+      "Kumar, M. Pawan",
+      "Dupont, Emilien",
+      "Ruiz, Francisco J. R.",
+      "Ellenberg, Jordan S.",
+      "Wang, Pengming",
+      "Fawzi, Omar",
+      "Kohli, Pushmeet",
+      "Fawzi, Alhussein"
+    ],
+    "year": 2023,
+    "date": "2023-12-14",
+    "doi": "10.1038/s41586-023-06924-6",
+    "version_note": "Published online December 2023; Nature volume 625 is dated 2024.",
+    "method": "experimental-demonstration",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "science",
+      "mathematics",
+      "verification"
+    ],
+    "summary": "FunSearch pairs language-model proposals with systematic evaluation to find new cap-set constructions and improved bin-packing heuristics.",
+    "limitations": "A human-specified program representation and evaluator constrain the search; a domain result is not general research autonomy.",
+    "verification_scope": "journal abstract and approach description",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "nscc2026",
+    "url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
+    "authors": [
+      "National Student Clearinghouse"
+    ],
+    "year": 2026,
+    "date": "2026-02-10",
+    "method": "administrative-observation",
+    "publication_status": "organization-report",
+    "topics": [
+      "learning",
+      "work"
+    ],
+    "summary": "Fall 2025 U.S. enrollments fall in traditional Computer and Information Science while Data Science and Analytics grow.",
+    "limitations": "Enrollment shifts do not identify AI-driven motivation and can include changes in program labels and international flows.",
+    "verification_scope": "primary administrative-data summary",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "hesa2026",
+    "url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+    "title": "UK higher education student numbers fall for second year in a row",
+    "authors": [
+      "HESA / Jisc"
+    ],
+    "year": 2026,
+    "date": "2026-01-27",
+    "method": "administrative-observation",
+    "publication_status": "official-statistics",
+    "topics": [
+      "learning",
+      "work"
+    ],
+    "summary": "UK 2024/25 official data show growth in Computing and AI despite a decline in total student numbers.",
+    "limitations": "Different period and classification from U.S. figures; a geographic contrast rather than direct refutation.",
+    "verification_scope": "official statistical release as indexed by the publisher",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "wilson2026",
+    "url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong",
+    "authors": [
+      "Wilson, Greg"
+    ],
+    "year": 2026,
+    "date": "2026-05-20",
+    "method": "commentary",
+    "publication_status": "expert-blog",
+    "topics": [
+      "methods",
+      "engineering"
+    ],
+    "summary": "Organizes recurring methodological mistakes in claims about AI-assisted coding and the measurement of productivity.",
+    "limitations": "Critical expert commentary, not an independent outcome study.",
+    "verification_scope": "primary essay",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "herrengt2026",
+    "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+    "authors": [
+      "Herrengt, Florian"
+    ],
+    "year": 2026,
+    "method": "commentary",
+    "publication_status": "expert-blog",
+    "topics": [
+      "engineering",
+      "work",
+      "judgment"
+    ],
+    "summary": "Proposes that cheaper implementation shifts engineering value toward judgment and responsibility, potentially hollowing out intermediate roles.",
+    "limitations": "An argued hypothesis, not a measured labor-market result or established forecast.",
+    "verification_scope": "primary essay",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "herrengtvibe",
+    "url": "https://blog.florianherrengt.com/vibe-coder-career-path.html",
+    "authors": [
+      "Herrengt, Florian"
+    ],
+    "year": 2025,
+    "method": "case-study",
+    "publication_status": "expert-blog",
+    "topics": [
+      "engineering",
+      "learning",
+      "judgment"
+    ],
+    "summary": "Personal experience with agent-generated applications raises questions about retaining a mental model and building a sustainable development career.",
+    "limitations": "A selected experience and polemical argument; cannot establish prevalence or causation.",
+    "verification_scope": "primary essay",
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "uber2026",
+    "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+    "authors": [
+      "Willison, Simon"
+    ],
+    "year": 2026,
+    "date": "2026-06-03",
+    "method": "commentary-on-reporting",
+    "publication_status": "expert-blog",
+    "topics": [
+      "business",
+      "cost",
+      "engineering"
+    ],
+    "summary": "Discusses reported limits on Uber's coding-agent spending and the mismatch between token consumption and demonstrable customer value.",
+    "limitations": "Commentary on reporting; not an audited cost-benefit analysis of Uber.",
+    "verification_scope": "primary commentary and linked reporting",
+    "checked_on": "2026-10-12"
+  }
+]

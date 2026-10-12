@@ -1,0 +1,47 @@
+name: Publish static review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [site/**, data/**, manuscript/**, scripts/**, .github/workflows/publish.yml]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate.py
+      - run: pip install -r requirements.txt
+      - run: python3 -m unittest discover -s tests
+      - run: python3 scripts/verify_references.py --strict
+      - run: python3 scripts/check_links.py --strict --pre-deployment
+      - run: python3 scripts/validate.py --audit build/reference-verification.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pre-publication-verification
+          path: build/*report*.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: citation-identity-audit
+          path: build/reference-verification.*
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - run: python3 scripts/verify_publication.py

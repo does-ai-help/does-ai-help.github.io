@@ -1,0 +1,523 @@
+[
+  {
+    "id": "ref-59e035c44a",
+    "url": "https://arxiv.org/abs/2507.03156",
+    "method": "systematic-review",
+    "publication_status": "preprint",
+    "topics": [
+      "engineering",
+      "productivity",
+      "methods"
+    ],
+    "summary": "A mapping of 39 peer-reviewed studies highlights multidimensional productivity assessment but scarce longitudinal and team-level evidence, with unresolved quality effects.",
+    "limitations": "Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024.",
+    "version_note": "Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication.",
+    "verification_scope": "arXiv v3 abstract and journal/version metadata",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2507.03156",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "The Impact of LLM-Assistants on Software Developer Productivity: A Systematic Review and Mapping Study",
+    "authors": [
+      "Mohamed, Amr",
+      "Assi, Maram",
+      "Guizani, Mariam"
+    ],
+    "observed_date": "2025/07/03",
+    "doi": "10.1145/3809494",
+    "title": "The Impact of LLM-Assistants on Software Developer Productivity: A Systematic Review and Mapping Study",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://arxiv.org/abs/2507.03156",
+      "retrieved_sha256": "8b4a6f43e410c68cc6567bab9a6977c60784adbd6f255810c1388c71bd63381d"
+    }
+  },
+  {
+    "id": "agenticsurvey2025",
+    "url": "https://arxiv.org/abs/2508.14111v2",
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "year": 2025,
+    "doi": "10.48550/arXiv.2508.14111",
+    "method": "technical-survey",
+    "publication_status": "preprint",
+    "topics": [
+      "science",
+      "agents",
+      "methods"
+    ],
+    "summary": "A domain-oriented survey organizes scientific agents across life sciences, chemistry, materials and physics using capability, workflow and autonomy frameworks.",
+    "limitations": "A taxonomy and narrative synthesis, not a causal estimate of research productivity or evidence that agents achieve reliable general scientific autonomy.",
+    "version_note": "Pinned to October 2025 v2; a taxonomy of scientific agency must not be confused with validation of every system it surveys.",
+    "verification_scope": "version-specific arXiv abstract, framework description and authorship metadata",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2508.14111v2",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "authors": [
+      "Wei, Jiaqi",
+      "Yang, Yuejin",
+      "Zhang, Xiang",
+      "Chen, Yuhan",
+      "Zhuang, Xiang",
+      "Gao, Zhangyang",
+      "Zhou, Dongzhan",
+      "Wang, Guangshuai",
+      "Gao, Zhiqiang",
+      "Cao, Juntai",
+      "Qiu, Zijie",
+      "Hu, Ming",
+      "Ma, Chenglong",
+      "Tang, Shixiang",
+      "He, Junjun",
+      "Song, Chunfeng",
+      "He, Xuming",
+      "Zhang, Qiang",
+      "You, Chenyu",
+      "Zheng, Shuangjia",
+      "Ding, Ning",
+      "Ouyang, Wanli",
+      "Dong, Nanqing",
+      "Cheng, Yu",
+      "Sun, Siqi",
+      "Bai, Lei",
+      "Zhou, Bowen"
+    ],
+    "observed_date": "2025/08/18",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://arxiv.org/abs/2508.14111v2",
+      "retrieved_sha256": "157683ec56645ca65f184535f78fadd0cc7f1f7d991f3273623a1aefe908da44"
+    }
+  },
+  {
+    "id": "ref-e71e370e4c",
+    "url": "https://arxiv.org/abs/2510.03884",
+    "method": "systematic-review",
+    "publication_status": "preprint",
+    "topics": [
+      "engineering",
+      "learning",
+      "methods"
+    ],
+    "summary": "A review of 58 programming-education studies groups chatbots, generative tools and intelligent tutors, describing benefits alongside overreliance and implementation barriers.",
+    "limitations": "The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established.",
+    "version_note": "December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence.",
+    "verification_scope": "arXiv v2 abstract and related-publication metadata",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2510.03884",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Teaching with AI: A Systematic Review of Chatbots, Generative Tools, and Tutoring Systems in Programming Education",
+    "authors": [
+      "Elnaffar, Said",
+      "Rashidi, Farzad",
+      "Abualkishik, Abedallah Zaid"
+    ],
+    "observed_date": "2025/10/04",
+    "doi": "10.26803/ijlter.25.1.1",
+    "title": "Teaching with AI: A Systematic Review of Chatbots, Generative Tools, and Tutoring Systems in Programming Education",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://arxiv.org/abs/2510.03884",
+      "retrieved_sha256": "a4aac16ce4139ce24554b2356596274974401818c1cc38d9791811e3856d4f93"
+    }
+  },
+  {
+    "id": "llamalima2026",
+    "url": "https://arxiv.org/abs/2601.18685v5",
+    "title": "LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics",
+    "year": 2026,
+    "date": "2026-09-11",
+    "doi": "10.48550/arXiv.2601.18685",
+    "method": "living-meta-analysis",
+    "publication_status": "preprint",
+    "topics": [
+      "learning",
+      "methods"
+    ],
+    "summary": "A regularly updated mathematics-learning synthesis reports a positive estimate in its September v5, with larger effects for teacher-supplementing and longer interventions.",
+    "limitations": "34 studies in v5; narrower eligibility and Bayesian models differ from broad STEM syntheses. Shared trials are not independent corroboration; a credible interval is not a confidence interval.",
+    "version_note": "Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-0.79. DOI identifies the version family; January first-submission and September revision dates must not be conflated.",
+    "verification_scope": "version-specific arXiv abstract and revision history; underlying trial extraction not independently checked",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2601.18685v5",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics",
+    "authors": [
+      "Strohmaier, Anselm",
+      "Bödefeld, Samira",
+      "Straser, Oliver",
+      "Reinhold, Frank"
+    ],
+    "observed_date": "2026/01/26",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://arxiv.org/abs/2601.18685v5",
+      "retrieved_sha256": "aa2739a4e890236f6a23810076ca6db5f696adcbb6ad9e129a26a9f7d29b790f"
+    }
+  },
+  {
+    "id": "maier2026",
+    "url": "https://arxiv.org/abs/2605.04779",
+    "title": "A meta-analysis of the effect of generative AI on productivity and learning in programming",
+    "year": 2026,
+    "doi": "10.48550/arXiv.2605.04779",
+    "method": "meta-analysis",
+    "publication_status": "preprint",
+    "topics": [
+      "engineering",
+      "learning",
+      "productivity",
+      "methods"
+    ],
+    "summary": "Across 23 studies and 27 effects, reported productivity gains are moderate (g=0.33), whereas the learning estimate is not statistically distinguishable from zero.",
+    "limitations": "The search covers 2019-2025, not 2026 tools. Standardized effects combine unlike outcomes and cannot be read as percentage gains or evidence of equivalence in learning.",
+    "version_note": "May 2026 v1 preprint; productivity 95% CI 0.09-0.58, learning g=0.14 with CI -0.18 to 0.47. No pooled effect is calculated by our review.",
+    "verification_scope": "arXiv abstract, selection criteria, reported effect sizes and version history",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2605.04779",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "A meta-analysis of the effect of generative AI on productivity and learning in programming",
+    "authors": [
+      "Maier, Sebastian",
+      "Gunzenhäuser, Moritz",
+      "Schweisthal, Jonas",
+      "Schneider, Manuel",
+      "Feuerriegel, Stefan"
+    ],
+    "observed_date": "2026/05/06",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://arxiv.org/abs/2605.04779",
+      "retrieved_sha256": "59f787e5f14cc0786a70565d88d1a862018f636e2acd80aad10beec7ad99f317"
+    }
+  },
+  {
+    "id": "coslr2026",
+    "url": "https://arxiv.org/abs/2609.22248",
+    "title": "Checkpoints Are Not Enough: Trust Calibration in CoSLR, a Human-AI System for Systematic Literature Reviews",
+    "year": 2026,
+    "method": "survey-demonstration",
+    "publication_status": "preprint",
+    "topics": [
+      "science",
+      "trust",
+      "methods"
+    ],
+    "summary": "A 63-participant evaluation of an AI-assisted review system finds that mandatory verification checkpoints alone do not ensure users actually check generated synthesis.",
+    "limitations": "Short interaction and self-reported intentions, not a controlled estimate of review accuracy or error prevention. Useful as a process warning, not validation of this review.",
+    "verification_scope": "arXiv abstract, participant count and reported verification-intention result",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.22248",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Checkpoints Are Not Enough: Trust Calibration in CoSLR, a Human-AI System for Systematic Literature Reviews",
+    "authors": [
+      "Islam, MD Aidul",
+      "Sami, Malik Abdul",
+      "Waseem, Muhammad",
+      "Rasheed, Zeeshan",
+      "Kemell, Kai-kristian",
+      "Zhang, Zheying",
+      "Abrahamsson, Pekka"
+    ],
+    "observed_date": "2026/09/05",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://arxiv.org/abs/2609.22248",
+      "retrieved_sha256": "91742d1e33fa93ca19a350d23ce3fd70327c1de50ef786351ca249b215ff2734"
+    }
+  },
+  {
+    "id": "wittig2026",
+    "url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
+    "title": "Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity (ASE 2026 - Research Papers) - ASE 2026",
+    "authors": [
+      "Wittig, Annemarie",
+      "Mailach, Alina",
+      "Siegmund, Norbert"
+    ],
+    "year": 2026,
+    "doi": "10.1145/3832783.3834386",
+    "method": "systematic-review",
+    "publication_status": "peer-reviewed-conference",
+    "topics": [
+      "engineering",
+      "productivity",
+      "methods"
+    ],
+    "summary": "A two-stage SPACE-informed review identifies 187 distinct productivity-related markers and finds more favorable patterns in perceived than objectively evaluated outcomes.",
+    "limitations": "Marker frequencies and reported effect directions are not pooled effect magnitudes. Diverse settings, confounders and source types limit universal conclusions.",
+    "version_note": "ASE 2026 accepted research paper; author preprint available from July 2026. Presentation scheduled 14 October, after our cutoff; no claim is based on a future presentation.",
+    "verification_scope": "official conference abstract and author PDF methodology, source policy and discussion sections",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    "observed_title": "Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity (ASE 2026 - Research Papers) - ASE 2026",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
+      "retrieved_sha256": "8c1a8fac193e0abc7b503e2831e1408342df512a14a9c6913728c1564f0c34ce"
+    }
+  },
+  {
+    "id": "aiindex2026",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "title": "The 2026 AI Index Report | Stanford HAI",
+    "authors": [
+      "Stanford Institute for Human-Centered Artificial Intelligence, AI Index"
+    ],
+    "year": 2026,
+    "method": "cross-domain-evidence-compendium",
+    "publication_status": "organization-report",
+    "topics": [
+      "science",
+      "work",
+      "business",
+      "learning",
+      "methods"
+    ],
+    "summary": "An annual cross-domain reference compendium links technical capability, economic indicators, science, education, governance and public opinion to underlying datasets.",
+    "limitations": "Indicators mix benchmarks, surveys, estimates and observational series with different dates and denominators. Adoption, investment and benchmark scores are not interchangeable with causal productivity gains.",
+    "verification_scope": "official 2026 landing page, chapter descriptions and top takeaways; report not read in full",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "The 2026 AI Index Report | Stanford HAI",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "retrieved_sha256": "dda7460d46dd47c4f11c8298b5815994763000de359d384af475fc0d4af65074"
+    }
+  },
+  {
+    "id": "boolzen2026",
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
+    "title": "Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes",
+    "year": 2026,
+    "date": "2026-08-25",
+    "doi": "10.1007/s10462-026-11665-9",
+    "container_title": "Artificial Intelligence Review",
+    "method": "meta-analysis",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "learning",
+      "methods"
+    ],
+    "summary": "A STEM synthesis finds highly heterogeneous positive conventional estimates; robust Bayesian publication-bias adjustment reduces the overall mean close to zero.",
+    "limitations": "85 eligible studies, 49 pooled, 59 effects; I-squared=96.32%. Bias correction depends on modeling assumptions and does not prove that every instructional use fails.",
+    "verification_scope": "publisher abstract, search protocol, risk-of-bias appendices and bias-adjustment discussion",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=6c94bfc2-8ed2-40f8-ad2e-5e97d79c7991",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes",
+    "authors": [
+      "Boolzen, Chiara",
+      "Kuhn, Jochen",
+      "Flegr, Salome",
+      "Rott, Eva-Maria",
+      "Stausberg, Niklas",
+      "Küchemann, Stefan"
+    ],
+    "observed_date": "2026/10",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
+      "retrieved_sha256": "41626806856475a5b66d728a93f9ccc3e4213e37459fc867700b37b7df05699a"
+    }
+  },
+  {
+    "id": "iloreview2026",
+    "url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+    "title": "The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence",
+    "authors": [
+      "Merola, Rossana",
+      "Ernst, Ekkehard",
+      "Samaan, Daniel",
+      "del Rio-Chanona, Maria",
+      "Teutloff, Ole"
+    ],
+    "year": 2026,
+    "date": "2026-06-01",
+    "doi": "10.54394/00034628",
+    "method": "narrative-review",
+    "publication_status": "organization-report",
+    "topics": [
+      "work",
+      "productivity",
+      "business",
+      "methods"
+    ],
+    "summary": "ILO connects task gains with weaker aggregate-output evidence, employment distribution and changes in coordination and job quality.",
+    "limitations": "A research brief synthesizing heterogeneous studies, not an independent experiment or meta-analytic estimate. Early null aggregate effects do not establish permanent absence of benefit.",
+    "version_note": "The publisher page dates publication 1 June 2026; the eight-page PDF is headed May 2026. These are the same brief, not separate evidence.",
+    "verification_scope": "publisher summary and PDF introduction, productivity section and table scope",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence",
+    "observed_date": "2026-06-01T16:22:23+0000",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+      "retrieved_sha256": "fc33dee9b92652867f1bc2d610149d1d05fbd346ac8877c4deefa20c80b067a5"
+    }
+  },
+  {
+    "id": "wulearning2026",
+    "url": "https://www.nature.com/articles/s41599-026-07019-z",
+    "title": "ChatGPT’s impact on student learning outcomes: a meta-analysis of 35 experimental studies",
+    "year": 2026,
+    "date": "2026-03-26",
+    "doi": "10.1057/s41599-026-07019-z",
+    "container_title": "Humanities and Social Sciences Communications",
+    "method": "meta-analysis",
+    "publication_status": "peer-reviewed",
+    "topics": [
+      "learning",
+      "methods"
+    ],
+    "summary": "A synthesis of 35 studies and 4,193 participants reports a positive standardized learning effect (g=0.670) and no detected publication bias in its tests.",
+    "limitations": "Underlying studies date from 2022-2024. Mixed cognitive and non-cognitive outcomes, selection and limited moderators constrain comparison with newer STEM syntheses; non-detection does not establish absence of bias.",
+    "verification_scope": "publisher abstract, bibliographic metadata and stated study window",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=9d749beb-867f-4b05-859e-eaede5e22db2",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "ChatGPT’s impact on student learning outcomes: a meta-analysis of 35 experimental studies",
+    "authors": [
+      "Wu, Xinning",
+      "Zhu, Pei",
+      "Zhang, Jinliang",
+      "Yin, Mengwei",
+      "Wang, Yingxi"
+    ],
+    "observed_date": "2026-03-26",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.nature.com/articles/s41599-026-07019-z",
+      "retrieved_sha256": "2f6a13e15841c1ad03fcbfd2d7ff86b06a5f8e989a33d1f6c62d187788fbb906"
+    }
+  },
+  {
+    "id": "oecdeducation2026",
+    "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+    "title": "OECD Digital Education Outlook 2026: Exploring Effective Uses of Generative AI in Education",
+    "title_aliases": [
+      "OECD Digital Education Outlook 2026"
+    ],
+    "authors": [
+      "OECD"
+    ],
+    "year": 2026,
+    "date": "2026-01-19",
+    "doi": "10.1787/062a7394-en",
+    "method": "policy-evidence-synthesis",
+    "publication_status": "organization-report",
+    "topics": [
+      "learning",
+      "methods"
+    ],
+    "summary": "OECD distinguishes stronger assisted task performance from learning that persists without AI, emphasizing instructional design and pedagogical intent.",
+    "limitations": "A policy and expert synthesis rather than one causal trial; instructional examples do not establish that every tutor or classroom intervention works.",
+    "verification_scope": "official summary, key messages and bibliographic details; not all 267 pages",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    }
+  },
+  {
+    "id": "oecdproductivity2025",
+    "url": "https://www.oecd.org/en/publications/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_b21df222-en.html",
+    "title": "The effects of generative AI on productivity, innovation and entrepreneurship",
+    "authors": [
+      "Calvino, Flavio",
+      "Reijerink, Jelmer",
+      "Samek, Lea"
+    ],
+    "year": 2025,
+    "date": "2025-06-20",
+    "doi": "10.1787/b21df222-en",
+    "method": "narrative-review",
+    "publication_status": "organization-working-paper",
+    "topics": [
+      "productivity",
+      "business",
+      "science",
+      "methods"
+    ],
+    "summary": "OECD synthesis connects experimental productivity evidence with innovation, entrepreneurship, user expertise and task fit.",
+    "limitations": "A selective review, not a pooled causal effect; longer-run organizational outcomes remain weakly established. Primary trials overlap with this review's evidence.",
+    "verification_scope": "official abstract, bibliographic details and stated review scope; not all 59 pages",
+    "checked_on": "2026-10-12",
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    }
+  }
+]

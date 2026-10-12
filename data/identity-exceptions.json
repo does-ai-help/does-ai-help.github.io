@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hesa2026",
+    "expected_title": "UK higher education student numbers fall for second year in a row",
+    "url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+    "observed_title": "UK higher education student numbers fall for second year in a row",
+    "evidence_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12",
+    "expires_on": "2026-11-12",
+    "reason": "Primary HESA indexed page and HESA news index identify the exact title and 27 January 2026 publication date. Indexed primary excerpt reports 2,863,180 students in 2024/25 and a 1% decline. Direct automated retrieval returns 403; this confirms identity through indexed primary evidence, not current live accessibility or a fresh full-text appraisal."
+  },
+  {
+    "id": "ref-db9d091351",
+    "expected_title": "How AI is expanding what people do at work",
+    "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "observed_title": "How AI is expanding what people do at work",
+    "evidence_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12",
+    "expires_on": "2026-11-12",
+    "reason": "Primary publisher page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact title, OpenAI byline and 27 July 2026 publication date confirmed. Script access intermittently returns 403. Identity confirmation does not appraise the reported empirical results."
+  },
+  {
+    "id": "ref-10b59b402b",
+    "expected_title": "Introducing SWE-bench Verified",
+    "url": "https://openai.com/index/introducing-swe-bench-verified",
+    "observed_title": "Introducing SWE-bench Verified",
+    "evidence_url": "https://openai.com/index/introducing-swe-bench-verified/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12",
+    "expires_on": "2026-11-12",
+    "reason": "Primary publisher page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact title and 13 August 2024 publication date confirmed. Script access intermittently returns 403; this is a metadata identity check, not independent validation of benchmark claims."
+  },
+  {
+    "id": "ref-11a15eb594",
+    "expected_title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
+    "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+    "observed_title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
+    "evidence_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12",
+    "expires_on": "2026-11-12",
+    "reason": "Primary JetBrains page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact page title and Mikhail Bogdanov byline confirmed. The script intermittently receives an empty HTTP 202 response, which is explicitly not treated as successful identity inspection. This exception establishes identity, not survey validity or global representativeness."
+  },
+  {
+    "id": "ref-e299630b86",
+    "expected_title": "Ten advances in mathematics and theoretical computer science",
+    "url": "https://openai.com/index/ten-advances-in-mathematics",
+    "observed_title": "Ten advances in mathematics and theoretical computer science",
+    "evidence_url": "https://openai.com/index/ten-advances-in-mathematics/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12",
+    "expires_on": "2026-11-12",
+    "reason": "Primary publisher page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact title and 1 August 2026 publication date confirmed. Script retrieval intermittently returns 403. This confirms the announcement's identity, not the correctness or novelty of its mathematical claims."
+  }
+]

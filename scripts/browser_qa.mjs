@@ -1,0 +1,78 @@
+import { createRequire } from 'node:module';
+import { fileURLToPath, pathToFileURL } from 'node:url';
+import path from 'node:path';
+import fs from 'node:fs';
+import http from 'node:http';
+import assert from 'node:assert/strict';
+const require=createRequire(import.meta.url);
+const {chromium}=require('playwright');
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const site=path.join(root,'site');
+const records=JSON.parse(fs.readFileSync(path.join(root,'data/sources.json'),'utf8'));
+const release=JSON.parse(fs.readFileSync(path.join(site,'downloads/release.json'),'utf8'));
+const verifiedCount=records.filter(r=>r.verified).length;
+const candidateCount=records.filter(r=>r.verification.level==='candidate').length;
+const coreCount=records.filter(r=>r.verification.level==='content-checked').length;
+const citedCount=release.counts.cited;
+const output=path.join(root,'build/qa');fs.mkdirSync(output,{recursive:true});
+const server=http.createServer((req,res)=>{
+  const requested=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+  const file=path.resolve(site,'.'+(requested==='/'?'/index.html':requested));
+  if(!file.startsWith(site+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404);res.end();return;}
+  const mime={'.html':'text/html','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.pdf':'application/pdf','.zip':'application/zip'}[path.extname(file)]||'application/octet-stream';
+  res.setHeader('Content-Type',mime);res.end(fs.readFileSync(file));
+});
+await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(0,'127.0.0.1',resolve);});
+const url=`http://127.0.0.1:${server.address().port}`;
+let browser;
+try {
+  const chrome='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+  browser=await chromium.launch({headless:true,...(fs.existsSync(chrome)?{executablePath:chrome}:{})});
+  const page=await browser.newPage({viewport:{width:1440,height:1000}});
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(url+'/index.html');
+  assert.equal(await page.locator('h1').innerText(),'Does AI Help Us?');
+  assert.equal(await page.locator('.byline').innerText().then(t=>t.includes('Witold Bołt, PhD')),true);
+  assert.equal(await page.locator('a[href="mailto:Witold.Bolt@jit.team"]').count(),1);
+  assert.equal(await page.locator('a[href="https://jit.team"]').count(),1);
+  assert.equal(await page.locator('a[href="https://www.linkedin.com/in/witoldbolt/"]').count(),1);
+  assert.equal(await page.locator('.community-note').count(),1);
+  assert.equal(await page.locator('.reference-list > li').count(),citedCount);
+  assert.equal(await page.locator('a[href^="#ref-"]').count()>=citedCount,true);
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await page.screenshot({path:path.join(output,'article-desktop.png')});
+  await page.locator('[id="11-an-integrated-assessment-where-the-benefit-survives"]').scrollIntoViewIfNeeded();
+  await page.screenshot({path:path.join(output,'article-figure-desktop.png')});
+  await page.goto(url+'/bibliography.html');
+  await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
+  const initial=await page.locator('.source-row:visible').count();assert.equal(initial,verifiedCount);
+  await page.locator('#search').fill('InnovationEval');assert.equal(await page.locator('.source-row:visible').count(),1);
+  await page.locator('#search').fill('unlikely-search-no-results');assert.equal(await page.locator('.source-row:visible').count(),0);assert.equal(await page.locator('#empty-state').isVisible(),true);
+  await page.locator('button[type=reset]').click();await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);assert.equal(await page.locator('.source-row:visible').count(),verifiedCount);
+  await page.locator('#verification').selectOption('candidate');assert.equal(await page.locator('.source-row:visible').count(),candidateCount);
+  await page.locator('#verification').selectOption('content-checked');assert.equal(await page.locator('.source-row:visible').count(),coreCount);
+  await page.locator('#topic').selectOption('learning');assert.equal(await page.locator('.source-row:visible').count()>0,true);
+  const downloadEvent=page.waitForEvent('download');await page.locator('#export-filtered').click();const download=await downloadEvent;assert.equal(download.suggestedFilename(),'bibliography-filtered.csl.json');
+  await page.locator('button[type=reset]').click();await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);await page.locator('.source-row:visible').first().locator('summary').click();
+  await page.screenshot({path:path.join(output,'bibliography-desktop.png')});
+  for(const width of [390,768]) {
+    await page.setViewportSize({width,height:844});
+    await page.goto(url+'/index.html');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    await page.screenshot({path:path.join(output,`article-${width}.png`)});
+    await page.goto(url+'/bibliography.html');await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    await page.screenshot({path:path.join(output,`bibliography-${width}.png`)});
+  }
+  for(const name of [`ai-intellectual-work-${release.release}.pdf`,'bibliography.csl.json','bibliography.bib','bibliography.ris','sources.csv','sources.json',`release-${release.release}.zip`,'related-reviews.md','reference-verification.json']) {
+    const response=await page.request.get(url+'/downloads/'+name);assert.equal(response.ok(),true,`Download missing: ${name}`);assert.equal((await response.body()).length>0,true);
+  }
+  await page.goto(url+'/releases.html');assert.equal(await page.locator('h1').innerText(),'Releases & methods');
+  await page.goto(pathToFileURL(path.join(site,'bibliography.html')).href);
+  await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);
+  await page.locator('#search').fill('InnovationEval');assert.equal(await page.locator('.source-row:visible').count(),1);
+  assert.deepEqual(errors,[]);
+  fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({result:'passed',viewports:[1440,768,390],checks:['article rendering','source filters and reset','empty state','candidate/core counts','filtered CSL download','responsive overflow','all download endpoints','release page','no JavaScript errors']},null,2));
+  console.log('Browser checks passed at 1440, 768 and 390 pixels. Screenshots in build/qa.');
+} finally {
+  if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));
+}

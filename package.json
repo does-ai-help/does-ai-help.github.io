@@ -1,0 +1,13 @@
+{
+  "name": "ai-intellectual-work-review",
+  "version": "2026.10.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "python3 scripts/validate.py",
+    "preview": "python3 -m http.server 8765 --directory site"
+  },
+  "dependencies": { "marked": "17.0.5" },
+  "devDependencies": { "playwright": "1.56.1" }
+}

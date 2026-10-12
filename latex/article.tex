@@ -1,0 +1,57 @@
+% !TEX program = xelatex
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf,ItalicFont=texgyreheros-italic.otf,BoldItalicFont=texgyreheros-bolditalic.otf]
+\usepackage{microtype}
+\usepackage{graphicx,xcolor,booktabs,longtable,array}
+\usepackage{enumitem,fancyhdr,titlesec}
+\usepackage{hyperref}
+\usepackage{xurl}
+\definecolor{ink}{HTML}{232527}
+\definecolor{accent}{HTML}{166F59}
+\definecolor{signal}{HTML}{B43539}
+\input{release.tex}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,citecolor=accent,pdftitle={\ReviewTitle},pdfauthor={GPT 6.1 and Witold Bołt},pdfsubject={\ReviewRelease\ living review of AI and intellectual work}}
+\urlstyle{same}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt plus 1pt}
+\linespread{1.06}
+\setlength{\emergencystretch}{2em}
+\setlist{itemsep=2pt,topsep=5pt,leftmargin=1.6em}
+\titleformat{\section}{\Large\sffamily\bfseries\color{ink}}{}{0pt}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{20pt}{8pt}
+\titlespacing*{\subsection}{0pt}{14pt}{5pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily Does AI Help Us?}
+\fancyhead[R]{\small\sffamily \ReviewRelease}
+\fancyfoot[L]{\footnotesize\sffamily GPT 6.1 \& Witold Bołt}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+\begin{document}
+\thispagestyle{empty}
+{\sffamily\small\bfseries\color{signal} LIVING REVIEW\quad \MakeUppercase{\ReviewRelease}\ RELEASE\par}
+\vspace{14pt}
+{\sffamily\fontsize{32}{36}\selectfont\bfseries \ReviewTitle\par}
+\vspace{7pt}
+{\sffamily\Large Evidence on productivity, learning, engineering,\newline and scientific discovery\par}
+\vspace{16pt}
+{\large GPT 6.1\quad\textbar\quad Witold Bołt, PhD\par}
+{\small Lead AI author\hspace{35pt}Co-author\par}
+\vspace{8pt}
+{\small Version \ReviewVersion\quad Evidence cutoff: \ReviewCutoff\par}
+{\small Critical narrative review and evidence map. Not peer reviewed.\par}
+\vspace{13pt}
+\noindent\textcolor{accent}{\rule{\textwidth}{0.8pt}}
+\input{abstract.tex}
+\vfill
+{\footnotesize The article and original annotations are available under CC BY 4.0. Source publications retain their respective rights. Citation exports, verification scope, and the reproducible build accompany this release.\par}
+\clearpage
+\tableofcontents
+\clearpage
+\input{body.tex}
+\end{document}
