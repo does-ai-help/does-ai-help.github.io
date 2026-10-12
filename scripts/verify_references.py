@@ -12,6 +12,8 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+import threading
+import time
 from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -19,7 +21,9 @@ from pathlib import Path
 from audit_sources import Metadata
 
 ROOT = Path(__file__).resolve().parents[1]
-BLOCKED = ("just a moment", "access denied", "page not found", "not found", "robot check", "attention required", "subscribe to read", "verify you are human")
+BLOCKED = ("just a moment", "access denied", "page not found", "not found", "robot check", "attention required", "subscribe to read", "verify you are human", "client challenge", "checking your browser")
+REGISTRY_LOCK = threading.Lock()
+REGISTRY_NEXT = 0.0
 
 
 def normal(text):
@@ -43,7 +47,7 @@ def doi_normal(value):
     return re.sub(r"^https?://(?:dx\.)?doi\.org/|^doi:\s*", "", value or "", flags=re.I).strip().lower()
 
 
-def retrieve(url):
+def retrieve_once(url):
     result = {"url": url}
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "AIIntellectualWorkReview/2026.10 citation identity audit"})
@@ -59,6 +63,21 @@ def retrieve(url):
     except (urllib.error.URLError, TimeoutError, OSError) as error:
         result.update(status=getattr(error, "code", None), error=str(error)[:240])
         return result, b""
+
+
+def retrieve(url):
+    global REGISTRY_NEXT
+    for attempt in range(3):
+        if urllib.parse.urlsplit(url).netloc in {"api.crossref.org", "api.datacite.org"}:
+            with REGISTRY_LOCK:
+                time.sleep(max(0, REGISTRY_NEXT - time.monotonic()))
+                REGISTRY_NEXT = time.monotonic() + 1.0
+        access, body = retrieve_once(url)
+        if access.get("status") not in {429, 500, 502, 503, 504}:
+            return access, body
+        if attempt < 2:
+            time.sleep(3 * (attempt + 1))
+    return access, body
 
 
 def page_metadata(body):
@@ -132,8 +151,11 @@ def registry_metadata(doi):
 def check(record):
     access, body = retrieve(record["url"])
     page = {"access": access, **page_metadata(body)}
+    if page.get("titles") and all(any(term in normal(t) for term in BLOCKED) for t in page["titles"]):
+        page["access"]["restriction"] = "Challenge or unavailable page; HTTP success does not establish page identity"
     observations = [page]
-    doi = doi_normal(record.get("doi", ""))
+    embedded = re.search(r"https://link\.springer\.com/(?:book|article)/(10\.[^?#]+)", record["url"])
+    doi = doi_normal(record.get("doi", "") or (urllib.parse.unquote(embedded[1]) if embedded else ""))
     if doi:
         observations += registry_metadata(doi)
         # Test the persistent landing link independently from registry identity.
@@ -141,6 +163,9 @@ def check(record):
         observations.append({"access": resolver})
     titles = [record["title"], *record.get("title_aliases", [])]
     matches, conflicts, warnings = [], [], []
+    nature = re.search(r"https://www\.nature\.com/articles/([^/?#]+)", record["url"])
+    if doi and nature and doi.split("/", 1)[-1] != nature[1].lower():
+        conflicts.append("Nature article URL identifier differs from the declared DOI")
     for obs in observations:
         observed_doi = doi_normal(obs.get("doi", ""))
         if doi and observed_doi and doi != observed_doi:

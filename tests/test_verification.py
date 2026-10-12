@@ -8,6 +8,15 @@ from verify_references import check, doi_normal, exception_valid, page_metadata,
 
 
 class IdentityTests(unittest.TestCase):
+    @patch("verify_references.registry_metadata")
+    @patch("verify_references.retrieve")
+    def test_challenge_page_requires_authoritative_identity_not_http_success(self, fetch, registry):
+        fetch.return_value = ({"status": 200, "url": "https://example.org"}, b"<title>Client Challenge</title>")
+        registry.return_value = [{"access": {"url": "https://api.crossref.org/works/test"}, "titles": ["Generative AI at Work"], "doi": "10.1234/right"}]
+        self.assertEqual(check({"id": "x", "title": "Generative AI at Work", "url": "https://example.org", "doi": "10.1234/right"})["identity_status"], "confirmed")
+        registry.return_value = []
+        self.assertEqual(check({"id": "x", "title": "Generative AI at Work", "url": "https://example.org", "doi": "10.1234/right"})["identity_status"], "unresolved")
+
     def test_punctuation_and_site_suffix(self):
         self.assertTrue(title_match("Does AI Help Us?", "Does AI Help Us? | A Research Review")[0])
 

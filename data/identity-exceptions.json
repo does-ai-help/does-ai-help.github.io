@@ -53,5 +53,25 @@
     "checked_on": "2026-10-12",
     "expires_on": "2026-11-12",
     "reason": "Primary publisher page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact title and 1 August 2026 publication date confirmed. Script retrieval intermittently returns 403. This confirms the announcement's identity, not the correctness or novelty of its mathematical claims."
+  },
+  {
+    "id": "ref-fb7d2bc1f2",
+    "expected_title": "Measuring developer productivity? A response to McKinsey",
+    "url": "https://tidyfirst.substack.com/p/measuring-developer-productivity",
+    "observed_title": "Measuring developer productivity? A response to McKinsey",
+    "evidence_url": "https://newsletter.kentbeck.com/p/measuring-developer-productivity",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12", "expires_on": "2026-11-12",
+    "reason": "Primary author page inspected through web retrieval on 13 October Warsaw time. Original Substack URL redirects to Kent Beck's newsletter. Exact title, Kent Beck and Gergely Orosz bylines, and 29 August 2023 date confirmed. CI retrieval returns 403; identity only, not independent validation of the essay's arguments."
+  },
+  {
+    "id": "ref-33e5e5bcd6",
+    "expected_title": "Why we no longer evaluate SWE-bench Verified",
+    "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+    "observed_title": "Why we no longer evaluate SWE-bench Verified",
+    "evidence_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-12", "expires_on": "2026-11-12",
+    "reason": "Exact title on primary publisher page inspected through web retrieval on 13 October Warsaw time. GitHub runner receives 403. Confirms publication identity, not independent verification of benchmark-contamination or evaluation claims."
   }
 ]
