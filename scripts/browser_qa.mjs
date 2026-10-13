@@ -48,6 +48,15 @@ try {
   await page.locator('[id="11-an-integrated-assessment-where-the-benefit-survives"]').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(output,'article-figure-desktop.png')});
   await page.goto(url+'/bibliography.html');
+  const swe=page.locator('#ref-10b59b402b');
+  assert.equal(await swe.locator('.source-meta span').first().innerText(),'2024');
+  await swe.locator('details').evaluate(el=>el.open=true);
+  assert.match(await swe.innerText(),/2024-08-13/);
+  assert.match(await swe.innerText(),/Publisher: OpenAI/);
+  assert.match(await swe.innerText(),/Neil Chowdhury/);
+  await swe.locator('details').evaluate(el=>el.open=false);
+  assert.equal(await page.locator('#ref-3d0ab8c8d6 .source-meta span').first().innerText(),'2025');
+  assert.match(await page.locator('#ref-a97b44c4bb .source-author').innerText(),/editors/);
   await page.locator('#candidate-sciencedirect-2026 details').evaluate(el=>el.open=true);
   assert.equal(await page.locator('#candidate-sciencedirect-2026').innerText().then(t=>t.includes('Alternative verification: Local Chrome')),true);
   await page.locator('#candidate-sciencedirect-2026 details').evaluate(el=>el.open=false);

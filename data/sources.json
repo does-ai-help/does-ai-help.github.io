@@ -141,6 +141,44 @@
     ]
   },
   {
+    "id": "ref-5bff21951f",
+    "url": "https://ramp.com/data/ai-jobs-impact",
+    "title": "A New Look at AI’s Impact on Jobs",
+    "topics": [
+      "work"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on work. Scope indicated by the primary-source title: A New Look at AI’s Impact on Jobs. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://ramp.com/data/ai-jobs-impact",
+      "retrieved_sha256": "6f4b2a5af8bfa4806632d4a0bc257f7b8c439954220fe8775c05f38a00955713"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://ramp.com/data/ai-jobs-impact",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "A New Look at AI’s Impact on Jobs",
+    "year": 2026,
+    "date": "2026-06-30",
+    "authors": [
+      "Ramp Economics Lab"
+    ],
+    "date_basis": "Publisher launch announcement dated 30 June 2026; https://ramp.com/data/heavy-ai-adopters-hire-more; checked 13 October 2026. Landing-page launch date, not a separately dated paper revision.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10",
+    "related_to": [
+      "ramp2026"
+    ]
+  },
+  {
     "id": "wang2026",
     "url": "https://arxiv.org/abs/2609.29874",
     "title": "A Risk-Adaptive and Evidence-Constrained Framework for Generative AI Feedback in Programming Education",
@@ -933,6 +971,46 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-4336e76ca7",
+    "url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
+    "title": "Announcing RSI Bench",
+    "topics": [
+      "context"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
+      "retrieved_sha256": "7b46fea03f03d829cd62234b9230bc490a46ba4ff84879ee4f259b082841321b"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Announcing RSI Bench",
+    "year": 2026,
+    "date": "2026-08-07",
+    "authors": [
+      "Anas Mahmoud",
+      "MohammadHossein Rezaei",
+      "Mingchen Zhuge",
+      "Chenguang Wang",
+      "Yuandong Tian",
+      "Yunzhong He"
+    ],
+    "date_basis": "Primary announcement date and byline; source page checked 13 October 2026.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
     "id": "ref-a32e7d5bed",
     "url": "https://arxiv.org/abs/2602.00409",
     "title": "Are Coding Agents Generating Over-Mocked Tests? An Empirical Study",
@@ -1092,6 +1170,43 @@
     "editorial_priority": "core",
     "date": null,
     "verified": true,
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-672d8f5482",
+    "url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+    "title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+    "topics": [
+      "engineering",
+      "productivity",
+      "agents"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on engineering, productivity, agents. Scope indicated by the primary-source title: Beyond code generation: rethinking engineering productivity in the age of AI agents. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+      "retrieved_sha256": "77eb7c7c14034b48d7585052411c4557554853c8e4382a1800566d525e98ba59"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html;charset=utf-8"
+    },
+    "observed_title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+    "year": 2026,
+    "date": "2026-05-28",
+    "authors": [
+      "Kazuaki Okumura"
+    ],
+    "date_basis": "Primary Dropbox article date and byline; checked 13 October 2026.",
+    "verified": true,
+    "editorial_priority": "supporting",
     "added_in": "2026-10"
   },
   {
@@ -1488,6 +1603,41 @@
     "date": null,
     "year": 2026,
     "date_basis": "identifier or URL year; exact date not established",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-ffcede42d0",
+    "url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
+    "title": "Computer Science Has Hit Its High Water Mark",
+    "topics": [
+      "science"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
+      "retrieved_sha256": "ab94a9174c36093796fc32a0aecc094736909d194759a97384cf1f419af0cbf0"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Computer Science Has Hit Its High Water Mark",
+    "year": 2026,
+    "date": "2026-05-19",
+    "authors": [
+      "Caelan Wilkie-Rogers"
+    ],
+    "date_basis": "Primary Revelio publication date and suggested citation; checked 13 October 2026. The 11 June update is not the original publication date.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -2140,6 +2290,41 @@
     "date": null,
     "year": 2026,
     "date_basis": "identifier or URL year; exact date not established",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-7ba221a977",
+    "url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
+    "title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
+    "topics": [
+      "business"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
+      "retrieved_sha256": "06488fb5285805b3b4cdf16e189d9753e15b7cbc956d6e7e904678ec82d3c6a5"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
+    "year": 2026,
+    "date": "2026-03",
+    "authors": [
+      "Sebastian Gallegos"
+    ],
+    "date_basis": "Primary IZA Discussion Paper 18513 page: March 2026; checked 13 October 2026. No publication day supplied.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -3301,6 +3486,41 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-12d21bb68f",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
+    "title": "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
+    "topics": [
+      "work"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on work. Scope indicated by the primary-source title: Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
+      "retrieved_sha256": "6aba9220a23dc8df923996d25a697c64d4108082e2404b283d8fc6e20e421787"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
+    "year": 2026,
+    "date": "2026-05-30",
+    "authors": [
+      "Leigh Cook"
+    ],
+    "date_basis": "Primary NewsArticle JSON-LD publication date and byline; retrieved 12 October 2026, inspected 13 October 2026.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
     "id": "sweci2026",
     "url": "https://arxiv.org/abs/2603.03823",
     "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
@@ -3454,6 +3674,58 @@
     "year": 2026,
     "date_basis": "primary metadata",
     "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-e299630b86",
+    "url": "https://openai.com/index/ten-advances-in-mathematics",
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "topics": [
+      "science"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "retrieved_sha256": "4fcd89568ce1edaf43b9b50a7c2f3e3632bae3ff5e52201fe13deddaf9aa3bce"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Ten advances in mathematics and theoretical computer science",
+    "year": 2026,
+    "date": "2026-08-01",
+    "date_basis": "Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026.",
+    "authors": [],
+    "verified": true,
+    "browser_verification": {
+      "id": "ref-e299630b86",
+      "observed": {
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "publication_date": "2026-08-01",
+        "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      "scope": "Publisher title/date and visible results and responsibility section headings in Chrome.",
+      "notes": "Linked mathematical manuscripts and embedded video were not inspected. This is announcement identity, not verification of mathematical novelty or correctness.",
+      "source_fingerprint": "9d2fc77d35717fe65efd7fbdf771f5bd1ff1c0a612ddfb7a7e6dd562562da57b",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
     "editorial_priority": "supporting",
     "added_in": "2026-10"
   },
@@ -4502,6 +4774,41 @@
     "date": "2026-07-30",
     "year": 2026,
     "date_basis": "primary metadata",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-529895b385",
+    "url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+    "title": "Where Is the AI Jobs Crisis? | The Daily Spark",
+    "topics": [
+      "work"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on work. Scope indicated by the primary-source title: Where Is the AI Jobs Crisis? | The Daily Spark. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+      "retrieved_sha256": "8a3dc441b583a54e34bf193d6698b9696354c98a9d9a60a7c130e9ae2a6c8a91"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/where-is-the-ai-jobs-crisis",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html;charset=utf-8"
+    },
+    "observed_title": "Where Is the AI Jobs Crisis? | The Daily Spark",
+    "year": 2026,
+    "date": "2026-06-09",
+    "authors": [
+      "Torsten Slok"
+    ],
+    "date_basis": "Primary Apollo article date and About the Author section; checked 13 October 2026.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -5565,6 +5872,47 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-3d0ab8c8d6",
+    "url": "https://dora.dev/ai/gen-ai-report",
+    "title": "DORA | Download the Impact of Generative AI in Software Development",
+    "topics": [
+      "engineering"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://dora.dev/ai/gen-ai-report",
+      "retrieved_sha256": "f852a601c6e3c1f16856d1cf8bf8e53b6ffa0a7faa98ad499798d01a6c8e51d1"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://dora.dev/ai/gen-ai-report/report/",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "DORA | Download the Impact of Generative AI in Software Development",
+    "year": 2025,
+    "date": null,
+    "authors": [
+      "Derek Debellis",
+      "Kevin M. Storer",
+      "Daniella Villalba",
+      "Nathen Harvey",
+      "Sarah D'Angelo",
+      "Adam Brown"
+    ],
+    "date_basis": "Linked primary report edition v. 2025.2 and author list (page 54); https://dora.dev/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf; checked 13 October 2026. Exact publication day not established.",
+    "version_note": "Cites report edition 2025.2. The landing page's 13 April 2026 update is not the report's publication year.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
     "id": "ref-94c646c350",
     "url": "https://arxiv.org/abs/2501.13282",
     "title": "Experience with GitHub Copilot for Developer Productivity at Zoominfo",
@@ -5899,6 +6247,54 @@
     ]
   },
   {
+    "id": "ref-d79880fda4",
+    "url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
+    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025",
+    "topics": [
+      "engineering",
+      "productivity",
+      "business"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
+      "retrieved_sha256": "c138bc0f32db7206ec2ef0cf9b481ebe1d7b8a47318f9654d217efa60af6d7d8"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    "observed_title": "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025",
+    "year": 2025,
+    "date": null,
+    "authors": [
+      "Elise Paradis",
+      "Kate Grey",
+      "Quinn Madison",
+      "Daye Nam",
+      "Andrew Macvean",
+      "Nan Zhang",
+      "Ben Ferrari-Church",
+      "Satish Chandra"
+    ],
+    "date_basis": "Primary ICSE 2025 conference entry and author list; checked 13 October 2026. Presentation on 2 May 2025 is not asserted as the publication day.",
+    "version_note": "Conference entry for ICSE 2025; related 2024 arXiv version is the same study, not independent evidence.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10",
+    "related_to": [
+      "paradis2024"
+    ]
+  },
+  {
     "id": "cotroneo2025",
     "url": "https://arxiv.org/abs/2508.21634",
     "title": "Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity",
@@ -6136,6 +6532,41 @@
     "date": "2025-03-06",
     "year": 2025,
     "date_basis": "primary metadata",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-c91813d328",
+    "url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
+    "title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
+    "topics": [
+      "engineering"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
+      "retrieved_sha256": "eddb8d5ff84a3c43bbb206cf444bc736e8b90be0c388a5ca0f11e22301f53ff3"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html"
+    },
+    "observed_title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
+    "year": 2025,
+    "date": "2025-10-21",
+    "authors": [
+      "SonarSource"
+    ],
+    "date_basis": "Primary Article JSON-LD datePublished and organization author; retrieved 12 October 2026, inspected 13 October 2026.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -6473,6 +6904,45 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-9f81141e49",
+    "url": "https://www.faros.ai/blog/ai-software-engineering",
+    "title": "The AI Productivity Paradox Research Report",
+    "topics": [
+      "science",
+      "productivity"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.faros.ai/blog/ai-software-engineering",
+      "retrieved_sha256": "05252b3b66912ba7ba105bfde2d86c460b5befcffd8a73130d6f9ae9a7fb38bc"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.faros.ai/blog/ai-software-engineering",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "The AI Productivity Paradox Research Report",
+    "year": 2025,
+    "date": "2025-07-23",
+    "authors": [
+      "Faros Research"
+    ],
+    "title_aliases": [
+      "The AI Productivity Paradox Report 2025"
+    ],
+    "date_basis": "Primary BlogPosting JSON-LD datePublished and author; retrieved 12 October 2026, inspected 13 October 2026. The September 2026 modification is not the publication date.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
     "id": "cui2025",
     "url": "https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers",
     "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
@@ -6783,6 +7253,41 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-022ae73d8c",
+    "url": "https://devecosystem-2025.jetbrains.com",
+    "title": "The State of Developer Ecosystem in 2025",
+    "topics": [
+      "engineering"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: The State of Developer Ecosystem in 2025. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://devecosystem-2025.jetbrains.com",
+      "retrieved_sha256": "c2e3e65f6a518ef835a0d254c119f02ff6754a9f253f6c1d0690a3b381c7f875"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://devecosystem-2025.jetbrains.com",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "The State of Developer Ecosystem in 2025",
+    "year": 2025,
+    "date": null,
+    "authors": [
+      "JetBrains"
+    ],
+    "date_basis": "Primary report heading explicitly identifies the 2025 edition; checked 13 October 2026. Survey fieldwork (April-June 2025) is not treated as publication date.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
     "id": "herrengtvibe",
     "url": "https://blog.florianherrengt.com/vibe-coder-career-path.html",
     "title": "The vibe coder's career path is doomed",
@@ -6979,6 +7484,48 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-f4550e10d8",
+    "url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
+    "title": "Generative AI and Software Engineering Education",
+    "topics": [
+      "engineering",
+      "learning"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on engineering, learning. Scope indicated by the primary-source title: Generative AI and Software Engineering Education. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
+      "retrieved_sha256": "053ca2ea9657e0fcca7cd66ce92d9640f0436c69e9b8be03c4f877511895267d"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education/",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Generative AI and Software Engineering Education | CMU Software Engineering Institute",
+    "title_aliases": [
+      "Generative AI and Software Engineering Education | CMU Software Engineering Institute"
+    ],
+    "year": 2024,
+    "date": "2024-09-09",
+    "authors": [
+      "Ipek Ozkaya",
+      "Douglas Schmidt",
+      "Michael Hilton"
+    ],
+    "doi": "10.58012/AHC6-GK69",
+    "date_basis": "Primary SEI publication date, citation metadata and additional coauthor credited in the body; checked 13 October 2026.",
+    "verified": true,
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
     "id": "paradis2024",
     "url": "https://arxiv.org/abs/2410.12944",
     "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial",
@@ -7019,6 +7566,94 @@
     "related_to": [
       "ref-d79880fda4"
     ]
+  },
+  {
+    "id": "ref-10b59b402b",
+    "url": "https://openai.com/index/introducing-swe-bench-verified",
+    "title": "Introducing SWE-bench Verified",
+    "topics": [
+      "context"
+    ],
+    "method": "not-classified",
+    "publication_status": "not-established",
+    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-12",
+      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
+      "retrieved_sha256": "d7105ffce3974ab3e9aaca6763cbf3a1cf7bc21a2da974df8145c39b1eba9d19"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "observed_title": "Introducing SWE-bench Verified",
+    "year": 2024,
+    "date": "2024-08-13",
+    "publisher": "OpenAI",
+    "authors": [
+      "Neil Chowdhury",
+      "James Aung",
+      "Chan Jun Shern",
+      "Oliver Jaffe",
+      "Dane Sherburn",
+      "Giulio Starace",
+      "Evan Mays",
+      "Rachel Dias",
+      "Marwan Aljubeh",
+      "Mia Glaese",
+      "Carlos E. Jimenez",
+      "John Yang",
+      "Leyton Ho",
+      "Tejal Patwardhan",
+      "Kevin Liu",
+      "Aleksander Madry"
+    ],
+    "date_basis": "Primary publication date and named Authors section; rechecked in local Chrome on 13 October 2026.",
+    "version_note": "Originally published 13 August 2024; the page separately records an update on 24 February 2025. OpenAI is the publisher; named authors are retained.",
+    "verified": true,
+    "browser_verification": {
+      "id": "ref-10b59b402b",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:46:43+00:00",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
+      "source_fingerprint": "7786df848b3a06afc6c6c11e7d9388cd4d633af9c421aa6fb1ef202534eabb63",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Introducing SWE-bench Verified",
+        "publication_date": "2024-08-13",
+        "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
+        "authors": [
+          "Neil Chowdhury",
+          "James Aung",
+          "Chan Jun Shern",
+          "Oliver Jaffe",
+          "Dane Sherburn",
+          "Giulio Starace",
+          "Evan Mays",
+          "Rachel Dias",
+          "Marwan Aljubeh",
+          "Mia Glaese",
+          "Carlos E. Jimenez",
+          "John Yang",
+          "Leyton Ho",
+          "Tejal Patwardhan",
+          "Kevin Liu",
+          "Aleksander Madry"
+        ]
+      },
+      "scope": "Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.",
+      "notes": "Publication is 13 August 2024; update is 24 February 2025. OpenAI is publisher, with named authors credited. This recheck updates citation identity only; benchmark findings were not independently validated."
+    },
+    "editorial_priority": "supporting",
+    "added_in": "2026-10"
   },
   {
     "id": "ref-1ca76a8f96",
@@ -7559,105 +8194,40 @@
     "added_in": "2026-10"
   },
   {
-    "id": "ref-5bff21951f",
-    "url": "https://ramp.com/data/ai-jobs-impact",
-    "title": "A New Look at AI’s Impact on Jobs",
-    "topics": [
-      "work"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on work. Scope indicated by the primary-source title: A New Look at AI’s Impact on Jobs. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://ramp.com/data/ai-jobs-impact",
-      "retrieved_sha256": "6f4b2a5af8bfa4806632d4a0bc257f7b8c439954220fe8775c05f38a00955713"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://ramp.com/data/ai-jobs-impact",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "A New Look at AI’s Impact on Jobs",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10",
-    "related_to": [
-      "ramp2026"
-    ]
-  },
-  {
-    "id": "ref-4336e76ca7",
-    "url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
-    "title": "Announcing RSI Bench",
-    "topics": [
-      "context"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
-      "retrieved_sha256": "7b46fea03f03d829cd62234b9230bc490a46ba4ff84879ee4f259b082841321b"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Announcing RSI Bench",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-672d8f5482",
-    "url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
-    "title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+    "id": "ref-a97b44c4bb",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
+    "title": "Rethinking Productivity in Software Engineering",
     "topics": [
       "engineering",
-      "productivity",
-      "agents"
+      "productivity"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering, productivity, agents. Scope indicated by the primary-source title: Beyond code generation: rethinking engineering productivity in the age of AI agents. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Rethinking Productivity in Software Engineering. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
       "checked_on": "2026-10-12",
       "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
-      "retrieved_sha256": "77eb7c7c14034b48d7585052411c4557554853c8e4382a1800566d525e98ba59"
+      "source_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
+      "retrieved_sha256": "319172f6e78c8127021445c983cef594cba9bf510bb05b784a46f91c1a426e4d"
     },
     "access": {
       "status": 200,
-      "resolved_url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=bc980956-7989-4e3d-8e6e-d761eea8ad5d",
       "checked_on": "2026-10-12",
-      "content_type": "text/html;charset=utf-8"
+      "content_type": "text/html; charset=utf-8"
     },
-    "observed_title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+    "observed_title": "Rethinking Productivity in Software Engineering",
+    "year": 2019,
+    "date": "2019-05-07",
     "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
+    "editors": [
+      "Caitlin Sadowski",
+      "Thomas Zimmermann"
+    ],
+    "doi": "10.1007/978-1-4842-4221-6",
+    "date_basis": "Publisher bibliographic information: eBook published 7 May 2019; checked 13 October 2026. Softcover published 8 May 2019; named contributors are editors, not book authors.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -7698,106 +8268,6 @@
     "added_in": "2026-10"
   },
   {
-    "id": "ref-ffcede42d0",
-    "url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
-    "title": "Computer Science Has Hit Its High Water Mark",
-    "topics": [
-      "science"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
-      "retrieved_sha256": "ab94a9174c36093796fc32a0aecc094736909d194759a97384cf1f419af0cbf0"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Computer Science Has Hit Its High Water Mark",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-3d0ab8c8d6",
-    "url": "https://dora.dev/ai/gen-ai-report",
-    "title": "DORA | Download the Impact of Generative AI in Software Development",
-    "topics": [
-      "engineering"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://dora.dev/ai/gen-ai-report",
-      "retrieved_sha256": "f852a601c6e3c1f16856d1cf8bf8e53b6ffa0a7faa98ad499798d01a6c8e51d1"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://dora.dev/ai/gen-ai-report/report/",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "DORA | Download the Impact of Generative AI in Software Development",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-f4550e10d8",
-    "url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
-    "title": "Generative AI and Software Engineering Education | CMU Software Engineering Institute",
-    "topics": [
-      "engineering",
-      "learning"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on engineering, learning. Scope indicated by the primary-source title: Generative AI and Software Engineering Education | CMU Software Engineering Institute. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
-      "retrieved_sha256": "053ca2ea9657e0fcca7cd66ce92d9640f0436c69e9b8be03c4f877511895267d"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education/",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Generative AI and Software Engineering Education | CMU Software Engineering Institute",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
     "id": "ref-8ecd8d70a1",
     "url": "https://github.com/SWE-bench/SWE-bench",
     "title": "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?",
@@ -7822,162 +8292,6 @@
       "content_type": "text/html; charset=utf-8"
     },
     "observed_title": "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-7ba221a977",
-    "url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
-    "title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
-    "topics": [
-      "business"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
-      "retrieved_sha256": "06488fb5285805b3b4cdf16e189d9753e15b7cbc956d6e7e904678ec82d3c6a5"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-d79880fda4",
-    "url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
-    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025",
-    "topics": [
-      "engineering",
-      "productivity",
-      "business"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
-      "retrieved_sha256": "c138bc0f32db7206ec2ef0cf9b481ebe1d7b8a47318f9654d217efa60af6d7d8"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html;charset=UTF-8"
-    },
-    "observed_title": "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10",
-    "related_to": [
-      "paradis2024"
-    ]
-  },
-  {
-    "id": "ref-10b59b402b",
-    "url": "https://openai.com/index/introducing-swe-bench-verified",
-    "title": "Introducing SWE-bench Verified",
-    "topics": [
-      "context"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
-      "retrieved_sha256": "d7105ffce3974ab3e9aaca6763cbf3a1cf7bc21a2da974df8145c39b1eba9d19"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Introducing SWE-bench Verified",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "browser_verification": {
-      "id": "ref-10b59b402b",
-      "observed": {
-        "title": "Introducing SWE-bench Verified",
-        "publication_date": "2024-08-13",
-        "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/"
-      },
-      "scope": "Publisher headline, publication date, visible benchmark sections and limitations heading in Chrome.",
-      "notes": "No new benchmark execution or dataset audit. The observed article date is distinguished from dates of cited datasets and tests; named author list was not transcribed.",
-      "source_fingerprint": "980b402c50ee47896745131c6d7e2d07ccfca20e9bc3a51817c6768908b4d3f7",
-      "method": "local-chrome-native",
-      "release_month": "2026-10",
-      "checked_at": "2026-10-13T07:11:49+00:00",
-      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
-      "outcome": "identity-confirmed",
-      "scientific_correctness_verified": false,
-      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
-    },
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-c91813d328",
-    "url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
-    "title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
-    "topics": [
-      "engineering"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
-      "retrieved_sha256": "eddb8d5ff84a3c43bbb206cf444bc736e8b90be0c388a5ca0f11e22301f53ff3"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html"
-    },
-    "observed_title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
     "authors": [],
     "date": null,
     "year": null,
@@ -8445,225 +8759,6 @@
     "date_basis": "not established",
     "verified": false,
     "editorial_priority": "pending",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-a97b44c4bb",
-    "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
-    "title": "Rethinking Productivity in Software Engineering",
-    "topics": [
-      "engineering",
-      "productivity"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Rethinking Productivity in Software Engineering. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
-      "retrieved_sha256": "319172f6e78c8127021445c983cef594cba9bf510bb05b784a46f91c1a426e4d"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=bc980956-7989-4e3d-8e6e-d761eea8ad5d",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Rethinking Productivity in Software Engineering",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-12d21bb68f",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
-    "title": "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
-    "topics": [
-      "work"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on work. Scope indicated by the primary-source title: Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
-      "retrieved_sha256": "6aba9220a23dc8df923996d25a697c64d4108082e2404b283d8fc6e20e421787"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-e299630b86",
-    "url": "https://openai.com/index/ten-advances-in-mathematics",
-    "title": "Ten advances in mathematics and theoretical computer science",
-    "topics": [
-      "science"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
-      "retrieved_sha256": "4fcd89568ce1edaf43b9b50a7c2f3e3632bae3ff5e52201fe13deddaf9aa3bce"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "Ten advances in mathematics and theoretical computer science",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "browser_verification": {
-      "id": "ref-e299630b86",
-      "observed": {
-        "title": "Ten advances in mathematics and theoretical computer science",
-        "publication_date": "2026-08-01",
-        "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"
-      },
-      "scope": "Publisher title/date and visible results and responsibility section headings in Chrome.",
-      "notes": "Linked mathematical manuscripts and embedded video were not inspected. This is announcement identity, not verification of mathematical novelty or correctness.",
-      "source_fingerprint": "9d2fc77d35717fe65efd7fbdf771f5bd1ff1c0a612ddfb7a7e6dd562562da57b",
-      "method": "local-chrome-native",
-      "release_month": "2026-10",
-      "checked_at": "2026-10-13T07:11:49+00:00",
-      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
-      "outcome": "identity-confirmed",
-      "scientific_correctness_verified": false,
-      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
-    },
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-9f81141e49",
-    "url": "https://www.faros.ai/blog/ai-software-engineering",
-    "title": "The AI Productivity Paradox Research Report",
-    "topics": [
-      "science",
-      "productivity"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://www.faros.ai/blog/ai-software-engineering",
-      "retrieved_sha256": "05252b3b66912ba7ba105bfde2d86c460b5befcffd8a73130d6f9ae9a7fb38bc"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://www.faros.ai/blog/ai-software-engineering",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "The AI Productivity Paradox Research Report",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-022ae73d8c",
-    "url": "https://devecosystem-2025.jetbrains.com",
-    "title": "The State of Developer Ecosystem in 2025",
-    "topics": [
-      "engineering"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: The State of Developer Ecosystem in 2025. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://devecosystem-2025.jetbrains.com",
-      "retrieved_sha256": "c2e3e65f6a518ef835a0d254c119f02ff6754a9f253f6c1d0690a3b381c7f875"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://devecosystem-2025.jetbrains.com",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html; charset=utf-8"
-    },
-    "observed_title": "The State of Developer Ecosystem in 2025",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-529895b385",
-    "url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
-    "title": "Where Is the AI Jobs Crisis? | The Daily Spark",
-    "topics": [
-      "work"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Supporting reference on work. Scope indicated by the primary-source title: Where Is the AI Jobs Crisis? | The Daily Spark. Result-level appraisal is pending.",
-    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "verification": {
-      "level": "identity-checked",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
-      "retrieved_sha256": "8a3dc441b583a54e34bf193d6698b9696354c98a9d9a60a7c130e9ae2a6c8a91"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/where-is-the-ai-jobs-crisis",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html;charset=utf-8"
-    },
-    "observed_title": "Where Is the AI Jobs Crisis? | The Daily Spark",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": true,
-    "editorial_priority": "supporting",
     "added_in": "2026-10"
   }
 ]

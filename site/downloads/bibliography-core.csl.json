@@ -114,7 +114,7 @@
     ],
     "abstract": "Robin connects literature work, hypothesis generation and analysis to selected laboratory experiments in a multi-agent discovery workflow.",
     "keyword": "science; agents",
-    "note": "Method: experimental-demonstration. Status: peer-reviewed. Verification: content-checked (journal abstract and experimental scope). Limitations: A limited number of tasks and experiments; repeatable general discovery requires broader independent testing.",
+    "note": "Method: experimental-demonstration. Status: peer-reviewed. Verification: content-checked (journal abstract and experimental scope). Limitations: A limited number of tasks and experiments; repeatable general discovery requires broader independent testing. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -187,7 +187,7 @@
     ],
     "abstract": "Combines risk prediction, evidence-bounded feedback and progressive assistance using historical failed submissions from 215 students.",
     "keyword": "learning; engineering",
-    "note": "Method: retrospective-computational. Status: preprint. Verification: content-checked (abstract and full HTML research-design section). Limitations: Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning. Persistent identifier: arXiv:2609.29874",
+    "note": "Method: retrospective-computational. Status: preprint. Verification: content-checked (abstract and full HTML research-design section). Limitations: Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning. Date basis: primary metadata Persistent identifier: arXiv:2609.29874",
     "issued": {
       "date-parts": [
         [
@@ -449,7 +449,7 @@
     ],
     "abstract": "Co-Scientist generates and prioritizes research hypotheses, with selected results assessed through expert and experimental validation.",
     "keyword": "science; agents",
-    "note": "Method: benchmark-and-experimental-validation. Status: peer-reviewed. Verification: content-checked (journal abstract and validation description). Limitations: Selected biological cases and human direction; broad autonomy is not demonstrated.",
+    "note": "Method: benchmark-and-experimental-validation. Status: peer-reviewed. Verification: content-checked (journal abstract and validation description). Limitations: Selected biological cases and human direction; broad autonomy is not demonstrated. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -491,7 +491,7 @@
     ],
     "abstract": "Microsoft's early-2026 CLI-agent rollout is associated with roughly 24% more merged pull requests among adopters across four months.",
     "keyword": "productivity; engineering; cost",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random. Persistent identifier: arXiv:2607.01418",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random. Date basis: primary metadata Persistent identifier: arXiv:2607.01418",
     "issued": {
       "date-parts": [
         [
@@ -966,7 +966,7 @@
     ],
     "abstract": "ERA iteratively searches software candidates for scorable scientific and engineering tasks, demonstrating strong empirical-software performance.",
     "keyword": "science; engineering; agents",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and task design). Limitations: Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and task design). Limitations: Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -1049,7 +1049,7 @@
     ],
     "abstract": "Analysis of 41.3 million papers associates AI use with individual career and output advantages but a narrower collective distribution of research topics.",
     "keyword": "science; work; diversity",
-    "note": "Method: observational. Status: peer-reviewed. Verification: content-checked (journal abstract and publication metadata). Limitations: Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading.",
+    "note": "Method: observational. Status: peer-reviewed. Verification: content-checked (journal abstract and publication metadata). Limitations: Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -1133,7 +1133,7 @@
     ],
     "abstract": "A four-day study of 21 SAP developers relates perceived cognitive load to AI use and task context; wearable measurements add limited information.",
     "keyword": "cognition; engineering; work",
-    "note": "Method: field-observation. Status: preprint. Verification: content-checked (primary abstract only). Limitations: Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort. Persistent identifier: arXiv:2609.37645",
+    "note": "Method: field-observation. Status: preprint. Verification: content-checked (primary abstract only). Limitations: Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort. Date basis: primary metadata Persistent identifier: arXiv:2609.37645",
     "issued": {
       "date-parts": [
         [
@@ -1182,7 +1182,7 @@
     ],
     "abstract": "A BNY Mellon survey with 2,989 responses and 11 interviews argues for measuring expertise, ownership and longer-run productivity alongside activity.",
     "keyword": "productivity; engineering; methods",
-    "note": "Method: mixed-methods. Status: preprint. Verification: content-checked (primary abstract). Limitations: Self-reports within one organization; identifies constructs rather than a causal effect size. Persistent identifier: arXiv:2602.03593",
+    "note": "Method: mixed-methods. Status: preprint. Verification: content-checked (primary abstract). Limitations: Self-reports within one organization; identifies constructs rather than a causal effect size. Date basis: primary metadata Persistent identifier: arXiv:2602.03593",
     "issued": {
       "date-parts": [
         [
@@ -1316,7 +1316,7 @@
     ],
     "abstract": "Production C++ telemetry finds distinct warning profiles, added review effort, and higher compute consumption in the studied AI-code cohort.",
     "keyword": "engineering; quality; cost",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract and study scope). Limitations: One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier. Persistent identifier: arXiv:2608.06640",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract and study scope). Limitations: One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier. Date basis: primary metadata Persistent identifier: arXiv:2608.06640",
     "issued": {
       "date-parts": [
         [
@@ -1564,7 +1564,7 @@
     ],
     "abstract": "Population search over harnesses improves benchmark performance with a frozen model, treating tools, prompts and control flow as evolvable components.",
     "keyword": "ai-rd; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Recent author-reported benchmark results require independent replication and careful train-test separation. Persistent identifier: arXiv:2608.07545",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Recent author-reported benchmark results require independent replication and careful train-test separation. Date basis: primary metadata Persistent identifier: arXiv:2608.07545",
     "issued": {
       "date-parts": [
         [
@@ -1601,7 +1601,7 @@
     ],
     "abstract": "Iterative infrastructure-code repair can regress security; changing the regression definition reduces measured affected scenarios from 13.8% to 3.3%.",
     "keyword": "engineering; security; methods",
-    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract and measurement definitions). Limitations: Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures. Persistent identifier: arXiv:2608.13404",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract and measurement definitions). Limitations: Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures. Date basis: primary metadata Persistent identifier: arXiv:2608.13404",
     "issued": {
       "date-parts": [
         [
@@ -1862,7 +1862,7 @@
     ],
     "abstract": "Randomized study of learning a programming library finds reduced conceptual understanding, code reading and debugging with AI assistance on average.",
     "keyword": "learning; engineering",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and preregistered design description). Limitations: A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized. Persistent identifier: arXiv:2601.20245",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and preregistered design description). Limitations: A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized. Date basis: primary metadata Persistent identifier: arXiv:2601.20245",
     "issued": {
       "date-parts": [
         [
@@ -2471,7 +2471,7 @@
     ],
     "abstract": "AlphaProof combines reinforcement learning with formal mathematical reasoning and machine-checked proofs at olympiad level.",
     "keyword": "science; mathematics; verification",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and stated evaluation scope). Limitations: Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and stated evaluation scope). Limitations: Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -2537,7 +2537,7 @@
     ],
     "abstract": "Among 210 first-year OOP students, different self-reported AI-use profiles did not significantly differ in unaided assessment performance.",
     "keyword": "learning; engineering",
-    "note": "Method: survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter. Persistent identifier: arXiv:2607.24755",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter. Date basis: primary metadata Persistent identifier: arXiv:2607.24755",
     "issued": {
       "date-parts": [
         [
@@ -2611,7 +2611,7 @@
     ],
     "abstract": "Five research environments expose a gap between occasional strong research results and reliable completion of long research workflows.",
     "keyword": "science; ai-rd; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance. Persistent identifier: arXiv:2602.15112",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance. Date basis: primary metadata Persistent identifier: arXiv:2602.15112",
     "issued": {
       "date-parts": [
         [
@@ -2660,7 +2660,7 @@
     ],
     "abstract": "Evaluates agents across successive repository changes rather than a single static issue, making regression and maintainability central outcomes.",
     "keyword": "engineering; quality; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation. Persistent identifier: arXiv:2603.03823",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation. Date basis: primary metadata Persistent identifier: arXiv:2603.03823",
     "issued": {
       "date-parts": [
         [
@@ -2738,7 +2738,7 @@
     ],
     "abstract": "Coverage measurements on 4,882 agent PRs show incomplete execution of changed lines and uneven benefits from agent-written tests.",
     "keyword": "engineering; quality; agents",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication. Persistent identifier: arXiv:2607.18057",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication. Date basis: primary metadata Persistent identifier: arXiv:2607.18057",
     "issued": {
       "date-parts": [
         [
@@ -2862,7 +2862,7 @@
     ],
     "abstract": "Across 11,700 trajectories, different tool architectures alter coding-agent behavior, consistency and token consumption despite similar available actions.",
     "keyword": "agents; engineering; cost",
-    "note": "Method: benchmark-experiment. Status: preprint. Verification: content-checked (primary abstract). Limitations: Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate. Persistent identifier: arXiv:2608.11386",
+    "note": "Method: benchmark-experiment. Status: preprint. Verification: content-checked (primary abstract). Limitations: Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate. Date basis: primary metadata Persistent identifier: arXiv:2608.11386",
     "issued": {
       "date-parts": [
         [
@@ -2899,7 +2899,7 @@
     ],
     "abstract": "A six-month survey panel reports a shift toward supervisory engineering work and growing experience-related costs despite stable perceived productivity gains.",
     "keyword": "engineering; cognition; work",
-    "note": "Method: longitudinal-survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: Perceived effects, attrition and 95 matched participants; not independently timed task performance. Persistent identifier: arXiv:2605.23135",
+    "note": "Method: longitudinal-survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: Perceived effects, attrition and 95 matched participants; not independently timed task performance. Date basis: primary metadata Persistent identifier: arXiv:2605.23135",
     "issued": {
       "date-parts": [
         [
@@ -3202,7 +3202,7 @@
     ],
     "abstract": "Demonstrates an extended automated ML-research workflow and evaluation of generated work through workshop peer review.",
     "keyword": "science; agents",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and primary publication description). Limitations: Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and primary publication description). Limitations: Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -3374,7 +3374,7 @@
     ],
     "abstract": "Joint implementation-and-proof generation succeeds on 27 of 43 curated multi-module Lean repositories in the strongest evaluated configuration, with no complete success on the hardest cases.",
     "keyword": "engineering; verification; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Formal validity is conditional on specification; small curated benchmark and configuration-dependent result. Persistent identifier: arXiv:2608.13522",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Formal validity is conditional on specification; small curated benchmark and configuration-dependent result. Date basis: primary metadata Persistent identifier: arXiv:2608.13522",
     "issued": {
       "date-parts": [
         [
@@ -3543,7 +3543,7 @@
     ],
     "abstract": "Students assisted by ChatGPT produced stronger C solutions but showed lower immediate and 48-hour recall, with no significant difference in the rate of forgetting.",
     "keyword": "learning; engineering; cognition",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract, full HTML methods and results). Limitations: 55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness. Persistent identifier: arXiv:2609.21194",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract, full HTML methods and results). Limitations: 55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness. Date basis: primary metadata Persistent identifier: arXiv:2609.21194",
     "issued": {
       "date-parts": [
         [
@@ -3652,7 +3652,7 @@
     ],
     "abstract": "An open-source study reports greater activity among peripheral contributors alongside added review and rework burdens for core contributors.",
     "keyword": "engineering; quality; work",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value. Persistent identifier: arXiv:2510.10165",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value. Date basis: primary metadata Persistent identifier: arXiv:2510.10165",
     "issued": {
       "date-parts": [
         [
@@ -3753,7 +3753,7 @@
     ],
     "abstract": "An evolutionary coding agent improves algorithms and infrastructure through evaluator-driven search, including selected novel mathematical procedures.",
     "keyword": "science; engineering; ai-rd",
-    "note": "Method: experimental-demonstration. Status: preprint. Verification: content-checked (primary abstract). Limitations: Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows. Persistent identifier: arXiv:2506.13131",
+    "note": "Method: experimental-demonstration. Status: preprint. Verification: content-checked (primary abstract). Limitations: Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows. Date basis: primary metadata Persistent identifier: arXiv:2506.13131",
     "issued": {
       "date-parts": [
         [
@@ -3794,7 +3794,7 @@
     ],
     "abstract": "Static analysis of 4,442 Java assignments finds that passing functional tests does not reliably indicate broader code quality or security.",
     "keyword": "engineering; quality; security",
-    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Assignments, selected models, and analyzer findings are not direct observations of production exploitation. Persistent identifier: arXiv:2508.14727",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Assignments, selected models, and analyzer findings are not direct observations of production exploitation. Date basis: primary metadata Persistent identifier: arXiv:2508.14727",
     "issued": {
       "date-parts": [
         [
@@ -3882,7 +3882,7 @@
     ],
     "abstract": "Darwin Godel Machine evolves the code of coding agents using an archive and external benchmarks while retaining a foundation model as the engine.",
     "keyword": "ai-rd; engineering; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence. Persistent identifier: arXiv:2505.22954",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence. Date basis: primary metadata Persistent identifier: arXiv:2505.22954",
     "issued": {
       "date-parts": [
         [
@@ -3947,7 +3947,7 @@
     ],
     "abstract": "Automated discovery of reinforcement-learning rules yields methods competitive with hand-designed algorithms and tested in additional environments.",
     "keyword": "science; ai-rd",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and evaluation description). Limitations: Search objective, environments and compute allocation are human-designed; transfer has a defined scope.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and evaluation description). Limitations: Search objective, environments and compute allocation are human-designed; transfer has a defined scope. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -4353,7 +4353,7 @@
     ],
     "abstract": "Compares more than 500,000 Python and Java samples and identifies different defect, vulnerability and structural-complexity profiles in human and model code.",
     "keyword": "engineering; quality; security",
-    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable. Persistent identifier: arXiv:2508.21634",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable. Date basis: primary metadata Persistent identifier: arXiv:2508.21634",
     "issued": {
       "date-parts": [
         [
@@ -4398,7 +4398,7 @@
     ],
     "abstract": "Experienced maintainers took 19% longer on tasks in familiar repositories when allowed early-2025 AI tools, despite expecting and perceiving speedups.",
     "keyword": "productivity; engineering",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary paper abstract and linked experiment report). Limitations: A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents. Persistent identifier: arXiv:2507.09089",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary paper abstract and linked experiment report). Limitations: A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents. Date basis: primary metadata Persistent identifier: arXiv:2507.09089",
     "issued": {
       "date-parts": [
         [
@@ -4477,7 +4477,7 @@
     ],
     "abstract": "A review of 58 programming-education studies groups chatbots, generative tools and intelligent tutors, describing benefits alongside overreliance and implementation barriers.",
     "keyword": "engineering; learning; methods",
-    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v2 abstract and related-publication metadata). Limitations: The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established. Version: December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence. Persistent identifier: arXiv:2510.03884",
+    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v2 abstract and related-publication metadata). Limitations: The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established. Date basis: primary metadata Version: December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence. Persistent identifier: arXiv:2510.03884",
     "issued": {
       "date-parts": [
         [
@@ -4629,7 +4629,7 @@
     ],
     "abstract": "A survey of 415 practitioners maps perceived gains and shifted effort across SPACE dimensions, including review and verification costs.",
     "keyword": "productivity; engineering; methods",
-    "note": "Method: survey. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Self-report and adoption differences; neither proves net losses nor measures firm-level product value. Persistent identifier: arXiv:2510.24265",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Self-report and adoption differences; neither proves net losses nor measures firm-level product value. Date basis: primary metadata Persistent identifier: arXiv:2510.24265",
     "issued": {
       "date-parts": [
         [
@@ -4670,7 +4670,7 @@
     ],
     "abstract": "A mapping of 39 peer-reviewed studies highlights multidimensional productivity assessment but scarce longitudinal and team-level evidence, with unresolved quality effects.",
     "keyword": "engineering; productivity; methods",
-    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v3 abstract and journal/version metadata). Limitations: Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024. Version: Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication. Persistent identifier: arXiv:2507.03156",
+    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v3 abstract and journal/version metadata). Limitations: Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024. Date basis: primary metadata Version: Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication. Persistent identifier: arXiv:2507.03156",
     "issued": {
       "date-parts": [
         [
@@ -5062,7 +5062,7 @@
     ],
     "abstract": "Developers given Copilot completed a JavaScript HTTP-server task in substantially less time; the reported reduction was 55.8%.",
     "keyword": "productivity; engineering",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and experimental description). Limitations: An isolated task and early tool; completion-conditioned estimates and uncertainty matter. Persistent identifier: arXiv:2302.06590",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and experimental description). Limitations: An isolated task and early tool; completion-conditioned estimates and uncertainty matter. Date basis: primary metadata Persistent identifier: arXiv:2302.06590",
     "issued": {
       "date-parts": [
         [
@@ -5312,7 +5312,7 @@
     ],
     "abstract": "QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.",
     "keyword": "engineering; governance; work",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Version: Policy observed on 13 October 2026; original adoption date not established.",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Date basis: not established Version: Policy observed on 13 October 2026; original adoption date not established.",
     "accessed": {
       "date-parts": [
         [

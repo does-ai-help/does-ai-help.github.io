@@ -22,9 +22,15 @@ class Metadata(HTMLParser):
         self.title = []
         self.in_h1 = False
         self.h1 = []
+        self.in_jsonld = False
+        self.jsonld_text = []
+        self.jsonld = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "script" and attrs.get("type", "").lower() == "application/ld+json":
+            self.in_jsonld = True
+            self.jsonld_text = []
         if tag == "meta":
             key = attrs.get("name", attrs.get("property", "")).lower()
             if attrs.get("content"):
@@ -35,16 +41,56 @@ class Metadata(HTMLParser):
             self.in_h1 = True
 
     def handle_endtag(self, tag):
+        if tag == "script" and self.in_jsonld:
+            self.in_jsonld = False
+            try:
+                self.jsonld.append(json.loads("".join(self.jsonld_text)))
+            except ValueError:
+                pass
         if tag == "title":
             self.in_title = False
         if tag == "h1":
             self.in_h1 = False
 
     def handle_data(self, data):
+        if self.in_jsonld:
+            self.jsonld_text.append(data)
         if self.in_title:
             self.title.append(data)
         if self.in_h1:
             self.h1.append(data)
+
+
+def publication_metadata(parsed, title):
+    """Read only matching primary article nodes, never related links or modification dates."""
+    normalize = lambda value: re.sub(r"\W+", "", unescape(value).lower())
+    nodes = []
+    for document in parsed.jsonld:
+        entries = document if isinstance(document, list) else [document]
+        for entry in entries:
+            if isinstance(entry, dict):
+                nodes.extend(entry.get("@graph", [entry]))
+    dates, authors = set(), []
+    for node in nodes:
+        if not isinstance(node, dict):
+            continue
+        types = node.get("@type", [])
+        types = [types] if isinstance(types, str) else types
+        if not set(types) & {"Article", "NewsArticle", "BlogPosting", "ScholarlyArticle", "Report", "Book"}:
+            continue
+        heading = node.get("headline") or node.get("name") or ""
+        if not isinstance(heading, str) or normalize(heading) != normalize(title):
+            continue
+        date = node.get("datePublished")
+        if isinstance(date, str) and re.fullmatch(r"\d{4}(?:-\d{2}(?:-\d{2})?)?(?:T.*)?", date):
+            dates.add(date)
+        byline = node.get("author", [])
+        byline = byline if isinstance(byline, list) else [byline]
+        for author in byline:
+            name = author.get("name") if isinstance(author, dict) else author if isinstance(author, str) else None
+            if name and name not in authors:
+                authors.append(name)
+    return (next(iter(dates)) if len(dates) == 1 else ""), authors
 
 
 def fetch(record, cache, cutoff):
@@ -74,10 +120,11 @@ def fetch(record, cache, cutoff):
             meta = parsed.meta
             title = next((meta[k][0] for k in ["citation_title", "dc.title", "og:title"] if meta.get(k)), "".join(parsed.h1) or "".join(parsed.title))
             result["observed_title"] = re.sub(r"\s+", " ", unescape(title)).strip()
-            authors = meta.get("citation_author", []) or meta.get("dc.creator", [])
+            structured_date, structured_authors = publication_metadata(parsed, result["observed_title"])
+            authors = meta.get("citation_author", []) or meta.get("dc.creator", []) or structured_authors
             if authors:
                 result["authors"] = authors
-            date = next((meta[k][0] for k in ["citation_publication_date", "citation_date", "dc.date", "article:published_time"] if meta.get(k)), "")
+            date = next((meta[k][0] for k in ["citation_publication_date", "citation_date", "dc.date", "article:published_time"] if meta.get(k)), structured_date)
             if date:
                 result["observed_date"] = date
             doi = next((meta[k][0] for k in ["citation_doi", "dc.identifier"] if meta.get(k)), "")

@@ -1,0 +1,3555 @@
+TY  - ELEC
+ID  - maier2026
+TI  - A meta-analysis of the effect of generative AI on productivity and learning in programming
+AU  - Maier, Sebastian
+AU  - Gunzenhäuser, Moritz
+AU  - Schweisthal, Jonas
+AU  - Schneider, Manuel
+AU  - Feuerriegel, Stefan
+DA  - 2026-05-06
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.04779
+AB  - Across 23 studies and 27 effects, reported productivity gains are moderate (g=0.33), whereas the learning estimate is not statistically distinguishable from zero.
+N1  - The search covers 2019-2025, not 2026 tools. Standardized effects combine unlike outcomes and cannot be read as percentage gains or evidence of equivalence in learning.
+KW  - engineering
+KW  - learning
+KW  - productivity
+KW  - methods
+DO  - 10.48550/arXiv.2605.04779
+AN  - arXiv:2605.04779
+N1  - Version: May 2026 v1 preprint; productivity 95% CI 0.09-0.58, learning g=0.14 with CI -0.18 to 0.47. No pooled effect is calculated by our review.
+ER  - 
+
+TY  - JOUR
+ID  - robin2026
+TI  - A multi-agent system for automating scientific discovery
+AU  - Ghareeb, Ali E.
+AU  - Chang, Benjamin
+AU  - Mitchener, Ludovico
+AU  - Yiu, Angela
+AU  - Szostkiewicz, Caralyn J.
+AU  - Shved, Dmytro
+AU  - Gyimesi, Gavin J.
+AU  - Laurent, Jon M.
+AU  - Wright, Samantha M.
+AU  - Razzak, Muhammed T.
+AU  - White, Andrew D.
+AU  - Finnemann, Silvia C.
+AU  - Hinks, Michaela M.
+AU  - Rodriques, Samuel G.
+DA  - 2026-07
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-026-10652-y
+AB  - Robin connects literature work, hypothesis generation and analysis to selected laboratory experiments in a multi-agent discovery workflow.
+N1  - A limited number of tasks and experiments; repeatable general discovery requires broader independent testing.
+KW  - science
+KW  - agents
+DO  - 10.1038/s41586-026-10652-y
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - ramp2026
+TI  - A New Look at AI's Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment
+AU  - Kharazian, Ara
+AU  - Simon, Lisa
+AU  - Stevens, Ryan
+PY  - 2026
+UR  - https://ramp.com/data/ai-jobs-impact/paper
+AB  - Links firm AI spending and workforce records, finding stronger hiring among high-intensity adopters than among comparison firms.
+N1  - Growing, larger, technical and venture-backed adopters differ before treatment; spending intensity is not a randomized intervention.
+KW  - work
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - ref-5bff21951f
+TI  - A New Look at AI’s Impact on Jobs
+AU  - Ramp Economics Lab
+DA  - 2026-06-30
+N1  - Date basis: Publisher launch announcement dated 30 June 2026; https://ramp.com/data/heavy-ai-adopters-hire-more; checked 13 October 2026. Landing-page launch date, not a separately dated paper revision.
+PY  - 2026
+UR  - https://ramp.com/data/ai-jobs-impact
+AB  - Supporting reference on work. Scope indicated by the primary-source title: A New Look at AI’s Impact on Jobs. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - wang2026
+TI  - A Risk-Adaptive and Evidence-Constrained Framework for Generative AI Feedback in Programming Education
+AU  - Wang, Shihao
+DA  - 2026-09-24
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.29874
+AB  - Combines risk prediction, evidence-bounded feedback and progressive assistance using historical failed submissions from 215 students.
+N1  - Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning.
+KW  - learning
+KW  - engineering
+AN  - arXiv:2609.29874
+ER  - 
+
+TY  - ELEC
+ID  - mathmisalignment2026
+TI  - A Severe Misalignment of AI in Mathematics
+DA  - 2026-09-11
+PY  - 2026
+UR  - https://mathandai.org/
+AB  - A declaration initiated by 25 Fields medallists recognizes stronger AI capabilities but opposes problem-count incentives disconnected from mathematical understanding.
+N1  - Normative collective statement, not representative polling or an empirical estimate. Signatories are endorsers, not automatically bibliographic coauthors.
+KW  - science
+KW  - governance
+KW  - work
+DO  - 10.5281/zenodo.22737750
+N1  - Version: DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking.
+ER  - 
+
+TY  - JOUR
+ID  - coscientist2026
+TI  - Accelerating scientific discovery with Co-Scientist
+AU  - Gottweis, Juraj
+AU  - Weng, Wei-Hung
+AU  - Daryin, Alexander
+AU  - Tu, Tao
+AU  - Sirkovic, Petar
+AU  - Myaskovsky, Artiom
+AU  - Glowaty, Grzegorz
+AU  - Weissenberger, Felix
+AU  - Orlandi, Alessio
+AU  - Popovici, Dan
+AU  - Palepu, Anil
+AU  - Rong, Keran
+AU  - Tanno, Ryutaro
+AU  - Saab, Khaled
+AU  - Zhang, Fan
+AU  - Blum, Jacob
+AU  - Carroll, Andrew
+AU  - Kulkarni, Kavita
+AU  - Tomašev, Nenad
+AU  - Zverinski, Dina
+AU  - Rendulic, Ivor
+AU  - Vedadi, Elahe
+AU  - Hasler, Florian
+AU  - Rimanic, Luka
+AU  - Boia, Marina
+AU  - Budiselic, Ivan
+AU  - Feinstein, Ben
+AU  - Bellaiche, Mathias
+AU  - Sheffer, Tom
+AU  - Freyberg, Jan
+AU  - Ratcliff, Jeremy
+AU  - Bertolli, Ottavia
+AU  - Chou, Katherine
+AU  - Hassidim, Avinatan
+AU  - Gokturk, Burak
+AU  - Vahdat, Amin
+AU  - Guan, Yuan
+AU  - Dhillon, Vikram
+AU  - Vaishnav, Eeshit Dhaval
+AU  - Lee, Byron
+AU  - Costa, Tiago R. D.
+AU  - Penadés, José R.
+AU  - Peltz, Gary
+AU  - Matias, Yossi
+AU  - Manyika, James
+AU  - Hassabis, Demis
+AU  - Xu, Yunhan
+AU  - Kohli, Pushmeet
+AU  - Pawlosky, Annalisa
+AU  - Karthikesalingam, Alan
+AU  - Natarajan, Vivek
+DA  - 2026-07
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-026-10644-y
+AB  - Co-Scientist generates and prioritizes research hypotheses, with selected results assessed through expert and experimental validation.
+N1  - Selected biological cases and human direction; broad autonomy is not demonstrated.
+KW  - science
+KW  - agents
+DO  - 10.1038/s41586-026-10644-y
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - murphyhill2026
+TI  - Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI
+AU  - Murphy-Hill, Emerson
+AU  - Butler, Jenna
+AU  - Savelieva, Alexandra
+DA  - 2026-07-01
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.01418
+AB  - Microsoft's early-2026 CLI-agent rollout is associated with roughly 24% more merged pull requests among adopters across four months.
+N1  - Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random.
+KW  - productivity
+KW  - engineering
+KW  - cost
+AN  - arXiv:2607.01418
+ER  - 
+
+TY  - ELEC
+ID  - ref-1d4ccde518
+TI  - Advancing Mathematics Research with AI-Driven Formal Proof Search
+AU  - Tsoukalas, George
+AU  - Kovsharov, Anton
+AU  - Shirobokov, Sergey
+AU  - Surina, Anja
+AU  - Firsching, Moritz
+AU  - Bérczi, Gergely
+AU  - Ruiz, Francisco J. R.
+AU  - Suggala, Arun
+AU  - Wagner, Adam Zsolt
+AU  - Wieser, Eric
+AU  - Yu, Lei
+AU  - Huang, Aja
+AU  - Horváth, Miklós Z.
+AU  - Ferraiuolo, Andrew
+AU  - Michalewski, Henryk
+AU  - Lockhart, Edward
+AU  - Grosu, Codrut
+AU  - Hubert, Thomas
+AU  - Balog, Matej
+AU  - Kohli, Pushmeet
+AU  - Chaudhuri, Swarat
+DA  - 2026-05-21
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.22763
+AB  - Supporting reference on science. Scope indicated by the primary-source title: Advancing Mathematics Research with AI-Driven Formal Proof Search. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - science
+AN  - arXiv:2605.22763
+ER  - 
+
+TY  - ELEC
+ID  - ahm2026
+TI  - AHM Statement on OpenAI's October 6 Release of Mathematical Documents
+AU  - Association for Human Mathematics Communications Working Group
+DA  - 2026-10-07
+PY  - 2026
+UR  - https://www.ahmath.org/statements
+AB  - Rejects the value of OpenAI's mass mathematical release and calls for mathematicians to discontinue collaboration with the company.
+N1  - A strong organizational position, not a vote of all mathematicians or a technical refutation of every released result. Legal allegations are not adjudicated here.
+KW  - science
+KW  - governance
+KW  - work
+N1  - Version: Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements.
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Statement heading, official organization and working-group attribution, and main statement text in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - orland2026
+TI  - AI coding agents generate more code, but not more software
+AU  - Orland, Kyle
+DA  - 2026-10-09
+PY  - 2026
+UR  - https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/
+AB  - Reports Chen and Stratton's firm-level study and its downstream review bottleneck.
+N1  - Secondary coverage of an already included study, not independent evidence. The headline is stronger than a statistically insignificant output estimate warrants.
+KW  - engineering
+KW  - productivity
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - ref-c5caafbad6
+TI  - AI Economic Indicators: June 2026 Update
+N1  - Date basis: identifier or URL year; exact date not established
+PY  - 2026
+UR  - https://digitaleconomy.stanford.edu/app/uploads/2026/06/AIEI_RN01_Jun26.pdf
+AB  - Supporting reference on context. Scope indicated by the primary-source title: AI Economic Indicators: June 2026 Update. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 
+
+TY  - ELEC
+ID  - ref-94bc27fcb9
+TI  - AI Evaluation Should Measure Verification Cost, Not Correctness Alone
+AU  - Crescitelli, Viviana
+AU  - Immediato, Generoso
+AU  - Persia, Fabio
+AU  - Costantini, Stefania
+DA  - 2026-08-09
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.08709
+AB  - Supporting reference on methods, business. Scope indicated by the primary-source title: AI Evaluation Should Measure Verification Cost, Not Correctness Alone. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - methods
+KW  - business
+AN  - arXiv:2608.08709
+ER  - 
+
+TY  - ELEC
+ID  - ref-f9d0fcda86
+TI  - AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development
+AU  - Agarwal, Shyam
+AU  - He, Hao
+AU  - Vasilescu, Bogdan
+DA  - 2026-01-20
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.13597
+AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+KW  - methods
+AN  - arXiv:2601.13597
+ER  - 
+
+TY  - ELEC
+ID  - faros2026
+TI  - AI Impact on Engineering Productivity: 2026 Report Data
+AU  - Faros AI
+PY  - 2026
+UR  - https://www.faros.ai/research/ai-acceleration-whiplash
+AB  - Vendor telemetry reports higher output alongside larger changes, review pressure, defects and incidents as AI adoption intensifies.
+N1  - Selection, changing workflows, relative metrics, limited baselines, and vendor interests impede causal attribution.
+KW  - engineering
+KW  - productivity
+KW  - quality
+ER  - 
+
+TY  - ELEC
+ID  - candidate-cnbc-2026
+TI  - AI is automating coding. So why are software developer job postings on the rise?
+AU  - Winston, Corynn
+DA  - 2026-10-11
+PY  - 2026
+UR  - https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html
+AB  - Contrasts a rebound in developer job postings with concentration in senior/AI-oriented roles and pressure on early-career employment.
+N1  - Secondary coverage of multiple datasets; postings, employment and long-term projections are not equivalent. No causal effect of AI on hiring is established by this article; linked underlying estimates were not newly audited here.
+KW  - engineering
+KW  - work
+N1  - Version: Previously an unresolved candidate; title, byline and date identified in local Chrome on 13 October 2026. Stable ID retained.
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Headline, byline, publication date, key points and accessible article paragraphs in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - mukherjee2026
+TI  - AI Is Eating Software and Investors Have Noticed
+AU  - Mukherjee, Andy
+DA  - 2026-10-08
+PY  - 2026
+UR  - https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap
+AB  - Discusses delayed productivity effects and investors' expectations of AI-related software-sector change.
+N1  - Market interpretation and forecasts, not a causal evaluation of AI deployment. Inspected the public text only, not subscriber functionality.
+KW  - business
+KW  - work
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Headline, Andy Mukherjee/Bloomberg attribution, date and visible membership boundary in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - herrengt2026
+TI  - AI is removing the middle class of software engineering
+AU  - Herrengt, Florian
+DA  - 2026-08-11
+PY  - 2026
+UR  - https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html
+AB  - Proposes that cheaper implementation shifts engineering value toward judgment and responsibility, potentially hollowing out intermediate roles.
+N1  - An argued hypothesis, not a measured labor-market result or established forecast.
+KW  - engineering
+KW  - work
+KW  - judgment
+ER  - 
+
+TY  - ELEC
+ID  - ghosttypolicy2026
+TI  - AI Usage Policy
+AU  - Ghostty project
+PY  - 2026
+UR  - https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md
+AB  - Requires disclosure and human understanding of outside contributions, rejects generated media and sanctions low-quality submissions while explicitly welcoming responsible AI assistance.
+N1  - Not a blanket AI-code ban or an experiment; maintainers have different permissions from external contributors.
+KW  - engineering
+KW  - governance
+KW  - work
+N1  - Version: Pinned to the latest file-changing revision available at the cutoff: 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b, 15 February 2026.
+ER  - 
+
+TY  - ELEC
+ID  - hemandate2026
+TI  - AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate
+AU  - He, Hao
+AU  - Agarwal, Shyam
+AU  - Denisov-Blanch, Yegor
+AU  - Azaletskiy, Pavel
+AU  - Koyejo, Sanmi
+AU  - Vasilescu, Bogdan
+DA  - 2026-07-02
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.01904v1
+AB  - One enterprise reaches 2.09 times baseline merged PRs per developer; review load also roughly doubles and automated review expands.
+N1  - Nonrandom adoption and use, one AI-forward company and PR throughput rather than user value. Stable merge/revert rates do not establish absence of downstream defects.
+KW  - engineering
+KW  - productivity
+KW  - quality
+DO  - 10.48550/arXiv.2607.01904
+AN  - arXiv:2607.01904
+N1  - Version: Pinned to v1. Distinguish within-developer adoption estimates from the total organization-level throughput change.
+ER  - 
+
+TY  - JOUR
+ID  - era2026
+TI  - An AI system to help scientists write expert-level empirical software
+AU  - Aygün, Eser
+AU  - Belyaeva, Anastasiya
+AU  - Comanici, Gheorghe
+AU  - Coram, Marc
+AU  - Cui, Hao
+AU  - Garrison, Jake
+AU  - Johnston, Renee
+AU  - Kast, Anton
+AU  - McLean, Cory Y.
+AU  - Norgaard, Peter
+AU  - Shamsi, Zahra
+AU  - Smalling, David
+AU  - Thompson, James
+AU  - Venugopalan, Subhashini
+AU  - Williams, Brian P.
+AU  - He, Chujun
+AU  - Martinson, Sarah
+AU  - Plomecka, Martyna
+AU  - Wei, Lai
+AU  - Zhou, Yuchen
+AU  - Zhu, Qian-Ze
+AU  - Abraham, Matthew
+AU  - Brand, Erica
+AU  - Bulanova, Anna
+AU  - Cardille, Jeffrey A.
+AU  - Co, Chris
+AU  - Ellsworth, Scott
+AU  - Joseph, Grace
+AU  - Kane, Malcolm
+AU  - Krueger, Ryan
+AU  - Kartiwa, Johan
+AU  - Liebling, Dan
+AU  - Lueckmann, Jan-Matthis
+AU  - Raccuglia, Paul
+AU  - Wang, Xuefei Julie
+AU  - Chou, Katherine
+AU  - Manyika, James
+AU  - Matias, Yossi
+AU  - Platt, John C.
+AU  - Dorfman, Lizzie
+AU  - Mourad, Shibl
+AU  - Brenner, Michael P.
+DA  - 2026-06
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-026-10658-6
+AB  - ERA iteratively searches software candidates for scorable scientific and engineering tasks, demonstrating strong empirical-software performance.
+N1  - Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation.
+KW  - science
+KW  - engineering
+KW  - agents
+DO  - 10.1038/s41586-026-10658-6
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - ref-4336e76ca7
+TI  - Announcing RSI Bench
+AU  - Anas Mahmoud
+AU  - MohammadHossein Rezaei
+AU  - Mingchen Zhuge
+AU  - Chenguang Wang
+AU  - Yuandong Tian
+AU  - Yunzhong He
+DA  - 2026-08-07
+N1  - Date basis: Primary announcement date and byline; source page checked 13 October 2026.
+PY  - 2026
+UR  - https://rsi-benchmark.com/blog/announcing-rsi-bench
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 
+
+TY  - ELEC
+ID  - ref-a32e7d5bed
+TI  - Are Coding Agents Generating Over-Mocked Tests? An Empirical Study
+AU  - Hora, Andre
+AU  - Robbes, Romain
+DA  - 2026-01-30
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.00409
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: Are Coding Agents Generating Over-Mocked Tests? An Empirical Study. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+AN  - arXiv:2602.00409
+ER  - 
+
+TY  - ELEC
+ID  - chenstratton2026
+TI  - Artificial Intelligence in the Firm: Bottlenecks in Software Production
+AU  - Chen, Fiona
+AU  - Stratton, James
+DA  - 2026-08-04
+PY  - 2026
+UR  - https://fion.ac/jellyfish.pdf
+AB  - Firm-level adoption analysis using Jellyfish data finds increased coding activity, longer review cycles, and limited pass-through to resolved issues or epics.
+N1  - Proprietary data, parallel-trends assumptions, firm-level adoption, and output proxies; insignificant effects are not proof of exactly zero benefit.
+KW  - productivity
+KW  - engineering
+KW  - business
+N1  - Version: Current linked version August 4, 2026; first version January 7, 2026.
+ER  - 
+
+TY  - JOUR
+ID  - hao2026
+TI  - Artificial intelligence tools expand scientists’ impact but contract science’s focus
+AU  - Hao, Qianyue
+AU  - Xu, Fengli
+AU  - Li, Yong
+AU  - Evans, James
+DA  - 2026-01
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-025-09922-y
+AB  - Analysis of 41.3 million papers associates AI use with individual career and output advantages but a narrower collective distribution of research topics.
+N1  - Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading.
+KW  - science
+KW  - work
+KW  - diversity
+DO  - 10.1038/s41586-025-09922-y
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - alignment2026
+TI  - Automated Researchers Can Mitigate Well-Characterized Alignment Failures
+AU  - Chen Yueh-Han
+AU  - Wen, Jiaxin
+AU  - Kirchner, Jan Hendrik
+PY  - 2026
+UR  - https://alignment.anthropic.com/2026/automated-alignment-researchers
+AB  - Automated researchers improve benchmarks for ten defined alignment failures, with selected transfer and behavioral auditing tests.
+N1  - Unequal iterative opportunities in the human comparison, selective capability tests, and vendor-produced evidence; detected cheating trajectories were excluded.
+KW  - ai-rd
+KW  - science
+KW  - security
+ER  - 
+
+TY  - ELEC
+ID  - ref-672d8f5482
+TI  - Beyond code generation: rethinking engineering productivity in the age of AI agents
+AU  - Kazuaki Okumura
+DA  - 2026-05-28
+N1  - Date basis: Primary Dropbox article date and byline; checked 13 October 2026.
+PY  - 2026
+UR  - https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents
+AB  - Supporting reference on engineering, productivity, agents. Scope indicated by the primary-source title: Beyond code generation: rethinking engineering productivity in the age of AI agents. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+KW  - agents
+ER  - 
+
+TY  - ELEC
+ID  - brand2026
+TI  - Beyond Productivity: Measuring Developers' Cognitive Load During GenAI-Supported Software Development
+AU  - Brandebusemeyer, Charlotte
+AU  - Gasser, Daniela
+AU  - Schimmer, Tobias
+AU  - Arnrich, Bert
+DA  - 2026-09-29
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.37645
+AB  - A four-day study of 21 SAP developers relates perceived cognitive load to AI use and task context; wearable measurements add limited information.
+N1  - Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort.
+KW  - cognition
+KW  - engineering
+KW  - work
+AN  - arXiv:2609.37645
+ER  - 
+
+TY  - ELEC
+ID  - chen2026
+TI  - Beyond the Commit: Developer Perspectives on Productivity with AI Coding Assistants
+AU  - Chen, Valerie
+AU  - He, Jasmyn
+AU  - Williams, Behnjamin
+AU  - Valentino, Jason
+AU  - Talwalkar, Ameet
+DA  - 2026-02-03
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.03593
+AB  - A BNY Mellon survey with 2,989 responses and 11 interviews argues for measuring expertise, ownership and longer-run productivity alongside activity.
+N1  - Self-reports within one organization; identifies constructs rather than a causal effect size.
+KW  - productivity
+KW  - engineering
+KW  - methods
+AN  - arXiv:2602.03593
+ER  - 
+
+TY  - ELEC
+ID  - innovationeval2026
+TI  - Can AI automate AI R&D yet?
+AU  - Owen, David
+DA  - 2026-10-07
+PY  - 2026
+UR  - https://epoch.ai/publications/innovationeval
+AB  - An end-to-end test of novel post-training research finds weak improvements relative to a withheld human method and exposes misleading result selection.
+N1  - One task, few expensive runs, partly human scope assessment, and contamination in successor models.
+KW  - ai-rd
+KW  - science
+KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - babina2026
+TI  - Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital
+AU  - Babina, Tania
+AU  - He, Alex X.
+AU  - Jiang, Renhao
+PY  - 2026
+UR  - https://www.nber.org/papers/w35684
+AB  - Firm-level AI-skilled employment measures link recent productivity improvements to investment in durable organizational knowledge and processes.
+N1  - Broader AI than chatbots, employment-based investment proxies and identification assumptions; not a license-purchase ROI estimate.
+KW  - business
+KW  - productivity
+KW  - work
+DO  - 10.3386/w35684
+ER  - 
+
+TY  - ELEC
+ID  - ref-332821c892
+TI  - CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs
+DA  - 2026-06-09
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos
+AB  - Supporting reference on context. Scope indicated by the primary-source title: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 
+
+TY  - ELEC
+ID  - tran2026
+TI  - Characterizing the Quality Profile of AI-Generated C++ in Production
+AU  - Tran, Michael
+AU  - Lewis, Fred
+AU  - Yang, Kun
+AU  - Thakur, Saksham
+AU  - Kini, Aditya
+AU  - Patil, Aditya
+AU  - Hashemi, Milad
+AU  - Ranganathan, Parthasarathy
+DA  - 2026-08-06
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.06640
+AB  - Production C++ telemetry finds distinct warning profiles, added review effort, and higher compute consumption in the studied AI-code cohort.
+N1  - One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier.
+KW  - engineering
+KW  - quality
+KW  - cost
+AN  - arXiv:2608.06640
+ER  - 
+
+TY  - JOUR
+ID  - wulearning2026
+TI  - ChatGPT's impact on student learning outcomes: a meta-analysis of 35 experimental studies
+AU  - Wu, Xinning
+AU  - Zhu, Pei
+AU  - Zhang, Jinliang
+AU  - Yin, Mengwei
+AU  - Wang, Yingxi
+DA  - 2026-03-26
+PY  - 2026
+UR  - https://www.nature.com/articles/s41599-026-07019-z
+AB  - A synthesis of 35 studies and 4,193 participants reports a positive standardized learning effect (g=0.670) and no detected publication bias in its tests.
+N1  - Underlying studies date from 2022-2024. Mixed cognitive and non-cognitive outcomes, selection and limited moderators constrain comparison with newer STEM syntheses; non-detection does not establish absence of bias.
+KW  - learning
+KW  - methods
+DO  - 10.1057/s41599-026-07019-z
+JO  - Humanities and Social Sciences Communications
+ER  - 
+
+TY  - ELEC
+ID  - coslr2026
+TI  - Checkpoints Are Not Enough: Trust Calibration in CoSLR, a Human-AI System for Systematic Literature Reviews
+AU  - Islam, MD Aidul
+AU  - Sami, Malik Abdul
+AU  - Waseem, Muhammad
+AU  - Rasheed, Zeeshan
+AU  - Kemell, Kai-kristian
+AU  - Zhang, Zheying
+AU  - Abrahamsson, Pekka
+DA  - 2026-09-05
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.22248
+AB  - A 63-participant evaluation of an AI-assisted review system finds that mandatory verification checkpoints alone do not ensure users actually check generated synthesis.
+N1  - Short interaction and self-reported intentions, not a controlled estimate of review accuracy or error prevention. Useful as a process warning, not validation of this review.
+KW  - science
+KW  - trust
+KW  - methods
+AN  - arXiv:2609.22248
+ER  - 
+
+TY  - ELEC
+ID  - schwartz2026
+TI  - Claude-shaped science
+AU  - Schwartz, Matthew
+DA  - 2026-10-01
+PY  - 2026
+UR  - https://www.anthropic.com/research/claude-shaped-science
+AB  - BootLoops connects methods across quantitative fields; domain experts redirect technically correct results toward questions with scientific significance.
+N1  - Selected personal case studies and manuscripts under further verification; the author was a visiting researcher at Anthropic.
+KW  - science
+KW  - engineering
+KW  - judgment
+ER  - 
+
+TY  - ELEC
+ID  - ref-cfd1453651
+TI  - Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify | Spotify Engineering
+N1  - Date basis: identifier or URL year; exact date not established
+PY  - 2026
+UR  - https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify | Spotify Engineering. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+ER  - 
+
+TY  - ELEC
+ID  - ref-ffcede42d0
+TI  - Computer Science Has Hit Its High Water Mark
+AU  - Caelan Wilkie-Rogers
+DA  - 2026-05-19
+N1  - Date basis: Primary Revelio publication date and suggested citation; checked 13 October 2026. The 11 June update is not the original publication date.
+PY  - 2026
+UR  - https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark
+AB  - Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - science
+ER  - 
+
+TY  - ELEC
+ID  - ghosttycontribution2026
+TI  - Contributing to Ghostty
+AU  - Ghostty project
+PY  - 2026
+UR  - https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md
+AB  - First-time contributors require maintainer vouching; the project attributes the gate to low-quality submissions and erosion of default trust.
+N1  - Shows an actual participation restriction, not its prevalence across open source or a causal estimate of AI harm.
+KW  - engineering
+KW  - governance
+N1  - Version: Pinned to revision 22f9233a0f7b85747483ce713411c67be4643d8f, 19 April 2026.
+ER  - 
+
+TY  - ELEC
+ID  - darwinx2026
+TI  - DarwinX: Evolving Agent Harnesses Through Natural Selection
+AU  - Zhang, Yifan
+AU  - Dai, Yutong
+AU  - Tan, Juntao
+AU  - Yang, Luyu
+AU  - Mullur, Rishi
+AU  - Hoang, Thai
+AU  - Hu, Zhiyuan
+AU  - Zhu, James
+AU  - Mui, Phil
+AU  - Savarese, Silvio
+AU  - Xu, Ran
+AU  - Chen, Zeyuan
+DA  - 2026-07-31
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.07545
+AB  - Population search over harnesses improves benchmark performance with a frozen model, treating tools, prompts and control flow as evolvable components.
+N1  - Recent author-reported benchmark results require independent replication and careful train-test separation.
+KW  - ai-rd
+KW  - agents
+AN  - arXiv:2608.07545
+ER  - 
+
+TY  - ELEC
+ID  - ref-080071453a
+TI  - Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the Wild
+AU  - Liu, Yue
+AU  - Widyasari, Ratnadira
+AU  - Zhao, Yanjie
+AU  - Irsan, Ivana Clairine
+AU  - Chen, Junkai
+AU  - Lo, David
+DA  - 2026-03-30
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.28592
+AB  - Supporting reference on engineering, quality. Scope indicated by the primary-source title: Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the Wild. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - quality
+AN  - arXiv:2603.28592
+ER  - 
+
+TY  - ELEC
+ID  - ref-6d1ee1d676
+TI  - Developers and Generative AI: A Study of Self-Admitted Usage in Open Source Projects
+AU  - Tufano, Rosalia
+AU  - Pepe, Federica
+AU  - Zampetti, Fiorella
+AU  - Mastropaolo, Antonio
+AU  - Dabić, Ozren
+AU  - Di Penta, Massimiliano
+AU  - Bavota, Gabriele
+DA  - 2026-03-27
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.26277
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Developers and Generative AI: A Study of Self-Admitted Usage in Open Source Projects. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+AN  - arXiv:2603.26277
+ER  - 
+
+TY  - ELEC
+ID  - ref-18f316cc73
+TI  - Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories
+AU  - Huang, Shuyan
+AU  - Du, Kai
+AU  - Lan, Andrew
+DA  - 2026-08-10
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.10319
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+AN  - arXiv:2608.10319
+ER  - 
+
+TY  - ELEC
+ID  - iac2026
+TI  - Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair
+AU  - Agyekum, Benjamin
+AU  - Santos, Fabio
+DA  - 2026-08-13
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.13404
+AB  - Iterative infrastructure-code repair can regress security; changing the regression definition reduces measured affected scenarios from 13.8% to 3.3%.
+N1  - Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures.
+KW  - engineering
+KW  - security
+KW  - methods
+AN  - arXiv:2608.13404
+ER  - 
+
+TY  - ELEC
+ID  - doratensions2026
+TI  - DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use
+AU  - DORA
+PY  - 2026
+UR  - https://dora.dev/insights/balancing-ai-tensions
+AB  - Discusses tensions between AI adoption, trust, verification, workflow design, and effective use across the software lifecycle.
+N1  - Interpretive and practical guidance; not a new randomized productivity estimate.
+KW  - engineering
+KW  - business
+ER  - 
+
+TY  - JOUR
+ID  - boolzen2026
+TI  - Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes
+AU  - Boolzen, Chiara
+AU  - Kuhn, Jochen
+AU  - Flegr, Salome
+AU  - Rott, Eva-Maria
+AU  - Stausberg, Niklas
+AU  - Küchemann, Stefan
+DA  - 2026-08-25
+PY  - 2026
+UR  - https://link.springer.com/article/10.1007/s10462-026-11665-9
+AB  - A STEM synthesis finds highly heterogeneous positive conventional estimates; robust Bayesian publication-bias adjustment reduces the overall mean close to zero.
+N1  - 85 eligible studies, 49 pooled, 59 effects; I-squared=96.32%. Bias correction depends on modeling assumptions and does not prove that every instructional use fails.
+KW  - learning
+KW  - methods
+DO  - 10.1007/s10462-026-11665-9
+JO  - Artificial Intelligence Review
+ER  - 
+
+TY  - ELEC
+ID  - ref-c97b313435
+TI  - Experimental Evidence on the Learning Impact of Generative AI
+AU  - Contractor, Zara
+AU  - Reyes, Germán
+DA  - 2026-07-09
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.08849
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Experimental Evidence on the Learning Impact of Generative AI. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+AN  - arXiv:2607.08849
+ER  - 
+
+TY  - ELEC
+ID  - openainavierpaper2026
+TI  - Finite time blowup for Navier-Stokes
+AU  - OpenAI
+PY  - 2026
+UR  - https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+AB  - The manuscript states a smooth forced flow with finite-time unbounded velocity and bounded kinetic energy, claiming the official breakdown alternatives.
+N1  - Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof.
+KW  - science
+KW  - verification
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: First-page title, attribution, abstract and introduction opening in Chrome's PDF viewer, using accessibility output and visual inspection.
+ER  - 
+
+TY  - ELEC
+ID  - openainaviercode2026
+TI  - Finite time blowup for Navier-Stokes and Euler equations
+AU  - OpenAI
+PY  - 2026
+UR  - https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+AB  - Provides Lean formalization artifacts and independent-checking instructions accompanying the announced mathematical results.
+N1  - Repository availability and build instructions are not our successful execution or an independent audit of formal statement fidelity.
+KW  - science
+KW  - verification
+N1  - Version: Pinned to f9e8bc5b38b6e212696e8a30e3e91517af887bbd, the revision examined by the October critique.
+ER  - 
+
+TY  - CPAPER
+ID  - wittig2026
+TI  - Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity
+AU  - Wittig, Annemarie
+AU  - Mailach, Alina
+AU  - Siegmund, Norbert
+PY  - 2026
+UR  - https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De
+AB  - A two-stage SPACE-informed review identifies 187 distinct productivity-related markers and finds more favorable patterns in perceived than objectively evaluated outcomes.
+N1  - Marker frequencies and reported effect directions are not pooled effect magnitudes. Diverse settings, confounders and source types limit universal conclusions.
+KW  - engineering
+KW  - productivity
+KW  - methods
+DO  - 10.1145/3832783.3834386
+N1  - Version: ASE 2026 accepted research paper with an accessible author preprint in a July-dated URL directory; first posting date not independently established. Presentation scheduled 14 October, after our cutoff; no claim is based on a future presentation.
+ER  - 
+
+TY  - ELEC
+ID  - ref-20bf062604
+TI  - From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality
+AU  - Zhong, Suzhen
+AU  - Noei, Shayan
+AU  - Adams, Bram
+AU  - Zou, Ying
+DA  - 2026-07-14
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.13196
+AB  - Supporting reference on engineering, quality, agents, methods. Scope indicated by the primary-source title: From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - quality
+KW  - agents
+KW  - methods
+AN  - arXiv:2607.13196
+ER  - 
+
+TY  - ELEC
+ID  - westby2026
+TI  - Generative AI and the Redefinition of Entry-Level Software Work
+AU  - Westby, Samuel
+AU  - Modestino, Alicia Sasser
+AU  - Cheng, Peiran
+PY  - 2026
+UR  - https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work
+AB  - U.S. vacancy data show a relative decline in junior software openings and higher experience requirements after ChatGPT's release.
+N1  - Vacancies and posting requirements are not headcount or direct measures of individual AI substitution.
+KW  - work
+KW  - engineering
+KW  - learning
+ER  - 
+
+TY  - ELEC
+ID  - ref-34e37fa225
+TI  - GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?
+AU  - Amena Amro
+AU  - Manar Alalfi
+DA  - 2026-06-29
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://proceedings.mlr.press/v318/amro26a.html
+AB  - Supporting reference on engineering, security, methods. Scope indicated by the primary-source title: GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - ref-fee88585ea
+TI  - Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds
+N1  - Date basis: identifier or URL year; exact date not established
+PY  - 2026
+UR  - https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html
+AB  - Supporting reference on methods, business. Scope indicated by the primary-source title: Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - methods
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - ref-7ba221a977
+TI  - Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning
+AU  - Sebastian Gallegos
+DA  - 2026-03
+N1  - Date basis: Primary IZA Discussion Paper 18513 page: March 2026; checked 13 October 2026. No publication day supplied.
+PY  - 2026
+UR  - https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning
+AB  - Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - shen2026
+TI  - How AI Impacts Skill Formation
+AU  - Shen, Judy Hanwen
+AU  - Tamkin, Alex
+DA  - 2026-01-28
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.20245
+AB  - Randomized study of learning a programming library finds reduced conceptual understanding, code reading and debugging with AI assistance on average.
+N1  - A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized.
+KW  - learning
+KW  - engineering
+AN  - arXiv:2601.20245
+ER  - 
+
+TY  - ELEC
+ID  - ref-db9d091351
+TI  - How AI is expanding what people do at work
+AU  - OpenAI
+DA  - 2026-07-27
+PY  - 2026
+UR  - https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+AB  - Supporting reference on context. Scope indicated by the primary-source title: How AI is expanding what people do at work. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher heading/date, Author block and accessible report introduction in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - alphafoldimpact2026
+TI  - How Artificial Intelligence Shapes Science: Evidence from AlphaFold
+AU  - Hill, Ryan R.
+AU  - Stein, Carolyn
+DA  - 2026-05-04
+PY  - 2026
+UR  - https://www.nber.org/papers/w35143
+AB  - AlphaFold structure availability appears to complement experimental biology and expand basic research on previously understudied proteins, without comparable downstream drug-development effects so far.
+N1  - Domain-specific transition and observation window; predicted structures do not settle biological function or translational success.
+KW  - science
+KW  - business
+DO  - 10.3386/w35143
+ER  - 
+
+TY  - ELEC
+ID  - ref-c12b530ad9
+TI  - How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests
+AU  - Mazloomzadeh, Iren
+AU  - Morovati, Mohammad Mehdi
+AU  - Khomh, Foutse
+DA  - 2026-07-23
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.21832
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+AN  - arXiv:2607.21832
+ER  - 
+
+TY  - ELEC
+ID  - ref-f5457108a3
+TI  - How we’re evolving Jira for AI-native software development - Inside Atlassian
+DA  - 2026-07-15
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.atlassian.com/blog/company-news/ai-sdlc
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: How we’re evolving Jira for AI-native software development - Inside Atlassian. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-e337528cf5
+TI  - Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation
+AU  - Ates, Huseyin
+DA  - 2026-12
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://link.springer.com/article/10.1186/s41239-026-00614-9
+AB  - Supporting reference on learning, science. Scope indicated by the primary-source title: Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - learning
+KW  - science
+DO  - 10.1186/s41239-026-00614-9
+ER  - 
+
+TY  - ELEC
+ID  - llamalima2026
+TI  - LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics
+AU  - Strohmaier, Anselm
+AU  - Bödefeld, Samira
+AU  - Straser, Oliver
+AU  - Reinhold, Frank
+DA  - 2026-09-11
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.18685v5
+AB  - A regularly updated mathematics-learning synthesis reports a positive estimate in its September v5, with larger effects for teacher-supplementing and longer interventions.
+N1  - 34 studies in v5; narrower eligibility and Bayesian models differ from broad STEM syntheses. Shared trials are not independent corroboration; a credible interval is not a confidence interval.
+KW  - learning
+KW  - methods
+DO  - 10.48550/arXiv.2601.18685
+AN  - arXiv:2601.18685
+N1  - Version: Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-0.79. DOI identifies the version family; January first-submission and September revision dates must not be conflated.
+ER  - 
+
+TY  - ELEC
+ID  - taomath2026
+TI  - Math 2.0
+AU  - Tao, Terence
+DA  - 2026-10-09
+PY  - 2026
+UR  - https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf
+AB  - Proposes using AI to strengthen mathematical understanding, exposition and collaborative infrastructure rather than optimizing only the number of solved problems.
+N1  - A research agenda and expert assessment, not a causal measurement of community health; examples include announced future activity.
+KW  - science
+KW  - learning
+KW  - governance
+N1  - Version: Caltech lecture delivered 9 October; slides announced in Tao's blog on 10 October. Future November events are proposals, not completed outcomes.
+ER  - 
+
+TY  - ELEC
+ID  - klowdentao2026
+TI  - Mathematical methods and human thought in the age of AI
+AU  - Klowden, Tanya
+AU  - Tao, Terence
+DA  - 2026-03-27
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.26524v1
+AB  - Situates AI in the history of intellectual tools and argues for applications that expand human thought and meet human needs.
+N1  - A philosophical framework, not a measured effect. Solicited chapter status is distinct from the unabridged preprint's publication status.
+KW  - science
+KW  - learning
+KW  - governance
+DO  - 10.48550/arXiv.2603.26524
+AN  - arXiv:2603.26524
+ER  - 
+
+TY  - ELEC
+ID  - taoicm2026
+TI  - Mathematics in the age of AI
+AU  - Tao, Terence
+DA  - 2026-08-17
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.16753v1
+AB  - Asks what mathematical research is for, conditional on increasingly capable AI problem solving, rather than making a new capability estimate.
+N1  - An ICM lecture-based conceptual argument; submission to proceedings does not establish peer review of this version.
+KW  - science
+KW  - governance
+DO  - 10.48550/arXiv.2608.16753
+AN  - arXiv:2608.16753
+ER  - 
+
+TY  - ELEC
+ID  - rdmetrics2026
+TI  - Measurements for understanding the pace of AI development inside frontier labs
+AU  - Anthropic
+DA  - 2026-09-17
+PY  - 2026
+UR  - https://www.anthropic.com/institute/measuring-pace-of-ai-development
+AB  - A prototype internal R&D index distinguishes AI assistance, collaboration and leadership from full autonomy using a fixed task basket.
+N1  - Model-rated internal documentation and approximate time weights; automation share is not research speedup or independent safety evidence.
+KW  - ai-rd
+KW  - methods
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - metr2026survey
+TI  - Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity
+AU  - METR
+DA  - 2026-05-11
+PY  - 2026
+UR  - https://metr.org/blog/2026-05-11-ai-usage-survey
+AB  - A survey of 349 technical workers estimates perceived changes in the value of work, extending beyond time saved on fixed tasks.
+N1  - Self-reported counterfactuals, selection, and unusually technical respondents; not independently measured causal uplift.
+KW  - productivity
+KW  - work
+ER  - 
+
+TY  - JOUR
+ID  - ownership2026
+TI  - More Code, Less Understanding? On the Impact of AI Assistants on Developers' Productivity and Code Ownership
+AU  - Martin-Lopez, Alberto
+AU  - Tufano, Rosalia
+AU  - Guglielmi, Emanuela
+AU  - Sánchez, Ana B.
+AU  - Sanz, Ana Lourdes
+AU  - Scalabrino, Simone
+AU  - Oliveto, Rocco
+AU  - Segura, Sergio
+AU  - Bavota, Gabriele
+PY  - 2026
+UR  - https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf
+AB  - Among 69 participants, AI improves median task completeness but reduces immediate correct answers about the code: 87.5% versus 100% without AI.
+N1  - Mostly students; only 14 professionals. Short tasks and AI-generated comprehension questions do not measure permanent skill loss or long-run ownership.
+KW  - engineering
+KW  - learning
+KW  - productivity
+JO  - IEEE Transactions on Software Engineering
+N1  - Version: Author-hosted manuscript; journal identity confirmed on the author's research page. The August 2021 running header is a LaTeX template artifact, not the publication date. DOI not yet established in this review.
+ER  - 
+
+TY  - ELEC
+ID  - claynavier2026
+TI  - Navier-Stokes Announcement
+AU  - Clay Mathematics Institute
+DA  - 2026-09-11
+PY  - 2026
+UR  - https://www.claymath.org/news/navier-stokes-announcement/
+AB  - Welcomes the apparent resolution and anticipated new understanding while describing a deliberate evaluation process under the prize rules.
+N1  - Not a prize award or an independent completed validation. Its September statement predates the October translation critique.
+KW  - science
+KW  - verification
+KW  - governance
+ER  - 
+
+TY  - ELEC
+ID  - naviertranslation2026
+TI  - Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs
+AU  - Bastounis, Alexander
+AU  - Circelli, Fabian
+AU  - Hansen, Anders C.
+DA  - 2026-10-06
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.08144v1
+AB  - Identifies mismatches between OpenAI's written argument and Lean lemmas, distinguishing machine-checked validity from faithful translation.
+N1  - A preprint critique, not a complete independent adjudication. Its worst-case ambiguity result is not proof that every practical autoformalization is impossible or that Lean's logic is invalid.
+KW  - science
+KW  - verification
+KW  - methods
+DO  - 10.48550/arXiv.2610.08144
+AN  - arXiv:2610.08144
+ER  - 
+
+TY  - ELEC
+ID  - oecdeducation2026
+TI  - OECD Digital Education Outlook 2026: Exploring Effective Uses of Generative AI in Education
+AU  - OECD
+DA  - 2026-01-19
+PY  - 2026
+UR  - https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html
+AB  - OECD distinguishes stronger assisted task performance from learning that persists without AI, emphasizing instructional design and pedagogical intent.
+N1  - A policy and expert synthesis rather than one causal trial; instructional examples do not establish that every tutor or classroom intervention works.
+KW  - learning
+KW  - methods
+DO  - 10.1787/062a7394-en
+ER  - 
+
+TY  - JOUR
+ID  - alphaproof2025
+TI  - Olympiad-level formal mathematical reasoning with reinforcement learning
+AU  - Hubert, Thomas
+AU  - Mehta, Rishi
+AU  - Sartran, Laurent
+AU  - Horváth, Miklós Z.
+AU  - Žužić, Goran
+AU  - Wieser, Eric
+AU  - Huang, Aja
+AU  - Schrittwieser, Julian
+AU  - Schroecker, Yannick
+AU  - Masoom, Hussain
+AU  - Bertolli, Ottavia
+AU  - Zahavy, Tom
+AU  - Mandhane, Amol
+AU  - Yung, Jessica
+AU  - Beloshapka, Iuliya
+AU  - Ibarz, Borja
+AU  - Veeriah, Vivek
+AU  - Yu, Lei
+AU  - Nash, Oliver
+AU  - Lezeau, Paul
+AU  - Mercuri, Salvatore
+AU  - Sönne, Calle
+AU  - Mehta, Bhavik
+AU  - Davies, Alex
+AU  - Zheng, Daniel
+AU  - Pedregosa, Fabian
+AU  - Li, Yin
+AU  - von Glehn, Ingrid
+AU  - Rowland, Mark
+AU  - Albanie, Samuel
+AU  - Velingker, Ameya
+AU  - Schmitt, Simon
+AU  - Lockhart, Edward
+AU  - Hughes, Edward
+AU  - Michalewski, Henryk
+AU  - Sonnerat, Nicolas
+AU  - Hassabis, Demis
+AU  - Kohli, Pushmeet
+AU  - Silver, David
+DA  - 2026-03
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-025-09833-y
+AB  - AlphaProof combines reinforcement learning with formal mathematical reasoning and machine-checked proofs at olympiad level.
+N1  - Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question.
+KW  - science
+KW  - mathematics
+KW  - verification
+DO  - 10.1038/s41586-025-09833-y
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - openainavier2026
+TI  - On the Navier-Stokes Millennium Prize Problem
+AU  - OpenAI
+DA  - 2026-09-08
+PY  - 2026
+UR  - https://openai.com/index/navier-stokes-solution/
+AB  - Claims a solution of the forced Navier-Stokes breakdown alternatives, releasing a written proof and Lean formalization and describing a large multiagent effort.
+N1  - Developer claim with unavailable internal model; announcement, formal checking, statement fidelity and prize recognition are separate evidentiary stages.
+KW  - science
+KW  - agents
+KW  - verification
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Fully rendered announcement heading/date, Author block, introductory claim and section headings in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - ref-9c4616e51d
+TI  - One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models
+AU  - Yang, Siqi
+AU  - Yang, Qianlan
+AU  - Wang, Yu-Xiong
+AU  - Pujar, Saurabh
+AU  - Hirzel, Martin
+DA  - 2026-08-10
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.10178
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+AN  - arXiv:2608.10178
+ER  - 
+
+TY  - ELEC
+ID  - ref-e7d6fa9f32
+TI  - Online Monitoring and Corrective Steering of Programming Agents
+AU  - Liu, Shuyang
+AU  - Dehghan, Saman
+AU  - Kim, Ji Young
+AU  - Ganhotra, Jatin
+AU  - Hirzel, Martin
+AU  - Jabbarvand, Reyhaneh
+DA  - 2026-08-07
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.06701
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: Online Monitoring and Corrective Steering of Programming Agents. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+AN  - arXiv:2608.06701
+ER  - 
+
+TY  - ELEC
+ID  - lepp2026
+TI  - Patterns of Learner-AI Interaction and Academic Performance in an Object-Oriented Programming Course
+AU  - Lepp, Marina
+DA  - 2026-05-26
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.24755
+AB  - Among 210 first-year OOP students, different self-reported AI-use profiles did not significantly differ in unaided assessment performance.
+N1  - One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter.
+KW  - learning
+KW  - engineering
+AN  - arXiv:2607.24755
+ER  - 
+
+TY  - ELEC
+ID  - demourakernel2026
+TI  - Postmortem for the Kernel Soundness Bug Hunt
+AU  - de Moura, Leonardo
+DA  - 2026-08-24
+PY  - 2026
+UR  - https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/
+AB  - The Lean maintainer documents AI-assisted discovery of soundness bugs and changes to proof-checking safeguards.
+N1  - Maintainer-reported case, not a controlled security comparison. Finding and fixing bugs neither certifies a bug-free kernel nor invalidates all earlier formal proofs.
+KW  - science
+KW  - security
+KW  - verification
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-6c6c6edf18
+TI  - Reinforcement Learning via Self-Distillation
+AU  - Hübotter, Jonas
+AU  - Lübeck, Frederike
+AU  - Behric, Lejs
+AU  - Baumann, Anton
+AU  - Bagatella, Marco
+AU  - Marta, Daniel
+AU  - Hakimi, Ido
+AU  - Shenfeld, Idan
+AU  - Buening, Thomas Kleine
+AU  - Guestrin, Carlos
+AU  - Krause, Andreas
+DA  - 2026-01-28
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.20802
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Reinforcement Learning via Self-Distillation. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+AN  - arXiv:2601.20802
+ER  - 
+
+TY  - ELEC
+ID  - ref-8a1ba594ee
+TI  - Remarks on the disproof of the unit distance conjecture
+AU  - Alon, Noga
+AU  - Bloom, Thomas F.
+AU  - Gowers, W. T.
+AU  - Litt, Daniel
+AU  - Sawin, Will
+AU  - Shankar, Arul
+AU  - Tsimerman, Jacob
+AU  - Wang, Victor
+AU  - Wood, Melanie Matchett
+DA  - 2026-05-20
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.20695
+AB  - Supporting reference on science. Scope indicated by the primary-source title: Remarks on the disproof of the unit distance conjecture. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - science
+AN  - arXiv:2605.20695
+ER  - 
+
+TY  - ELEC
+ID  - researchgym2026
+TI  - ResearchGym: Evaluating Language Model Agents on Real-World AI Research
+AU  - Garikaparthi, Aniketh
+AU  - Patwardhan, Manasi
+AU  - Cohan, Arman
+DA  - 2026-02-16
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.15112
+AB  - Five research environments expose a gap between occasional strong research results and reliable completion of long research workflows.
+N1  - Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance.
+KW  - science
+KW  - ai-rd
+KW  - agents
+AN  - arXiv:2602.15112
+ER  - 
+
+TY  - ELEC
+ID  - ref-5f7ee6a5f8
+TI  - Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs | Fortune
+N1  - Date basis: identifier or URL year; exact date not established
+PY  - 2026
+UR  - https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo
+AB  - Supporting reference on work. Scope indicated by the primary-source title: Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs | Fortune. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - ref-03ecb262cc
+TI  - Sam Altman Says AI ‘Jobs Apocalypse’ Probably Won’t Happen. What Changed?
+DA  - 2026-05-26
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-
+AB  - Supporting reference on work. Scope indicated by the primary-source title: Sam Altman Says AI ‘Jobs Apocalypse’ Probably Won’t Happen. What Changed?. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - ref-12d21bb68f
+TI  - Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'
+AU  - Leigh Cook
+DA  - 2026-05-30
+N1  - Date basis: Primary NewsArticle JSON-LD publication date and byline; retrieved 12 October 2026, inspected 13 October 2026.
+PY  - 2026
+UR  - https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html
+AB  - Supporting reference on work. Scope indicated by the primary-source title: Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - sweci2026
+TI  - SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration
+AU  - Chen, Jialong
+AU  - Xu, Xander
+AU  - Wei, Hu
+AU  - Chen, Chuan
+AU  - Zhao, Bing
+DA  - 2026-03-04
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.03823
+AB  - Evaluates agents across successive repository changes rather than a single static issue, making regression and maintainability central outcomes.
+N1  - A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation.
+KW  - engineering
+KW  - quality
+KW  - agents
+AN  - arXiv:2603.03823
+ER  - 
+
+TY  - ELEC
+ID  - ref-d23bee8852
+TI  - SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review
+AU  - Wang, Ruoyu
+AU  - Chen, Jierun
+AU  - Wang, Shaowei
+AU  - Tao, Chaofan
+AU  - Yang, Sidi
+AU  - Jiang, Yuxin
+AU  - Yap, Kim-Hui
+AU  - Shang, Lifeng
+AU  - Li, Xiaohui
+AU  - Bai, Haoli
+DA  - 2026-07-07
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.06065
+AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+KW  - methods
+AN  - arXiv:2607.06065
+ER  - 
+
+TY  - ELEC
+ID  - ref-dc3f47c33a
+TI  - Synthesizing scientific literature with retrieval-augmented language models
+AU  - Asai, Akari
+AU  - He, Jacqueline
+AU  - Shao, Rulin
+AU  - Shi, Weijia
+AU  - Singh, Amanpreet
+AU  - Chang, Joseph Chee
+AU  - Lo, Kyle
+AU  - Soldaini, Luca
+AU  - Feldman, Sergey
+AU  - D’Arcy, Mike
+AU  - Wadden, David
+AU  - Latzke, Matt
+AU  - Sparks, Jenna
+AU  - Hwang, Jena D.
+AU  - Kishore, Varsha
+AU  - Tian, Minyang
+AU  - Ji, Pan
+AU  - Liu, Shengyan
+AU  - Tong, Hao
+AU  - Wu, Bohao
+AU  - Xiong, Yanyu
+AU  - Zettlemoyer, Luke
+AU  - Neubig, Graham
+AU  - Weld, Daniel S.
+AU  - Downey, Doug
+AU  - Yih, Wen-tau
+AU  - Koh, Pang Wei
+AU  - Hajishirzi, Hannaneh
+DA  - 2026-02
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-025-10072-4
+AB  - Supporting reference on science. Scope indicated by the primary-source title: Synthesizing scientific literature with retrieval-augmented language models. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - science
+DO  - 10.1038/s41586-025-10072-4
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - ref-e299630b86
+TI  - Ten advances in mathematics and theoretical computer science
+DA  - 2026-08-01
+N1  - Date basis: Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026.
+PY  - 2026
+UR  - https://openai.com/index/ten-advances-in-mathematics
+AB  - Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - science
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher title/date and visible results and responsibility section headings in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - taoliving2026
+TI  - Terence Tao on AI in mathematics (and beyond)
+AU  - Tao, Terence
+DA  - 2026-10-11
+PY  - 2026
+UR  - https://teorth.github.io/tao-web/ai-views.html
+AB  - Connects Tao's evolving views, comparative advantage, verification and human-centered mathematics with primary writings and talks.
+N1  - AI-drafted, reviewed and corrected by Tao; editorial selection and third-person paraphrase. Cite original works for specific arguments where possible.
+KW  - science
+KW  - learning
+KW  - methods
+N1  - Version: Inspected version last updated 11 October 2026; page discloses AI assistance, industry access and collaborations.
+ER  - 
+
+TY  - ELEC
+ID  - coverage2026
+TI  - Test Coverage Analysis of Agentic Pull Requests
+AU  - Dipongkor, Atish Kumar
+AU  - Baral, Talank
+AU  - Lam, Wing
+AU  - Moran, Kevin
+DA  - 2026-07-20
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.18057
+AB  - Coverage measurements on 4,882 agent PRs show incomplete execution of changed lines and uneven benefits from agent-written tests.
+N1  - Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication.
+KW  - engineering
+KW  - quality
+KW  - agents
+AN  - arXiv:2607.18057
+ER  - 
+
+TY  - ELEC
+ID  - aiindex2026
+TI  - The 2026 AI Index Report
+AU  - Stanford Institute for Human-Centered Artificial Intelligence, AI Index
+PY  - 2026
+UR  - https://hai.stanford.edu/ai-index/2026-ai-index-report
+AB  - An annual cross-domain reference compendium links technical capability, economic indicators, science, education, governance and public opinion to underlying datasets.
+N1  - Indicators mix benchmarks, surveys, estimates and observational series with different dates and denominators. Adoption, investment and benchmark scores are not interchangeable with causal productivity gains.
+KW  - science
+KW  - work
+KW  - business
+KW  - learning
+KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - nscc2026
+TI  - The Changing Landscape of Postsecondary Education
+AU  - National Student Clearinghouse
+DA  - 2026-02-10
+PY  - 2026
+UR  - https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education
+AB  - Fall 2025 U.S. enrollments fall in traditional Computer and Information Science while Data Science and Analytics grow.
+N1  - Enrollment shifts do not identify AI-driven motivation and can include changes in program labels and international flows.
+KW  - learning
+KW  - work
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Official headline/date, publisher identity and accessible enrollment paragraphs in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - interfaces2026
+TI  - The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior
+AU  - Xu, Xiangzhe
+AU  - Saghir, Hamidreza
+AU  - Wu, Qianhui
+AU  - Côté, Marc-Alexandre
+AU  - Wang, Tong
+AU  - Lakkaraju, Kiran
+AU  - Pei, Kexin
+AU  - Zhang, Xiangyu
+DA  - 2026-08-11
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.11386
+AB  - Across 11,700 trajectories, different tool architectures alter coding-agent behavior, consistency and token consumption despite similar available actions.
+N1  - Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate.
+KW  - agents
+KW  - engineering
+KW  - cost
+AN  - arXiv:2608.11386
+ER  - 
+
+TY  - ELEC
+ID  - vella2026
+TI  - The Impact of AI Coding Assistants on Software Engineering: A Longitudinal Study
+AU  - Vella, Annie
+AU  - Blincoe, Kelly
+DA  - 2026-05-22
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.23135
+AB  - A six-month survey panel reports a shift toward supervisory engineering work and growing experience-related costs despite stable perceived productivity gains.
+N1  - Perceived effects, attrition and 95 matched participants; not independently timed task performance.
+KW  - engineering
+KW  - cognition
+KW  - work
+AN  - arXiv:2605.23135
+ER  - 
+
+TY  - ELEC
+ID  - pragmatic2026
+TI  - The impact of AI on software engineers in 2026: key trends. Part 1
+AU  - Orosz, Gergely
+AU  - Nilsson, Elin
+DA  - 2026-04-14
+PY  - 2026
+UR  - https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026
+AB  - A reader survey describes uneven benefits, rising costs, role changes and tensions between rapid delivery and maintenance.
+N1  - Self-selected 900-plus responses; only the public preview was inspected. Editorial role categories are not a validated workforce taxonomy.
+KW  - engineering
+KW  - work
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - iloreview2026
+TI  - The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence
+AU  - Merola, Rossana
+AU  - Ernst, Ekkehard
+AU  - Samaan, Daniel
+AU  - del Rio-Chanona, Maria
+AU  - Teutloff, Ole
+DA  - 2026-06-01
+PY  - 2026
+UR  - https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical
+AB  - ILO connects task gains with weaker aggregate-output evidence, employment distribution and changes in coordination and job quality.
+N1  - A research brief synthesizing heterogeneous studies, not an independent experiment or meta-analytic estimate. Early null aggregate effects do not establish permanent absence of benefit.
+KW  - work
+KW  - productivity
+KW  - business
+KW  - methods
+DO  - 10.54394/00034628
+N1  - Version: The publisher page dates publication 1 June 2026; the eight-page PDF is headed May 2026. Crossref uses the shorter title without the review subtitle for the same publisher-supplied DOI. These are the same brief, not separate evidence.
+ER  - 
+
+TY  - JOUR
+ID  - candidate-sciencedirect-2026
+TI  - The impact of generative artificial intelligence on software development performance: a study based on the theory of technology dominance
+AU  - Chang, Tsung-Sheng
+AU  - Huang, Lan-Gui
+DA  - 2026-04
+PY  - 2026
+UR  - https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066
+AB  - Survey-based research relates AI reliance, task-technology fit, experience and knowledge integration to software-development performance.
+N1  - Public preview and section snippets only, not the subscription full text. Perceived performance and selected recent AI users do not establish a causal productivity effect; sample size and full estimates were not inspected.
+KW  - engineering
+KW  - productivity
+KW  - business
+DO  - 10.1016/j.im.2026.104306
+JO  - Information & Management
+N1  - Version: Previously an unresolved candidate; identified in local Chrome on 13 October 2026. Stable database ID retained after promotion.
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher headline, authors, issue month, DOI, highlights, abstract opening and methods/discussion snippets in Chrome accessibility output.
+ER  - 
+
+TY  - JOUR
+ID  - iqbal2026
+TI  - The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study
+AU  - Iqbal, Fazla
+AU  - Khan, Muhammad Asif
+AU  - Weerakoon, Oshani
+AU  - Oyedeji, Shola
+AU  - Porras, Jari
+DA  - 2026-07-06
+PY  - 2026
+UR  - https://dl.acm.org/doi/10.1145/3786148.3788622
+AB  - Combines 64 studies with 27 interviews across 12 countries, identifying efficiency benefits alongside energy, dependency, skill and defect concerns.
+N1  - Small, geographically concentrated interview sample; broad AI scope and literature through mid-2025. Qualitative findings do not quantify net environmental impact.
+KW  - engineering
+KW  - sustainability
+KW  - business
+KW  - learning
+DO  - 10.1145/3786148.3788622
+JO  - Proceedings of the IEEE/ACM 10th International Workshop on Green and Sustainable Software
+ER  - 
+
+TY  - ELEC
+ID  - ref-6a4ef3528c
+TI  - The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks
+AU  - US Census Bureau
+N1  - Date basis: identifier or URL year; exact date not established
+PY  - 2026
+UR  - https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html
+AB  - Supporting reference on business. Scope indicated by the primary-source title: The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - kompella2026
+TI  - The risks of AI overreliance in software engineering
+AU  - Kompella, Kashyap
+DA  - 2026-10-05
+PY  - 2026
+UR  - https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering
+AB  - Connects implementation gains with verification costs, code comprehension and long-term engineering capability.
+N1  - Secondary synthesis, not a new experiment. The categorical productivity subheading is too broad; cited studies must be interpreted in their own settings.
+KW  - engineering
+KW  - learning
+KW  - quality
+ER  - 
+
+TY  - ELEC
+ID  - ref-ac9eac4127
+TI  - The State of Generative AI in Software Development: Insights from Literature and a Developer Survey
+AU  - Gurgul, Vincent
+AU  - Gubela, Robin
+AU  - Lessmann, Stefan
+DA  - 2026-03-17
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.16975
+AB  - Supporting reference on engineering, methods. Scope indicated by the primary-source title: The State of Generative AI in Software Development: Insights from Literature and a Developer Survey. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - methods
+AN  - arXiv:2603.16975
+ER  - 
+
+TY  - ELEC
+ID  - gates2026
+TI  - The turbulent AI era is here. The choices we make now are critical.
+AU  - Gates, Bill
+DA  - 2026-08-26
+PY  - 2026
+UR  - https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make
+AB  - Argues that AI's benefits and disruption require preparation, equitable access and protection for affected people.
+N1  - A prominent technology stakeholder's argument and forecasts, not empirical proof of future reliability or aggregate welfare gains.
+KW  - work
+KW  - business
+KW  - learning
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Main essay heading, author/date block and accessible opening paragraphs in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - ref-5b8fb411c7
+TI  - To What Extent Does Agent-generated Code Require Maintenance? An Empirical Study
+AU  - Sawada, Shota
+AU  - Shirai, Tatsuya
+AU  - Kashiwa, Yutaro
+AU  - Yamaguchi, Ken'ichi
+AU  - Iwata, Hiroshi
+AU  - Iida, Hajimu
+DA  - 2026-05-07
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.06464
+AB  - Supporting reference on engineering, quality, agents. Scope indicated by the primary-source title: To What Extent Does Agent-generated Code Require Maintenance? An Empirical Study. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - quality
+KW  - agents
+AN  - arXiv:2605.06464
+ER  - 
+
+TY  - ELEC
+ID  - ref-6bc1fd113e
+TI  - Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering
+AU  - Salim, Mohamad
+AU  - Latendresse, Jasmine
+AU  - Khatoonabadi, SayedHassan
+AU  - Shihab, Emad
+DA  - 2026-01-20
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.14470
+AB  - Supporting reference on engineering, agents, business. Scope indicated by the primary-source title: Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+KW  - business
+AN  - arXiv:2601.14470
+ER  - 
+
+TY  - JOUR
+ID  - aiscientist2026
+TI  - Towards end-to-end automation of AI research
+AU  - Lu, Chris
+AU  - Lu, Cong
+AU  - Lange, Robert Tjarko
+AU  - Yamada, Yutaro
+AU  - Hu, Shengran
+AU  - Foerster, Jakob
+AU  - Ha, David
+AU  - Clune, Jeff
+DA  - 2026-03
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://www.nature.com/articles/s41586-026-10265-5
+AB  - Demonstrates an extended automated ML-research workflow and evaluation of generated work through workshop peer review.
+N1  - Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence.
+KW  - science
+KW  - agents
+DO  - 10.1038/s41586-026-10265-5
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - wilson2026
+TI  - Twelve Ways to Be Wrong About AI-Assisted Coding
+AU  - Wilson, Greg
+DA  - 2026-05-20
+PY  - 2026
+UR  - https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong
+AB  - Organizes recurring methodological mistakes in claims about AI-assisted coding and the measurement of productivity.
+N1  - Critical expert commentary, not an independent outcome study.
+KW  - methods
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-ab61bb638a
+TI  - Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune
+N1  - Date basis: identifier or URL year; exact date not established
+PY  - 2026
+UR  - https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 
+
+TY  - ELEC
+ID  - uber2026
+TI  - Uber Caps Usage of AI Tools Like Claude Code to Manage Costs
+AU  - Willison, Simon
+DA  - 2026-06-03
+PY  - 2026
+UR  - https://simonwillison.net/2026/Jun/3/uber-caps-usage
+AB  - Discusses reported limits on Uber's coding-agent spending and the mismatch between token consumption and demonstrable customer value.
+N1  - Commentary on reporting; not an audited cost-benefit analysis of Uber.
+KW  - business
+KW  - cost
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - hesa2026
+TI  - UK higher education student numbers fall for second year in a row
+AU  - HESA / Jisc
+DA  - 2026-01-27
+PY  - 2026
+UR  - https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row
+AB  - UK 2024/25 official data show growth in Computing and AI despite a decline in total student numbers.
+N1  - Different period and classification from U.S. figures; a geographic contrast rather than direct refutation.
+KW  - learning
+KW  - work
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Official HESA headline/date, organization identification, opening release and computing-subject paragraph in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - vero2026
+TI  - Vero: Can AI Agents Build Formally Verified Software Repositories?
+AU  - Ye, Zhe
+AU  - Lou, Hantao
+AU  - Sun, Yuechun
+AU  - Song, Peiyang
+AU  - Yan, Zhengxu
+AU  - Kasriel, Timothe
+AU  - Zhang, Qingyang
+AU  - Yang, Kaiyu
+AU  - Kong, Soonho
+AU  - He, Jingxuan
+AU  - Song, Dawn
+DA  - 2026-08-13
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.13522
+AB  - Joint implementation-and-proof generation succeeds on 27 of 43 curated multi-module Lean repositories in the strongest evaluated configuration, with no complete success on the hardest cases.
+N1  - Formal validity is conditional on specification; small curated benchmark and configuration-dependent result.
+KW  - engineering
+KW  - verification
+KW  - agents
+AN  - arXiv:2608.13522
+ER  - 
+
+TY  - ELEC
+ID  - metr2026update
+TI  - We are Changing our Developer Productivity Experiment Design
+AU  - Becker, Joel
+AU  - Rush, Nate
+AU  - Cunningham, Tom
+AU  - Rein, David
+AU  - Mahamud, Khalid
+DA  - 2026-02-24
+PY  - 2026
+UR  - https://metr.org/blog/2026-02-24-uplift-update
+AB  - METR's follow-up describes selection and measurement problems as developers increasingly decline AI-disallowed work and operate agents concurrently.
+N1  - Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect.
+KW  - productivity
+KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - hales2026
+TI  - What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI
+AU  - Hales, Thomas
+DA  - 2026-10-09
+PY  - 2026
+UR  - https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/
+AB  - Separates kernel checking from statement fidelity, discusses independent checkers and soundness risks, and describes AI-assisted detection and repair of kernel bugs.
+N1  - Expert technical account, not our independent execution of the proofs or a proof of complete kernel trustworthiness.
+KW  - science
+KW  - verification
+KW  - security
+N1  - Version: Guest author is Thomas Hales, not blog host Terence Tao. Formal checking and human exposition address different questions.
+ER  - 
+
+TY  - ELEC
+ID  - ref-af4b79f2b5
+TI  - When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution
+AU  - Yao, Kai
+DA  - 2026-07-30
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.28041
+AB  - Supporting reference on security. Scope indicated by the primary-source title: When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - security
+AN  - arXiv:2607.28041
+ER  - 
+
+TY  - ELEC
+ID  - ref-529895b385
+TI  - Where Is the AI Jobs Crisis? | The Daily Spark
+AU  - Torsten Slok
+DA  - 2026-06-09
+N1  - Date basis: Primary Apollo article date and About the Author section; checked 13 October 2026.
+PY  - 2026
+UR  - https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis
+AB  - Supporting reference on work. Scope indicated by the primary-source title: Where Is the AI Jobs Crisis? | The Daily Spark. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - ref-11a15eb594
+TI  - Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog
+AU  - Bogdanov, Mikhail
+DA  - 2026-04-02
+PY  - 2026
+UR  - https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Browser page title, main heading, author byline, date and survey-wave introduction in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - ref-33e5e5bcd6
+TI  - Why we no longer evaluate SWE-bench Verified
+AU  - OpenAI
+DA  - 2026-02-23
+PY  - 2026
+UR  - https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified
+AB  - Supporting reference on methods. Scope indicated by the primary-source title: Why we no longer evaluate SWE-bench Verified. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - methods
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Browser page title, date, Author block and main headline in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - demirer2026
+TI  - Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools
+AU  - Demirer, Mert
+AU  - Musolff, Leon
+AU  - Yang, Liyuan
+DA  - 2026-06-01
+PY  - 2026
+UR  - https://www.nber.org/papers/w35275
+AB  - A matched event study of more than 500,000 developers finds large cumulative commit effects that attenuate for projects, releases, and application usage.
+N1  - Nonrandom adoption, heterogeneous tools and outcomes; cumulative event-study estimates are not daily speedup percentages.
+KW  - productivity
+KW  - engineering
+KW  - business
+DO  - 10.3386/w35275
+N1  - Version: September 2026 revision; first issued May 2026.
+ER  - 
+
+TY  - ELEC
+ID  - bergh2026
+TI  - Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership
+AU  - Bergh, Christian
+AU  - Tag, Benjamin
+AU  - Vassar, Alexandra
+AU  - Renzella, Jake
+DA  - 2026-09-18
+N1  - Date basis: primary metadata
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.21194
+AB  - Students assisted by ChatGPT produced stronger C solutions but showed lower immediate and 48-hour recall, with no significant difference in the rate of forgetting.
+N1  - 55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness.
+KW  - learning
+KW  - engineering
+KW  - cognition
+AN  - arXiv:2609.21194
+ER  - 
+
+TY  - ELEC
+ID  - ref-cdc899d526
+TI  - A Survey of Bugs in AI-Generated Code
+AU  - Gao, Ruofan
+AU  - Tahir, Amjed
+AU  - Liang, Peng
+AU  - Susnjak, Teo
+AU  - Khomh, Foutse
+DA  - 2025-12-04
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.05239
+AB  - Supporting reference on engineering, quality, methods. Scope indicated by the primary-source title: A Survey of Bugs in AI-Generated Code. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - quality
+KW  - methods
+AN  - arXiv:2512.05239
+ER  - 
+
+TY  - ELEC
+ID  - ref-293e50cc97
+TI  - A Survey on Code Generation with LLM-based Agents
+AU  - Dong, Yihong
+AU  - Jiang, Xue
+AU  - Qian, Jiaru
+AU  - Wang, Tian
+AU  - Zhang, Kechi
+AU  - Jin, Zhi
+AU  - Li, Ge
+DA  - 2025-07-31
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.00083
+AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: A Survey on Code Generation with LLM-based Agents. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - agents
+KW  - methods
+AN  - arXiv:2508.00083
+ER  - 
+
+TY  - ELEC
+ID  - ref-5830326d93
+TI  - Agentic Refactoring: An Empirical Study of AI Coding Agents
+AU  - Horikawa, Kosei
+AU  - Li, Hao
+AU  - Kashiwa, Yutaro
+AU  - Adams, Bram
+AU  - Iida, Hajimu
+AU  - Hassan, Ahmed E.
+DA  - 2025-11-06
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.04824
+AB  - Supporting reference on engineering, quality, agents. Scope indicated by the primary-source title: Agentic Refactoring: An Empirical Study of AI Coding Agents. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - quality
+KW  - agents
+AN  - arXiv:2511.04824
+ER  - 
+
+TY  - ELEC
+ID  - gitclear2025
+TI  - AI Copilot Code Quality: 2025 Look Back at 12 Months of Data
+AU  - GitClear
+PY  - 2025
+UR  - https://www.gitclear.com/ai_assistant_code_quality_2025_research
+AB  - Tracks code-change patterns, duplication and moved-code metrics across the period of expanding AI-assistant adoption.
+N1  - Calendar-time association is not treatment identification; moved-code measures are not the entirety of refactoring.
+KW  - engineering
+KW  - quality
+ER  - 
+
+TY  - ELEC
+ID  - stackoverflow2025
+TI  - AI | 2025 Stack Overflow Developer Survey
+AU  - Stack Overflow
+PY  - 2025
+UR  - https://survey.stackoverflow.co/2025/ai
+AB  - High reported use or planned use coexists with greater distrust than trust of AI accuracy and widespread frustration with nearly correct answers.
+N1  - Opt-in survey and question-specific denominators; planned use is not adoption, and frustration is not measured net time loss.
+KW  - engineering
+KW  - trust
+KW  - work
+ER  - 
+
+TY  - ELEC
+ID  - maintenance2025
+TI  - AI-Assisted Programming Decreases the Productivity of Experienced Developers by Increasing the Technical Debt and Maintenance Burden
+AU  - Xu, Feiyang
+AU  - Medappa, Poonacha K.
+AU  - Tunc, Murat M.
+AU  - Vroegindeweij, Martijn
+AU  - Fransoo, Jan C.
+DA  - 2025-10-11
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.10165
+AB  - An open-source study reports greater activity among peripheral contributors alongside added review and rework burdens for core contributors.
+N1  - Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value.
+KW  - engineering
+KW  - quality
+KW  - work
+AN  - arXiv:2510.10165
+ER  - 
+
+TY  - ELEC
+ID  - alphaevolve2025
+TI  - AlphaEvolve: A coding agent for scientific and algorithmic discovery
+AU  - Novikov, Alexander
+AU  - Vũ, Ngân
+AU  - Eisenberger, Marvin
+AU  - Dupont, Emilien
+AU  - Huang, Po-Sen
+AU  - Wagner, Adam Zsolt
+AU  - Shirobokov, Sergey
+AU  - Kozlovskii, Borislav
+AU  - Ruiz, Francisco J. R.
+AU  - Mehrabian, Abbas
+AU  - Kumar, M. Pawan
+AU  - See, Abigail
+AU  - Chaudhuri, Swarat
+AU  - Holland, George
+AU  - Davies, Alex
+AU  - Nowozin, Sebastian
+AU  - Kohli, Pushmeet
+AU  - Balog, Matej
+DA  - 2025-06-16
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.13131
+AB  - An evolutionary coding agent improves algorithms and infrastructure through evaluator-driven search, including selected novel mathematical procedures.
+N1  - Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows.
+KW  - science
+KW  - engineering
+KW  - ai-rd
+AN  - arXiv:2506.13131
+ER  - 
+
+TY  - ELEC
+ID  - sabra2025
+TI  - Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis
+AU  - Sabra, Abbas
+AU  - Schmitt, Olivier
+AU  - Tyler, Joseph
+DA  - 2025-08-20
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.14727
+AB  - Static analysis of 4,442 Java assignments finds that passing functional tests does not reliably indicate broader code quality or security.
+N1  - Assignments, selected models, and analyzer findings are not direct observations of production exploitation.
+KW  - engineering
+KW  - quality
+KW  - security
+AN  - arXiv:2508.14727
+ER  - 
+
+TY  - ELEC
+ID  - ref-619316fd46
+TI  - Beyond the Prompt: An Empirical Study of Cursor Rules
+AU  - Jiang, Shaokang
+AU  - Nam, Daye
+DA  - 2025-12-21
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.18925
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Beyond the Prompt: An Empirical Study of Cursor Rules. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+DO  - 10.1145/3793302.3793367
+AN  - arXiv:2512.18925
+ER  - 
+
+TY  - ELEC
+ID  - stanford2025
+TI  - Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab
+AU  - Brynjolfsson, Erik
+AU  - Chandar, Bharat
+AU  - Chen, Ruyu
+PY  - 2025
+UR  - https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence
+AB  - U.S. payroll evidence documents disproportionate early-career employment weakness in highly AI-exposed occupations.
+N1  - Exposure, age, and employment trends do not uniquely identify AI as the cause; versions and panel construction change estimates.
+KW  - work
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-d0464e1cee
+TI  - Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World
+AU  - Joshua Kazdan
+AU  - Rylan Schaeffer
+AU  - Apratim Dey
+AU  - Matthias Gerstgrasser
+AU  - Rafael Rafailov
+AU  - David L. Donoho
+AU  - Sanmi Koyejo
+DA  - 2025-10-06
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://proceedings.mlr.press/v267/kazdan25a.html
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 
+
+TY  - ELEC
+ID  - ref-829fdbdc8c
+TI  - Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible
+DA  - 2025-12-07
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.tomshardware.com/tech-industry/cyber-security/researchers-uncover-critical-ai-ide-flaws-exposing-developers-to-data-theft-and-rce
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - dgm2025
+TI  - Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
+AU  - Zhang, Jenny
+AU  - Hu, Shengran
+AU  - Lu, Cong
+AU  - Lange, Robert
+AU  - Clune, Jeff
+DA  - 2025-05-29
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.22954
+AB  - Darwin Godel Machine evolves the code of coding agents using an archive and external benchmarks while retaining a foundation model as the engine.
+N1  - Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence.
+KW  - ai-rd
+KW  - engineering
+KW  - agents
+AN  - arXiv:2505.22954
+ER  - 
+
+TY  - ELEC
+ID  - ref-e534397303
+TI  - Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace
+AU  - Jenna Butler
+AU  - Jina Suh
+AU  - Sankeerti Haniyur
+AU  - Constance Hadley
+DA  - 2025-04-27
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.microsoft.com/en-us/research/publication/dear-diary-a-randomized-controlled-trial-of-generative-ai-coding-tools-in-the-workplace
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-1fb28b41e8
+TI  - Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study
+AU  - Stray, Viktoria
+AU  - Brandtzæg, Elias Goldmann
+AU  - Wivestad, Viggo Tellefsen
+AU  - Barbala, Astri
+AU  - Moe, Nils Brede
+DA  - 2025-09-24
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.20353
+AB  - Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+DO  - 10.24251/HICSS.2026.880
+AN  - arXiv:2509.20353
+ER  - 
+
+TY  - ELEC
+ID  - ref-af45ed851c
+TI  - Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality
+AU  - Zhong, Suzhen
+AU  - Zou, Ying
+AU  - Adams, Bram
+DA  - 2025-09-12
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.10402
+AB  - Supporting reference on engineering, quality. Scope indicated by the primary-source title: Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - quality
+AN  - arXiv:2509.10402
+ER  - 
+
+TY  - JOUR
+ID  - discorl2025
+TI  - Discovering state-of-the-art reinforcement learning algorithms
+AU  - Oh, Junhyuk
+AU  - Farquhar, Gregory
+AU  - Kemaev, Iurii
+AU  - Calian, Dan A.
+AU  - Hessel, Matteo
+AU  - Zintgraf, Luisa
+AU  - Singh, Satinder
+AU  - van Hasselt, Hado
+AU  - Silver, David
+DA  - 2025-12
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.nature.com/articles/s41586-025-09761-x
+AB  - Automated discovery of reinforcement-learning rules yields methods competitive with hand-designed algorithms and tested in additional environments.
+N1  - Search objective, environments and compute allocation are human-designed; transfer has a defined scope.
+KW  - science
+KW  - ai-rd
+DO  - 10.1038/s41586-025-09761-x
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - ref-45820a1db8
+TI  - Do LLMs consider security? an empirical study on responses to programming questions
+AU  - Sajadi, Amirali
+AU  - Le, Binh
+AU  - Nguyen, Anh
+AU  - Damevski, Kostadin
+AU  - Chatterjee, Preetha
+DA  - 2025-07
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://link.springer.com/article/10.1007/s10664-025-10658-6
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Do LLMs consider security? an empirical study on responses to programming questions. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+DO  - 10.1007/s10664-025-10658-6
+ER  - 
+
+TY  - ELEC
+ID  - dora2025
+TI  - DORA 2025 State of AI-assisted Software Development Report
+AU  - DeBellis, Derek
+AU  - Storer, Kevin
+AU  - Harvey, Nathen
+AU  - Beane, Matt
+AU  - Edwards, Rob
+AU  - Fraser, Edward
+AU  - Good, Ben
+AU  - Kalliamvakou, Eirini
+AU  - Kim, Gene
+AU  - Maxwell, Eric
+AU  - D'Angelo, Sarah
+AU  - Inman, Sarah
+AU  - Murillo, Ambar
+AU  - Villalba, Daniella
+DA  - 2025
+PY  - 2025
+UR  - https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report
+AB  - The 2025 report interprets AI as an amplifier of existing organizational capabilities and weaknesses.
+N1  - Organizational associations do not imply that mature practices guarantee positive outcomes for every adoption.
+KW  - engineering
+KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - ref-c236bdb569
+TI  - DORA Impact of Generative AI in Software Development
+AU  - Derek DeBellis
+AU  - Kevin Storer
+AU  - Daniella Villalba
+AU  - Nathen Harvey
+AU  - Sarah D'Angelo
+AU  - Adam Brown
+DA  - 2025
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://research.google/pubs/dora-impact-of-generative-ai-in-software-development
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: DORA Impact of Generative AI in Software Development. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-3d0ab8c8d6
+TI  - DORA | Download the Impact of Generative AI in Software Development
+AU  - Derek Debellis
+AU  - Kevin M. Storer
+AU  - Daniella Villalba
+AU  - Nathen Harvey
+AU  - Sarah D'Angelo
+AU  - Adam Brown
+N1  - Date basis: Linked primary report edition v. 2025.2 and author list (page 54); https://dora.dev/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf; checked 13 October 2026. Exact publication day not established.
+PY  - 2025
+UR  - https://dora.dev/ai/gen-ai-report
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+N1  - Version: Cites report edition 2025.2. The landing page's 13 April 2026 update is not the report's publication year.
+ER  - 
+
+TY  - ELEC
+ID  - ref-94c646c350
+TI  - Experience with GitHub Copilot for Developer Productivity at Zoominfo
+AU  - Bakal, Gal
+AU  - Dasdan, Ali
+AU  - Katz, Yaniv
+AU  - Kaufman, Michael
+AU  - Levin, Guy
+DA  - 2025-01-23
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2501.13282
+AB  - Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Experience with GitHub Copilot for Developer Productivity at Zoominfo. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+AN  - arXiv:2501.13282
+ER  - 
+
+TY  - ELEC
+ID  - agenticsurvey2025
+TI  - From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery
+AU  - Wei, Jiaqi
+AU  - Yang, Yuejin
+AU  - Zhang, Xiang
+AU  - Chen, Yuhan
+AU  - Zhuang, Xiang
+AU  - Gao, Zhangyang
+AU  - Zhou, Dongzhan
+AU  - Wang, Guangshuai
+AU  - Gao, Zhiqiang
+AU  - Cao, Juntai
+AU  - Qiu, Zijie
+AU  - Hu, Ming
+AU  - Ma, Chenglong
+AU  - Tang, Shixiang
+AU  - He, Junjun
+AU  - Song, Chunfeng
+AU  - He, Xuming
+AU  - Zhang, Qiang
+AU  - You, Chenyu
+AU  - Zheng, Shuangjia
+AU  - Ding, Ning
+AU  - Ouyang, Wanli
+AU  - Dong, Nanqing
+AU  - Cheng, Yu
+AU  - Sun, Siqi
+AU  - Bai, Lei
+AU  - Zhou, Bowen
+DA  - 2025-08-18
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.14111v2
+AB  - A domain-oriented survey organizes scientific agents across life sciences, chemistry, materials and physics using capability, workflow and autonomy frameworks.
+N1  - A taxonomy and narrative synthesis, not a causal estimate of research productivity or evidence that agents achieve reliable general scientific autonomy.
+KW  - science
+KW  - agents
+KW  - methods
+DO  - 10.48550/arXiv.2508.14111
+AN  - arXiv:2508.14111
+N1  - Version: Pinned to October 2025 v2; a taxonomy of scientific agency must not be confused with validation of every system it surveys.
+ER  - 
+
+TY  - ELEC
+ID  - retail2025
+TI  - Generative AI and Sales Productivity: Field Experiments in Online Retail
+AU  - Fang, Lu
+AU  - Yuan, Zhe
+AU  - Zhang, Kaifu
+AU  - Donati, Dante
+AU  - Sarvary, Miklos
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.12049
+AB  - Retail experiments across seven workflows report heterogeneous sales effects, primarily through conversion rather than basket value.
+N1  - One platform, 2023-2024 interventions and short-run sales measures; not aggregate total-factor productivity.
+KW  - business
+KW  - productivity
+AN  - arXiv:2510.12049
+N1  - Version: June 29, 2026 revision; earlier title referred to firm productivity.
+ER  - 
+
+TY  - JOUR
+ID  - brynjolfsson2025
+TI  - Generative AI at Work
+AU  - Brynjolfsson, Erik
+AU  - Li, Danielle
+AU  - Raymond, Lindsey
+DA  - 2025-02-04
+PY  - 2025
+UR  - https://academic.oup.com/qje/article/140/2/889/7990658
+AB  - A staggered workplace deployment increased customer issues resolved per hour by 15% on average, with greater benefits for less experienced workers.
+N1  - One customer-support environment; assistance is embedded in a specific workflow. The published estimate differs from the earlier 14% working-paper figure.
+KW  - productivity
+KW  - business
+KW  - work
+DO  - 10.1093/qje/qjae044
+JO  - The Quarterly Journal of Economics
+ER  - 
+
+TY  - ELEC
+ID  - ref-ab9872b8a8
+TI  - Generative AI in Computer Science Education: Challenges and Opportunities
+AU  - Diana Franklin
+AU  - Paul Denny
+AU  - David A. Gonzalez-Maldonado
+AU  - Minh Tran
+DA  - 2025-04
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F
+AB  - Supporting reference on learning, science. Scope indicated by the primary-source title: Generative AI in Computer Science Education: Challenges and Opportunities. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - learning
+KW  - science
+DO  - 10.1017/9781009581738
+N1  - Version: Publisher citation metadata includes the subtitle Challenges and Opportunities; Crossref uses the shorter book title. DOI and authors agree. Metadata comparison checked 13 October 2026.
+ER  - 
+
+TY  - JOUR
+ID  - bastani2025
+TI  - Generative AI without guardrails can harm learning
+AU  - Bastani, Hamsa
+AU  - Bastani, Osbert
+AU  - Sungu, Alp
+AU  - Ge, Haosen
+AU  - Kabakcı, Özge
+AU  - Mariman, Rei
+PY  - 2025
+UR  - https://doi.org/10.1073/pnas.2422633122
+AB  - A school mathematics trial distinguishes AI-assisted practice from unaided assessment and shows the importance of tutor guardrails for preserving learning.
+N1  - Mathematics education and a specific instructional implementation; not a result for every tutor or subject.
+KW  - learning
+DO  - 10.1073/pnas.2422633122
+JO  - Proceedings of the National Academy of Sciences
+ER  - 
+
+TY  - ELEC
+ID  - ref-b05d2a6ff4
+TI  - How AI is transforming work at Anthropic
+DA  - 2025-12-02
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+AB  - Supporting reference on context. Scope indicated by the primary-source title: How AI is transforming work at Anthropic. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 
+
+TY  - ELEC
+ID  - ref-87a560f4b1
+TI  - How are developers using AI? Inside our 2025 DORA report
+DA  - 2025-09-23
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://blog.google/innovation-and-ai/technology/developers-tools/dora-report-2025
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: How are developers using AI? Inside our 2025 DORA report. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-d79880fda4
+TI  - How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025
+AU  - Elise Paradis
+AU  - Kate Grey
+AU  - Quinn Madison
+AU  - Daye Nam
+AU  - Andrew Macvean
+AU  - Nan Zhang
+AU  - Ben Ferrari-Church
+AU  - Satish Chandra
+N1  - Date basis: Primary ICSE 2025 conference entry and author list; checked 13 October 2026. Presentation on 2 May 2025 is not asserted as the publication day.
+PY  - 2025
+UR  - https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-
+AB  - Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+KW  - business
+N1  - Version: Conference entry for ICSE 2025; related 2024 arXiv version is the same study, not independent evidence.
+ER  - 
+
+TY  - ELEC
+ID  - cotroneo2025
+TI  - Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity
+AU  - Cotroneo, Domenico
+AU  - Improta, Cristina
+AU  - Liguori, Pietro
+DA  - 2025-08-29
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.21634
+AB  - Compares more than 500,000 Python and Java samples and identifies different defect, vulnerability and structural-complexity profiles in human and model code.
+N1  - Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable.
+KW  - engineering
+KW  - quality
+KW  - security
+AN  - arXiv:2508.21634
+ER  - 
+
+TY  - ELEC
+ID  - ref-d062c0d748
+TI  - Integrating LLMs in Software Engineering Education: Motivators, Demotivators, and a Roadmap Towards a Framework for Finnish Higher Education Institutes
+AU  - Khan, Maryam
+AU  - Akbar, Muhammad Azeem
+AU  - Kasurinen, Jussi
+DA  - 2025-03-28
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.22238
+AB  - Supporting reference on engineering, learning. Scope indicated by the primary-source title: Integrating LLMs in Software Engineering Education: Motivators, Demotivators, and a Roadmap Towards a Framework for Finnish Higher Education Institutes. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - learning
+AN  - arXiv:2503.22238
+ER  - 
+
+TY  - ELEC
+ID  - metr2025
+TI  - Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+AU  - Becker, Joel
+AU  - Rush, Nate
+AU  - Barnes, Elizabeth
+AU  - Rein, David
+DA  - 2025-07-12
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.09089
+AB  - Experienced maintainers took 19% longer on tasks in familiar repositories when allowed early-2025 AI tools, despite expecting and perceiving speedups.
+N1  - A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents.
+KW  - productivity
+KW  - engineering
+AN  - arXiv:2507.09089
+ER  - 
+
+TY  - ELEC
+ID  - ref-596ebdd94b
+TI  - Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+DA  - 2025-07-10
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study
+AB  - Supporting reference on engineering, productivity, methods. Scope indicated by the primary-source title: Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - ref-fcb35d8ba0
+TI  - Nearly half of all code generated by AI found to contain security flaws - even big LLMs affected
+DA  - 2025-08-01
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Nearly half of all code generated by AI found to contain security flaws - even big LLMs affected. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+ER  - 
+
+TY  - ELEC
+ID  - ref-b9df7a9b2a
+TI  - No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic
+AU  - Flournoy, John C.
+AU  - Lee, Carol S.
+AU  - Wu, Maggie
+AU  - Hicks, Catherine M.
+DA  - 2025-03-06
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.05040
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+DO  - 10.1007/s10664-025-10735-w
+AN  - arXiv:2503.05040
+ER  - 
+
+TY  - ELEC
+ID  - ref-c91813d328
+TI  - OWASP LLM Top 10: How it Applies to Code Generation | Learn Article
+AU  - SonarSource
+DA  - 2025-10-21
+N1  - Date basis: Primary Article JSON-LD datePublished and organization author; retrieved 12 October 2026, inspected 13 October 2026.
+PY  - 2025
+UR  - https://www.sonarsource.com/resources/library/owasp-llm-code-generation
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - ref-18f89167b2
+TI  - Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment
+AU  - Xie, Yuchong
+AU  - Luo, Mingyu
+AU  - Liu, Zesen
+AU  - Zhang, Zhixiang
+AU  - Zhang, Kaikai
+AU  - Liu, Yu
+AU  - Li, Zongjie
+AU  - Chen, Ping
+AU  - Wang, Shuai
+AU  - She, Dongdong
+DA  - 2025-09-06
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.05755
+AB  - Supporting reference on engineering, security, agents. Scope indicated by the primary-source title: Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+KW  - agents
+AN  - arXiv:2509.05755
+ER  - 
+
+TY  - ELEC
+ID  - ref-91e8bb760f
+TI  - Secure Coding with AI -- From Detection to Repair
+AU  - Belozerov, Vladislav
+AU  - Barclay, Peter J
+AU  - Sami, Ashkan
+DA  - 2025-04-29
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2504.20814
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Secure Coding with AI -- From Detection to Repair. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+AN  - arXiv:2504.20814
+ER  - 
+
+TY  - ELEC
+ID  - ref-c49fcf21a4
+TI  - Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox
+AU  - Shukla, Shivani
+AU  - Joshi, Himanshu
+AU  - Syed, Romilla
+DA  - 2025-05-19
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.11022
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+AN  - arXiv:2506.11022
+ER  - 
+
+TY  - ELEC
+ID  - ref-a4d736c4f3
+TI  - Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories
+AU  - Schreiber, Maximilian
+AU  - Tippe, Pascal
+DA  - 2025-10-30
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.26103
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+DO  - 10.1007/978-981-95-3537-8_9
+AN  - arXiv:2510.26103
+ER  - 
+
+TY  - ELEC
+ID  - ref-cebccd633f
+TI  - Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects
+AU  - He, Hao
+AU  - Miller, Courtney
+AU  - Agarwal, Shyam
+AU  - Kästner, Christian
+AU  - Vasilescu, Bogdan
+DA  - 2025-11-06
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.04427
+AB  - Supporting reference on quality, productivity, business. Scope indicated by the primary-source title: Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - quality
+KW  - productivity
+KW  - business
+DO  - 10.1145/3793302.3793349
+AN  - arXiv:2511.04427
+N1  - Version: The November 2025 arXiv version uses a longer subtitle; Crossref records the same authors and associated 2026 conference publication under Speed at the Cost of Quality. Do not treat the versions as independent studies. Metadata comparison checked 13 October 2026.
+ER  - 
+
+TY  - ELEC
+ID  - humlum2026
+TI  - Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI
+AU  - Humlum, Anders
+AU  - Vestergaard, Emilie
+DA  - 2025-05-12
+PY  - 2025
+UR  - https://www.nber.org/papers/w33777
+AB  - Danish adoption surveys linked to administrative records reveal task reorganization but limited early average effects on earnings or recorded hours.
+N1  - Denmark's institutions, short horizon and averages; null aggregate effects can coexist with occupational transitions.
+KW  - work
+KW  - business
+KW  - productivity
+DO  - 10.3386/w33777
+N1  - Version: March 2026 revision of May 2025 working paper.
+ER  - 
+
+TY  - ELEC
+ID  - ref-e71e370e4c
+TI  - Teaching with AI: A Systematic Review of Chatbots, Generative Tools, and Tutoring Systems in Programming Education
+AU  - Elnaffar, Said
+AU  - Rashidi, Farzad
+AU  - Abualkishik, Abedallah Zaid
+DA  - 2025-10-04
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.03884
+AB  - A review of 58 programming-education studies groups chatbots, generative tools and intelligent tutors, describing benefits alongside overreliance and implementation barriers.
+N1  - The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established.
+KW  - engineering
+KW  - learning
+KW  - methods
+DO  - 10.26803/ijlter.25.1.1
+AN  - arXiv:2510.03884
+N1  - Version: December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence.
+ER  - 
+
+TY  - ELEC
+ID  - ref-9f81141e49
+TI  - The AI Productivity Paradox Research Report
+AU  - Faros Research
+DA  - 2025-07-23
+N1  - Date basis: Primary BlogPosting JSON-LD datePublished and author; retrieved 12 October 2026, inspected 13 October 2026. The September 2026 modification is not the publication date.
+PY  - 2025
+UR  - https://www.faros.ai/blog/ai-software-engineering
+AB  - Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - science
+KW  - productivity
+ER  - 
+
+TY  - ELEC
+ID  - cui2025
+TI  - The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers
+AU  - Cui, Zheyuan (Kevin)
+AU  - Demirer, Mert
+AU  - Jaffe, Sonia
+AU  - Musolff, Leon
+AU  - Peng, Sida
+AU  - Salz, Tobias
+DA  - 2025-06
+PY  - 2025
+UR  - https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers
+AB  - Three workplace experiments covering 4,867 developers report a pooled increase of about 26% in completed tasks following access to coding assistance.
+N1  - Completed-task measures vary across firms; access, actual use, quality, and commercial value are distinct.
+KW  - productivity
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - oecdproductivity2025
+TI  - The effects of generative AI on productivity, innovation and entrepreneurship
+AU  - Calvino, Flavio
+AU  - Reijerink, Jelmer
+AU  - Samek, Lea
+DA  - 2025-06-20
+PY  - 2025
+UR  - https://www.oecd.org/en/publications/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_b21df222-en.html
+AB  - OECD synthesis connects experimental productivity evidence with innovation, entrepreneurship, user expertise and task fit.
+N1  - A selective review, not a pooled causal effect; longer-run organizational outcomes remain weakly established. Primary trials overlap with this review's evidence.
+KW  - productivity
+KW  - business
+KW  - science
+KW  - methods
+DO  - 10.1787/b21df222-en
+ER  - 
+
+TY  - ELEC
+ID  - afroz2025
+TI  - The Fast and Spurious: Developer Productivity with GenAI
+AU  - Afroz, Sadia
+AU  - Feng, Zixuan
+AU  - Menezes, Tyler
+AU  - Kimura, Katie
+AU  - Trinkenreich, Bianca
+AU  - Steinmacher, Igor
+AU  - Sarma, Anita
+DA  - 2025-10-28
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.24265
+AB  - A survey of 415 practitioners maps perceived gains and shifted effort across SPACE dimensions, including review and verification costs.
+N1  - Self-report and adoption differences; neither proves net losses nor measures firm-level product value.
+KW  - productivity
+KW  - engineering
+KW  - methods
+AN  - arXiv:2510.24265
+ER  - 
+
+TY  - ELEC
+ID  - ref-451e19eb85
+TI  - The Future of Generative AI in Software Engineering: A Vision from Industry and Academia in the European GENIUS Project
+AU  - Gröpler, Robin
+AU  - Klepke, Steffen
+AU  - Johns, Jack
+AU  - Dreschinski, Andreas
+AU  - Schmid, Klaus
+AU  - Dornauer, Benedikt
+AU  - Tüzün, Eray
+AU  - Noppen, Joost
+AU  - Mousavi, Mohammad Reza
+AU  - Tang, Yongjian
+AU  - Viehmann, Johannes
+AU  - Aslangül, Selin Şirin
+AU  - Lee, Beum Seuk
+AU  - Ziolkowski, Adam
+AU  - Zie, Eric
+DA  - 2025-11-03
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.01348
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: The Future of Generative AI in Software Engineering: A Vision from Industry and Academia in the European GENIUS Project. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+AN  - arXiv:2511.01348
+ER  - 
+
+TY  - ELEC
+ID  - ref-8c76af1ddd
+TI  - The Hidden Risks of LLM-Generated Web Application Code: A Security-Centric Evaluation of Code Generation Capabilities in Large Language Models
+AU  - Dora, Swaroop
+AU  - Lunkad, Deven
+AU  - Aslam, Naziya
+AU  - Venkatesan, S.
+AU  - Shukla, Sandeep Kumar
+DA  - 2025-04-29
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2504.20612
+AB  - Supporting reference on engineering, security, methods. Scope indicated by the primary-source title: The Hidden Risks of LLM-Generated Web Application Code: A Security-Centric Evaluation of Code Generation Capabilities in Large Language Models. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+KW  - methods
+AN  - arXiv:2504.20612
+ER  - 
+
+TY  - ELEC
+ID  - ref-712e3405f2
+TI  - The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers
+AU  - Hao-Ping (Hank) Lee
+AU  - Advait Sarkar
+AU  - Lev Tankelevitch
+AU  - Ian Drosos
+AU  - Sean Rintel
+AU  - Richard Banks
+AU  - Nicholas Wilson
+DA  - 2025-04-01
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers
+AB  - Supporting reference on methods. Scope indicated by the primary-source title: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - ref-59e035c44a
+TI  - The Impact of LLM-Assistants on Software Developer Productivity: A Systematic Review and Mapping Study
+AU  - Mohamed, Amr
+AU  - Assi, Maram
+AU  - Guizani, Mariam
+DA  - 2025-07-03
+N1  - Date basis: primary metadata
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.03156
+AB  - A mapping of 39 peer-reviewed studies highlights multidimensional productivity assessment but scarce longitudinal and team-level evidence, with unresolved quality effects.
+N1  - Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024.
+KW  - engineering
+KW  - productivity
+KW  - methods
+DO  - 10.1145/3809494
+AN  - arXiv:2507.03156
+N1  - Version: Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication.
+ER  - 
+
+TY  - ELEC
+ID  - ref-022ae73d8c
+TI  - The State of Developer Ecosystem in 2025
+AU  - JetBrains
+N1  - Date basis: Primary report heading explicitly identifies the 2025 edition; checked 13 October 2026. Survey fieldwork (April-June 2025) is not treated as publication date.
+PY  - 2025
+UR  - https://devecosystem-2025.jetbrains.com
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: The State of Developer Ecosystem in 2025. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - herrengtvibe
+TI  - The vibe coder's career path is doomed
+AU  - Herrengt, Florian
+DA  - 2025-07-17
+PY  - 2025
+UR  - https://blog.florianherrengt.com/vibe-coder-career-path.html
+AB  - Personal experience with agent-generated applications raises questions about retaining a mental model and building a sustainable development career.
+N1  - A selected experience and polemical argument; cannot establish prevalence or causation.
+KW  - engineering
+KW  - learning
+KW  - judgment
+ER  - 
+
+TY  - ELEC
+ID  - ref-3e9d5d7dce
+TI  - AI models collapse when trained on recursively generated data
+AU  - Shumailov, Ilia
+AU  - Shumaylov, Zakhar
+AU  - Zhao, Yiren
+AU  - Papernot, Nicolas
+AU  - Anderson, Ross
+AU  - Gal, Yarin
+DA  - 2024-07
+N1  - Date basis: primary metadata
+PY  - 2024
+UR  - https://www.nature.com/articles/s41586-024-07566-y
+AB  - Supporting reference on context. Scope indicated by the primary-source title: AI models collapse when trained on recursively generated data. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+DO  - 10.1038/s41586-024-07566-y
+JO  - Nature
+ER  - 
+
+TY  - JOUR
+ID  - messeri2024
+TI  - Artificial intelligence and illusions of understanding in scientific research
+AU  - Messeri, Lisa
+AU  - Crockett, M. J.
+DA  - 2024-03-06
+PY  - 2024
+UR  - https://www.nature.com/articles/s41586-024-07146-0
+AB  - A conceptual taxonomy examines how AI's promises of productivity and objectivity can produce illusions of understanding and scientific monocultures.
+N1  - A theoretical perspective rather than an estimate of the incidence or size of effects.
+KW  - science
+KW  - cognition
+KW  - diversity
+DO  - 10.1038/s41586-024-07146-0
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - dora2024
+TI  - DORA | Accelerate State of DevOps Report 2024
+AU  - DORA
+PY  - 2024
+UR  - https://dora.dev/research/2024/dora-report
+AB  - Organization-level research links AI use to individual benefits while reporting adverse associations with delivery stability and throughput in the 2024 sample.
+N1  - Survey-based relationships, self-selection and organizational context; not randomized deployment effects.
+KW  - engineering
+KW  - business
+KW  - productivity
+ER  - 
+
+TY  - ELEC
+ID  - ref-b9b0edfcd0
+TI  - Examining the Use and Impact of an AI Code Assistant on Developer Productivity and Experience in the Enterprise
+AU  - Weisz, Justin D.
+AU  - Kumar, Shraddha
+AU  - Muller, Michael
+AU  - Browne, Karen-Ellen
+AU  - Goldberg, Arielle
+AU  - Heintze, Ellice
+AU  - Bajpai, Shagun
+DA  - 2024-12-09
+N1  - Date basis: primary metadata
+PY  - 2024
+UR  - https://arxiv.org/abs/2412.06603
+AB  - Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: Examining the Use and Impact of an AI Code Assistant on Developer Productivity and Experience in the Enterprise. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+KW  - business
+AN  - arXiv:2412.06603
+ER  - 
+
+TY  - ELEC
+ID  - ref-f4550e10d8
+TI  - Generative AI and Software Engineering Education
+AU  - Ipek Ozkaya
+AU  - Douglas Schmidt
+AU  - Michael Hilton
+DA  - 2024-09-09
+N1  - Date basis: Primary SEI publication date, citation metadata and additional coauthor credited in the body; checked 13 October 2026.
+PY  - 2024
+UR  - https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education
+AB  - Supporting reference on engineering, learning. Scope indicated by the primary-source title: Generative AI and Software Engineering Education. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - learning
+DO  - 10.58012/AHC6-GK69
+ER  - 
+
+TY  - ELEC
+ID  - paradis2024
+TI  - How much does AI impact development speed? An enterprise-based randomized controlled trial
+AU  - Paradis, Elise
+AU  - Grey, Kate
+AU  - Madison, Quinn
+AU  - Nam, Daye
+AU  - Macvean, Andrew
+AU  - Meimand, Vahid
+AU  - Zhang, Nan
+AU  - Ferrari-Church, Ben
+AU  - Chandra, Satish
+PY  - 2024
+UR  - https://arxiv.org/abs/2410.12944
+AB  - A trial with 96 Google engineers estimated approximately 21% shorter task time with internal AI features.
+N1  - Wide uncertainty, one complex task, internal tooling; not an estimate for all engineering work.
+KW  - productivity
+KW  - engineering
+AN  - arXiv:2410.12944
+N1  - Version: 2024 preprint; associated ICSE 2025 Software Engineering in Practice presentation is catalogued separately.
+ER  - 
+
+TY  - ELEC
+ID  - ref-10b59b402b
+TI  - Introducing SWE-bench Verified
+AU  - Neil Chowdhury
+AU  - James Aung
+AU  - Chan Jun Shern
+AU  - Oliver Jaffe
+AU  - Dane Sherburn
+AU  - Giulio Starace
+AU  - Evan Mays
+AU  - Rachel Dias
+AU  - Marwan Aljubeh
+AU  - Mia Glaese
+AU  - Carlos E. Jimenez
+AU  - John Yang
+AU  - Leyton Ho
+AU  - Tejal Patwardhan
+AU  - Kevin Liu
+AU  - Aleksander Madry
+PB  - OpenAI
+DA  - 2024-08-13
+N1  - Date basis: Primary publication date and named Authors section; rechecked in local Chrome on 13 October 2026.
+PY  - 2024
+UR  - https://openai.com/index/introducing-swe-bench-verified
+AB  - Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+N1  - Version: Originally published 13 August 2024; the page separately records an update on 24 February 2025. OpenAI is the publisher; named authors are retained.
+N1  - Alternative verification: local Chrome, 2026-10-13T07:46:43+00:00; identity-confirmed. Scope: Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.
+ER  - 
+
+TY  - ELEC
+ID  - ref-1ca76a8f96
+TI  - Software engineering education in the era of conversational AI: current trends and future directions
+AU  - Sengul, Cigdem 
+AU  - Neykova, Rumyana 
+AU  - Destefanis, Giuseppe 
+DA  - 2024-08-29
+N1  - Date basis: primary metadata
+PY  - 2024
+UR  - https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1436350/full
+AB  - Supporting reference on engineering, learning. Scope indicated by the primary-source title: Software engineering education in the era of conversational AI: current trends and future directions. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - learning
+DO  - 10.3389/frai.2024.1436350
+ER  - 
+
+TY  - ELEC
+ID  - ref-c6b798fb16
+TI  - A Large-Scale Survey on the Usability of AI Programming Assistants: Successes and Challenges
+AU  - Liang, Jenny T.
+AU  - Yang, Chenyang
+AU  - Myers, Brad A.
+DA  - 2023-03-30
+N1  - Date basis: primary metadata
+PY  - 2023
+UR  - https://arxiv.org/abs/2303.17125
+AB  - Supporting reference on engineering, methods. Scope indicated by the primary-source title: A Large-Scale Survey on the Usability of AI Programming Assistants: Successes and Challenges. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - methods
+AN  - arXiv:2303.17125
+ER  - 
+
+TY  - JOUR
+ID  - noy2023
+TI  - Experimental evidence on the productivity effects of generative artificial intelligence
+AU  - Noy, Shakked
+AU  - Zhang, Whitney
+DA  - 2023-07-14
+PY  - 2023
+UR  - https://doi.org/10.1126/science.adh2586
+AB  - A preregistered experiment with 453 professionals found shorter completion times and higher assessed quality on occupational writing tasks with ChatGPT.
+N1  - Short writing assignments and assessed artifacts; not long-run firm productivity.
+KW  - productivity
+KW  - business
+DO  - 10.1126/science.adh2586
+JO  - Science
+ER  - 
+
+TY  - JOUR
+ID  - funsearch2023
+TI  - Mathematical discoveries from program search with large language models
+AU  - Romera-Paredes, Bernardino
+AU  - Barekatain, Mohammadamin
+AU  - Novikov, Alexander
+AU  - Balog, Matej
+AU  - Kumar, M. Pawan
+AU  - Dupont, Emilien
+AU  - Ruiz, Francisco J. R.
+AU  - Ellenberg, Jordan S.
+AU  - Wang, Pengming
+AU  - Fawzi, Omar
+AU  - Kohli, Pushmeet
+AU  - Fawzi, Alhussein
+DA  - 2023-12-14
+PY  - 2023
+UR  - https://www.nature.com/articles/s41586-023-06924-6
+AB  - FunSearch pairs language-model proposals with systematic evaluation to find new cap-set constructions and improved bin-packing heuristics.
+N1  - A human-specified program representation and evaluator constrain the search; a domain result is not general research autonomy.
+KW  - science
+KW  - mathematics
+KW  - verification
+DO  - 10.1038/s41586-023-06924-6
+JO  - Nature
+N1  - Version: Published online December 2023; Nature volume 625 is dated 2024.
+ER  - 
+
+TY  - ELEC
+ID  - ref-fb7d2bc1f2
+TI  - Measuring developer productivity? A response to McKinsey
+AU  - Beck, Kent
+AU  - Orosz, Gergely
+DA  - 2023-08-29
+PY  - 2023
+UR  - https://tidyfirst.substack.com/p/measuring-developer-productivity
+AB  - Supporting reference on engineering, productivity, methods. Scope indicated by the primary-source title: Measuring developer productivity? A response to McKinsey. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+KW  - methods
+N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Observed redirect, headline, both bylines, date and visible article section headings in Chrome.
+ER  - 
+
+TY  - ELEC
+ID  - dellacqua2023
+TI  - Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality
+AU  - Dell'Acqua, Fabrizio
+AU  - McFowland III, Edward
+AU  - Mollick, Ethan
+AU  - Lifshitz-Assaf, Hila
+AU  - Kellogg, Katherine
+AU  - Rajendran, Saran
+AU  - Krayer, Lisa
+AU  - Candelon, François
+AU  - Lakhani, Karim
+PY  - 2023
+UR  - https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf
+AB  - An experiment with 758 consultants distinguishes tasks within the model's effective capability frontier from tasks on which AI assistance can worsen correctness.
+N1  - Task-specific frontier and 2023 GPT-4; do not infer present model limitations directly.
+KW  - productivity
+KW  - business
+KW  - reasoning
+N1  - Version: Study first circulated in 2023; linked author manuscript is a 2026 revision.
+ER  - 
+
+TY  - ELEC
+ID  - ref-dd1e2958ee
+TI  - Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study
+AU  - Fu, Yujia
+AU  - Liang, Peng
+AU  - Tahir, Amjed
+AU  - Li, Zengyang
+AU  - Shahin, Mojtaba
+AU  - Yu, Jiaxin
+AU  - Chen, Jinfu
+DA  - 2023-10-03
+N1  - Date basis: primary metadata
+PY  - 2023
+UR  - https://arxiv.org/abs/2310.02059
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+AN  - arXiv:2310.02059
+ER  - 
+
+TY  - ELEC
+ID  - ref-3e4a5dea3a
+TI  - SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
+AU  - Jimenez, Carlos E.
+AU  - Yang, John
+AU  - Wettig, Alexander
+AU  - Yao, Shunyu
+AU  - Pei, Kexin
+AU  - Press, Ofir
+AU  - Narasimhan, Karthik
+DA  - 2023-10-10
+N1  - Date basis: primary metadata
+PY  - 2023
+UR  - https://arxiv.org/abs/2310.06770
+AB  - Supporting reference on context. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+AN  - arXiv:2310.06770
+ER  - 
+
+TY  - ELEC
+ID  - peng2023
+TI  - The Impact of AI on Developer Productivity: Evidence from GitHub Copilot
+AU  - Peng, Sida
+AU  - Kalliamvakou, Eirini
+AU  - Cihon, Peter
+AU  - Demirer, Mert
+DA  - 2023-02-13
+N1  - Date basis: primary metadata
+PY  - 2023
+UR  - https://arxiv.org/abs/2302.06590
+AB  - Developers given Copilot completed a JavaScript HTTP-server task in substantially less time; the reported reduction was 55.8%.
+N1  - An isolated task and early tool; completion-conditioned estimates and uncertainty matter.
+KW  - productivity
+KW  - engineering
+AN  - arXiv:2302.06590
+ER  - 
+
+TY  - ELEC
+ID  - ref-ff25a1c7c8
+TI  - Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions
+AU  - Pearce, Hammond
+AU  - Ahmad, Baleegh
+AU  - Tan, Benjamin
+AU  - Dolan-Gavitt, Brendan
+AU  - Karri, Ramesh
+DA  - 2021-08-20
+N1  - Date basis: primary metadata
+PY  - 2021
+UR  - https://arxiv.org/abs/2108.09293
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - security
+AN  - arXiv:2108.09293
+ER  - 
+
+TY  - JOUR
+ID  - alphafold2021
+TI  - Highly accurate protein structure prediction with AlphaFold
+AU  - Jumper, John
+AU  - Evans, Richard
+AU  - Pritzel, Alexander
+AU  - Green, Tim
+AU  - Figurnov, Michael
+AU  - Ronneberger, Olaf
+AU  - Tunyasuvunakool, Kathryn
+AU  - Bates, Russ
+AU  - Žídek, Augustin
+AU  - Potapenko, Anna
+AU  - Bridgland, Alex
+AU  - Meyer, Clemens
+AU  - Kohl, Simon A. A.
+AU  - Ballard, Andrew J.
+AU  - Cowie, Andrew
+AU  - Romera-Paredes, Bernardino
+AU  - Nikolov, Stanislav
+AU  - Jain, Rishub
+AU  - Adler, Jonas
+AU  - Back, Trevor
+AU  - Petersen, Stig
+AU  - Reiman, David
+AU  - Clancy, Ellen
+AU  - Zielinski, Michal
+AU  - Steinegger, Martin
+AU  - Pacholska, Michalina
+AU  - Berghammer, Tamas
+AU  - Bodenstein, Sebastian
+AU  - Silver, David
+AU  - Vinyals, Oriol
+AU  - Senior, Andrew W.
+AU  - Kavukcuoglu, Koray
+AU  - Kohli, Pushmeet
+AU  - Hassabis, Demis
+PY  - 2021
+UR  - https://www.nature.com/articles/s41586-021-03819-2
+AB  - Demonstrates highly accurate protein-structure prediction and establishes a foundational example of specialized AI supporting science.
+N1  - Predicted structure is not equivalent to experimentally established function, dynamics or drug efficacy.
+KW  - science
+DO  - 10.1038/s41586-021-03819-2
+JO  - Nature
+ER  - 
+
+TY  - ELEC
+ID  - space2021
+TI  - The SPACE of Developer Productivity: There's More to It than You Think
+AU  - Forsgren, Nicole
+AU  - Storey, Margaret-Anne
+AU  - Maddila, Chandra
+AU  - Zimmermann, Thomas
+AU  - Houck, Brian
+AU  - Butler, Jenna
+PY  - 2021
+UR  - https://queue.acm.org/detail.cfm?id=3454124
+AB  - Defines productivity through satisfaction, performance, activity, communication and collaboration, and efficiency and flow.
+N1  - A measurement framework, not an AI-effect estimate; activity is one dimension rather than a complete measure.
+KW  - methods
+KW  - engineering
+KW  - productivity
+DO  - 10.1145/3454122.3454124
+JO  - ACM Queue
+N1  - Version: ACM Queue uses the full subtitle; the same DOI's Crossref record uses The SPACE of Developer Productivity. Title, authors and 2021 publication year compared on 13 October 2026.
+ER  - 
+
+TY  - BOOK
+ID  - ref-a97b44c4bb
+TI  - Rethinking Productivity in Software Engineering
+A2  - Caitlin Sadowski
+A2  - Thomas Zimmermann
+DA  - 2019-05-07
+N1  - Date basis: Publisher bibliographic information: eBook published 7 May 2019; checked 13 October 2026. Softcover published 8 May 2019; named contributors are editors, not book authors.
+PY  - 2019
+UR  - https://link.springer.com/book/10.1007/978-1-4842-4221-6
+AB  - Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Rethinking Productivity in Software Engineering. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - productivity
+DO  - 10.1007/978-1-4842-4221-6
+ER  - 
+
+TY  - ELEC
+ID  - qemupolicy2026
+TI  - Code provenance
+AU  - QEMU project
+N1  - Date basis: not established
+UR  - https://www.qemu.org/docs/master/devel/code-provenance.html
+AB  - QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.
+N1  - A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change.
+KW  - engineering
+KW  - governance
+KW  - work
+N1  - Version: Policy observed on 13 October 2026; original adoption date not established.
+ER  - 
+
+TY  - ELEC
+ID  - ref-8ecd8d70a1
+TI  - GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?
+N1  - Date basis: not established
+UR  - https://github.com/SWE-bench/SWE-bench
+AB  - Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+ER  - 

@@ -114,7 +114,7 @@
     ],
     "abstract": "Robin connects literature work, hypothesis generation and analysis to selected laboratory experiments in a multi-agent discovery workflow.",
     "keyword": "science; agents",
-    "note": "Method: experimental-demonstration. Status: peer-reviewed. Verification: content-checked (journal abstract and experimental scope). Limitations: A limited number of tasks and experiments; repeatable general discovery requires broader independent testing.",
+    "note": "Method: experimental-demonstration. Status: peer-reviewed. Verification: content-checked (journal abstract and experimental scope). Limitations: A limited number of tasks and experiments; repeatable general discovery requires broader independent testing. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -175,6 +175,38 @@
     }
   },
   {
+    "id": "ref-5bff21951f",
+    "type": "webpage",
+    "title": "A New Look at AI’s Impact on Jobs",
+    "URL": "https://ramp.com/data/ai-jobs-impact",
+    "author": [
+      {
+        "literal": "Ramp Economics Lab"
+      }
+    ],
+    "abstract": "Supporting reference on work. Scope indicated by the primary-source title: A New Look at AI’s Impact on Jobs. Result-level appraisal is pending.",
+    "keyword": "work",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Publisher launch announcement dated 30 June 2026; https://ramp.com/data/heavy-ai-adopters-hire-more; checked 13 October 2026. Landing-page launch date, not a separately dated paper revision.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          30
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "wang2026",
     "type": "manuscript",
     "title": "A Risk-Adaptive and Evidence-Constrained Framework for Generative AI Feedback in Programming Education",
@@ -187,7 +219,7 @@
     ],
     "abstract": "Combines risk prediction, evidence-bounded feedback and progressive assistance using historical failed submissions from 215 students.",
     "keyword": "learning; engineering",
-    "note": "Method: retrospective-computational. Status: preprint. Verification: content-checked (abstract and full HTML research-design section). Limitations: Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning. Persistent identifier: arXiv:2609.29874",
+    "note": "Method: retrospective-computational. Status: preprint. Verification: content-checked (abstract and full HTML research-design section). Limitations: Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning. Date basis: primary metadata Persistent identifier: arXiv:2609.29874",
     "issued": {
       "date-parts": [
         [
@@ -449,7 +481,7 @@
     ],
     "abstract": "Co-Scientist generates and prioritizes research hypotheses, with selected results assessed through expert and experimental validation.",
     "keyword": "science; agents",
-    "note": "Method: benchmark-and-experimental-validation. Status: peer-reviewed. Verification: content-checked (journal abstract and validation description). Limitations: Selected biological cases and human direction; broad autonomy is not demonstrated.",
+    "note": "Method: benchmark-and-experimental-validation. Status: peer-reviewed. Verification: content-checked (journal abstract and validation description). Limitations: Selected biological cases and human direction; broad autonomy is not demonstrated. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -491,7 +523,7 @@
     ],
     "abstract": "Microsoft's early-2026 CLI-agent rollout is associated with roughly 24% more merged pull requests among adopters across four months.",
     "keyword": "productivity; engineering; cost",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random. Persistent identifier: arXiv:2607.01418",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random. Date basis: primary metadata Persistent identifier: arXiv:2607.01418",
     "issued": {
       "date-parts": [
         [
@@ -604,7 +636,7 @@
     ],
     "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Advancing Mathematics Research with AI-Driven Formal Proof Search. Result-level appraisal is pending.",
     "keyword": "science",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2605.22763",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2605.22763",
     "issued": {
       "date-parts": [
         [
@@ -697,7 +729,7 @@
     "author": [],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: AI Economic Indicators: June 2026 Update. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: identifier or URL year; exact date not established",
     "issued": {
       "date-parts": [
         [
@@ -740,7 +772,7 @@
     ],
     "abstract": "Supporting reference on methods, business. Scope indicated by the primary-source title: AI Evaluation Should Measure Verification Cost, Not Correctness Alone. Result-level appraisal is pending.",
     "keyword": "methods; business",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2608.08709",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2608.08709",
     "issued": {
       "date-parts": [
         [
@@ -781,7 +813,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development. Result-level appraisal is pending.",
     "keyword": "engineering; agents; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2601.13597",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2601.13597",
     "issued": {
       "date-parts": [
         [
@@ -1191,7 +1223,7 @@
     ],
     "abstract": "ERA iteratively searches software candidates for scorable scientific and engineering tasks, demonstrating strong empirical-software performance.",
     "keyword": "science; engineering; agents",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and task design). Limitations: Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and task design). Limitations: Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -1213,6 +1245,53 @@
     "container-title": "Nature"
   },
   {
+    "id": "ref-4336e76ca7",
+    "type": "webpage",
+    "title": "Announcing RSI Bench",
+    "URL": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
+    "author": [
+      {
+        "literal": "Anas Mahmoud"
+      },
+      {
+        "literal": "MohammadHossein Rezaei"
+      },
+      {
+        "literal": "Mingchen Zhuge"
+      },
+      {
+        "literal": "Chenguang Wang"
+      },
+      {
+        "literal": "Yuandong Tian"
+      },
+      {
+        "literal": "Yunzhong He"
+      }
+    ],
+    "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.",
+    "keyword": "context",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary announcement date and byline; source page checked 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "ref-a32e7d5bed",
     "type": "manuscript",
     "title": "Are Coding Agents Generating Over-Mocked Tests? An Empirical Study",
@@ -1229,7 +1308,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: Are Coding Agents Generating Over-Mocked Tests? An Empirical Study. Result-level appraisal is pending.",
     "keyword": "engineering; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2602.00409",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2602.00409",
     "issued": {
       "date-parts": [
         [
@@ -1311,7 +1390,7 @@
     ],
     "abstract": "Analysis of 41.3 million papers associates AI use with individual career and output advantages but a narrower collective distribution of research topics.",
     "keyword": "science; work; diversity",
-    "note": "Method: observational. Status: peer-reviewed. Verification: content-checked (journal abstract and publication metadata). Limitations: Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading.",
+    "note": "Method: observational. Status: peer-reviewed. Verification: content-checked (journal abstract and publication metadata). Limitations: Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -1371,6 +1450,38 @@
     }
   },
   {
+    "id": "ref-672d8f5482",
+    "type": "webpage",
+    "title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+    "URL": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+    "author": [
+      {
+        "literal": "Kazuaki Okumura"
+      }
+    ],
+    "abstract": "Supporting reference on engineering, productivity, agents. Scope indicated by the primary-source title: Beyond code generation: rethinking engineering productivity in the age of AI agents. Result-level appraisal is pending.",
+    "keyword": "engineering; productivity; agents",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary Dropbox article date and byline; checked 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          28
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "brand2026",
     "type": "manuscript",
     "title": "Beyond Productivity: Measuring Developers' Cognitive Load During GenAI-Supported Software Development",
@@ -1395,7 +1506,7 @@
     ],
     "abstract": "A four-day study of 21 SAP developers relates perceived cognitive load to AI use and task context; wearable measurements add limited information.",
     "keyword": "cognition; engineering; work",
-    "note": "Method: field-observation. Status: preprint. Verification: content-checked (primary abstract only). Limitations: Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort. Persistent identifier: arXiv:2609.37645",
+    "note": "Method: field-observation. Status: preprint. Verification: content-checked (primary abstract only). Limitations: Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort. Date basis: primary metadata Persistent identifier: arXiv:2609.37645",
     "issued": {
       "date-parts": [
         [
@@ -1444,7 +1555,7 @@
     ],
     "abstract": "A BNY Mellon survey with 2,989 responses and 11 interviews argues for measuring expertise, ownership and longer-run productivity alongside activity.",
     "keyword": "productivity; engineering; methods",
-    "note": "Method: mixed-methods. Status: preprint. Verification: content-checked (primary abstract). Limitations: Self-reports within one organization; identifies constructs rather than a causal effect size. Persistent identifier: arXiv:2602.03593",
+    "note": "Method: mixed-methods. Status: preprint. Verification: content-checked (primary abstract). Limitations: Self-reports within one organization; identifies constructs rather than a causal effect size. Date basis: primary metadata Persistent identifier: arXiv:2602.03593",
     "issued": {
       "date-parts": [
         [
@@ -1545,7 +1656,7 @@
     "author": [],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -1606,7 +1717,7 @@
     ],
     "abstract": "Production C++ telemetry finds distinct warning profiles, added review effort, and higher compute consumption in the studied AI-code cohort.",
     "keyword": "engineering; quality; cost",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract and study scope). Limitations: One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier. Persistent identifier: arXiv:2608.06640",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract and study scope). Limitations: One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier. Date basis: primary metadata Persistent identifier: arXiv:2608.06640",
     "issued": {
       "date-parts": [
         [
@@ -1775,11 +1886,43 @@
     "author": [],
     "abstract": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify | Spotify Engineering. Result-level appraisal is pending.",
     "keyword": "engineering; agents",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: identifier or URL year; exact date not established",
     "issued": {
       "date-parts": [
         [
           2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-ffcede42d0",
+    "type": "webpage",
+    "title": "Computer Science Has Hit Its High Water Mark",
+    "URL": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
+    "author": [
+      {
+        "literal": "Caelan Wilkie-Rogers"
+      }
+    ],
+    "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.",
+    "keyword": "science",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary Revelio publication date and suggested citation; checked 13 October 2026. The 11 June update is not the original publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
         ]
       ]
     },
@@ -1880,7 +2023,7 @@
     ],
     "abstract": "Population search over harnesses improves benchmark performance with a frozen model, treating tools, prompts and control flow as evolvable components.",
     "keyword": "ai-rd; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Recent author-reported benchmark results require independent replication and careful train-test separation. Persistent identifier: arXiv:2608.07545",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Recent author-reported benchmark results require independent replication and careful train-test separation. Date basis: primary metadata Persistent identifier: arXiv:2608.07545",
     "issued": {
       "date-parts": [
         [
@@ -1933,7 +2076,7 @@
     ],
     "abstract": "Supporting reference on engineering, quality. Scope indicated by the primary-source title: Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the Wild. Result-level appraisal is pending.",
     "keyword": "engineering; quality",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2603.28592",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2603.28592",
     "issued": {
       "date-parts": [
         [
@@ -1990,7 +2133,7 @@
     ],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: Developers and Generative AI: A Study of Self-Admitted Usage in Open Source Projects. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2603.26277",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2603.26277",
     "issued": {
       "date-parts": [
         [
@@ -2031,7 +2174,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories. Result-level appraisal is pending.",
     "keyword": "engineering; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2608.10319",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2608.10319",
     "issued": {
       "date-parts": [
         [
@@ -2068,7 +2211,7 @@
     ],
     "abstract": "Iterative infrastructure-code repair can regress security; changing the regression definition reduces measured affected scenarios from 13.8% to 3.3%.",
     "keyword": "engineering; security; methods",
-    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract and measurement definitions). Limitations: Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures. Persistent identifier: arXiv:2608.13404",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract and measurement definitions). Limitations: Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures. Date basis: primary metadata Persistent identifier: arXiv:2608.13404",
     "issued": {
       "date-parts": [
         [
@@ -2190,7 +2333,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Experimental Evidence on the Learning Impact of Generative AI. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2607.08849",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2607.08849",
     "issued": {
       "date-parts": [
         [
@@ -2335,7 +2478,7 @@
     ],
     "abstract": "Supporting reference on engineering, quality, agents, methods. Scope indicated by the primary-source title: From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality. Result-level appraisal is pending.",
     "keyword": "engineering; quality; agents; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2607.13196",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2607.13196",
     "issued": {
       "date-parts": [
         [
@@ -2409,7 +2552,7 @@
     ],
     "abstract": "Supporting reference on engineering, security, methods. Scope indicated by the primary-source title: GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?. Result-level appraisal is pending.",
     "keyword": "engineering; security; methods",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -2437,11 +2580,42 @@
     "author": [],
     "abstract": "Supporting reference on methods, business. Scope indicated by the primary-source title: Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds. Result-level appraisal is pending.",
     "keyword": "methods; business",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: identifier or URL year; exact date not established",
     "issued": {
       "date-parts": [
         [
           2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-7ba221a977",
+    "type": "webpage",
+    "title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
+    "URL": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
+    "author": [
+      {
+        "literal": "Sebastian Gallegos"
+      }
+    ],
+    "abstract": "Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.",
+    "keyword": "business",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary IZA Discussion Paper 18513 page: March 2026; checked 13 October 2026. No publication day supplied.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3
         ]
       ]
     },
@@ -2472,7 +2646,7 @@
     ],
     "abstract": "Randomized study of learning a programming library finds reduced conceptual understanding, code reading and debugging with AI assistance on average.",
     "keyword": "learning; engineering",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and preregistered design description). Limitations: A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized. Persistent identifier: arXiv:2601.20245",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and preregistered design description). Limitations: A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized. Date basis: primary metadata Persistent identifier: arXiv:2601.20245",
     "issued": {
       "date-parts": [
         [
@@ -2583,7 +2757,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests. Result-level appraisal is pending.",
     "keyword": "engineering; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2607.21832",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2607.21832",
     "issued": {
       "date-parts": [
         [
@@ -2611,7 +2785,7 @@
     "author": [],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: How we’re evolving Jira for AI-native software development - Inside Atlassian. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -2644,7 +2818,7 @@
     ],
     "abstract": "Supporting reference on learning, science. Scope indicated by the primary-source title: Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation. Result-level appraisal is pending.",
     "keyword": "learning; science",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -3215,7 +3389,7 @@
     ],
     "abstract": "AlphaProof combines reinforcement learning with formal mathematical reasoning and machine-checked proofs at olympiad level.",
     "keyword": "science; mathematics; verification",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and stated evaluation scope). Limitations: Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and stated evaluation scope). Limitations: Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -3297,7 +3471,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models. Result-level appraisal is pending.",
     "keyword": "engineering; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2608.10178",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2608.10178",
     "issued": {
       "date-parts": [
         [
@@ -3350,7 +3524,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: Online Monitoring and Corrective Steering of Programming Agents. Result-level appraisal is pending.",
     "keyword": "engineering; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2608.06701",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2608.06701",
     "issued": {
       "date-parts": [
         [
@@ -3383,7 +3557,7 @@
     ],
     "abstract": "Among 210 first-year OOP students, different self-reported AI-use profiles did not significantly differ in unaided assessment performance.",
     "keyword": "learning; engineering",
-    "note": "Method: survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter. Persistent identifier: arXiv:2607.24755",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter. Date basis: primary metadata Persistent identifier: arXiv:2607.24755",
     "issued": {
       "date-parts": [
         [
@@ -3489,7 +3663,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Reinforcement Learning via Self-Distillation. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2601.20802",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2601.20802",
     "issued": {
       "date-parts": [
         [
@@ -3554,7 +3728,7 @@
     ],
     "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Remarks on the disproof of the unit distance conjecture. Result-level appraisal is pending.",
     "keyword": "science",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2605.20695",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2605.20695",
     "issued": {
       "date-parts": [
         [
@@ -3595,7 +3769,7 @@
     ],
     "abstract": "Five research environments expose a gap between occasional strong research results and reliable completion of long research workflows.",
     "keyword": "science; ai-rd; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance. Persistent identifier: arXiv:2602.15112",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance. Date basis: primary metadata Persistent identifier: arXiv:2602.15112",
     "issued": {
       "date-parts": [
         [
@@ -3623,7 +3797,7 @@
     "author": [],
     "abstract": "Supporting reference on work. Scope indicated by the primary-source title: Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs | Fortune. Result-level appraisal is pending.",
     "keyword": "work",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: identifier or URL year; exact date not established",
     "issued": {
       "date-parts": [
         [
@@ -3649,13 +3823,45 @@
     "author": [],
     "abstract": "Supporting reference on work. Scope indicated by the primary-source title: Sam Altman Says AI ‘Jobs Apocalypse’ Probably Won’t Happen. What Changed?. Result-level appraisal is pending.",
     "keyword": "work",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
           2026,
           5,
           26
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-12d21bb68f",
+    "type": "webpage",
+    "title": "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
+    "URL": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
+    "author": [
+      {
+        "literal": "Leigh Cook"
+      }
+    ],
+    "abstract": "Supporting reference on work. Scope indicated by the primary-source title: Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'. Result-level appraisal is pending.",
+    "keyword": "work",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary NewsArticle JSON-LD publication date and byline; retrieved 12 October 2026, inspected 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
         ]
       ]
     },
@@ -3698,7 +3904,7 @@
     ],
     "abstract": "Evaluates agents across successive repository changes rather than a single static issue, making regression and maintainability central outcomes.",
     "keyword": "engineering; quality; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation. Persistent identifier: arXiv:2603.03823",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation. Date basis: primary metadata Persistent identifier: arXiv:2603.03823",
     "issued": {
       "date-parts": [
         [
@@ -3767,7 +3973,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review. Result-level appraisal is pending.",
     "keyword": "engineering; agents; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2607.06065",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2607.06065",
     "issued": {
       "date-parts": [
         [
@@ -3908,7 +4114,7 @@
     ],
     "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Synthesizing scientific literature with retrieval-augmented language models. Result-level appraisal is pending.",
     "keyword": "science",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -3928,6 +4134,34 @@
     },
     "DOI": "10.1038/s41586-025-10072-4",
     "container-title": "Nature"
+  },
+  {
+    "id": "ref-e299630b86",
+    "type": "webpage",
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "URL": "https://openai.com/index/ten-advances-in-mathematics",
+    "author": [],
+    "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.",
+    "keyword": "science",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher title/date and visible results and responsibility section headings in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
   },
   {
     "id": "taoliving2026",
@@ -3987,7 +4221,7 @@
     ],
     "abstract": "Coverage measurements on 4,882 agent PRs show incomplete execution of changed lines and uneven benefits from agent-written tests.",
     "keyword": "engineering; quality; agents",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication. Persistent identifier: arXiv:2607.18057",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication. Date basis: primary metadata Persistent identifier: arXiv:2607.18057",
     "issued": {
       "date-parts": [
         [
@@ -4111,7 +4345,7 @@
     ],
     "abstract": "Across 11,700 trajectories, different tool architectures alter coding-agent behavior, consistency and token consumption despite similar available actions.",
     "keyword": "agents; engineering; cost",
-    "note": "Method: benchmark-experiment. Status: preprint. Verification: content-checked (primary abstract). Limitations: Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate. Persistent identifier: arXiv:2608.11386",
+    "note": "Method: benchmark-experiment. Status: preprint. Verification: content-checked (primary abstract). Limitations: Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate. Date basis: primary metadata Persistent identifier: arXiv:2608.11386",
     "issued": {
       "date-parts": [
         [
@@ -4148,7 +4382,7 @@
     ],
     "abstract": "A six-month survey panel reports a shift toward supervisory engineering work and growing experience-related costs despite stable perceived productivity gains.",
     "keyword": "engineering; cognition; work",
-    "note": "Method: longitudinal-survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: Perceived effects, attrition and 95 matched participants; not independently timed task performance. Persistent identifier: arXiv:2605.23135",
+    "note": "Method: longitudinal-survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: Perceived effects, attrition and 95 matched participants; not independently timed task performance. Date basis: primary metadata Persistent identifier: arXiv:2605.23135",
     "issued": {
       "date-parts": [
         [
@@ -4356,7 +4590,7 @@
     ],
     "abstract": "Supporting reference on business. Scope indicated by the primary-source title: The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks. Result-level appraisal is pending.",
     "keyword": "business",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: identifier or URL year; exact date not established",
     "issued": {
       "date-parts": [
         [
@@ -4428,7 +4662,7 @@
     ],
     "abstract": "Supporting reference on engineering, methods. Scope indicated by the primary-source title: The State of Generative AI in Software Development: Insights from Literature and a Developer Survey. Result-level appraisal is pending.",
     "keyword": "engineering; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2603.16975",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2603.16975",
     "issued": {
       "date-parts": [
         [
@@ -4514,7 +4748,7 @@
     ],
     "abstract": "Supporting reference on engineering, quality, agents. Scope indicated by the primary-source title: To What Extent Does Agent-generated Code Require Maintenance? An Empirical Study. Result-level appraisal is pending.",
     "keyword": "engineering; quality; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2605.06464",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2605.06464",
     "issued": {
       "date-parts": [
         [
@@ -4559,7 +4793,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents, business. Scope indicated by the primary-source title: Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Result-level appraisal is pending.",
     "keyword": "engineering; agents; business",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2601.14470",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2601.14470",
     "issued": {
       "date-parts": [
         [
@@ -4620,7 +4854,7 @@
     ],
     "abstract": "Demonstrates an extended automated ML-research workflow and evaluation of generated work through workshop peer review.",
     "keyword": "science; agents",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and primary publication description). Limitations: Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and primary publication description). Limitations: Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -4682,7 +4916,7 @@
     "author": [],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: identifier or URL year; exact date not established",
     "issued": {
       "date-parts": [
         [
@@ -4818,7 +5052,7 @@
     ],
     "abstract": "Joint implementation-and-proof generation succeeds on 27 of 43 curated multi-module Lean repositories in the strongest evaluated configuration, with no complete success on the hardest cases.",
     "keyword": "engineering; verification; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Formal validity is conditional on specification; small curated benchmark and configuration-dependent result. Persistent identifier: arXiv:2608.13522",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Formal validity is conditional on specification; small curated benchmark and configuration-dependent result. Date basis: primary metadata Persistent identifier: arXiv:2608.13522",
     "issued": {
       "date-parts": [
         [
@@ -4933,13 +5167,45 @@
     ],
     "abstract": "Supporting reference on security. Scope indicated by the primary-source title: When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution. Result-level appraisal is pending.",
     "keyword": "security",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2607.28041",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2607.28041",
     "issued": {
       "date-parts": [
         [
           2026,
           7,
           30
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-529895b385",
+    "type": "webpage",
+    "title": "Where Is the AI Jobs Crisis? | The Daily Spark",
+    "URL": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+    "author": [
+      {
+        "literal": "Torsten Slok"
+      }
+    ],
+    "abstract": "Supporting reference on work. Scope indicated by the primary-source title: Where Is the AI Jobs Crisis? | The Daily Spark. Result-level appraisal is pending.",
+    "keyword": "work",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary Apollo article date and About the Author section; checked 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          9
         ]
       ]
     },
@@ -5085,7 +5351,7 @@
     ],
     "abstract": "Students assisted by ChatGPT produced stronger C solutions but showed lower immediate and 48-hour recall, with no significant difference in the rate of forgetting.",
     "keyword": "learning; engineering; cognition",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract, full HTML methods and results). Limitations: 55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness. Persistent identifier: arXiv:2609.21194",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract, full HTML methods and results). Limitations: 55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness. Date basis: primary metadata Persistent identifier: arXiv:2609.21194",
     "issued": {
       "date-parts": [
         [
@@ -5134,7 +5400,7 @@
     ],
     "abstract": "Supporting reference on engineering, quality, methods. Scope indicated by the primary-source title: A Survey of Bugs in AI-Generated Code. Result-level appraisal is pending.",
     "keyword": "engineering; quality; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2512.05239",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2512.05239",
     "issued": {
       "date-parts": [
         [
@@ -5191,7 +5457,7 @@
     ],
     "abstract": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: A Survey on Code Generation with LLM-based Agents. Result-level appraisal is pending.",
     "keyword": "engineering; agents; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2508.00083",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2508.00083",
     "issued": {
       "date-parts": [
         [
@@ -5244,7 +5510,7 @@
     ],
     "abstract": "Supporting reference on engineering, quality, agents. Scope indicated by the primary-source title: Agentic Refactoring: An Empirical Study of AI Coding Agents. Result-level appraisal is pending.",
     "keyword": "engineering; quality; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2511.04824",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2511.04824",
     "issued": {
       "date-parts": [
         [
@@ -5353,7 +5619,7 @@
     ],
     "abstract": "An open-source study reports greater activity among peripheral contributors alongside added review and rework burdens for core contributors.",
     "keyword": "engineering; quality; work",
-    "note": "Method: observational. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value. Persistent identifier: arXiv:2510.10165",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value. Date basis: primary metadata Persistent identifier: arXiv:2510.10165",
     "issued": {
       "date-parts": [
         [
@@ -5454,7 +5720,7 @@
     ],
     "abstract": "An evolutionary coding agent improves algorithms and infrastructure through evaluator-driven search, including selected novel mathematical procedures.",
     "keyword": "science; engineering; ai-rd",
-    "note": "Method: experimental-demonstration. Status: preprint. Verification: content-checked (primary abstract). Limitations: Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows. Persistent identifier: arXiv:2506.13131",
+    "note": "Method: experimental-demonstration. Status: preprint. Verification: content-checked (primary abstract). Limitations: Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows. Date basis: primary metadata Persistent identifier: arXiv:2506.13131",
     "issued": {
       "date-parts": [
         [
@@ -5495,7 +5761,7 @@
     ],
     "abstract": "Static analysis of 4,442 Java assignments finds that passing functional tests does not reliably indicate broader code quality or security.",
     "keyword": "engineering; quality; security",
-    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Assignments, selected models, and analyzer findings are not direct observations of production exploitation. Persistent identifier: arXiv:2508.14727",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Assignments, selected models, and analyzer findings are not direct observations of production exploitation. Date basis: primary metadata Persistent identifier: arXiv:2508.14727",
     "issued": {
       "date-parts": [
         [
@@ -5532,7 +5798,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Beyond the Prompt: An Empirical Study of Cursor Rules. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2512.18925",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2512.18925",
     "issued": {
       "date-parts": [
         [
@@ -5622,7 +5888,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -5650,7 +5916,7 @@
     "author": [],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -5699,7 +5965,7 @@
     ],
     "abstract": "Darwin Godel Machine evolves the code of coding agents using an archive and external benchmarks while retaining a foundation model as the engine.",
     "keyword": "ai-rd; engineering; agents",
-    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence. Persistent identifier: arXiv:2505.22954",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence. Date basis: primary metadata Persistent identifier: arXiv:2505.22954",
     "issued": {
       "date-parts": [
         [
@@ -5740,7 +6006,7 @@
     ],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -5789,7 +6055,7 @@
     ],
     "abstract": "Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study. Result-level appraisal is pending.",
     "keyword": "engineering; productivity",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2509.20353",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2509.20353",
     "issued": {
       "date-parts": [
         [
@@ -5831,7 +6097,7 @@
     ],
     "abstract": "Supporting reference on engineering, quality. Scope indicated by the primary-source title: Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality. Result-level appraisal is pending.",
     "keyword": "engineering; quality",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2509.10402",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2509.10402",
     "issued": {
       "date-parts": [
         [
@@ -5896,7 +6162,7 @@
     ],
     "abstract": "Automated discovery of reinforcement-learning rules yields methods competitive with hand-designed algorithms and tested in additional environments.",
     "keyword": "science; ai-rd",
-    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and evaluation description). Limitations: Search objective, environments and compute allocation are human-designed; transfer has a defined scope.",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and evaluation description). Limitations: Search objective, environments and compute allocation are human-designed; transfer has a defined scope. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -5946,7 +6212,7 @@
     ],
     "abstract": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Do LLMs consider security? an empirical study on responses to programming questions. Result-level appraisal is pending.",
     "keyword": "engineering; security",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -6076,7 +6342,52 @@
     ],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA Impact of Generative AI in Software Development. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-3d0ab8c8d6",
+    "type": "webpage",
+    "title": "DORA | Download the Impact of Generative AI in Software Development",
+    "URL": "https://dora.dev/ai/gen-ai-report",
+    "author": [
+      {
+        "literal": "Derek Debellis"
+      },
+      {
+        "literal": "Kevin M. Storer"
+      },
+      {
+        "literal": "Daniella Villalba"
+      },
+      {
+        "literal": "Nathen Harvey"
+      },
+      {
+        "literal": "Sarah D'Angelo"
+      },
+      {
+        "literal": "Adam Brown"
+      }
+    ],
+    "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.",
+    "keyword": "engineering",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Linked primary report edition v. 2025.2 and author list (page 54); https://dora.dev/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf; checked 13 October 2026. Exact publication day not established. Version: Cites report edition 2025.2. The landing page's 13 April 2026 update is not the report's publication year.",
     "issued": {
       "date-parts": [
         [
@@ -6123,7 +6434,7 @@
     ],
     "abstract": "Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Experience with GitHub Copilot for Developer Productivity at Zoominfo. Result-level appraisal is pending.",
     "keyword": "engineering; productivity",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2501.13282",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2501.13282",
     "issued": {
       "date-parts": [
         [
@@ -6392,7 +6703,7 @@
     ],
     "abstract": "Supporting reference on learning, science. Scope indicated by the primary-source title: Generative AI in Computer Science Education: Challenges and Opportunities. Result-level appraisal is pending.",
     "keyword": "learning; science",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Version: Publisher citation metadata includes the subtitle Challenges and Opportunities; Crossref uses the shorter book title. DOI and authors agree. Metadata comparison checked 13 October 2026.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Version: Publisher citation metadata includes the subtitle Challenges and Opportunities; Crossref uses the shorter book title. DOI and authors agree. Metadata comparison checked 13 October 2026.",
     "issued": {
       "date-parts": [
         [
@@ -6473,7 +6784,7 @@
     "author": [],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: How AI is transforming work at Anthropic. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -6501,13 +6812,64 @@
     "author": [],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: How are developers using AI? Inside our 2025 DORA report. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
           2025,
           9,
           23
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-d79880fda4",
+    "type": "webpage",
+    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025",
+    "URL": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
+    "author": [
+      {
+        "literal": "Elise Paradis"
+      },
+      {
+        "literal": "Kate Grey"
+      },
+      {
+        "literal": "Quinn Madison"
+      },
+      {
+        "literal": "Daye Nam"
+      },
+      {
+        "literal": "Andrew Macvean"
+      },
+      {
+        "literal": "Nan Zhang"
+      },
+      {
+        "literal": "Ben Ferrari-Church"
+      },
+      {
+        "literal": "Satish Chandra"
+      }
+    ],
+    "abstract": "Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.",
+    "keyword": "engineering; productivity; business",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary ICSE 2025 conference entry and author list; checked 13 October 2026. Presentation on 2 May 2025 is not asserted as the publication day. Version: Conference entry for ICSE 2025; related 2024 arXiv version is the same study, not independent evidence.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
         ]
       ]
     },
@@ -6542,7 +6904,7 @@
     ],
     "abstract": "Compares more than 500,000 Python and Java samples and identifies different defect, vulnerability and structural-complexity profiles in human and model code.",
     "keyword": "engineering; quality; security",
-    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable. Persistent identifier: arXiv:2508.21634",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable. Date basis: primary metadata Persistent identifier: arXiv:2508.21634",
     "issued": {
       "date-parts": [
         [
@@ -6583,7 +6945,7 @@
     ],
     "abstract": "Supporting reference on engineering, learning. Scope indicated by the primary-source title: Integrating LLMs in Software Engineering Education: Motivators, Demotivators, and a Roadmap Towards a Framework for Finnish Higher Education Institutes. Result-level appraisal is pending.",
     "keyword": "engineering; learning",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2503.22238",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2503.22238",
     "issued": {
       "date-parts": [
         [
@@ -6628,7 +6990,7 @@
     ],
     "abstract": "Experienced maintainers took 19% longer on tasks in familiar repositories when allowed early-2025 AI tools, despite expecting and perceiving speedups.",
     "keyword": "productivity; engineering",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary paper abstract and linked experiment report). Limitations: A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents. Persistent identifier: arXiv:2507.09089",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary paper abstract and linked experiment report). Limitations: A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents. Date basis: primary metadata Persistent identifier: arXiv:2507.09089",
     "issued": {
       "date-parts": [
         [
@@ -6656,7 +7018,7 @@
     "author": [],
     "abstract": "Supporting reference on engineering, productivity, methods. Scope indicated by the primary-source title: Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. Result-level appraisal is pending.",
     "keyword": "engineering; productivity; methods",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -6684,7 +7046,7 @@
     "author": [],
     "abstract": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Nearly half of all code generated by AI found to contain security flaws - even big LLMs affected. Result-level appraisal is pending.",
     "keyword": "engineering; security",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -6729,7 +7091,7 @@
     ],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2503.05040",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2503.05040",
     "issued": {
       "date-parts": [
         [
@@ -6749,6 +7111,38 @@
       ]
     },
     "DOI": "10.1007/s10664-025-10735-w"
+  },
+  {
+    "id": "ref-c91813d328",
+    "type": "webpage",
+    "title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
+    "URL": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
+    "author": [
+      {
+        "literal": "SonarSource"
+      }
+    ],
+    "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.",
+    "keyword": "engineering",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary Article JSON-LD datePublished and organization author; retrieved 12 October 2026, inspected 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
   },
   {
     "id": "ref-18f89167b2",
@@ -6799,7 +7193,7 @@
     ],
     "abstract": "Supporting reference on engineering, security, agents. Scope indicated by the primary-source title: Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment. Result-level appraisal is pending.",
     "keyword": "engineering; security; agents",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2509.05755",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2509.05755",
     "issued": {
       "date-parts": [
         [
@@ -6840,7 +7234,7 @@
     ],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: Secure Coding with AI -- From Detection to Repair. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2504.20814",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2504.20814",
     "issued": {
       "date-parts": [
         [
@@ -6881,7 +7275,7 @@
     ],
     "abstract": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox. Result-level appraisal is pending.",
     "keyword": "engineering; security",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2506.11022",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2506.11022",
     "issued": {
       "date-parts": [
         [
@@ -6918,7 +7312,7 @@
     ],
     "abstract": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories. Result-level appraisal is pending.",
     "keyword": "engineering; security",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2510.26103",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2510.26103",
     "issued": {
       "date-parts": [
         [
@@ -6968,7 +7362,7 @@
     ],
     "abstract": "Supporting reference on quality, productivity, business. Scope indicated by the primary-source title: Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects. Result-level appraisal is pending.",
     "keyword": "quality; productivity; business",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Version: The November 2025 arXiv version uses a longer subtitle; Crossref records the same authors and associated 2026 conference publication under Speed at the Cost of Quality. Do not treat the versions as independent studies. Metadata comparison checked 13 October 2026. Persistent identifier: arXiv:2511.04427",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Version: The November 2025 arXiv version uses a longer subtitle; Crossref records the same authors and associated 2026 conference publication under Speed at the Cost of Quality. Do not treat the versions as independent studies. Metadata comparison checked 13 October 2026. Persistent identifier: arXiv:2511.04427",
     "issued": {
       "date-parts": [
         [
@@ -7048,7 +7442,7 @@
     ],
     "abstract": "A review of 58 programming-education studies groups chatbots, generative tools and intelligent tutors, describing benefits alongside overreliance and implementation barriers.",
     "keyword": "engineering; learning; methods",
-    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v2 abstract and related-publication metadata). Limitations: The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established. Version: December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence. Persistent identifier: arXiv:2510.03884",
+    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v2 abstract and related-publication metadata). Limitations: The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established. Date basis: primary metadata Version: December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence. Persistent identifier: arXiv:2510.03884",
     "issued": {
       "date-parts": [
         [
@@ -7068,6 +7462,38 @@
       ]
     },
     "DOI": "10.26803/ijlter.25.1.1"
+  },
+  {
+    "id": "ref-9f81141e49",
+    "type": "webpage",
+    "title": "The AI Productivity Paradox Research Report",
+    "URL": "https://www.faros.ai/blog/ai-software-engineering",
+    "author": [
+      {
+        "literal": "Faros Research"
+      }
+    ],
+    "abstract": "Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.",
+    "keyword": "science; productivity",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary BlogPosting JSON-LD datePublished and author; retrieved 12 October 2026, inspected 13 October 2026. The September 2026 modification is not the publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          23
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
   },
   {
     "id": "cui2025",
@@ -7200,7 +7626,7 @@
     ],
     "abstract": "A survey of 415 practitioners maps perceived gains and shifted effort across SPACE dimensions, including review and verification costs.",
     "keyword": "productivity; engineering; methods",
-    "note": "Method: survey. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Self-report and adoption differences; neither proves net losses nor measures firm-level product value. Persistent identifier: arXiv:2510.24265",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Self-report and adoption differences; neither proves net losses nor measures firm-level product value. Date basis: primary metadata Persistent identifier: arXiv:2510.24265",
     "issued": {
       "date-parts": [
         [
@@ -7289,7 +7715,7 @@
     ],
     "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: The Future of Generative AI in Software Engineering: A Vision from Industry and Academia in the European GENIUS Project. Result-level appraisal is pending.",
     "keyword": "engineering",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2511.01348",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2511.01348",
     "issued": {
       "date-parts": [
         [
@@ -7338,7 +7764,7 @@
     ],
     "abstract": "Supporting reference on engineering, security, methods. Scope indicated by the primary-source title: The Hidden Risks of LLM-Generated Web Application Code: A Security-Centric Evaluation of Code Generation Capabilities in Large Language Models. Result-level appraisal is pending.",
     "keyword": "engineering; security; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2504.20612",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2504.20612",
     "issued": {
       "date-parts": [
         [
@@ -7388,7 +7814,7 @@
     ],
     "abstract": "Supporting reference on methods. Scope indicated by the primary-source title: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Result-level appraisal is pending.",
     "keyword": "methods",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -7429,7 +7855,7 @@
     ],
     "abstract": "A mapping of 39 peer-reviewed studies highlights multidimensional productivity assessment but scarce longitudinal and team-level evidence, with unresolved quality effects.",
     "keyword": "engineering; productivity; methods",
-    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v3 abstract and journal/version metadata). Limitations: Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024. Version: Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication. Persistent identifier: arXiv:2507.03156",
+    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v3 abstract and journal/version metadata). Limitations: Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024. Date basis: primary metadata Version: Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication. Persistent identifier: arXiv:2507.03156",
     "issued": {
       "date-parts": [
         [
@@ -7449,6 +7875,36 @@
       ]
     },
     "DOI": "10.1145/3809494"
+  },
+  {
+    "id": "ref-022ae73d8c",
+    "type": "webpage",
+    "title": "The State of Developer Ecosystem in 2025",
+    "URL": "https://devecosystem-2025.jetbrains.com",
+    "author": [
+      {
+        "literal": "JetBrains"
+      }
+    ],
+    "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: The State of Developer Ecosystem in 2025. Result-level appraisal is pending.",
+    "keyword": "engineering",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary report heading explicitly identifies the 2025 edition; checked 13 October 2026. Survey fieldwork (April-June 2025) is not treated as publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
   },
   {
     "id": "herrengtvibe",
@@ -7516,7 +7972,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: AI models collapse when trained on recursively generated data. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -7643,7 +8099,7 @@
     ],
     "abstract": "Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: Examining the Use and Impact of an AI Code Assistant on Developer Productivity and Experience in the Enterprise. Result-level appraisal is pending.",
     "keyword": "engineering; productivity; business",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2412.06603",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2412.06603",
     "issued": {
       "date-parts": [
         [
@@ -7662,6 +8118,45 @@
         ]
       ]
     }
+  },
+  {
+    "id": "ref-f4550e10d8",
+    "type": "webpage",
+    "title": "Generative AI and Software Engineering Education",
+    "URL": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
+    "author": [
+      {
+        "literal": "Ipek Ozkaya"
+      },
+      {
+        "literal": "Douglas Schmidt"
+      },
+      {
+        "literal": "Michael Hilton"
+      }
+    ],
+    "abstract": "Supporting reference on engineering, learning. Scope indicated by the primary-source title: Generative AI and Software Engineering Education. Result-level appraisal is pending.",
+    "keyword": "engineering; learning",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary SEI publication date, citation metadata and additional coauthor credited in the body; checked 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.58012/AHC6-GK69"
   },
   {
     "id": "paradis2024",
@@ -7727,6 +8222,84 @@
     }
   },
   {
+    "id": "ref-10b59b402b",
+    "type": "webpage",
+    "title": "Introducing SWE-bench Verified",
+    "URL": "https://openai.com/index/introducing-swe-bench-verified",
+    "author": [
+      {
+        "literal": "Neil Chowdhury"
+      },
+      {
+        "literal": "James Aung"
+      },
+      {
+        "literal": "Chan Jun Shern"
+      },
+      {
+        "literal": "Oliver Jaffe"
+      },
+      {
+        "literal": "Dane Sherburn"
+      },
+      {
+        "literal": "Giulio Starace"
+      },
+      {
+        "literal": "Evan Mays"
+      },
+      {
+        "literal": "Rachel Dias"
+      },
+      {
+        "literal": "Marwan Aljubeh"
+      },
+      {
+        "literal": "Mia Glaese"
+      },
+      {
+        "literal": "Carlos E. Jimenez"
+      },
+      {
+        "literal": "John Yang"
+      },
+      {
+        "literal": "Leyton Ho"
+      },
+      {
+        "literal": "Tejal Patwardhan"
+      },
+      {
+        "literal": "Kevin Liu"
+      },
+      {
+        "literal": "Aleksander Madry"
+      }
+    ],
+    "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.",
+    "keyword": "context",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Primary publication date and named Authors section; rechecked in local Chrome on 13 October 2026. Version: Originally published 13 August 2024; the page separately records an update on 24 February 2025. OpenAI is the publisher; named authors are retained. Alternative verification: local Chrome, 2026-10-13T07:46:43+00:00; identity-confirmed. Scope: Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.",
+    "publisher": "OpenAI",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          13
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "ref-1ca76a8f96",
     "type": "webpage",
     "title": "Software engineering education in the era of conversational AI: current trends and future directions",
@@ -7747,7 +8320,7 @@
     ],
     "abstract": "Supporting reference on engineering, learning. Scope indicated by the primary-source title: Software engineering education in the era of conversational AI: current trends and future directions. Result-level appraisal is pending.",
     "keyword": "engineering; learning",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata",
     "issued": {
       "date-parts": [
         [
@@ -7789,7 +8362,7 @@
     ],
     "abstract": "Supporting reference on engineering, methods. Scope indicated by the primary-source title: A Large-Scale Survey on the Usability of AI Programming Assistants: Successes and Challenges. Result-level appraisal is pending.",
     "keyword": "engineering; methods",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2303.17125",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2303.17125",
     "issued": {
       "date-parts": [
         [
@@ -8064,7 +8637,7 @@
     ],
     "abstract": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study. Result-level appraisal is pending.",
     "keyword": "engineering; security",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2310.02059",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2310.02059",
     "issued": {
       "date-parts": [
         [
@@ -8121,7 +8694,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2310.06770",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2310.06770",
     "issued": {
       "date-parts": [
         [
@@ -8166,7 +8739,7 @@
     ],
     "abstract": "Developers given Copilot completed a JavaScript HTTP-server task in substantially less time; the reported reduction was 55.8%.",
     "keyword": "productivity; engineering",
-    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and experimental description). Limitations: An isolated task and early tool; completion-conditioned estimates and uncertainty matter. Persistent identifier: arXiv:2302.06590",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and experimental description). Limitations: An isolated task and early tool; completion-conditioned estimates and uncertainty matter. Date basis: primary metadata Persistent identifier: arXiv:2302.06590",
     "issued": {
       "date-parts": [
         [
@@ -8215,7 +8788,7 @@
     ],
     "abstract": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions. Result-level appraisal is pending.",
     "keyword": "engineering; security",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Persistent identifier: arXiv:2108.09293",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2108.09293",
     "issued": {
       "date-parts": [
         [
@@ -8454,14 +9027,31 @@
     "container-title": "ACM Queue"
   },
   {
-    "id": "ref-5bff21951f",
-    "type": "webpage",
-    "title": "A New Look at AI’s Impact on Jobs",
-    "URL": "https://ramp.com/data/ai-jobs-impact",
+    "id": "ref-a97b44c4bb",
+    "type": "book",
+    "title": "Rethinking Productivity in Software Engineering",
+    "URL": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
     "author": [],
-    "abstract": "Supporting reference on work. Scope indicated by the primary-source title: A New Look at AI’s Impact on Jobs. Result-level appraisal is pending.",
-    "keyword": "work",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "abstract": "Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Rethinking Productivity in Software Engineering. Result-level appraisal is pending.",
+    "keyword": "engineering; productivity",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Publisher bibliographic information: eBook published 7 May 2019; checked 13 October 2026. Softcover published 8 May 2019; named contributors are editors, not book authors.",
+    "editor": [
+      {
+        "literal": "Caitlin Sadowski"
+      },
+      {
+        "literal": "Thomas Zimmermann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          7
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -8470,45 +9060,8 @@
           12
         ]
       ]
-    }
-  },
-  {
-    "id": "ref-4336e76ca7",
-    "type": "webpage",
-    "title": "Announcing RSI Bench",
-    "URL": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
-    "author": [],
-    "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.",
-    "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-672d8f5482",
-    "type": "webpage",
-    "title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
-    "URL": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
-    "author": [],
-    "abstract": "Supporting reference on engineering, productivity, agents. Scope indicated by the primary-source title: Beyond code generation: rethinking engineering productivity in the age of AI agents. Result-level appraisal is pending.",
-    "keyword": "engineering; productivity; agents",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
+    },
+    "DOI": "10.1007/978-1-4842-4221-6"
   },
   {
     "id": "qemupolicy2026",
@@ -8522,70 +9075,13 @@
     ],
     "abstract": "QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.",
     "keyword": "engineering; governance; work",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Version: Policy observed on 13 October 2026; original adoption date not established.",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Date basis: not established Version: Policy observed on 13 October 2026; original adoption date not established.",
     "accessed": {
       "date-parts": [
         [
           2026,
           10,
           13
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-ffcede42d0",
-    "type": "webpage",
-    "title": "Computer Science Has Hit Its High Water Mark",
-    "URL": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
-    "author": [],
-    "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.",
-    "keyword": "science",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-3d0ab8c8d6",
-    "type": "webpage",
-    "title": "DORA | Download the Impact of Generative AI in Software Development",
-    "URL": "https://dora.dev/ai/gen-ai-report",
-    "author": [],
-    "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.",
-    "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-f4550e10d8",
-    "type": "webpage",
-    "title": "Generative AI and Software Engineering Education | CMU Software Engineering Institute",
-    "URL": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
-    "author": [],
-    "abstract": "Supporting reference on engineering, learning. Scope indicated by the primary-source title: Generative AI and Software Engineering Education | CMU Software Engineering Institute. Result-level appraisal is pending.",
-    "keyword": "engineering; learning",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
         ]
       ]
     }
@@ -8598,197 +9094,7 @@
     "author": [],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-7ba221a977",
-    "type": "webpage",
-    "title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
-    "URL": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
-    "author": [],
-    "abstract": "Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.",
-    "keyword": "business",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-d79880fda4",
-    "type": "webpage",
-    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025",
-    "URL": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
-    "author": [],
-    "abstract": "Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.",
-    "keyword": "engineering; productivity; business",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-10b59b402b",
-    "type": "webpage",
-    "title": "Introducing SWE-bench Verified",
-    "URL": "https://openai.com/index/introducing-swe-bench-verified",
-    "author": [],
-    "abstract": "Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.",
-    "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher headline, publication date, visible benchmark sections and limitations heading in Chrome.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-c91813d328",
-    "type": "webpage",
-    "title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
-    "URL": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
-    "author": [],
-    "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.",
-    "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-a97b44c4bb",
-    "type": "webpage",
-    "title": "Rethinking Productivity in Software Engineering",
-    "URL": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
-    "author": [],
-    "abstract": "Supporting reference on engineering, productivity. Scope indicated by the primary-source title: Rethinking Productivity in Software Engineering. Result-level appraisal is pending.",
-    "keyword": "engineering; productivity",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-12d21bb68f",
-    "type": "webpage",
-    "title": "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
-    "URL": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
-    "author": [],
-    "abstract": "Supporting reference on work. Scope indicated by the primary-source title: Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'. Result-level appraisal is pending.",
-    "keyword": "work",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-e299630b86",
-    "type": "webpage",
-    "title": "Ten advances in mathematics and theoretical computer science",
-    "URL": "https://openai.com/index/ten-advances-in-mathematics",
-    "author": [],
-    "abstract": "Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.",
-    "keyword": "science",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher title/date and visible results and responsibility section headings in Chrome.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-9f81141e49",
-    "type": "webpage",
-    "title": "The AI Productivity Paradox Research Report",
-    "URL": "https://www.faros.ai/blog/ai-software-engineering",
-    "author": [],
-    "abstract": "Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.",
-    "keyword": "science; productivity",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-022ae73d8c",
-    "type": "webpage",
-    "title": "The State of Developer Ecosystem in 2025",
-    "URL": "https://devecosystem-2025.jetbrains.com",
-    "author": [],
-    "abstract": "Supporting reference on engineering. Scope indicated by the primary-source title: The State of Developer Ecosystem in 2025. Result-level appraisal is pending.",
-    "keyword": "engineering",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          12
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ref-529895b385",
-    "type": "webpage",
-    "title": "Where Is the AI Jobs Crisis? | The Daily Spark",
-    "URL": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
-    "author": [],
-    "abstract": "Supporting reference on work. Scope indicated by the primary-source title: Where Is the AI Jobs Crisis? | The Daily Spark. Result-level appraisal is pending.",
-    "keyword": "work",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: not established",
     "accessed": {
       "date-parts": [
         [

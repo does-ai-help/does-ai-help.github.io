@@ -33,7 +33,10 @@ marked.use({renderer: headingRenderer});
 const articleHtml = marked.parse(citedHtml(manuscript));
 const tokens = marked.lexer(manuscript);
 const headings = tokens.filter(t => t.type === 'heading' && t.depth===2 && !['Abstract','Selected references'].includes(t.text));
-const authorLabel = (r, compact=true) => r.authors.length ? (compact && r.authors.length>5?r.authors.slice(0,3):r.authors).map(a=>a.includes(', ')?a.split(', ').reverse().join(' '):a).join('; ') + (compact && r.authors.length>5?'; et al.':'') : 'Author not established';
+const authorLabel = (r, compact=true) => {
+  const names = r.authors.length ? r.authors : r.editors || [];
+  return names.length ? (compact && names.length>5?names.slice(0,3):names).map(a=>a.includes(', ')?a.split(', ').reverse().join(' '):a).join('; ') + (compact && names.length>5?'; et al.':'') + (!r.authors.length && r.editors?.length?' (editors)':'') : 'Author not established';
+};
 const references = `<ol class="reference-list">${citations.map(id => { const r=byId.get(id); return `<li id="ref-${id}"><a class="reference-title" href="${esc(r.url)}">${esc(r.title)}</a><p>${esc(authorLabel(r))}. ${r.year || 'n.d.'}. ${esc(r.publication_status.replaceAll('-',' '))}.</p>${r.version_note?`<p>${esc(r.version_note)}</p>`:''}<p class="ref-scope">Checked: ${esc(r.verification.basis)}. <a href="bibliography.html#${id}">Evidence record</a></p></li>`; }).join('')}</ol>`;
 const verified = sources.filter(r=>r.verified);
 const core = sources.filter(r=>r.editorial_priority==='core');
@@ -122,6 +125,12 @@ write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citati
 write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>','<script src="assets/data.js" defer></script><script src="assets/bibliography.js" defer></script>'));
 for(const filename of ['index.html','bibliography.html','releases.html']) {
   let source=read('site/'+filename);
+  if(filename==='bibliography.html') for(const r of sources) {
+    const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;
+    const dating=`<p><strong>Publication date:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
+    const publisher=r.publisher?`<p><strong>Publisher:</strong> ${esc(r.publisher)}.</p>`:'';
+    source=source.replace(stable,stable+dating+publisher);
+  }
   if(filename==='bibliography.html') for(const r of sources.filter(r=>r.browser_verification)) {
     const b=r.browser_verification;
     const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;

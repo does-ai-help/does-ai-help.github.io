@@ -9,7 +9,7 @@ async function start() {
   function render() {
     const query=field('search').trim().toLowerCase(), topic=field('topic'), method=field('method'), year=field('year'), verification=field('verification');
     shown = records.filter(r=>{
-      const text=[r.title,r.authors.join(' '),r.summary,r.limitations,r.topics.join(' '),r.id].join(' ').toLowerCase();
+      const text=[r.title,r.authors.join(' '),(r.editors||[]).join(' '),r.publisher||'',r.summary,r.limitations,r.topics.join(' '),r.id].join(' ').toLowerCase();
       const matchesVerification=verification==='all'||(verification==='verified'?r.verified:r.verification.level===verification);
       return (!query||text.includes(query))&&(!topic||r.topics.includes(topic))&&(!method||r.method===method)&&(!year||String(r.year)===year)&&matchesVerification;
     }).sort((a,b)=>field('sort')==='title'?a.title.localeCompare(b.title):(b.year||0)-(a.year||0)||a.title.localeCompare(b.title));
@@ -32,7 +32,8 @@ async function start() {
   list.addEventListener('click',async e=>{
     const button=e.target.closest('.copy-citation');if(!button)return;
     const r=records.find(r=>r.id===button.dataset.id);
-    const citation=`${r.authors.join('; ')||'Author not established'}. ${r.year||'n.d.'}. ${r.title}. ${r.url}`;
+    const names=r.authors.length?r.authors.join('; '):r.editors?.length?r.editors.join('; ')+' (editors)':'Author not established';
+    const citation=`${names}. ${r.year||'n.d.'}. ${r.title}. ${r.publisher?r.publisher+'. ':''}${r.url}`;
     try{await navigator.clipboard.writeText(citation);document.getElementById('copy-status').textContent='Citation copied.';}
     catch{document.getElementById('copy-status').textContent=citation;}
   });

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "scope": "Append-only local Chrome observations by an explicitly identified reviewer. This is an alternative identity and reading channel, not scientific replication or proof of correctness.",
+  "checks": [
+    {
+      "id": "candidate-sciencedirect-2026",
+      "observed": {
+        "title": "The impact of generative artificial intelligence on software development performance: a study based on the theory of technology dominance",
+        "authors": [
+          "Chang, Tsung-Sheng",
+          "Huang, Lan-Gui"
+        ],
+        "publication_date": "2026-04",
+        "doi": "10.1016/j.im.2026.104306",
+        "resolved_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066"
+      },
+      "scope": "Publisher headline, authors, issue month, DOI, highlights, abstract opening and methods/discussion snippets in Chrome accessibility output.",
+      "notes": "Public preview only; organizational access and Purchase PDF options are displayed. Full text, sample size and full estimates were not inspected. Candidate identity resolved; causal claims are not certified.",
+      "source_fingerprint": "63be52490beca617848344295923387e8aab52af56620eef4697f74eaca0214f",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "candidate-cnbc-2026",
+      "observed": {
+        "title": "AI is automating coding. So why are software developer job postings on the rise?",
+        "authors": [
+          "Winston, Corynn"
+        ],
+        "publication_date": "2026-10-11",
+        "resolved_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
+      },
+      "scope": "Headline, byline, publication date, key points and accessible article paragraphs in Chrome.",
+      "notes": "Video and linked primary reports not inspected. Candidate identity resolved. The browser title differs from the main headline and is recorded as an explicit citation alias.",
+      "source_fingerprint": "2411e031caab978c9e2b6194370f044da72e7c501d44d68edf5d6aa3bfcfa1ee",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ahm2026",
+      "observed": {
+        "title": "AHM Statement on OpenAI’s October 6 Release of Mathematical Documents",
+        "authors": [
+          "Association for Human Mathematics Communications Working Group"
+        ],
+        "resolved_url": "https://www.ahmath.org/statements"
+      },
+      "scope": "Statement heading, official organization and working-group attribution, and main statement text in Chrome.",
+      "notes": "The exact statement is a lower-level heading beneath the generic page title Statements — AHM. The text refers to the preceding day; no separate displayed date was observed. Neither legal allegations nor representativeness are certified.",
+      "source_fingerprint": "206d1c440f2469390f3b47e840c96088b7dcc0475dc2526db77a34092ebbef8b",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.ahmath.org/statements",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "gates2026",
+      "observed": {
+        "title": "The turbulent AI era is here. The choices we make now are critical.",
+        "authors": [
+          "Gates, Bill"
+        ],
+        "publication_date": "2026-08-26",
+        "resolved_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make"
+      },
+      "scope": "Main essay heading, author/date block and accessible opening paragraphs in Chrome.",
+      "notes": "The page embeds numerous unrelated older essays. Their dates are not assigned to this reference; forecasts are not independently validated.",
+      "source_fingerprint": "1d504de3e27091a971ae171dedeb97fbb4796b7fc8930f5041f020d11ef7dda6",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "mukherjee2026",
+      "observed": {
+        "title": "AI Is Eating Software and Investors Have Noticed",
+        "authors": [
+          "Mukherjee, Andy"
+        ],
+        "publication_date": "2026-10-08",
+        "resolved_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap"
+      },
+      "scope": "Headline, Andy Mukherjee/Bloomberg attribution, date and visible membership boundary in Chrome.",
+      "notes": "No membership login, subscriber functionality or linked financial claims were checked. Identity confirmation is not verification of investment forecasts.",
+      "source_fingerprint": "ec1b430b3c58f4a0aa237cd68b95cc56fd56aa640c1a3fd6752f771ae9db9299",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "hesa2026",
+      "observed": {
+        "title": "UK higher education student numbers fall for second year in a row",
+        "publication_date": "2026-01-27",
+        "resolved_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row"
+      },
+      "scope": "Official HESA headline/date, organization identification, opening release and computing-subject paragraph in Chrome.",
+      "notes": "Underlying open-data tables were not separately audited. The page identifies HESA as part of Jisc; enrollment changes are not a causal AI effect.",
+      "source_fingerprint": "c56c35eda1ba0ce6b9409ffec43b6d9b327a510da0e8549c27d7e554ed0e9bf3",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "nscc2026",
+      "observed": {
+        "title": "The Changing Landscape of Postsecondary Education",
+        "publication_date": "2026-02-10",
+        "resolved_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/"
+      },
+      "scope": "Official headline/date, publisher identity and accessible enrollment paragraphs in Chrome.",
+      "notes": "The original URL resolves with a trailing slash. Linked enrollment report and data tables were not separately inspected; identity does not establish an AI-driven cause.",
+      "source_fingerprint": "292983dd99c1445dbe9618c4eadcba247c57a556767125cda8c7bc25e88103f9",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "openainavier2026",
+      "observed": {
+        "title": "On the Navier–Stokes Millennium Prize Problem",
+        "authors": [
+          "OpenAI"
+        ],
+        "publication_date": "2026-09-08",
+        "resolved_url": "https://openai.com/index/navier-stokes-solution/"
+      },
+      "scope": "Fully rendered announcement heading/date, Author block, introductory claim and section headings in Chrome.",
+      "notes": "The September 10 update is distinguished from the September 8 publication. No proof validation, model reproduction or prize adjudication was performed.",
+      "source_fingerprint": "9f13ad4d3abf4e8bc98d0e7f0ff7ba989a6b1d3c28e1441802d212849228ea61",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://openai.com/index/navier-stokes-solution/",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "openainavierpaper2026",
+      "observed": {
+        "title": "FINITE TIME BLOWUP FOR NAVIER–STOKES",
+        "authors": [
+          "OpenAI"
+        ],
+        "resolved_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+      },
+      "scope": "First-page title, attribution, abstract and introduction opening in Chrome's PDF viewer, using accessibility output and visual inspection.",
+      "notes": "Chrome displays 166 pages and the correctly spaced title. No issue date is displayed on the inspected page. The long proof was not independently checked; the screenshot is not included in the public ledger.",
+      "source_fingerprint": "19efeb8a20d5bdb92e8a3af5f196f5266ccb0c3d99c8f9197990b67caff9a9ea",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ref-db9d091351",
+      "observed": {
+        "title": "How AI is expanding what people do at work",
+        "authors": [
+          "OpenAI"
+        ],
+        "publication_date": "2026-07-27",
+        "resolved_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+      },
+      "scope": "Publisher heading/date, Author block and accessible report introduction in Chrome.",
+      "notes": "The linked PDF was not inspected in this check. This supports citation identity, not a new appraisal of the message-classification or occupational-change estimates.",
+      "source_fingerprint": "cb6cfc33faa6ac441c48658eec7c67db21d7732f1f804c1311c76bbb6f520bff",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ref-10b59b402b",
+      "observed": {
+        "title": "Introducing SWE-bench Verified",
+        "publication_date": "2024-08-13",
+        "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/"
+      },
+      "scope": "Publisher headline, publication date, visible benchmark sections and limitations heading in Chrome.",
+      "notes": "No new benchmark execution or dataset audit. The observed article date is distinguished from dates of cited datasets and tests; named author list was not transcribed.",
+      "source_fingerprint": "980b402c50ee47896745131c6d7e2d07ccfca20e9bc3a51817c6768908b4d3f7",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ref-11a15eb594",
+      "observed": {
+        "title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
+        "authors": [
+          "Bogdanov, Mikhail"
+        ],
+        "publication_date": "2026-04-02",
+        "resolved_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/"
+      },
+      "scope": "Browser page title, main heading, author byline, date and survey-wave introduction in Chrome.",
+      "notes": "The January 2026 survey wave and April article date are different. Underlying survey data were not independently checked; vendor adoption claims are not generalized to all developers.",
+      "source_fingerprint": "8ea86c607a3cb70fd53f24c934a07852584998f59acb220c63b14d2dc2192141",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ref-e299630b86",
+      "observed": {
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "publication_date": "2026-08-01",
+        "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      "scope": "Publisher title/date and visible results and responsibility section headings in Chrome.",
+      "notes": "Linked mathematical manuscripts and embedded video were not inspected. This is announcement identity, not verification of mathematical novelty or correctness.",
+      "source_fingerprint": "9d2fc77d35717fe65efd7fbdf771f5bd1ff1c0a612ddfb7a7e6dd562562da57b",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ref-fb7d2bc1f2",
+      "observed": {
+        "title": "Measuring developer productivity? A response to McKinsey",
+        "authors": [
+          "Beck, Kent",
+          "Orosz, Gergely"
+        ],
+        "publication_date": "2023-08-29",
+        "resolved_url": "https://newsletter.kentbeck.com/p/measuring-developer-productivity"
+      },
+      "redirect_basis": "Chrome navigation from the original tidyfirst.substack.com URL resolved to the authors' newsletter.kentbeck.com page with the matching title and both author profiles.",
+      "scope": "Observed redirect, headline, both bylines, date and visible article section headings in Chrome.",
+      "notes": "No subscription was initiated. This is an identity and authorship check, not an empirical validation of the essay.",
+      "source_fingerprint": "a8521a42578348808633f2b0f687b07c0977617e3d1901af1b2585b444887669",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://tidyfirst.substack.com/p/measuring-developer-productivity",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    },
+    {
+      "id": "ref-33e5e5bcd6",
+      "observed": {
+        "title": "Why we no longer evaluate SWE-bench Verified",
+        "authors": [
+          "OpenAI"
+        ],
+        "publication_date": "2026-02-23",
+        "resolved_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/"
+      },
+      "scope": "Browser page title, date, Author block and main headline in Chrome.",
+      "notes": "The body headline is Why SWE-bench Verified no longer measures frontier coding capabilities, while the browser title uses the retained citation title. No contamination test or benchmark rerun was performed.",
+      "source_fingerprint": "1f23301db5389c3d6399af23eb63603d16a2cc9d48599c751cfcf83a52e3e3a8",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:11:49+00:00",
+      "source_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+    }
+    ,{
+      "id": "ref-10b59b402b",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:46:43+00:00",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
+      "source_fingerprint": "7786df848b3a06afc6c6c11e7d9388cd4d633af9c421aa6fb1ef202534eabb63",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Introducing SWE-bench Verified",
+        "publication_date": "2024-08-13",
+        "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
+        "authors": ["Neil Chowdhury", "James Aung", "Chan Jun Shern", "Oliver Jaffe", "Dane Sherburn", "Giulio Starace", "Evan Mays", "Rachel Dias", "Marwan Aljubeh", "Mia Glaese", "Carlos E. Jimenez", "John Yang", "Leyton Ho", "Tejal Patwardhan", "Kevin Liu", "Aleksander Madry"]
+      },
+      "scope": "Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.",
+      "notes": "Publication is 13 August 2024; update is 24 February 2025. OpenAI is publisher, with named authors credited. This recheck updates citation identity only; benchmark findings were not independently validated."
+    }
+  ]
+}

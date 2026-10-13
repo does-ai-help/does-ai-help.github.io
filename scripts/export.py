@@ -20,6 +20,13 @@ def to_csl(r):
     status = r["publication_status"]
     kind = "paper-conference" if status == "peer-reviewed-conference" else "article-journal" if status.startswith("peer-reviewed") else "manuscript" if status == "preprint" else "report" if "paper" in status or "report" in status else "webpage"
     item = {"id": r["id"], "type": kind, "title": r["title"], "URL": r["url"], "author": [csl_author(a) for a in r["authors"]], "abstract": r["summary"], "keyword": "; ".join(r["topics"]), "note": f"Method: {r['method']}. Status: {status}. Verification: {r['verification']['level']} ({r['verification'].get('basis','')}). Limitations: {r['limitations']}"}
+    if r.get("editors"):
+        item["editor"] = [csl_author(a) for a in r["editors"]]
+        item["type"] = "book"
+    if r.get("publisher"):
+        item["publisher"] = r["publisher"]
+    if r.get("date_basis"):
+        item["note"] += " Date basis: " + r["date_basis"]
     if r.get("year"):
         parts = [r["year"]]
         if r.get("date") and re.fullmatch(r"\d{4}-\d{2}(?:-\d{2})?", r["date"]):
@@ -55,13 +62,14 @@ def main():
     for filename, data in [("sources.json", records), ("bibliography.csl.json", [to_csl(r) for r in verified]), ("bibliography-core.csl.json", [to_csl(r) for r in verified if r['editorial_priority']=='core'])]:
         (output / filename).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     (output / "sources.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
-    fields = ["id", "title", "authors", "year", "date", "url", "doi", "arxiv_id", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note", "browser_method", "browser_checked_at", "browser_scope"]
+    fields = ["id", "title", "authors", "editors", "publisher", "year", "date", "date_basis", "url", "doi", "arxiv_id", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note", "browser_method", "browser_checked_at", "browser_scope"]
     with (output / "sources.csv").open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=fields)
         writer.writeheader()
         for r in records:
             row = {k: r.get(k, "") for k in fields}
             row.update(authors="; ".join(r["authors"]), topics="; ".join(r["topics"]), verification_level=r["verification"]["level"], verification_scope=r["verification"].get("basis", ""), checked_on=r["verification"].get("checked_on", ""))
+            row["editors"] = "; ".join(r.get("editors", []))
             browser = r.get("browser_verification", {})
             row.update(browser_method=browser.get("method", ""), browser_checked_at=browser.get("checked_at", ""), browser_scope=browser.get("scope", ""))
             writer.writerow(row)
@@ -75,6 +83,12 @@ def main():
             values["note"] += bib_escape(f" Alternative verification: local Chrome, {b['checked_at']}; {b['outcome']}. Scope: {b['scope']}")
         if r["authors"]:
             values["author"] = " and ".join(bib_escape(a) if ", " in a else "{" + bib_escape(a) + "}" for a in r["authors"])
+        if r.get("editors"):
+            values["editor"] = " and ".join("{" + bib_escape(a) + "}" for a in r["editors"])
+        if r.get("publisher"):
+            values["publisher"] = bib_escape(r["publisher"])
+        if r.get("date_basis"):
+            values["note"] += " Date basis: " + bib_escape(r["date_basis"])
         if r.get("year"):
             values["year"] = str(r["year"])
         if r.get("doi"):
@@ -85,8 +99,16 @@ def main():
             values["eprint"] = r["arxiv_id"]
             values["archivePrefix"] = "arXiv"
         kind = "inproceedings" if r["publication_status"] == "peer-reviewed-conference" else "article" if r["publication_status"].startswith("peer-reviewed") else "misc"
+        if r.get("editors"):
+            kind = "book"
         bib.append("@" + kind + "{" + r["id"] + ",\n" + ",\n".join("  " + key + " = {" + val + "}" for key, val in values.items()) + "\n}\n")
-        rows = ["TY  - " + ("CPAPER" if kind == "inproceedings" else "JOUR" if kind == "article" else "ELEC"), "ID  - " + r["id"], "TI  - " + r["title"], *["AU  - " + a for a in r["authors"]]]
+        rows = ["TY  - " + ("BOOK" if kind == "book" else "CPAPER" if kind == "inproceedings" else "JOUR" if kind == "article" else "ELEC"), "ID  - " + r["id"], "TI  - " + r["title"], *["AU  - " + a for a in r["authors"]], *["A2  - " + a for a in r.get("editors", [])]]
+        if r.get("publisher"):
+            rows.append("PB  - " + r["publisher"])
+        if r.get("date"):
+            rows.append("DA  - " + r["date"])
+        if r.get("date_basis"):
+            rows.append("N1  - Date basis: " + r["date_basis"])
         if r.get("year"):
             rows.append("PY  - " + str(r["year"]))
         rows += ["UR  - " + r["url"], "AB  - " + r["summary"], "N1  - " + r["limitations"], *["KW  - " + topic for topic in r["topics"]]]

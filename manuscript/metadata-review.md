@@ -1,5 +1,13 @@
 # October 2026 metadata review
 
+## Publication-date follow-up
+
+Version 2026.10.3 resolves 16 of the 18 undated checked references. Each correction retains its evidence in `date_basis`, visible in the evidence map and downloadable exports. Exact dates are used only where supplied: IZA provides March 2026, while DORA's v. 2025.2, JetBrains' 2025 edition and the ICSE 2025 conference entry establish years but not publication days. Ramp's landing page uses the dated launch announcement, explicitly distinguished from a paper revision. Faros, Sonar and Yahoo provide publication dates in primary structured metadata, inspected in the pages retrieved on 12 October.
+
+SWE-bench Verified was published on 13 August 2024 and updated on 24 February 2025. Its named author list and OpenAI publisher credit were rechecked in local Chrome; the earlier receipt is preserved. SEI credits Michael Hilton in addition to its two headline authors. The Springer/Apress book identifies Sadowski and Zimmermann as editors; exports preserve that role rather than making them authors.
+
+QEMU's live code-provenance documentation and the SWE-bench repository remain undated: neither the access date, current copyright year nor the associated research paper's year establishes when the cited live resource was published. Candidate records without established identities are not assigned speculative publication years and remain excluded from checked-citation exports.
+
 ## Local Chrome follow-up
 
 Version 2026.10.2 adds actual local Chrome observations for 15 selected resources. These are recorded separately from the earlier indexed-primary exceptions, which are not retrospectively labeled as Chrome checks. The Elsevier PII now resolves to Chang and Huang's journal paper and DOI 10.1016/j.im.2026.104306; the CNBC URL resolves to Corynn Winston's dated article. Newly observed supporting bylines and dates are retained in `browser-source-updates.json`. Scope limits, subscription boundaries and the genuine Kent Beck newsletter redirect are documented in the public browser ledger. No scientific correctness is certified.

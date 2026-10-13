@@ -322,5 +322,24 @@
       "scientific_correctness_verified": false,
       "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
     }
+    ,{
+      "id": "ref-10b59b402b",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T07:46:43+00:00",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
+      "source_fingerprint": "7786df848b3a06afc6c6c11e7d9388cd4d633af9c421aa6fb1ef202534eabb63",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Introducing SWE-bench Verified",
+        "publication_date": "2024-08-13",
+        "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
+        "authors": ["Neil Chowdhury", "James Aung", "Chan Jun Shern", "Oliver Jaffe", "Dane Sherburn", "Giulio Starace", "Evan Mays", "Rachel Dias", "Marwan Aljubeh", "Mia Glaese", "Carlos E. Jimenez", "John Yang", "Leyton Ho", "Tejal Patwardhan", "Kevin Liu", "Aleksander Madry"]
+      },
+      "scope": "Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.",
+      "notes": "Publication is 13 August 2024; update is 24 February 2025. OpenAI is publisher, with named authors credited. This recheck updates citation identity only; benchmark findings were not independently validated."
+    }
   ]
 }

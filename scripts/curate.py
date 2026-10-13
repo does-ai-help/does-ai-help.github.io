@@ -84,11 +84,11 @@ def main():
             r["publication_status"] = "preprint"
         r.setdefault("date", r.get("observed_date", "").replace("/", "-")[:10] or None)
         if not r.get("year"):
-            match = re.search(r"(?:19|20)\d{2}", r.get("observed_date", ""))
+            match = re.search(r"(?:19|20)\d{2}", r.get("date") or r.get("observed_date", ""))
             arxiv = re.search(r"arxiv.org/abs/(\d{2})(\d{2})\.", r["url"])
             pathyear = re.search(r"/(20\d{2})(?:/|$)", r["url"])
             r["year"] = int(match.group()) if match else int("20" + arxiv[1]) if arxiv else int(pathyear[1]) if pathyear else None
-            r["date_basis"] = "primary metadata" if match else "identifier or URL year; exact date not established" if r["year"] else "not established"
+            r.setdefault("date_basis", "primary metadata" if match else "identifier or URL year; exact date not established" if r["year"] else "not established")
         r["verified"] = r.get("verification", {}).get("level") in {"identity-checked", "content-checked"}
         browser_check = browser_checks.get(r["id"])
         if browser_check and not receipt_errors(browser_check, r, release):

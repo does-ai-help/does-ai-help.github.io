@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the October 2026 review and record the release version when using its evidence database."
 title: "Does AI Help? Evidence on productivity, learning, engineering, and scientific discovery"
-version: 2026.10.2
+version: 2026.10.3
 url: "https://does-ai-help.github.io/"
 repository-code: "https://github.com/does-ai-help/does-ai-help.github.io"
 date-released: 2026-10-13
@@ -21,6 +21,6 @@ preferred-citation:
       given-names: "Witold"
   year: 2026
   month: 10
-  version: 2026.10.2
+  version: 2026.10.3
   url: "https://does-ai-help.github.io/"
   notes: "Living critical narrative review; October 2026 release; lead AI author and human co-author; not peer reviewed."

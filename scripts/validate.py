@@ -65,6 +65,8 @@ def main():
     for r in records:
         if (r.get('year') or 0) > int(release['cutoff'][:4]):
             errors.append(f"Future or misparsed publication year: {r['id']}")
+        if r.get('date') and re.fullmatch(r'\d{4}(?:-\d{2}(?:-\d{2})?)?', r['date']) and r.get('year') != int(r['date'][:4]):
+            errors.append(f"Publication date and year disagree: {r['id']}")
         for key in ["title", "summary", "limitations", "verification", "authors", "topics", "method", "publication_status"]:
             if key not in r:
                 errors.append(f"Missing {key}: {r['id']}")

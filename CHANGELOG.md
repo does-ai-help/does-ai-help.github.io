@@ -1,5 +1,14 @@
 # Release history
 
+## 2026.10.3 - Publication dates and attribution
+
+- Resolved 16 undated checked references using primary bylines, report editions, publisher announcements and structured publication metadata. Retained genuinely undated live documentation and repository entries.
+- Distinguished publication from modification, fieldwork and presentation dates. Added date provenance to the evidence map and citation exports.
+- Retained the named SWE-bench Verified authors, OpenAI publisher credit, the original 2024 date and separate 2025 update. Appended an actual local Chrome recheck rather than rewriting earlier observations.
+- Credited edited-book contributors as editors and added the SEI article and book DOIs.
+- Added conservative JSON-LD publication-date extraction and regression tests; related articles, modification-only dates and conflicting dates are not silently accepted.
+- No new studies admitted, no empirical conclusions changed, and the evidence cutoff remains 13 October 2026. Earlier release snapshots remain unchanged.
+
 ## 2026.10.2 — Local Chrome verification channel
 
 Evidence cutoff: 13 October 2026.

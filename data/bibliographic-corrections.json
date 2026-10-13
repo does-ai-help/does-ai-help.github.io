@@ -1,4 +1,80 @@
 {
+  "ref-5bff21951f": {
+    "year": 2026, "date": "2026-06-30", "authors": ["Ramp Economics Lab"],
+    "date_basis": "Publisher launch announcement dated 30 June 2026; https://ramp.com/data/heavy-ai-adopters-hire-more; checked 13 October 2026. Landing-page launch date, not a separately dated paper revision."
+  },
+  "ref-4336e76ca7": {
+    "year": 2026, "date": "2026-08-07",
+    "authors": ["Anas Mahmoud", "MohammadHossein Rezaei", "Mingchen Zhuge", "Chenguang Wang", "Yuandong Tian", "Yunzhong He"],
+    "date_basis": "Primary announcement date and byline; source page checked 13 October 2026."
+  },
+  "ref-672d8f5482": {
+    "year": 2026, "date": "2026-05-28", "authors": ["Kazuaki Okumura"],
+    "date_basis": "Primary Dropbox article date and byline; checked 13 October 2026."
+  },
+  "ref-ffcede42d0": {
+    "year": 2026, "date": "2026-05-19", "authors": ["Caelan Wilkie-Rogers"],
+    "date_basis": "Primary Revelio publication date and suggested citation; checked 13 October 2026. The 11 June update is not the original publication date."
+  },
+  "ref-3d0ab8c8d6": {
+    "year": 2025, "date": null,
+    "authors": ["Derek Debellis", "Kevin M. Storer", "Daniella Villalba", "Nathen Harvey", "Sarah D'Angelo", "Adam Brown"],
+    "date_basis": "Linked primary report edition v. 2025.2 and author list (page 54); https://dora.dev/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf; checked 13 October 2026. Exact publication day not established.",
+    "version_note": "Cites report edition 2025.2. The landing page's 13 April 2026 update is not the report's publication year."
+  },
+  "ref-f4550e10d8": {
+    "title": "Generative AI and Software Engineering Education",
+    "title_aliases": ["Generative AI and Software Engineering Education | CMU Software Engineering Institute"],
+    "year": 2024, "date": "2024-09-09", "authors": ["Ipek Ozkaya", "Douglas Schmidt", "Michael Hilton"],
+    "doi": "10.58012/AHC6-GK69",
+    "date_basis": "Primary SEI publication date, citation metadata and additional coauthor credited in the body; checked 13 October 2026."
+  },
+  "ref-7ba221a977": {
+    "year": 2026, "date": "2026-03", "authors": ["Sebastian Gallegos"],
+    "date_basis": "Primary IZA Discussion Paper 18513 page: March 2026; checked 13 October 2026. No publication day supplied."
+  },
+  "ref-d79880fda4": {
+    "year": 2025, "date": null,
+    "authors": ["Elise Paradis", "Kate Grey", "Quinn Madison", "Daye Nam", "Andrew Macvean", "Nan Zhang", "Ben Ferrari-Church", "Satish Chandra"],
+    "date_basis": "Primary ICSE 2025 conference entry and author list; checked 13 October 2026. Presentation on 2 May 2025 is not asserted as the publication day.",
+    "version_note": "Conference entry for ICSE 2025; related 2024 arXiv version is the same study, not independent evidence."
+  },
+  "ref-10b59b402b": {
+    "year": 2024, "date": "2024-08-13", "publisher": "OpenAI",
+    "authors": ["Neil Chowdhury", "James Aung", "Chan Jun Shern", "Oliver Jaffe", "Dane Sherburn", "Giulio Starace", "Evan Mays", "Rachel Dias", "Marwan Aljubeh", "Mia Glaese", "Carlos E. Jimenez", "John Yang", "Leyton Ho", "Tejal Patwardhan", "Kevin Liu", "Aleksander Madry"],
+    "date_basis": "Primary publication date and named Authors section; rechecked in local Chrome on 13 October 2026.",
+    "version_note": "Originally published 13 August 2024; the page separately records an update on 24 February 2025. OpenAI is the publisher; named authors are retained."
+  },
+  "ref-c91813d328": {
+    "year": 2025, "date": "2025-10-21", "authors": ["SonarSource"],
+    "date_basis": "Primary Article JSON-LD datePublished and organization author; retrieved 12 October 2026, inspected 13 October 2026."
+  },
+  "ref-a97b44c4bb": {
+    "year": 2019, "date": "2019-05-07", "authors": [], "editors": ["Caitlin Sadowski", "Thomas Zimmermann"],
+    "doi": "10.1007/978-1-4842-4221-6",
+    "date_basis": "Publisher bibliographic information: eBook published 7 May 2019; checked 13 October 2026. Softcover published 8 May 2019; named contributors are editors, not book authors."
+  },
+  "ref-12d21bb68f": {
+    "year": 2026, "date": "2026-05-30", "authors": ["Leigh Cook"],
+    "date_basis": "Primary NewsArticle JSON-LD publication date and byline; retrieved 12 October 2026, inspected 13 October 2026."
+  },
+  "ref-e299630b86": {
+    "year": 2026, "date": "2026-08-01",
+    "date_basis": "Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026."
+  },
+  "ref-9f81141e49": {
+    "year": 2025, "date": "2025-07-23", "authors": ["Faros Research"],
+    "title_aliases": ["The AI Productivity Paradox Report 2025"],
+    "date_basis": "Primary BlogPosting JSON-LD datePublished and author; retrieved 12 October 2026, inspected 13 October 2026. The September 2026 modification is not the publication date."
+  },
+  "ref-022ae73d8c": {
+    "year": 2025, "date": null, "authors": ["JetBrains"],
+    "date_basis": "Primary report heading explicitly identifies the 2025 edition; checked 13 October 2026. Survey fieldwork (April-June 2025) is not treated as publication date."
+  },
+  "ref-529895b385": {
+    "year": 2026, "date": "2026-06-09", "authors": ["Torsten Slok"],
+    "date_basis": "Primary Apollo article date and About the Author section; checked 13 October 2026."
+  },
   "ref-ab9872b8a8": {
     "title_aliases": ["Generative AI in Computer Science Education"],
     "version_note": "Publisher citation metadata includes the subtitle Challenges and Opportunities; Crossref uses the shorter book title. DOI and authors agree. Metadata comparison checked 13 October 2026."
