@@ -5426,7 +5426,7 @@
     "verification_level": "content-checked",
     "checked_on": "2026-10-13",
     "verification_scope": "User-supplied 55-page PDF: title, abstract, recruitment, measures, principal results and limitations; OSF page and embedded first PDF page inspected in local Chrome to match the artifact and version. Data and preregistered analysis were not independently reanalyzed.",
-    "version_note": "OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The publisher-declared version DOI resolves to OSF, although the DataCite API returned 404 during this check; registry access is not claimed.",
+    "version_note": "OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The version DOI resolves to OSF and Crossref confirms the older registered title and 2025 year. An initial DataCite lookup returned 404 because that registry does not hold this DOI; it is not evidence of an unregistered DOI.",
     "document_verification": {
       "method": "user-supplied-pdf-plus-local-chrome",
       "checked_on": "2026-10-13",

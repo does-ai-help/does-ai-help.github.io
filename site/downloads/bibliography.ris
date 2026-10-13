@@ -2259,7 +2259,7 @@ KW  - work
 KW  - learning
 KW  - governance
 DO  - 10.31234/osf.io/2gej5_v2
-N1  - Version: OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The publisher-declared version DOI resolves to OSF, although the DataCite API returned 404 during this check; registry access is not claimed.
+N1  - Version: OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The version DOI resolves to OSF and Crossref confirms the older registered title and 2025 year. An initial DataCite lookup returned 404 because that registry does not hold this DOI; it is not evidence of an unregistered DOI.
 N1  - Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: OSF title, bylines, version-2 DOI, submitted/last-edited dates, data/preregistration declarations and embedded PDF first page and filename (55 pages).
 ER  - 
 

@@ -1,0 +1,5453 @@
+[
+  {
+    "id": "maier2026",
+    "type": "manuscript",
+    "title": "A meta-analysis of the effect of generative AI on productivity and learning in programming",
+    "URL": "https://arxiv.org/abs/2605.04779",
+    "author": [
+      {
+        "family": "Maier",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Gunzenhäuser",
+        "given": "Moritz"
+      },
+      {
+        "family": "Schweisthal",
+        "given": "Jonas"
+      },
+      {
+        "family": "Schneider",
+        "given": "Manuel"
+      },
+      {
+        "family": "Feuerriegel",
+        "given": "Stefan"
+      }
+    ],
+    "abstract": "Across 23 studies and 27 effects, reported productivity gains are moderate (g=0.33), whereas the learning estimate is not statistically distinguishable from zero.",
+    "keyword": "engineering; learning; productivity; methods",
+    "note": "Method: meta-analysis. Status: preprint. Verification: content-checked (arXiv abstract, selection criteria, reported effect sizes and version history). Limitations: The search covers 2019-2025, not 2026 tools. Standardized effects combine unlike outcomes and cannot be read as percentage gains or evidence of equivalence in learning. Version: May 2026 v1 preprint; productivity 95% CI 0.09-0.58, learning g=0.14 with CI -0.18 to 0.47. No pooled effect is calculated by our review. Persistent identifier: arXiv:2605.04779",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2605.04779"
+  },
+  {
+    "id": "robin2026",
+    "type": "article-journal",
+    "title": "A multi-agent system for automating scientific discovery",
+    "URL": "https://www.nature.com/articles/s41586-026-10652-y",
+    "author": [
+      {
+        "family": "Ghareeb",
+        "given": "Ali E."
+      },
+      {
+        "family": "Chang",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Mitchener",
+        "given": "Ludovico"
+      },
+      {
+        "family": "Yiu",
+        "given": "Angela"
+      },
+      {
+        "family": "Szostkiewicz",
+        "given": "Caralyn J."
+      },
+      {
+        "family": "Shved",
+        "given": "Dmytro"
+      },
+      {
+        "family": "Gyimesi",
+        "given": "Gavin J."
+      },
+      {
+        "family": "Laurent",
+        "given": "Jon M."
+      },
+      {
+        "family": "Wright",
+        "given": "Samantha M."
+      },
+      {
+        "family": "Razzak",
+        "given": "Muhammed T."
+      },
+      {
+        "family": "White",
+        "given": "Andrew D."
+      },
+      {
+        "family": "Finnemann",
+        "given": "Silvia C."
+      },
+      {
+        "family": "Hinks",
+        "given": "Michaela M."
+      },
+      {
+        "family": "Rodriques",
+        "given": "Samuel G."
+      }
+    ],
+    "abstract": "Robin connects literature work, hypothesis generation and analysis to selected laboratory experiments in a multi-agent discovery workflow.",
+    "keyword": "science; agents",
+    "note": "Method: experimental-demonstration. Status: peer-reviewed. Verification: content-checked (journal abstract and experimental scope). Limitations: A limited number of tasks and experiments; repeatable general discovery requires broader independent testing. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-026-10652-y",
+    "container-title": "Nature"
+  },
+  {
+    "id": "ramp2026",
+    "type": "report",
+    "title": "A New Look at AI's Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment",
+    "URL": "https://ramp.com/data/ai-jobs-impact/paper",
+    "author": [
+      {
+        "family": "Kharazian",
+        "given": "Ara"
+      },
+      {
+        "family": "Simon",
+        "given": "Lisa"
+      },
+      {
+        "family": "Stevens",
+        "given": "Ryan"
+      }
+    ],
+    "abstract": "Links firm AI spending and workforce records, finding stronger hiring among high-intensity adopters than among comparison firms.",
+    "keyword": "work; business",
+    "note": "Method: observational. Status: vendor-working-paper. Verification: content-checked (public paper and accompanying analysis). Limitations: Growing, larger, technical and venture-backed adopters differ before treatment; spending intensity is not a randomized intervention.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wang2026",
+    "type": "manuscript",
+    "title": "A Risk-Adaptive and Evidence-Constrained Framework for Generative AI Feedback in Programming Education",
+    "URL": "https://arxiv.org/abs/2609.29874",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Shihao"
+      }
+    ],
+    "abstract": "Combines risk prediction, evidence-bounded feedback and progressive assistance using historical failed submissions from 215 students.",
+    "keyword": "learning; engineering",
+    "note": "Method: retrospective-computational. Status: preprint. Verification: content-checked (abstract and full HTML research-design section). Limitations: Retrospective prediction and message evaluation; no prospective demonstration of better unaided learning. Date basis: primary metadata Persistent identifier: arXiv:2609.29874",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "mathmisalignment2026",
+    "type": "webpage",
+    "title": "A Severe Misalignment of AI in Mathematics",
+    "URL": "https://mathandai.org/",
+    "author": [],
+    "abstract": "A declaration initiated by 25 Fields medallists recognizes stronger AI capabilities but opposes problem-count incentives disconnected from mathematical understanding.",
+    "keyword": "science; governance; work",
+    "note": "Method: community-declaration. Status: public-statement. Verification: content-checked (official declaration text, date and Tao's dated explanation of initial signatories). Limitations: Normative collective statement, not representative polling or an empirical estimate. Signatories are endorsers, not automatically bibliographic coauthors. Version: DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.22737750"
+  },
+  {
+    "id": "coscientist2026",
+    "type": "article-journal",
+    "title": "Accelerating scientific discovery with Co-Scientist",
+    "URL": "https://www.nature.com/articles/s41586-026-10644-y",
+    "author": [
+      {
+        "family": "Gottweis",
+        "given": "Juraj"
+      },
+      {
+        "family": "Weng",
+        "given": "Wei-Hung"
+      },
+      {
+        "family": "Daryin",
+        "given": "Alexander"
+      },
+      {
+        "family": "Tu",
+        "given": "Tao"
+      },
+      {
+        "family": "Sirkovic",
+        "given": "Petar"
+      },
+      {
+        "family": "Myaskovsky",
+        "given": "Artiom"
+      },
+      {
+        "family": "Glowaty",
+        "given": "Grzegorz"
+      },
+      {
+        "family": "Weissenberger",
+        "given": "Felix"
+      },
+      {
+        "family": "Orlandi",
+        "given": "Alessio"
+      },
+      {
+        "family": "Popovici",
+        "given": "Dan"
+      },
+      {
+        "family": "Palepu",
+        "given": "Anil"
+      },
+      {
+        "family": "Rong",
+        "given": "Keran"
+      },
+      {
+        "family": "Tanno",
+        "given": "Ryutaro"
+      },
+      {
+        "family": "Saab",
+        "given": "Khaled"
+      },
+      {
+        "family": "Zhang",
+        "given": "Fan"
+      },
+      {
+        "family": "Blum",
+        "given": "Jacob"
+      },
+      {
+        "family": "Carroll",
+        "given": "Andrew"
+      },
+      {
+        "family": "Kulkarni",
+        "given": "Kavita"
+      },
+      {
+        "family": "Tomašev",
+        "given": "Nenad"
+      },
+      {
+        "family": "Zverinski",
+        "given": "Dina"
+      },
+      {
+        "family": "Rendulic",
+        "given": "Ivor"
+      },
+      {
+        "family": "Vedadi",
+        "given": "Elahe"
+      },
+      {
+        "family": "Hasler",
+        "given": "Florian"
+      },
+      {
+        "family": "Rimanic",
+        "given": "Luka"
+      },
+      {
+        "family": "Boia",
+        "given": "Marina"
+      },
+      {
+        "family": "Budiselic",
+        "given": "Ivan"
+      },
+      {
+        "family": "Feinstein",
+        "given": "Ben"
+      },
+      {
+        "family": "Bellaiche",
+        "given": "Mathias"
+      },
+      {
+        "family": "Sheffer",
+        "given": "Tom"
+      },
+      {
+        "family": "Freyberg",
+        "given": "Jan"
+      },
+      {
+        "family": "Ratcliff",
+        "given": "Jeremy"
+      },
+      {
+        "family": "Bertolli",
+        "given": "Ottavia"
+      },
+      {
+        "family": "Chou",
+        "given": "Katherine"
+      },
+      {
+        "family": "Hassidim",
+        "given": "Avinatan"
+      },
+      {
+        "family": "Gokturk",
+        "given": "Burak"
+      },
+      {
+        "family": "Vahdat",
+        "given": "Amin"
+      },
+      {
+        "family": "Guan",
+        "given": "Yuan"
+      },
+      {
+        "family": "Dhillon",
+        "given": "Vikram"
+      },
+      {
+        "family": "Vaishnav",
+        "given": "Eeshit Dhaval"
+      },
+      {
+        "family": "Lee",
+        "given": "Byron"
+      },
+      {
+        "family": "Costa",
+        "given": "Tiago R. D."
+      },
+      {
+        "family": "Penadés",
+        "given": "José R."
+      },
+      {
+        "family": "Peltz",
+        "given": "Gary"
+      },
+      {
+        "family": "Matias",
+        "given": "Yossi"
+      },
+      {
+        "family": "Manyika",
+        "given": "James"
+      },
+      {
+        "family": "Hassabis",
+        "given": "Demis"
+      },
+      {
+        "family": "Xu",
+        "given": "Yunhan"
+      },
+      {
+        "family": "Kohli",
+        "given": "Pushmeet"
+      },
+      {
+        "family": "Pawlosky",
+        "given": "Annalisa"
+      },
+      {
+        "family": "Karthikesalingam",
+        "given": "Alan"
+      },
+      {
+        "family": "Natarajan",
+        "given": "Vivek"
+      }
+    ],
+    "abstract": "Co-Scientist generates and prioritizes research hypotheses, with selected results assessed through expert and experimental validation.",
+    "keyword": "science; agents",
+    "note": "Method: benchmark-and-experimental-validation. Status: peer-reviewed. Verification: content-checked (journal abstract and validation description). Limitations: Selected biological cases and human direction; broad autonomy is not demonstrated. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-026-10644-y",
+    "container-title": "Nature"
+  },
+  {
+    "id": "murphyhill2026",
+    "type": "manuscript",
+    "title": "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+    "URL": "https://arxiv.org/abs/2607.01418",
+    "author": [
+      {
+        "family": "Murphy-Hill",
+        "given": "Emerson"
+      },
+      {
+        "family": "Butler",
+        "given": "Jenna"
+      },
+      {
+        "family": "Savelieva",
+        "given": "Alexandra"
+      }
+    ],
+    "abstract": "Microsoft's early-2026 CLI-agent rollout is associated with roughly 24% more merged pull requests among adopters across four months.",
+    "keyword": "productivity; engineering; cost",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Merged PRs are a proxy rather than value; adoption spreads through social networks and is not random. Date basis: primary metadata Persistent identifier: arXiv:2607.01418",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ahm2026",
+    "type": "webpage",
+    "title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+    "URL": "https://www.ahmath.org/statements",
+    "author": [
+      {
+        "literal": "Association for Human Mathematics Communications Working Group"
+      }
+    ],
+    "abstract": "Rejects the value of OpenAI's mass mathematical release and calls for mathematicians to discontinue collaboration with the company.",
+    "keyword": "science; governance; work",
+    "note": "Method: community-statement. Status: public-statement. Verification: content-checked (official statement and dated author-hosted repost; no claims drawn from blog comments). Limitations: A strong organizational position, not a vote of all mathematicians or a technical refutation of every released result. Legal allegations are not adjudicated here. Version: Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Statement heading, official organization and working-group attribution, and main statement text in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "orland2026",
+    "type": "webpage",
+    "title": "AI coding agents generate more code, but not more software",
+    "URL": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+    "author": [
+      {
+        "family": "Orland",
+        "given": "Kyle"
+      }
+    ],
+    "abstract": "Reports Chen and Stratton's firm-level study and its downstream review bottleneck.",
+    "keyword": "engineering; productivity; business",
+    "note": "Method: research-journalism. Status: journalism. Verification: content-checked (article text, byline and link to the author paper). Limitations: Secondary coverage of an already included study, not independent evidence. The headline is stronger than a statistically insignificant output estimate warrants.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "faros2026",
+    "type": "report",
+    "title": "AI Impact on Engineering Productivity: 2026 Report Data",
+    "URL": "https://www.faros.ai/research/ai-acceleration-whiplash",
+    "author": [
+      {
+        "literal": "Faros AI"
+      }
+    ],
+    "abstract": "Vendor telemetry reports higher output alongside larger changes, review pressure, defects and incidents as AI adoption intensifies.",
+    "keyword": "engineering; productivity; quality",
+    "note": "Method: observational. Status: vendor-report. Verification: content-checked (primary report overview; numerical details require report-specific denominator checks). Limitations: Selection, changing workflows, relative metrics, limited baselines, and vendor interests impede causal attribution.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "candidate-cnbc-2026",
+    "type": "webpage",
+    "title": "AI is automating coding. So why are software developer job postings on the rise?",
+    "URL": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+    "author": [
+      {
+        "family": "Winston",
+        "given": "Corynn"
+      }
+    ],
+    "abstract": "Contrasts a rebound in developer job postings with concentration in senior/AI-oriented roles and pressure on early-career employment.",
+    "keyword": "engineering; work",
+    "note": "Method: research-journalism. Status: journalism. Verification: content-checked (Alternative method: local Chrome native UI; headline, byline, date, key points and accessible text paragraphs; video and linked reports not inspected in this check). Limitations: Secondary coverage of multiple datasets; postings, employment and long-term projections are not equivalent. No causal effect of AI on hiring is established by this article; linked underlying estimates were not newly audited here. Version: Previously an unresolved candidate; title, byline and date identified in local Chrome on 13 October 2026. Stable ID retained. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Headline, byline, publication date, key points and accessible article paragraphs in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "mukherjee2026",
+    "type": "webpage",
+    "title": "AI Is Eating Software and Investors Have Noticed",
+    "URL": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+    "author": [
+      {
+        "family": "Mukherjee",
+        "given": "Andy"
+      }
+    ],
+    "abstract": "Discusses delayed productivity effects and investors' expectations of AI-related software-sector change.",
+    "keyword": "business; work",
+    "note": "Method: market-commentary. Status: opinion. Verification: content-checked (public article text, Bloomberg byline and publication date). Limitations: Market interpretation and forecasts, not a causal evaluation of AI deployment. Inspected the public text only, not subscriber functionality. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Headline, Andy Mukherjee/Bloomberg attribution, date and visible membership boundary in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "herrengt2026",
+    "type": "webpage",
+    "title": "AI is removing the middle class of software engineering",
+    "URL": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+    "author": [
+      {
+        "family": "Herrengt",
+        "given": "Florian"
+      }
+    ],
+    "abstract": "Proposes that cheaper implementation shifts engineering value toward judgment and responsibility, potentially hollowing out intermediate roles.",
+    "keyword": "engineering; work; judgment",
+    "note": "Method: commentary. Status: expert-blog. Verification: content-checked (primary essay). Limitations: An argued hypothesis, not a measured labor-market result or established forecast.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ghosttypolicy2026",
+    "type": "webpage",
+    "title": "AI Usage Policy",
+    "URL": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+    "author": [
+      {
+        "literal": "Ghostty project"
+      }
+    ],
+    "abstract": "Requires disclosure and human understanding of outside contributions, rejects generated media and sanctions low-quality submissions while explicitly welcoming responsible AI assistance.",
+    "keyword": "engineering; governance; work",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official policy text, including scope and AI-is-welcome qualification; revision identity). Limitations: Not a blanket AI-code ban or an experiment; maintainers have different permissions from external contributors. Version: Pinned to the latest file-changing revision available at the cutoff: 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b, 15 February 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hemandate2026",
+    "type": "manuscript",
+    "title": "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+    "URL": "https://arxiv.org/abs/2607.01904v1",
+    "author": [
+      {
+        "family": "He",
+        "given": "Hao"
+      },
+      {
+        "family": "Agarwal",
+        "given": "Shyam"
+      },
+      {
+        "family": "Denisov-Blanch",
+        "given": "Yegor"
+      },
+      {
+        "family": "Azaletskiy",
+        "given": "Pavel"
+      },
+      {
+        "family": "Koyejo",
+        "given": "Sanmi"
+      },
+      {
+        "family": "Vasilescu",
+        "given": "Bogdan"
+      }
+    ],
+    "abstract": "One enterprise reaches 2.09 times baseline merged PRs per developer; review load also roughly doubles and automated review expands.",
+    "keyword": "engineering; productivity; quality",
+    "note": "Method: longitudinal-case-study. Status: preprint. Verification: content-checked (version-specific abstract, panel scope, identification caveats and review findings). Limitations: Nonrandom adoption and use, one AI-forward company and PR throughput rather than user value. Stable merge/revert rates do not establish absence of downstream defects. Version: Pinned to v1. Distinguish within-developer adoption estimates from the total organization-level throughput change. Persistent identifier: arXiv:2607.01904",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          2
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2607.01904"
+  },
+  {
+    "id": "era2026",
+    "type": "article-journal",
+    "title": "An AI system to help scientists write expert-level empirical software",
+    "URL": "https://www.nature.com/articles/s41586-026-10658-6",
+    "author": [
+      {
+        "family": "Aygün",
+        "given": "Eser"
+      },
+      {
+        "family": "Belyaeva",
+        "given": "Anastasiya"
+      },
+      {
+        "family": "Comanici",
+        "given": "Gheorghe"
+      },
+      {
+        "family": "Coram",
+        "given": "Marc"
+      },
+      {
+        "family": "Cui",
+        "given": "Hao"
+      },
+      {
+        "family": "Garrison",
+        "given": "Jake"
+      },
+      {
+        "family": "Johnston",
+        "given": "Renee"
+      },
+      {
+        "family": "Kast",
+        "given": "Anton"
+      },
+      {
+        "family": "McLean",
+        "given": "Cory Y."
+      },
+      {
+        "family": "Norgaard",
+        "given": "Peter"
+      },
+      {
+        "family": "Shamsi",
+        "given": "Zahra"
+      },
+      {
+        "family": "Smalling",
+        "given": "David"
+      },
+      {
+        "family": "Thompson",
+        "given": "James"
+      },
+      {
+        "family": "Venugopalan",
+        "given": "Subhashini"
+      },
+      {
+        "family": "Williams",
+        "given": "Brian P."
+      },
+      {
+        "family": "He",
+        "given": "Chujun"
+      },
+      {
+        "family": "Martinson",
+        "given": "Sarah"
+      },
+      {
+        "family": "Plomecka",
+        "given": "Martyna"
+      },
+      {
+        "family": "Wei",
+        "given": "Lai"
+      },
+      {
+        "family": "Zhou",
+        "given": "Yuchen"
+      },
+      {
+        "family": "Zhu",
+        "given": "Qian-Ze"
+      },
+      {
+        "family": "Abraham",
+        "given": "Matthew"
+      },
+      {
+        "family": "Brand",
+        "given": "Erica"
+      },
+      {
+        "family": "Bulanova",
+        "given": "Anna"
+      },
+      {
+        "family": "Cardille",
+        "given": "Jeffrey A."
+      },
+      {
+        "family": "Co",
+        "given": "Chris"
+      },
+      {
+        "family": "Ellsworth",
+        "given": "Scott"
+      },
+      {
+        "family": "Joseph",
+        "given": "Grace"
+      },
+      {
+        "family": "Kane",
+        "given": "Malcolm"
+      },
+      {
+        "family": "Krueger",
+        "given": "Ryan"
+      },
+      {
+        "family": "Kartiwa",
+        "given": "Johan"
+      },
+      {
+        "family": "Liebling",
+        "given": "Dan"
+      },
+      {
+        "family": "Lueckmann",
+        "given": "Jan-Matthis"
+      },
+      {
+        "family": "Raccuglia",
+        "given": "Paul"
+      },
+      {
+        "family": "Wang",
+        "given": "Xuefei Julie"
+      },
+      {
+        "family": "Chou",
+        "given": "Katherine"
+      },
+      {
+        "family": "Manyika",
+        "given": "James"
+      },
+      {
+        "family": "Matias",
+        "given": "Yossi"
+      },
+      {
+        "family": "Platt",
+        "given": "John C."
+      },
+      {
+        "family": "Dorfman",
+        "given": "Lizzie"
+      },
+      {
+        "family": "Mourad",
+        "given": "Shibl"
+      },
+      {
+        "family": "Brenner",
+        "given": "Michael P."
+      }
+    ],
+    "abstract": "ERA iteratively searches software candidates for scorable scientific and engineering tasks, demonstrating strong empirical-software performance.",
+    "keyword": "science; engineering; agents",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and task design). Limitations: Task and evaluator design are provided by people; benchmark gains do not automatically establish a new scientific explanation. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-026-10658-6",
+    "container-title": "Nature"
+  },
+  {
+    "id": "chenstratton2026",
+    "type": "report",
+    "title": "Artificial Intelligence in the Firm: Bottlenecks in Software Production",
+    "URL": "https://fion.ac/jellyfish.pdf",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Fiona"
+      },
+      {
+        "family": "Stratton",
+        "given": "James"
+      }
+    ],
+    "abstract": "Firm-level adoption analysis using Jellyfish data finds increased coding activity, longer review cycles, and limited pass-through to resolved issues or epics.",
+    "keyword": "productivity; engineering; business",
+    "note": "Method: quasi-experiment. Status: working-paper. Verification: content-checked (author PDF, abstract, introduction, review analysis and sample table). Limitations: Proprietary data, parallel-trends assumptions, firm-level adoption, and output proxies; insignificant effects are not proof of exactly zero benefit. Version: Current linked version August 4, 2026; first version January 7, 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hao2026",
+    "type": "article-journal",
+    "title": "Artificial intelligence tools expand scientists’ impact but contract science’s focus",
+    "URL": "https://www.nature.com/articles/s41586-025-09922-y",
+    "author": [
+      {
+        "family": "Hao",
+        "given": "Qianyue"
+      },
+      {
+        "family": "Xu",
+        "given": "Fengli"
+      },
+      {
+        "family": "Li",
+        "given": "Yong"
+      },
+      {
+        "family": "Evans",
+        "given": "James"
+      }
+    ],
+    "abstract": "Analysis of 41.3 million papers associates AI use with individual career and output advantages but a narrower collective distribution of research topics.",
+    "keyword": "science; work; diversity",
+    "note": "Method: observational. Status: peer-reviewed. Verification: content-checked (journal abstract and publication metadata). Limitations: Broad historical AI, not just LLMs; classifier and selection effects prevent a simple causal reading. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-025-09922-y",
+    "container-title": "Nature"
+  },
+  {
+    "id": "alignment2026",
+    "type": "report",
+    "title": "Automated Researchers Can Mitigate Well-Characterized Alignment Failures",
+    "URL": "https://alignment.anthropic.com/2026/automated-alignment-researchers",
+    "author": [
+      {
+        "literal": "Chen Yueh-Han"
+      },
+      {
+        "family": "Wen",
+        "given": "Jiaxin"
+      },
+      {
+        "family": "Kirchner",
+        "given": "Jan Hendrik"
+      }
+    ],
+    "abstract": "Automated researchers improve benchmarks for ten defined alignment failures, with selected transfer and behavioral auditing tests.",
+    "keyword": "ai-rd; science; security",
+    "note": "Method: benchmark-and-experimental-validation. Status: vendor-research-report. Verification: content-checked (technical report, evaluation protocol and caveats). Limitations: Unequal iterative opportunities in the human comparison, selective capability tests, and vendor-produced evidence; detected cheating trajectories were excluded.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "brand2026",
+    "type": "manuscript",
+    "title": "Beyond Productivity: Measuring Developers' Cognitive Load During GenAI-Supported Software Development",
+    "URL": "https://arxiv.org/abs/2609.37645",
+    "author": [
+      {
+        "family": "Brandebusemeyer",
+        "given": "Charlotte"
+      },
+      {
+        "family": "Gasser",
+        "given": "Daniela"
+      },
+      {
+        "family": "Schimmer",
+        "given": "Tobias"
+      },
+      {
+        "family": "Arnrich",
+        "given": "Bert"
+      }
+    ],
+    "abstract": "A four-day study of 21 SAP developers relates perceived cognitive load to AI use and task context; wearable measurements add limited information.",
+    "keyword": "cognition; engineering; work",
+    "note": "Method: field-observation. Status: preprint. Verification: content-checked (primary abstract only). Limitations: Small nonrandom sample and short observation; does not establish an overall causal increase or reduction in mental effort. Date basis: primary metadata Persistent identifier: arXiv:2609.37645",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "chen2026",
+    "type": "manuscript",
+    "title": "Beyond the Commit: Developer Perspectives on Productivity with AI Coding Assistants",
+    "URL": "https://arxiv.org/abs/2602.03593",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Valerie"
+      },
+      {
+        "family": "He",
+        "given": "Jasmyn"
+      },
+      {
+        "family": "Williams",
+        "given": "Behnjamin"
+      },
+      {
+        "family": "Valentino",
+        "given": "Jason"
+      },
+      {
+        "family": "Talwalkar",
+        "given": "Ameet"
+      }
+    ],
+    "abstract": "A BNY Mellon survey with 2,989 responses and 11 interviews argues for measuring expertise, ownership and longer-run productivity alongside activity.",
+    "keyword": "productivity; engineering; methods",
+    "note": "Method: mixed-methods. Status: preprint. Verification: content-checked (primary abstract). Limitations: Self-reports within one organization; identifies constructs rather than a causal effect size. Date basis: primary metadata Persistent identifier: arXiv:2602.03593",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "innovationeval2026",
+    "type": "report",
+    "title": "Can AI automate AI R&D yet?",
+    "URL": "https://epoch.ai/publications/innovationeval",
+    "author": [
+      {
+        "family": "Owen",
+        "given": "David"
+      }
+    ],
+    "abstract": "An end-to-end test of novel post-training research finds weak improvements relative to a withheld human method and exposes misleading result selection.",
+    "keyword": "ai-rd; science; methods",
+    "note": "Method: benchmark. Status: organization-report. Verification: content-checked (full report including methods, results and limitations). Limitations: One task, few expensive runs, partly human scope assessment, and contamination in successor models.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "babina2026",
+    "type": "report",
+    "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+    "URL": "https://www.nber.org/papers/w35684",
+    "author": [
+      {
+        "family": "Babina",
+        "given": "Tania"
+      },
+      {
+        "family": "He",
+        "given": "Alex X."
+      },
+      {
+        "family": "Jiang",
+        "given": "Renhao"
+      }
+    ],
+    "abstract": "Firm-level AI-skilled employment measures link recent productivity improvements to investment in durable organizational knowledge and processes.",
+    "keyword": "business; productivity; work",
+    "note": "Method: observational. Status: working-paper. Verification: content-checked (publisher abstract and scope). Limitations: Broader AI than chatbots, employment-based investment proxies and identification assumptions; not a license-purchase ROI estimate.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.3386/w35684"
+  },
+  {
+    "id": "tran2026",
+    "type": "manuscript",
+    "title": "Characterizing the Quality Profile of AI-Generated C++ in Production",
+    "URL": "https://arxiv.org/abs/2608.06640",
+    "author": [
+      {
+        "family": "Tran",
+        "given": "Michael"
+      },
+      {
+        "family": "Lewis",
+        "given": "Fred"
+      },
+      {
+        "family": "Yang",
+        "given": "Kun"
+      },
+      {
+        "family": "Thakur",
+        "given": "Saksham"
+      },
+      {
+        "family": "Kini",
+        "given": "Aditya"
+      },
+      {
+        "family": "Patil",
+        "given": "Aditya"
+      },
+      {
+        "family": "Hashemi",
+        "given": "Milad"
+      },
+      {
+        "family": "Ranganathan",
+        "given": "Parthasarathy"
+      }
+    ],
+    "abstract": "Production C++ telemetry finds distinct warning profiles, added review effort, and higher compute consumption in the studied AI-code cohort.",
+    "keyword": "engineering; quality; cost",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract and study scope). Limitations: One enterprise and language, attribution challenges, private data; the result is not a universal defect or cost multiplier. Date basis: primary metadata Persistent identifier: arXiv:2608.06640",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wulearning2026",
+    "type": "article-journal",
+    "title": "ChatGPT's impact on student learning outcomes: a meta-analysis of 35 experimental studies",
+    "URL": "https://www.nature.com/articles/s41599-026-07019-z",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Xinning"
+      },
+      {
+        "family": "Zhu",
+        "given": "Pei"
+      },
+      {
+        "family": "Zhang",
+        "given": "Jinliang"
+      },
+      {
+        "family": "Yin",
+        "given": "Mengwei"
+      },
+      {
+        "family": "Wang",
+        "given": "Yingxi"
+      }
+    ],
+    "abstract": "A synthesis of 35 studies and 4,193 participants reports a positive standardized learning effect (g=0.670) and no detected publication bias in its tests.",
+    "keyword": "learning; methods",
+    "note": "Method: meta-analysis. Status: peer-reviewed. Verification: content-checked (publisher abstract, bibliographic metadata and stated study window). Limitations: Underlying studies date from 2022-2024. Mixed cognitive and non-cognitive outcomes, selection and limited moderators constrain comparison with newer STEM syntheses; non-detection does not establish absence of bias.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1057/s41599-026-07019-z",
+    "container-title": "Humanities and Social Sciences Communications"
+  },
+  {
+    "id": "coslr2026",
+    "type": "manuscript",
+    "title": "Checkpoints Are Not Enough: Trust Calibration in CoSLR, a Human-AI System for Systematic Literature Reviews",
+    "URL": "https://arxiv.org/abs/2609.22248",
+    "author": [
+      {
+        "family": "Islam",
+        "given": "MD Aidul"
+      },
+      {
+        "family": "Sami",
+        "given": "Malik Abdul"
+      },
+      {
+        "family": "Waseem",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Rasheed",
+        "given": "Zeeshan"
+      },
+      {
+        "family": "Kemell",
+        "given": "Kai-kristian"
+      },
+      {
+        "family": "Zhang",
+        "given": "Zheying"
+      },
+      {
+        "family": "Abrahamsson",
+        "given": "Pekka"
+      }
+    ],
+    "abstract": "A 63-participant evaluation of an AI-assisted review system finds that mandatory verification checkpoints alone do not ensure users actually check generated synthesis.",
+    "keyword": "science; trust; methods",
+    "note": "Method: survey-demonstration. Status: preprint. Verification: content-checked (arXiv abstract, participant count and reported verification-intention result). Limitations: Short interaction and self-reported intentions, not a controlled estimate of review accuracy or error prevention. Useful as a process warning, not validation of this review. Persistent identifier: arXiv:2609.22248",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "schwartz2026",
+    "type": "webpage",
+    "title": "Claude-shaped science",
+    "URL": "https://www.anthropic.com/research/claude-shaped-science",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Matthew"
+      }
+    ],
+    "abstract": "BootLoops connects methods across quantitative fields; domain experts redirect technically correct results toward questions with scientific significance.",
+    "keyword": "science; engineering; judgment",
+    "note": "Method: case-study. Status: vendor-hosted-essay. Verification: content-checked (full essay and disclosure). Limitations: Selected personal case studies and manuscripts under further verification; the author was a visiting researcher at Anthropic.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ghosttycontribution2026",
+    "type": "webpage",
+    "title": "Contributing to Ghostty",
+    "URL": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+    "author": [
+      {
+        "literal": "Ghostty project"
+      }
+    ],
+    "abstract": "First-time contributors require maintainer vouching; the project attributes the gate to low-quality submissions and erosion of default trust.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official critical rule and first-time-contributor sections; revision identity). Limitations: Shows an actual participation restriction, not its prevalence across open source or a causal estimate of AI harm. Version: Pinned to revision 22f9233a0f7b85747483ce713411c67be4643d8f, 19 April 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "darwinx2026",
+    "type": "manuscript",
+    "title": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
+    "URL": "https://arxiv.org/abs/2608.07545",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Yifan"
+      },
+      {
+        "family": "Dai",
+        "given": "Yutong"
+      },
+      {
+        "family": "Tan",
+        "given": "Juntao"
+      },
+      {
+        "family": "Yang",
+        "given": "Luyu"
+      },
+      {
+        "family": "Mullur",
+        "given": "Rishi"
+      },
+      {
+        "family": "Hoang",
+        "given": "Thai"
+      },
+      {
+        "family": "Hu",
+        "given": "Zhiyuan"
+      },
+      {
+        "family": "Zhu",
+        "given": "James"
+      },
+      {
+        "family": "Mui",
+        "given": "Phil"
+      },
+      {
+        "family": "Savarese",
+        "given": "Silvio"
+      },
+      {
+        "family": "Xu",
+        "given": "Ran"
+      },
+      {
+        "family": "Chen",
+        "given": "Zeyuan"
+      }
+    ],
+    "abstract": "Population search over harnesses improves benchmark performance with a frozen model, treating tools, prompts and control flow as evolvable components.",
+    "keyword": "ai-rd; agents",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Recent author-reported benchmark results require independent replication and careful train-test separation. Date basis: primary metadata Persistent identifier: arXiv:2608.07545",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "iac2026",
+    "type": "manuscript",
+    "title": "Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair",
+    "URL": "https://arxiv.org/abs/2608.13404",
+    "author": [
+      {
+        "family": "Agyekum",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Santos",
+        "given": "Fabio"
+      }
+    ],
+    "abstract": "Iterative infrastructure-code repair can regress security; changing the regression definition reduces measured affected scenarios from 13.8% to 3.3%.",
+    "keyword": "engineering; security; methods",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract and measurement definitions). Limitations: Validator semantics and resource restructuring influence apparent regressions; cumulative-best metrics conceal intermediate failures. Date basis: primary metadata Persistent identifier: arXiv:2608.13404",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          13
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hamza2026",
+    "type": "paper-conference",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "URL": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67",
+    "author": [
+      {
+        "family": "Hamza",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Siemon",
+        "given": "Dominik"
+      },
+      {
+        "family": "Awan",
+        "given": "Wardah Naeem"
+      }
+    ],
+    "abstract": "AIDev-based comparisons of 669 developer-repository pairs in agent-exposed repositories with 228 control pairs find increased PR-description length and small test-change associations. Apparent review changes in before/after comparisons do not remain significant after comparison with controls. This challenges simple attribution of every review trend to agents, without establishing better delivered software.",
+    "keyword": "engineering; quality; methods; agents",
+    "note": "Method: quasi-experiment. Status: peer-reviewed-conference. Verification: content-checked (Publisher metadata and linked 13-page published PDF: abstract, methods, results/Tables 1-5 and discussion; compared with user-supplied 12-page SSRN preprint. Replication package not executed.). Limitations: Nonrandom adoption defined by first visible agent PR, not first AI use; selection of persistent contributors and active reviewers, median-split controls and limited matching weaken causal identification. Description length and test-file heuristics do not measure explanation quality or defect prevention. Null review contrasts do not establish equivalence. Reporting questions in the time-window and misattribution summaries are logged for clarification; no replication was run. Date basis: Primary Dagstuhl publication metadata dated 5 October 2026, checked 13 October 2026. Version: Published in the Emerging Results, Vision & Reflection Track on 5 October 2026. SSRN 6996078 and 7070979 are earlier versions of this study, not additional evidence. Shares the AIDev dataset family with other repository studies, but its analytic samples and outcomes differ. Document inspection: public-publisher-pdf, 2026-10-13; 13 pages; SHA-256 342b776c023a75dd9a17cf1b0494e6e264c4358340fa48a6e58cdd5cb545ab0f. Scope: Publisher metadata, abstract, methods, results and discussion; compared with supplied preprint. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.4230/LIPIcs.ESEM.2026.67",
+    "container-title": "20th International Symposium on Empirical Software Engineering and Measurement (ESEM 2026)"
+  },
+  {
+    "id": "doratensions2026",
+    "type": "webpage",
+    "title": "DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use",
+    "URL": "https://dora.dev/insights/balancing-ai-tensions",
+    "author": [
+      {
+        "literal": "DORA"
+      }
+    ],
+    "abstract": "Discusses tensions between AI adoption, trust, verification, workflow design, and effective use across the software lifecycle.",
+    "keyword": "engineering; business",
+    "note": "Method: commentary. Status: organization-analysis. Verification: content-checked (primary analysis). Limitations: Interpretive and practical guidance; not a new randomized productivity estimate.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "boolzen2026",
+    "type": "article-journal",
+    "title": "Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes",
+    "URL": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
+    "author": [
+      {
+        "family": "Boolzen",
+        "given": "Chiara"
+      },
+      {
+        "family": "Kuhn",
+        "given": "Jochen"
+      },
+      {
+        "family": "Flegr",
+        "given": "Salome"
+      },
+      {
+        "family": "Rott",
+        "given": "Eva-Maria"
+      },
+      {
+        "family": "Stausberg",
+        "given": "Niklas"
+      },
+      {
+        "family": "Küchemann",
+        "given": "Stefan"
+      }
+    ],
+    "abstract": "A STEM synthesis finds highly heterogeneous positive conventional estimates; robust Bayesian publication-bias adjustment reduces the overall mean close to zero.",
+    "keyword": "learning; methods",
+    "note": "Method: meta-analysis. Status: peer-reviewed. Verification: content-checked (publisher abstract, search protocol, risk-of-bias appendices and bias-adjustment discussion). Limitations: 85 eligible studies, 49 pooled, 59 effects; I-squared=96.32%. Bias correction depends on modeling assumptions and does not prove that every instructional use fails.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          25
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10462-026-11665-9",
+    "container-title": "Artificial Intelligence Review"
+  },
+  {
+    "id": "openainavierpaper2026",
+    "type": "webpage",
+    "title": "Finite time blowup for Navier-Stokes",
+    "URL": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+    "author": [
+      {
+        "literal": "OpenAI"
+      }
+    ],
+    "abstract": "The manuscript states a smooth forced flow with finite-time unbounded velocity and bounded kinetic energy, claiming the official breakdown alternatives.",
+    "keyword": "science; verification",
+    "note": "Method: mathematical-proof-claim. Status: technical-manuscript. Verification: content-checked (first-page theorem and proof outline, not all lemmas). Limitations: Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: First-page title, attribution, abstract and introduction opening in Chrome's PDF viewer, using accessibility output and visual inspection.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "openainaviercode2026",
+    "type": "webpage",
+    "title": "Finite time blowup for Navier-Stokes and Euler equations",
+    "URL": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+    "author": [
+      {
+        "literal": "OpenAI"
+      }
+    ],
+    "abstract": "Provides Lean formalization artifacts and independent-checking instructions accompanying the announced mathematical results.",
+    "keyword": "science; verification",
+    "note": "Method: formalization-artifact. Status: research-software. Verification: content-checked (official README, artifact descriptions and revision identity; proof kernels not run). Limitations: Repository availability and build instructions are not our successful execution or an independent audit of formal statement fidelity. Version: Pinned to f9e8bc5b38b6e212696e8a30e3e91517af887bbd, the revision examined by the October critique.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wittig2026",
+    "type": "paper-conference",
+    "title": "Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity",
+    "URL": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
+    "author": [
+      {
+        "family": "Wittig",
+        "given": "Annemarie"
+      },
+      {
+        "family": "Mailach",
+        "given": "Alina"
+      },
+      {
+        "family": "Siegmund",
+        "given": "Norbert"
+      }
+    ],
+    "abstract": "A two-stage SPACE-informed review identifies 187 distinct productivity-related markers and finds more favorable patterns in perceived than objectively evaluated outcomes.",
+    "keyword": "engineering; productivity; methods",
+    "note": "Method: systematic-review. Status: peer-reviewed-conference. Verification: content-checked (official conference abstract and author PDF methodology, source policy and discussion sections). Limitations: Marker frequencies and reported effect directions are not pooled effect magnitudes. Diverse settings, confounders and source types limit universal conclusions. Version: ASE 2026 accepted research paper with an accessible author preprint in a July-dated URL directory; first posting date not independently established. Presentation scheduled 14 October, after our cutoff; no claim is based on a future presentation.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1145/3832783.3834386"
+  },
+  {
+    "id": "westby2026",
+    "type": "report",
+    "title": "Generative AI and the Redefinition of Entry-Level Software Work",
+    "URL": "https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work",
+    "author": [
+      {
+        "family": "Westby",
+        "given": "Samuel"
+      },
+      {
+        "family": "Modestino",
+        "given": "Alicia Sasser"
+      },
+      {
+        "family": "Cheng",
+        "given": "Peiran"
+      }
+    ],
+    "abstract": "U.S. vacancy data show a relative decline in junior software openings and higher experience requirements after ChatGPT's release.",
+    "keyword": "work; engineering; learning",
+    "note": "Method: quasi-experiment. Status: working-paper. Verification: content-checked (primary discussion-paper abstract). Limitations: Vacancies and posting requirements are not headcount or direct measures of individual AI substitution.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "shen2026",
+    "type": "manuscript",
+    "title": "How AI Impacts Skill Formation",
+    "URL": "https://arxiv.org/abs/2601.20245",
+    "author": [
+      {
+        "family": "Shen",
+        "given": "Judy Hanwen"
+      },
+      {
+        "family": "Tamkin",
+        "given": "Alex"
+      }
+    ],
+    "abstract": "Randomized study of learning a programming library finds reduced conceptual understanding, code reading and debugging with AI assistance on average.",
+    "keyword": "learning; engineering",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and preregistered design description). Limitations: A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized. Date basis: primary metadata Persistent identifier: arXiv:2601.20245",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          28
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "alphafoldimpact2026",
+    "type": "report",
+    "title": "How Artificial Intelligence Shapes Science: Evidence from AlphaFold",
+    "URL": "https://www.nber.org/papers/w35143",
+    "author": [
+      {
+        "family": "Hill",
+        "given": "Ryan R."
+      },
+      {
+        "family": "Stein",
+        "given": "Carolyn"
+      }
+    ],
+    "abstract": "AlphaFold structure availability appears to complement experimental biology and expand basic research on previously understudied proteins, without comparable downstream drug-development effects so far.",
+    "keyword": "science; business",
+    "note": "Method: observational. Status: working-paper. Verification: content-checked (current publisher abstract). Limitations: Domain-specific transition and observation window; predicted structures do not settle biological function or translational success.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.3386/w35143"
+  },
+  {
+    "id": "llamalima2026",
+    "type": "manuscript",
+    "title": "LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics",
+    "URL": "https://arxiv.org/abs/2601.18685v5",
+    "author": [
+      {
+        "family": "Strohmaier",
+        "given": "Anselm"
+      },
+      {
+        "family": "Bödefeld",
+        "given": "Samira"
+      },
+      {
+        "family": "Straser",
+        "given": "Oliver"
+      },
+      {
+        "family": "Reinhold",
+        "given": "Frank"
+      }
+    ],
+    "abstract": "A regularly updated mathematics-learning synthesis reports a positive estimate in its September v5, with larger effects for teacher-supplementing and longer interventions.",
+    "keyword": "learning; methods",
+    "note": "Method: living-meta-analysis. Status: preprint. Verification: content-checked (version-specific arXiv abstract and revision history; underlying trial extraction not independently checked). Limitations: 34 studies in v5; narrower eligibility and Bayesian models differ from broad STEM syntheses. Shared trials are not independent corroboration; a credible interval is not a confidence interval. Version: Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-0.79. DOI identifies the version family; January first-submission and September revision dates must not be conflated. Persistent identifier: arXiv:2601.18685",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2601.18685"
+  },
+  {
+    "id": "taomath2026",
+    "type": "webpage",
+    "title": "Math 2.0",
+    "URL": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "author": [
+      {
+        "family": "Tao",
+        "given": "Terence"
+      }
+    ],
+    "abstract": "Proposes using AI to strengthen mathematical understanding, exposition and collaborative infrastructure rather than optimizing only the number of solved problems.",
+    "keyword": "science; learning; governance",
+    "note": "Method: expert-lecture. Status: lecture-slides. Verification: content-checked (30-slide author PDF, especially capability, reporting-bias and human-understanding sections; linked author announcement). Limitations: A research agenda and expert assessment, not a causal measurement of community health; examples include announced future activity. Version: Caltech lecture delivered 9 October; slides announced in Tao's blog on 10 October. Future November events are proposals, not completed outcomes.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "klowdentao2026",
+    "type": "manuscript",
+    "title": "Mathematical methods and human thought in the age of AI",
+    "URL": "https://arxiv.org/abs/2603.26524v1",
+    "author": [
+      {
+        "family": "Klowden",
+        "given": "Tanya"
+      },
+      {
+        "family": "Tao",
+        "given": "Terence"
+      }
+    ],
+    "abstract": "Situates AI in the history of intellectual tools and argues for applications that expand human thought and meet human needs.",
+    "keyword": "science; learning; governance",
+    "note": "Method: philosophical-essay. Status: preprint. Verification: content-checked (primary abstract, authorship and version history). Limitations: A philosophical framework, not a measured effect. Solicited chapter status is distinct from the unabridged preprint's publication status. Persistent identifier: arXiv:2603.26524",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          27
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2603.26524"
+  },
+  {
+    "id": "taoicm2026",
+    "type": "manuscript",
+    "title": "Mathematics in the age of AI",
+    "URL": "https://arxiv.org/abs/2608.16753v1",
+    "author": [
+      {
+        "family": "Tao",
+        "given": "Terence"
+      }
+    ],
+    "abstract": "Asks what mathematical research is for, conditional on increasingly capable AI problem solving, rather than making a new capability estimate.",
+    "keyword": "science; governance",
+    "note": "Method: conceptual-essay. Status: preprint. Verification: content-checked (version-specific arXiv abstract and bibliographic history). Limitations: An ICM lecture-based conceptual argument; submission to proceedings does not establish peer review of this version. Persistent identifier: arXiv:2608.16753",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2608.16753"
+  },
+  {
+    "id": "rdmetrics2026",
+    "type": "report",
+    "title": "Measurements for understanding the pace of AI development inside frontier labs",
+    "URL": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+    "author": [
+      {
+        "literal": "Anthropic"
+      }
+    ],
+    "abstract": "A prototype internal R&D index distinguishes AI assistance, collaboration and leadership from full autonomy using a fixed task basket.",
+    "keyword": "ai-rd; methods; work",
+    "note": "Method: observational. Status: vendor-report. Verification: content-checked (full methods and index interpretation). Limitations: Model-rated internal documentation and approximate time weights; automation share is not research speedup or independent safety evidence.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "metr2026survey",
+    "type": "report",
+    "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
+    "URL": "https://metr.org/blog/2026-05-11-ai-usage-survey",
+    "author": [
+      {
+        "literal": "METR"
+      }
+    ],
+    "abstract": "A survey of 349 technical workers estimates perceived changes in the value of work, extending beyond time saved on fixed tasks.",
+    "keyword": "productivity; work",
+    "note": "Method: survey. Status: organization-report. Verification: content-checked (organization report and sample description). Limitations: Self-reported counterfactuals, selection, and unusually technical respondents; not independently measured causal uplift.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ownership2026",
+    "type": "article-journal",
+    "title": "More Code, Less Understanding? On the Impact of AI Assistants on Developers' Productivity and Code Ownership",
+    "URL": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+    "author": [
+      {
+        "family": "Martin-Lopez",
+        "given": "Alberto"
+      },
+      {
+        "family": "Tufano",
+        "given": "Rosalia"
+      },
+      {
+        "family": "Guglielmi",
+        "given": "Emanuela"
+      },
+      {
+        "family": "Sánchez",
+        "given": "Ana B."
+      },
+      {
+        "family": "Sanz",
+        "given": "Ana Lourdes"
+      },
+      {
+        "family": "Scalabrino",
+        "given": "Simone"
+      },
+      {
+        "family": "Oliveto",
+        "given": "Rocco"
+      },
+      {
+        "family": "Segura",
+        "given": "Sergio"
+      },
+      {
+        "family": "Bavota",
+        "given": "Gabriele"
+      }
+    ],
+    "abstract": "Among 69 participants, AI improves median task completeness but reduces immediate correct answers about the code: 87.5% versus 100% without AI.",
+    "keyword": "engineering; learning; productivity",
+    "note": "Method: crossover-experiment. Status: peer-reviewed. Verification: content-checked (author PDF abstract, participant table and study design; author publication list). Limitations: Mostly students; only 14 professionals. Short tasks and AI-generated comprehension questions do not measure permanent skill loss or long-run ownership. Version: Author-hosted manuscript; journal identity confirmed on the author's research page. The August 2021 running header is a LaTeX template artifact, not the publication date. DOI not yet established in this review.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "container-title": "IEEE Transactions on Software Engineering"
+  },
+  {
+    "id": "claynavier2026",
+    "type": "webpage",
+    "title": "Navier-Stokes Announcement",
+    "URL": "https://www.claymath.org/news/navier-stokes-announcement/",
+    "author": [
+      {
+        "literal": "Clay Mathematics Institute"
+      }
+    ],
+    "abstract": "Welcomes the apparent resolution and anticipated new understanding while describing a deliberate evaluation process under the prize rules.",
+    "keyword": "science; verification; governance",
+    "note": "Method: institutional-statement. Status: organization-announcement. Verification: content-checked (official dated statement and its qualification about evaluation). Limitations: Not a prize award or an independent completed validation. Its September statement predates the October translation critique.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "naviertranslation2026",
+    "type": "manuscript",
+    "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+    "URL": "https://arxiv.org/abs/2610.08144v1",
+    "author": [
+      {
+        "family": "Bastounis",
+        "given": "Alexander"
+      },
+      {
+        "family": "Circelli",
+        "given": "Fabian"
+      },
+      {
+        "family": "Hansen",
+        "given": "Anders C."
+      }
+    ],
+    "abstract": "Identifies mismatches between OpenAI's written argument and Lean lemmas, distinguishing machine-checked validity from faithful translation.",
+    "keyword": "science; verification; methods",
+    "note": "Method: technical-critique. Status: preprint. Verification: content-checked (v1 abstract, concrete derivative-loss and estimate comparisons, and interpretation of translation limits; proofs not independently reproduced). Limitations: A preprint critique, not a complete independent adjudication. Its worst-case ambiguity result is not proof that every practical autoformalization is impossible or that Lean's logic is invalid. Persistent identifier: arXiv:2610.08144",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2610.08144"
+  },
+  {
+    "id": "oecdeducation2026",
+    "type": "report",
+    "title": "OECD Digital Education Outlook 2026: Exploring Effective Uses of Generative AI in Education",
+    "URL": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+    "author": [
+      {
+        "literal": "OECD"
+      }
+    ],
+    "abstract": "OECD distinguishes stronger assisted task performance from learning that persists without AI, emphasizing instructional design and pedagogical intent.",
+    "keyword": "learning; methods",
+    "note": "Method: policy-evidence-synthesis. Status: organization-report. Verification: content-checked (official summary, key messages and bibliographic details; not all 267 pages). Limitations: A policy and expert synthesis rather than one causal trial; instructional examples do not establish that every tutor or classroom intervention works.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          19
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1787/062a7394-en"
+  },
+  {
+    "id": "alphaproof2025",
+    "type": "article-journal",
+    "title": "Olympiad-level formal mathematical reasoning with reinforcement learning",
+    "URL": "https://www.nature.com/articles/s41586-025-09833-y",
+    "author": [
+      {
+        "family": "Hubert",
+        "given": "Thomas"
+      },
+      {
+        "family": "Mehta",
+        "given": "Rishi"
+      },
+      {
+        "family": "Sartran",
+        "given": "Laurent"
+      },
+      {
+        "family": "Horváth",
+        "given": "Miklós Z."
+      },
+      {
+        "family": "Žužić",
+        "given": "Goran"
+      },
+      {
+        "family": "Wieser",
+        "given": "Eric"
+      },
+      {
+        "family": "Huang",
+        "given": "Aja"
+      },
+      {
+        "family": "Schrittwieser",
+        "given": "Julian"
+      },
+      {
+        "family": "Schroecker",
+        "given": "Yannick"
+      },
+      {
+        "family": "Masoom",
+        "given": "Hussain"
+      },
+      {
+        "family": "Bertolli",
+        "given": "Ottavia"
+      },
+      {
+        "family": "Zahavy",
+        "given": "Tom"
+      },
+      {
+        "family": "Mandhane",
+        "given": "Amol"
+      },
+      {
+        "family": "Yung",
+        "given": "Jessica"
+      },
+      {
+        "family": "Beloshapka",
+        "given": "Iuliya"
+      },
+      {
+        "family": "Ibarz",
+        "given": "Borja"
+      },
+      {
+        "family": "Veeriah",
+        "given": "Vivek"
+      },
+      {
+        "family": "Yu",
+        "given": "Lei"
+      },
+      {
+        "family": "Nash",
+        "given": "Oliver"
+      },
+      {
+        "family": "Lezeau",
+        "given": "Paul"
+      },
+      {
+        "family": "Mercuri",
+        "given": "Salvatore"
+      },
+      {
+        "family": "Sönne",
+        "given": "Calle"
+      },
+      {
+        "family": "Mehta",
+        "given": "Bhavik"
+      },
+      {
+        "family": "Davies",
+        "given": "Alex"
+      },
+      {
+        "family": "Zheng",
+        "given": "Daniel"
+      },
+      {
+        "family": "Pedregosa",
+        "given": "Fabian"
+      },
+      {
+        "family": "Li",
+        "given": "Yin"
+      },
+      {
+        "family": "von Glehn",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Rowland",
+        "given": "Mark"
+      },
+      {
+        "family": "Albanie",
+        "given": "Samuel"
+      },
+      {
+        "family": "Velingker",
+        "given": "Ameya"
+      },
+      {
+        "family": "Schmitt",
+        "given": "Simon"
+      },
+      {
+        "family": "Lockhart",
+        "given": "Edward"
+      },
+      {
+        "family": "Hughes",
+        "given": "Edward"
+      },
+      {
+        "family": "Michalewski",
+        "given": "Henryk"
+      },
+      {
+        "family": "Sonnerat",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Hassabis",
+        "given": "Demis"
+      },
+      {
+        "family": "Kohli",
+        "given": "Pushmeet"
+      },
+      {
+        "family": "Silver",
+        "given": "David"
+      }
+    ],
+    "abstract": "AlphaProof combines reinforcement learning with formal mathematical reasoning and machine-checked proofs at olympiad level.",
+    "keyword": "science; mathematics; verification",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and stated evaluation scope). Limitations: Formalized, bounded tasks and substantial infrastructure; proof validity does not establish the value or novelty of an arbitrary question. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-025-09833-y",
+    "container-title": "Nature"
+  },
+  {
+    "id": "openainavier2026",
+    "type": "webpage",
+    "title": "On the Navier-Stokes Millennium Prize Problem",
+    "URL": "https://openai.com/index/navier-stokes-solution/",
+    "author": [
+      {
+        "literal": "OpenAI"
+      }
+    ],
+    "abstract": "Claims a solution of the forced Navier-Stokes breakdown alternatives, releasing a written proof and Lean formalization and describing a large multiagent effort.",
+    "keyword": "science; agents; verification",
+    "note": "Method: developer-research-announcement. Status: organization-announcement. Verification: content-checked (official announcement, result formulation, resource account and linked artifacts). Limitations: Developer claim with unavailable internal model; announcement, formal checking, statement fidelity and prize recognition are separate evidentiary stages. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Fully rendered announcement heading/date, Author block, introductory claim and section headings in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          8
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "lepp2026",
+    "type": "manuscript",
+    "title": "Patterns of Learner-AI Interaction and Academic Performance in an Object-Oriented Programming Course",
+    "URL": "https://arxiv.org/abs/2607.24755",
+    "author": [
+      {
+        "family": "Lepp",
+        "given": "Marina"
+      }
+    ],
+    "abstract": "Among 210 first-year OOP students, different self-reported AI-use profiles did not significantly differ in unaided assessment performance.",
+    "keyword": "learning; engineering",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: One course, nonrandom use and self-report; a null comparison is not equivalence or proof that pedagogy does not matter. Date basis: primary metadata Persistent identifier: arXiv:2607.24755",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          26
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "demourakernel2026",
+    "type": "report",
+    "title": "Postmortem for the Kernel Soundness Bug Hunt",
+    "URL": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+    "author": [
+      {
+        "family": "de Moura",
+        "given": "Leonardo"
+      }
+    ],
+    "abstract": "The Lean maintainer documents AI-assisted discovery of soundness bugs and changes to proof-checking safeguards.",
+    "keyword": "science; security; verification; engineering",
+    "note": "Method: maintainer-postmortem. Status: expert-technical-report. Verification: content-checked (dated maintainer report and its distinction between builds and independent proof checking). Limitations: Maintainer-reported case, not a controlled security comparison. Finding and fixing bugs neither certifies a bug-free kernel nor invalidates all earlier formal proofs.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          24
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "researchgym2026",
+    "type": "manuscript",
+    "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+    "URL": "https://arxiv.org/abs/2602.15112",
+    "author": [
+      {
+        "family": "Garikaparthi",
+        "given": "Aniketh"
+      },
+      {
+        "family": "Patwardhan",
+        "given": "Manasi"
+      },
+      {
+        "family": "Cohan",
+        "given": "Arman"
+      }
+    ],
+    "abstract": "Five research environments expose a gap between occasional strong research results and reliable completion of long research workflows.",
+    "keyword": "science; ai-rd; agents",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Small number of environments, configuration sensitivity and model vintage; workshop acceptance is distinct from main-conference acceptance. Date basis: primary metadata Persistent identifier: arXiv:2602.15112",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          16
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "sweci2026",
+    "type": "manuscript",
+    "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+    "URL": "https://arxiv.org/abs/2603.03823",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Jialong"
+      },
+      {
+        "family": "Xu",
+        "given": "Xander"
+      },
+      {
+        "family": "Wei",
+        "given": "Hu"
+      },
+      {
+        "family": "Chen",
+        "given": "Chuan"
+      },
+      {
+        "family": "Zhao",
+        "given": "Bing"
+      }
+    ],
+    "abstract": "Evaluates agents across successive repository changes rather than a single static issue, making regression and maintainability central outcomes.",
+    "keyword": "engineering; quality; agents",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: A benchmark environment and curated tasks; longitudinal agent evaluation is not longitudinal organizational evaluation. Date basis: primary metadata Persistent identifier: arXiv:2603.03823",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "taoliving2026",
+    "type": "webpage",
+    "title": "Terence Tao on AI in mathematics (and beyond)",
+    "URL": "https://teorth.github.io/tao-web/ai-views.html",
+    "author": [
+      {
+        "family": "Tao",
+        "given": "Terence"
+      }
+    ],
+    "abstract": "Connects Tao's evolving views, comparative advantage, verification and human-centered mathematics with primary writings and talks.",
+    "keyword": "science; learning; methods",
+    "note": "Method: curated-expert-perspective. Status: living-essay. Verification: content-checked (authorship disclosure, update date, chronology and links to original works). Limitations: AI-drafted, reviewed and corrected by Tao; editorial selection and third-person paraphrase. Cite original works for specific arguments where possible. Version: Inspected version last updated 11 October 2026; page discloses AI assistance, industry access and collaborations.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "coverage2026",
+    "type": "manuscript",
+    "title": "Test Coverage Analysis of Agentic Pull Requests",
+    "URL": "https://arxiv.org/abs/2607.18057",
+    "author": [
+      {
+        "family": "Dipongkor",
+        "given": "Atish Kumar"
+      },
+      {
+        "family": "Baral",
+        "given": "Talank"
+      },
+      {
+        "family": "Lam",
+        "given": "Wing"
+      },
+      {
+        "family": "Moran",
+        "given": "Kevin"
+      }
+    ],
+    "abstract": "Coverage measurements on 4,882 agent PRs show incomplete execution of changed lines and uneven benefits from agent-written tests.",
+    "keyword": "engineering; quality; agents",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (primary abstract). Limitations: Coverage is not assertion quality; the AIDev corpus overlaps other studies and should not be counted as independent replication. Date basis: primary metadata Persistent identifier: arXiv:2607.18057",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "aiindex2026",
+    "type": "report",
+    "title": "The 2026 AI Index Report",
+    "URL": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "author": [
+      {
+        "family": "Stanford Institute for Human-Centered Artificial Intelligence",
+        "given": "AI Index"
+      }
+    ],
+    "abstract": "An annual cross-domain reference compendium links technical capability, economic indicators, science, education, governance and public opinion to underlying datasets.",
+    "keyword": "science; work; business; learning; methods",
+    "note": "Method: cross-domain-evidence-compendium. Status: organization-report. Verification: content-checked (official 2026 landing page, chapter descriptions and top takeaways; report not read in full). Limitations: Indicators mix benchmarks, surveys, estimates and observational series with different dates and denominators. Adoption, investment and benchmark scores are not interchangeable with causal productivity gains.",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "nscc2026",
+    "type": "report",
+    "title": "The Changing Landscape of Postsecondary Education",
+    "URL": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
+    "author": [
+      {
+        "literal": "National Student Clearinghouse"
+      }
+    ],
+    "abstract": "Fall 2025 U.S. enrollments fall in traditional Computer and Information Science while Data Science and Analytics grow.",
+    "keyword": "learning; work",
+    "note": "Method: administrative-observation. Status: organization-report. Verification: content-checked (primary administrative-data summary). Limitations: Enrollment shifts do not identify AI-driven motivation and can include changes in program labels and international flows. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Official headline/date, publisher identity and accessible enrollment paragraphs in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          10
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "interfaces2026",
+    "type": "manuscript",
+    "title": "The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior",
+    "URL": "https://arxiv.org/abs/2608.11386",
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Xiangzhe"
+      },
+      {
+        "family": "Saghir",
+        "given": "Hamidreza"
+      },
+      {
+        "family": "Wu",
+        "given": "Qianhui"
+      },
+      {
+        "family": "Côté",
+        "given": "Marc-Alexandre"
+      },
+      {
+        "family": "Wang",
+        "given": "Tong"
+      },
+      {
+        "family": "Lakkaraju",
+        "given": "Kiran"
+      },
+      {
+        "family": "Pei",
+        "given": "Kexin"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xiangyu"
+      }
+    ],
+    "abstract": "Across 11,700 trajectories, different tool architectures alter coding-agent behavior, consistency and token consumption despite similar available actions.",
+    "keyword": "agents; engineering; cost",
+    "note": "Method: benchmark-experiment. Status: preprint. Verification: content-checked (primary abstract). Limitations: Repository-issue tasks and selected actors; efficiency within this evaluation is not a firm-level productivity estimate. Date basis: primary metadata Persistent identifier: arXiv:2608.11386",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vella2026",
+    "type": "manuscript",
+    "title": "The Impact of AI Coding Assistants on Software Engineering: A Longitudinal Study",
+    "URL": "https://arxiv.org/abs/2605.23135",
+    "author": [
+      {
+        "family": "Vella",
+        "given": "Annie"
+      },
+      {
+        "family": "Blincoe",
+        "given": "Kelly"
+      }
+    ],
+    "abstract": "A six-month survey panel reports a shift toward supervisory engineering work and growing experience-related costs despite stable perceived productivity gains.",
+    "keyword": "engineering; cognition; work",
+    "note": "Method: longitudinal-survey. Status: preprint. Verification: content-checked (primary abstract). Limitations: Perceived effects, attrition and 95 matched participants; not independently timed task performance. Date basis: primary metadata Persistent identifier: arXiv:2605.23135",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pragmatic2026",
+    "type": "webpage",
+    "title": "The impact of AI on software engineers in 2026: key trends. Part 1",
+    "URL": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+    "author": [
+      {
+        "family": "Orosz",
+        "given": "Gergely"
+      },
+      {
+        "family": "Nilsson",
+        "given": "Elin"
+      }
+    ],
+    "abstract": "A reader survey describes uneven benefits, rising costs, role changes and tensions between rapid delivery and maintenance.",
+    "keyword": "engineering; work; business",
+    "note": "Method: reader-survey-and-commentary. Status: expert-newsletter. Verification: content-checked (public introduction, reported sample size, key trends and subscription boundary; paid report not inspected). Limitations: Self-selected 900-plus responses; only the public preview was inspected. Editorial role categories are not a validated workforce taxonomy.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          14
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "iloreview2026",
+    "type": "report",
+    "title": "The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence",
+    "URL": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+    "author": [
+      {
+        "family": "Merola",
+        "given": "Rossana"
+      },
+      {
+        "family": "Ernst",
+        "given": "Ekkehard"
+      },
+      {
+        "family": "Samaan",
+        "given": "Daniel"
+      },
+      {
+        "family": "del Rio-Chanona",
+        "given": "Maria"
+      },
+      {
+        "family": "Teutloff",
+        "given": "Ole"
+      }
+    ],
+    "abstract": "ILO connects task gains with weaker aggregate-output evidence, employment distribution and changes in coordination and job quality.",
+    "keyword": "work; productivity; business; methods",
+    "note": "Method: narrative-review. Status: organization-report. Verification: content-checked (publisher summary and PDF introduction and productivity section). Limitations: A research brief synthesizing heterogeneous studies, not an independent experiment or meta-analytic estimate. Early null aggregate effects do not establish permanent absence of benefit. Version: The publisher page dates publication 1 June 2026; the eight-page PDF is headed May 2026. Crossref uses the shorter title without the review subtitle for the same publisher-supplied DOI. These are the same brief, not separate evidence.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.54394/00034628"
+  },
+  {
+    "id": "candidate-sciencedirect-2026",
+    "type": "article-journal",
+    "title": "The impact of generative artificial intelligence on software development performance: a study based on the theory of technology dominance",
+    "URL": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Tsung-Sheng"
+      },
+      {
+        "family": "Huang",
+        "given": "Lan-Gui"
+      }
+    ],
+    "abstract": "Survey-based research relates AI reliance, task-technology fit, experience and knowledge integration to software-development performance.",
+    "keyword": "engineering; productivity; business",
+    "note": "Method: survey. Status: peer-reviewed. Verification: content-checked (Alternative method: local Chrome native UI; publisher title, authors, April issue date, DOI, highlights, abstract opening and methods/discussion snippets; no purchased or institutional full text). Limitations: Public preview and section snippets only, not the subscription full text. Perceived performance and selected recent AI users do not establish a causal productivity effect; sample size and full estimates were not inspected. Version: Previously an unresolved candidate; identified in local Chrome on 13 October 2026. Stable database ID retained after promotion. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher headline, authors, issue month, DOI, highlights, abstract opening and methods/discussion snippets in Chrome accessibility output.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.im.2026.104306",
+    "container-title": "Information & Management"
+  },
+  {
+    "id": "iqbal2026",
+    "type": "article-journal",
+    "title": "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study",
+    "URL": "https://dl.acm.org/doi/10.1145/3786148.3788622",
+    "author": [
+      {
+        "family": "Iqbal",
+        "given": "Fazla"
+      },
+      {
+        "family": "Khan",
+        "given": "Muhammad Asif"
+      },
+      {
+        "family": "Weerakoon",
+        "given": "Oshani"
+      },
+      {
+        "family": "Oyedeji",
+        "given": "Shola"
+      },
+      {
+        "family": "Porras",
+        "given": "Jari"
+      }
+    ],
+    "abstract": "Combines 64 studies with 27 interviews across 12 countries, identifying efficiency benefits alongside energy, dependency, skill and defect concerns.",
+    "keyword": "engineering; sustainability; business; learning",
+    "note": "Method: systematic-review-and-interviews. Status: peer-reviewed-workshop. Verification: content-checked (publisher full-text rendering, abstract, methodology and validity discussion). Limitations: Small, geographically concentrated interview sample; broad AI scope and literature through mid-2025. Qualitative findings do not quantify net environmental impact.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.1145/3786148.3788622",
+    "container-title": "Proceedings of the IEEE/ACM 10th International Workshop on Green and Sustainable Software"
+  },
+  {
+    "id": "kompella2026",
+    "type": "webpage",
+    "title": "The risks of AI overreliance in software engineering",
+    "URL": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+    "author": [
+      {
+        "family": "Kompella",
+        "given": "Kashyap"
+      }
+    ],
+    "abstract": "Connects implementation gains with verification costs, code comprehension and long-term engineering capability.",
+    "keyword": "engineering; learning; quality",
+    "note": "Method: expert-commentary. Status: industry-analysis. Verification: content-checked (article and linked primary studies; findings attributed to those studies). Limitations: Secondary synthesis, not a new experiment. The categorical productivity subheading is too broad; cited studies must be interpreted in their own settings.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gates2026",
+    "type": "webpage",
+    "title": "The turbulent AI era is here. The choices we make now are critical.",
+    "URL": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+    "author": [
+      {
+        "family": "Gates",
+        "given": "Bill"
+      }
+    ],
+    "abstract": "Argues that AI's benefits and disruption require preparation, equitable access and protection for affected people.",
+    "keyword": "work; business; learning",
+    "note": "Method: policy-commentary. Status: expert-essay. Verification: content-checked (main essay and dated author block, excluding unrelated articles embedded on the page). Limitations: A prominent technology stakeholder's argument and forecasts, not empirical proof of future reliability or aggregate welfare gains. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Main essay heading, author/date block and accessible opening paragraphs in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "aiscientist2026",
+    "type": "article-journal",
+    "title": "Towards end-to-end automation of AI research",
+    "URL": "https://www.nature.com/articles/s41586-026-10265-5",
+    "author": [
+      {
+        "family": "Lu",
+        "given": "Chris"
+      },
+      {
+        "family": "Lu",
+        "given": "Cong"
+      },
+      {
+        "family": "Lange",
+        "given": "Robert Tjarko"
+      },
+      {
+        "family": "Yamada",
+        "given": "Yutaro"
+      },
+      {
+        "family": "Hu",
+        "given": "Shengran"
+      },
+      {
+        "family": "Foerster",
+        "given": "Jakob"
+      },
+      {
+        "family": "Ha",
+        "given": "David"
+      },
+      {
+        "family": "Clune",
+        "given": "Jeff"
+      }
+    ],
+    "abstract": "Demonstrates an extended automated ML-research workflow and evaluation of generated work through workshop peer review.",
+    "keyword": "science; agents",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and primary publication description). Limitations: Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-026-10265-5",
+    "container-title": "Nature"
+  },
+  {
+    "id": "wilson2026",
+    "type": "webpage",
+    "title": "Twelve Ways to Be Wrong About AI-Assisted Coding",
+    "URL": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong",
+    "author": [
+      {
+        "family": "Wilson",
+        "given": "Greg"
+      }
+    ],
+    "abstract": "Organizes recurring methodological mistakes in claims about AI-assisted coding and the measurement of productivity.",
+    "keyword": "methods; engineering",
+    "note": "Method: commentary. Status: expert-blog. Verification: content-checked (primary essay). Limitations: Critical expert commentary, not an independent outcome study.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          20
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "uber2026",
+    "type": "webpage",
+    "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+    "URL": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+    "author": [
+      {
+        "family": "Willison",
+        "given": "Simon"
+      }
+    ],
+    "abstract": "Discusses reported limits on Uber's coding-agent spending and the mismatch between token consumption and demonstrable customer value.",
+    "keyword": "business; cost; engineering",
+    "note": "Method: commentary-on-reporting. Status: expert-blog. Verification: content-checked (primary commentary and linked reporting). Limitations: Commentary on reporting; not an audited cost-benefit analysis of Uber.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hesa2026",
+    "type": "webpage",
+    "title": "UK higher education student numbers fall for second year in a row",
+    "URL": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+    "author": [
+      {
+        "literal": "HESA / Jisc"
+      }
+    ],
+    "abstract": "UK 2024/25 official data show growth in Computing and AI despite a decline in total student numbers.",
+    "keyword": "learning; work",
+    "note": "Method: administrative-observation. Status: official-statistics. Verification: content-checked (official statistical release as indexed by the publisher). Limitations: Different period and classification from U.S. figures; a geographic contrast rather than direct refutation. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Official HESA headline/date, organization identification, opening release and computing-subject paragraph in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          27
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vero2026",
+    "type": "manuscript",
+    "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+    "URL": "https://arxiv.org/abs/2608.13522",
+    "author": [
+      {
+        "family": "Ye",
+        "given": "Zhe"
+      },
+      {
+        "family": "Lou",
+        "given": "Hantao"
+      },
+      {
+        "family": "Sun",
+        "given": "Yuechun"
+      },
+      {
+        "family": "Song",
+        "given": "Peiyang"
+      },
+      {
+        "family": "Yan",
+        "given": "Zhengxu"
+      },
+      {
+        "family": "Kasriel",
+        "given": "Timothe"
+      },
+      {
+        "family": "Zhang",
+        "given": "Qingyang"
+      },
+      {
+        "family": "Yang",
+        "given": "Kaiyu"
+      },
+      {
+        "family": "Kong",
+        "given": "Soonho"
+      },
+      {
+        "family": "He",
+        "given": "Jingxuan"
+      },
+      {
+        "family": "Song",
+        "given": "Dawn"
+      }
+    ],
+    "abstract": "Joint implementation-and-proof generation succeeds on 27 of 43 curated multi-module Lean repositories in the strongest evaluated configuration, with no complete success on the hardest cases.",
+    "keyword": "engineering; verification; agents",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Formal validity is conditional on specification; small curated benchmark and configuration-dependent result. Date basis: primary metadata Persistent identifier: arXiv:2608.13522",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          13
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "metr2026update",
+    "type": "report",
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "URL": "https://metr.org/blog/2026-02-24-uplift-update",
+    "author": [
+      {
+        "family": "Becker",
+        "given": "Joel"
+      },
+      {
+        "family": "Rush",
+        "given": "Nate"
+      },
+      {
+        "family": "Cunningham",
+        "given": "Tom"
+      },
+      {
+        "family": "Rein",
+        "given": "David"
+      },
+      {
+        "family": "Mahamud",
+        "given": "Khalid"
+      }
+    ],
+    "abstract": "METR's follow-up describes selection and measurement problems as developers increasingly decline AI-disallowed work and operate agents concurrently.",
+    "keyword": "productivity; methods",
+    "note": "Method: experiment-update. Status: organization-report. Verification: content-checked (full methodological update). Limitations: Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hales2026",
+    "type": "webpage",
+    "title": "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI",
+    "URL": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+    "author": [
+      {
+        "family": "Hales",
+        "given": "Thomas"
+      }
+    ],
+    "abstract": "Separates kernel checking from statement fidelity, discusses independent checkers and soundness risks, and describes AI-assisted detection and repair of kernel bugs.",
+    "keyword": "science; verification; security",
+    "note": "Method: expert-technical-commentary. Status: expert-essay. Verification: content-checked (guest-authorship note and main reliability discussion; comments excluded). Limitations: Expert technical account, not our independent execution of the proofs or a proof of complete kernel trustworthiness. Version: Guest author is Thomas Hales, not blog host Terence Tao. Formal checking and human exposition address different questions.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "demirer2026",
+    "type": "report",
+    "title": "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools",
+    "URL": "https://www.nber.org/papers/w35275",
+    "author": [
+      {
+        "family": "Demirer",
+        "given": "Mert"
+      },
+      {
+        "family": "Musolff",
+        "given": "Leon"
+      },
+      {
+        "family": "Yang",
+        "given": "Liyuan"
+      }
+    ],
+    "abstract": "A matched event study of more than 500,000 developers finds large cumulative commit effects that attenuate for projects, releases, and application usage.",
+    "keyword": "productivity; engineering; business",
+    "note": "Method: observational. Status: working-paper. Verification: content-checked (current publisher abstract and revision metadata). Limitations: Nonrandom adoption, heterogeneous tools and outcomes; cumulative event-study estimates are not daily speedup percentages. Version: September 2026 revision; first issued May 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.3386/w35275"
+  },
+  {
+    "id": "bergh2026",
+    "type": "manuscript",
+    "title": "Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",
+    "URL": "https://arxiv.org/abs/2609.21194",
+    "author": [
+      {
+        "family": "Bergh",
+        "given": "Christian"
+      },
+      {
+        "family": "Tag",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Vassar",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Renzella",
+        "given": "Jake"
+      }
+    ],
+    "abstract": "Students assisted by ChatGPT produced stronger C solutions but showed lower immediate and 48-hour recall, with no significant difference in the rate of forgetting.",
+    "keyword": "learning; engineering; cognition",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract, full HTML methods and results). Limitations: 55 analyzed participants, three tasks and 48-hour follow-up; substantial physiological missingness. Date basis: primary metadata Persistent identifier: arXiv:2609.21194",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          18
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gitclear2025",
+    "type": "report",
+    "title": "AI Copilot Code Quality: 2025 Look Back at 12 Months of Data",
+    "URL": "https://www.gitclear.com/ai_assistant_code_quality_2025_research",
+    "author": [
+      {
+        "literal": "GitClear"
+      }
+    ],
+    "abstract": "Tracks code-change patterns, duplication and moved-code metrics across the period of expanding AI-assistant adoption.",
+    "keyword": "engineering; quality",
+    "note": "Method: observational. Status: vendor-report. Verification: content-checked (primary report page and stated metric definitions). Limitations: Calendar-time association is not treatment identification; moved-code measures are not the entirety of refactoring.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-47ac0a3015",
+    "type": "manuscript",
+    "title": "AI Skill Threat: How the Structure of Developers' Beliefs about Software Development Ability Impacts Their Psychological Resilience During Rapid Technology Shift",
+    "URL": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+    "author": [
+      {
+        "family": "Hicks",
+        "given": "Catherine M."
+      },
+      {
+        "family": "Lee",
+        "given": "Carol S."
+      },
+      {
+        "family": "Foster-Marks",
+        "given": "Kristen L."
+      }
+    ],
+    "abstract": "An observational survey of 3,267 developers and technical managers relates competitive and innate-brilliance beliefs to reported AI-related identity threat, and learning culture and belonging to more favorable reported experiences. It also identifies differences in concerns and intended upskilling across groups.",
+    "keyword": "engineering; work; learning; governance",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (User-supplied 55-page PDF: title, abstract, recruitment, measures, principal results and limitations; OSF page and embedded first PDF page inspected in local Chrome to match the artifact and version. Data and preregistered analysis were not independently reanalyzed.). Limitations: Volunteer recruitment including Pluralsight users, self-report outcomes, optional demographic responses and cross-sectional mediation limit causal interpretation. The study does not measure delivered software, demonstrate permanent skill loss, prove that a culture intervention works, or establish that AI skepticism is irrational. Authors' Developer Success Lab/Pluralsight affiliations are relevant context. Date basis: Supplied PDF draft date and OSF version-2 submission date, both 15 March 2025; source page inspected in local Chrome on 13 October 2026. Last-edited date (27 August 2025) is separate. Version: OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The version DOI resolves to OSF and Crossref confirms the older registered title and 2025 year. An initial DataCite lookup returned 404 because that registry does not hold this DOI; it is not evidence of an unregistered DOI. Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: OSF title, bylines, version-2 DOI, submitted/last-edited dates, data/preregistration declarations and embedded PDF first page and filename (55 pages). Document inspection: user-supplied-pdf-plus-local-chrome, 2026-10-13; 55 pages; SHA-256 576ea4b6b35ac4ca1d1198e077dc77572b8f85976bba60ba977e1408cd076560. Scope: Identity and main study sections including limitations; appendix and data not independently audited. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.31234/osf.io/2gej5_v2"
+  },
+  {
+    "id": "stackoverflow2025",
+    "type": "report",
+    "title": "AI | 2025 Stack Overflow Developer Survey",
+    "URL": "https://survey.stackoverflow.co/2025/ai",
+    "author": [
+      {
+        "literal": "Stack Overflow"
+      }
+    ],
+    "abstract": "High reported use or planned use coexists with greater distrust than trust of AI accuracy and widespread frustration with nearly correct answers.",
+    "keyword": "engineering; trust; work",
+    "note": "Method: survey. Status: organization-report. Verification: content-checked (AI section including exact question wording). Limitations: Opt-in survey and question-specific denominators; planned use is not adoption, and frustration is not measured net time loss.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "maintenance2025",
+    "type": "manuscript",
+    "title": "AI-Assisted Programming Decreases the Productivity of Experienced Developers by Increasing the Technical Debt and Maintenance Burden",
+    "URL": "https://arxiv.org/abs/2510.10165",
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Feiyang"
+      },
+      {
+        "family": "Medappa",
+        "given": "Poonacha K."
+      },
+      {
+        "family": "Tunc",
+        "given": "Murat M."
+      },
+      {
+        "family": "Vroegindeweij",
+        "given": "Martijn"
+      },
+      {
+        "family": "Fransoo",
+        "given": "Jan C."
+      }
+    ],
+    "abstract": "An open-source study reports greater activity among peripheral contributors alongside added review and rework burdens for core contributors.",
+    "keyword": "engineering; quality; work",
+    "note": "Method: observational. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Contributor seniority proxies and observational adoption; review redistribution is not itself proof of lost total value. Date basis: primary metadata Persistent identifier: arXiv:2510.10165",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "alphaevolve2025",
+    "type": "manuscript",
+    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "URL": "https://arxiv.org/abs/2506.13131",
+    "author": [
+      {
+        "family": "Novikov",
+        "given": "Alexander"
+      },
+      {
+        "family": "Vũ",
+        "given": "Ngân"
+      },
+      {
+        "family": "Eisenberger",
+        "given": "Marvin"
+      },
+      {
+        "family": "Dupont",
+        "given": "Emilien"
+      },
+      {
+        "family": "Huang",
+        "given": "Po-Sen"
+      },
+      {
+        "family": "Wagner",
+        "given": "Adam Zsolt"
+      },
+      {
+        "family": "Shirobokov",
+        "given": "Sergey"
+      },
+      {
+        "family": "Kozlovskii",
+        "given": "Borislav"
+      },
+      {
+        "family": "Ruiz",
+        "given": "Francisco J. R."
+      },
+      {
+        "family": "Mehrabian",
+        "given": "Abbas"
+      },
+      {
+        "family": "Kumar",
+        "given": "M. Pawan"
+      },
+      {
+        "family": "See",
+        "given": "Abigail"
+      },
+      {
+        "family": "Chaudhuri",
+        "given": "Swarat"
+      },
+      {
+        "family": "Holland",
+        "given": "George"
+      },
+      {
+        "family": "Davies",
+        "given": "Alex"
+      },
+      {
+        "family": "Nowozin",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Kohli",
+        "given": "Pushmeet"
+      },
+      {
+        "family": "Balog",
+        "given": "Matej"
+      }
+    ],
+    "abstract": "An evolutionary coding agent improves algorithms and infrastructure through evaluator-driven search, including selected novel mathematical procedures.",
+    "keyword": "science; engineering; ai-rd",
+    "note": "Method: experimental-demonstration. Status: preprint. Verification: content-checked (primary abstract). Limitations: Developer white paper, selected demonstrations and human-defined evaluators; no universal research-autonomy claim follows. Date basis: primary metadata Persistent identifier: arXiv:2506.13131",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          16
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "sabra2025",
+    "type": "manuscript",
+    "title": "Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis",
+    "URL": "https://arxiv.org/abs/2508.14727",
+    "author": [
+      {
+        "family": "Sabra",
+        "given": "Abbas"
+      },
+      {
+        "family": "Schmitt",
+        "given": "Olivier"
+      },
+      {
+        "family": "Tyler",
+        "given": "Joseph"
+      }
+    ],
+    "abstract": "Static analysis of 4,442 Java assignments finds that passing functional tests does not reliably indicate broader code quality or security.",
+    "keyword": "engineering; quality; security",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Assignments, selected models, and analyzer findings are not direct observations of production exploitation. Date basis: primary metadata Persistent identifier: arXiv:2508.14727",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          20
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stanford2025",
+    "type": "report",
+    "title": "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab",
+    "URL": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence",
+    "author": [
+      {
+        "family": "Brynjolfsson",
+        "given": "Erik"
+      },
+      {
+        "family": "Chandar",
+        "given": "Bharat"
+      },
+      {
+        "family": "Chen",
+        "given": "Ruyu"
+      }
+    ],
+    "abstract": "U.S. payroll evidence documents disproportionate early-career employment weakness in highly AI-exposed occupations.",
+    "keyword": "work; engineering",
+    "note": "Method: observational. Status: working-paper. Verification: content-checked (primary publication page and stated research design). Limitations: Exposure, age, and employment trends do not uniquely identify AI as the cause; versions and panel construction change estimates.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dgm2025",
+    "type": "manuscript",
+    "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "URL": "https://arxiv.org/abs/2505.22954",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Jenny"
+      },
+      {
+        "family": "Hu",
+        "given": "Shengran"
+      },
+      {
+        "family": "Lu",
+        "given": "Cong"
+      },
+      {
+        "family": "Lange",
+        "given": "Robert"
+      },
+      {
+        "family": "Clune",
+        "given": "Jeff"
+      }
+    ],
+    "abstract": "Darwin Godel Machine evolves the code of coding agents using an archive and external benchmarks while retaining a foundation model as the engine.",
+    "keyword": "ai-rd; engineering; agents",
+    "note": "Method: benchmark. Status: preprint. Verification: content-checked (primary abstract). Limitations: Agent-code improvement is not autonomous selection of goals or demonstrated unbounded improvement of model intelligence. Date basis: primary metadata Persistent identifier: arXiv:2505.22954",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "discorl2025",
+    "type": "article-journal",
+    "title": "Discovering state-of-the-art reinforcement learning algorithms",
+    "URL": "https://www.nature.com/articles/s41586-025-09761-x",
+    "author": [
+      {
+        "family": "Oh",
+        "given": "Junhyuk"
+      },
+      {
+        "family": "Farquhar",
+        "given": "Gregory"
+      },
+      {
+        "family": "Kemaev",
+        "given": "Iurii"
+      },
+      {
+        "family": "Calian",
+        "given": "Dan A."
+      },
+      {
+        "family": "Hessel",
+        "given": "Matteo"
+      },
+      {
+        "family": "Zintgraf",
+        "given": "Luisa"
+      },
+      {
+        "family": "Singh",
+        "given": "Satinder"
+      },
+      {
+        "family": "van Hasselt",
+        "given": "Hado"
+      },
+      {
+        "family": "Silver",
+        "given": "David"
+      }
+    ],
+    "abstract": "Automated discovery of reinforcement-learning rules yields methods competitive with hand-designed algorithms and tested in additional environments.",
+    "keyword": "science; ai-rd",
+    "note": "Method: benchmark. Status: peer-reviewed. Verification: content-checked (journal abstract and evaluation description). Limitations: Search objective, environments and compute allocation are human-designed; transfer has a defined scope. Date basis: primary metadata",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-025-09761-x",
+    "container-title": "Nature"
+  },
+  {
+    "id": "dora2025",
+    "type": "report",
+    "title": "DORA 2025 State of AI-assisted Software Development Report",
+    "URL": "https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report",
+    "author": [
+      {
+        "family": "DeBellis",
+        "given": "Derek"
+      },
+      {
+        "family": "Storer",
+        "given": "Kevin"
+      },
+      {
+        "family": "Harvey",
+        "given": "Nathen"
+      },
+      {
+        "family": "Beane",
+        "given": "Matt"
+      },
+      {
+        "family": "Edwards",
+        "given": "Rob"
+      },
+      {
+        "family": "Fraser",
+        "given": "Edward"
+      },
+      {
+        "family": "Good",
+        "given": "Ben"
+      },
+      {
+        "family": "Kalliamvakou",
+        "given": "Eirini"
+      },
+      {
+        "family": "Kim",
+        "given": "Gene"
+      },
+      {
+        "family": "Maxwell",
+        "given": "Eric"
+      },
+      {
+        "family": "D'Angelo",
+        "given": "Sarah"
+      },
+      {
+        "family": "Inman",
+        "given": "Sarah"
+      },
+      {
+        "family": "Murillo",
+        "given": "Ambar"
+      },
+      {
+        "family": "Villalba",
+        "given": "Daniella"
+      }
+    ],
+    "abstract": "The 2025 report interprets AI as an amplifier of existing organizational capabilities and weaknesses.",
+    "keyword": "engineering; business",
+    "note": "Method: survey. Status: organization-report. Verification: content-checked (research publication page and report synthesis). Limitations: Organizational associations do not imply that mature practices guarantee positive outcomes for every adoption.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "agenticsurvey2025",
+    "type": "manuscript",
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "URL": "https://arxiv.org/abs/2508.14111v2",
+    "author": [
+      {
+        "family": "Wei",
+        "given": "Jiaqi"
+      },
+      {
+        "family": "Yang",
+        "given": "Yuejin"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xiang"
+      },
+      {
+        "family": "Chen",
+        "given": "Yuhan"
+      },
+      {
+        "family": "Zhuang",
+        "given": "Xiang"
+      },
+      {
+        "family": "Gao",
+        "given": "Zhangyang"
+      },
+      {
+        "family": "Zhou",
+        "given": "Dongzhan"
+      },
+      {
+        "family": "Wang",
+        "given": "Guangshuai"
+      },
+      {
+        "family": "Gao",
+        "given": "Zhiqiang"
+      },
+      {
+        "family": "Cao",
+        "given": "Juntai"
+      },
+      {
+        "family": "Qiu",
+        "given": "Zijie"
+      },
+      {
+        "family": "Hu",
+        "given": "Ming"
+      },
+      {
+        "family": "Ma",
+        "given": "Chenglong"
+      },
+      {
+        "family": "Tang",
+        "given": "Shixiang"
+      },
+      {
+        "family": "He",
+        "given": "Junjun"
+      },
+      {
+        "family": "Song",
+        "given": "Chunfeng"
+      },
+      {
+        "family": "He",
+        "given": "Xuming"
+      },
+      {
+        "family": "Zhang",
+        "given": "Qiang"
+      },
+      {
+        "family": "You",
+        "given": "Chenyu"
+      },
+      {
+        "family": "Zheng",
+        "given": "Shuangjia"
+      },
+      {
+        "family": "Ding",
+        "given": "Ning"
+      },
+      {
+        "family": "Ouyang",
+        "given": "Wanli"
+      },
+      {
+        "family": "Dong",
+        "given": "Nanqing"
+      },
+      {
+        "family": "Cheng",
+        "given": "Yu"
+      },
+      {
+        "family": "Sun",
+        "given": "Siqi"
+      },
+      {
+        "family": "Bai",
+        "given": "Lei"
+      },
+      {
+        "family": "Zhou",
+        "given": "Bowen"
+      }
+    ],
+    "abstract": "A domain-oriented survey organizes scientific agents across life sciences, chemistry, materials and physics using capability, workflow and autonomy frameworks.",
+    "keyword": "science; agents; methods",
+    "note": "Method: technical-survey. Status: preprint. Verification: content-checked (version-specific arXiv abstract, framework description and authorship metadata). Limitations: A taxonomy and narrative synthesis, not a causal estimate of research productivity or evidence that agents achieve reliable general scientific autonomy. Version: Pinned to October 2025 v2; a taxonomy of scientific agency must not be confused with validation of every system it surveys. Persistent identifier: arXiv:2508.14111",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          18
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2508.14111"
+  },
+  {
+    "id": "retail2025",
+    "type": "manuscript",
+    "title": "Generative AI and Sales Productivity: Field Experiments in Online Retail",
+    "URL": "https://arxiv.org/abs/2510.12049",
+    "author": [
+      {
+        "family": "Fang",
+        "given": "Lu"
+      },
+      {
+        "family": "Yuan",
+        "given": "Zhe"
+      },
+      {
+        "family": "Zhang",
+        "given": "Kaifu"
+      },
+      {
+        "family": "Donati",
+        "given": "Dante"
+      },
+      {
+        "family": "Sarvary",
+        "given": "Miklos"
+      }
+    ],
+    "abstract": "Retail experiments across seven workflows report heterogeneous sales effects, primarily through conversion rather than basket value.",
+    "keyword": "business; productivity",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (current primary abstract). Limitations: One platform, 2023-2024 interventions and short-run sales measures; not aggregate total-factor productivity. Version: June 29, 2026 revision; earlier title referred to firm productivity. Persistent identifier: arXiv:2510.12049",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "brynjolfsson2025",
+    "type": "article-journal",
+    "title": "Generative AI at Work",
+    "URL": "https://academic.oup.com/qje/article/140/2/889/7990658",
+    "author": [
+      {
+        "family": "Brynjolfsson",
+        "given": "Erik"
+      },
+      {
+        "family": "Li",
+        "given": "Danielle"
+      },
+      {
+        "family": "Raymond",
+        "given": "Lindsey"
+      }
+    ],
+    "abstract": "A staggered workplace deployment increased customer issues resolved per hour by 15% on average, with greater benefits for less experienced workers.",
+    "keyword": "productivity; business; work",
+    "note": "Method: quasi-experiment. Status: peer-reviewed. Verification: content-checked (journal abstract and introduction). Limitations: One customer-support environment; assistance is embedded in a specific workflow. The published estimate differs from the earlier 14% working-paper figure.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1093/qje/qjae044",
+    "container-title": "The Quarterly Journal of Economics"
+  },
+  {
+    "id": "bastani2025",
+    "type": "article-journal",
+    "title": "Generative AI without guardrails can harm learning",
+    "URL": "https://doi.org/10.1073/pnas.2422633122",
+    "author": [
+      {
+        "family": "Bastani",
+        "given": "Hamsa"
+      },
+      {
+        "family": "Bastani",
+        "given": "Osbert"
+      },
+      {
+        "family": "Sungu",
+        "given": "Alp"
+      },
+      {
+        "family": "Ge",
+        "given": "Haosen"
+      },
+      {
+        "family": "Kabakcı",
+        "given": "Özge"
+      },
+      {
+        "family": "Mariman",
+        "given": "Rei"
+      }
+    ],
+    "abstract": "A school mathematics trial distinguishes AI-assisted practice from unaided assessment and shows the importance of tutor guardrails for preserving learning.",
+    "keyword": "learning",
+    "note": "Method: experiment. Status: peer-reviewed. Verification: content-checked (publisher abstract and experiment description). Limitations: Mathematics education and a specific instructional implementation; not a result for every tutor or subject.",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1073/pnas.2422633122",
+    "container-title": "Proceedings of the National Academy of Sciences"
+  },
+  {
+    "id": "cotroneo2025",
+    "type": "manuscript",
+    "title": "Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity",
+    "URL": "https://arxiv.org/abs/2508.21634",
+    "author": [
+      {
+        "family": "Cotroneo",
+        "given": "Domenico"
+      },
+      {
+        "family": "Improta",
+        "given": "Cristina"
+      },
+      {
+        "family": "Liguori",
+        "given": "Pietro"
+      }
+    ],
+    "abstract": "Compares more than 500,000 Python and Java samples and identifies different defect, vulnerability and structural-complexity profiles in human and model code.",
+    "keyword": "engineering; quality; security",
+    "note": "Method: benchmark-analysis. Status: preprint. Verification: content-checked (primary abstract). Limitations: Sample construction and static classification affect comparison; simpler code is not necessarily safer or more maintainable. Date basis: primary metadata Persistent identifier: arXiv:2508.21634",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "metr2025",
+    "type": "manuscript",
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "URL": "https://arxiv.org/abs/2507.09089",
+    "author": [
+      {
+        "family": "Becker",
+        "given": "Joel"
+      },
+      {
+        "family": "Rush",
+        "given": "Nate"
+      },
+      {
+        "family": "Barnes",
+        "given": "Elizabeth"
+      },
+      {
+        "family": "Rein",
+        "given": "David"
+      }
+    ],
+    "abstract": "Experienced maintainers took 19% longer on tasks in familiar repositories when allowed early-2025 AI tools, despite expecting and perceiving speedups.",
+    "keyword": "productivity; engineering",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary paper abstract and linked experiment report). Limitations: A small, expert population and a specific model/tool vintage; not an estimate for 2026 agents. Date basis: primary metadata Persistent identifier: arXiv:2507.09089",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          12
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-283d4e8368",
+    "type": "report",
+    "title": "Self-Regulated AI Use Hinders Long-Term Learning",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+    "author": [
+      {
+        "family": "Poulidis",
+        "given": "Stefanos"
+      },
+      {
+        "family": "Bastani",
+        "given": "Hamsa"
+      },
+      {
+        "family": "Bastani",
+        "given": "Osbert"
+      }
+    ],
+    "abstract": "A preregistered chess-training experiment compares automatic AI tips with the same tips plus optional answer-revealing help. Among 216 completers from 306 recruits, the optional-help group had smaller unaided test-score gains after 12 weeks of training. Both randomized groups received AI; the comparison isolates assistance design, not AI versus no AI.",
+    "keyword": "learning; methods",
+    "note": "Method: randomized-field-experiment. Status: working-paper. Verification: content-checked (User-supplied 63-page PDF: title, abstract, experimental design, main results and Table 1, mediation assumptions, boundary conditions and selected appendix details on Stockfish and attrition; SSRN dates, bylines and identifier matched in local Chrome. No data reanalysis.). Limitations: Stockfish-based chess assistance, not a general-purpose LLM or programming intervention. Main analysis is of completers, with approximately 29% attrition; reported absence of differential attrition does not remove every selection concern. The 30% versus 64% figures are relative changes in bounded test-game scores, not percentages of underlying skill. Causal mediation needs additional assumptions; the nonparticipant comparison is observational. Date basis: Local Chrome SSRN page: posted 16 October 2025, written 1 October 2025, revised 1 August 2026. Citation year describes first posting; results describe the supplied 2026 revision. Version: Supplied PDF matches the 63-page SSRN revision dated 1 August 2026. The 2026 Academy of Management proceedings abstract is related coverage, not independent evidence or proof that this full manuscript is a peer-reviewed journal article. Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: SSRN heading, three bylines, 63-page count, posting date, written date, 1 August 2026 revision and DOI in suggested citation. Document inspection: user-supplied-pdf-plus-local-chrome, 2026-10-13; 63 pages; SHA-256 42b052fff67d466c52463948560f33507dd1a1a53c133881a99b416cdbfae7ec. Scope: Methods, principal results, limitations and selected appendices; no independent replication. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.2139/ssrn.5604932"
+  },
+  {
+    "id": "humlum2026",
+    "type": "report",
+    "title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
+    "URL": "https://www.nber.org/papers/w33777",
+    "author": [
+      {
+        "family": "Humlum",
+        "given": "Anders"
+      },
+      {
+        "family": "Vestergaard",
+        "given": "Emilie"
+      }
+    ],
+    "abstract": "Danish adoption surveys linked to administrative records reveal task reorganization but limited early average effects on earnings or recorded hours.",
+    "keyword": "work; business; productivity",
+    "note": "Method: quasi-experiment. Status: working-paper. Verification: content-checked (current publisher abstract and revision metadata). Limitations: Denmark's institutions, short horizon and averages; null aggregate effects can coexist with occupational transitions. Version: March 2026 revision of May 2025 working paper.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          12
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.3386/w33777"
+  },
+  {
+    "id": "ref-e71e370e4c",
+    "type": "manuscript",
+    "title": "Teaching with AI: A Systematic Review of Chatbots, Generative Tools, and Tutoring Systems in Programming Education",
+    "URL": "https://arxiv.org/abs/2510.03884",
+    "author": [
+      {
+        "family": "Elnaffar",
+        "given": "Said"
+      },
+      {
+        "family": "Rashidi",
+        "given": "Farzad"
+      },
+      {
+        "family": "Abualkishik",
+        "given": "Abedallah Zaid"
+      }
+    ],
+    "abstract": "A review of 58 programming-education studies groups chatbots, generative tools and intelligent tutors, describing benefits alongside overreliance and implementation barriers.",
+    "keyword": "engineering; learning; methods",
+    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v2 abstract and related-publication metadata). Limitations: The categories include non-generative tutoring systems. Percentages describe included studies, not prevalence among learners or developers; no common pooled effect is established. Date basis: primary metadata Version: December 2025 arXiv v2; associated 2026 journal DOI 10.26803/ijlter.25.1.1 is not independent evidence. Persistent identifier: arXiv:2510.03884",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.26803/ijlter.25.1.1"
+  },
+  {
+    "id": "cui2025",
+    "type": "webpage",
+    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+    "URL": "https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers",
+    "author": [
+      {
+        "family": "Cui",
+        "given": "Zheyuan (Kevin)"
+      },
+      {
+        "family": "Demirer",
+        "given": "Mert"
+      },
+      {
+        "family": "Jaffe",
+        "given": "Sonia"
+      },
+      {
+        "family": "Musolff",
+        "given": "Leon"
+      },
+      {
+        "family": "Peng",
+        "given": "Sida"
+      },
+      {
+        "family": "Salz",
+        "given": "Tobias"
+      }
+    ],
+    "abstract": "Three workplace experiments covering 4,867 developers report a pooled increase of about 26% in completed tasks following access to coding assistance.",
+    "keyword": "productivity; engineering",
+    "note": "Method: experiment. Status: research-publication. Verification: content-checked (research publication page and reported pooled result). Limitations: Completed-task measures vary across firms; access, actual use, quality, and commercial value are distinct.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "oecdproductivity2025",
+    "type": "report",
+    "title": "The effects of generative AI on productivity, innovation and entrepreneurship",
+    "URL": "https://www.oecd.org/en/publications/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_b21df222-en.html",
+    "author": [
+      {
+        "family": "Calvino",
+        "given": "Flavio"
+      },
+      {
+        "family": "Reijerink",
+        "given": "Jelmer"
+      },
+      {
+        "family": "Samek",
+        "given": "Lea"
+      }
+    ],
+    "abstract": "OECD synthesis connects experimental productivity evidence with innovation, entrepreneurship, user expertise and task fit.",
+    "keyword": "productivity; business; science; methods",
+    "note": "Method: narrative-review. Status: organization-working-paper. Verification: content-checked (official abstract, bibliographic details and stated review scope; not all 59 pages). Limitations: A selective review, not a pooled causal effect; longer-run organizational outcomes remain weakly established. Primary trials overlap with this review's evidence.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          20
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1787/b21df222-en"
+  },
+  {
+    "id": "afroz2025",
+    "type": "manuscript",
+    "title": "The Fast and Spurious: Developer Productivity with GenAI",
+    "URL": "https://arxiv.org/abs/2510.24265",
+    "author": [
+      {
+        "family": "Afroz",
+        "given": "Sadia"
+      },
+      {
+        "family": "Feng",
+        "given": "Zixuan"
+      },
+      {
+        "family": "Menezes",
+        "given": "Tyler"
+      },
+      {
+        "family": "Kimura",
+        "given": "Katie"
+      },
+      {
+        "family": "Trinkenreich",
+        "given": "Bianca"
+      },
+      {
+        "family": "Steinmacher",
+        "given": "Igor"
+      },
+      {
+        "family": "Sarma",
+        "given": "Anita"
+      }
+    ],
+    "abstract": "A survey of 415 practitioners maps perceived gains and shifted effort across SPACE dimensions, including review and verification costs.",
+    "keyword": "productivity; engineering; methods",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (current primary abstract). Limitations: Self-report and adoption differences; neither proves net losses nor measures firm-level product value. Date basis: primary metadata Persistent identifier: arXiv:2510.24265",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          28
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-59e035c44a",
+    "type": "manuscript",
+    "title": "The Impact of LLM-Assistants on Software Developer Productivity: A Systematic Review and Mapping Study",
+    "URL": "https://arxiv.org/abs/2507.03156",
+    "author": [
+      {
+        "family": "Mohamed",
+        "given": "Amr"
+      },
+      {
+        "family": "Assi",
+        "given": "Maram"
+      },
+      {
+        "family": "Guizani",
+        "given": "Mariam"
+      }
+    ],
+    "abstract": "A mapping of 39 peer-reviewed studies highlights multidimensional productivity assessment but scarce longitudinal and team-level evidence, with unresolved quality effects.",
+    "keyword": "engineering; productivity; methods",
+    "note": "Method: systematic-review. Status: preprint. Verification: content-checked (arXiv v3 abstract and journal/version metadata). Limitations: Most included research is exploratory; positive study counts are not pooled causal effects. The July 2026 revision still synthesizes studies through December 2024. Date basis: primary metadata Version: Abstract appraised in arXiv v3, revised 31 July 2026. Related ACM publication DOI 10.1145/3809494 is the same work, not a replication. Persistent identifier: arXiv:2507.03156",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1145/3809494"
+  },
+  {
+    "id": "herrengtvibe",
+    "type": "webpage",
+    "title": "The vibe coder's career path is doomed",
+    "URL": "https://blog.florianherrengt.com/vibe-coder-career-path.html",
+    "author": [
+      {
+        "family": "Herrengt",
+        "given": "Florian"
+      }
+    ],
+    "abstract": "Personal experience with agent-generated applications raises questions about retaining a mental model and building a sustainable development career.",
+    "keyword": "engineering; learning; judgment",
+    "note": "Method: case-study. Status: expert-blog. Verification: content-checked (primary essay). Limitations: A selected experience and polemical argument; cannot establish prevalence or causation.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          17
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "messeri2024",
+    "type": "article-journal",
+    "title": "Artificial intelligence and illusions of understanding in scientific research",
+    "URL": "https://www.nature.com/articles/s41586-024-07146-0",
+    "author": [
+      {
+        "family": "Messeri",
+        "given": "Lisa"
+      },
+      {
+        "family": "Crockett",
+        "given": "M. J."
+      }
+    ],
+    "abstract": "A conceptual taxonomy examines how AI's promises of productivity and objectivity can produce illusions of understanding and scientific monocultures.",
+    "keyword": "science; cognition; diversity",
+    "note": "Method: perspective. Status: peer-reviewed-perspective. Verification: content-checked (journal perspective abstract and metadata). Limitations: A theoretical perspective rather than an estimate of the incidence or size of effects.",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-024-07146-0",
+    "container-title": "Nature"
+  },
+  {
+    "id": "dora2024",
+    "type": "report",
+    "title": "DORA | Accelerate State of DevOps Report 2024",
+    "URL": "https://dora.dev/research/2024/dora-report",
+    "author": [
+      {
+        "literal": "DORA"
+      }
+    ],
+    "abstract": "Organization-level research links AI use to individual benefits while reporting adverse associations with delivery stability and throughput in the 2024 sample.",
+    "keyword": "engineering; business; productivity",
+    "note": "Method: survey. Status: organization-report. Verification: content-checked (report landing page and primary organizational interpretation). Limitations: Survey-based relationships, self-selection and organizational context; not randomized deployment effects.",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "paradis2024",
+    "type": "manuscript",
+    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial",
+    "URL": "https://arxiv.org/abs/2410.12944",
+    "author": [
+      {
+        "family": "Paradis",
+        "given": "Elise"
+      },
+      {
+        "family": "Grey",
+        "given": "Kate"
+      },
+      {
+        "family": "Madison",
+        "given": "Quinn"
+      },
+      {
+        "family": "Nam",
+        "given": "Daye"
+      },
+      {
+        "family": "Macvean",
+        "given": "Andrew"
+      },
+      {
+        "family": "Meimand",
+        "given": "Vahid"
+      },
+      {
+        "family": "Zhang",
+        "given": "Nan"
+      },
+      {
+        "family": "Ferrari-Church",
+        "given": "Ben"
+      },
+      {
+        "family": "Chandra",
+        "given": "Satish"
+      }
+    ],
+    "abstract": "A trial with 96 Google engineers estimated approximately 21% shorter task time with internal AI features.",
+    "keyword": "productivity; engineering",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and methods summary). Limitations: Wide uncertainty, one complex task, internal tooling; not an estimate for all engineering work. Version: 2024 preprint; associated ICSE 2025 Software Engineering in Practice presentation is catalogued separately. Persistent identifier: arXiv:2410.12944",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "noy2023",
+    "type": "article-journal",
+    "title": "Experimental evidence on the productivity effects of generative artificial intelligence",
+    "URL": "https://doi.org/10.1126/science.adh2586",
+    "author": [
+      {
+        "family": "Noy",
+        "given": "Shakked"
+      },
+      {
+        "family": "Zhang",
+        "given": "Whitney"
+      }
+    ],
+    "abstract": "A preregistered experiment with 453 professionals found shorter completion times and higher assessed quality on occupational writing tasks with ChatGPT.",
+    "keyword": "productivity; business",
+    "note": "Method: experiment. Status: peer-reviewed. Verification: content-checked (publisher abstract and study description). Limitations: Short writing assignments and assessed artifacts; not long-run firm productivity.",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          14
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.adh2586",
+    "container-title": "Science"
+  },
+  {
+    "id": "funsearch2023",
+    "type": "article-journal",
+    "title": "Mathematical discoveries from program search with large language models",
+    "URL": "https://www.nature.com/articles/s41586-023-06924-6",
+    "author": [
+      {
+        "family": "Romera-Paredes",
+        "given": "Bernardino"
+      },
+      {
+        "family": "Barekatain",
+        "given": "Mohammadamin"
+      },
+      {
+        "family": "Novikov",
+        "given": "Alexander"
+      },
+      {
+        "family": "Balog",
+        "given": "Matej"
+      },
+      {
+        "family": "Kumar",
+        "given": "M. Pawan"
+      },
+      {
+        "family": "Dupont",
+        "given": "Emilien"
+      },
+      {
+        "family": "Ruiz",
+        "given": "Francisco J. R."
+      },
+      {
+        "family": "Ellenberg",
+        "given": "Jordan S."
+      },
+      {
+        "family": "Wang",
+        "given": "Pengming"
+      },
+      {
+        "family": "Fawzi",
+        "given": "Omar"
+      },
+      {
+        "family": "Kohli",
+        "given": "Pushmeet"
+      },
+      {
+        "family": "Fawzi",
+        "given": "Alhussein"
+      }
+    ],
+    "abstract": "FunSearch pairs language-model proposals with systematic evaluation to find new cap-set constructions and improved bin-packing heuristics.",
+    "keyword": "science; mathematics; verification",
+    "note": "Method: experimental-demonstration. Status: peer-reviewed. Verification: content-checked (journal abstract and approach description). Limitations: A human-specified program representation and evaluator constrain the search; a domain result is not general research autonomy. Version: Published online December 2023; Nature volume 625 is dated 2024.",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          14
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-023-06924-6",
+    "container-title": "Nature"
+  },
+  {
+    "id": "dellacqua2023",
+    "type": "webpage",
+    "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+    "URL": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+    "author": [
+      {
+        "family": "Dell'Acqua",
+        "given": "Fabrizio"
+      },
+      {
+        "family": "McFowland III",
+        "given": "Edward"
+      },
+      {
+        "family": "Mollick",
+        "given": "Ethan"
+      },
+      {
+        "family": "Lifshitz-Assaf",
+        "given": "Hila"
+      },
+      {
+        "family": "Kellogg",
+        "given": "Katherine"
+      },
+      {
+        "family": "Rajendran",
+        "given": "Saran"
+      },
+      {
+        "family": "Krayer",
+        "given": "Lisa"
+      },
+      {
+        "family": "Candelon",
+        "given": "François"
+      },
+      {
+        "family": "Lakhani",
+        "given": "Karim"
+      }
+    ],
+    "abstract": "An experiment with 758 consultants distinguishes tasks within the model's effective capability frontier from tasks on which AI assistance can worsen correctness.",
+    "keyword": "productivity; business; reasoning",
+    "note": "Method: experiment. Status: author-manuscript. Verification: content-checked (author manuscript, methods and reported task contrast). Limitations: Task-specific frontier and 2023 GPT-4; do not infer present model limitations directly. Version: Study first circulated in 2023; linked author manuscript is a 2026 revision.",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "peng2023",
+    "type": "manuscript",
+    "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+    "URL": "https://arxiv.org/abs/2302.06590",
+    "author": [
+      {
+        "family": "Peng",
+        "given": "Sida"
+      },
+      {
+        "family": "Kalliamvakou",
+        "given": "Eirini"
+      },
+      {
+        "family": "Cihon",
+        "given": "Peter"
+      },
+      {
+        "family": "Demirer",
+        "given": "Mert"
+      }
+    ],
+    "abstract": "Developers given Copilot completed a JavaScript HTTP-server task in substantially less time; the reported reduction was 55.8%.",
+    "keyword": "productivity; engineering",
+    "note": "Method: experiment. Status: preprint. Verification: content-checked (primary abstract and experimental description). Limitations: An isolated task and early tool; completion-conditioned estimates and uncertainty matter. Date basis: primary metadata Persistent identifier: arXiv:2302.06590",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          13
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "alphafold2021",
+    "type": "article-journal",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "URL": "https://www.nature.com/articles/s41586-021-03819-2",
+    "author": [
+      {
+        "family": "Jumper",
+        "given": "John"
+      },
+      {
+        "family": "Evans",
+        "given": "Richard"
+      },
+      {
+        "family": "Pritzel",
+        "given": "Alexander"
+      },
+      {
+        "family": "Green",
+        "given": "Tim"
+      },
+      {
+        "family": "Figurnov",
+        "given": "Michael"
+      },
+      {
+        "family": "Ronneberger",
+        "given": "Olaf"
+      },
+      {
+        "family": "Tunyasuvunakool",
+        "given": "Kathryn"
+      },
+      {
+        "family": "Bates",
+        "given": "Russ"
+      },
+      {
+        "family": "Žídek",
+        "given": "Augustin"
+      },
+      {
+        "family": "Potapenko",
+        "given": "Anna"
+      },
+      {
+        "family": "Bridgland",
+        "given": "Alex"
+      },
+      {
+        "family": "Meyer",
+        "given": "Clemens"
+      },
+      {
+        "family": "Kohl",
+        "given": "Simon A. A."
+      },
+      {
+        "family": "Ballard",
+        "given": "Andrew J."
+      },
+      {
+        "family": "Cowie",
+        "given": "Andrew"
+      },
+      {
+        "family": "Romera-Paredes",
+        "given": "Bernardino"
+      },
+      {
+        "family": "Nikolov",
+        "given": "Stanislav"
+      },
+      {
+        "family": "Jain",
+        "given": "Rishub"
+      },
+      {
+        "family": "Adler",
+        "given": "Jonas"
+      },
+      {
+        "family": "Back",
+        "given": "Trevor"
+      },
+      {
+        "family": "Petersen",
+        "given": "Stig"
+      },
+      {
+        "family": "Reiman",
+        "given": "David"
+      },
+      {
+        "family": "Clancy",
+        "given": "Ellen"
+      },
+      {
+        "family": "Zielinski",
+        "given": "Michal"
+      },
+      {
+        "family": "Steinegger",
+        "given": "Martin"
+      },
+      {
+        "family": "Pacholska",
+        "given": "Michalina"
+      },
+      {
+        "family": "Berghammer",
+        "given": "Tamas"
+      },
+      {
+        "family": "Bodenstein",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Silver",
+        "given": "David"
+      },
+      {
+        "family": "Vinyals",
+        "given": "Oriol"
+      },
+      {
+        "family": "Senior",
+        "given": "Andrew W."
+      },
+      {
+        "family": "Kavukcuoglu",
+        "given": "Koray"
+      },
+      {
+        "family": "Kohli",
+        "given": "Pushmeet"
+      },
+      {
+        "family": "Hassabis",
+        "given": "Demis"
+      }
+    ],
+    "abstract": "Demonstrates highly accurate protein-structure prediction and establishes a foundational example of specialized AI supporting science.",
+    "keyword": "science",
+    "note": "Method: benchmark-and-experimental-validation. Status: peer-reviewed. Verification: content-checked (publisher abstract and bibliographic identity). Limitations: Predicted structure is not equivalent to experimentally established function, dynamics or drug efficacy.",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-021-03819-2",
+    "container-title": "Nature"
+  },
+  {
+    "id": "space2021",
+    "type": "webpage",
+    "title": "The SPACE of Developer Productivity: There's More to It than You Think",
+    "URL": "https://queue.acm.org/detail.cfm?id=3454124",
+    "author": [
+      {
+        "family": "Forsgren",
+        "given": "Nicole"
+      },
+      {
+        "family": "Storey",
+        "given": "Margaret-Anne"
+      },
+      {
+        "family": "Maddila",
+        "given": "Chandra"
+      },
+      {
+        "family": "Zimmermann",
+        "given": "Thomas"
+      },
+      {
+        "family": "Houck",
+        "given": "Brian"
+      },
+      {
+        "family": "Butler",
+        "given": "Jenna"
+      }
+    ],
+    "abstract": "Defines productivity through satisfaction, performance, activity, communication and collaboration, and efficiency and flow.",
+    "keyword": "methods; engineering; productivity",
+    "note": "Method: framework. Status: research-framework. Verification: content-checked (primary framework description). Limitations: A measurement framework, not an AI-effect estimate; activity is one dimension rather than a complete measure. Version: ACM Queue uses the full subtitle; the same DOI's Crossref record uses The SPACE of Developer Productivity. Title, authors and 2021 publication year compared on 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1145/3454122.3454124",
+    "container-title": "ACM Queue"
+  },
+  {
+    "id": "qemupolicy2026",
+    "type": "webpage",
+    "title": "Code provenance",
+    "URL": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+    "author": [
+      {
+        "literal": "QEMU project"
+      }
+    ],
+    "abstract": "QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.",
+    "keyword": "engineering; governance; work",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Date basis: not established Version: Policy observed on 13 October 2026; original adoption date not established.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  }
+]

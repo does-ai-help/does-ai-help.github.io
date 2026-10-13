@@ -1,5 +1,9 @@
 # October 2026 metadata review
 
+## Registry clarification
+
+Version 2026.10.5 clarifies that Crossref successfully returns the Hicks version DOI, its older registered title and 2025 year. The earlier DataCite 404 was a query to a different registry. It must not be interpreted as an absent DOI. Chrome separately resolves the OSF page/PDF title difference and dynamic rendering. The initial 2026.10.4 snapshot remains preserved; findings and source counts are unchanged.
+
 ## Supplied documents and matched online versions
 
 Version 2026.10.4 records three PDFs supplied by the human coauthor, matched to their online versions in local Chrome. Three inherited candidates now have established identities. The Hamza study's original SSRN 6996078 record is not the supplied 7070979 PDF; the actual SSRN version menu links them, and the published ESEM version has a completed DOI and 5 October 2026 publication date. The Hicks OSF page retains an older title but embeds the supplied revised-title PDF; both are recorded. Chess-paper first posting and its 2026 revision are kept separate. The [document follow-up](document-followup.md) records reading scopes, hashes, reporting questions and limitations. Financial Times remains inaccessible to the coauthor and unappraised here.

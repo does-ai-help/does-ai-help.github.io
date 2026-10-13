@@ -1,10 +1,10 @@
 # Reference identity audit
 
-Checked: 2026-10-13T08:21:16.309577+00:00
+Checked: 2026-10-13T08:33:30.748565+00:00
 
 Live access and bibliographic identity, not scientific validity or claim support. Similarity checks can miss errors; substantive and version warnings require editorial review.
 
-Counts: {'confirmed': 193, 'browser-confirmation': 6, 'unresolved': 15}
+Counts: {'confirmed': 192, 'browser-confirmation': 7, 'unresolved': 15}
 
 Blocking IDs: none
 

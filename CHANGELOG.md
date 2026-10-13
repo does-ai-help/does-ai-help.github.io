@@ -1,5 +1,10 @@
 # Release history
 
+## 2026.10.5 - DOI registry clarification
+
+- Corrected the Hicks/OSF provenance note after the automated audit successfully retrieved the DOI's Crossref record. The initial DataCite 404 was a lookup in a different registry, not evidence that the DOI was unregistered.
+- Preserved the already published 2026.10.4 snapshot and release rather than rewriting its provenance narrative. Findings, source counts, version relationships and 13 October cutoff are unchanged.
+
 ## 2026.10.4 - Supplied documents and Chrome version checks
 
 - Resolved three previously unverified study records using PDFs supplied by the human coauthor and actual local Chrome source-page inspections.
