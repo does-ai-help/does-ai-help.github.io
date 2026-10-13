@@ -1,5 +1,13 @@
 # October 2026 metadata review
 
+## Open-source and benchmark follow-up
+
+Version 2026.10.6 dates QEMU's repository introduction of the AI rule to its 24 June 2025 commit, distinguishing the proposal's authored date and the current file's 22 May 2026 formatting revision. GIMP, Redox and Linux entries explicitly date document revisions, not original AI adoption. Undated live policies remain undated; the inspection date is not a publication date.
+
+The SWE-bench repository README recommends the [ICLR 2024 paper for SWE-bench and Verified](https://openreview.net/forum?id=VTF8yNQM66), the [ICLR 2025 Multimodal paper](https://openreview.net/forum?id=riTiq3i21b), and [SWE-smith for Multilingual](https://arxiv.org/abs/2504.21798). The [authors' pinned README](https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md) supplies the exact entries in the separate `swebench-recommended.bib` download. These recommendations are not three additional appraised experiments; OpenReview was access-blocked. The original preprint remains dated 2023, and the cited README revision is dated 2026.
+
+The automated checker may use GitHub's official raw-file route, preserving repository, ref and path, only when a blob page returns a temporary 502/503/504 service error. It records the original failure and alternate URL/hash, and still requires a matching document heading. Local Chrome also displayed a GitHub service-error page during this update; that observation is not recorded as identity confirmation. This fallback neither overrides conflicting identities nor treats a missing page as available.
+
 ## Registry clarification
 
 Version 2026.10.5 clarifies that Crossref successfully returns the Hicks version DOI, its older registered title and 2025 year. The earlier DataCite 404 was a query to a different registry. It must not be interpreted as an absent DOI. Chrome separately resolves the OSF page/PDF title difference and dynamic rendering. The initial 2026.10.4 snapshot remains preserved; findings and source counts are unchanged.

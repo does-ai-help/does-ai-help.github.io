@@ -56,6 +56,8 @@ try {
   assert.match(await swe.innerText(),/Neil Chowdhury/);
   await swe.locator('details').evaluate(el=>el.open=false);
   assert.equal(await page.locator('#ref-3d0ab8c8d6 .source-meta span').first().innerText(),'2025');
+  assert.equal(await page.locator('#ref-8ecd8d70a1 a[href="downloads/swebench-recommended.bib"]').count(),1);
+  assert.equal(await page.locator('#ref-3e4a5dea3a a[href="downloads/swebench-recommended.bib"]').count(),1);
   assert.match(await page.locator('#ref-a97b44c4bb .source-author').innerText(),/editors/);
   const supplied=page.locator('#ref-47ac0a3015');
   await supplied.locator('details').evaluate(el=>el.open=true);
@@ -82,7 +84,8 @@ try {
     await page.goto(url+'/index.html');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.screenshot({path:path.join(output,`article-${width}.png`)});
     await page.goto(url+'/bibliography.html');await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
-    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(el=>{const r=el.getBoundingClientRect();return r.width && r.right>innerWidth+1;}).slice(0,8).map(el=>({tag:el.tagName,class:el.className,text:el.textContent.slice(0,100),right:el.getBoundingClientRect().right})));
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,JSON.stringify({width,overflow}));
     await page.screenshot({path:path.join(output,`bibliography-${width}.png`)});
     await page.locator('#search').fill('ref-47ac0a3015');
     await page.locator('#ref-47ac0a3015 details').evaluate(el=>el.open=true);

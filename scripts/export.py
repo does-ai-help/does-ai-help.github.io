@@ -102,7 +102,7 @@ def main():
         if r.get("doi"):
             values["doi"] = r["doi"]
         if r.get("container_title"):
-            values["journal"] = bib_escape(r["container_title"])
+            values["booktitle" if r["publication_status"] == "peer-reviewed-conference" else "journal"] = bib_escape(r["container_title"])
         if r.get("arxiv_id"):
             values["eprint"] = r["arxiv_id"]
             values["archivePrefix"] = "arXiv"
@@ -126,7 +126,7 @@ def main():
         if r.get("doi"):
             rows.append("DO  - " + r["doi"])
         if r.get("container_title"):
-            rows.append("JO  - " + r["container_title"])
+            rows.append(("T2  - " if kind == "inproceedings" else "JO  - ") + r["container_title"])
         if r.get("arxiv_id"):
             rows.append("AN  - arXiv:" + r["arxiv_id"])
         if r.get("version_note"):

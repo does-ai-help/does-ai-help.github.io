@@ -1,4 +1,23 @@
 TY  - ELEC
+ID  - horapolicies2026
+TI  - "We Permit the Use of AI, but [...]": The Landscape of AI Policies in Popular Open Source Projects
+AU  - Hora, Andre
+AU  - Robbes, Romain
+AU  - Zacchiroli, Stefano
+DA  - 2026-09-07
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.07542
+AB  - Among 281 identified policies, 83.3% permit or encourage AI code contributions and 14.9% forbid them; 67.3% require substantial human involvement and 48.8% disclosure.
+N1  - Popular active GitHub repositories plus purposively selected prominent projects, restricted to detected policies: not a representative poll of all OSS or a test of policy effectiveness. Detection and manual classification may miss or misclassify rules. Differing samples and detection prevent reading the percentages as a clean trend.
+KW  - engineering
+KW  - governance
+KW  - methods
+DO  - 10.48550/arXiv.2609.07542
+AN  - arXiv:2609.07542
+N1  - Version: Extends the earlier 118-policy study; not an independent replication. Under review at TOSEM according to arXiv, not treated as an accepted journal paper.
+ER  - 
+
+TY  - ELEC
 ID  - maier2026
 TI  - A meta-analysis of the effect of generative AI on productivity and learning in programming
 AU  - Maier, Sebastian
@@ -255,6 +274,22 @@ KW  - business
 ER  - 
 
 TY  - ELEC
+ID  - linuxassistants2026
+TI  - AI Coding Assistants
+AU  - Linux kernel development community
+DA  - 2026-08-20
+N1  - Date basis: Cited repository snapshot 72fdff1416e280e2baaa3cca69574defb998437e, merged 20 August 2026; this is a snapshot date, not policy-adoption date or necessarily the last direct file edit.
+PY  - 2026
+UR  - https://docs.kernel.org/process/coding-assistants.html
+AB  - Kernel guidance makes humans responsible for reviewing and certifying AI-assisted submissions, describes Assisted-by attribution, and asks for reproduction, build/test checks and disclosure of verification limits.
+N1  - Guidance documents expected practice, not compliance rates or demonstrated effectiveness. It complements, rather than removes, maintainer discretion to reject generated content.
+KW  - engineering
+KW  - governance
+KW  - quality
+N1  - Version: Snapshot: https://github.com/torvalds/linux/blob/72fdff1416e280e2baaa3cca69574defb998437e/Documentation/process/coding-assistants.rst.
+ER  - 
+
+TY  - ELEC
 ID  - ref-c5caafbad6
 TI  - AI Economic Indicators: June 2026 Update
 N1  - Date basis: identifier or URL year; exact date not established
@@ -355,6 +390,24 @@ N1  - An argued hypothesis, not a measured labor-market result or established fo
 KW  - engineering
 KW  - work
 KW  - judgment
+ER  - 
+
+TY  - ELEC
+ID  - horapoliciesearly2026
+TI  - AI Policy, Disclosure, and Human in the Loop: How Are Contribution Guidelines Adapting to GenAI?
+AU  - Hora, Andre
+AU  - Robbes, Romain
+DA  - 2026-05-15
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.16706
+AB  - Supporting reference on engineering, governance, methods. Scope indicated by the primary-source title: AI Policy, Disclosure, and Human in the Loop: How Are Contribution Guidelines Adapting to GenAI?. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - governance
+KW  - methods
+DO  - 10.48550/arXiv.2605.16706
+AN  - arXiv:2605.16706
+N1  - Version: First submitted 15 May, revised 13 July 2026; arXiv says accepted to ICSME 2026. Earlier 118-policy study subsequently expanded to 281 policies. Do not count these as independent evidence.
 ER  - 
 
 TY  - ELEC
@@ -748,6 +801,21 @@ N1  - Version: Pinned to revision 22f9233a0f7b85747483ce713411c67be4643d8f, 19 A
 ER  - 
 
 TY  - ELEC
+ID  - redoxpolicy2026
+TI  - Contributing to Redox
+AU  - Redox OS contributors
+DA  - 2026-09-03
+N1  - Date basis: GitHub file history: cited revision 03d6b8bc05bab7cf03490671cd3d23571214a720 committed 3 September 2026. This is a later document revision, not policy adoption.
+PY  - 2026
+UR  - https://github.com/redox-os/redox/blob/master/CONTRIBUTING.md
+AB  - Redox rejects LLM-generated contributions, including issues, merge requests and descriptions. Clearly labeled generated submissions are closed; attempts to circumvent the policy can result in a ban.
+N1  - Project governance evidence, not a causal study. Does not show that every AI-assisted activity is detectable or measure the rule's effects.
+KW  - engineering
+KW  - governance
+N1  - Version: Immutable inspected revision: https://github.com/redox-os/redox/blob/03d6b8bc05bab7cf03490671cd3d23571214a720/CONTRIBUTING.md.
+ER  - 
+
+TY  - ELEC
 ID  - darwinx2026
 TI  - DarwinX: Evolving Agent Harnesses Through Natural Selection
 AU  - Zhang, Yifan
@@ -907,7 +975,7 @@ KW  - quality
 KW  - methods
 KW  - agents
 DO  - 10.4230/LIPIcs.ESEM.2026.67
-JO  - 20th International Symposium on Empirical Software Engineering and Measurement (ESEM 2026)
+T2  - 20th International Symposium on Empirical Software Engineering and Measurement (ESEM 2026)
 N1  - Version: Published in the Emerging Results, Vision & Reflection Track on 5 October 2026. SSRN 6996078 and 7070979 are earlier versions of this study, not additional evidence. Shares the AIDev dataset family with other repository studies, but its analytic samples and outcomes differ.
 ER  - 
 
@@ -1037,6 +1105,20 @@ KW  - learning
 ER  - 
 
 TY  - ELEC
+ID  - ref-8ecd8d70a1
+TI  - GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?
+AU  - SWE-bench contributors
+DA  - 2026-09-01
+N1  - Date basis: README revision e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a committed 1 September 2026; document-revision date, not benchmark publication year.
+PY  - 2026
+UR  - https://github.com/SWE-bench/SWE-bench
+AB  - Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - context
+N1  - Version: Authors' README recommends Jimenez et al., ICLR 2024 for SWE-bench (Verified), Yang et al., ICLR 2025 for Multimodal, and Yang et al., SWE-smith (arXiv:2504.21798, 2025) for Multilingual. Exact BibTeX: https://does-ai-help.github.io/downloads/swebench-recommended.bib. Pinned README: https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md. Repository and paper citations are distinct.
+ER  - 
+
+TY  - ELEC
 ID  - ref-34e37fa225
 TI  - GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?
 AU  - Amena Amro
@@ -1050,6 +1132,20 @@ N1  - Bibliographic identity checked; substantive findings have not been indepen
 KW  - engineering
 KW  - security
 KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - gimppolicy2026
+TI  - Giving or obtaining developer access in Gitlab
+AU  - GIMP team
+DA  - 2026-05-28
+N1  - Date basis: Page explicitly says last updated 28 May 2026; date describes the inspected document revision, not the original adoption of the AI rule.
+PY  - 2026
+UR  - https://developer.gimp.org/core/maintainer/giving-developer-right/
+AB  - GIMP rejects generative-AI contributions including code, images and text. Its developer-access rules expressly prohibit quietly adding generated material after obtaining push rights.
+N1  - Contribution policy, not a productivity or quality experiment. It expressly does not regulate contributors' activities elsewhere. The revision date does not establish when the prohibition began.
+KW  - engineering
+KW  - governance
 ER  - 
 
 TY  - ELEC
@@ -1163,6 +1259,37 @@ N1  - Bibliographic identity checked; substantive findings have not been indepen
 KW  - learning
 KW  - science
 DO  - 10.1186/s41239-026-00614-9
+ER  - 
+
+TY  - ELEC
+ID  - linuxgenerated2026
+TI  - Kernel Guidelines for Tool-Generated Content
+AU  - Linux kernel development community
+DA  - 2026-07-22
+N1  - Date basis: Repository revision d699a5da103942fdc0a8a5383359bdec01fc19dd committed 22 July 2026; date describes the cited documentation revision, not the start of AI use in Linux.
+PY  - 2026
+UR  - https://docs.kernel.org/process/generated-content.html
+AB  - Linux accommodates tool-generated contributions under human understanding, DCO responsibility, transparent provenance and testing. Individual maintainers may still reject them, apply additional scrutiny or lower their priority.
+N1  - A conditional framework, not blanket acceptance or proof of productivity gains. Trivial typing, formatting and mechanical edits are outside this document's main scope.
+KW  - engineering
+KW  - governance
+KW  - quality
+N1  - Version: Revision: https://github.com/torvalds/linux/blob/d699a5da103942fdc0a8a5383359bdec01fc19dd/Documentation/process/generated-content.rst.
+ER  - 
+
+TY  - ELEC
+ID  - torvaldsassoc2026
+TI  - Linus Torvalds "Did What I Preach", Used AI To Make Code Decipherable & Uncovered More Bugs
+AU  - Larabel, Michael
+DA  - 2026-10-12
+N1  - Date basis: Article's displayed byline and publication date, 12 October 2026.
+PY  - 2026
+UR  - https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array
+AB  - Reports Torvalds using LLMs to understand and refactor obscure associative-array code. His quoted statement attributes confirmation of the reported bug and discovery of three additional longstanding bugs to subsequent user-space test-harness execution.
+N1  - Secondary account of one episode, with no counterfactual or total-cost measurement. The article says patches were not yet merged to master; do not present them as shipped or attribute all discoveries to the LLM alone.
+KW  - engineering
+KW  - quality
+KW  - agents
 ER  - 
 
 TY  - ELEC
@@ -2148,6 +2275,24 @@ N1  - Version: September 2026 revision; first issued May 2026.
 ER  - 
 
 TY  - ELEC
+ID  - roblespolicies2026
+TI  - You can contribute if you... An Empirical Framework of AI Contribution Policies in OSS
+AU  - Robles, Gregorio
+AU  - German, Daniel M.
+DA  - 2026-09-07
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.07919
+AB  - Supporting reference on engineering, governance, learning. Scope indicated by the primary-source title: You can contribute if you... An Empirical Framework of AI Contribution Policies in OSS. Result-level appraisal is pending.
+N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - engineering
+KW  - governance
+KW  - learning
+DO  - 10.48550/arXiv.2609.07919
+AN  - arXiv:2609.07919
+N1  - Version: Supporting framework on maintainer attention, accountability, review interactions and newcomer learning. No numerical prevalence or causal effect attributed in the synthesis.
+ER  - 
+
+TY  - ELEC
 ID  - bergh2026
 TI  - Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership
 AU  - Bergh, Christian
@@ -2375,6 +2520,22 @@ AB  - U.S. payroll evidence documents disproportionate early-career employment w
 N1  - Exposure, age, and employment trends do not uniquely identify AI as the cause; versions and panel construction change estimates.
 KW  - work
 KW  - engineering
+ER  - 
+
+TY  - ELEC
+ID  - qemupolicy2026
+TI  - Code provenance
+AU  - QEMU project
+DA  - 2025-06-24
+N1  - Date basis: GitLab commit 3d40db0efc22520fa6c399cf73960dced423b048 introduced the AI prohibition on 24 June 2025 (committed date; authored 16 June). Repository introduction, not a separately established formal ratification.
+PY  - 2025
+UR  - https://www.qemu.org/docs/master/devel/code-provenance.html
+AB  - QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.
+N1  - A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change.
+KW  - engineering
+KW  - governance
+KW  - work
+N1  - Version: Current file revision 2f127af408e1b4675662f9b8a0c3606f6565a1a7 committed 22 May 2026: https://gitlab.com/qemu-project/qemu/-/blob/2f127af408e1b4675662f9b8a0c3606f6565a1a7/docs/devel/code-provenance.rst. History and contents retrieved through the public GitLab API. Specific exceptions may be proposed through project discussion; no approved exceptions are listed.
 ER  - 
 
 TY  - ELEC
@@ -3360,6 +3521,20 @@ N1  - Alternative verification: local Chrome, 2026-10-13T07:46:43+00:00; identit
 ER  - 
 
 TY  - ELEC
+ID  - netbsdpolicy2024
+TI  - NetBSD Commit Guidelines
+AU  - NetBSD project
+DA  - 2024-05-15
+N1  - Date basis: Taylor R Campbell's official mailing-list message dated 15 May 2024 records adding the LLM clause to these guidelines: https://mail-index.netbsd.org/netbsd-bugs/2024/05/15/msg083089.html. Current page inspected 13 October 2026.
+PY  - 2024
+UR  - https://www.netbsd.org/developers/commit-guidelines.html
+AB  - NetBSD presumes LLM-generated code to be tainted and prohibits committing it without prior written approval from core.
+N1  - Not an exceptionless ban on all AI use: prior written core approval is explicitly possible. The licensing presumption is the project's position, not an independent legal conclusion or measured harm.
+KW  - engineering
+KW  - governance
+ER  - 
+
+TY  - ELEC
 ID  - ref-1ca76a8f96
 TI  - Software engineering education in the era of conversational AI: current trends and future directions
 AU  - Sengul, Cigdem 
@@ -3514,6 +3689,7 @@ AB  - Supporting reference on context. Scope indicated by the primary-source tit
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - context
 AN  - arXiv:2310.06770
+N1  - Version: This record dates the 2023 arXiv preprint. For benchmark use, the authors recommend the ICLR 2024 paper: https://openreview.net/forum?id=VTF8yNQM66. Exact recommended BibTeX is supplied in swebench-recommended.bib. OpenReview was access-blocked; conference citation metadata is sourced to the authors' README, not an independent full-text inspection.
 ER  - 
 
 TY  - ELEC
@@ -3637,25 +3813,52 @@ DO  - 10.1007/978-1-4842-4221-6
 ER  - 
 
 TY  - ELEC
-ID  - qemupolicy2026
-TI  - Code provenance
-AU  - QEMU project
-N1  - Date basis: not established
-UR  - https://www.qemu.org/docs/master/devel/code-provenance.html
-AB  - QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.
-N1  - A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change.
+ID  - gravityabout2026
+TI  - About - Gravity Linux
+AU  - Gravity Linux contributors
+N1  - Date basis: Live FAQ inspected 13 October 2026. Dated introductory blog is 5 September 2026, but does not date this FAQ or the fork itself.
+UR  - https://gravitylinux.org/about/
+AB  - Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.
+N1  - Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits.
 KW  - engineering
 KW  - governance
-KW  - work
-N1  - Version: Policy observed on 13 October 2026; original adoption date not established.
 ER  - 
 
 TY  - ELEC
-ID  - ref-8ecd8d70a1
-TI  - GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?
-N1  - Date basis: not established
-UR  - https://github.com/SWE-bench/SWE-bench
-AB  - Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.
-N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+ID  - zigpolicy2026
+TI  - Code of Conduct
+AU  - Zig project
+N1  - Date basis: Current policy inspected 13 October 2026; this page supplies no publication date. A dated 11 July 2025 historical contributing-page revision documents earlier restrictions but does not date this expanded text.
+UR  - https://ziglang.org/code-of-conduct/
+AB  - Zig's designated development spaces prohibit LLM-generated code and prose, paraphrasing, editing, translation, shared brainstorming results and LLM-assisted bug finding.
+N1  - Applies to the ziglang Codeberg organization, project IRC and development Zulip, not every independent community or project using Zig. No measured productivity effect follows from the rule.
+KW  - engineering
+KW  - governance
+KW  - learning
+N1  - Version: Historical policy evidence: https://github.com/ziglang/zig/wiki/Contributing/61aff1ce9b3ebd8c38c0f5a18db00c06f0fa4022 (11 July 2025). Do not attribute all current restrictions to that historical revision.
+ER  - 
+
+TY  - ELEC
+ID  - asahipolicy2026
+TI  - Generative AI (LLM) Policy
+AU  - Asahi Linux project
+N1  - Date basis: Official live page inspected 13 October 2026; original publication/adoption date not established. June 2025 board discussion is not treated as proof of adoption.
+UR  - https://asahilinux.org/llm-policy/
+AB  - Asahi broadly forbids generative-AI tooling for material contributions, citing ethical concerns and possible contamination of clean-room reverse engineering. Its examples include generated issues and LLM interpretation of hardware traces.
+N1  - Broader than a generated-code ban, but scoped to material project contributions. Stated ethical and legal concerns are project judgments, not independently established legal findings or experimental outcomes.
+KW  - engineering
+KW  - governance
+ER  - 
+
+TY  - ELEC
+ID  - gravitypolicy2026
+TI  - LLM Use and Clean-Room Policy
+AU  - Gravity Linux contributors
+N1  - Date basis: Undated live policy inspected 13 October 2026; adoption date not established.
+UR  - https://gravitylinux.org/policies/llm/
+AB  - Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.
+N1  - Not unconditional acceptance. The project's safeguards and claimed effectiveness are not independently validated; its legal interpretation is not a legal opinion from this review.
+KW  - engineering
+KW  - governance
+KW  - quality
 ER  - 

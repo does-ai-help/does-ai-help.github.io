@@ -148,12 +148,31 @@ def registry_metadata(doi):
     return observations
 
 
+def github_raw_url(url):
+    parsed = urllib.parse.urlsplit(url)
+    match = re.fullmatch(r"/([\w.-]+)/([\w.-]+)/blob/([\w.-]+)/(.+\.md)", parsed.path)
+    if parsed.scheme != "https" or parsed.netloc != "github.com" or parsed.query or not match:
+        return None
+    if any(segment in {".", ".."} or "%" in segment for segment in parsed.path.split("/")):
+        return None
+    return "https://raw.githubusercontent.com/" + "/".join(match.groups())
+
+
 def check(record):
     access, body = retrieve(record["url"])
     page = {"access": access, **page_metadata(body)}
     if page.get("titles") and all(any(term in normal(t) for term in BLOCKED) for t in page["titles"]):
         page["access"]["restriction"] = "Challenge or unavailable page; HTTP success does not establish page identity"
     observations = [page]
+    # Official same-repository file route for temporary GitHub service failures.
+    raw_url = github_raw_url(record["url"])
+    if raw_url and access.get("status") in {502, 503, 504}:
+        raw_access, raw_body = retrieve(raw_url)
+        if raw_access.get("status") == 200:
+            heading = re.search(r"^#\s+([^\r\n]+)", raw_body.decode("utf-8", errors="replace"), re.MULTILINE)
+            observations.append({"access": raw_access, "titles": [heading[1].strip()] if heading else [],
+                                 "retrieval_method": "official-github-raw-file",
+                                 "bound_source_url": record["url"]})
     embedded = re.search(r"https://link\.springer\.com/(?:book|article)/(10\.[^?#]+)", record["url"])
     doi = doi_normal(record.get("doi", "") or (urllib.parse.unquote(embedded[1]) if embedded else ""))
     if doi:

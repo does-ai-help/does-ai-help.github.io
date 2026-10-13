@@ -1,5 +1,13 @@
 # Release history
 
+## 2026.10.6 - Open-source contribution boundaries
+
+- Added primary policies for GIMP, NetBSD, Zig, Redox, Asahi, Linux and Gravity, distinguishing scoped prohibitions, default refusal and conditional permission.
+- Included the reported Torvalds associative-array episode with test-harness and not-yet-merged caveats; sourced Gravity's stated Asahi-fork rationale to its own FAQ.
+- Appraised the 281-policy September study and linked its earlier version and a supporting governance framework; no community-wide prevalence or causal productivity claims.
+- Established QEMU's introducing-policy commit date; supplied SWE-bench authors' recommended BibTeX separately from repository and preprint dates.
+- Conference exports use BibTeX booktitle and RIS T2. Cutoff remains 13 October 2026; earlier snapshots are preserved.
+
 ## 2026.10.5 - DOI registry clarification
 
 - Corrected the Hicks/OSF provenance note after the automated audit successfully retrieved the DOI's Crossref record. The initial DataCite 404 was a lookup in a different registry, not evidence that the DOI was unregistered.

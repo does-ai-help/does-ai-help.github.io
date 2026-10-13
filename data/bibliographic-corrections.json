@@ -1,4 +1,17 @@
 {
+  "qemupolicy2026": {
+    "year": 2025, "date": "2025-06-24",
+    "date_basis": "GitLab commit 3d40db0efc22520fa6c399cf73960dced423b048 introduced the AI prohibition on 24 June 2025 (committed date; authored 16 June). Repository introduction, not a separately established formal ratification.",
+    "version_note": "Current file revision 2f127af408e1b4675662f9b8a0c3606f6565a1a7 committed 22 May 2026: https://gitlab.com/qemu-project/qemu/-/blob/2f127af408e1b4675662f9b8a0c3606f6565a1a7/docs/devel/code-provenance.rst. History and contents retrieved through the public GitLab API. Specific exceptions may be proposed through project discussion; no approved exceptions are listed."
+  },
+  "ref-8ecd8d70a1": {
+    "authors": ["SWE-bench contributors"], "year": 2026, "date": "2026-09-01",
+    "date_basis": "README revision e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a committed 1 September 2026; document-revision date, not benchmark publication year.",
+    "version_note": "Authors' README recommends Jimenez et al., ICLR 2024 for SWE-bench (Verified), Yang et al., ICLR 2025 for Multimodal, and Yang et al., SWE-smith (arXiv:2504.21798, 2025) for Multilingual. Exact BibTeX: https://does-ai-help.github.io/downloads/swebench-recommended.bib. Pinned README: https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md. Repository and paper citations are distinct."
+  },
+  "ref-3e4a5dea3a": {
+    "version_note": "This record dates the 2023 arXiv preprint. For benchmark use, the authors recommend the ICLR 2024 paper: https://openreview.net/forum?id=VTF8yNQM66. Exact recommended BibTeX is supplied in swebench-recommended.bib. OpenReview was access-blocked; conference citation metadata is sourced to the authors' README, not an independent full-text inspection."
+  },
   "ref-5bff21951f": {
     "year": 2026, "date": "2026-06-30", "authors": ["Ramp Economics Lab"],
     "date_basis": "Publisher launch announcement dated 30 June 2026; https://ramp.com/data/heavy-ai-adopters-hire-more; checked 13 October 2026. Landing-page launch date, not a separately dated paper revision."

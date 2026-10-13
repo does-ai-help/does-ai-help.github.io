@@ -107,6 +107,7 @@ for(const [source, dest] of [['data/source-schema.json','source-schema.json'],['
 for (const filename of ['CONTRIBUTING.md', 'LICENSE-CONTENT.md', 'HOSTING.md']) fs.copyFileSync(path.join(root, filename), path.join(root,'site/downloads',filename));
 fs.copyFileSync(path.join(root,'manuscript/metadata-review.md'),path.join(root,'site/downloads/metadata-review.md'));
 fs.copyFileSync(path.join(root,'manuscript/document-followup.md'),path.join(root,'site/downloads/document-followup.md'));
+fs.copyFileSync(path.join(root,'data/swebench-recommended.bib'),path.join(root,'site/downloads/swebench-recommended.bib'));
 fs.copyFileSync(path.join(root,'manuscript/related-reviews.md'),path.join(root,'site/downloads/related-reviews.md'));
 fs.copyFileSync(path.join(root,'manuscript/balance-review.md'),path.join(root,'site/downloads/balance-review.md'));
 for(const [from,to] of [['data/browser-verification.json','browser-verification.json'],['data/browser-review-policy.json','browser-review-policy.json'],['BROWSER-VERIFICATION.md','BROWSER-VERIFICATION.md']]) fs.copyFileSync(path.join(root,from),path.join(root,'site/downloads',to));
@@ -131,6 +132,7 @@ for(const filename of ['index.html','bibliography.html','releases.html']) {
     const dating=`<p><strong>Publication date:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
     const publisher=r.publisher?`<p><strong>Publisher:</strong> ${esc(r.publisher)}.</p>`:'';
     source=source.replace(stable,stable+dating+publisher);
+    if(['ref-8ecd8d70a1','ref-3e4a5dea3a'].includes(r.id)) source=source.replace(stable,stable+'<p><a href="downloads/swebench-recommended.bib" download>Download authors\' recommended SWE-bench citations</a>. Conference citations are separate from repository and preprint dates.</p>');
     if(r.document_verification) {
       const d=r.document_verification;
       source=source.replace(stable,stable+`<p><strong>Document inspection:</strong> ${esc(d.method.replaceAll('-',' '))}, ${esc(d.checked_on)}; ${esc(d.pages)} pages. Artifact: ${esc(d.filename)}.</p><p><strong>Reading scope:</strong> ${esc(d.scope)}. Third-party PDF not redistributed. <a href="downloads/document-followup.md">Document follow-up and provenance</a>.</p>`);

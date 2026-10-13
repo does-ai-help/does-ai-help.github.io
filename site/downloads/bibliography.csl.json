@@ -1,5 +1,47 @@
 [
   {
+    "id": "horapolicies2026",
+    "type": "manuscript",
+    "title": "\"We Permit the Use of AI, but [...]\": The Landscape of AI Policies in Popular Open Source Projects",
+    "URL": "https://arxiv.org/abs/2609.07542",
+    "author": [
+      {
+        "family": "Hora",
+        "given": "Andre"
+      },
+      {
+        "family": "Robbes",
+        "given": "Romain"
+      },
+      {
+        "family": "Zacchiroli",
+        "given": "Stefano"
+      }
+    ],
+    "abstract": "Among 281 identified policies, 83.3% permit or encourage AI code contributions and 14.9% forbid them; 67.3% require substantial human involvement and 48.8% disclosure.",
+    "keyword": "engineering; governance; methods",
+    "note": "Method: repository-policy-analysis. Status: preprint. Verification: content-checked (arXiv v1 abstract, sampling and detection methods, classification, results and limitations, read as HTML; corpus not independently re-coded.). Limitations: Popular active GitHub repositories plus purposively selected prominent projects, restricted to detected policies: not a representative poll of all OSS or a test of policy effectiveness. Detection and manual classification may miss or misclassify rules. Differing samples and detection prevent reading the percentages as a clean trend. Version: Extends the earlier 118-policy study; not an independent replication. Under review at TOSEM according to arXiv, not treated as an accepted journal paper. Persistent identifier: arXiv:2609.07542",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2609.07542"
+  },
+  {
     "id": "maier2026",
     "type": "manuscript",
     "title": "A meta-analysis of the effect of generative AI on productivity and learning in programming",
@@ -722,6 +764,38 @@
     }
   },
   {
+    "id": "linuxassistants2026",
+    "type": "webpage",
+    "title": "AI Coding Assistants",
+    "URL": "https://docs.kernel.org/process/coding-assistants.html",
+    "author": [
+      {
+        "literal": "Linux kernel development community"
+      }
+    ],
+    "abstract": "Kernel guidance makes humans responsible for reviewing and certifying AI-assisted submissions, describes Assisted-by attribution, and asks for reproduction, build/test checks and disclosure of verification limits.",
+    "keyword": "engineering; governance; quality",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official licensing, human sign-off, Assisted-by attribution and bug-validation guidance; web retrieval and GitHub history API.). Limitations: Guidance documents expected practice, not compliance rates or demonstrated effectiveness. It complements, rather than removes, maintainer discretion to reject generated content. Date basis: Cited repository snapshot 72fdff1416e280e2baaa3cca69574defb998437e, merged 20 August 2026; this is a snapshot date, not policy-adoption date or necessarily the last direct file edit. Version: Snapshot: https://github.com/torvalds/linux/blob/72fdff1416e280e2baaa3cca69574defb998437e/Documentation/process/coding-assistants.rst.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          20
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "ref-c5caafbad6",
     "type": "webpage",
     "title": "AI Economic Indicators: June 2026 Update",
@@ -961,6 +1035,44 @@
         ]
       ]
     }
+  },
+  {
+    "id": "horapoliciesearly2026",
+    "type": "manuscript",
+    "title": "AI Policy, Disclosure, and Human in the Loop: How Are Contribution Guidelines Adapting to GenAI?",
+    "URL": "https://arxiv.org/abs/2605.16706",
+    "author": [
+      {
+        "family": "Hora",
+        "given": "Andre"
+      },
+      {
+        "family": "Robbes",
+        "given": "Romain"
+      }
+    ],
+    "abstract": "Supporting reference on engineering, governance, methods. Scope indicated by the primary-source title: AI Policy, Disclosure, and Human in the Loop: How Are Contribution Guidelines Adapting to GenAI?. Result-level appraisal is pending.",
+    "keyword": "engineering; governance; methods",
+    "note": "Method: repository-policy-analysis. Status: preprint. Verification: identity-checked (arXiv title, authors, abstract, submission/revision dates and conference-acceptance note; result appraisal uses the linked expanded September study.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Version: First submitted 15 May, revised 13 July 2026; arXiv says accepted to ICSME 2026. Earlier 118-policy study subsequently expanded to 281 policies. Do not count these as independent evidence. Persistent identifier: arXiv:2605.16706",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          15
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2605.16706"
   },
   {
     "id": "ghosttypolicy2026",
@@ -1967,6 +2079,38 @@
     }
   },
   {
+    "id": "redoxpolicy2026",
+    "type": "webpage",
+    "title": "Contributing to Redox",
+    "URL": "https://github.com/redox-os/redox/blob/master/CONTRIBUTING.md",
+    "author": [
+      {
+        "literal": "Redox OS contributors"
+      }
+    ],
+    "abstract": "Redox rejects LLM-generated contributions, including issues, merge requests and descriptions. Clearly labeled generated submissions are closed; attempts to circumvent the policy can result in a ban.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official repository contribution terms and AI Policy section; web text and GitHub history API.). Limitations: Project governance evidence, not a causal study. Does not show that every AI-assisted activity is detectable or measure the rule's effects. Date basis: GitHub file history: cited revision 03d6b8bc05bab7cf03490671cd3d23571214a720 committed 3 September 2026. This is a later document revision, not policy adoption. Version: Immutable inspected revision: https://github.com/redox-os/redox/blob/03d6b8bc05bab7cf03490671cd3d23571214a720/CONTRIBUTING.md.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "darwinx2026",
     "type": "manuscript",
     "title": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
@@ -2664,6 +2808,38 @@
     }
   },
   {
+    "id": "ref-8ecd8d70a1",
+    "type": "webpage",
+    "title": "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+    "URL": "https://github.com/SWE-bench/SWE-bench",
+    "author": [
+      {
+        "literal": "SWE-bench contributors"
+      }
+    ],
+    "abstract": "Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.",
+    "keyword": "context",
+    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: README revision e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a committed 1 September 2026; document-revision date, not benchmark publication year. Version: Authors' README recommends Jimenez et al., ICLR 2024 for SWE-bench (Verified), Yang et al., ICLR 2025 for Multimodal, and Yang et al., SWE-smith (arXiv:2504.21798, 2025) for Multilingual. Exact BibTeX: https://does-ai-help.github.io/downloads/swebench-recommended.bib. Pinned README: https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md. Repository and paper citations are distinct.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "ref-34e37fa225",
     "type": "webpage",
     "title": "GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?",
@@ -2694,6 +2870,38 @@
           2026,
           10,
           12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gimppolicy2026",
+    "type": "webpage",
+    "title": "Giving or obtaining developer access in Gitlab",
+    "URL": "https://developer.gimp.org/core/maintainer/giving-developer-right/",
+    "author": [
+      {
+        "literal": "GIMP team"
+      }
+    ],
+    "abstract": "GIMP rejects generative-AI contributions including code, images and text. Its developer-access rules expressly prohibit quietly adding generated material after obtaining push rights.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official developer-access rules, especially rule 8, and displayed revision date; read through web retrieval.). Limitations: Contribution policy, not a productivity or quality experiment. It expressly does not regulate contributors' activities elsewhere. The revision date does not establish when the prohibition began. Date basis: Page explicitly says last updated 28 May 2026; date describes the inspected document revision, not the original adoption of the AI rule.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          28
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
         ]
       ]
     }
@@ -2963,6 +3171,71 @@
       ]
     },
     "DOI": "10.1186/s41239-026-00614-9"
+  },
+  {
+    "id": "linuxgenerated2026",
+    "type": "webpage",
+    "title": "Kernel Guidelines for Tool-Generated Content",
+    "URL": "https://docs.kernel.org/process/generated-content.html",
+    "author": [
+      {
+        "literal": "Linux kernel development community"
+      }
+    ],
+    "abstract": "Linux accommodates tool-generated contributions under human understanding, DCO responsibility, transparent provenance and testing. Individual maintainers may still reject them, apply additional scrutiny or lower their priority.",
+    "keyword": "engineering; governance; quality",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official policy purpose, scope, disclosure and maintainer discretion; web retrieval and GitHub file history API.). Limitations: A conditional framework, not blanket acceptance or proof of productivity gains. Trivial typing, formatting and mechanical edits are outside this document's main scope. Date basis: Repository revision d699a5da103942fdc0a8a5383359bdec01fc19dd committed 22 July 2026; date describes the cited documentation revision, not the start of AI use in Linux. Version: Revision: https://github.com/torvalds/linux/blob/d699a5da103942fdc0a8a5383359bdec01fc19dd/Documentation/process/generated-content.rst.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          22
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "torvaldsassoc2026",
+    "type": "webpage",
+    "title": "Linus Torvalds \"Did What I Preach\", Used AI To Make Code Decipherable & Uncovered More Bugs",
+    "URL": "https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array",
+    "author": [
+      {
+        "family": "Larabel",
+        "given": "Michael"
+      }
+    ],
+    "abstract": "Reports Torvalds using LLMs to understand and refactor obscure associative-array code. His quoted statement attributes confirmation of the reported bug and discovery of three additional longstanding bugs to subsequent user-space test-harness execution.",
+    "keyword": "engineering; quality; agents",
+    "note": "Method: reported-case. Status: journalism. Verification: content-checked (Public Phoronix article, quoted tag statement and reported merge status; web retrieval. Original kernel tag was not independently retrieved.). Limitations: Secondary account of one episode, with no counterfactual or total-cost measurement. The article says patches were not yet merged to master; do not present them as shipped or attribute all discoveries to the LLM alone. Date basis: Article's displayed byline and publication date, 12 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
   },
   {
     "id": "llamalima2026",
@@ -5453,6 +5726,44 @@
     "DOI": "10.3386/w35275"
   },
   {
+    "id": "roblespolicies2026",
+    "type": "manuscript",
+    "title": "You can contribute if you... An Empirical Framework of AI Contribution Policies in OSS",
+    "URL": "https://arxiv.org/abs/2609.07919",
+    "author": [
+      {
+        "family": "Robles",
+        "given": "Gregorio"
+      },
+      {
+        "family": "German",
+        "given": "Daniel M."
+      }
+    ],
+    "abstract": "Supporting reference on engineering, governance, learning. Scope indicated by the primary-source title: You can contribute if you... An Empirical Framework of AI Contribution Policies in OSS. Result-level appraisal is pending.",
+    "keyword": "engineering; governance; learning",
+    "note": "Method: qualitative-policy-analysis. Status: preprint. Verification: identity-checked (arXiv primary bibliographic identity and abstract checked; full result-level appraisal pending.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Version: Supporting framework on maintainer attention, accountability, review interactions and newcomer learning. No numerical prevalence or causal effect attributed in the synthesis. Persistent identifier: arXiv:2609.07919",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2609.07919"
+  },
+  {
     "id": "bergh2026",
     "type": "manuscript",
     "title": "Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",
@@ -6022,6 +6333,38 @@
           2026,
           10,
           12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qemupolicy2026",
+    "type": "webpage",
+    "title": "Code provenance",
+    "URL": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+    "author": [
+      {
+        "literal": "QEMU project"
+      }
+    ],
+    "abstract": "QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.",
+    "keyword": "engineering; governance; work",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Date basis: GitLab commit 3d40db0efc22520fa6c399cf73960dced423b048 introduced the AI prohibition on 24 June 2025 (committed date; authored 16 June). Repository introduction, not a separately established formal ratification. Version: Current file revision 2f127af408e1b4675662f9b8a0c3606f6565a1a7 committed 22 May 2026: https://gitlab.com/qemu-project/qemu/-/blob/2f127af408e1b4675662f9b8a0c3606f6565a1a7/docs/devel/code-provenance.rst. History and contents retrieved through the public GitLab API. Specific exceptions may be proposed through project discussion; no approved exceptions are listed.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          24
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
         ]
       ]
     }
@@ -8510,6 +8853,38 @@
     }
   },
   {
+    "id": "netbsdpolicy2024",
+    "type": "webpage",
+    "title": "NetBSD Commit Guidelines",
+    "URL": "https://www.netbsd.org/developers/commit-guidelines.html",
+    "author": [
+      {
+        "literal": "NetBSD project"
+      }
+    ],
+    "abstract": "NetBSD presumes LLM-generated code to be tainted and prohibits committing it without prior written approval from core.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official tainted-code clause and dated project mailing-list confirmation; web retrieval.). Limitations: Not an exceptionless ban on all AI use: prior written core approval is explicitly possible. The licensing presumption is the project's position, not an independent legal conclusion or measured harm. Date basis: Taylor R Campbell's official mailing-list message dated 15 May 2024 records adding the LLM clause to these guidelines: https://mail-index.netbsd.org/netbsd-bugs/2024/05/15/msg083089.html. Current page inspected 13 October 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          15
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "ref-1ca76a8f96",
     "type": "webpage",
     "title": "Software engineering education in the era of conversational AI: current trends and future directions",
@@ -8904,7 +9279,7 @@
     ],
     "abstract": "Supporting reference on context. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.",
     "keyword": "context",
-    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Persistent identifier: arXiv:2310.06770",
+    "note": "Method: not-classified. Status: preprint. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: primary metadata Version: This record dates the 2023 arXiv preprint. For benchmark use, the authors recommend the ICLR 2024 paper: https://openreview.net/forum?id=VTF8yNQM66. Exact recommended BibTeX is supplied in swebench-recommended.bib. OpenReview was access-blocked; conference citation metadata is sourced to the authors' README, not an independent full-text inspection. Persistent identifier: arXiv:2310.06770",
     "issued": {
       "date-parts": [
         [
@@ -9274,18 +9649,18 @@
     "DOI": "10.1007/978-1-4842-4221-6"
   },
   {
-    "id": "qemupolicy2026",
+    "id": "gravityabout2026",
     "type": "webpage",
-    "title": "Code provenance",
-    "URL": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+    "title": "About - Gravity Linux",
+    "URL": "https://gravitylinux.org/about/",
     "author": [
       {
-        "literal": "QEMU project"
+        "literal": "Gravity Linux contributors"
       }
     ],
-    "abstract": "QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.",
-    "keyword": "engineering; governance; work",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (official Use of AI-generated content section and its exceptions). Limitations: A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change. Date basis: not established Version: Policy observed on 13 October 2026; original adoption date not established.",
+    "abstract": "Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-account. Status: project-documentation. Verification: content-checked (Official About FAQ, especially Gravity Linux vs Asahi Linux; web retrieval.). Limitations: Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits. Date basis: Live FAQ inspected 13 October 2026. Dated introductory blog is 5 September 2026, but does not date this FAQ or the fork itself.",
     "accessed": {
       "date-parts": [
         [
@@ -9297,20 +9672,70 @@
     }
   },
   {
-    "id": "ref-8ecd8d70a1",
+    "id": "zigpolicy2026",
     "type": "webpage",
-    "title": "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?",
-    "URL": "https://github.com/SWE-bench/SWE-bench",
-    "author": [],
-    "abstract": "Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.",
-    "keyword": "context",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: not established",
+    "title": "Code of Conduct",
+    "URL": "https://ziglang.org/code-of-conduct/",
+    "author": [
+      {
+        "literal": "Zig project"
+      }
+    ],
+    "abstract": "Zig's designated development spaces prohibit LLM-generated code and prose, paraphrasing, editing, translation, shared brainstorming results and LLM-assisted bug finding.",
+    "keyword": "engineering; governance; learning",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official scope and Strict No LLM / No AI section, read through web retrieval.). Limitations: Applies to the ziglang Codeberg organization, project IRC and development Zulip, not every independent community or project using Zig. No measured productivity effect follows from the rule. Date basis: Current policy inspected 13 October 2026; this page supplies no publication date. A dated 11 July 2025 historical contributing-page revision documents earlier restrictions but does not date this expanded text. Version: Historical policy evidence: https://github.com/ziglang/zig/wiki/Contributing/61aff1ce9b3ebd8c38c0f5a18db00c06f0fa4022 (11 July 2025). Do not attribute all current restrictions to that historical revision.",
     "accessed": {
       "date-parts": [
         [
           2026,
           10,
-          12
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "asahipolicy2026",
+    "type": "webpage",
+    "title": "Generative AI (LLM) Policy",
+    "URL": "https://asahilinux.org/llm-policy/",
+    "author": [
+      {
+        "literal": "Asahi Linux project"
+      }
+    ],
+    "abstract": "Asahi broadly forbids generative-AI tooling for material contributions, citing ethical concerns and possible contamination of clean-room reverse engineering. Its examples include generated issues and LLM interpretation of hardware traces.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Entire official policy, including material contributions, trace interpretation and enforcement examples; web retrieval.). Limitations: Broader than a generated-code ban, but scoped to material project contributions. Stated ethical and legal concerns are project judgments, not independently established legal findings or experimental outcomes. Date basis: Official live page inspected 13 October 2026; original publication/adoption date not established. June 2025 board discussion is not treated as proof of adoption.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gravitypolicy2026",
+    "type": "webpage",
+    "title": "LLM Use and Clean-Room Policy",
+    "URL": "https://gravitylinux.org/policies/llm/",
+    "author": [
+      {
+        "literal": "Gravity Linux contributors"
+      }
+    ],
+    "abstract": "Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.",
+    "keyword": "engineering; governance; quality",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official policy sections on permission, human responsibility, contamination, disclosure and process records; web retrieval.). Limitations: Not unconditional acceptance. The project's safeguards and claimed effectiveness are not independently validated; its legal interpretation is not a legal opinion from this review. Date basis: Undated live policy inspected 13 October 2026; adoption date not established.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
         ]
       ]
     }
