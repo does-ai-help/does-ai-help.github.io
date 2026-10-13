@@ -122,6 +122,11 @@ def main():
             if url.fragment and target in pages and unquote(url.fragment) not in pages[target].ids:
                 errors.append(f"Missing anchor: {p.name}: {link}")
     downloads = ROOT / "site/downloads"
+    from download_names import download_names
+    for original, versioned in download_names(release).items():
+        if (downloads / original).exists():
+            if not (downloads / versioned).exists() or (downloads / original).read_bytes() != (downloads / versioned).read_bytes():
+                errors.append(f"Versioned download missing or different: {versioned}")
     if json.loads((downloads / "sources.json").read_text()) != records:
         errors.append("Published evidence JSON differs from the canonical database")
     if (downloads / "article.md").read_text() != article:

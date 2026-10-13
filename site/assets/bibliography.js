@@ -26,7 +26,7 @@ async function start() {
     const ids=new Set(shown.filter(r=>r.verified).map(r=>r.id));
     const data=csl.filter(r=>ids.has(r.id));
     const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
-    const href=URL.createObjectURL(blob);const a=document.createElement('a');a.href=href;a.download='bibliography-filtered.csl.json';a.click();setTimeout(()=>URL.revokeObjectURL(href),1000);
+    const href=URL.createObjectURL(blob);const a=document.createElement('a');a.href=href;a.download=window.REVIEW_DATA.filteredCslName;a.click();setTimeout(()=>URL.revokeObjectURL(href),1000);
     document.getElementById('copy-status').textContent=`Exported ${data.length} checked citations. Candidate records are excluded.`;
   });
   list.addEventListener('click',async e=>{

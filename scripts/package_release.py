@@ -6,6 +6,7 @@ import json
 import shutil
 import zipfile
 from pathlib import Path
+from download_names import download_names
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,7 +23,10 @@ def main():
     release = meta.get("snapshot", meta["release"])
     destination = ROOT / "releases" / release
     download = ROOT / "site/downloads"
-    files = sorted(p for p in download.iterdir() if p.is_file() and p.suffix != ".zip" and p.name != "checksums.sha256")
+    names = download_names(meta)
+    checksum_names = {'checksums.sha256', names['checksums.sha256']}
+    current_names = set(names) | set(names.values())
+    files = sorted(p for p in download.iterdir() if p.is_file() and p.name in current_names and p.name not in checksum_names)
     expected = "".join(f"{checksum(p)}  {p.name}\n" for p in files)
     if destination.exists() and (destination / "checksums.sha256").exists() and (destination / "checksums.sha256").read_text() != expected and not args.replace_draft:
         raise SystemExit("This release snapshot already differs. Increment the release version or use --replace-draft only before initial publication.")
@@ -31,6 +35,7 @@ def main():
         shutil.copyfile(p, destination / p.name)
     for folder in [destination, download]:
         (folder / "checksums.sha256").write_text(expected)
+        (folder / names['checksums.sha256']).write_text(expected)
     archive = download / meta.get("archive_name", f"release-{meta['release']}.zip")
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED) as bundle:
         for p in sorted(destination.iterdir()):

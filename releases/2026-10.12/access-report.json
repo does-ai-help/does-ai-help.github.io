@@ -1,0 +1,1895 @@
+{
+  "checked_at": "2026-10-13T16:13:27.200363+00:00",
+  "interpretation": "Access checks only. Failure may reflect a paywall, bot restriction, redirect, timeout or unavailable resource; it is not a scientific-validity verdict.",
+  "deferred_publication_urls": [
+    "https://does-ai-help.github.io/",
+    "https://does-ai-help.github.io/releases.html",
+    "https://does-ai-help.github.io/bibliography.html"
+  ],
+  "records": [
+    {
+      "id": "horapolicies2026",
+      "url": "https://arxiv.org/abs/2609.07542",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.07542"
+    },
+    {
+      "id": "maier2026",
+      "url": "https://arxiv.org/abs/2605.04779",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.04779"
+    },
+    {
+      "id": "robin2026",
+      "url": "https://www.nature.com/articles/s41586-026-10652-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=02e3b781-09fb-4541-aade-d2db4ff61660"
+    },
+    {
+      "id": "ramp2026",
+      "url": "https://ramp.com/data/ai-jobs-impact/paper",
+      "status": 206,
+      "resolved_url": "https://ramp.com/data/ai-jobs-impact/paper"
+    },
+    {
+      "id": "ref-5bff21951f",
+      "url": "https://ramp.com/data/ai-jobs-impact",
+      "status": 200,
+      "resolved_url": "https://ramp.com/data/ai-jobs-impact"
+    },
+    {
+      "id": "wang2026",
+      "url": "https://arxiv.org/abs/2609.29874",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.29874"
+    },
+    {
+      "id": "mathmisalignment2026",
+      "url": "https://mathandai.org/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mathandai.org'. (_ssl.c:1010)>"
+    },
+    {
+      "id": "gravityabout2026",
+      "url": "https://gravitylinux.org/about/",
+      "status": 200,
+      "resolved_url": "https://gravitylinux.org/about/"
+    },
+    {
+      "id": "coscientist2026",
+      "url": "https://www.nature.com/articles/s41586-026-10644-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=927f92d1-ee6c-45e6-a350-0beb19d84fab"
+    },
+    {
+      "id": "murphyhill2026",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.01418"
+    },
+    {
+      "id": "ref-1d4ccde518",
+      "url": "https://arxiv.org/abs/2605.22763",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.22763"
+    },
+    {
+      "id": "ahm2026",
+      "url": "https://www.ahmath.org/statements",
+      "status": 206,
+      "resolved_url": "https://www.ahmath.org/statements"
+    },
+    {
+      "id": "orland2026",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "status": 200,
+      "resolved_url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    },
+    {
+      "id": "linuxassistants2026",
+      "url": "https://docs.kernel.org/process/coding-assistants.html",
+      "status": 206,
+      "resolved_url": "https://docs.kernel.org/process/coding-assistants.html"
+    },
+    {
+      "id": "ref-c5caafbad6",
+      "url": "https://digitaleconomy.stanford.edu/app/uploads/2026/06/AIEI_RN01_Jun26.pdf",
+      "status": 206,
+      "resolved_url": "https://digitaleconomy.stanford.edu/app/uploads/2026/06/AIEI_RN01_Jun26.pdf"
+    },
+    {
+      "id": "ref-94bc27fcb9",
+      "url": "https://arxiv.org/abs/2608.08709",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.08709"
+    },
+    {
+      "id": "ref-f9d0fcda86",
+      "url": "https://arxiv.org/abs/2601.13597",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2601.13597"
+    },
+    {
+      "id": "faros2026",
+      "url": "https://www.faros.ai/research/ai-acceleration-whiplash",
+      "status": 200,
+      "resolved_url": "https://www.faros.ai/research/ai-acceleration-whiplash"
+    },
+    {
+      "id": "candidate-cnbc-2026",
+      "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+      "status": 200,
+      "resolved_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
+    },
+    {
+      "id": "mukherjee2026",
+      "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "herrengt2026",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "status": 206,
+      "resolved_url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"
+    },
+    {
+      "id": "horapoliciesearly2026",
+      "url": "https://arxiv.org/abs/2605.16706",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.16706"
+    },
+    {
+      "id": "ghosttypolicy2026",
+      "url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+      "status": 206,
+      "resolved_url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md"
+    },
+    {
+      "id": "hemandate2026",
+      "url": "https://arxiv.org/abs/2607.01904v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.01904v1"
+    },
+    {
+      "id": "era2026",
+      "url": "https://www.nature.com/articles/s41586-026-10658-6",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=86cab24f-73f1-4a0c-9d23-bfab23388a25"
+    },
+    {
+      "id": "ref-4336e76ca7",
+      "url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
+      "status": 206,
+      "resolved_url": "https://rsi-benchmark.com/blog/announcing-rsi-bench"
+    },
+    {
+      "id": "ref-a32e7d5bed",
+      "url": "https://arxiv.org/abs/2602.00409",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2602.00409"
+    },
+    {
+      "id": "chenstratton2026",
+      "url": "https://fion.ac/jellyfish.pdf",
+      "status": 206,
+      "resolved_url": "https://fion.ac/jellyfish.pdf"
+    },
+    {
+      "id": "hao2026",
+      "url": "https://www.nature.com/articles/s41586-025-09922-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=9f775c63-459d-4b15-adc4-685c5a3d31a8"
+    },
+    {
+      "id": "alignment2026",
+      "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers",
+      "status": 200,
+      "resolved_url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/"
+    },
+    {
+      "id": "ref-672d8f5482",
+      "url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+      "status": 206,
+      "resolved_url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents"
+    },
+    {
+      "id": "brand2026",
+      "url": "https://arxiv.org/abs/2609.37645",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.37645"
+    },
+    {
+      "id": "chen2026",
+      "url": "https://arxiv.org/abs/2602.03593",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2602.03593"
+    },
+    {
+      "id": "innovationeval2026",
+      "url": "https://epoch.ai/publications/innovationeval",
+      "status": 200,
+      "resolved_url": "https://epoch.ai/publications/innovationeval"
+    },
+    {
+      "id": "babina2026",
+      "url": "https://www.nber.org/papers/w35684",
+      "status": 200,
+      "resolved_url": "https://www.nber.org/papers/w35684"
+    },
+    {
+      "id": "ref-332821c892",
+      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos",
+      "status": 200,
+      "resolved_url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/"
+    },
+    {
+      "id": "tran2026",
+      "url": "https://arxiv.org/abs/2608.06640",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.06640"
+    },
+    {
+      "id": "wulearning2026",
+      "url": "https://www.nature.com/articles/s41599-026-07019-z",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=23269cc8-5356-4b3b-858a-b188fb92484f"
+    },
+    {
+      "id": "coslr2026",
+      "url": "https://arxiv.org/abs/2609.22248",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.22248"
+    },
+    {
+      "id": "schwartz2026",
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "status": 200,
+      "resolved_url": "https://www.anthropic.com/research/claude-shaped-science"
+    },
+    {
+      "id": "ref-cfd1453651",
+      "url": "https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint",
+      "status": 200,
+      "resolved_url": "https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint"
+    },
+    {
+      "id": "ref-ffcede42d0",
+      "url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
+      "status": 206,
+      "resolved_url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark"
+    },
+    {
+      "id": "ghosttycontribution2026",
+      "url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+      "status": 206,
+      "resolved_url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md"
+    },
+    {
+      "id": "redoxpolicy2026",
+      "url": "https://github.com/redox-os/redox/blob/master/CONTRIBUTING.md",
+      "status": 206,
+      "resolved_url": "https://github.com/redox-os/redox/blob/master/CONTRIBUTING.md"
+    },
+    {
+      "id": "darwinx2026",
+      "url": "https://arxiv.org/abs/2608.07545",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.07545"
+    },
+    {
+      "id": "ref-080071453a",
+      "url": "https://arxiv.org/abs/2603.28592",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.28592"
+    },
+    {
+      "id": "ref-6d1ee1d676",
+      "url": "https://arxiv.org/abs/2603.26277",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.26277"
+    },
+    {
+      "id": "ref-18f316cc73",
+      "url": "https://arxiv.org/abs/2608.10319",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.10319"
+    },
+    {
+      "id": "iac2026",
+      "url": "https://arxiv.org/abs/2608.13404",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.13404"
+    },
+    {
+      "id": "ref-776550e112",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "hamza-preprint2026",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "hamza2026",
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67",
+      "status": 200,
+      "resolved_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67"
+    },
+    {
+      "id": "doratensions2026",
+      "url": "https://dora.dev/insights/balancing-ai-tensions",
+      "status": 206,
+      "resolved_url": "https://dora.dev/insights/balancing-ai-tensions/"
+    },
+    {
+      "id": "boolzen2026",
+      "url": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=b19b5b23-41a6-41c8-a49b-d5299eceec1b"
+    },
+    {
+      "id": "ref-c97b313435",
+      "url": "https://arxiv.org/abs/2607.08849",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.08849"
+    },
+    {
+      "id": "openainavierpaper2026",
+      "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "status": 206,
+      "resolved_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+    },
+    {
+      "id": "openainaviercode2026",
+      "url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+      "status": 206,
+      "resolved_url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd"
+    },
+    {
+      "id": "wittig2026",
+      "url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
+      "status": 200,
+      "resolved_url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De"
+    },
+    {
+      "id": "ref-20bf062604",
+      "url": "https://arxiv.org/abs/2607.13196",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.13196"
+    },
+    {
+      "id": "asahipolicy2026",
+      "url": "https://asahilinux.org/llm-policy/",
+      "status": 206,
+      "resolved_url": "https://asahilinux.org/llm-policy/"
+    },
+    {
+      "id": "westby2026",
+      "url": "https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work",
+      "status": 200,
+      "resolved_url": "https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work"
+    },
+    {
+      "id": "ref-8ecd8d70a1",
+      "url": "https://github.com/SWE-bench/SWE-bench",
+      "status": 206,
+      "resolved_url": "https://github.com/SWE-bench/SWE-bench"
+    },
+    {
+      "id": "ref-34e37fa225",
+      "url": "https://proceedings.mlr.press/v318/amro26a.html",
+      "status": 206,
+      "resolved_url": "https://proceedings.mlr.press/v318/amro26a.html"
+    },
+    {
+      "id": "gimppolicy2026",
+      "url": "https://developer.gimp.org/core/maintainer/giving-developer-right/",
+      "status": 206,
+      "resolved_url": "https://developer.gimp.org/core/maintainer/giving-developer-right/"
+    },
+    {
+      "id": "ref-fee88585ea",
+      "url": "https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html",
+      "status": 200,
+      "resolved_url": "https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html"
+    },
+    {
+      "id": "ref-7ba221a977",
+      "url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
+      "status": 200,
+      "resolved_url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning"
+    },
+    {
+      "id": "norway2026",
+      "url": "https://docs.iza.org/dp18767.pdf",
+      "status": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "id": "shen2026",
+      "url": "https://arxiv.org/abs/2601.20245",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2601.20245"
+    },
+    {
+      "id": "ref-db9d091351",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "status": 206,
+      "resolved_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+    },
+    {
+      "id": "alphafoldimpact2026",
+      "url": "https://www.nber.org/papers/w35143",
+      "status": 200,
+      "resolved_url": "https://www.nber.org/papers/w35143"
+    },
+    {
+      "id": "ref-c12b530ad9",
+      "url": "https://arxiv.org/abs/2607.21832",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.21832"
+    },
+    {
+      "id": "ref-f5457108a3",
+      "url": "https://www.atlassian.com/blog/company-news/ai-sdlc",
+      "status": 206,
+      "resolved_url": "https://www.atlassian.com/blog/company-news/ai-sdlc"
+    },
+    {
+      "id": "ref-e337528cf5",
+      "url": "https://link.springer.com/article/10.1186/s41239-026-00614-9",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=51e7a538-af85-4b06-b06a-5d8686698f4c"
+    },
+    {
+      "id": "linuxgenerated2026",
+      "url": "https://docs.kernel.org/process/generated-content.html",
+      "status": 206,
+      "resolved_url": "https://docs.kernel.org/process/generated-content.html"
+    },
+    {
+      "id": "torvaldsassoc2026",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array",
+      "status": 200,
+      "resolved_url": "https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array"
+    },
+    {
+      "id": "llamalima2026",
+      "url": "https://arxiv.org/abs/2601.18685v5",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2601.18685v5"
+    },
+    {
+      "id": "gravitypolicy2026",
+      "url": "https://gravitylinux.org/policies/llm/",
+      "status": 200,
+      "resolved_url": "https://gravitylinux.org/policies/llm/"
+    },
+    {
+      "id": "taomath2026",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "status": 206,
+      "resolved_url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf"
+    },
+    {
+      "id": "klowdentao2026",
+      "url": "https://arxiv.org/abs/2603.26524v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.26524v1"
+    },
+    {
+      "id": "taoicm2026",
+      "url": "https://arxiv.org/abs/2608.16753v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.16753v1"
+    },
+    {
+      "id": "rdmetrics2026",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "status": 200,
+      "resolved_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+    },
+    {
+      "id": "metr2026survey",
+      "url": "https://metr.org/blog/2026-05-11-ai-usage-survey",
+      "status": 206,
+      "resolved_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/"
+    },
+    {
+      "id": "ownership2026",
+      "url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+      "status": 206,
+      "resolved_url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf"
+    },
+    {
+      "id": "claynavier2026",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "status": 200,
+      "resolved_url": "https://www.claymath.org/news/navier-stokes-announcement/"
+    },
+    {
+      "id": "naviertranslation2026",
+      "url": "https://arxiv.org/abs/2610.08144v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2610.08144v1"
+    },
+    {
+      "id": "oecdeducation2026",
+      "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "alphaproof2025",
+      "url": "https://www.nature.com/articles/s41586-025-09833-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=10053667-b14a-4945-8566-e586b2838640"
+    },
+    {
+      "id": "openainavier2026",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "status": 206,
+      "resolved_url": "https://openai.com/index/navier-stokes-solution/"
+    },
+    {
+      "id": "ref-9c4616e51d",
+      "url": "https://arxiv.org/abs/2608.10178",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.10178"
+    },
+    {
+      "id": "ref-e7d6fa9f32",
+      "url": "https://arxiv.org/abs/2608.06701",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.06701"
+    },
+    {
+      "id": "lepp2026",
+      "url": "https://arxiv.org/abs/2607.24755",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.24755"
+    },
+    {
+      "id": "demourakernel2026",
+      "url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+      "status": 206,
+      "resolved_url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/"
+    },
+    {
+      "id": "ref-96ff1d3807",
+      "url": "https://www.oecd.org/en/publications/2026/01/oecd-digital-education-outlook-2026_940e0dd8.html",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-6c6c6edf18",
+      "url": "https://arxiv.org/abs/2601.20802",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2601.20802"
+    },
+    {
+      "id": "ref-8a1ba594ee",
+      "url": "https://arxiv.org/abs/2605.20695",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.20695"
+    },
+    {
+      "id": "researchgym2026",
+      "url": "https://arxiv.org/abs/2602.15112",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2602.15112"
+    },
+    {
+      "id": "ref-5f7ee6a5f8",
+      "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo",
+      "status": 206,
+      "resolved_url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+    },
+    {
+      "id": "ref-03ecb262cc",
+      "url": "https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-",
+      "status": 206,
+      "resolved_url": "https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/"
+    },
+    {
+      "id": "ref-12d21bb68f",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
+      "status": 200,
+      "resolved_url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html"
+    },
+    {
+      "id": "sweci2026",
+      "url": "https://arxiv.org/abs/2603.03823",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.03823"
+    },
+    {
+      "id": "ref-d23bee8852",
+      "url": "https://arxiv.org/abs/2607.06065",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.06065"
+    },
+    {
+      "id": "ref-dc3f47c33a",
+      "url": "https://www.nature.com/articles/s41586-025-10072-4",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=bd8ddef9-032c-47b3-876c-f9514b0629e5"
+    },
+    {
+      "id": "ref-e299630b86",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "status": 206,
+      "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"
+    },
+    {
+      "id": "taoliving2026",
+      "url": "https://teorth.github.io/tao-web/ai-views.html",
+      "status": 206,
+      "resolved_url": "https://teorth.github.io/tao-web/ai-views.html"
+    },
+    {
+      "id": "coverage2026",
+      "url": "https://arxiv.org/abs/2607.18057",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.18057"
+    },
+    {
+      "id": "aiindex2026",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "status": 200,
+      "resolved_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    },
+    {
+      "id": "nscc2026",
+      "url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
+      "status": 200,
+      "resolved_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/"
+    },
+    {
+      "id": "interfaces2026",
+      "url": "https://arxiv.org/abs/2608.11386",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.11386"
+    },
+    {
+      "id": "vella2026",
+      "url": "https://arxiv.org/abs/2605.23135",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.23135"
+    },
+    {
+      "id": "pragmatic2026",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "status": 200,
+      "resolved_url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026"
+    },
+    {
+      "id": "iloreview2026",
+      "url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+      "status": 206,
+      "resolved_url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical"
+    },
+    {
+      "id": "candidate-sciencedirect-2026",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "iqbal2026",
+      "url": "https://dl.acm.org/doi/10.1145/3786148.3788622",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-6a4ef3528c",
+      "url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+      "status": 200,
+      "resolved_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html"
+    },
+    {
+      "id": "kompella2026",
+      "url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+      "status": 200,
+      "resolved_url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering"
+    },
+    {
+      "id": "ref-ac9eac4127",
+      "url": "https://arxiv.org/abs/2603.16975",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.16975"
+    },
+    {
+      "id": "gates2026",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-5b8fb411c7",
+      "url": "https://arxiv.org/abs/2605.06464",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.06464"
+    },
+    {
+      "id": "ref-6bc1fd113e",
+      "url": "https://arxiv.org/abs/2601.14470",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2601.14470"
+    },
+    {
+      "id": "aiscientist2026",
+      "url": "https://www.nature.com/articles/s41586-026-10265-5",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=018e9833-96b8-4f3e-9f8b-cbc7fe5f22c0"
+    },
+    {
+      "id": "wilson2026",
+      "url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong",
+      "status": 206,
+      "resolved_url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/"
+    },
+    {
+      "id": "ref-ab61bb638a",
+      "url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code",
+      "status": 206,
+      "resolved_url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/"
+    },
+    {
+      "id": "uber2026",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+      "status": 206,
+      "resolved_url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/"
+    },
+    {
+      "id": "hesa2026",
+      "url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "vero2026",
+      "url": "https://arxiv.org/abs/2608.13522",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.13522"
+    },
+    {
+      "id": "metr2026update",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update",
+      "status": 206,
+      "resolved_url": "https://metr.org/blog/2026-02-24-uplift-update/"
+    },
+    {
+      "id": "hales2026",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "status": 200,
+      "resolved_url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+    },
+    {
+      "id": "ref-af4b79f2b5",
+      "url": "https://arxiv.org/abs/2607.28041",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.28041"
+    },
+    {
+      "id": "ref-529895b385",
+      "url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+      "status": 200,
+      "resolved_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/where-is-the-ai-jobs-crisis"
+    },
+    {
+      "id": "ref-11a15eb594",
+      "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+      "status": 200,
+      "resolved_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/"
+    },
+    {
+      "id": "ref-33e5e5bcd6",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "demirer2026",
+      "url": "https://www.nber.org/papers/w35275",
+      "status": 200,
+      "resolved_url": "https://www.nber.org/papers/w35275"
+    },
+    {
+      "id": "roblespolicies2026",
+      "url": "https://arxiv.org/abs/2609.07919",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.07919"
+    },
+    {
+      "id": "bergh2026",
+      "url": "https://arxiv.org/abs/2609.21194",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.21194"
+    },
+    {
+      "id": "ref-cdc899d526",
+      "url": "https://arxiv.org/abs/2512.05239",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2512.05239"
+    },
+    {
+      "id": "ref-293e50cc97",
+      "url": "https://arxiv.org/abs/2508.00083",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2508.00083"
+    },
+    {
+      "id": "ref-5830326d93",
+      "url": "https://arxiv.org/abs/2511.04824",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2511.04824"
+    },
+    {
+      "id": "gitclear2025",
+      "url": "https://www.gitclear.com/ai_assistant_code_quality_2025_research",
+      "status": 200,
+      "resolved_url": "https://www.gitclear.com/ai_assistant_code_quality_2025_research"
+    },
+    {
+      "id": "ref-47ac0a3015",
+      "url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+      "status": 206,
+      "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"
+    },
+    {
+      "id": "stackoverflow2025",
+      "url": "https://survey.stackoverflow.co/2025/ai",
+      "status": 206,
+      "resolved_url": "https://survey.stackoverflow.co/2025/ai"
+    },
+    {
+      "id": "maintenance2025",
+      "url": "https://arxiv.org/abs/2510.10165",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2510.10165"
+    },
+    {
+      "id": "alphaevolve2025",
+      "url": "https://arxiv.org/abs/2506.13131",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2506.13131"
+    },
+    {
+      "id": "sabra2025",
+      "url": "https://arxiv.org/abs/2508.14727",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2508.14727"
+    },
+    {
+      "id": "ref-619316fd46",
+      "url": "https://arxiv.org/abs/2512.18925",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2512.18925"
+    },
+    {
+      "id": "stanford2025",
+      "url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence",
+      "status": 206,
+      "resolved_url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/"
+    },
+    {
+      "id": "zigpolicy2026",
+      "url": "https://ziglang.org/code-of-conduct/",
+      "status": 206,
+      "resolved_url": "https://ziglang.org/code-of-conduct/"
+    },
+    {
+      "id": "qemupolicy2026",
+      "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+      "status": 200,
+      "resolved_url": "https://www.qemu.org/docs/master/devel/code-provenance.html"
+    },
+    {
+      "id": "ref-d0464e1cee",
+      "url": "https://proceedings.mlr.press/v267/kazdan25a.html",
+      "status": 206,
+      "resolved_url": "https://proceedings.mlr.press/v267/kazdan25a.html"
+    },
+    {
+      "id": "ref-829fdbdc8c",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/researchers-uncover-critical-ai-ide-flaws-exposing-developers-to-data-theft-and-rce",
+      "status": 206,
+      "resolved_url": "https://www.tomshardware.com/tech-industry/cyber-security/researchers-uncover-critical-ai-ide-flaws-exposing-developers-to-data-theft-and-rce"
+    },
+    {
+      "id": "dgm2025",
+      "url": "https://arxiv.org/abs/2505.22954",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2505.22954"
+    },
+    {
+      "id": "ref-e534397303",
+      "url": "https://www.microsoft.com/en-us/research/publication/dear-diary-a-randomized-controlled-trial-of-generative-ai-coding-tools-in-the-workplace",
+      "status": 200,
+      "resolved_url": "https://www.microsoft.com/en-us/research/publication/dear-diary-a-randomized-controlled-trial-of-generative-ai-coding-tools-in-the-workplace/"
+    },
+    {
+      "id": "ref-1fb28b41e8",
+      "url": "https://arxiv.org/abs/2509.20353",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2509.20353"
+    },
+    {
+      "id": "ref-af45ed851c",
+      "url": "https://arxiv.org/abs/2509.10402",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2509.10402"
+    },
+    {
+      "id": "discorl2025",
+      "url": "https://www.nature.com/articles/s41586-025-09761-x",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=3d03592d-6f0e-4fb9-98d0-1e55e1377fb2"
+    },
+    {
+      "id": "ref-45820a1db8",
+      "url": "https://link.springer.com/article/10.1007/s10664-025-10658-6",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=cd995228-55d1-45f3-9bfa-51ee4a36a333"
+    },
+    {
+      "id": "dora2025",
+      "url": "https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report",
+      "status": 200,
+      "resolved_url": "https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report/"
+    },
+    {
+      "id": "ref-c236bdb569",
+      "url": "https://research.google/pubs/dora-impact-of-generative-ai-in-software-development",
+      "status": 200,
+      "resolved_url": "https://research.google/pubs/dora-impact-of-generative-ai-in-software-development/"
+    },
+    {
+      "id": "ref-3d0ab8c8d6",
+      "url": "https://dora.dev/ai/gen-ai-report",
+      "status": 206,
+      "resolved_url": "https://dora.dev/ai/gen-ai-report/report/"
+    },
+    {
+      "id": "ref-94c646c350",
+      "url": "https://arxiv.org/abs/2501.13282",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2501.13282"
+    },
+    {
+      "id": "agenticsurvey2025",
+      "url": "https://arxiv.org/abs/2508.14111v2",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2508.14111v2"
+    },
+    {
+      "id": "retail2025",
+      "url": "https://arxiv.org/abs/2510.12049",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2510.12049"
+    },
+    {
+      "id": "brynjolfsson2025",
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-ab9872b8a8",
+      "url": "https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F",
+      "status": 200,
+      "resolved_url": "https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F"
+    },
+    {
+      "id": "bastani2025",
+      "url": "https://doi.org/10.1073/pnas.2422633122",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-b05d2a6ff4",
+      "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+      "status": 200,
+      "resolved_url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic"
+    },
+    {
+      "id": "ref-87a560f4b1",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/dora-report-2025",
+      "status": 200,
+      "resolved_url": "https://blog.google/innovation-and-ai/technology/developers-tools/dora-report-2025/"
+    },
+    {
+      "id": "ref-d79880fda4",
+      "url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
+      "status": 200,
+      "resolved_url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-"
+    },
+    {
+      "id": "cotroneo2025",
+      "url": "https://arxiv.org/abs/2508.21634",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2508.21634"
+    },
+    {
+      "id": "ref-d062c0d748",
+      "url": "https://arxiv.org/abs/2503.22238",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2503.22238"
+    },
+    {
+      "id": "metr2025",
+      "url": "https://arxiv.org/abs/2507.09089",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2507.09089"
+    },
+    {
+      "id": "ref-596ebdd94b",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study",
+      "status": 206,
+      "resolved_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+    },
+    {
+      "id": "ref-fcb35d8ba0",
+      "url": "https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected",
+      "status": 206,
+      "resolved_url": "https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected"
+    },
+    {
+      "id": "ref-b9df7a9b2a",
+      "url": "https://arxiv.org/abs/2503.05040",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2503.05040"
+    },
+    {
+      "id": "ref-c91813d328",
+      "url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
+      "status": 200,
+      "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/"
+    },
+    {
+      "id": "ref-18f89167b2",
+      "url": "https://arxiv.org/abs/2509.05755",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2509.05755"
+    },
+    {
+      "id": "ref-e36d2a38a9",
+      "url": "https://aliciasassermodestino.com/wp-content/uploads/2025/06/Impact_of_GenAI_on_SWEs_061625.pdf",
+      "status": 206,
+      "resolved_url": "https://aliciasassermodestino.com/wp-content/uploads/2025/06/Impact_of_GenAI_on_SWEs_061625.pdf"
+    },
+    {
+      "id": "ref-91e8bb760f",
+      "url": "https://arxiv.org/abs/2504.20814",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2504.20814"
+    },
+    {
+      "id": "ref-c49fcf21a4",
+      "url": "https://arxiv.org/abs/2506.11022",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2506.11022"
+    },
+    {
+      "id": "ref-a4d736c4f3",
+      "url": "https://arxiv.org/abs/2510.26103",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2510.26103"
+    },
+    {
+      "id": "ref-283d4e8368",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-cebccd633f",
+      "url": "https://arxiv.org/abs/2511.04427",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2511.04427"
+    },
+    {
+      "id": "humlum2026",
+      "url": "https://www.nber.org/papers/w33777",
+      "status": 200,
+      "resolved_url": "https://www.nber.org/papers/w33777"
+    },
+    {
+      "id": "ref-e71e370e4c",
+      "url": "https://arxiv.org/abs/2510.03884",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2510.03884"
+    },
+    {
+      "id": "ref-9f81141e49",
+      "url": "https://www.faros.ai/blog/ai-software-engineering",
+      "status": 200,
+      "resolved_url": "https://www.faros.ai/blog/ai-software-engineering"
+    },
+    {
+      "id": "cui2025",
+      "url": "https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers",
+      "status": 200,
+      "resolved_url": "https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers/"
+    },
+    {
+      "id": "oecdproductivity2025",
+      "url": "https://www.oecd.org/en/publications/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_b21df222-en.html",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "afroz2025",
+      "url": "https://arxiv.org/abs/2510.24265",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2510.24265"
+    },
+    {
+      "id": "ref-451e19eb85",
+      "url": "https://arxiv.org/abs/2511.01348",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2511.01348"
+    },
+    {
+      "id": "ref-8c76af1ddd",
+      "url": "https://arxiv.org/abs/2504.20612",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2504.20612"
+    },
+    {
+      "id": "ref-712e3405f2",
+      "url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers",
+      "status": 200,
+      "resolved_url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/"
+    },
+    {
+      "id": "ref-59e035c44a",
+      "url": "https://arxiv.org/abs/2507.03156",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2507.03156"
+    },
+    {
+      "id": "ref-022ae73d8c",
+      "url": "https://devecosystem-2025.jetbrains.com",
+      "status": 206,
+      "resolved_url": "https://devecosystem-2025.jetbrains.com"
+    },
+    {
+      "id": "herrengtvibe",
+      "url": "https://blog.florianherrengt.com/vibe-coder-career-path.html",
+      "status": 206,
+      "resolved_url": "https://blog.florianherrengt.com/vibe-coder-career-path.html"
+    },
+    {
+      "id": "ref-3e9d5d7dce",
+      "url": "https://www.nature.com/articles/s41586-024-07566-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=64496a90-ebd3-4a10-8681-52dfec93add6"
+    },
+    {
+      "id": "messeri2024",
+      "url": "https://www.nature.com/articles/s41586-024-07146-0",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=c04c9db7-8b26-466e-91a2-38bc238bf060"
+    },
+    {
+      "id": "dora2024",
+      "url": "https://dora.dev/research/2024/dora-report",
+      "status": 206,
+      "resolved_url": "https://dora.dev/research/2024/dora-report/"
+    },
+    {
+      "id": "ref-b9b0edfcd0",
+      "url": "https://arxiv.org/abs/2412.06603",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2412.06603"
+    },
+    {
+      "id": "ref-f4550e10d8",
+      "url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education",
+      "status": 200,
+      "resolved_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education/"
+    },
+    {
+      "id": "paradis2024",
+      "url": "https://arxiv.org/abs/2410.12944",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2410.12944"
+    },
+    {
+      "id": "ref-10b59b402b",
+      "url": "https://openai.com/index/introducing-swe-bench-verified",
+      "status": 206,
+      "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/"
+    },
+    {
+      "id": "netbsdpolicy2024",
+      "url": "https://www.netbsd.org/developers/commit-guidelines.html",
+      "status": 206,
+      "resolved_url": "https://www.netbsd.org/developers/commit-guidelines.html"
+    },
+    {
+      "id": "ref-1ca76a8f96",
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1436350/full",
+      "status": 206,
+      "resolved_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1436350/full"
+    },
+    {
+      "id": "ref-c6b798fb16",
+      "url": "https://arxiv.org/abs/2303.17125",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2303.17125"
+    },
+    {
+      "id": "noy2023",
+      "url": "https://doi.org/10.1126/science.adh2586",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "funsearch2023",
+      "url": "https://www.nature.com/articles/s41586-023-06924-6",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=7a10cc8b-006c-47ad-9247-615ad868130a"
+    },
+    {
+      "id": "ref-fb7d2bc1f2",
+      "url": "https://tidyfirst.substack.com/p/measuring-developer-productivity",
+      "status": 200,
+      "resolved_url": "https://newsletter.kentbeck.com/p/measuring-developer-productivity"
+    },
+    {
+      "id": "dellacqua2023",
+      "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+      "status": 206,
+      "resolved_url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
+    },
+    {
+      "id": "ref-dd1e2958ee",
+      "url": "https://arxiv.org/abs/2310.02059",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2310.02059"
+    },
+    {
+      "id": "ref-3e4a5dea3a",
+      "url": "https://arxiv.org/abs/2310.06770",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2310.06770"
+    },
+    {
+      "id": "peng2023",
+      "url": "https://arxiv.org/abs/2302.06590",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2302.06590"
+    },
+    {
+      "id": "ref-ff25a1c7c8",
+      "url": "https://arxiv.org/abs/2108.09293",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2108.09293"
+    },
+    {
+      "id": "alphafold2021",
+      "url": "https://www.nature.com/articles/s41586-021-03819-2",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=5e74832d-d0c3-4510-bf98-d4b461c21dab"
+    },
+    {
+      "id": "space2021",
+      "url": "https://queue.acm.org/detail.cfm?id=3454124",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-a97b44c4bb",
+      "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=f4afed59-c88c-43f0-aca0-675843abebde"
+    },
+    {
+      "id": "ref-e2f16876f5",
+      "url": "https://about.gitlab.com/resources/ai-accountability-survey-2026",
+      "status": 200,
+      "resolved_url": "https://about.gitlab.com/resources/ai-accountability-survey-2026/"
+    },
+    {
+      "id": "ref-3d99cf87d4",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "status": 206,
+      "resolved_url": "https://openai.com/index/how-agents-are-transforming-work/"
+    },
+    {
+      "id": "ref-824b5ba22f",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-a5ad621910",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-b6ad5171c7",
+      "url": "https://www.bls.gov/news.release/archives/empsit_07022026.pdf",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-e926298d45",
+      "url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+      "status": 206,
+      "resolved_url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5"
+    },
+    {
+      "id": "ref-6de8a45dae",
+      "url": "https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-2242749b51",
+      "url": "https://www.hesa.ac.uk/news/27-01-2026/sb273-higher-education-student-statistics/subjects",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-1e963c6037",
+      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity",
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "ref-8264be6d82",
+      "url": "https://www.mdpi.com/2075-4698/15/1/6",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-e4cd7d579d",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950584925000904",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-bf9d293e6b",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2451958825000570",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ref-9c796dc1e9",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666920X25001778",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.22737750",
+      "status": 200,
+      "resolved_url": "https://api.datacite.org/dois/10.5281/zenodo.22737750"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://arxiv.org/abs/2504.21798",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2504.21798"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://arxiv.org/abs/2507.03156v3",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2507.03156v3"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://arxiv.org/abs/2510.03884v2",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2510.03884v2"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://arxiv.org/html/2605.23135v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/html/2605.23135v1"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://codeberg.org/ziglang/ziglang.org/src/commit/0601a4358fec6fe445688face107a5e914b68a16/content/en-US/code-of-conduct.smd",
+      "status": 200,
+      "resolved_url": "https://codeberg.org/ziglang/ziglang.org/src/commit/0601a4358fec6fe445688face107a5e914b68a16/content/en-US/code-of-conduct.smd"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://codeberg.org/ziglang/ziglang.org/src/commit/f768f750524efd7595252759fcee1a20925a358b/content/en-US/code-of-conduct.smd",
+      "status": 200,
+      "resolved_url": "https://codeberg.org/ziglang/ziglang.org/src/commit/f768f750524efd7595252759fcee1a20925a358b/content/en-US/code-of-conduct.smd"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": 206,
+      "resolved_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "status": 206,
+      "resolved_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://docs.github.com/en/actions/deployment/targeting-different-environments/managing-environments-for-deployment",
+      "status": 206,
+      "resolved_url": "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages",
+      "status": 206,
+      "resolved_url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "status": 206,
+      "resolved_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.1007/s10462-026-11665-9",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=723eed85-bfb5-47ba-8525-2e1484e25acf"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.1057/s41599-026-07019-z",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=b6d8d4f3-4510-4121-b6df-f859a7a023ec"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.1145/3832783.3834386",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.1787/062a7394-en",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.1787/b21df222-en",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.2139/ssrn.5604932",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.31234/osf.io/2gej5_v2",
+      "status": 206,
+      "resolved_url": "https://osf.io/2gej5_v2"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.4230/LIPIcs.ESEM.2026.67",
+      "status": 200,
+      "resolved_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://doi.org/10.54394/00034628",
+      "status": 206,
+      "resolved_url": "https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/995703566902676"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/AsahiLinux/AsahiLinux.github.io/blob/6eccc0319839a9e21d89977f98140821369c3255/content/llm-policy.md",
+      "status": 206,
+      "resolved_url": "https://github.com/AsahiLinux/AsahiLinux.github.io/blob/6eccc0319839a9e21d89977f98140821369c3255/content/llm-policy.md"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/GravityLinux/website/blob/b1a74639fe8931640f7f8eecb99f8b77f257463a/content/about.md",
+      "status": 206,
+      "resolved_url": "https://github.com/GravityLinux/website/blob/b1a74639fe8931640f7f8eecb99f8b77f257463a/content/about.md"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/GravityLinux/website/blob/d0bdd17839e9975a00d9201e842705acf2ca5a69/content/policies/llm.md",
+      "status": 206,
+      "resolved_url": "https://github.com/GravityLinux/website/blob/d0bdd17839e9975a00d9201e842705acf2ca5a69/content/policies/llm.md"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md",
+      "status": 206,
+      "resolved_url": "https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help/does-ai-help.github.io"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io/issues/new/choose",
+      "status": 206,
+      "resolved_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdoes-ai-help%2Fdoes-ai-help.github.io%2Fissues%2Fnew%2Fchoose"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io/pulls",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help/does-ai-help.github.io/pulls"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://jit.team",
+      "status": 200,
+      "resolved_url": "https://jit.team"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "status": 206,
+      "resolved_url": "https://metr.org/blog/2026-02-24-uplift-update/"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://openreview.net/forum?id=VTF8yNQM66",
+      "status": 200,
+      "resolved_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DVTF8yNQM66"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://openreview.net/forum?id=riTiq3i21b",
+      "status": 200,
+      "resolved_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DriTiq3i21b"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
+      "status": 200,
+      "resolved_url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://terrytao.wordpress.com/2026/10/10/math-2-0/",
+      "status": 200,
+      "resolved_url": "https://terrytao.wordpress.com/2026/10/10/math-2-0/"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://www.linkedin.com/in/witoldbolt/",
+      "status": 200,
+      "resolved_url": "https://pl.linkedin.com/in/witoldbolt"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://www.techdirt.com/tag/ceos/",
+      "status": 200,
+      "resolved_url": "https://www.techdirt.com/tag/ceos/"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io/releases/tag/v2026.10.0",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help/does-ai-help.github.io/releases/tag/v2026.10.0"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://api.github.com/repos/AsahiLinux/AsahiLinux.github.io/commits?path=content/llm-policy.md&per_page=100",
+      "status": 206,
+      "resolved_url": "https://api.github.com/repos/AsahiLinux/AsahiLinux.github.io/commits?path=content/llm-policy.md&per_page=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/about.md&per_page=100",
+      "status": 206,
+      "resolved_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/about.md&per_page=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/policies/llm.md&per_page=100",
+      "status": 206,
+      "resolved_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/policies/llm.md&per_page=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://codeberg.org/api/v1/repos/ziglang/ziglang.org/commits?path=content%2Fen-US%2Fcode-of-conduct.smd&limit=100",
+      "status": 200,
+      "resolved_url": "https://codeberg.org/api/v1/repos/ziglang/ziglang.org/commits?path=content%2Fen-US%2Fcode-of-conduct.smd&limit=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1007/978-1-4842-4221-6",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=a89a3269-9a63-4aca-9451-17d3049b2079"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1007/978-981-95-3537-8_9",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=a5b8f271-9683-4673-8279-f14683c5e9af"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1007/s10664-025-10658-6",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=ed3edbe8-b55b-42cf-99bb-de54454fb105"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1007/s10664-025-10735-w",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=063346c9-c028-4847-8466-591f0c0b9dbe"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1016/j.im.2026.104306",
+      "status": 200,
+      "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0378720626000066"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1017/9781009581738",
+      "status": 200,
+      "resolved_url": "https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-021-03819-2",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=833f3212-2b3d-4a5c-984c-bdbb8ee6fd89"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-023-06924-6",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=e7ee28b8-ae65-4c5f-be8a-8b211ea5acb8"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-024-07146-0",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=84b7cf0a-d5e6-4832-85d1-54c65bc56feb"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-024-07566-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=4e6332c0-eba4-494e-a129-9fae990496b3"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-025-09761-x",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=a7ab3971-822f-4835-9cee-6384cf78abb6"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-025-09833-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=ac8634f5-a6f3-48bc-a637-26eaa687496a"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-025-09922-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=60beb379-6268-48a7-bc29-06ce23713d12"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-025-10072-4",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=65e85b36-653c-4a00-bd0c-c5ee2863d8d9"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-026-10265-5",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=33aa5342-8178-4d6e-9a20-8515ce79de40"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-026-10644-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=8dc58783-3297-430f-b6d7-fc1a32fd4901"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-026-10652-y",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=04a0be2a-fb48-4892-adfa-de2598fad80b"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1038/s41586-026-10658-6",
+      "status": 200,
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=d5dbcd89-2dca-4a97-848c-c8a6216057af"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1093/qje/qjae044",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1145/3454122.3454124",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1145/3786148.3788622",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1145/3793302.3793349",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1145/3793302.3793367",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1145/3809494",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1186/s41239-026-00614-9",
+      "status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=8d6b1df1-0096-497d-8596-e29b9ba98571"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.2139/ssrn.7070979",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.24251/HICSS.2026.880",
+      "status": 200,
+      "resolved_url": "https://scholarspace.manoa.hawaii.edu/items/8249fcb7-d462-42c7-8bce-f99dfa2ea06e"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.26803/ijlter.25.1.1",
+      "status": 200,
+      "resolved_url": "https://ijlter.org/index.php/ijlter/article/view/14816"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.3386/w33777",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.3386/w35143",
+      "status": 206,
+      "resolved_url": "https://www.nber.org/system/files/working_papers/w35143/w35143.pdf"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.3386/w35275",
+      "status": 206,
+      "resolved_url": "https://www.nber.org/system/files/working_papers/w35275/w35275.pdf"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.3386/w35684",
+      "status": 206,
+      "resolved_url": "https://www.nber.org/system/files/working_papers/w35684/w35684.pdf"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.3389/frai.2024.1436350",
+      "status": 206,
+      "resolved_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1436350/full"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2508.14111",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2508.14111"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2601.18685",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2601.18685"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2603.26524",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.26524"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2605.04779",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.04779"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2605.16706",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2605.16706"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2607.01904",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.01904"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2608.16753",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.16753"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2609.07542",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.07542"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2609.07919",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2609.07919"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2610.08144",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2610.08144"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.5281/zenodo.22737750",
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.58012/AHC6-GK69",
+      "status": 200,
+      "resolved_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education/"
+    }
+  ]
+}

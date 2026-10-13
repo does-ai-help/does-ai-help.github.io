@@ -10,6 +10,8 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const site=path.join(root,'site');
 const records=JSON.parse(fs.readFileSync(path.join(root,'data/sources.json'),'utf8'));
 const release=JSON.parse(fs.readFileSync(path.join(site,'downloads/release.json'),'utf8'));
+const downloadManifest=JSON.parse(fs.readFileSync(path.join(site,'downloads/download-files.json'),'utf8'));
+const publicName=name=>downloadManifest.files[name] || name;
 const verifiedCount=records.filter(r=>r.verified).length;
 const candidateCount=records.filter(r=>r.verification.level==='candidate').length;
 const coreCount=records.filter(r=>r.verification.level==='content-checked').length;
@@ -48,7 +50,7 @@ try {
   }
   const cutoffLabel=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(release.cutoff+'T00:00:00Z'));
   assert.equal(await page.locator('.release-detail').innerText().then(t=>t.includes(cutoffLabel)),true);
-  assert.equal(await page.locator('.pdf-link').getAttribute('href'),`downloads/does-ai-help-${release.release}.pdf`);
+  assert.equal(await page.locator('.pdf-link').getAttribute('href'),`downloads/${publicName(`does-ai-help-${release.release}.pdf`)}`);
   assert.equal(await page.locator('.byline').innerText().then(t=>t.includes('Witold Bołt, PhD')),true);
   assert.equal(await page.locator('a[href="mailto:Witold.Bolt@jit.team"]').count(),1);
   assert.equal(await page.locator('a[href="https://jit.team"]').count(),1);
@@ -114,7 +116,7 @@ try {
   await kpmg.locator('details').evaluate(el=>el.open=true);
   assert.match(await kpmg.innerText(),/Publication date: 2026-09/);
   assert.match(await kpmg.innerText(),/Third-party PDF not redistributed/);
-  assert.equal(await kpmg.locator('a[href="downloads/kpmg-q3-2026.md"]').count(),1);
+  assert.equal(await kpmg.locator(`a[href="downloads/${publicName('kpmg-q3-2026.md')}"]`).count(),1);
   await kpmg.locator('details').evaluate(el=>el.open=false);
   const swe=page.locator('#ref-10b59b402b');
   assert.equal(await swe.locator('.source-meta span').first().innerText(),'2024');
@@ -124,8 +126,8 @@ try {
   assert.match(await swe.innerText(),/Neil Chowdhury/);
   await swe.locator('details').evaluate(el=>el.open=false);
   assert.equal(await page.locator('#ref-3d0ab8c8d6 .source-meta span').first().innerText(),'2025');
-  assert.equal(await page.locator('#ref-8ecd8d70a1 a[href="downloads/swebench-recommended.bib"]').count(),1);
-  assert.equal(await page.locator('#ref-3e4a5dea3a a[href="downloads/swebench-recommended.bib"]').count(),1);
+  assert.equal(await page.locator(`#ref-8ecd8d70a1 a[href="downloads/${publicName('swebench-recommended.bib')}"]`).count(),1);
+  assert.equal(await page.locator(`#ref-3e4a5dea3a a[href="downloads/${publicName('swebench-recommended.bib')}"]`).count(),1);
   const correctedAuthors=JSON.parse(fs.readFileSync(path.join(root,'data/bibliographic-corrections.json'),'utf8'));
   for(const [id,correction] of Object.entries(correctedAuthors).filter(([,c])=>c.authorship_basis)) {
     const row=page.locator('#'+id);
@@ -161,7 +163,7 @@ try {
   await page.locator('#verification').selectOption('candidate');assert.equal(await page.locator('.source-row:visible').count(),candidateCount);
   await page.locator('#verification').selectOption('content-checked');assert.equal(await page.locator('.source-row:visible').count(),coreCount);
   await page.locator('#topic').selectOption('learning');assert.equal(await page.locator('.source-row:visible').count()>0,true);
-  const downloadEvent=page.waitForEvent('download');await page.locator('#export-filtered').click();const download=await downloadEvent;assert.equal(download.suggestedFilename(),'bibliography-filtered.csl.json');
+  const downloadEvent=page.waitForEvent('download');await page.locator('#export-filtered').click();const download=await downloadEvent;assert.equal(download.suggestedFilename(),downloadManifest.filtered_csl);
   await page.locator('button[type=reset]').click();await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);await page.locator('.source-row:visible').first().locator('summary').click();
   await page.screenshot({path:path.join(output,'bibliography-desktop.png')});
   for(const width of [390,768]) {
@@ -187,7 +189,13 @@ try {
     await page.screenshot({path:path.join(output,`document-record-${width}.png`)});
   }
   for(const name of [`does-ai-help-${release.release}.pdf`,'bibliography.csl.json','bibliography.bib','bibliography.ris','sources.csv','sources.json',release.archive_name || `release-${release.release}.zip`,'related-reviews.md','balance-review.md','document-followup.md','BROWSER-VERIFICATION.md','browser-verification.json','reference-verification.json']) {
-    const response=await page.request.get(url+'/downloads/'+name);assert.equal(response.ok(),true,`Download missing: ${name}`);assert.equal((await response.body()).length>0,true);
+    const response=await page.request.get(url+'/downloads/'+publicName(name));assert.equal(response.ok(),true,`Download missing: ${publicName(name)}`);assert.equal((await response.body()).length>0,true);
+  }
+  await page.goto(url+'/bibliography.html');
+  for(const [label,name] of [['BibTeX','bibliography.bib'],['CSL-JSON','bibliography.csl.json'],['CSV','sources.csv'],['JSON Lines','sources.jsonl']]) {
+    const saved=page.waitForEvent('download');
+    await page.getByRole('link',{name:label,exact:true}).click();
+    assert.equal((await saved).suggestedFilename(),publicName(name));
   }
   await page.goto(url+'/releases.html');assert.equal(await page.locator('h1').innerText(),'Releases & methods');
   await page.getByRole('link',{name:'Cite this release',exact:true}).click();
@@ -201,13 +209,13 @@ try {
     await page.screenshot({path:path.join(output,`citation-${width}.png`)});
   }
   for(const format of ['bib','ris','csl.json']) {
-    const response=await page.request.get(url+'/downloads/does-ai-help-citation.'+format);
+    const response=await page.request.get(url+'/downloads/'+publicName('does-ai-help-citation.'+format));
     assert.equal(response.ok(),true);
     assert.match(await response.text(),new RegExp(release.version.replaceAll('.','\\.')));
   }
   const citationDownload=page.waitForEvent('download');
   await page.getByRole('link',{name:'Download BibTeX',exact:true}).click();
-  assert.equal((await citationDownload).suggestedFilename(),'does-ai-help-citation.bib');
+  assert.equal((await citationDownload).suggestedFilename(),publicName('does-ai-help-citation.bib'));
   await page.goto(pathToFileURL(path.join(site,'bibliography.html')).href);
   await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);
   await page.locator('#search').fill('InnovationEval');assert.equal(await page.locator('.source-row:visible').count(),1);

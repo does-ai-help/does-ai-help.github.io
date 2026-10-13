@@ -4,6 +4,7 @@ import shutil
 import json
 import subprocess
 from pathlib import Path
+from download_names import download_names
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,9 +23,11 @@ def main():
     source = output / "article.pdf"
     if not source.exists():
         raise SystemExit("The compiler returned without producing the expected PDF.")
-    release = json.loads((ROOT / "data/release.json").read_text())["release"]
+    meta = json.loads((ROOT / "data/release.json").read_text())
+    release = meta['release']
     target = ROOT / "site/downloads" / f"does-ai-help-{release}.pdf"
     shutil.copyfile(source, target)
+    shutil.copyfile(source, target.with_name(download_names(meta)[target.name]))
     print(f"PDF compiled: {target} ({target.stat().st_size:,} bytes)")
 
 

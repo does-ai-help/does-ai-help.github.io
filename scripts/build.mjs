@@ -10,6 +10,16 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
 const write = (p, text) => { fs.mkdirSync(path.dirname(path.join(root, p)), {recursive:true}); fs.writeFileSync(path.join(root, p), text); };
 const meta = JSON.parse(read('data/release.json'));
+const downloadStems={...JSON.parse(read('data/download-names.json')),[`does-ai-help-${meta.release}.pdf`]:'does-ai-help'};
+const downloadNames=Object.fromEntries(Object.entries(downloadStems).map(([name,stem])=>[name,`${stem}-${meta.version}${name.slice(name.indexOf('.'))}`]));
+const filteredCslName=`${downloadStems['bibliography.csl.json']}-filtered-${meta.version}.csl.json`;
+const publicDownloads = html=>html.replace(/href="downloads\/([^"#]+)(#[^"]*)?"/g,(match,name,fragment='')=>downloadNames[name]?`href="downloads/${downloadNames[name]}${fragment}"`:match);
+const downloadHref = href=>{
+  if(!href.startsWith('downloads/')) return href;
+  const url=new URL(href,'https://downloads.invalid/');
+  const name=url.pathname.slice('/downloads/'.length);
+  return downloadNames[name]?`downloads/${downloadNames[name]}${url.search}${url.hash}`:href;
+};
 const releaseLabel=meta.release_label;
 const cutoffLabel=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(meta.cutoff+'T00:00:00Z'));
 const pdfName=`does-ai-help-${meta.release}.pdf`;
@@ -90,7 +100,7 @@ function inline(tokens) {
   return (tokens||[]).map(t=>{
     if(t.type==='strong') return `\\textbf{${inline(t.tokens)}}`;
     if(t.type==='em') return `\\emph{${inline(t.tokens)}}`;
-    if(t.type==='link') { const href=t.href.startsWith('downloads/') && meta.canonical_url ? new URL(t.href,meta.canonical_url).href : t.href.replace(/^downloads\//,''); return t.text===t.href && /^https?:\/\//.test(href) ? `\\url{${texEscape(href)}}` : `\\href{${texEscape(href)}}{${inline(t.tokens)}}`; }
+    if(t.type==='link') { const target=downloadHref(t.href); const href=target.startsWith('downloads/') && meta.canonical_url ? new URL(target,meta.canonical_url).href : target.replace(/^downloads\//,''); return t.text===t.href && /^https?:\/\//.test(href) ? `\\url{${texEscape(href)}}` : `\\href{${texEscape(href)}}{${inline(t.tokens)}}`; }
     if(t.type==='codespan') return `\\texttt{${texEscape(t.text)}}`;
     if(t.type==='br') return '\\newline ';
     if(t.type==='image') return `\n\\begin{figure}[htbp]\\centering\\includegraphics[width=\\textwidth]{../site/${texEscape(t.href)}}\\end{figure}\n`;
@@ -144,8 +154,8 @@ for (const extension of ['json','csv','md']) {
   if(fs.existsSync(file)) fs.copyFileSync(file,path.join(root,`site/downloads/reference-verification.${extension}`));
 }
 write('site/.nojekyll','');
-write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citations:JSON.parse(read('site/downloads/bibliography.csl.json'))})+';\n');
-write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>','<script src="assets/data.js" defer></script><script src="assets/bibliography.js" defer></script>'));
+write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citations:JSON.parse(read('site/downloads/bibliography.csl.json')),releaseVersion:meta.version,filteredCslName})+';\n');
+write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>',`<script src="assets/data.js?v=${esc(meta.version)}" defer></script><script src="assets/bibliography.js?v=${esc(meta.version)}" defer></script>`));
 for(const filename of ['index.html','bibliography.html','releases.html','cite.html']) {
   let source=read('site/'+filename);
   if(filename==='bibliography.html') for(const r of sources) {
@@ -183,7 +193,12 @@ for(const filename of ['index.html','bibliography.html','releases.html','cite.ht
     .replace('October 2026 · Reference database',`${esc(releaseLabel)} · Reference database`)
     .replace('<h2>October 2026</h2>',`<h2>${esc(releaseLabel)}</h2>`)
     .replace(' | October 2026</title>',` | ${esc(releaseLabel)}</title>`);
-  write('site/'+filename,updated);
+  write('site/'+filename,publicDownloads(updated));
+}
+write('site/downloads/download-files.json',JSON.stringify({version:meta.version,files:downloadNames,filtered_csl:filteredCslName},null,2)+'\n');
+for(const [original,versioned] of Object.entries(downloadNames)) {
+  const file=path.join(root,'site/downloads',original);
+  if(fs.existsSync(file)) fs.copyFileSync(file,path.join(root,'site/downloads',versioned));
 }
 write('build/cited-ids.json',JSON.stringify(citations,null,2));
 console.log(`Built article and evidence map: ${verified.length} checked identities, ${core.length} core annotations, ${citations.length} cited sources.`);

@@ -1,5 +1,12 @@
 # Release history
 
+## 2026.10.12 - Project-specific versioned downloads
+
+- Public bibliography files use `does-ai-work-2026.10.12` with their BibTeX, RIS and CSL-JSON extensions. Filtered exports include the same full release version.
+- Evidence data, review citations, PDF, archive, methods, licenses and verification reports now have project-specific versioned filenames. A generated file manifest records their names.
+- Existing generic URLs and the month-based PDF URL remain compatibility aliases. Previous release archives and published versioned assets are preserved; new archives contain only the current release's files and compatibility aliases.
+- Research findings, source counts and the 13 October cutoff are unchanged.
+
 ## 2026.10.11 - Leiden Declaration
 
 - Added the Leiden Declaration on Artificial Intelligence and Mathematics with its 16 registered authors, original 2 June 2026 publication date, Zenodo DOI and separate September arXiv version history.

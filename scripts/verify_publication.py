@@ -5,11 +5,13 @@ import time
 import urllib.request
 from pathlib import Path
 from urllib.parse import urljoin
+from download_names import download_names
 
 ROOT = Path(__file__).resolve().parents[1]
 meta = json.loads((ROOT / "data/release.json").read_text())
 base = meta["canonical_url"]
-paths = ["", "bibliography.html", "releases.html", f"downloads/does-ai-help-{meta['release']}.pdf", "downloads/bibliography.csl.json", "downloads/" + meta.get("archive_name", f"release-{meta['release']}.zip")]
+names = download_names(meta)
+paths = ["", "bibliography.html", "releases.html", 'cite.html', "downloads/"+names[f"does-ai-help-{meta['release']}.pdf"], "downloads/"+names['bibliography.csl.json'], "downloads/"+names['bibliography.bib'], "downloads/"+meta['archive_name']]
 for path in paths:
     error = None
     for attempt in range(5):

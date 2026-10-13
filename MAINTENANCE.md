@@ -6,7 +6,7 @@ The publication is maintained through explicit, versioned editorial releases. Au
 
 1. Create the next monthly release manifest and set the evidence cutoff. Retain the existing release directory and ZIP without modification.
 
-   For a patch release, increment `version` and give `snapshot` and `archive_name` new, unique values in `data/release.json`. The month-based current PDF filename stays stable, while each archived snapshot preserves its original PDF and metadata.
+   For a patch release, increment `version` and give `snapshot` and `archive_name` new, unique values in `data/release.json`. Use `does-ai-help-release-<version>.zip` for new archives. Public filenames are generated from `data/download-names.json` and the full version; the month-based PDF and generic file paths remain compatibility aliases. Each archived snapshot preserves its original files and metadata. Do not remove older versioned public downloads.
 2. Re-check revised core papers, publication status, corrections and retractions. Compare actual versions rather than their latest media coverage.
 3. Search primary sources for new experiments, replications, longer-run outcomes, independent datasets, null findings and meaningful methodological analyses.
 4. Add candidate records with stable IDs. Check identity, then record the precise content inspected before admitting conclusions.
