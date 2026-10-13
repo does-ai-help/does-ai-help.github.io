@@ -2374,6 +2374,101 @@
     }
   },
   {
+    "id": "leiden2026",
+    "type": "webpage",
+    "title": "Leiden Declaration on Artificial Intelligence and Mathematics",
+    "URL": "https://leidendeclaration.ai/",
+    "author": [
+      {
+        "family": "Alper",
+        "given": "Jarod"
+      },
+      {
+        "family": "Barany",
+        "given": "Michael"
+      },
+      {
+        "family": "Chavarri Villarello",
+        "given": "Alain"
+      },
+      {
+        "family": "Dahmen",
+        "given": "Sander"
+      },
+      {
+        "family": "Dean",
+        "given": "Walter"
+      },
+      {
+        "family": "Ganapathy",
+        "given": "Karthik"
+      },
+      {
+        "family": "Harris",
+        "given": "Michael"
+      },
+      {
+        "family": "Holmes",
+        "given": "David"
+      },
+      {
+        "family": "Jamnik",
+        "given": "Mateja"
+      },
+      {
+        "family": "Kelk",
+        "given": "Steven"
+      },
+      {
+        "family": "Kra",
+        "given": "Bryna"
+      },
+      {
+        "family": "Martin",
+        "given": "Ursula"
+      },
+      {
+        "family": "Naskręcki",
+        "given": "Bartosz"
+      },
+      {
+        "family": "Ochigame",
+        "given": "Rodrigo"
+      },
+      {
+        "family": "Portegies",
+        "given": "Jim"
+      },
+      {
+        "family": "Schmitt",
+        "given": "Johannes"
+      }
+    ],
+    "abstract": "An IMU-endorsed declaration recognizes AI's mathematical potential while recommending disclosure, human responsibility for correctness and authorship, careful attribution, rigorous review, open science and protection of research autonomy. It addresses institutional incentives and ethical choices rather than measuring productivity.",
+    "keyword": "science; governance; learning; work",
+    "note": "Method: community-declaration. Status: public-statement. Verification: content-checked (Complete official declaration and working-group list; DataCite title, 16 creators and Issued date; arXiv version history and related DOI; IMU's signed 2 June endorsement letter. Endorsement quotations and signatory counts are not treated as empirical findings.). Limitations: Normative recommendations, not an experiment, representative survey or technical disproof of AI capability. Endorsements do not establish unanimous agreement. Live signatory counts and testimonials are not prevalence estimates; no blanket prohibition on mathematical AI use is asserted. Date basis: Declaration dateline, DataCite Issued date and IMU Circular Letter 8/2026 independently identify 2 June 2026. September arXiv deposition is not the original publication date. Authorship: Sixteen registered creators in DataCite, matching the official working-group list and arXiv author list; checked 13 October 2026. Endorsers, signatories and IMU are not substituted for authors. Zenodo is the repository publisher, not the drafting organization. Version: Original declaration DOI: 10.5281/zenodo.20302944; concept DOI: 10.5281/zenodo.20302943. Later arXiv manifestation: https://arxiv.org/abs/2609.35334v2 (v1: 28 September; v2: 30 September 2026). One declaration, not independent evidence. IMU endorsement: https://www.mathunion.org/fileadmin/documents/2026-06/IMU_AO_CL_8_2026.pdf. Source license is CC BY-NC 4.0; the review's CC BY 4.0 does not relicense the declaration.",
+    "publisher": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          2
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.20302944"
+  },
+  {
     "id": "torvaldsassoc2026",
     "type": "webpage",
     "title": "Linus Torvalds \"Did What I Preach\", Used AI To Make Code Decipherable & Uncovered More Bugs",

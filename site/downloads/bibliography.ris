@@ -1377,6 +1377,41 @@ N1  - Version: Revision: https://github.com/torvalds/linux/blob/d699a5da103942fd
 ER  - 
 
 TY  - ELEC
+ID  - leiden2026
+TI  - Leiden Declaration on Artificial Intelligence and Mathematics
+AU  - Alper, Jarod
+AU  - Barany, Michael
+AU  - Chavarri Villarello, Alain
+AU  - Dahmen, Sander
+AU  - Dean, Walter
+AU  - Ganapathy, Karthik
+AU  - Harris, Michael
+AU  - Holmes, David
+AU  - Jamnik, Mateja
+AU  - Kelk, Steven
+AU  - Kra, Bryna
+AU  - Martin, Ursula
+AU  - Naskręcki, Bartosz
+AU  - Ochigame, Rodrigo
+AU  - Portegies, Jim
+AU  - Schmitt, Johannes
+PB  - Zenodo
+DA  - 2026-06-02
+N1  - Date basis: Declaration dateline, DataCite Issued date and IMU Circular Letter 8/2026 independently identify 2 June 2026. September arXiv deposition is not the original publication date.
+N1  - Authorship: Sixteen registered creators in DataCite, matching the official working-group list and arXiv author list; checked 13 October 2026. Endorsers, signatories and IMU are not substituted for authors. Zenodo is the repository publisher, not the drafting organization.
+PY  - 2026
+UR  - https://leidendeclaration.ai/
+AB  - An IMU-endorsed declaration recognizes AI's mathematical potential while recommending disclosure, human responsibility for correctness and authorship, careful attribution, rigorous review, open science and protection of research autonomy. It addresses institutional incentives and ethical choices rather than measuring productivity.
+N1  - Normative recommendations, not an experiment, representative survey or technical disproof of AI capability. Endorsements do not establish unanimous agreement. Live signatory counts and testimonials are not prevalence estimates; no blanket prohibition on mathematical AI use is asserted.
+KW  - science
+KW  - governance
+KW  - learning
+KW  - work
+DO  - 10.5281/zenodo.20302944
+N1  - Version: Original declaration DOI: 10.5281/zenodo.20302944; concept DOI: 10.5281/zenodo.20302943. Later arXiv manifestation: https://arxiv.org/abs/2609.35334v2 (v1: 28 September; v2: 30 September 2026). One declaration, not independent evidence. IMU endorsement: https://www.mathunion.org/fileadmin/documents/2026-06/IMU_AO_CL_8_2026.pdf. Source license is CC BY-NC 4.0; the review's CC BY 4.0 does not relicense the declaration.
+ER  - 
+
+TY  - ELEC
 ID  - torvaldsassoc2026
 TI  - Linus Torvalds "Did What I Preach", Used AI To Make Code Decipherable & Uncovered More Bugs
 AU  - Larabel, Michael

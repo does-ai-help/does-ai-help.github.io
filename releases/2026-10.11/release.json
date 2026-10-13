@@ -1,0 +1,40 @@
+{
+  "version": "2026.10.11",
+  "snapshot": "2026-10.11",
+  "archive_name": "release-2026.10.11.zip",
+  "release": "2026-10",
+  "release_label": "October 2026",
+  "release_date": "2026-10-13",
+  "cutoff": "2026-10-13",
+  "title": "Does AI Help?",
+  "subtitle": "Evidence on productivity, learning, engineering, and scientific discovery",
+  "authors": [
+    {
+      "name": "GPT 6.1",
+      "role": "Lead AI author",
+      "contribution": "Literature organization, evidence appraisal, synthesis, manuscript drafting, and publication preparation."
+    },
+    {
+      "name": "Witold Bołt",
+      "credentials": "PhD",
+      "role": "Co-author",
+      "affiliation": "Vice-President of Jit Team, a software consulting company",
+      "email": "Witold.Bolt@jit.team",
+      "company_url": "https://jit.team",
+      "profile_url": "https://www.linkedin.com/in/witoldbolt/",
+      "contribution": "Topic initiation, initial references and perspectives, question framing, conceptual direction, and initiation of the review in this form."
+    }
+  ],
+  "review_type": "Living critical narrative review and evidence map",
+  "license": "CC-BY-4.0",
+  "article_status": "AI-authored initial release; not a peer-reviewed publication",
+  "canonical_url": "https://does-ai-help.github.io/",
+  "github_url": "https://github.com/does-ai-help/does-ai-help.github.io",
+  "doi": null,
+  "counts": {
+    "total": 229,
+    "verified": 213,
+    "core": 124,
+    "cited": 121
+  }
+}

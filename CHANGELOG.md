@@ -1,5 +1,12 @@
 # Release history
 
+## 2026.10.11 - Leiden Declaration
+
+- Added the Leiden Declaration on Artificial Intelligence and Mathematics with its 16 registered authors, original 2 June 2026 publication date, Zenodo DOI and separate September arXiv version history.
+- Verified IMU endorsement against its official circular; endorsers and signatories are not treated as authors or a representative sample.
+- Added mathematical governance context to the synthesis, distinguishing normative recommendations from empirical outcomes and recognizing that the declaration is not a blanket AI prohibition.
+- Retained the source's separate CC BY-NC rights. Evidence cutoff remains 13 October 2026; prior snapshots are unchanged.
+
 ## 2026.10.10 - KPMG primary report and quarterly context
 
 - Added the September Global AI Pulse Q3 2026 PDF with its three explicitly named authors, month-level publication date, survey scope, page-level appraisal and document checksum.

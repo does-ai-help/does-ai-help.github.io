@@ -97,6 +97,12 @@ try {
   await page.locator('[id="11-an-integrated-assessment-where-the-benefit-survives"]').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(output,'article-figure-desktop.png')});
   await page.goto(url+'/bibliography.html');
+  const leiden=page.locator('#leiden2026');
+  assert.match(await leiden.locator('.source-author').innerText(),/Jarod Alper; Michael Barany; Alain Chavarri Villarello; et al\./);
+  await leiden.locator('details').evaluate(el=>el.open=true);
+  assert.match(await leiden.innerText(),/Publication date: 2026-06-02/);
+  assert.equal(await leiden.locator('a[href="https://doi.org/10.5281/zenodo.20302944"]').count(),1);
+  await leiden.locator('details').evaluate(el=>el.open=false);
   const kpmg=page.locator('#kpmgpulseq32026');
   assert.equal(await kpmg.locator('.source-author').innerText(),'Priya Emmanuel; Benedikt Höck; Simon Benson');
   await kpmg.locator('details').evaluate(el=>el.open=true);

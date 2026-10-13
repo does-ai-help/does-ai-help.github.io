@@ -120,7 +120,7 @@ write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
 const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorSentence(r))} ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?inline(marked.Lexer.lexInline(r.version_note))+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
-write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\setlength{\\parskip}{0pt}\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=3pt,parsep=0pt]\n'+texRefs+'\n\\end{description}}\n');
+write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\setlength{\\parskip}{0pt}\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt,parsep=0pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
 write('site/downloads/release.json', JSON.stringify({...meta,counts:{total:sources.length,verified:verified.length,core:core.length,cited:citations.length}},null,2)+'\n');
 for(const [source, dest] of [['data/source-schema.json','source-schema.json'],['data/exclusions.json','exclusions.json'],['manuscript/methodology.md','methodology.md'],['CHANGELOG.md','CHANGELOG.md'],['MAINTENANCE.md','MAINTENANCE.md'],['CITATION.cff','CITATION.cff']]) fs.copyFileSync(path.join(root,source),path.join(root,'site/downloads',dest));

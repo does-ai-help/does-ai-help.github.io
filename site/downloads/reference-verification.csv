@@ -54,7 +54,7 @@ hamza2026,confirmed,"Does Working with AI Agents Change How Developers Code, Tes
 doratensions2026,confirmed,DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use,https://dora.dev/insights/balancing-ai-tensions,,
 boolzen2026,confirmed,Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes,https://link.springer.com/article/10.1007/s10462-026-11665-9,10.1007/s10462-026-11665-9,
 ref-c97b313435,confirmed,Experimental Evidence on the Learning Impact of Generative AI,https://arxiv.org/abs/2607.08849,,
-openainavierpaper2026,browser-confirmation,Finite time blowup for Navier-Stokes,https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf,,
+openainavierpaper2026,browser-confirmation,Finite time blowup for Navier-Stokes,https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf,,Title mismatch requires review: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
 openainaviercode2026,confirmed,Finite time blowup for Navier-Stokes and Euler equations,https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd,,
 wittig2026,confirmed,"Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity",https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De,10.1145/3832783.3834386,
 ref-20bf062604,confirmed,From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality,https://arxiv.org/abs/2607.13196,,
@@ -66,14 +66,15 @@ gimppolicy2026,confirmed,Giving or obtaining developer access in Gitlab,https://
 kpmgpulseq32026,confirmed,"Global AI Pulse Q3 2026: AI at scale: Accountability, resilience and economics",https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf,,
 ref-fee88585ea,confirmed,"Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html,,
 ref-7ba221a977,confirmed,Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning,https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning,,
-norway2026,unresolved,Has AI Widened Employment Gaps?,https://docs.iza.org/dp18767.pdf,,
+norway2026,confirmed,Has AI Widened Employment Gaps?,https://docs.iza.org/dp18767.pdf,,
 shen2026,confirmed,How AI Impacts Skill Formation,https://arxiv.org/abs/2601.20245,,
-ref-db9d091351,confirmed,How AI is expanding what people do at work,https://openai.com/index/how-ai-is-expanding-what-people-do-at-work,,
+ref-db9d091351,browser-confirmation,How AI is expanding what people do at work,https://openai.com/index/how-ai-is-expanding-what-people-do-at-work,,
 alphafoldimpact2026,confirmed,How Artificial Intelligence Shapes Science: Evidence from AlphaFold,https://www.nber.org/papers/w35143,10.3386/w35143,
 ref-c12b530ad9,confirmed,How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests,https://arxiv.org/abs/2607.21832,,
 ref-f5457108a3,confirmed,How we’re evolving Jira for AI-native software development - Inside Atlassian,https://www.atlassian.com/blog/company-news/ai-sdlc,,
 ref-e337528cf5,confirmed,"Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation",https://link.springer.com/article/10.1186/s41239-026-00614-9,10.1186/s41239-026-00614-9,
 linuxgenerated2026,confirmed,Kernel Guidelines for Tool-Generated Content,https://docs.kernel.org/process/generated-content.html,,
+leiden2026,confirmed,Leiden Declaration on Artificial Intelligence and Mathematics,https://leidendeclaration.ai/,10.5281/zenodo.20302944,
 torvaldsassoc2026,confirmed,"Linus Torvalds ""Did What I Preach"", Used AI To Make Code Decipherable & Uncovered More Bugs",https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array,,
 llamalima2026,confirmed,LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics,https://arxiv.org/abs/2601.18685v5,10.48550/arxiv.2601.18685,
 gravitypolicy2026,confirmed,LLM Use and Clean-Room Policy,https://gravitylinux.org/policies/llm/,,
@@ -130,7 +131,7 @@ hales2026,confirmed,What mathematicians should know about the Lean Theorem Prove
 ref-af4b79f2b5,confirmed,"When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution",https://arxiv.org/abs/2607.28041,,
 ref-529895b385,confirmed,Where Is the AI Jobs Crisis? | The Daily Spark,https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis,,
 ref-11a15eb594,confirmed,Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog,https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work,,
-ref-33e5e5bcd6,confirmed,Why we no longer evaluate SWE-bench Verified,https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified,,
+ref-33e5e5bcd6,browser-confirmation,Why we no longer evaluate SWE-bench Verified,https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified,,
 demirer2026,confirmed,Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools,https://www.nber.org/papers/w35275,10.3386/w35275,
 roblespolicies2026,confirmed,You can contribute if you... An Empirical Framework of AI Contribution Policies in OSS,https://arxiv.org/abs/2609.07919,10.48550/arxiv.2609.07919,
 bergh2026,confirmed,"Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",https://arxiv.org/abs/2609.21194,,
@@ -216,10 +217,10 @@ space2021,confirmed,The SPACE of Developer Productivity: There's More to It than
 ref-a97b44c4bb,confirmed,Rethinking Productivity in Software Engineering,https://link.springer.com/book/10.1007/978-1-4842-4221-6,10.1007/978-1-4842-4221-6,
 ref-e2f16876f5,unresolved,Reference awaiting identity verification,https://about.gitlab.com/resources/ai-accountability-survey-2026,,Title mismatch requires review: https://about.gitlab.com/resources/ai-accountability-survey-2026
 ref-3d99cf87d4,unresolved,Reference awaiting identity verification,https://openai.com/index/how-agents-are-transforming-work,,Title mismatch requires review: https://openai.com/index/how-agents-are-transforming-work
-ref-824b5ba22f,unresolved,Reference awaiting identity verification,https://openai.com/index/scientific-computing-agentic-ai,,Title mismatch requires review: https://openai.com/index/scientific-computing-agentic-ai
+ref-824b5ba22f,unresolved,Reference awaiting identity verification,https://openai.com/index/scientific-computing-agentic-ai,,
 ref-a5ad621910,unresolved,Reference awaiting identity verification,https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535,,
 ref-b6ad5171c7,unresolved,Reference awaiting identity verification,https://www.bls.gov/news.release/archives/empsit_07022026.pdf,,
-ref-e926298d45,unresolved,Reference awaiting identity verification,https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5,,
+ref-e926298d45,unresolved,Reference awaiting identity verification,https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5,,Title mismatch requires review: https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5
 ref-6de8a45dae,unresolved,Reference awaiting identity verification,https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378,,
 ref-2242749b51,unresolved,Reference awaiting identity verification,https://www.hesa.ac.uk/news/27-01-2026/sb273-higher-education-student-statistics/subjects,,
 ref-1e963c6037,unresolved,Reference awaiting identity verification,https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity,,

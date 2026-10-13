@@ -1,5 +1,20 @@
 [
   {
+    "id": "leiden2026", "url": "https://leidendeclaration.ai/",
+    "title": "Leiden Declaration on Artificial Intelligence and Mathematics",
+    "authors": ["Alper, Jarod", "Barany, Michael", "Chavarri Villarello, Alain", "Dahmen, Sander", "Dean, Walter", "Ganapathy, Karthik", "Harris, Michael", "Holmes, David", "Jamnik, Mateja", "Kelk, Steven", "Kra, Bryna", "Martin, Ursula", "Naskręcki, Bartosz", "Ochigame, Rodrigo", "Portegies, Jim", "Schmitt, Johannes"],
+    "publisher": "Zenodo", "doi": "10.5281/zenodo.20302944", "year": 2026, "date": "2026-06-02",
+    "date_basis": "Declaration dateline, DataCite Issued date and IMU Circular Letter 8/2026 independently identify 2 June 2026. September arXiv deposition is not the original publication date.",
+    "authorship_basis": "Sixteen registered creators in DataCite, matching the official working-group list and arXiv author list; checked 13 October 2026. Endorsers, signatories and IMU are not substituted for authors. Zenodo is the repository publisher, not the drafting organization.",
+    "topics": ["science", "governance", "learning", "work"], "method": "community-declaration", "publication_status": "public-statement",
+    "summary": "An IMU-endorsed declaration recognizes AI's mathematical potential while recommending disclosure, human responsibility for correctness and authorship, careful attribution, rigorous review, open science and protection of research autonomy. It addresses institutional incentives and ethical choices rather than measuring productivity.",
+    "limitations": "Normative recommendations, not an experiment, representative survey or technical disproof of AI capability. Endorsements do not establish unanimous agreement. Live signatory counts and testimonials are not prevalence estimates; no blanket prohibition on mathematical AI use is asserted.",
+    "version_note": "Original declaration DOI: 10.5281/zenodo.20302944; concept DOI: 10.5281/zenodo.20302943. Later arXiv manifestation: https://arxiv.org/abs/2609.35334v2 (v1: 28 September; v2: 30 September 2026). One declaration, not independent evidence. IMU endorsement: https://www.mathunion.org/fileadmin/documents/2026-06/IMU_AO_CL_8_2026.pdf. Source license is CC BY-NC 4.0; the review's CC BY 4.0 does not relicense the declaration.",
+    "study_family": "leiden-declaration", "related_to": ["mathmisalignment2026", "taoicm2026"],
+    "verification_scope": "Complete official declaration and working-group list; DataCite title, 16 creators and Issued date; arXiv version history and related DOI; IMU's signed 2 June endorsement letter. Endorsement quotations and signatory counts are not treated as empirical findings.",
+    "checked_on": "2026-10-13"
+  },
+  {
     "id": "kpmgpulseq32026",
     "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
     "title": "Global AI Pulse Q3 2026: AI at scale: Accountability, resilience and economics",
