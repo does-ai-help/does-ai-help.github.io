@@ -19,7 +19,7 @@ def main():
     parser.add_argument("--replace-draft", action="store_true", help="Replace this unreleased draft snapshot during its initial preparation.")
     args = parser.parse_args()
     meta = json.loads((ROOT / "data/release.json").read_text())
-    release = meta["release"]
+    release = meta.get("snapshot", meta["release"])
     destination = ROOT / "releases" / release
     download = ROOT / "site/downloads"
     files = sorted(p for p in download.iterdir() if p.is_file() and p.suffix != ".zip" and p.name != "checksums.sha256")
@@ -31,7 +31,7 @@ def main():
         shutil.copyfile(p, destination / p.name)
     for folder in [destination, download]:
         (folder / "checksums.sha256").write_text(expected)
-    archive = download / f"release-{release}.zip"
+    archive = download / meta.get("archive_name", f"release-{meta['release']}.zip")
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED) as bundle:
         for p in sorted(destination.iterdir()):
             if p.is_file():

@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 ROOT = Path(__file__).resolve().parents[1]
 meta = json.loads((ROOT / "data/release.json").read_text())
 base = meta["canonical_url"]
-paths = ["", "bibliography.html", "releases.html", f"downloads/ai-intellectual-work-{meta['release']}.pdf", "downloads/bibliography.csl.json", f"downloads/release-{meta['release']}.zip"]
+paths = ["", "bibliography.html", "releases.html", f"downloads/does-ai-help-{meta['release']}.pdf", "downloads/bibliography.csl.json", "downloads/" + meta.get("archive_name", f"release-{meta['release']}.zip")]
 for path in paths:
     error = None
     for attempt in range(5):

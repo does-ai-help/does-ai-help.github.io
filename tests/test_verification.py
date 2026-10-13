@@ -18,7 +18,7 @@ class IdentityTests(unittest.TestCase):
         self.assertEqual(check({"id": "x", "title": "Generative AI at Work", "url": "https://example.org", "doi": "10.1234/right"})["identity_status"], "unresolved")
 
     def test_punctuation_and_site_suffix(self):
-        self.assertTrue(title_match("Does AI Help Us?", "Does AI Help Us? | A Research Review")[0])
+        self.assertTrue(title_match("Does AI Help?", "Does AI Help? | A Research Review")[0])
 
     def test_unrelated_or_generic_title(self):
         for title in ["Nature", "Concentraties in het bankwezen", "Page not found", "Just a moment"]:

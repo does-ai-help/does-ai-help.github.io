@@ -1,10 +1,12 @@
 {
-  "version": "2026.10.0",
+  "version": "2026.10.1",
+  "snapshot": "2026-10.1",
+  "archive_name": "release-2026.10.1.zip",
   "release": "2026-10",
   "release_label": "October 2026",
   "release_date": "2026-10-13",
-  "cutoff": "2026-10-12",
-  "title": "Does AI Help Us?",
+  "cutoff": "2026-10-13",
+  "title": "Does AI Help?",
   "subtitle": "Evidence on productivity, learning, engineering, and scientific discovery",
   "authors": [
     {"name": "GPT 6.1", "role": "Lead AI author", "contribution": "Literature organization, evidence appraisal, synthesis, manuscript drafting, and publication preparation."},

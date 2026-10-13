@@ -1,6 +1,6 @@
 
 \section*{1. The question has become more precise}\phantomsection\addcontentsline{toc}{section}{1. The question has become more precise}
-The question "Does AI help us?" is reasonable, but it compresses several different questions. Does an assistant reduce the time required for a task? Does it improve the quality of the result? Does it allow a person to attempt work that would otherwise be infeasible? Does it improve a team's throughput or an organization's performance? Does it strengthen the human capacity needed to judge future results? Does it expand useful knowledge?
+The question "Does AI Help?" is reasonable, but it compresses several different questions. Does an assistant reduce the time required for a task? Does it improve the quality of the result? Does it allow a person to attempt work that would otherwise be infeasible? Does it improve a team's throughput or an organization's performance? Does it strengthen the human capacity needed to judge future results? Does it expand useful knowledge?
 
 
 These questions have different units of analysis and different counterfactuals. A shorter drafting session can be a real benefit even if the organization has no additional demand for the resulting documents. A successful prototype may be valuable because it enables an experiment, while remaining unsuitable for production. A correct scientific calculation can save weeks of work without resolving an important scientific uncertainty. A student may produce excellent work while learning less than another student who struggled through the same problem.
@@ -101,7 +101,7 @@ The customer-support study adds an operational setting. Its published 15\% avera
 The coding experiments provide credible reasons to use assistance, especially where users can quickly integrate suggestions into a well-scoped task. Microsoft's CLI-agent rollout also associates agent adoption with more merged PRs over several months. These are operationally meaningful effects, although the latter outcome remains a proxy for value. [\hyperlink{ref-cui2025}{17}, \hyperlink{ref-murphyhill2026}{30}]
 
 
-The maintainer counterexample explains why context matters. In mature repositories, the work can include interpreting implicit conventions and understanding the consequences of a change. An assistant's proposed implementation may create verification work that exceeds the saved typing and search time. That is a plausible mechanism rather than a universal law. The original experiment and its subsequent methodological update must both be considered when describing today's evidence. [\hyperlink{ref-metr2025}{21}, \hyperlink{ref-metr2026update}{27}]
+The maintainer counterexample is a measured cost, not merely a caveat to the positive experiments: METR's randomized early-2025 study found that 16 experienced maintainers took 19\% longer across 246 tasks when allowed AI tools. Participants nevertheless believed they had become faster. In mature repositories, interpreting implicit conventions and checking changes can outweigh saved implementation time. The mechanism is plausible, not universal; the small expert sample and tool vintage limit transfer. The follow-up changes the current measurement problem, but does not erase the original slowdown. [\hyperlink{ref-metr2025}{21}, \hyperlink{ref-metr2026update}{27}]
 
 
 
@@ -120,16 +120,27 @@ The strongest recent engineering distinction concerns the production hierarchy. 
 Chen and Stratton examine a different, firm-centered dataset: 718 organizations using Jellyfish. They find increased code activity after coding-agent adoption and a longer review cycle, with limited pass-through to resolved issues and epics. Their statistically insignificant output estimates do not prove exactly zero benefit; their confidence bounds are more informative than the popular headline. PR-to-merge time includes waiting, coordination, and revision as well as active review. [\hyperlink{ref-chenstratton2026}{24}]
 
 
-Vendor reports from Faros and GitClear add useful signals about larger changes, duplication, review pressure, and maintenance. Their large samples do not remove selection or calendar-time confounding. DORA supplies a broader organizational interpretation in which AI amplifies existing conditions. These accounts should be compared at the level of their measured outcomes, not treated as rival universal theories resolved by sample size. [\hyperlink{ref-faros2026}{32}, \hyperlink{ref-gitclear2025}{33}, \hyperlink{ref-dora2025}{34}, \hyperlink{ref-doratensions2026}{35}]
+In the August version, agent adoption increases code-line output by about 30\%, whereas the estimates rule out an increase above 12\% of the baseline mean in their firm-level output measures. That is evidence against proportional pass-through, not a finding of exactly no software benefit. Conversely, He and colleagues' single-enterprise panel reaches 2.09 times baseline merged PRs per developer while reviewer load roughly doubles. Its nonrandom adoption, newer-code concentration and stable merge/revert rates do not establish equivalent gains in useful releases or defect-free production. These studies should not be averaged into one engineering percentage. [\hyperlink{ref-chenstratton2026}{24}, \hyperlink{ref-hemandate2026}{32}]
 
 
-Quality itself is multidimensional. Studies of generated code identify differing defect profiles, while static analysis shows that passing tests is an incomplete indicator of security or maintainability. Production C++ analysis extends the question to review effort and execution-resource consumption. An intervention that reduces development time can still increase the lifetime cost of the resulting software. [\hyperlink{ref-cotroneo2025}{36}, \hyperlink{ref-sabra2025}{37}, \hyperlink{ref-tran2026}{38}]
+Vendor reports from Faros and GitClear add useful signals about larger changes, duplication, review pressure, and maintenance. Their large samples do not remove selection or calendar-time confounding. DORA supplies a broader organizational interpretation in which AI amplifies existing conditions. These accounts should be compared at the level of their measured outcomes, not treated as rival universal theories resolved by sample size. [\hyperlink{ref-faros2026}{33}, \hyperlink{ref-gitclear2025}{34}, \hyperlink{ref-dora2025}{35}, \hyperlink{ref-doratensions2026}{36}]
 
 
-Evaluation is accordingly becoming longitudinal. SWE-CI tests successive repository changes, and coverage research asks whether changed lines are exercised. Coverage remains weaker than a test that asserts the right behavior. Iterative infrastructure repair also illustrates a measurement hazard: a best-so-far curve cannot reveal every regression between attempts, and the estimated regression rate depends strongly on how validator results are mapped to changes. [\hyperlink{ref-sweci2026}{39}, \hyperlink{ref-coverage2026}{40}, \hyperlink{ref-iac2026}{41}]
+Quality itself is multidimensional. Studies of generated code identify differing defect profiles, while static analysis shows that passing tests is an incomplete indicator of security or maintainability. Production C++ analysis extends the question to review effort and execution-resource consumption. An intervention that reduces development time can still increase the lifetime cost of the resulting software. [\hyperlink{ref-cotroneo2025}{37}, \hyperlink{ref-sabra2025}{38}, \hyperlink{ref-tran2026}{39}]
 
 
-Formal verification offers stronger assurance under explicit specifications. Vero's joint implementation and proof tasks demonstrate progress and substantial remaining limits. A checker certifies a relationship between a program and a formal specification; it cannot independently decide whether that specification represents the user's intentions or the relevant real-world conditions. [\hyperlink{ref-vero2026}{42}]
+Evaluation is accordingly becoming longitudinal. SWE-CI tests successive repository changes, and coverage research asks whether changed lines are exercised. Coverage remains weaker than a test that asserts the right behavior. Iterative infrastructure repair also illustrates a measurement hazard: a best-so-far curve cannot reveal every regression between attempts, and the estimated regression rate depends strongly on how validator results are mapped to changes. [\hyperlink{ref-sweci2026}{40}, \hyperlink{ref-coverage2026}{41}, \hyperlink{ref-iac2026}{42}]
+
+
+Formal verification offers stronger assurance under explicit specifications. Vero's joint implementation and proof tasks demonstrate progress and substantial remaining limits. A checker certifies a relationship between a program and a formal specification; it cannot independently decide whether that specification represents the user's intentions or the relevant real-world conditions. [\hyperlink{ref-vero2026}{43}]
+
+
+
+\subsection*{Contribution boundaries and the costs borne by others}\phantomsection\addcontentsline{toc}{subsection}{Contribution boundaries and the costs borne by others}
+Technical capability does not imply an entitlement to submit generated work. QEMU declines contributions containing or derived from AI-generated content because it considers provenance and Developer Certificate of Origin compliance unresolved. It permits AI-assisted research or debugging when generated output is not included. This is a real restriction with a stated rationale, not a productivity experiment or our legal conclusion. [\hyperlink{ref-qemupolicy2026}{44}]
+
+
+Ghostty illustrates a different policy: responsible AI-written text and code are allowed, with disclosure and human understanding required; generated media are prohibited. First-time contributors need a maintainer's vouch, and unvouched PRs are closed. The project explicitly welcomes AI while protecting reviewers from low-quality submissions. Calling this a blanket AI-code ban would be misleading. These policies document who bears validation costs and controls participation, not how common such views are across open source. [\hyperlink{ref-ghosttypolicy2026}{45}, \hyperlink{ref-ghosttycontribution2026}{46}]
 
 
 The managerial implication is to evaluate the whole change lifecycle. Useful measures include elapsed time to acceptance, rework, defect escape, security, resource use, and adoption of the delivered capability. The broader question is whether a team obtains more dependable useful functionality for its total effort and cost.
@@ -140,22 +151,25 @@ The managerial implication is to evaluate the whole change lifecycle. Useful mea
 For a professional completing a task, outsourcing intermediate work may be rational. For a learner, that intermediate work can be the mechanism through which competence develops. The same intervention can therefore help immediate performance and weaken the preparation needed for future supervision.
 
 
-Bastani and colleagues' mathematics trial distinguishes practice with AI from later unaided performance, and shows that instructional guardrails matter. Shen and Tamkin's programming-library experiments similarly examine conceptual understanding and debugging rather than just the delivered artifact. These studies support concern about unstructured delegation, while remaining specific to their subjects, participants, and implementations. [\hyperlink{ref-bastani2025}{22}, \hyperlink{ref-shen2026}{43}]
+Bastani and colleagues' mathematics trial distinguishes practice with AI from later unaided performance, and shows that instructional guardrails matter. Shen and Tamkin's programming-library experiments similarly examine conceptual understanding and debugging rather than just the delivered artifact. These studies support concern about unstructured delegation, while remaining specific to their subjects, participants, and implementations. [\hyperlink{ref-bastani2025}{22}, \hyperlink{ref-shen2026}{47}]
 
 
 The September 2026 programming experiment by Bergh and colleagues supplies an unusually useful distinction. Students with ChatGPT produced stronger code but had lower recall immediately and after 48 hours. The study did not detect a significant difference in the rate of forgetting across that interval. The evidence concerns what was learned or encoded during the task, not a demonstrated acceleration of memory decay. [\hyperlink{ref-bergh2026}{25}]
 
 
-Evidence is not uniformly negative. Lepp's observational course study finds no significant assessment differences among AI-interaction profiles. That finding neither proves equivalence nor establishes that the design of teaching is irrelevant. It indicates that broad categories of self-directed use may predict feelings about learning more readily than measured assessment. Wang's feedback framework proposes a more designed form of assistance, but retrospective prediction and message-quality checks still require prospective learning validation. [\hyperlink{ref-lepp2026}{44}, \hyperlink{ref-wang2026}{45}]
+Martin-Lopez and colleagues' crossover experiment shows the trade-off within one study: 69 participants complete substantially more of their tasks with AI, but median correct answers about their code fall from 100\% to 87.5\%, a 12.5-percentage-point difference. Only 14 participants were professionals. This is an immediate comprehension measure, not evidence of irreversible deskilling; nevertheless, the loss is an outcome in its own right, not something that better-looking code cancels out. [\hyperlink{ref-ownership2026}{48}]
 
 
-The synthesis literature does not resolve this into one verdict. Wu and colleagues report a positive learning estimate across 35 studies from 2022-2024. Boolzen and colleagues' newer STEM synthesis finds extreme heterogeneity and a mean close to zero after Bayesian publication-bias adjustment. Conversely, September v5 of the living mathematics meta-analysis reports a positive estimate across 34 studies. Different populations, outcomes, eligibility rules and statistical assumptions can change the answer; neither a favorable mean nor a bias-adjusted null applies to every instructional design. Overlapping trials must not be counted repeatedly. [\hyperlink{ref-wulearning2026}{46}, \hyperlink{ref-boolzen2026}{47}, \hyperlink{ref-llamalima2026}{48}]
+Evidence is not uniformly negative. Lepp's observational course study finds no significant assessment differences among AI-interaction profiles. That finding neither proves equivalence nor establishes that the design of teaching is irrelevant. It indicates that broad categories of self-directed use may predict feelings about learning more readily than measured assessment. Wang's feedback framework proposes a more designed form of assistance, but retrospective prediction and message-quality checks still require prospective learning validation. [\hyperlink{ref-lepp2026}{49}, \hyperlink{ref-wang2026}{50}]
+
+
+The synthesis literature does not resolve this into one verdict. Wu and colleagues report a positive learning estimate across 35 studies from 2022-2024. Boolzen and colleagues' newer STEM synthesis finds extreme heterogeneity and a mean close to zero after Bayesian publication-bias adjustment. Conversely, September v5 of the living mathematics meta-analysis reports a positive estimate across 34 studies. Different populations, outcomes, eligibility rules and statistical assumptions can change the answer; neither a favorable mean nor a bias-adjusted null applies to every instructional design. Overlapping trials must not be counted repeatedly. [\hyperlink{ref-wulearning2026}{51}, \hyperlink{ref-boolzen2026}{52}, \hyperlink{ref-llamalima2026}{53}]
 
 
 Maier and colleagues' programming meta-analysis likewise separates a positive productivity estimate from a learning estimate whose confidence interval includes zero. That is uncertainty about learning benefit, not proof of no effect or permanent deskilling. Standardized effects cannot be translated directly into percentages of time saved. [\hyperlink{ref-maier2026}{6}]
 
 
-A second developmental question concerns working experts. Longitudinal survey work describes a shift from creation toward supervisory engineering; a small field study relates cognitive load to task context and AI use. Such evidence is relevant to the experience and distribution of work, but cannot on its own establish neurological harm, permanent skill loss, or an overall causal reduction in effort. [\hyperlink{ref-vella2026}{49}, \hyperlink{ref-brand2026}{50}]
+A second developmental question concerns working experts. Longitudinal survey work describes a shift from creation toward supervisory engineering; a small field study relates cognitive load to task context and AI use. Such evidence is relevant to the experience and distribution of work, but cannot on its own establish neurological harm, permanent skill loss, or an overall causal reduction in effort. [\hyperlink{ref-vella2026}{54}, \hyperlink{ref-brand2026}{55}]
 
 
 Our interpretation is that the relevant educational aim is an accountable relationship to assisted work. Learners should be able to explain the result, recover essential reasoning, detect consequential errors, and transfer knowledge to a new task. Institutions need evidence about those abilities, especially when polished artifacts cease to be reliable evidence of independent understanding. The optimal balance between assisted practice and unaided work remains a subject for intervention research.
@@ -166,22 +180,41 @@ Our interpretation is that the relevant educational aim is an accountable relati
 AI's scientific contribution spans several distinct activities: organizing literature, writing empirical software, generating hypotheses, finding algorithms, establishing formal proofs, and conducting a research process. Success in one is informative but insufficient to establish success in all.
 
 
-ERA demonstrates evaluator-guided search over empirical software. Co-Scientist and Robin connect generated hypotheses or analyses with selected expert and experimental validation. The AI Scientist explores a more extended ML-research workflow, including evaluation of generated work by workshop review. Each represents a meaningful expansion of the toolchain. Their scientific credibility depends on the particular validation process, the selection of cases, and the contribution of human investigators. [\hyperlink{ref-era2026}{51}, \hyperlink{ref-coscientist2026}{52}, \hyperlink{ref-robin2026}{53}, \hyperlink{ref-aiscientist2026}{54}]
+ERA demonstrates evaluator-guided search over empirical software. Co-Scientist and Robin connect generated hypotheses or analyses with selected expert and experimental validation. The AI Scientist explores a more extended ML-research workflow, including evaluation of generated work by workshop review. Each represents a meaningful expansion of the toolchain. Their scientific credibility depends on the particular validation process, the selection of cases, and the contribution of human investigators. [\hyperlink{ref-era2026}{56}, \hyperlink{ref-coscientist2026}{57}, \hyperlink{ref-robin2026}{58}, \hyperlink{ref-aiscientist2026}{59}]
 
 
-Formal mathematics and algorithm search illustrate why difficult problems can be suitable for AI. AlphaProof benefits from a machine-checkable formal environment. AlphaEvolve and DiscoRL use feedback to explore algorithms or learning rules. These systems provide stronger evidence than a fluent narrative asserting a discovery, because an external procedure can reject many unsuccessful proposals. The meaning of the result still depends on the problem formulation and the domain of transfer. [\hyperlink{ref-alphaproof2025}{55}, \hyperlink{ref-alphaevolve2025}{56}, \hyperlink{ref-discorl2025}{57}]
+Formal mathematics and algorithm search illustrate why difficult problems can be suitable for AI. AlphaProof benefits from a machine-checkable formal environment. AlphaEvolve and DiscoRL use feedback to explore algorithms or learning rules. These systems provide stronger evidence than a fluent narrative asserting a discovery, because an external procedure can reject many unsuccessful proposals. The meaning of the result still depends on the problem formulation and the domain of transfer. [\hyperlink{ref-alphaproof2025}{60}, \hyperlink{ref-alphaevolve2025}{61}, \hyperlink{ref-discorl2025}{62}]
 
 
-The value can also lie in connecting established methods that humans have not economically brought together. Schwartz's October account of BootLoops describes cross-disciplinary quantitative work in which experts helped distinguish a technically interesting computation from a scientifically important result. The account is a selected case study, with disclosed affiliation and ongoing validation, rather than a controlled estimate of research productivity. It nevertheless offers a useful mechanism for making previously impractical investigations possible. [\hyperlink{ref-schwartz2026}{58}]
+The value can also lie in connecting established methods that humans have not economically brought together. Schwartz's October account of BootLoops describes cross-disciplinary quantitative work in which experts helped distinguish a technically interesting computation from a scientifically important result. The account is a selected case study, with disclosed affiliation and ongoing validation, rather than a controlled estimate of research productivity. It nevertheless offers a useful mechanism for making previously impractical investigations possible. [\hyperlink{ref-schwartz2026}{63}]
 
 
 This distinction changes the evaluation question. It is not enough to count correct calculations or generated manuscripts. One must ask whether the result is new, whether its interpretation is sound, whether the underlying evidence supports it, and whether it matters to the field. Scientific importance is partly a collective judgment informed by replication, explanation, and the problems researchers need to resolve.
 
 
-Messeri and Crockett's perspective warns of illusions of understanding and scientific monocultures. Hao and colleagues' large historical analysis supplies a related but different observational result: individual advantages associated with AI use can coexist with a narrower collective distribution of research. That study covers broader historical AI than recent LLM assistants, and should not be used as a causal estimate of chatbot-induced contraction. [\hyperlink{ref-messeri2024}{20}, \hyperlink{ref-hao2026}{59}]
+Messeri and Crockett's perspective warns of illusions of understanding and scientific monocultures. Hao and colleagues' large historical analysis supplies a related but different observational result: individual advantages associated with AI use can coexist with a narrower collective distribution of research. That study covers broader historical AI than recent LLM assistants, and should not be used as a causal estimate of chatbot-induced contraction. [\hyperlink{ref-messeri2024}{20}, \hyperlink{ref-hao2026}{64}]
 
 
 The evidence therefore supports optimism about new computational reach and caution about equating local scientific output with the health of scientific inquiry. Systems can make difficult work more feasible while concentrating attention on questions with abundant data and convenient evaluators. Maintaining diversity of problems and methods is part of assessing the benefit.
+
+
+
+\subsection*{Mathematical capability, understanding and consent}\phantomsection\addcontentsline{toc}{subsection}{Mathematical capability, understanding and consent}
+Tao's 2026 ICM essay separates the arrival of capable mathematical tools from the question of what mathematics values. His October \emph{Math 2.0} lecture recognizes powerful problem solving while proposing a broader aim: use AI to improve exposition, research networks, formal libraries and human understanding, not merely accumulate solutions. This is a substantive expert agenda, not measured proof that automated mathematics is harmful. Klowden and Tao's earlier philosophical essay supplies the human-centered framing. [\hyperlink{ref-taoicm2026}{65}, \hyperlink{ref-taomath2026}{66}, \hyperlink{ref-klowdentao2026}{67}]
+
+
+Opposition is not confined to doubtful capability. The September declaration \emph{A Severe Misalignment of AI in Mathematics}, initiated by 25 Fields medallists, recognizes advances but contests the incentives and effects of problem-count optimization. In October, the Association for Human Mathematics rejects OpenAI's mass-release model and calls for mathematicians to discontinue collaboration with the company. These are explicit, consequential positions, not population surveys or technical disproofs. They deserve representation without being described as the unanimous opinion of mathematics. Tao's AI-assisted, personally reviewed living summary also shows that criticism of particular practices can coexist with active AI use. [\hyperlink{ref-mathmisalignment2026}{68}, \hyperlink{ref-ahm2026}{69}, \hyperlink{ref-taoliving2026}{70}]
+
+
+
+\subsection*{Navier-Stokes: what a proof certificate does and does not settle}\phantomsection\addcontentsline{toc}{subsection}{Navier-Stokes: what a proof certificate does and does not settle}
+On 8 September, OpenAI announced a resolution of the Navier-Stokes Millennium problem and released a written manuscript and Lean artifacts. The claim concerns smooth forced breakdown alternatives, not a demonstration of all unforced fluid behavior. We inspected the stated theorem and outline, not every lemma or the running proof kernels. Clay's 11 September statement welcomes the apparent resolution while retaining its deliberate evaluation process; it is not a prize award. [\hyperlink{ref-openainavier2026}{71}, \hyperlink{ref-openainavierpaper2026}{72}, \hyperlink{ref-openainaviercode2026}{73}, \hyperlink{ref-claynavier2026}{74}]
+
+
+Bastounis, Circelli and Hansen's 6 October preprint identifies differences between the written argument and Lean lemmas, including derivative requirements. Its central warning is that a checked formal argument need not faithfully reproduce an accompanying natural-language argument. The theoretical worst-case result does not make every practical translation impossible. Nor does a discrepancy alone establish that the formal theorem is false. We retain the developer claim and the critique as distinct, unresolved validation questions rather than independently certifying or rejecting the claimed solution. [\hyperlink{ref-naviertranslation2026}{75}]
+
+
+Hales provides a complementary technical account: kernel validity, statement fidelity, independent checking and readable exposition are different assurance layers. Lean's maintainer documents a positive AI contribution to finding and repairing soundness bugs, while treating adversarial proof artifacts as a genuine risk. Together these accounts show why formal mathematics is promising without being verification-free. [\hyperlink{ref-hales2026}{76}, \hyperlink{ref-demourakernel2026}{77}]
 
 
 
@@ -189,19 +222,19 @@ The evidence therefore supports optimism about new computational reach and cauti
 AI already contributes to components of AI development, but several layers should be distinguished. Optimizing a kernel, improving training data, proposing a learning rule, changing an agent's tools, and building a new foundation model are different activities. They require different evidence of transfer and autonomy.
 
 
-Darwin Godel Machine and more recent harness-evolution work demonstrate a route through changes to agent software. A frozen model can power an improving system when the surrounding prompts, tools, memory, and control flow change. Tool-architecture experiments reinforce this point: agent behavior and costs depend on the interface through which capabilities are exposed, not only on the underlying model. [\hyperlink{ref-dgm2025}{60}, \hyperlink{ref-darwinx2026}{61}, \hyperlink{ref-interfaces2026}{62}]
+Darwin Godel Machine and more recent harness-evolution work demonstrate a route through changes to agent software. A frozen model can power an improving system when the surrounding prompts, tools, memory, and control flow change. Tool-architecture experiments reinforce this point: agent behavior and costs depend on the interface through which capabilities are exposed, not only on the underlying model. [\hyperlink{ref-dgm2025}{78}, \hyperlink{ref-darwinx2026}{79}, \hyperlink{ref-interfaces2026}{80}]
 
 
 InnovationEval asks a harder question about independent algorithmic research. The October report evaluates whether agents can develop a post-training method comparable to a withheld human innovation. The tested configurations make limited progress, and the report identifies misleading selection of favorable runs. Its interpretation is bounded by one task, few runs, scope judgments, and successor-model contamination. [\hyperlink{ref-innovationeval2026}{26}]
 
 
-ResearchGym also distinguishes occasional strong results from reliable long research workflows. A single success can establish possibility without making the process dependable. Conversely, a failed benchmark run cannot establish that no useful AI-assisted research exists. [\hyperlink{ref-researchgym2026}{63}]
+ResearchGym also distinguishes occasional strong results from reliable long research workflows. A single success can establish possibility without making the process dependable. Conversely, a failed benchmark run cannot establish that no useful AI-assisted research exists. [\hyperlink{ref-researchgym2026}{81}]
 
 
-Automated alignment research offers a positive contrast under another protocol: agents improve metrics for defined unwanted behaviors, with selected held-out and transfer evaluations. The human comparison does not give participants the same iterative opportunities, and benchmark improvements are narrower than overall production safety. The two studies therefore sharpen the conditions for progress rather than settling an unrestricted question about autonomous intelligence. [\hyperlink{ref-alignment2026}{64}]
+Automated alignment research offers a positive contrast under another protocol: agents improve metrics for defined unwanted behaviors, with selected held-out and transfer evaluations. The human comparison does not give participants the same iterative opportunities, and benchmark improvements are narrower than overall production safety. The two studies therefore sharpen the conditions for progress rather than settling an unrestricted question about autonomous intelligence. [\hyperlink{ref-alignment2026}{82}]
 
 
-Anthropic's internal R\&D measurements add a process view, distinguishing assistance, collaboration, leadership, and autonomy. Their task basket is model-rated and their numbers require external checking. They should not be converted into a percentage increase in discovery speed. [\hyperlink{ref-rdmetrics2026}{65}]
+Anthropic's internal R\&D measurements add a process view, distinguishing assistance, collaboration, leadership, and autonomy. Their task basket is model-rated and their numbers require external checking. They should not be converted into a percentage increase in discovery speed. [\hyperlink{ref-rdmetrics2026}{83}]
 
 
 Our assessment is that AI-supported AI development is already a substantive engineering reality. The evidence for reliable end-to-end innovation is less settled. The appropriate questions concern what improved, how it was tested, how far it transfers, and which parts of goal setting and evaluation remain outside the automated process.
@@ -209,10 +242,13 @@ Our assessment is that AI-supported AI development is already a substantive engi
 
 
 \section*{9. Business value, cost, and organizational change}\phantomsection\addcontentsline{toc}{section}{9. Business value, cost, and organizational change}
-The business question includes the total cost of obtaining an accepted result: user time, model inference, compute experiments, integration, verification, rework, and later operation. Counting tokens or licenses can describe input consumption without establishing benefit. Reported spending restrictions at Uber are useful as a case about value attribution, but not an audited estimate of whether AI paid for itself. [\hyperlink{ref-uber2026}{66}]
+The business question includes the total cost of obtaining an accepted result: user time, model inference, compute experiments, integration, verification, rework, and later operation. Counting tokens or licenses can describe input consumption without establishing benefit. Reported spending restrictions at Uber are useful as a case about value attribution, but not an audited estimate of whether AI paid for itself. [\hyperlink{ref-uber2026}{84}]
 
 
-Benefits may reach an organization through changed demand or an expanded product range, rather than the same work being performed with fewer employees. Retail field experiments provide evidence closer to commercial outcomes, finding heterogeneous sales effects across integrations. Organization-capital research proposes another channel: AI investment can build durable firm-specific knowledge and processes that improve production. The latter work studies broader AI investment and relies on firm-level proxies, so it does not establish the return from purchasing a chatbot subscription. [\hyperlink{ref-retail2025}{67}, \hyperlink{ref-babina2026}{68}]
+Sustainability broadens that accounting. Iqbal and colleagues combine a literature review with practitioner interviews and identify efficiency benefits alongside energy-monitoring gaps, dependency, skill and defect concerns. Their qualitative design does not determine a net emissions balance. The implication is to measure the resources and risks shifted elsewhere, rather than assume that faster coding reduces every cost. [\hyperlink{ref-iqbal2026}{85}]
+
+
+Benefits may reach an organization through changed demand or an expanded product range, rather than the same work being performed with fewer employees. Retail field experiments provide evidence closer to commercial outcomes, finding heterogeneous sales effects across integrations. Organization-capital research proposes another channel: AI investment can build durable firm-specific knowledge and processes that improve production. The latter work studies broader AI investment and relies on firm-level proxies, so it does not establish the return from purchasing a chatbot subscription. [\hyperlink{ref-retail2025}{86}, \hyperlink{ref-babina2026}{87}]
 
 
 It is useful to distinguish \textbf{efficiency value}, in which existing work becomes cheaper; \textbf{quality value}, in which decisions or artifacts improve; and \textbf{option value}, in which a previously uneconomic project becomes worth attempting. These are analytical categories used in this review. They are not interchangeable accounting measures and cannot all be inferred from a faster task completion time.
@@ -224,21 +260,24 @@ Option value is particularly important for difficult intellectual work. The econ
 Organizations should therefore specify the intended outcome before comparing tools. For an existing workflow, the test may be cost per accepted result and defect-adjusted throughput. For an exploratory project, it may be the number of credible hypotheses tested within a budget or the probability of obtaining a decision-relevant result. Evaluations should preserve failures and abandoned attempts, because a collection of only successful examples cannot estimate the return to experimentation.
 
 
+Public discussion adds context, not additional controlled effects. The Pragmatic Engineer's reader survey describes heterogeneous experience and cost concerns; TechTarget connects verification and comprehension risks; Gates argues for managing disruption and distributing benefits. Market commentary describes investor expectations, which are not realized productivity. Ars Technica's bottleneck account covers the Chen-Stratton study already analyzed here and must not be counted as another independent result. [\hyperlink{ref-pragmatic2026}{88}, \hyperlink{ref-kompella2026}{89}, \hyperlink{ref-gates2026}{90}, \hyperlink{ref-mukherjee2026}{91}, \hyperlink{ref-orland2026}{92}]
+
+
 
 \section*{10. Work, employment, and the future supply of expertise}\phantomsection\addcontentsline{toc}{section}{10. Work, employment, and the future supply of expertise}
 Productivity evidence and employment evidence answer different questions. Labor demand depends on output demand, organizational expansion, substitution between tasks, wages, regulation, and the speed at which practices change. A real task benefit need not immediately change headcount or earnings.
 
 
-Humlum and Vestergaard link Danish adoption surveys to administrative records and find substantial task reorganization alongside limited early average earnings and hours effects. U.S. payroll and vacancy research raises concerns about entry-level pathways in exposed occupations. These differences call for comparison of institutions, observation periods, and units of analysis. They do not justify choosing one country as the universal outcome. [\hyperlink{ref-humlum2026}{69}, \hyperlink{ref-stanford2025}{70}, \hyperlink{ref-westby2026}{71}]
+Humlum and Vestergaard link Danish adoption surveys to administrative records and find substantial task reorganization alongside limited early average earnings and hours effects. U.S. payroll and vacancy research raises concerns about entry-level pathways in exposed occupations. These differences call for comparison of institutions, observation periods, and units of analysis. They do not justify choosing one country as the universal outcome. [\hyperlink{ref-humlum2026}{93}, \hyperlink{ref-stanford2025}{94}, \hyperlink{ref-westby2026}{95}]
 
 
-Ramp and Revelio provide a counterpoint at the firm level: high-intensity adopters show stronger employment growth, including entry-level hiring. The adopters already differ in size, growth, technical intensity, and financing. That result should temper universal displacement claims without becoming a claim that higher AI spending causes hiring everywhere. [\hyperlink{ref-ramp2026}{72}]
+Ramp and Revelio provide a counterpoint at the firm level: high-intensity adopters show stronger employment growth, including entry-level hiring. The adopters already differ in size, growth, technical intensity, and financing. That result should temper universal displacement claims without becoming a claim that higher AI spending causes hiring everywhere. [\hyperlink{ref-ramp2026}{96}]
 
 
-There is also a developmental pathway between education and expert work. If organizations delegate or eliminate the tasks through which novices traditionally acquire knowledge, they may need to create new forms of supervised practice. This is a plausible institutional risk, not a demonstrated inevitable shortage. Herrengt's essays articulate a stronger hypothesis about the erosion of intermediate engineering roles; they are useful viewpoints whose labor-market predictions require empirical testing. [\hyperlink{ref-herrengt2026}{73}, \hyperlink{ref-herrengtvibe}{74}]
+There is also a developmental pathway between education and expert work. If organizations delegate or eliminate the tasks through which novices traditionally acquire knowledge, they may need to create new forms of supervised practice. This is a plausible institutional risk, not a demonstrated inevitable shortage. Herrengt's essays articulate a stronger hypothesis about the erosion of intermediate engineering roles; they are useful viewpoints whose labor-market predictions require empirical testing. [\hyperlink{ref-herrengt2026}{97}, \hyperlink{ref-herrengtvibe}{98}]
 
 
-Educational choices provide an earlier signal of changing expectations. U.S. enrollment data report declines in traditional Computer and Information Science alongside growth in data-oriented programs. UK official data for a different period show growth in Computing and AI. These contrasts caution against treating changes in course selection as direct evidence of AI substitution. They may reflect employment conditions, international mobility, program naming, or perceived returns. [\hyperlink{ref-nscc2026}{75}, \hyperlink{ref-hesa2026}{76}]
+Educational choices provide an earlier signal of changing expectations. U.S. enrollment data report declines in traditional Computer and Information Science alongside growth in data-oriented programs. UK official data for a different period show growth in Computing and AI. These contrasts caution against treating changes in course selection as direct evidence of AI substitution. They may reflect employment conditions, international mobility, program naming, or perceived returns. [\hyperlink{ref-nscc2026}{99}, \hyperlink{ref-hesa2026}{100}]
 
 
 The key long-run question is whether AI adoption leaves enough people able to understand and improve the systems on which institutions depend. That question includes access to training, meaningful work for entrants, concentration of expertise, and the distribution of benefits across workers and firms. Current evidence is more informative about early transitions than settled long-run outcomes.
@@ -278,7 +317,7 @@ A deployment can succeed without full autonomy. It can also be valuable without 
 The evidence is strongest for specific task and workflow benefits, increasingly informative about downstream engineering constraints, and still heterogeneous on learning and labor effects. Scientific benefits range from well-established specialized predictions to emerging agent workflows with very different degrees of validation. The largest opportunity may include work previously regarded as too complex or expensive to pursue, but its value must still be established through credible results and relevant outcomes.
 
 
-Our answer to "Does AI help us?" is therefore affirmative and bounded. It already helps people produce, search, calculate, and explore in important settings. How much it helps depends on the outcome, the system of work, and the preservation of the capabilities needed to evaluate it. The next research priority is measuring those relationships over time, rather than extrapolating one task's percentage to an entire institution.
+Our answer to "Does AI Help?" is therefore \textbf{yes in demonstrated settings, no in some tested settings, and unresolved in many others}. AI already helps people produce, search, calculate and explore; it has also measurably slowed expert work, weakened some learning or comprehension outcomes, and imposed costs on reviewers and institutions. Gains and losses can coexist in the same intervention. This collection does not establish whether positive or negative net effects predominate across intellectual work: the outcomes and populations are too different, and selection is not exhaustive. The next research priority is measuring those relationships over time, rather than extrapolating one task's percentage to an entire institution.
 
 
 
@@ -305,10 +344,13 @@ Core annotations contain an original short summary and limitations. Supporting r
 We prefer primary reports for empirical claims. Vendor research and expert essays remain useful when their evidentiary role and interests are explicit. Paywalls and access failures are reported rather than bypassed. Numeric claims are tied to source versions, populations, outcomes, and denominators. Negative or null results receive the same attention as positive findings; statistical insignificance is not automatically evidence of equivalence.
 
 
-Greg Wilson's methodological discussion is a useful companion for readers evaluating common overclaims in AI-assisted coding. The more general lesson is to inspect study design and outcome validity before accepting a headline about productivity. [\hyperlink{ref-wilson2026}{77}]
+A separate \href{https://does-ai-help.github.io/downloads/balance-review.md}{balance self-review and source-admission log} records the October follow-up. It distinguishes demonstrated harm, imprecise or null effects, mixed outcomes, forecasts, and community refusal. Equal evidentiary standards do not require equal numbers of positive and negative paragraphs. We do not infer an overall verdict by counting favorable sources, treating duplicate coverage as replication, or treating community opposition as a measured causal effect. Both AI authorship and the human author's business affiliation warrant scrutiny, not a presumption that this review is neutral by construction.
 
 
-The CoSLR study supplies a directly relevant caution for AI-assisted evidence synthesis: mandatory checkpoints did not ensure that participants intended to verify generated reports. Its short, survey-based evaluation does not measure actual review accuracy, but motivates explicit citation checks and substantive editorial scrutiny here. Our verification scripts establish bibliographic correspondence, not whether every interpretation is sound. [\hyperlink{ref-coslr2026}{78}]
+Greg Wilson's methodological discussion is a useful companion for readers evaluating common overclaims in AI-assisted coding. The more general lesson is to inspect study design and outcome validity before accepting a headline about productivity. [\hyperlink{ref-wilson2026}{101}]
+
+
+The CoSLR study supplies a directly relevant caution for AI-assisted evidence synthesis: mandatory checkpoints did not ensure that participants intended to verify generated reports. Its short, survey-based evaluation does not measure actual review accuracy, but motivates explicit citation checks and substantive editorial scrutiny here. Our verification scripts establish bibliographic correspondence, not whether every interpretation is sound. [\hyperlink{ref-coslr2026}{102}]
 
 
 
@@ -402,97 +444,145 @@ The references cited in this article follow below. The complete searchable evide
 
 \item[31.] \hypertarget{ref-alphafoldimpact2026}{} Ryan R. Hill; Carolyn Stein. 2026. \textit{How Artificial Intelligence Shapes Science: Evidence from AlphaFold}. working paper. \url{https://www.nber.org/papers/w35143}.
 
-\item[32.] \hypertarget{ref-faros2026}{} Faros AI. 2026. \textit{AI Impact on Engineering Productivity: 2026 Report Data}. vendor report. \url{https://www.faros.ai/research/ai-acceleration-whiplash}.
+\item[32.] \hypertarget{ref-hemandate2026}{} Hao He; Shyam Agarwal; Yegor Denisov-Blanch; et al.. 2026. \textit{AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate}. preprint. Pinned to v1. Distinguish within-developer adoption estimates from the total organization-level throughput change. \url{https://arxiv.org/abs/2607.01904v1}.
 
-\item[33.] \hypertarget{ref-gitclear2025}{} GitClear. 2025. \textit{AI Copilot Code Quality: 2025 Look Back at 12 Months of Data}. vendor report. \url{https://www.gitclear.com/ai\_assistant\_code\_quality\_2025\_research}.
+\item[33.] \hypertarget{ref-faros2026}{} Faros AI. 2026. \textit{AI Impact on Engineering Productivity: 2026 Report Data}. vendor report. \url{https://www.faros.ai/research/ai-acceleration-whiplash}.
 
-\item[34.] \hypertarget{ref-dora2025}{} Derek DeBellis; Kevin Storer; Nathen Harvey; et al.. 2025. \textit{DORA 2025 State of AI-assisted Software Development Report}. organization report. \url{https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report}.
+\item[34.] \hypertarget{ref-gitclear2025}{} GitClear. 2025. \textit{AI Copilot Code Quality: 2025 Look Back at 12 Months of Data}. vendor report. \url{https://www.gitclear.com/ai\_assistant\_code\_quality\_2025\_research}.
 
-\item[35.] \hypertarget{ref-doratensions2026}{} DORA. 2026. \textit{DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use}. organization analysis. \url{https://dora.dev/insights/balancing-ai-tensions}.
+\item[35.] \hypertarget{ref-dora2025}{} Derek DeBellis; Kevin Storer; Nathen Harvey; et al.. 2025. \textit{DORA 2025 State of AI-assisted Software Development Report}. organization report. \url{https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report}.
 
-\item[36.] \hypertarget{ref-cotroneo2025}{} Domenico Cotroneo; Cristina Improta; Pietro Liguori. 2025. \textit{Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity}. preprint. \url{https://arxiv.org/abs/2508.21634}.
+\item[36.] \hypertarget{ref-doratensions2026}{} DORA. 2026. \textit{DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use}. organization analysis. \url{https://dora.dev/insights/balancing-ai-tensions}.
 
-\item[37.] \hypertarget{ref-sabra2025}{} Abbas Sabra; Olivier Schmitt; Joseph Tyler. 2025. \textit{Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis}. preprint. \url{https://arxiv.org/abs/2508.14727}.
+\item[37.] \hypertarget{ref-cotroneo2025}{} Domenico Cotroneo; Cristina Improta; Pietro Liguori. 2025. \textit{Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity}. preprint. \url{https://arxiv.org/abs/2508.21634}.
 
-\item[38.] \hypertarget{ref-tran2026}{} Michael Tran; Fred Lewis; Kun Yang; et al.. 2026. \textit{Characterizing the Quality Profile of AI-Generated C++ in Production}. preprint. \url{https://arxiv.org/abs/2608.06640}.
+\item[38.] \hypertarget{ref-sabra2025}{} Abbas Sabra; Olivier Schmitt; Joseph Tyler. 2025. \textit{Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis}. preprint. \url{https://arxiv.org/abs/2508.14727}.
 
-\item[39.] \hypertarget{ref-sweci2026}{} Jialong Chen; Xander Xu; Hu Wei; Chuan Chen; Bing Zhao. 2026. \textit{SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration}. preprint. \url{https://arxiv.org/abs/2603.03823}.
+\item[39.] \hypertarget{ref-tran2026}{} Michael Tran; Fred Lewis; Kun Yang; et al.. 2026. \textit{Characterizing the Quality Profile of AI-Generated C++ in Production}. preprint. \url{https://arxiv.org/abs/2608.06640}.
 
-\item[40.] \hypertarget{ref-coverage2026}{} Atish Kumar Dipongkor; Talank Baral; Wing Lam; Kevin Moran. 2026. \textit{Test Coverage Analysis of Agentic Pull Requests}. preprint. \url{https://arxiv.org/abs/2607.18057}.
+\item[40.] \hypertarget{ref-sweci2026}{} Jialong Chen; Xander Xu; Hu Wei; Chuan Chen; Bing Zhao. 2026. \textit{SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration}. preprint. \url{https://arxiv.org/abs/2603.03823}.
 
-\item[41.] \hypertarget{ref-iac2026}{} Benjamin Agyekum; Fabio Santos. 2026. \textit{Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair}. preprint. \url{https://arxiv.org/abs/2608.13404}.
+\item[41.] \hypertarget{ref-coverage2026}{} Atish Kumar Dipongkor; Talank Baral; Wing Lam; Kevin Moran. 2026. \textit{Test Coverage Analysis of Agentic Pull Requests}. preprint. \url{https://arxiv.org/abs/2607.18057}.
 
-\item[42.] \hypertarget{ref-vero2026}{} Zhe Ye; Hantao Lou; Yuechun Sun; et al.. 2026. \textit{Vero: Can AI Agents Build Formally Verified Software Repositories?}. preprint. \url{https://arxiv.org/abs/2608.13522}.
+\item[42.] \hypertarget{ref-iac2026}{} Benjamin Agyekum; Fabio Santos. 2026. \textit{Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair}. preprint. \url{https://arxiv.org/abs/2608.13404}.
 
-\item[43.] \hypertarget{ref-shen2026}{} Judy Hanwen Shen; Alex Tamkin. 2026. \textit{How AI Impacts Skill Formation}. preprint. \url{https://arxiv.org/abs/2601.20245}.
+\item[43.] \hypertarget{ref-vero2026}{} Zhe Ye; Hantao Lou; Yuechun Sun; et al.. 2026. \textit{Vero: Can AI Agents Build Formally Verified Software Repositories?}. preprint. \url{https://arxiv.org/abs/2608.13522}.
 
-\item[44.] \hypertarget{ref-lepp2026}{} Marina Lepp. 2026. \textit{Patterns of Learner-AI Interaction and Academic Performance in an Object-Oriented Programming Course}. preprint. \url{https://arxiv.org/abs/2607.24755}.
+\item[44.] \hypertarget{ref-qemupolicy2026}{} QEMU project. n.d.. \textit{Code provenance}. project documentation. Policy observed on 13 October 2026; original adoption date not established. \url{https://www.qemu.org/docs/master/devel/code-provenance.html}.
 
-\item[45.] \hypertarget{ref-wang2026}{} Shihao Wang. 2026. \textit{A Risk-Adaptive and Evidence-Constrained Framework for Generative AI Feedback in Programming Education}. preprint. \url{https://arxiv.org/abs/2609.29874}.
+\item[45.] \hypertarget{ref-ghosttypolicy2026}{} Ghostty project. 2026. \textit{AI Usage Policy}. project documentation. Pinned to the latest file-changing revision available at the cutoff: 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b, 15 February 2026. \url{https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI\_POLICY.md}.
 
-\item[46.] \hypertarget{ref-wulearning2026}{} Xinning Wu; Pei Zhu; Jinliang Zhang; Mengwei Yin; Yingxi Wang. 2026. \textit{ChatGPT's impact on student learning outcomes: a meta-analysis of 35 experimental studies}. peer reviewed. \url{https://www.nature.com/articles/s41599-026-07019-z}.
+\item[46.] \hypertarget{ref-ghosttycontribution2026}{} Ghostty project. 2026. \textit{Contributing to Ghostty}. project documentation. Pinned to revision 22f9233a0f7b85747483ce713411c67be4643d8f, 19 April 2026. \url{https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md}.
 
-\item[47.] \hypertarget{ref-boolzen2026}{} Chiara Boolzen; Jochen Kuhn; Salome Flegr; et al.. 2026. \textit{Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes}. peer reviewed. \url{https://link.springer.com/article/10.1007/s10462-026-11665-9}.
+\item[47.] \hypertarget{ref-shen2026}{} Judy Hanwen Shen; Alex Tamkin. 2026. \textit{How AI Impacts Skill Formation}. preprint. \url{https://arxiv.org/abs/2601.20245}.
 
-\item[48.] \hypertarget{ref-llamalima2026}{} Anselm Strohmaier; Samira Bödefeld; Oliver Straser; Frank Reinhold. 2026. \textit{LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics}. preprint. Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-0.79. DOI identifies the version family; January first-submission and September revision dates must not be conflated. \url{https://arxiv.org/abs/2601.18685v5}.
+\item[48.] \hypertarget{ref-ownership2026}{} Alberto Martin-Lopez; Rosalia Tufano; Emanuela Guglielmi; et al.. 2026. \textit{More Code, Less Understanding? On the Impact of AI Assistants on Developers' Productivity and Code Ownership}. peer reviewed. Author-hosted manuscript; journal identity confirmed on the author's research page. The August 2021 running header is a LaTeX template artifact, not the publication date. DOI not yet established in this review. \url{https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf}.
 
-\item[49.] \hypertarget{ref-vella2026}{} Annie Vella; Kelly Blincoe. 2026. \textit{The Impact of AI Coding Assistants on Software Engineering: A Longitudinal Study}. preprint. \url{https://arxiv.org/abs/2605.23135}.
+\item[49.] \hypertarget{ref-lepp2026}{} Marina Lepp. 2026. \textit{Patterns of Learner-AI Interaction and Academic Performance in an Object-Oriented Programming Course}. preprint. \url{https://arxiv.org/abs/2607.24755}.
 
-\item[50.] \hypertarget{ref-brand2026}{} Charlotte Brandebusemeyer; Daniela Gasser; Tobias Schimmer; Bert Arnrich. 2026. \textit{Beyond Productivity: Measuring Developers' Cognitive Load During GenAI-Supported Software Development}. preprint. \url{https://arxiv.org/abs/2609.37645}.
+\item[50.] \hypertarget{ref-wang2026}{} Shihao Wang. 2026. \textit{A Risk-Adaptive and Evidence-Constrained Framework for Generative AI Feedback in Programming Education}. preprint. \url{https://arxiv.org/abs/2609.29874}.
 
-\item[51.] \hypertarget{ref-era2026}{} Eser Aygün; Anastasiya Belyaeva; Gheorghe Comanici; et al.. 2026. \textit{An AI system to help scientists write expert-level empirical software}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10658-6}.
+\item[51.] \hypertarget{ref-wulearning2026}{} Xinning Wu; Pei Zhu; Jinliang Zhang; Mengwei Yin; Yingxi Wang. 2026. \textit{ChatGPT's impact on student learning outcomes: a meta-analysis of 35 experimental studies}. peer reviewed. \url{https://www.nature.com/articles/s41599-026-07019-z}.
 
-\item[52.] \hypertarget{ref-coscientist2026}{} Juraj Gottweis; Wei-Hung Weng; Alexander Daryin; et al.. 2026. \textit{Accelerating scientific discovery with Co-Scientist}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10644-y}.
+\item[52.] \hypertarget{ref-boolzen2026}{} Chiara Boolzen; Jochen Kuhn; Salome Flegr; et al.. 2026. \textit{Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes}. peer reviewed. \url{https://link.springer.com/article/10.1007/s10462-026-11665-9}.
 
-\item[53.] \hypertarget{ref-robin2026}{} Ali E. Ghareeb; Benjamin Chang; Ludovico Mitchener; et al.. 2026. \textit{A multi-agent system for automating scientific discovery}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10652-y}.
+\item[53.] \hypertarget{ref-llamalima2026}{} Anselm Strohmaier; Samira Bödefeld; Oliver Straser; Frank Reinhold. 2026. \textit{LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics}. preprint. Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-0.79. DOI identifies the version family; January first-submission and September revision dates must not be conflated. \url{https://arxiv.org/abs/2601.18685v5}.
 
-\item[54.] \hypertarget{ref-aiscientist2026}{} Chris Lu; Cong Lu; Robert Tjarko Lange; et al.. 2026. \textit{Towards end-to-end automation of AI research}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10265-5}.
+\item[54.] \hypertarget{ref-vella2026}{} Annie Vella; Kelly Blincoe. 2026. \textit{The Impact of AI Coding Assistants on Software Engineering: A Longitudinal Study}. preprint. \url{https://arxiv.org/abs/2605.23135}.
 
-\item[55.] \hypertarget{ref-alphaproof2025}{} Thomas Hubert; Rishi Mehta; Laurent Sartran; et al.. 2026. \textit{Olympiad-level formal mathematical reasoning with reinforcement learning}. peer reviewed. \url{https://www.nature.com/articles/s41586-025-09833-y}.
+\item[55.] \hypertarget{ref-brand2026}{} Charlotte Brandebusemeyer; Daniela Gasser; Tobias Schimmer; Bert Arnrich. 2026. \textit{Beyond Productivity: Measuring Developers' Cognitive Load During GenAI-Supported Software Development}. preprint. \url{https://arxiv.org/abs/2609.37645}.
 
-\item[56.] \hypertarget{ref-alphaevolve2025}{} Alexander Novikov; Ngân Vũ; Marvin Eisenberger; et al.. 2025. \textit{AlphaEvolve: A coding agent for scientific and algorithmic discovery}. preprint. \url{https://arxiv.org/abs/2506.13131}.
+\item[56.] \hypertarget{ref-era2026}{} Eser Aygün; Anastasiya Belyaeva; Gheorghe Comanici; et al.. 2026. \textit{An AI system to help scientists write expert-level empirical software}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10658-6}.
 
-\item[57.] \hypertarget{ref-discorl2025}{} Junhyuk Oh; Gregory Farquhar; Iurii Kemaev; et al.. 2025. \textit{Discovering state-of-the-art reinforcement learning algorithms}. peer reviewed. \url{https://www.nature.com/articles/s41586-025-09761-x}.
+\item[57.] \hypertarget{ref-coscientist2026}{} Juraj Gottweis; Wei-Hung Weng; Alexander Daryin; et al.. 2026. \textit{Accelerating scientific discovery with Co-Scientist}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10644-y}.
 
-\item[58.] \hypertarget{ref-schwartz2026}{} Matthew Schwartz. 2026. \textit{Claude-shaped science}. vendor hosted essay. \url{https://www.anthropic.com/research/claude-shaped-science}.
+\item[58.] \hypertarget{ref-robin2026}{} Ali E. Ghareeb; Benjamin Chang; Ludovico Mitchener; et al.. 2026. \textit{A multi-agent system for automating scientific discovery}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10652-y}.
 
-\item[59.] \hypertarget{ref-hao2026}{} Qianyue Hao; Fengli Xu; Yong Li; James Evans. 2026. \textit{Artificial intelligence tools expand scientists’ impact but contract science’s focus}. peer reviewed. \url{https://www.nature.com/articles/s41586-025-09922-y}.
+\item[59.] \hypertarget{ref-aiscientist2026}{} Chris Lu; Cong Lu; Robert Tjarko Lange; et al.. 2026. \textit{Towards end-to-end automation of AI research}. peer reviewed. \url{https://www.nature.com/articles/s41586-026-10265-5}.
 
-\item[60.] \hypertarget{ref-dgm2025}{} Jenny Zhang; Shengran Hu; Cong Lu; Robert Lange; Jeff Clune. 2025. \textit{Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents}. preprint. \url{https://arxiv.org/abs/2505.22954}.
+\item[60.] \hypertarget{ref-alphaproof2025}{} Thomas Hubert; Rishi Mehta; Laurent Sartran; et al.. 2026. \textit{Olympiad-level formal mathematical reasoning with reinforcement learning}. peer reviewed. \url{https://www.nature.com/articles/s41586-025-09833-y}.
 
-\item[61.] \hypertarget{ref-darwinx2026}{} Yifan Zhang; Yutong Dai; Juntao Tan; et al.. 2026. \textit{DarwinX: Evolving Agent Harnesses Through Natural Selection}. preprint. \url{https://arxiv.org/abs/2608.07545}.
+\item[61.] \hypertarget{ref-alphaevolve2025}{} Alexander Novikov; Ngân Vũ; Marvin Eisenberger; et al.. 2025. \textit{AlphaEvolve: A coding agent for scientific and algorithmic discovery}. preprint. \url{https://arxiv.org/abs/2506.13131}.
 
-\item[62.] \hypertarget{ref-interfaces2026}{} Xiangzhe Xu; Hamidreza Saghir; Qianhui Wu; et al.. 2026. \textit{The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior}. preprint. \url{https://arxiv.org/abs/2608.11386}.
+\item[62.] \hypertarget{ref-discorl2025}{} Junhyuk Oh; Gregory Farquhar; Iurii Kemaev; et al.. 2025. \textit{Discovering state-of-the-art reinforcement learning algorithms}. peer reviewed. \url{https://www.nature.com/articles/s41586-025-09761-x}.
 
-\item[63.] \hypertarget{ref-researchgym2026}{} Aniketh Garikaparthi; Manasi Patwardhan; Arman Cohan. 2026. \textit{ResearchGym: Evaluating Language Model Agents on Real-World AI Research}. preprint. \url{https://arxiv.org/abs/2602.15112}.
+\item[63.] \hypertarget{ref-schwartz2026}{} Matthew Schwartz. 2026. \textit{Claude-shaped science}. vendor hosted essay. \url{https://www.anthropic.com/research/claude-shaped-science}.
 
-\item[64.] \hypertarget{ref-alignment2026}{} Chen Yueh-Han; Jiaxin Wen; Jan Hendrik Kirchner. 2026. \textit{Automated Researchers Can Mitigate Well-Characterized Alignment Failures}. vendor research report. \url{https://alignment.anthropic.com/2026/automated-alignment-researchers}.
+\item[64.] \hypertarget{ref-hao2026}{} Qianyue Hao; Fengli Xu; Yong Li; James Evans. 2026. \textit{Artificial intelligence tools expand scientists’ impact but contract science’s focus}. peer reviewed. \url{https://www.nature.com/articles/s41586-025-09922-y}.
 
-\item[65.] \hypertarget{ref-rdmetrics2026}{} Anthropic. 2026. \textit{Measurements for understanding the pace of AI development inside frontier labs}. vendor report. \url{https://www.anthropic.com/institute/measuring-pace-of-ai-development}.
+\item[65.] \hypertarget{ref-taoicm2026}{} Terence Tao. 2026. \textit{Mathematics in the age of AI}. preprint. \url{https://arxiv.org/abs/2608.16753v1}.
 
-\item[66.] \hypertarget{ref-uber2026}{} Simon Willison. 2026. \textit{Uber Caps Usage of AI Tools Like Claude Code to Manage Costs}. expert blog. \url{https://simonwillison.net/2026/Jun/3/uber-caps-usage}.
+\item[66.] \hypertarget{ref-taomath2026}{} Terence Tao. 2026. \textit{Math 2.0}. lecture slides. Caltech lecture delivered 9 October; slides announced in Tao's blog on 10 October. Future November events are proposals, not completed outcomes. \url{https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf}.
 
-\item[67.] \hypertarget{ref-retail2025}{} Lu Fang; Zhe Yuan; Kaifu Zhang; Dante Donati; Miklos Sarvary. 2025. \textit{Generative AI and Sales Productivity: Field Experiments in Online Retail}. preprint. June 29, 2026 revision; earlier title referred to firm productivity. \url{https://arxiv.org/abs/2510.12049}.
+\item[67.] \hypertarget{ref-klowdentao2026}{} Tanya Klowden; Terence Tao. 2026. \textit{Mathematical methods and human thought in the age of AI}. preprint. \url{https://arxiv.org/abs/2603.26524v1}.
 
-\item[68.] \hypertarget{ref-babina2026}{} Tania Babina; Alex X. He; Renhao Jiang. 2026. \textit{Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital}. working paper. \url{https://www.nber.org/papers/w35684}.
+\item[68.] \hypertarget{ref-mathmisalignment2026}{} Author not established. 2026. \textit{A Severe Misalignment of AI in Mathematics}. public statement. DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking. \url{https://mathandai.org/}.
 
-\item[69.] \hypertarget{ref-humlum2026}{} Anders Humlum; Emilie Vestergaard. 2025. \textit{Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI}. working paper. March 2026 revision of May 2025 working paper. \url{https://www.nber.org/papers/w33777}.
+\item[69.] \hypertarget{ref-ahm2026}{} Association for Human Mathematics Communications Working Group. 2026. \textit{AHM Statement on OpenAI's October 6 Release of Mathematical Documents}. public statement. Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements. \url{https://www.ahmath.org/statements}.
 
-\item[70.] \hypertarget{ref-stanford2025}{} Erik Brynjolfsson; Bharat Chandar; Ruyu Chen. 2025. \textit{Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab}. working paper. \url{https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence}.
+\item[70.] \hypertarget{ref-taoliving2026}{} Terence Tao. 2026. \textit{Terence Tao on AI in mathematics (and beyond)}. living essay. Inspected version last updated 11 October 2026; page discloses AI assistance, industry access and collaborations. \url{https://teorth.github.io/tao-web/ai-views.html}.
 
-\item[71.] \hypertarget{ref-westby2026}{} Samuel Westby; Alicia Sasser Modestino; Peiran Cheng. 2026. \textit{Generative AI and the Redefinition of Entry-Level Software Work}. working paper. \url{https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work}.
+\item[71.] \hypertarget{ref-openainavier2026}{} OpenAI. 2026. \textit{On the Navier-Stokes Millennium Prize Problem}. organization announcement. \url{https://openai.com/index/navier-stokes-solution/}.
 
-\item[72.] \hypertarget{ref-ramp2026}{} Ara Kharazian; Lisa Simon; Ryan Stevens. 2026. \textit{A New Look at AI's Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment}. vendor working paper. \url{https://ramp.com/data/ai-jobs-impact/paper}.
+\item[72.] \hypertarget{ref-openainavierpaper2026}{} OpenAI. 2026. \textit{Finite time blowup for Navier-Stokes}. technical manuscript. \url{https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf}.
 
-\item[73.] \hypertarget{ref-herrengt2026}{} Florian Herrengt. 2026. \textit{AI is removing the middle class of software engineering}. expert blog. \url{https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html}.
+\item[73.] \hypertarget{ref-openainaviercode2026}{} OpenAI. 2026. \textit{Finite time blowup for Navier-Stokes and Euler equations}. research software. Pinned to f9e8bc5b38b6e212696e8a30e3e91517af887bbd, the revision examined by the October critique. \url{https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd}.
 
-\item[74.] \hypertarget{ref-herrengtvibe}{} Florian Herrengt. 2025. \textit{The vibe coder's career path is doomed}. expert blog. \url{https://blog.florianherrengt.com/vibe-coder-career-path.html}.
+\item[74.] \hypertarget{ref-claynavier2026}{} Clay Mathematics Institute. 2026. \textit{Navier-Stokes Announcement}. organization announcement. \url{https://www.claymath.org/news/navier-stokes-announcement/}.
 
-\item[75.] \hypertarget{ref-nscc2026}{} National Student Clearinghouse. 2026. \textit{The Changing Landscape of Postsecondary Education}. organization report. \url{https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education}.
+\item[75.] \hypertarget{ref-naviertranslation2026}{} Alexander Bastounis; Fabian Circelli; Anders C. Hansen. 2026. \textit{Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs}. preprint. \url{https://arxiv.org/abs/2610.08144v1}.
 
-\item[76.] \hypertarget{ref-hesa2026}{} HESA / Jisc. 2026. \textit{UK higher education student numbers fall for second year in a row}. official statistics. \url{https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row}.
+\item[76.] \hypertarget{ref-hales2026}{} Thomas Hales. 2026. \textit{What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI}. expert essay. Guest author is Thomas Hales, not blog host Terence Tao. Formal checking and human exposition address different questions. \url{https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/}.
 
-\item[77.] \hypertarget{ref-wilson2026}{} Greg Wilson. 2026. \textit{Twelve Ways to Be Wrong About AI-Assisted Coding}. expert blog. \url{https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong}.
+\item[77.] \hypertarget{ref-demourakernel2026}{} Leonardo de Moura. 2026. \textit{Postmortem for the Kernel Soundness Bug Hunt}. expert technical report. \url{https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/}.
 
-\item[78.] \hypertarget{ref-coslr2026}{} MD Aidul Islam; Malik Abdul Sami; Muhammad Waseem; et al.. 2026. \textit{Checkpoints Are Not Enough: Trust Calibration in CoSLR, a Human-AI System for Systematic Literature Reviews}. preprint. \url{https://arxiv.org/abs/2609.22248}.
+\item[78.] \hypertarget{ref-dgm2025}{} Jenny Zhang; Shengran Hu; Cong Lu; Robert Lange; Jeff Clune. 2025. \textit{Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents}. preprint. \url{https://arxiv.org/abs/2505.22954}.
+
+\item[79.] \hypertarget{ref-darwinx2026}{} Yifan Zhang; Yutong Dai; Juntao Tan; et al.. 2026. \textit{DarwinX: Evolving Agent Harnesses Through Natural Selection}. preprint. \url{https://arxiv.org/abs/2608.07545}.
+
+\item[80.] \hypertarget{ref-interfaces2026}{} Xiangzhe Xu; Hamidreza Saghir; Qianhui Wu; et al.. 2026. \textit{The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior}. preprint. \url{https://arxiv.org/abs/2608.11386}.
+
+\item[81.] \hypertarget{ref-researchgym2026}{} Aniketh Garikaparthi; Manasi Patwardhan; Arman Cohan. 2026. \textit{ResearchGym: Evaluating Language Model Agents on Real-World AI Research}. preprint. \url{https://arxiv.org/abs/2602.15112}.
+
+\item[82.] \hypertarget{ref-alignment2026}{} Chen Yueh-Han; Jiaxin Wen; Jan Hendrik Kirchner. 2026. \textit{Automated Researchers Can Mitigate Well-Characterized Alignment Failures}. vendor research report. \url{https://alignment.anthropic.com/2026/automated-alignment-researchers}.
+
+\item[83.] \hypertarget{ref-rdmetrics2026}{} Anthropic. 2026. \textit{Measurements for understanding the pace of AI development inside frontier labs}. vendor report. \url{https://www.anthropic.com/institute/measuring-pace-of-ai-development}.
+
+\item[84.] \hypertarget{ref-uber2026}{} Simon Willison. 2026. \textit{Uber Caps Usage of AI Tools Like Claude Code to Manage Costs}. expert blog. \url{https://simonwillison.net/2026/Jun/3/uber-caps-usage}.
+
+\item[85.] \hypertarget{ref-iqbal2026}{} Fazla Iqbal; Muhammad Asif Khan; Oshani Weerakoon; Shola Oyedeji; Jari Porras. 2026. \textit{The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study}. peer reviewed workshop. \url{https://dl.acm.org/doi/10.1145/3786148.3788622}.
+
+\item[86.] \hypertarget{ref-retail2025}{} Lu Fang; Zhe Yuan; Kaifu Zhang; Dante Donati; Miklos Sarvary. 2025. \textit{Generative AI and Sales Productivity: Field Experiments in Online Retail}. preprint. June 29, 2026 revision; earlier title referred to firm productivity. \url{https://arxiv.org/abs/2510.12049}.
+
+\item[87.] \hypertarget{ref-babina2026}{} Tania Babina; Alex X. He; Renhao Jiang. 2026. \textit{Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital}. working paper. \url{https://www.nber.org/papers/w35684}.
+
+\item[88.] \hypertarget{ref-pragmatic2026}{} Gergely Orosz; Elin Nilsson. 2026. \textit{The impact of AI on software engineers in 2026: key trends. Part 1}. expert newsletter. \url{https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026}.
+
+\item[89.] \hypertarget{ref-kompella2026}{} Kashyap Kompella. 2026. \textit{The risks of AI overreliance in software engineering}. industry analysis. \url{https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering}.
+
+\item[90.] \hypertarget{ref-gates2026}{} Bill Gates. 2026. \textit{The turbulent AI era is here. The choices we make now are critical.}. expert essay. \url{https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make}.
+
+\item[91.] \hypertarget{ref-mukherjee2026}{} Andy Mukherjee. 2026. \textit{AI Is Eating Software and Investors Have Noticed}. opinion. \url{https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap}.
+
+\item[92.] \hypertarget{ref-orland2026}{} Kyle Orland. 2026. \textit{AI coding agents generate more code, but not more software}. journalism. \url{https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/}.
+
+\item[93.] \hypertarget{ref-humlum2026}{} Anders Humlum; Emilie Vestergaard. 2025. \textit{Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI}. working paper. March 2026 revision of May 2025 working paper. \url{https://www.nber.org/papers/w33777}.
+
+\item[94.] \hypertarget{ref-stanford2025}{} Erik Brynjolfsson; Bharat Chandar; Ruyu Chen. 2025. \textit{Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab}. working paper. \url{https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence}.
+
+\item[95.] \hypertarget{ref-westby2026}{} Samuel Westby; Alicia Sasser Modestino; Peiran Cheng. 2026. \textit{Generative AI and the Redefinition of Entry-Level Software Work}. working paper. \url{https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work}.
+
+\item[96.] \hypertarget{ref-ramp2026}{} Ara Kharazian; Lisa Simon; Ryan Stevens. 2026. \textit{A New Look at AI's Impact on Jobs: Firm-Level AI Spending and Workforce Adjustment}. vendor working paper. \url{https://ramp.com/data/ai-jobs-impact/paper}.
+
+\item[97.] \hypertarget{ref-herrengt2026}{} Florian Herrengt. 2026. \textit{AI is removing the middle class of software engineering}. expert blog. \url{https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html}.
+
+\item[98.] \hypertarget{ref-herrengtvibe}{} Florian Herrengt. 2025. \textit{The vibe coder's career path is doomed}. expert blog. \url{https://blog.florianherrengt.com/vibe-coder-career-path.html}.
+
+\item[99.] \hypertarget{ref-nscc2026}{} National Student Clearinghouse. 2026. \textit{The Changing Landscape of Postsecondary Education}. organization report. \url{https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education}.
+
+\item[100.] \hypertarget{ref-hesa2026}{} HESA / Jisc. 2026. \textit{UK higher education student numbers fall for second year in a row}. official statistics. \url{https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row}.
+
+\item[101.] \hypertarget{ref-wilson2026}{} Greg Wilson. 2026. \textit{Twelve Ways to Be Wrong About AI-Assisted Coding}. expert blog. \url{https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong}.
+
+\item[102.] \hypertarget{ref-coslr2026}{} MD Aidul Islam; Malik Abdul Sami; Muhammad Waseem; et al.. 2026. \textit{Checkpoints Are Not Enough: Trust Calibration in CoSLR, a Human-AI System for Systematic Literature Reviews}. preprint. \url{https://arxiv.org/abs/2609.22248}.
 \end{description}}

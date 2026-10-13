@@ -23,7 +23,7 @@ def main():
     if not source.exists():
         raise SystemExit("The compiler returned without producing the expected PDF.")
     release = json.loads((ROOT / "data/release.json").read_text())["release"]
-    target = ROOT / "site/downloads" / f"ai-intellectual-work-{release}.pdf"
+    target = ROOT / "site/downloads" / f"does-ai-help-{release}.pdf"
     shutil.copyfile(source, target)
     print(f"PDF compiled: {target} ({target.stat().st_size:,} bytes)")
 

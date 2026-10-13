@@ -31,7 +31,11 @@ try {
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(url+'/index.html');
-  assert.equal(await page.locator('h1').innerText(),'Does AI Help Us?');
+  assert.equal(await page.locator('h1').innerText(),'Does AI Help?');
+  assert.equal(await page.locator('.wordmark').innerText(),release.title);
+  const cutoffLabel=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(release.cutoff+'T00:00:00Z'));
+  assert.equal(await page.locator('.release-detail').innerText().then(t=>t.includes(cutoffLabel)),true);
+  assert.equal(await page.locator('.pdf-link').getAttribute('href'),`downloads/does-ai-help-${release.release}.pdf`);
   assert.equal(await page.locator('.byline').innerText().then(t=>t.includes('Witold Bołt, PhD')),true);
   assert.equal(await page.locator('a[href="mailto:Witold.Bolt@jit.team"]').count(),1);
   assert.equal(await page.locator('a[href="https://jit.team"]').count(),1);
@@ -63,7 +67,7 @@ try {
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.screenshot({path:path.join(output,`bibliography-${width}.png`)});
   }
-  for(const name of [`ai-intellectual-work-${release.release}.pdf`,'bibliography.csl.json','bibliography.bib','bibliography.ris','sources.csv','sources.json',`release-${release.release}.zip`,'related-reviews.md','reference-verification.json']) {
+  for(const name of [`does-ai-help-${release.release}.pdf`,'bibliography.csl.json','bibliography.bib','bibliography.ris','sources.csv','sources.json',release.archive_name || `release-${release.release}.zip`,'related-reviews.md','balance-review.md','reference-verification.json']) {
     const response=await page.request.get(url+'/downloads/'+name);assert.equal(response.ok(),true,`Download missing: ${name}`);assert.equal((await response.body()).length>0,true);
   }
   await page.goto(url+'/releases.html');assert.equal(await page.locator('h1').innerText(),'Releases & methods');

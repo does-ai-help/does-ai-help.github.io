@@ -2,6 +2,7 @@
 """Public-source identity checks. Reachability never implies result verification."""
 import argparse
 import concurrent.futures
+import datetime as dt
 import hashlib
 import json
 import re
@@ -99,7 +100,7 @@ def main():
     parser.add_argument("--input", type=Path, default=Path("data/intake.json"))
     parser.add_argument("--output", type=Path, default=Path("data/audit.json"))
     parser.add_argument("--cache", type=Path, default=Path("/tmp/ai-intellectual-work-source-cache"))
-    parser.add_argument("--cutoff", default="2026-10-12")
+    parser.add_argument("--cutoff", default=dt.datetime.now(dt.timezone.utc).date().isoformat(), help="Actual metadata checking date in UTC, not the publication evidence cutoff")
     parser.add_argument("--workers", type=int, default=5)
     args = parser.parse_args()
     records = json.loads(args.input.read_text())

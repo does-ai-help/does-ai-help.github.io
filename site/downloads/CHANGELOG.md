@@ -1,5 +1,16 @@
 # Release history
 
+## 2026.10.1 — October 2026
+
+Evidence cutoff: 13 October 2026.
+
+- Standardized the publication title to **Does AI Help?** across current website, PDF, citation metadata, and documentation.
+- Renamed the current article PDF to `does-ai-help-2026-10.pdf` and updated download links and validation checks.
+- Aligned the evidence cutoff with 13 October 2026; preserved authentic historical verification timestamps.
+- Added an evidence-weighted balance self-review, October source-admission log, contribution-policy cases, Tao's Math 2.0 discussion and the Navier-Stokes claim/critique chronology.
+- Expanded primary engineering evidence on throughput, review load and immediate code comprehension; distinguished secondary reporting from independent studies and retained inaccessible suggestions as candidates.
+- Preserved the published 2026.10.0 snapshot and assets; patch releases now use distinct archives and snapshot directories.
+
 ## 2026.10.0 — October 2026
 
 Evidence cutoff: 12 October 2026.

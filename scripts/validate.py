@@ -99,14 +99,14 @@ def main():
         errors.append("CSV row count differs from database")
     if len((downloads/'sources.jsonl').read_text().splitlines()) != len(records):
         errors.append("JSONL row count differs from database")
-    pdf = downloads / f"ai-intellectual-work-{release['release']}.pdf"
+    pdf = downloads / f"does-ai-help-{release['release']}.pdf"
     if not pdf.exists() or not pdf.read_bytes().startswith(b'%PDF'):
         errors.append("PDF missing or invalid header")
     for line in (downloads / "checksums.sha256").read_text().splitlines():
         digest, name = line.split('  ',1)
         if hashlib.sha256((downloads / name).read_bytes()).hexdigest()!=digest:
             errors.append(f"Checksum mismatch: {name}")
-    archive = downloads / f"release-{release['release']}.zip"
+    archive = downloads / release.get("archive_name", f"release-{release['release']}.zip")
     with zipfile.ZipFile(archive) as bundle:
         if len(bundle.namelist()) != len(set(bundle.namelist())):
             errors.append("Duplicate release ZIP member names")

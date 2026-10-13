@@ -73,6 +73,20 @@ KW  - engineering
 AN  - arXiv:2609.29874
 ER  - 
 
+TY  - ELEC
+ID  - mathmisalignment2026
+TI  - A Severe Misalignment of AI in Mathematics
+PY  - 2026
+UR  - https://mathandai.org/
+AB  - A declaration initiated by 25 Fields medallists recognizes stronger AI capabilities but opposes problem-count incentives disconnected from mathematical understanding.
+N1  - Normative collective statement, not representative polling or an empirical estimate. Signatories are endorsers, not automatically bibliographic coauthors.
+KW  - science
+KW  - governance
+KW  - work
+DO  - 10.5281/zenodo.22737750
+N1  - Version: DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking.
+ER  - 
+
 TY  - JOUR
 ID  - coscientist2026
 TI  - Accelerating scientific discovery with Co-Scientist
@@ -186,6 +200,33 @@ AN  - arXiv:2605.22763
 ER  - 
 
 TY  - ELEC
+ID  - ahm2026
+TI  - AHM Statement on OpenAI's October 6 Release of Mathematical Documents
+AU  - Association for Human Mathematics Communications Working Group
+PY  - 2026
+UR  - https://www.ahmath.org/statements
+AB  - Rejects the value of OpenAI's mass mathematical release and calls for mathematicians to discontinue collaboration with the company.
+N1  - A strong organizational position, not a vote of all mathematicians or a technical refutation of every released result. Legal allegations are not adjudicated here.
+KW  - science
+KW  - governance
+KW  - work
+N1  - Version: Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements.
+ER  - 
+
+TY  - ELEC
+ID  - orland2026
+TI  - AI coding agents generate more code, but not more software
+AU  - Orland, Kyle
+PY  - 2026
+UR  - https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/
+AB  - Reports Chen and Stratton's firm-level study and its downstream review bottleneck.
+N1  - Secondary coverage of an already included study, not independent evidence. The headline is stronger than a statistically insignificant output estimate warrants.
+KW  - engineering
+KW  - productivity
+KW  - business
+ER  - 
+
+TY  - ELEC
 ID  - ref-c5caafbad6
 TI  - AI Economic Indicators: June 2026 Update
 PY  - 2026
@@ -241,6 +282,18 @@ KW  - quality
 ER  - 
 
 TY  - ELEC
+ID  - mukherjee2026
+TI  - AI Is Eating Software and Investors Have Noticed
+AU  - Mukherjee, Andy
+PY  - 2026
+UR  - https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap
+AB  - Discusses delayed productivity effects and investors' expectations of AI-related software-sector change.
+N1  - Market interpretation and forecasts, not a causal evaluation of AI deployment. Inspected the public text only, not subscriber functionality.
+KW  - business
+KW  - work
+ER  - 
+
+TY  - ELEC
 ID  - herrengt2026
 TI  - AI is removing the middle class of software engineering
 AU  - Herrengt, Florian
@@ -251,6 +304,41 @@ N1  - An argued hypothesis, not a measured labor-market result or established fo
 KW  - engineering
 KW  - work
 KW  - judgment
+ER  - 
+
+TY  - ELEC
+ID  - ghosttypolicy2026
+TI  - AI Usage Policy
+AU  - Ghostty project
+PY  - 2026
+UR  - https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md
+AB  - Requires disclosure and human understanding of outside contributions, rejects generated media and sanctions low-quality submissions while explicitly welcoming responsible AI assistance.
+N1  - Not a blanket AI-code ban or an experiment; maintainers have different permissions from external contributors.
+KW  - engineering
+KW  - governance
+KW  - work
+N1  - Version: Pinned to the latest file-changing revision available at the cutoff: 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b, 15 February 2026.
+ER  - 
+
+TY  - ELEC
+ID  - hemandate2026
+TI  - AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate
+AU  - He, Hao
+AU  - Agarwal, Shyam
+AU  - Denisov-Blanch, Yegor
+AU  - Azaletskiy, Pavel
+AU  - Koyejo, Sanmi
+AU  - Vasilescu, Bogdan
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.01904v1
+AB  - One enterprise reaches 2.09 times baseline merged PRs per developer; review load also roughly doubles and automated review expands.
+N1  - Nonrandom adoption and use, one AI-forward company and PR throughput rather than user value. Stable merge/revert rates do not establish absence of downstream defects.
+KW  - engineering
+KW  - productivity
+KW  - quality
+DO  - 10.48550/arXiv.2607.01904
+AN  - arXiv:2607.01904
+N1  - Version: Pinned to v1. Distinguish within-developer adoption estimates from the total organization-level throughput change.
 ER  - 
 
 TY  - JOUR
@@ -529,6 +617,19 @@ KW  - agents
 ER  - 
 
 TY  - ELEC
+ID  - ghosttycontribution2026
+TI  - Contributing to Ghostty
+AU  - Ghostty project
+PY  - 2026
+UR  - https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md
+AB  - First-time contributors require maintainer vouching; the project attributes the gate to low-quality submissions and erosion of default trust.
+N1  - Shows an actual participation restriction, not its prevalence across open source or a causal estimate of AI harm.
+KW  - engineering
+KW  - governance
+N1  - Version: Pinned to revision 22f9233a0f7b85747483ce713411c67be4643d8f, 19 April 2026.
+ER  - 
+
+TY  - ELEC
 ID  - darwinx2026
 TI  - DarwinX: Evolving Agent Harnesses Through Natural Selection
 AU  - Zhang, Yifan
@@ -660,6 +761,31 @@ AB  - Supporting reference on context. Scope indicated by the primary-source tit
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - context
 AN  - arXiv:2607.08849
+ER  - 
+
+TY  - ELEC
+ID  - openainavierpaper2026
+TI  - Finite time blowup for Navier-Stokes
+AU  - OpenAI
+PY  - 2026
+UR  - https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+AB  - The manuscript states a smooth forced flow with finite-time unbounded velocity and bounded kinetic energy, claiming the official breakdown alternatives.
+N1  - Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof.
+KW  - science
+KW  - verification
+ER  - 
+
+TY  - ELEC
+ID  - openainaviercode2026
+TI  - Finite time blowup for Navier-Stokes and Euler equations
+AU  - OpenAI
+PY  - 2026
+UR  - https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+AB  - Provides Lean formalization artifacts and independent-checking instructions accompanying the announced mathematical results.
+N1  - Repository availability and build instructions are not our successful execution or an independent audit of formal statement fidelity.
+KW  - science
+KW  - verification
+N1  - Version: Pinned to f9e8bc5b38b6e212696e8a30e3e91517af887bbd, the revision examined by the October critique.
 ER  - 
 
 TY  - CPAPER
@@ -822,6 +948,50 @@ N1  - Version: Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-
 ER  - 
 
 TY  - ELEC
+ID  - taomath2026
+TI  - Math 2.0
+AU  - Tao, Terence
+PY  - 2026
+UR  - https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf
+AB  - Proposes using AI to strengthen mathematical understanding, exposition and collaborative infrastructure rather than optimizing only the number of solved problems.
+N1  - A research agenda and expert assessment, not a causal measurement of community health; examples include announced future activity.
+KW  - science
+KW  - learning
+KW  - governance
+N1  - Version: Caltech lecture delivered 9 October; slides announced in Tao's blog on 10 October. Future November events are proposals, not completed outcomes.
+ER  - 
+
+TY  - ELEC
+ID  - klowdentao2026
+TI  - Mathematical methods and human thought in the age of AI
+AU  - Klowden, Tanya
+AU  - Tao, Terence
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.26524v1
+AB  - Situates AI in the history of intellectual tools and argues for applications that expand human thought and meet human needs.
+N1  - A philosophical framework, not a measured effect. Solicited chapter status is distinct from the unabridged preprint's publication status.
+KW  - science
+KW  - learning
+KW  - governance
+DO  - 10.48550/arXiv.2603.26524
+AN  - arXiv:2603.26524
+ER  - 
+
+TY  - ELEC
+ID  - taoicm2026
+TI  - Mathematics in the age of AI
+AU  - Tao, Terence
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.16753v1
+AB  - Asks what mathematical research is for, conditional on increasingly capable AI problem solving, rather than making a new capability estimate.
+N1  - An ICM lecture-based conceptual argument; submission to proceedings does not establish peer review of this version.
+KW  - science
+KW  - governance
+DO  - 10.48550/arXiv.2608.16753
+AN  - arXiv:2608.16753
+ER  - 
+
+TY  - ELEC
 ID  - rdmetrics2026
 TI  - Measurements for understanding the pace of AI development inside frontier labs
 AU  - Anthropic
@@ -844,6 +1014,59 @@ AB  - A survey of 349 technical workers estimates perceived changes in the value
 N1  - Self-reported counterfactuals, selection, and unusually technical respondents; not independently measured causal uplift.
 KW  - productivity
 KW  - work
+ER  - 
+
+TY  - JOUR
+ID  - ownership2026
+TI  - More Code, Less Understanding? On the Impact of AI Assistants on Developers' Productivity and Code Ownership
+AU  - Martin-Lopez, Alberto
+AU  - Tufano, Rosalia
+AU  - Guglielmi, Emanuela
+AU  - Sánchez, Ana B.
+AU  - Sanz, Ana Lourdes
+AU  - Scalabrino, Simone
+AU  - Oliveto, Rocco
+AU  - Segura, Sergio
+AU  - Bavota, Gabriele
+PY  - 2026
+UR  - https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf
+AB  - Among 69 participants, AI improves median task completeness but reduces immediate correct answers about the code: 87.5% versus 100% without AI.
+N1  - Mostly students; only 14 professionals. Short tasks and AI-generated comprehension questions do not measure permanent skill loss or long-run ownership.
+KW  - engineering
+KW  - learning
+KW  - productivity
+JO  - IEEE Transactions on Software Engineering
+N1  - Version: Author-hosted manuscript; journal identity confirmed on the author's research page. The August 2021 running header is a LaTeX template artifact, not the publication date. DOI not yet established in this review.
+ER  - 
+
+TY  - ELEC
+ID  - claynavier2026
+TI  - Navier-Stokes Announcement
+AU  - Clay Mathematics Institute
+PY  - 2026
+UR  - https://www.claymath.org/news/navier-stokes-announcement/
+AB  - Welcomes the apparent resolution and anticipated new understanding while describing a deliberate evaluation process under the prize rules.
+N1  - Not a prize award or an independent completed validation. Its September statement predates the October translation critique.
+KW  - science
+KW  - verification
+KW  - governance
+ER  - 
+
+TY  - ELEC
+ID  - naviertranslation2026
+TI  - Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs
+AU  - Bastounis, Alexander
+AU  - Circelli, Fabian
+AU  - Hansen, Anders C.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.08144v1
+AB  - Identifies mismatches between OpenAI's written argument and Lean lemmas, distinguishing machine-checked validity from faithful translation.
+N1  - A preprint critique, not a complete independent adjudication. Its worst-case ambiguity result is not proof that every practical autoformalization is impossible or that Lean's logic is invalid.
+KW  - science
+KW  - verification
+KW  - methods
+DO  - 10.48550/arXiv.2610.08144
+AN  - arXiv:2610.08144
 ER  - 
 
 TY  - ELEC
@@ -913,6 +1136,19 @@ JO  - Nature
 ER  - 
 
 TY  - ELEC
+ID  - openainavier2026
+TI  - On the Navier-Stokes Millennium Prize Problem
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/navier-stokes-solution/
+AB  - Claims a solution of the forced Navier-Stokes breakdown alternatives, releasing a written proof and Lean formalization and describing a large multiagent effort.
+N1  - Developer claim with unavailable internal model; announcement, formal checking, statement fidelity and prize recognition are separate evidentiary stages.
+KW  - science
+KW  - agents
+KW  - verification
+ER  - 
+
+TY  - ELEC
 ID  - ref-9c4616e51d
 TI  - One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models
 AU  - Yang, Siqi
@@ -958,6 +1194,20 @@ N1  - One course, nonrandom use and self-report; a null comparison is not equiva
 KW  - learning
 KW  - engineering
 AN  - arXiv:2607.24755
+ER  - 
+
+TY  - ELEC
+ID  - demourakernel2026
+TI  - Postmortem for the Kernel Soundness Bug Hunt
+AU  - de Moura, Leonardo
+PY  - 2026
+UR  - https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/
+AB  - The Lean maintainer documents AI-assisted discovery of soundness bugs and changes to proof-checking safeguards.
+N1  - Maintainer-reported case, not a controlled security comparison. Finding and fixing bugs neither certifies a bug-free kernel nor invalidates all earlier formal proofs.
+KW  - science
+KW  - security
+KW  - verification
+KW  - engineering
 ER  - 
 
 TY  - ELEC
@@ -1120,6 +1370,20 @@ JO  - Nature
 ER  - 
 
 TY  - ELEC
+ID  - taoliving2026
+TI  - Terence Tao on AI in mathematics (and beyond)
+AU  - Tao, Terence
+PY  - 2026
+UR  - https://teorth.github.io/tao-web/ai-views.html
+AB  - Connects Tao's evolving views, comparative advantage, verification and human-centered mathematics with primary writings and talks.
+N1  - AI-drafted, reviewed and corrected by Tao; editorial selection and third-person paraphrase. Cite original works for specific arguments where possible.
+KW  - science
+KW  - learning
+KW  - methods
+N1  - Version: Inspected version last updated 11 October 2026; page discloses AI assistance, industry access and collaborations.
+ER  - 
+
+TY  - ELEC
 ID  - coverage2026
 TI  - Test Coverage Analysis of Agentic Pull Requests
 AU  - Dipongkor, Atish Kumar
@@ -1200,6 +1464,20 @@ AN  - arXiv:2605.23135
 ER  - 
 
 TY  - ELEC
+ID  - pragmatic2026
+TI  - The impact of AI on software engineers in 2026: key trends. Part 1
+AU  - Orosz, Gergely
+AU  - Nilsson, Elin
+PY  - 2026
+UR  - https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026
+AB  - A reader survey describes uneven benefits, rising costs, role changes and tensions between rapid delivery and maintenance.
+N1  - Self-selected 900-plus responses; only the public preview was inspected. Editorial role categories are not a validated workforce taxonomy.
+KW  - engineering
+KW  - work
+KW  - business
+ER  - 
+
+TY  - ELEC
 ID  - iloreview2026
 TI  - The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence
 AU  - Merola, Rossana
@@ -1219,6 +1497,26 @@ DO  - 10.54394/00034628
 N1  - Version: The publisher page dates publication 1 June 2026; the eight-page PDF is headed May 2026. Crossref uses the shorter title without the review subtitle for the same publisher-supplied DOI. These are the same brief, not separate evidence.
 ER  - 
 
+TY  - JOUR
+ID  - iqbal2026
+TI  - The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study
+AU  - Iqbal, Fazla
+AU  - Khan, Muhammad Asif
+AU  - Weerakoon, Oshani
+AU  - Oyedeji, Shola
+AU  - Porras, Jari
+PY  - 2026
+UR  - https://dl.acm.org/doi/10.1145/3786148.3788622
+AB  - Combines 64 studies with 27 interviews across 12 countries, identifying efficiency benefits alongside energy, dependency, skill and defect concerns.
+N1  - Small, geographically concentrated interview sample; broad AI scope and literature through mid-2025. Qualitative findings do not quantify net environmental impact.
+KW  - engineering
+KW  - sustainability
+KW  - business
+KW  - learning
+DO  - 10.1145/3786148.3788622
+JO  - Proceedings of the IEEE/ACM 10th International Workshop on Green and Sustainable Software
+ER  - 
+
 TY  - ELEC
 ID  - ref-6a4ef3528c
 TI  - The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks
@@ -1228,6 +1526,19 @@ UR  - https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html
 AB  - Supporting reference on business. Scope indicated by the primary-source title: The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - business
+ER  - 
+
+TY  - ELEC
+ID  - kompella2026
+TI  - The risks of AI overreliance in software engineering
+AU  - Kompella, Kashyap
+PY  - 2026
+UR  - https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering
+AB  - Connects implementation gains with verification costs, code comprehension and long-term engineering capability.
+N1  - Secondary synthesis, not a new experiment. The categorical productivity subheading is too broad; cited studies must be interpreted in their own settings.
+KW  - engineering
+KW  - learning
+KW  - quality
 ER  - 
 
 TY  - ELEC
@@ -1243,6 +1554,19 @@ N1  - Bibliographic identity checked; substantive findings have not been indepen
 KW  - engineering
 KW  - methods
 AN  - arXiv:2603.16975
+ER  - 
+
+TY  - ELEC
+ID  - gates2026
+TI  - The turbulent AI era is here. The choices we make now are critical.
+AU  - Gates, Bill
+PY  - 2026
+UR  - https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make
+AB  - Argues that AI's benefits and disruption require preparation, equitable access and protection for affected people.
+N1  - A prominent technology stakeholder's argument and forecasts, not empirical proof of future reliability or aggregate welfare gains.
+KW  - work
+KW  - business
+KW  - learning
 ER  - 
 
 TY  - ELEC
@@ -1387,6 +1711,20 @@ AB  - METR's follow-up describes selection and measurement problems as developer
 N1  - Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect.
 KW  - productivity
 KW  - methods
+ER  - 
+
+TY  - ELEC
+ID  - hales2026
+TI  - What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI
+AU  - Hales, Thomas
+PY  - 2026
+UR  - https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/
+AB  - Separates kernel checking from statement fidelity, discusses independent checkers and soundness risks, and describes AI-assisted detection and repair of kernel bugs.
+N1  - Expert technical account, not our independent execution of the proofs or a proof of complete kernel trustworthiness.
+KW  - science
+KW  - verification
+KW  - security
+N1  - Version: Guest author is Thomas Hales, not blog host Terence Tao. Formal checking and human exposition address different questions.
 ER  - 
 
 TY  - ELEC
@@ -2641,6 +2979,19 @@ N1  - Bibliographic identity checked; substantive findings have not been indepen
 KW  - engineering
 KW  - productivity
 KW  - agents
+ER  - 
+
+TY  - ELEC
+ID  - qemupolicy2026
+TI  - Code provenance
+AU  - QEMU project
+UR  - https://www.qemu.org/docs/master/devel/code-provenance.html
+AB  - QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.
+N1  - A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change.
+KW  - engineering
+KW  - governance
+KW  - work
+N1  - Version: Policy observed on 13 October 2026; original adoption date not established.
 ER  - 
 
 TY  - ELEC

@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-10-12T22:33:18.882262+00:00",
+  "checked_at": "2026-10-13T03:48:07.760953+00:00",
   "retry_completed_at": null,
   "scope": "Live access and bibliographic identity, not scientific validity or claim support. Similarity checks can miss errors; substantive and version warnings require editorial review.",
-  "database_sha256": "4860e2999a85e3547e5174070514bf1b81b62bf835f2ac40a8d1f0ca96117d06",
+  "database_sha256": "77a7f804b024f2cf4acd34f981207e3429ac442c6bf051261df2c3053f18ed4f",
   "complete": true,
   "counts": {
-    "confirmed": 165,
-    "unresolved": 19,
-    "manual-confirmation": 2
+    "confirmed": 186,
+    "manual-confirmation": 6,
+    "unresolved": 20
   },
   "blocking_ids": [],
   "duplicate_dois": [],
@@ -69,28 +69,11 @@
         {
           "access": {
             "url": "https://api.datacite.org/dois/10.48550%2Farxiv.2605.04779",
-            "status": 200,
-            "resolved_url": "https://api.datacite.org/dois/10.48550%2Farxiv.2605.04779",
-            "content_type": "application/json; charset=utf-8",
-            "sha256": "3ec0d29bdb68790b2081278463951de38ddd65d7635bc525f1b89ca0ff02e221"
+            "status": 503,
+            "error": "HTTP Error 503: Service Unavailable"
           },
-          "titles": [
-            "A meta-analysis of the effect of generative AI on productivity and learning in programming"
-          ],
-          "doi": "10.48550/arxiv.2605.04779",
-          "authors": [
-            "Maier, Sebastian",
-            "Gunzenhäuser, Moritz",
-            "Schweisthal, Jonas",
-            "Schneider, Manuel",
-            "Feuerriegel, Stefan"
-          ],
-          "dates": [
-            "2026"
-          ],
-          "title_score": 1.0,
-          "matched_title": "A meta-analysis of the effect of generative AI on productivity and learning in programming",
-          "identity_basis": "primary/registry title match"
+          "title_score": 0,
+          "matched_title": null
         },
         {
           "access": {
@@ -120,9 +103,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-026-10652-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=e2b620d7-efc9-4b25-a0e9-fad054c82554",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=fbc44f17-b691-42e9-be50-675cb8431275",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "9144b525ee52ecb006e3b1f6a38d5c640c317fce4fabda177e0caaacbf57ef65"
+            "sha256": "9e4e20fa11350f9904fa1e5c914a8bc8418feefee5ca06dc0112fed931ea0648"
           },
           "titles": [
             "A multi-agent system for automating scientific discovery",
@@ -160,7 +143,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1038%2Fs41586-026-10652-y",
             "content_type": "application/json",
-            "sha256": "a286050744442615834762f6667e7ebdbe13dead205258885957b35f688fee44"
+            "sha256": "14a5dd484d6920178f800ffe4479974a1d474947810635f5c56af546294ce6ec"
           },
           "titles": [
             "A multi-agent system for automating scientific discovery"
@@ -195,9 +178,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-026-10652-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=f6f8ec5f-ec9e-481d-a0bb-b928bb0fd2cb",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=08f00402-f497-43ca-996d-eef0baf5ee53",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "23183d41db3e68469be6c4681b9b8f6657aa2703ddecf6949e8cd0d0215d96a4"
+            "sha256": "1faf8f3f5a78e6a67b078bac1887608da66d42b2223381c2614f0f9c80ee7c08"
           },
           "title_score": 0,
           "matched_title": null
@@ -276,6 +259,94 @@
       ]
     },
     {
+      "id": "mathmisalignment2026",
+      "expected_title": "A Severe Misalignment of AI in Mathematics",
+      "url": "https://mathandai.org/",
+      "doi": "10.5281/zenodo.22737750",
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://mathandai.org/",
+            "status": null,
+            "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mathandai.org'. (_ssl.c:1010)>"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.5281%2Fzenodo.22737750",
+            "status": 404,
+            "error": "HTTP Error 404: Not Found"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.datacite.org/dois/10.5281%2Fzenodo.22737750",
+            "status": 200,
+            "resolved_url": "https://api.datacite.org/dois/10.5281%2Fzenodo.22737750",
+            "content_type": "application/json; charset=utf-8",
+            "sha256": "e78a53965f389de6ffe8fe7acf0c977f11de74cd7036f4e9f1bb1dc7c787696d"
+          },
+          "titles": [
+            "A Severe Misalignment of AI in Mathematics"
+          ],
+          "doi": "10.5281/zenodo.22737750",
+          "authors": [
+            "Avila, Artur",
+            "Bhargava, Manjul",
+            "Birkar, Caucher",
+            "Deligne, Pierre",
+            "Deng, Yu",
+            "Donaldson, Simon",
+            "Duminil-Copin, Hugo",
+            "Figalli, Alessio",
+            "Hairer, Martin",
+            "Huh, June",
+            "Kontsevich, Maxim",
+            "Lindenstrauss, Elon",
+            "Lions, Pierre-Louis",
+            "Maynard, James",
+            "McMullen, Curtis",
+            "Mori, Shigefumi",
+            "Ngô, Bảo Châu",
+            "Okounkov, Andrei",
+            "Scholze, Peter",
+            "Smirnov, Stanislav",
+            "Tao, Terence",
+            "Viazovska, Maryna",
+            "Villani, Cédric",
+            "Werner, Wendelin",
+            "Zelmanov, Efim"
+          ],
+          "dates": [
+            "2026"
+          ],
+          "title_score": 1.0,
+          "matched_title": "A Severe Misalignment of AI in Mathematics",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.5281/zenodo.22737750",
+            "status": 200,
+            "resolved_url": "https://zenodo.org/records/22737751",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "f5af39d02cebd5dad3fad2118791b18e1c96e1c0af57387f3a2dc1475ae4eba2"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
       "id": "coscientist2026",
       "expected_title": "Accelerating scientific discovery with Co-Scientist",
       "url": "https://www.nature.com/articles/s41586-026-10644-y",
@@ -290,9 +361,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-026-10644-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=30aebb40-cea0-4b62-bfdf-fc27051b2145",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=46beeb87-3a02-40e9-82e0-2ee36822b54a",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "3e2f9e8ac768d1c6861b1113a3cfaa930704be2a77e02045524e43615198c768"
+            "sha256": "adb8fb4848f9b77aa7981f6d1562867f56b5a32281b04951010570806034aa00"
           },
           "titles": [
             "Accelerating scientific discovery with Co-Scientist",
@@ -367,7 +438,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1038%2Fs41586-026-10644-y",
             "content_type": "application/json",
-            "sha256": "45707b8d28e2f59e3b1cc750398c244bc58a75735cc5431e1126ac952bb1b93f"
+            "sha256": "a5bf5c1757e10dcd5f65cea6b5bdd08d2625d9c1b735d97dfec57f3972043d56"
           },
           "titles": [
             "Accelerating scientific discovery with Co-Scientist"
@@ -439,9 +510,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-026-10644-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=48fee026-4484-49a6-b67b-e11de2cb26bd",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=10585d29-9422-4ac1-a823-f79f2d6ce33b",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "353b778c15bd2e46814fc2d2925957e345c157a9535edf0812e062aa03a60dbc"
+            "sha256": "8ee34f1cdc1cfc77eef9cefd875f375605ef846d6324c1c9dd5fa02262c78c9e"
           },
           "title_score": 0,
           "matched_title": null
@@ -552,6 +623,82 @@
           "doi": "",
           "title_score": 1.0,
           "matched_title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "ahm2026",
+      "expected_title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+      "url": "https://www.ahmath.org/statements",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "manual-confirmation",
+      "conflicts": [],
+      "warnings": [
+        "Title mismatch requires review: https://www.ahmath.org/statements"
+      ],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.ahmath.org/statements",
+            "status": 200,
+            "resolved_url": "https://www.ahmath.org/statements",
+            "content_type": "text/html;charset=utf-8",
+            "sha256": "c4b8a4b6a489afa00913ab4d804cd8b38dd067cf0e73f7d04d68f2a0234c10d1"
+          },
+          "titles": [
+            "Statements — AHM"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 0.313,
+          "matched_title": null
+        }
+      ],
+      "manual_review": {
+        "id": "ahm2026",
+        "expected_title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+        "url": "https://www.ahmath.org/statements",
+        "observed_title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+        "evidence_url": "https://www.ahmath.org/statements",
+        "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+        "checked_on": "2026-10-13",
+        "expires_on": "2026-11-13",
+        "reason": "Official organization page inspected through web retrieval. The exact statement heading and working-group attribution occur below the generic page title Statements — AHM; the automated parser inspects H1/title metadata, not the lower-level statement heading. The dated 7 October guest repost on Tao's blog confirms identity. This confirms the statement, not its allegations or representativeness."
+      }
+    },
+    {
+      "id": "orland2026",
+      "expected_title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+            "status": 200,
+            "resolved_url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+            "content_type": "text/html; charset=UTF-8",
+            "sha256": "f113ff6d3fc9db3ffde0fc853527ba705333b2221e2a2eb5973053cc4bc1f0c3"
+          },
+          "titles": [
+            "AI coding agents generate more code, but not more software",
+            "\n        AI coding agents generate more code, but not more software\n      ",
+            "AI coding agents generate more code, but not more software - Ars Technica"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "AI coding agents generate more code, but not more software",
           "identity_basis": "primary/registry title match"
         }
       ]
@@ -708,6 +855,39 @@
       ]
     },
     {
+      "id": "mukherjee2026",
+      "expected_title": "AI Is Eating Software and Investors Have Noticed",
+      "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "manual-confirmation",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+            "status": 403,
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ],
+      "manual_review": {
+        "id": "mukherjee2026",
+        "expected_title": "AI Is Eating Software and Investors Have Noticed",
+        "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+        "observed_title": "AI Is Eating Software and Investors Have Noticed",
+        "evidence_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+        "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+        "checked_on": "2026-10-13",
+        "expires_on": "2026-11-13",
+        "reason": "Publisher page inspected through web retrieval: exact title, Andy Mukherjee of Bloomberg News byline, and 8 October 2026 date. Direct script retrieval returns 403. Public article text only was appraised; subscriber functionality was not accessed. This is identity confirmation, not validation of market forecasts."
+      }
+    },
+    {
       "id": "herrengt2026",
       "expected_title": "AI is removing the middle class of software engineering",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
@@ -739,6 +919,135 @@
       ]
     },
     {
+      "id": "ghosttypolicy2026",
+      "expected_title": "AI Usage Policy",
+      "url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+            "status": 200,
+            "resolved_url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "fc377f1259480d8641543d84337bd8d738c758d74c83e6c62a242999ee8e4364"
+          },
+          "titles": [
+            "ghostty/AI_POLICY.md at 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b · ghostty-org/ghostty",
+            "AI_POLICY.md",
+            "AI Usage Policy",
+            "ghostty/AI_POLICY.md at 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b · ghostty-org/ghostty · GitHub"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "AI Usage Policy",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "hemandate2026",
+      "expected_title": "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+      "url": "https://arxiv.org/abs/2607.01904v1",
+      "doi": "10.48550/arxiv.2607.01904",
+      "arxiv_id": "2607.01904",
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://arxiv.org/abs/2607.01904v1",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2607.01904v1",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "613c69bdd381092d632dfecc3bffc78235be56f44af0e79b5c3dbc24c1569016"
+          },
+          "titles": [
+            "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+            "Computer Science > Software Engineering",
+            "Title:AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+            "Bibliographic and Citation Tools",
+            "Code, Data and Media Associated with this Article",
+            "Demos",
+            "Recommenders and Search Tools",
+            "arXivLabs: experimental projects with community collaborators",
+            "[2607.01904v1] AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate"
+          ],
+          "authors": [
+            "He, Hao",
+            "Agarwal, Shyam",
+            "Denisov-Blanch, Yegor",
+            "Azaletskiy, Pavel",
+            "Koyejo, Sanmi",
+            "Vasilescu, Bogdan"
+          ],
+          "dates": [
+            "2026/07/02"
+          ],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.48550%2Farxiv.2607.01904",
+            "status": 404,
+            "error": "HTTP Error 404: Not Found"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.datacite.org/dois/10.48550%2Farxiv.2607.01904",
+            "status": 200,
+            "resolved_url": "https://api.datacite.org/dois/10.48550%2Farxiv.2607.01904",
+            "content_type": "application/json; charset=utf-8",
+            "sha256": "e6b2fcd3700bfe644f60742f831321e4a916a1ad7fb64cd6a9566050c23e732e"
+          },
+          "titles": [
+            "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate"
+          ],
+          "doi": "10.48550/arxiv.2607.01904",
+          "authors": [
+            "He, Hao",
+            "Agarwal, Shyam",
+            "Denisov-Blanch, Yegor",
+            "Azaletskiy, Pavel",
+            "Koyejo, Sanmi",
+            "Vasilescu, Bogdan"
+          ],
+          "dates": [
+            "2026"
+          ],
+          "title_score": 1.0,
+          "matched_title": "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.48550/arxiv.2607.01904",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2607.01904",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "64f2533b410265586fc83500f6b9eedddce81e22f1890ee58952feb5c564dbb6"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
       "id": "era2026",
       "expected_title": "An AI system to help scientists write expert-level empirical software",
       "url": "https://www.nature.com/articles/s41586-026-10658-6",
@@ -753,9 +1062,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-026-10658-6",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=23b3f861-aae7-4b5e-9247-7ee53ea82f11",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=01cf3932-b83b-4c68-94f6-c5fa9d95a77d",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "3134e10a3f89900ab402c139e691a7c9bfa70caa810460c33d22efe324d031c0"
+            "sha256": "97e4145827a1bf877249330d80e9da2d033c56b2a00d060ee2f8ac5705ddad18"
           },
           "titles": [
             "An AI system to help scientists write expert-level empirical software",
@@ -884,9 +1193,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-026-10658-6",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=4605d8a6-61c8-4ae9-8da3-b2a1b2c83f21",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=4b77df66-2bf5-41f4-b5d7-286b0725cb7c",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "dda401691fdadb698ab598571b7865a10bb9826b96665d478470bb3b11dedb71"
+            "sha256": "0011eca18f7a2ebb4beab098796bee8f4a913a3c885541b5138fc198067c20cb"
           },
           "title_score": 0,
           "matched_title": null
@@ -980,9 +1289,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-025-09922-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=c6e0a3c7-438d-4952-b723-a613292d5d54",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=0f6cb27c-da4c-4e8e-bbc3-8dfac8cc4189",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "72483280db25e5b1f642c6d6ccca41b389ec5053514495b8082861f0b337f99b"
+            "sha256": "4157e9183e266f5c1c1598e0ba2ec0c3dfa5de5ee1d4590946b910c07c995bd2"
           },
           "titles": [
             "Artificial intelligence tools expand scientists’ impact but contract science’s focus",
@@ -1035,9 +1344,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-025-09922-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=6fd1585e-c4d6-4fd1-9de7-5ee2f1c02e89",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=b4aa1692-0eb1-4708-b57a-660f7c230514",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "b78cc1cffdedcbb3e91d12fcf3d44d4a768a2af8ad53242fae2e3001fb2f92d1"
+            "sha256": "f31bde7eaf213d1c80d399182e9423708e8b7461456e6ba45ac75f5530ba19cf"
           },
           "title_score": 0,
           "matched_title": null
@@ -1185,7 +1494,7 @@
             "status": 200,
             "resolved_url": "https://epoch.ai/publications/innovationeval",
             "content_type": "text/html",
-            "sha256": "995b348e2de3893c9f492fcff10b8b734867404cbce81c2236309279dd3df95e"
+            "sha256": "ddb3f24cacadf47eaf151cfb049be21c9349cd54b300bc98c5727d0aab3ebd6d"
           },
           "titles": [
             "Can AI automate AI R&D yet?",
@@ -1217,7 +1526,7 @@
             "status": 200,
             "resolved_url": "https://www.nber.org/papers/w35684",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "fbefd318db92d630c35be2055f9b3134aa1b631888e6e0108ef000daf5ad2297"
+            "sha256": "24e952c0dd124762e03f3e15434d5563f2abdfcaf0d7324374a11e0cf294d050"
           },
           "titles": [
             "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
@@ -1293,7 +1602,7 @@
             "status": 200,
             "resolved_url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "795a9c3fa0cf57c93aa3b8db6774424a073da4798786f9c955d3b960fb20f8ba"
+            "sha256": "5e94ebec7aab23feeb383e42ca1e39cef56da2cfd18539f247bb80a7ccde46b2"
           },
           "titles": [
             "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
@@ -1396,9 +1705,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41599-026-07019-z",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=16bb5211-04c5-4ac3-a1dc-bf62125ec22d",
+            "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=45e9df52-1afe-42e4-a37c-7659887a48d7",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "1cf1136e309320185708ae2d5659847e925e645e99c10c7a77c90d16df77db19"
+            "sha256": "6051d6776fb7340a51732f2992ecd6089a02cfadec2c3aabad2e7ed746a4c211"
           },
           "titles": [
             "ChatGPT’s impact on student learning outcomes: a meta-analysis of 35 experimental studies",
@@ -1451,9 +1760,9 @@
           "access": {
             "url": "https://doi.org/10.1057/s41599-026-07019-z",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=65064079-7453-46d9-8b6e-a65683a694e9",
+            "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=11f212aa-909f-4f14-b8c7-7075222493df",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "f328bf3a95c2fc4ccfb4ed0cbe525d6ae488f2f28233b343bb7ac811f9b913a2"
+            "sha256": "c11fd38c9bd2796cf3eb848f268af69888c2d55a5d7940263d3743c7a814d465"
           },
           "title_score": 0,
           "matched_title": null
@@ -1526,7 +1835,7 @@
             "status": 200,
             "resolved_url": "https://www.anthropic.com/research/claude-shaped-science",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "0e41e8ebd543dd4dceed8e55be14dd5f277571919096c8dba3d854abaa997d46"
+            "sha256": "39f3260ab8a9025d52b1c6d1dfcb45817d7733a36319ab832489bbe69ab57114"
           },
           "titles": [
             "Claude-shaped science",
@@ -1569,6 +1878,40 @@
           "doi": "",
           "title_score": 1.0,
           "matched_title": "Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify | Spotify Engineering",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "ghosttycontribution2026",
+      "expected_title": "Contributing to Ghostty",
+      "url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+            "status": 200,
+            "resolved_url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "ee579d9a57a3cbda9ad6ea615d7817b6782a8955d935f236a152b6b36dca152b"
+          },
+          "titles": [
+            "ghostty/CONTRIBUTING.md at 22f9233a0f7b85747483ce713411c67be4643d8f · ghostty-org/ghostty",
+            "CONTRIBUTING.md",
+            "Contributing to Ghostty",
+            "ghostty/CONTRIBUTING.md at 22f9233a0f7b85747483ce713411c67be4643d8f · ghostty-org/ghostty · GitHub"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Contributing to Ghostty",
           "identity_basis": "primary/registry title match"
         }
       ]
@@ -1860,9 +2203,9 @@
           "access": {
             "url": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=7c0e4e1c-b4be-450f-b13c-a91a3b237e8c",
+            "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=4f2c9451-20fb-4cb5-bd4f-18d972e63ebd",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "7be445fa00d19c7c9978030fcf64ff216409fe7fccf08098d223a150f1398892"
+            "sha256": "051e6370b79f948ac9989ce5c17cdc5032b080e836c5900bd05f27f27217075c"
           },
           "titles": [
             "Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes",
@@ -1917,9 +2260,9 @@
           "access": {
             "url": "https://doi.org/10.1007/s10462-026-11665-9",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=594cef76-0eed-4941-8b6e-7acd358e061c",
+            "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=2b3c5a1e-9be0-4bab-9663-64d333e56244",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "7825debcff6f170fc3d12688ec32416dccf817b2a7a24021531fd5244f3d55ba"
+            "sha256": "cd7afbb732b7c5257972b8183059d25870992f1b0220621e14efa9fff2fbbf45"
           },
           "title_score": 0,
           "matched_title": null
@@ -1971,6 +2314,79 @@
       ]
     },
     {
+      "id": "openainavierpaper2026",
+      "expected_title": "Finite time blowup for Navier-Stokes",
+      "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "manual-confirmation",
+      "conflicts": [],
+      "warnings": [
+        "Title mismatch requires review: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+      ],
+      "observations": [
+        {
+          "access": {
+            "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+            "status": 200,
+            "resolved_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+            "content_type": "application/pdf",
+            "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f"
+          },
+          "titles": [
+            ""
+          ],
+          "title_score": 0.0,
+          "matched_title": null
+        }
+      ],
+      "manual_review": {
+        "id": "openainavierpaper2026",
+        "expected_title": "Finite time blowup for Navier-Stokes",
+        "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "observed_title": "Finite time blowup for Navier-Stokes",
+        "evidence_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+        "checked_on": "2026-10-13",
+        "expires_on": "2026-11-13",
+        "reason": "Primary PDF first-page title and OpenAI attribution confirmed through web PDF retrieval and Poppler extraction. Pypdf splits the heading into NA VIER due to typographic spacing, preventing the exact opening-page title match; PDF title metadata is empty. Retrieved SHA-256 0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f. This confirms artifact identity, not the correctness of the 166-page proof."
+      }
+    },
+    {
+      "id": "openainaviercode2026",
+      "expected_title": "Finite time blowup for Navier-Stokes and Euler equations",
+      "url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+            "status": 200,
+            "resolved_url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "30974725892edbd673662b9ed84316848642b5c637e44cf5c80cc0e8265b3a8b"
+          },
+          "titles": [
+            "GitHub - openai/NavierStokesAndEuler at f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+            "Finite time blowup for Navier–Stokes and Euler equations",
+            "GitHub - openai/NavierStokesAndEuler at f9e8bc5b38b6e212696e8a30e3e91517af887bbd · GitHub"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Finite time blowup for Navier–Stokes and Euler equations",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
       "id": "wittig2026",
       "expected_title": "Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity",
       "url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
@@ -1987,7 +2403,7 @@
             "status": 200,
             "resolved_url": "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De",
             "content_type": "text/html;charset=UTF-8",
-            "sha256": "8fa25d7f62ce99155d1f340a79c356c73894faccec1d1109b152b843845aa6c2"
+            "sha256": "e694a6095c2785acdf727172ebf0ae322b7c3c58a033e8477f8aed910fb89599"
           },
           "titles": [
             "Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity (ASE 2026 - Research Papers) - ASE 2026"
@@ -2167,7 +2583,7 @@
             "status": 200,
             "resolved_url": "https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html",
             "content_type": "text/html;charset=utf-8",
-            "sha256": "bbe71c0af55f9ef50db212f1d8d4307d34c562134eb402108fc96cbd6d98490b"
+            "sha256": "f92d297b7ca52102c54191ab6e2fc96ed0e21225a21893bc44760450f0ba0c64"
           },
           "titles": [
             "Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",
@@ -2189,18 +2605,24 @@
       "doi": null,
       "arxiv_id": null,
       "checked_reference": false,
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "conflicts": [],
       "warnings": [],
       "observations": [
         {
           "access": {
             "url": "https://docs.iza.org/dp18767.pdf",
-            "status": null,
-            "error": "<urlopen error timed out>"
+            "status": 200,
+            "resolved_url": "https://docs.iza.org/dp18767.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4d8fc6ae2bec0c118590db492ff1002da9693d743f8cd90cff8af2f2ac9cec39"
           },
-          "title_score": 0,
-          "matched_title": null
+          "titles": [
+            "Has AI Widened Employment Gaps? Tracking Early-Career Employment by Occupational Exposure in Norway"
+          ],
+          "title_score": 1.0,
+          "matched_title": "Has AI Widened Employment Gaps? Tracking Early-Career Employment by Occupational Exposure in Norway",
+          "identity_basis": "PDF opening-page title text"
         }
       ]
     },
@@ -2265,7 +2687,7 @@
             "status": 200,
             "resolved_url": "https://www.nber.org/papers/w35143",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "3b51b376be3fc6b3a11c35bf4c94a3d16dda37a3ba02a7f81a497fd6194c815b"
+            "sha256": "f187ae01c8a1836167c1251156faf00d520b9363b8151a68b575cbb8a8d41dcb"
           },
           "titles": [
             "How Artificial Intelligence Shapes Science: Evidence from AlphaFold",
@@ -2339,7 +2761,7 @@
             "status": 200,
             "resolved_url": "https://arxiv.org/abs/2607.21832",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "becad7611a247f7999faf290bbe719631dec6a3585a10f0d050e017bc8ac2272"
+            "sha256": "bfd725b74f539673466d99064cccd271eafecf055b5911172991bfbe630cfa86"
           },
           "titles": [
             "How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests",
@@ -2384,7 +2806,7 @@
             "status": 200,
             "resolved_url": "https://www.atlassian.com/blog/company-news/ai-sdlc",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "6615cfe60d176ad05f785663e9a745e126bbcaeac45fe23f6ed3a573a494ac33"
+            "sha256": "eb54fe289c258c01534b640cb39f6df31ea6513c25aea355730a54f84baafc08"
           },
           "titles": [
             "How we’re evolving Jira for AI-native software development - Inside Atlassian",
@@ -2414,9 +2836,9 @@
           "access": {
             "url": "https://link.springer.com/article/10.1186/s41239-026-00614-9",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=1313494f-31a4-4d56-8f35-d0c3d97a59c1",
+            "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=538489ee-dd70-4a92-b533-bc1b47c3a474",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "3562e6fb3f0ed7ae78c8b4a1a58b2e5a3bfd01a25c37289113a49889a8320b3e"
+            "sha256": "a5f3f08db5fb8018b94416c3c860a0e6cbd9362ae1b99dc13db8df6ec6d2b883"
           },
           "titles": [
             "Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation",
@@ -2461,9 +2883,9 @@
           "access": {
             "url": "https://doi.org/10.1186/s41239-026-00614-9",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=6b049d72-6702-4351-9a00-f8862b49410d",
+            "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=3c452c46-f35e-40d6-8b72-554c6682fe13",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "5304b962948aa0b1ac2f77a75408b3ae97b298857d35f4916a66dfb1e9386bb7"
+            "sha256": "3f2e8b2ec59274be111a9db3fb75f95b5142b1bbd70309e3c6330719f790afeb"
           },
           "title_score": 0,
           "matched_title": null
@@ -2562,6 +2984,206 @@
       ]
     },
     {
+      "id": "taomath2026",
+      "expected_title": "Math 2.0",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+            "status": 200,
+            "resolved_url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "7e3b6ec69751f5d108b517aebed0f223537e1f4638fc59c7f9f1bd7d5027eb9f"
+          },
+          "titles": [
+            "Math 2.0"
+          ],
+          "title_score": 1.0,
+          "matched_title": "Math 2.0",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "klowdentao2026",
+      "expected_title": "Mathematical methods and human thought in the age of AI",
+      "url": "https://arxiv.org/abs/2603.26524v1",
+      "doi": "10.48550/arxiv.2603.26524",
+      "arxiv_id": "2603.26524",
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://arxiv.org/abs/2603.26524v1",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2603.26524v1",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "78acc22eb540c8765281d892083434283333da3fbb819e4194191885efa6fd54"
+          },
+          "titles": [
+            "Mathematical methods and human thought in the age of AI",
+            "Mathematics > History and Overview",
+            "Title:Mathematical methods and human thought in the age of AI",
+            "Bibliographic and Citation Tools",
+            "Code, Data and Media Associated with this Article",
+            "Demos",
+            "Recommenders and Search Tools",
+            "arXivLabs: experimental projects with community collaborators",
+            "[2603.26524v1] Mathematical methods and human thought in the age of AI"
+          ],
+          "authors": [
+            "Klowden, Tanya",
+            "Tao, Terence"
+          ],
+          "dates": [
+            "2026/03/27"
+          ],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Mathematical methods and human thought in the age of AI",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.48550%2Farxiv.2603.26524",
+            "status": 404,
+            "error": "HTTP Error 404: Not Found"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.datacite.org/dois/10.48550%2Farxiv.2603.26524",
+            "status": 200,
+            "resolved_url": "https://api.datacite.org/dois/10.48550%2Farxiv.2603.26524",
+            "content_type": "application/json; charset=utf-8",
+            "sha256": "34f5d488159b08727a792b551c04373377c4884696ab360fdaafa002c416611b"
+          },
+          "titles": [
+            "Mathematical methods and human thought in the age of AI"
+          ],
+          "doi": "10.48550/arxiv.2603.26524",
+          "authors": [
+            "Klowden, Tanya",
+            "Tao, Terence"
+          ],
+          "dates": [
+            "2026"
+          ],
+          "title_score": 1.0,
+          "matched_title": "Mathematical methods and human thought in the age of AI",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.48550/arxiv.2603.26524",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2603.26524",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "a7f1310b09828970155f71c455715a39a40668e3d73d04f4a7337a35c329633b"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
+      "id": "taoicm2026",
+      "expected_title": "Mathematics in the age of AI",
+      "url": "https://arxiv.org/abs/2608.16753v1",
+      "doi": "10.48550/arxiv.2608.16753",
+      "arxiv_id": "2608.16753",
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://arxiv.org/abs/2608.16753v1",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2608.16753v1",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "9e330485c4e7721ee1e1d2ce1d5f05941d9c2ea512803f21871ed760eab86c5c"
+          },
+          "titles": [
+            "Mathematics in the age of AI",
+            "Mathematics > History and Overview",
+            "Title:Mathematics in the age of AI",
+            "Bibliographic and Citation Tools",
+            "Code, Data and Media Associated with this Article",
+            "Demos",
+            "Recommenders and Search Tools",
+            "arXivLabs: experimental projects with community collaborators",
+            "[2608.16753v1] Mathematics in the age of AI"
+          ],
+          "authors": [
+            "Tao, Terence"
+          ],
+          "dates": [
+            "2026/08/17"
+          ],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Mathematics in the age of AI",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.48550%2Farxiv.2608.16753",
+            "status": 404,
+            "error": "HTTP Error 404: Not Found"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.datacite.org/dois/10.48550%2Farxiv.2608.16753",
+            "status": 200,
+            "resolved_url": "https://api.datacite.org/dois/10.48550%2Farxiv.2608.16753",
+            "content_type": "application/json; charset=utf-8",
+            "sha256": "74961a2c2d0c28f0014a545476af7d11485cbfd14916c842c64be39cb2e2faa1"
+          },
+          "titles": [
+            "Mathematics in the age of AI"
+          ],
+          "doi": "10.48550/arxiv.2608.16753",
+          "authors": [
+            "Tao, Terence"
+          ],
+          "dates": [
+            "2026"
+          ],
+          "title_score": 1.0,
+          "matched_title": "Mathematics in the age of AI",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.48550/arxiv.2608.16753",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2608.16753",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "59923a1fb39510e261debbe229921248596381ca324a6aaf8850ce02d5657fa7"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
       "id": "rdmetrics2026",
       "expected_title": "Measurements for understanding the pace of AI development inside frontier labs",
       "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
@@ -2611,7 +3233,7 @@
             "status": 200,
             "resolved_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "2161b3f1c8aefc1d35e6648f46e25f5a4d8af4bd946af0fe0a8357cd388082de"
+            "sha256": "8168f4280193b9c4ce9fb56cb26868528700c971a3ad7fbca869573873cb13b4"
           },
           "titles": [
             "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
@@ -2628,6 +3250,154 @@
           "title_score": 1.0,
           "matched_title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
           "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "ownership2026",
+      "expected_title": "More Code, Less Understanding? On the Impact of AI Assistants on Developers' Productivity and Code Ownership",
+      "url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+            "status": 200,
+            "resolved_url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e74440e56de30ffbfbeb1498fbafa9979f5d9daa6d3f82c97f804d5ac598bc08"
+          },
+          "titles": [
+            ""
+          ],
+          "title_score": 0.0,
+          "matched_title": null,
+          "identity_basis": "PDF opening-page title text"
+        }
+      ]
+    },
+    {
+      "id": "claynavier2026",
+      "expected_title": "Navier-Stokes Announcement",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+            "status": 200,
+            "resolved_url": "https://www.claymath.org/news/navier-stokes-announcement/",
+            "content_type": "text/html; charset=UTF-8",
+            "sha256": "355636c95898fbd73f8a6a696c7c5845003717852a69027d40d6feea15578a4d"
+          },
+          "titles": [
+            "Navier-Stokes Announcement - Clay Mathematics Institute"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Navier-Stokes Announcement - Clay Mathematics Institute",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "naviertranslation2026",
+      "expected_title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "url": "https://arxiv.org/abs/2610.08144v1",
+      "doi": "10.48550/arxiv.2610.08144",
+      "arxiv_id": "2610.08144",
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://arxiv.org/abs/2610.08144v1",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2610.08144v1",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "2d0d43114f85191331ecb78eacc93c58d7ca92ec00bdabb4dbfb994ce32c289a"
+          },
+          "titles": [
+            "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+            "Mathematics > Analysis of PDEs",
+            "Title:Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+            "Bibliographic and Citation Tools",
+            "Code, Data and Media Associated with this Article",
+            "Demos",
+            "Recommenders and Search Tools",
+            "arXivLabs: experimental projects with community collaborators",
+            "[2610.08144v1] Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs"
+          ],
+          "authors": [
+            "Bastounis, Alexander",
+            "Circelli, Fabian",
+            "Hansen, Anders C."
+          ],
+          "dates": [
+            "2026/10/06"
+          ],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.48550%2Farxiv.2610.08144",
+            "status": 404,
+            "error": "HTTP Error 404: Not Found"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.datacite.org/dois/10.48550%2Farxiv.2610.08144",
+            "status": 200,
+            "resolved_url": "https://api.datacite.org/dois/10.48550%2Farxiv.2610.08144",
+            "content_type": "application/json; charset=utf-8",
+            "sha256": "8ad1a2a0b106997b2a6691f1507e09c8dcd7e449843323e5097e6136cd822e61"
+          },
+          "titles": [
+            "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs"
+          ],
+          "doi": "10.48550/arxiv.2610.08144",
+          "authors": [
+            "Bastounis, Alexander",
+            "Circelli, Fabian",
+            "Hansen, Anders C."
+          ],
+          "dates": [
+            "2026"
+          ],
+          "title_score": 1.0,
+          "matched_title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.48550/arxiv.2610.08144",
+            "status": 200,
+            "resolved_url": "https://arxiv.org/abs/2610.08144",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "34b5f6c2fdd3dc73d3f7477adc5e563611cea992f30c6b29f0c586901672ba0d"
+          },
+          "title_score": 0,
+          "matched_title": null
         }
       ]
     },
@@ -2700,9 +3470,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-025-09833-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=bf4d2ac0-6b01-46ac-8853-3155b8a92b9c",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=2bdd303f-ff4a-47ae-a269-560c35bff80f",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "9efb08d7a61a25299e64693d9113840c67c578abf720c0fa8578cf08678e3d37"
+            "sha256": "92af17166cd496a729307fe35c5a4bc84d9900f1109e7c80a8d96e41bf241a4f"
           },
           "titles": [
             "Olympiad-level formal mathematical reasoning with reinforcement learning",
@@ -2825,12 +3595,44 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-025-09833-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=16d024cb-41d5-4596-ba4c-38a02c4ba43b",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=1976b27c-4ca4-4d0e-9a22-42e0aafae6da",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "2ceab172a0d3f57f963213674baf407cd80982cda529bdd40afe0c3ab70ea98a"
+            "sha256": "238171a6426f0d24aa24a1ad7fc2a7e1fdbf653db8fd3fc3efce7ea6e1e85584"
           },
           "title_score": 0,
           "matched_title": null
+        }
+      ]
+    },
+    {
+      "id": "openainavier2026",
+      "expected_title": "On the Navier-Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://openai.com/index/navier-stokes-solution/",
+            "status": 200,
+            "resolved_url": "https://openai.com/index/navier-stokes-solution/",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "4b9a243ec6952f2519f523c20c4ac6ee9733b03df0963a24a773546d7731a1b2"
+          },
+          "titles": [
+            "On the Navier–Stokes Millennium Prize Problem",
+            "On the Navier–Stokes Millennium Prize Problem | OpenAI"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "On the Navier–Stokes Millennium Prize Problem",
+          "identity_basis": "primary/registry title match"
         }
       ]
     },
@@ -2973,6 +3775,38 @@
       ]
     },
     {
+      "id": "demourakernel2026",
+      "expected_title": "Postmortem for the Kernel Soundness Bug Hunt",
+      "url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+            "status": 200,
+            "resolved_url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "6dee5fae85a0cf814e67344beab4780c67e29efdfe9e6d7dcec61ea63d4f535f"
+          },
+          "titles": [
+            "\n            Postmortem for the Kernel Soundness Bug Hunt",
+            "Postmortem for the Kernel Soundness Bug Hunt — Leonardo de Moura"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "\n            Postmortem for the Kernel Soundness Bug Hunt",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
       "id": "ref-96ff1d3807",
       "expected_title": "Reference awaiting identity verification",
       "url": "https://www.oecd.org/en/publications/2026/01/oecd-digital-education-outlook-2026_940e0dd8.html",
@@ -2990,6 +3824,39 @@
             "error": "HTTP Error 403: Forbidden"
           },
           "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
+      "id": "candidate-cnbc-2026",
+      "expected_title": "Reference awaiting identity verification: CNBC software-developer jobs URL",
+      "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": false,
+      "identity_status": "unresolved",
+      "conflicts": [],
+      "warnings": [
+        "Title mismatch requires review: https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
+      ],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+            "status": 200,
+            "resolved_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "b64849dbdc7f55c43d5e9130cbfb5e8039425af1e46928d78165edb22fccbf2c"
+          },
+          "titles": [
+            "AI is automating coding. So why are software developer job postings on the rise?",
+            "AI taking job of software developer? What labor market data shows"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 0.517,
           "matched_title": null
         }
       ]
@@ -3160,7 +4027,7 @@
             "status": 200,
             "resolved_url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "a5311204bdfd0a0f8ad90cb9aed93d6d401a54145f89aa07cee912c6bdcb7b48"
+            "sha256": "09c3598e19d495622a807aabb592e5c7ef60f75dce262146089745526a3758f5"
           },
           "titles": [
             "Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs | Fortune",
@@ -3207,7 +4074,7 @@
             "status": 200,
             "resolved_url": "https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "35e77eddfe45a446b5b6d40faec44af3b8af9cd1043633d82898d5d0dc3cfdd1"
+            "sha256": "b77f38de437afb1d36b88b6fc71f54d8c1f6ecedee74636a9900e137624488e9"
           },
           "titles": [
             "Sam Altman Says AI ‘Jobs Apocalypse’ Probably Won’t Happen. What Changed?",
@@ -3336,9 +4203,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-025-10072-4",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=1daa3dbb-5572-43da-b1cf-249b84fb9993",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=9cff5559-c7fe-42b4-959b-61ade70e1a56",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "e25281da45a7a2ddb8a6678d894d571d2c4b9f7226dcd4d3f254eb2a85a50d5a"
+            "sha256": "efb1d5d9844ae026a86891bcb9254c4282bdfcdf34d928f2ca5113660bbab656"
           },
           "titles": [
             "Synthesizing scientific literature with retrieval-augmented language models",
@@ -3439,12 +4306,44 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-025-10072-4",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=b0047c6f-dbe8-478f-8e6e-4f8d2f95be07",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=79dbbb36-c52f-46f2-8e61-4f91fc4a4801",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "4eb87ddc29ec750cc68cf725e54ffd18de68d76af861b99f96d7b11a4c0e731f"
+            "sha256": "2d0396a62fded269f753b863fd208c61dc02da06bf72cf0db04b4dba26ed0034"
           },
           "title_score": 0,
           "matched_title": null
+        }
+      ]
+    },
+    {
+      "id": "taoliving2026",
+      "expected_title": "Terence Tao on AI in mathematics (and beyond)",
+      "url": "https://teorth.github.io/tao-web/ai-views.html",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://teorth.github.io/tao-web/ai-views.html",
+            "status": 200,
+            "resolved_url": "https://teorth.github.io/tao-web/ai-views.html",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "1bf9c53c9e171b1563c508e976b62f3894558cdfa809b18364b60817ae39c6c5"
+          },
+          "titles": [
+            "Terence Tao on AI in mathematics (and beyond)",
+            "Terence Tao on AI — a living summary — Terence Tao"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Terence Tao on AI in mathematics (and beyond)",
+          "identity_basis": "primary/registry title match"
         }
       ]
     },
@@ -3511,7 +4410,7 @@
             "status": 200,
             "resolved_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "dda7460d46dd47c4f11c8298b5815994763000de359d384af475fc0d4af65074"
+            "sha256": "f2406619a7712d18a283e0404a822ffccc67e8e5f78708fd1b03149f6baeb28c"
           },
           "titles": [
             "The 2026 AI Index Report | Stanford HAI",
@@ -3543,7 +4442,7 @@
             "status": 200,
             "resolved_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "beb2a0ce14a2df20fca19ccc9e683d97045032a8ba05ca4e5c9249dc25a6ad61"
+            "sha256": "300a1b7915a15445116e1638280c5a3cae654fd0bb566b0c807f82b6cd9f736d"
           },
           "titles": [
             "The Changing Landscape of Postsecondary Education",
@@ -3653,6 +4552,38 @@
       ]
     },
     {
+      "id": "pragmatic2026",
+      "expected_title": "The impact of AI on software engineers in 2026: key trends. Part 1",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+            "status": 200,
+            "resolved_url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "43ab1f673f685cac148e93f868e40643e560ee370a38482706607cb94db8d4e9"
+          },
+          "titles": [
+            "The impact of AI on software engineers in 2026: key trends. Part 1",
+            "The Pragmatic Engineer"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "The impact of AI on software engineers in 2026: key trends. Part 1",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
       "id": "iloreview2026",
       "expected_title": "The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence",
       "url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
@@ -3720,6 +4651,65 @@
       ]
     },
     {
+      "id": "iqbal2026",
+      "expected_title": "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study",
+      "url": "https://dl.acm.org/doi/10.1145/3786148.3788622",
+      "doi": "10.1145/3786148.3788622",
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://dl.acm.org/doi/10.1145/3786148.3788622",
+            "status": 403,
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "title_score": 0,
+          "matched_title": null
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.1145%2F3786148.3788622",
+            "status": 200,
+            "resolved_url": "https://api.crossref.org/works/10.1145%2F3786148.3788622",
+            "content_type": "application/json",
+            "sha256": "17f0146c822f07c6c62548bed1990f528653bb9a00116013373523e84b17d307"
+          },
+          "titles": [
+            "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study"
+          ],
+          "doi": "10.1145/3786148.3788622",
+          "authors": [
+            "Iqbal, Fazla",
+            "Khan, Muhammad Asif",
+            "Weerakoon, Oshani",
+            "Oyedeji, Shola",
+            "Porras, Jari"
+          ],
+          "dates": [
+            "2026",
+            "2026",
+            "2026"
+          ],
+          "title_score": 1.0,
+          "matched_title": "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.1145/3786148.3788622",
+            "status": 403,
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
       "id": "ref-6a4ef3528c",
       "expected_title": "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
       "url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
@@ -3736,7 +4726,7 @@
             "status": 200,
             "resolved_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "b0274ecef9d8e52450873e1900624bee509265b9698d3b81b08154a7b6d49617"
+            "sha256": "963dc0e24d473c5722aedda0b7342825bc007085e6da1d6d8c841d76bfc88e86"
           },
           "titles": [
             "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
@@ -3749,6 +4739,38 @@
           "doi": "",
           "title_score": 1.0,
           "matched_title": "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "kompella2026",
+      "expected_title": "The risks of AI overreliance in software engineering",
+      "url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+            "status": 200,
+            "resolved_url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+            "content_type": "text/html;charset=UTF-8",
+            "sha256": "206d587d9af73652865674273822e6eab8869667a63ac46ba74cee8fba61956c"
+          },
+          "titles": [
+            "The risks of AI overreliance in software engineering | TechTarget",
+            "The risks of AI overreliance in software engineering"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "The risks of AI overreliance in software engineering | TechTarget",
           "identity_basis": "primary/registry title match"
         }
       ]
@@ -3797,6 +4819,39 @@
           "identity_basis": "primary/registry title match"
         }
       ]
+    },
+    {
+      "id": "gates2026",
+      "expected_title": "The turbulent AI era is here. The choices we make now are critical.",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "manual-confirmation",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+            "status": 403,
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ],
+      "manual_review": {
+        "id": "gates2026",
+        "expected_title": "The turbulent AI era is here. The choices we make now are critical.",
+        "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+        "observed_title": "The turbulent AI era is here. The choices we make now are critical.",
+        "evidence_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+        "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+        "checked_on": "2026-10-13",
+        "expires_on": "2026-11-13",
+        "reason": "Author's primary page inspected through web retrieval: exact main essay title, Bill Gates author block, and 26 August 2026 date. The page embeds other older articles; those dates were not assigned to this essay. Direct script retrieval returns 403. Identity does not establish the accuracy of predictions."
+      }
     },
     {
       "id": "ref-5b8fb411c7",
@@ -3907,9 +4962,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-026-10265-5",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=6a6476ae-bab1-42d6-927d-04180720c239",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=83e06725-91f0-45f4-933a-74ea72b085ad",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "b91649d7e2bcdf8a39ca85a04142c4cc7545d8cf0b4b6f07b63a007ca38d412f"
+            "sha256": "bb67984ecc149590802ed2f5776a93767aa7ba64e29c3156eb81ae41beca302d"
           },
           "titles": [
             "Towards end-to-end automation of AI research",
@@ -3970,9 +5025,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-026-10265-5",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=d24c9e3f-d156-4f81-8453-1dd2daf67743",
+            "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=abdff6db-d6bd-4cf3-bc4c-1fdf98244df0",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "6dc7b2f8eb34b71096253ae367b286c34bcb10ff05ff34553a6866593adbe331"
+            "sha256": "768ade7cb4ea62c2d426044b15f927425fcb6e02f7f3d0949906b52cee112eb8"
           },
           "title_score": 0,
           "matched_title": null
@@ -4028,7 +5083,7 @@
             "status": 200,
             "resolved_url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "715f5198cc1e43b603f267e0651679c13171d4f95cf1f3fd34a0b8f63d928ee7"
+            "sha256": "aa17a986078ee6650be5513de4971d3093bc5548e9c7e04bfa5aeb117cc0b1ea"
           },
           "titles": [
             "Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune",
@@ -4075,7 +5130,7 @@
             "status": 200,
             "resolved_url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "da9fcc54ad2f04030ad0abe7286f0d71119a9a0b015e75de05feaeee4e34261a"
+            "sha256": "09b80c7183433ef5b111ecc1be9b46b243eae8631bc797cd0a1c559ffa622025"
           },
           "titles": [
             "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
@@ -4193,7 +5248,7 @@
             "status": 200,
             "resolved_url": "https://metr.org/blog/2026-02-24-uplift-update/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "dc7166eccaed813e22d7206faea490040086be40e0b9d00463e0fc31e76c47f2"
+            "sha256": "991ab869894c641f7183e579dcc805476edfc2bde3c999facbe033446d1520d0"
           },
           "titles": [
             "We are Changing our Developer Productivity Experiment Design",
@@ -4209,6 +5264,39 @@
           "doi": "",
           "title_score": 1.0,
           "matched_title": "We are Changing our Developer Productivity Experiment Design",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "hales2026",
+      "expected_title": "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+            "status": 200,
+            "resolved_url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+            "content_type": "text/html; charset=UTF-8",
+            "sha256": "3ac0df3087c4e4c12a92213527345c870aa1961cc366b4f6a0e77489d2f82836"
+          },
+          "titles": [
+            "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI",
+            "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI",
+            "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI | What's new"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI",
           "identity_basis": "primary/registry title match"
         }
       ]
@@ -4263,33 +5351,30 @@
       "doi": null,
       "arxiv_id": null,
       "checked_reference": true,
-      "identity_status": "manual-confirmation",
+      "identity_status": "confirmed",
       "conflicts": [],
       "warnings": [],
       "observations": [
         {
           "access": {
             "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
-            "status": 202,
-            "resolved_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+            "status": 200,
+            "resolved_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "sha256": "d7d060fb3183214998dfbcff1152e173ba51749d1c6fb514c65457137e27d815"
           },
-          "title_score": 0,
-          "matched_title": null
+          "titles": [
+            "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
+            "Which AI Coding Tools Do Developers Actually Use at Work?"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
+          "identity_basis": "primary/registry title match"
         }
-      ],
-      "manual_review": {
-        "id": "ref-11a15eb594",
-        "expected_title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
-        "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
-        "observed_title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog",
-        "evidence_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
-        "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
-        "checked_on": "2026-10-12",
-        "expires_on": "2026-11-12",
-        "reason": "Primary JetBrains page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact page title and Mikhail Bogdanov byline confirmed. The script intermittently receives an empty HTTP 202 response, which is explicitly not treated as successful identity inspection. This exception establishes identity, not survey validity or global representativeness."
-      }
+      ]
     },
     {
       "id": "demirer2026",
@@ -4308,7 +5393,7 @@
             "status": 200,
             "resolved_url": "https://www.nber.org/papers/w35275",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "4eacbd3e8eb3ae2966f156c7e45ca906d0e0a00b9737f73f9f4908f262b93fdf"
+            "sha256": "2fc434bc557d731fdb9875751dbadb72c5451e1cfcea08bdf46e365a1baf82a4"
           },
           "titles": [
             "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools",
@@ -4574,7 +5659,7 @@
             "status": 200,
             "resolved_url": "https://www.gitclear.com/ai_assistant_code_quality_2025_research",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "55ffd93e178501e69c9da8c36e2fdcd197620afd06cd0fb41fe17469d305aa77"
+            "sha256": "2e27eae2533a03226cd769d0d0c63455ce8f7a4515026c0beadc50e5fbd30d86"
           },
           "titles": [
             "AI Copilot Code Quality: 2025 Look Back at 12 Months of Data",
@@ -5048,7 +6133,7 @@
             "status": 200,
             "resolved_url": "https://www.microsoft.com/en-us/research/publication/dear-diary-a-randomized-controlled-trial-of-generative-ai-coding-tools-in-the-workplace/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "15a46fc20b3208265d46a1c5a961b76e29d7c9c59a53353d13ed7eeaa4068302"
+            "sha256": "2a199c65d472c4aca7b8b2b118bb44c597b64fd5de29bc60c3fbc3886513a67b"
           },
           "titles": [
             "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
@@ -5148,10 +6233,8 @@
         {
           "access": {
             "url": "https://doi.org/10.24251/hicss.2026.880",
-            "status": 200,
-            "resolved_url": "https://scholarspace.manoa.hawaii.edu/items/8249fcb7-d462-42c7-8bce-f99dfa2ea06e",
-            "content_type": "text/html; charset=utf-8",
-            "sha256": "befcacc4938ef0921e06d68d65a3097ef3b166903c25c1243a8b02527a88ae39"
+            "status": null,
+            "error": "The read operation timed out"
           },
           "title_score": 0,
           "matched_title": null
@@ -5218,9 +6301,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-025-09761-x",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=e2a986f8-e760-464d-b548-a7388ac61c89",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=432b559a-b6ec-47ef-bf74-d5745a727f76",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "0b5c6dd3c9206f2a1be911eb4911eca8b62dc328543fdbd893f3b111aaea678f"
+            "sha256": "837218e1352ba4798ce07847932e627294855e7f637b5eef5df1079ac128f652"
           },
           "titles": [
             "Discovering state-of-the-art reinforcement learning algorithms",
@@ -5283,9 +6366,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-025-09761-x",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=7a15a1f5-941f-4b85-a988-38691a0a8636",
+            "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=ac34d3e1-af26-4b06-99fd-00c45968d0d0",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "79128bb1deefa913a15a580fe709cdcf55969b03b33e42559a2874273eb3ca47"
+            "sha256": "9f22147dfea5261766c2554a895de20dc43a62301a803584e553f2212b5679d5"
           },
           "title_score": 0,
           "matched_title": null
@@ -5307,9 +6390,9 @@
           "access": {
             "url": "https://link.springer.com/article/10.1007/s10664-025-10658-6",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=f4922d4e-eac9-4338-99d9-bea0a4625118",
+            "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=4058ffe6-ad6f-4eed-9e79-9f7212b419ac",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "961239bd925db64fd05ca1bee2c63eced13dae12285aa483d6b3c9bf1dff5293"
+            "sha256": "6957c5ac2d4629684fa3c1814069521b42782b8ab16717e1c2b1bde783b62724"
           },
           "titles": [
             "Do LLMs consider security? an empirical study on responses to programming questions",
@@ -5363,9 +6446,9 @@
           "access": {
             "url": "https://doi.org/10.1007/s10664-025-10658-6",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=9f48dd7c-919f-4720-aae5-656762638d96",
+            "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=d3a63308-d3e6-421f-9b65-c8148f7a57c5",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "3bc5c7713030d5c92836cfdb9ef3971a61f83446e436502f90a16c98be46ccc9"
+            "sha256": "738f229ce7b8576614297e392283be99a0c1cbd011d446def0e9794b7c4406bf"
           },
           "title_score": 0,
           "matched_title": null
@@ -5437,7 +6520,7 @@
             "status": 200,
             "resolved_url": "https://research.google/pubs/dora-impact-of-generative-ai-in-software-development/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "5e0d28e276bbf235c1bbbadc97ef2da14fb10729a7b76734cc341448083edd32"
+            "sha256": "0daa0e63acb7018e744104bc008467f4c2bef4f2efeb20c3275a27a2550c5fc4"
           },
           "titles": [
             "DORA Impact of Generative AI in Software Development"
@@ -5717,7 +6800,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1093%2Fqje%2Fqjae044",
             "content_type": "application/json",
-            "sha256": "375713384983492c0f52b6260e8b1d033a1cf89286225714a0e6b874f6269922"
+            "sha256": "68efcf64c9eebe8190a3ad602ffa25a4ffe91cef8a175e5ef19b69832884443b"
           },
           "titles": [
             "Generative AI at Work"
@@ -5765,7 +6848,7 @@
             "status": 200,
             "resolved_url": "https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "5d28ee3c92b13f3b3f93e3dc5e6dfa2c56c3fbfcce85e19871ec0729828496f9"
+            "sha256": "033883ee622facdf68923127d219b07d436d51e8b92ba8bd2fa95416ae7cf01c"
           },
           "titles": [
             "Generative AI in Computer Science Education: Challenges and Opportunities",
@@ -5823,7 +6906,7 @@
             "status": 200,
             "resolved_url": "https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "d5a39772f6c7cfaae657f5a148de98a7e7e9287721035b14cd5ece24f0aaa0bf"
+            "sha256": "45d4a44cfcfa63760a46731574c00b097fd683248a509509d99eba0e61eb4025"
           },
           "title_score": 0,
           "matched_title": null
@@ -5856,7 +6939,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1073%2Fpnas.2422633122",
             "content_type": "application/json",
-            "sha256": "63a6b64a05f659c302893d34a8c7628feabed36b4d2c2ecaba2d1e9db38e84df"
+            "sha256": "92a612bd7a59c5deeb825ae417c7444dc40f9fc5bc67a013464edc959835631a"
           },
           "titles": [
             "Generative AI without guardrails can harm learning: Evidence from high school mathematics"
@@ -5907,7 +6990,7 @@
             "status": 200,
             "resolved_url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "9a52e0b3b73cbc3ff8f1f9dd2107b06e11c6620c4a66423333b14620b9ed93b4"
+            "sha256": "0cb036ad7f8d6d276702e191fff0b7624fe4d27807c138ca81ebb5115618860f"
           },
           "titles": [
             "How AI is transforming work at Anthropic",
@@ -6107,7 +7190,7 @@
             "status": 200,
             "resolved_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "63b5b1d1d37a0314f331b971f073402bceff97c03ae220887d90931411b31a5a"
+            "sha256": "07549688dde623438d7d9260904e51a174a0549ca4dd053255d827fa0e39b788"
           },
           "titles": [
             "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
@@ -6237,9 +7320,9 @@
           "access": {
             "url": "https://doi.org/10.1007/s10664-025-10735-w",
             "status": 200,
-            "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=2b3eb670-5610-4585-9177-295105afd63e",
+            "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=c59db7fa-620f-436b-8dea-0d78adf724ea",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "0575ece28e4713e282a06952a3e267f6f9ab4f910d506d8a477a27b45c1171b7"
+            "sha256": "7cc97aff9ead30c1989dc4f25ee02691a6675864391caf472b11d37c8d2374e1"
           },
           "title_score": 0,
           "matched_title": null
@@ -6488,9 +7571,9 @@
           "access": {
             "url": "https://doi.org/10.1007/978-981-95-3537-8_9",
             "status": 200,
-            "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=3cb572b2-2801-4bb7-a8dd-b498967d0311",
+            "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=14196abf-d831-47da-ad01-340f6d206574",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "f5692bef6181708a0a540be6ffea09f49ac7b1bd96655212883da6749d0de262"
+            "sha256": "8516c1ed4e8cddb2e6a7d12169af1a8778e95d462129dde4cfb6a889be3a0ead"
           },
           "title_score": 0,
           "matched_title": null
@@ -6600,7 +7683,7 @@
             "status": 200,
             "resolved_url": "https://www.nber.org/papers/w33777",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "3c2cad18f838c2ae3f4c5221f00290cd269abe231c803cf233c3df2d8822149b"
+            "sha256": "2886c0da160f26c0c75c667572e5d3612c889d331fcb3642a55821b6487fb2a3"
           },
           "titles": [
             "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
@@ -6756,7 +7839,7 @@
             "status": 200,
             "resolved_url": "https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "46287e6093a2207154f5aec8ed4bccdee57c4260acbed407041a6094450e6afe"
+            "sha256": "9f8bb0cddb4727746649390323b5c3dc4763a6ac7ceb9a84df7e2ee4ed1fb48c"
           },
           "titles": [
             "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
@@ -7007,7 +8090,7 @@
             "status": 200,
             "resolved_url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
             "content_type": "text/html; charset=UTF-8",
-            "sha256": "3bb810bfad967d5183428b4f72fa9f9d73bc1b20feb8a4517297f6115cc0926d"
+            "sha256": "497b0c2d400a9b4e1cb0191575a1ae738a208a65afca08f6746d2cdff6f22f89"
           },
           "titles": [
             "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
@@ -7161,9 +8244,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-024-07566-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=ac914727-da96-4d81-8f2b-759dbd9d2a08",
+            "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=966311ac-e762-4777-a641-68e4909c7e64",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "3783106144238a5c0d304a10a8140c52b18ee68fbd5e03c12a015dada05173d6"
+            "sha256": "793d37d367c2186c272c84a36fc2f87c2d3302470f44273e6d5560a3e7710f92"
           },
           "titles": [
             "AI models collapse when trained on recursively generated data",
@@ -7193,7 +8276,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1038%2Fs41586-024-07566-y",
             "content_type": "application/json",
-            "sha256": "491494f66b07ca7c058dd72724becbdc0b024ac8d3330591d2e631b731b9aff2"
+            "sha256": "ccb6c6588d984c4f484538ca1246dac8e72a21e4126493d70f0fbb88aead99df"
           },
           "titles": [
             "AI models collapse when trained on recursively generated data"
@@ -7220,9 +8303,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-024-07566-y",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=9de31a1c-96ca-439f-b929-e4cf27041046",
+            "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=a701839f-ba11-4f2b-8bb4-ea59c68cc097",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "88792ac36f7bd15787421dac2467271266b43b8678c88e30a427342cc34080af"
+            "sha256": "39943c8b6aa0e1bf4dcfed11a47674a90eaaa1c2ea0b1bbdb46b3840a0d04abe"
           },
           "title_score": 0,
           "matched_title": null
@@ -7244,9 +8327,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-024-07146-0",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=417aeb26-0f57-4a3b-8a10-fe6f019ac6fa",
+            "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=e13f7330-9c62-406e-9545-4ce0c177172d",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "33034ca30c11c047641288a6220842859ed7843934f1eb295d4dd6c86e9092f8"
+            "sha256": "c054f9a48dbac6c3a06417983cb4e5739c91c0936d326f00aa8da0c5c0142876"
           },
           "titles": [
             "Artificial intelligence and illusions of understanding in scientific research",
@@ -7272,7 +8355,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1038%2Fs41586-024-07146-0",
             "content_type": "application/json",
-            "sha256": "07f7d68753cf4069abea75609469394705773f7999c4cd3d18ecb99f435332ff"
+            "sha256": "6fabd6e1fa37b05b06d7c9964c93aaa05664e4279eb3391a58eb5e5a06f1b549"
           },
           "titles": [
             "Artificial intelligence and illusions of understanding in scientific research"
@@ -7295,9 +8378,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-024-07146-0",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=6e086586-fd96-4cd8-a905-5bd009d3f0c8",
+            "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=65b10243-7112-4384-8b4f-3c1d529a53ec",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "d3152a796bdbdd5ba450cf8341cb3feb41e9a370143472e9a293409734b7525e"
+            "sha256": "065a6ae0ebc4f688c78456949b04bc513379d23b440d3222f37bf5847bc49d54"
           },
           "title_score": 0,
           "matched_title": null
@@ -7581,7 +8664,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1126%2Fscience.adh2586",
             "content_type": "application/json",
-            "sha256": "5d4276d4524ca9f8112833e29f184d2f266f5d860b2a5ef0e109cc0c03057691"
+            "sha256": "ae171590234a4c298c6292fb4c39706f711c1636bbb45e8b5fda883d8048d9d7"
           },
           "titles": [
             "Experimental evidence on the productivity effects of generative artificial intelligence"
@@ -7627,9 +8710,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-023-06924-6",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=f891b5d9-ec49-48a9-a376-c61af5fa1e55",
+            "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=77779eaa-96d1-47aa-a16b-63fa168f7e3a",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "87542b6411ff88cfe4aa638d5581db7f65a4d0e3444512bf99868099485566bf"
+            "sha256": "7786b42201d1ee595137ac4442732cbf8ed00d911b9a57849bd11f17cd5cdc02"
           },
           "titles": [
             "Mathematical discoveries from program search with large language models",
@@ -7698,9 +8781,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-023-06924-6",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=dee3216b-5530-4d2e-b311-7f3438f9a513",
+            "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=c66a97c8-03ce-481a-a0df-215008ce5eca",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "b02316cd4681d2cb7c672300ce09af5c75cb59db5107e3298390cedf3d1288fe"
+            "sha256": "214e396750abfe48c0152cc884870b212ec73cc797671e9c74d872c7c85b77fa"
           },
           "title_score": 0,
           "matched_title": null
@@ -7941,9 +9024,9 @@
           "access": {
             "url": "https://www.nature.com/articles/s41586-021-03819-2",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=6a720336-7d6b-433c-8fb5-48c1c86f7c01",
+            "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=e4a7bd2b-5df2-427b-980f-3b612c8157b1",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "60cba12ffaa11ddcee71cdf32b708cfb8895819ea7c1e59422705d79b543cfd9"
+            "sha256": "5987f141271a6008536196bbc8d9c058c303c78853ba7f745bac316f7e7a0b47"
           },
           "titles": [
             "Highly accurate protein structure prediction with AlphaFold",
@@ -8001,7 +9084,7 @@
             "status": 200,
             "resolved_url": "https://api.crossref.org/works/10.1038%2Fs41586-021-03819-2",
             "content_type": "application/json",
-            "sha256": "ab6b2f159cfaa30e439fd29b6cc3ac299acd85fcbea812492aaa013121aacd45"
+            "sha256": "7b5bc8f67559ccef23bfb9b4354f8ff8b75db1f8858b16dccde1235d4f6669e5"
           },
           "titles": [
             "Highly accurate protein structure prediction with AlphaFold"
@@ -8056,9 +9139,9 @@
           "access": {
             "url": "https://doi.org/10.1038/s41586-021-03819-2",
             "status": 200,
-            "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=02cb2a89-9e6c-4e17-bb2b-3cb8b29b8ba4",
+            "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=f2de88d4-8ba6-4367-9da9-2e010890918f",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "71051e07c6c9f55734d2d850d83381c4f9e73c9cab750193a0ae92bca07f834b"
+            "sha256": "db5fa72de59f2ed2bcbd9528f2b1e4305a9bdc42769ee36317acc7c4bca7ada4"
           },
           "title_score": 0,
           "matched_title": null
@@ -8142,7 +9225,7 @@
             "status": 200,
             "resolved_url": "https://ramp.com/data/ai-jobs-impact",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "2031ce0a67d993532a911b5891d868961e6d7daf1b3dab72c89d2a4d1b20b60d"
+            "sha256": "47e188e762f801f390579649fa8524e7b32ca89e2254e8c7c43c49c868c39b07"
           },
           "titles": [
             "A New Look at AI’s Impact on Jobs"
@@ -8216,6 +9299,38 @@
           "doi": "",
           "title_score": 1.0,
           "matched_title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+          "identity_basis": "primary/registry title match"
+        }
+      ]
+    },
+    {
+      "id": "qemupolicy2026",
+      "expected_title": "Code provenance",
+      "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": true,
+      "identity_status": "confirmed",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+            "status": 200,
+            "resolved_url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "406069787854b7b0f049267566aa59bfda8b078f5d31e809fd5a40df00b96e2d"
+          },
+          "titles": [
+            "Code provenance",
+            "Code provenance — QEMU  documentation"
+          ],
+          "authors": [],
+          "dates": [],
+          "doi": "",
+          "title_score": 1.0,
+          "matched_title": "Code provenance — QEMU  documentation",
           "identity_basis": "primary/registry title match"
         }
       ]
@@ -8301,7 +9416,7 @@
             "status": 200,
             "resolved_url": "https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "fd3efcff75846ea755ac1e1c48bcad859d24db22c178166334cb6342cc71b4c1"
+            "sha256": "e93227791be953ad7cc72ea86bf2f1c855891a3d96c5b6c5992d23449e877c02"
           },
           "titles": [
             "Generative AI and Software Engineering Education | CMU Software Engineering Institute",
@@ -8338,7 +9453,7 @@
             "status": 200,
             "resolved_url": "https://github.com/SWE-bench/SWE-bench",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "1b76ed08873e98c74569f2e63da43087ce507d872e62c7455163ec15ac0821d3"
+            "sha256": "6809764360bdf728a2d5663a464ddc61771b210dd281cf4dc4aff5aa5aebe9fd"
           },
           "titles": [
             "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?",
@@ -8402,7 +9517,7 @@
             "status": 200,
             "resolved_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "81860d5f2e0d9ba414eb3a7779fd776a3d77ad8505255cf3206f6f287e8fc851"
+            "sha256": "3b7f3d70df6567512c2113a607214eb0e505d0f6982cdf45cd48d2c1b627617c"
           },
           "titles": [
             "How AI is expanding what people do at work",
@@ -8434,7 +9549,7 @@
             "status": 200,
             "resolved_url": "https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-",
             "content_type": "text/html;charset=UTF-8",
-            "sha256": "8bc5597d65d80a6682fec16ad68fe71c281567f5cf81d56b13c70d33d91984ff"
+            "sha256": "2f311991e722085c9e96368dbb35595a0b96256603ff76e512b493d6e48bca31"
           },
           "titles": [
             "How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025"
@@ -8465,7 +9580,7 @@
             "status": 200,
             "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "b449e1b669a5f3945268309af4b8cd86d1e6989e2dc870bc79f13e6911a37990"
+            "sha256": "aa1d9a7752233de251e9a0b4d115a2a456b780c02469ae8e5d971e0e567136db"
           },
           "titles": [
             "Introducing SWE-bench Verified",
@@ -8497,7 +9612,7 @@
             "status": 200,
             "resolved_url": "https://newsletter.kentbeck.com/p/measuring-developer-productivity",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "f246700e8d6d19346ed5d84adebfe078f1feb555546dbbc919c9c0ce7cebaf8f"
+            "sha256": "1493cf51a3c60b07918c88530b0c7f9cf735cebd05972e11ed4cc048fd2153e6"
           },
           "titles": [
             "Measuring developer productivity? A response to McKinsey",
@@ -8529,7 +9644,7 @@
             "status": 200,
             "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/",
             "content_type": "text/html",
-            "sha256": "44348b0324f2677d69de9bf7e3c73cabaf6a066fa3df92c9b30f1524f0e4eb74"
+            "sha256": "a26097886e44b2a6dc29a4e61e9b1c3db39fd316e9750c10862b211b9d58ae63"
           },
           "titles": [
             "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
@@ -8564,7 +9679,7 @@
             "status": 200,
             "resolved_url": "https://about.gitlab.com/resources/ai-accountability-survey-2026/",
             "content_type": "text/html",
-            "sha256": "b8cb4b932f471da2282b98e9633540ff77fdc502c3cd3ed028d6685ac1110aad"
+            "sha256": "fec4d9fbb1ee4f3e6b504413102d2272d145c1e65a7e31454601cee1defa4781"
           },
           "titles": [
             "GitLab",
@@ -8597,7 +9712,7 @@
             "status": 200,
             "resolved_url": "https://openai.com/index/how-agents-are-transforming-work/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "ea1ed0acfbf4c2f034762fd00ae6c379849720418a9b9b9a3dc09074b3c4c27b"
+            "sha256": "843101ddd16ed3b3a2ecd06235f2a034c54af70859e8be7304f23d94056d5007"
           },
           "titles": [
             "How agents are transforming work",
@@ -8630,7 +9745,7 @@
             "status": 200,
             "resolved_url": "https://openai.com/index/scientific-computing-agentic-ai/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "b2cb766554315739190a23d71af967c9bd156add494fd5b18d888a2492903fe8"
+            "sha256": "f53e99e97e2eab72eb0b90422a60fd74a57fc96f0a54b77e02271af14335cfe0"
           },
           "titles": [
             "Scientific computing in the age of agentic AI",
@@ -8941,10 +10056,32 @@
       ]
     },
     {
+      "id": "candidate-sciencedirect-2026",
+      "expected_title": "Reference awaiting identity verification: Elsevier PII S0378720626000066",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+      "doi": null,
+      "arxiv_id": null,
+      "checked_reference": false,
+      "identity_status": "unresolved",
+      "conflicts": [],
+      "warnings": [],
+      "observations": [
+        {
+          "access": {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+            "status": 403,
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "title_score": 0,
+          "matched_title": null
+        }
+      ]
+    },
+    {
       "id": "ref-a97b44c4bb",
       "expected_title": "Rethinking Productivity in Software Engineering",
       "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
-      "doi": null,
+      "doi": "10.1007/978-1-4842-4221-6",
       "arxiv_id": null,
       "checked_reference": true,
       "identity_status": "confirmed",
@@ -8955,9 +10092,9 @@
           "access": {
             "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
             "status": 200,
-            "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=a9fa2dfa-5323-41d7-a15a-833f2929bc2e",
+            "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=f4131c1e-a8b1-4d66-b69a-85c54bcfd511",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "711de41d9c6341c3922ac852598911f08f6b65f2169574f64073d896442067cd"
+            "sha256": "4f87af1b5f9495815c17f9527e93ad00e005d9ee049c818aaca8aa32d3b3ef37"
           },
           "titles": [
             "Rethinking Productivity in Software Engineering",
@@ -8970,6 +10107,38 @@
           "title_score": 1.0,
           "matched_title": "Rethinking Productivity in Software Engineering",
           "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://api.crossref.org/works/10.1007%2F978-1-4842-4221-6",
+            "status": 200,
+            "resolved_url": "https://api.crossref.org/works/10.1007%2F978-1-4842-4221-6",
+            "content_type": "application/json",
+            "sha256": "71bdd57729857509bdecf63b3fb1c5b4313647aea7cb234c467e2f4c6cc6d79c"
+          },
+          "titles": [
+            "Rethinking Productivity in Software Engineering"
+          ],
+          "doi": "10.1007/978-1-4842-4221-6",
+          "authors": [],
+          "dates": [
+            "2019",
+            "2019"
+          ],
+          "title_score": 1.0,
+          "matched_title": "Rethinking Productivity in Software Engineering",
+          "identity_basis": "primary/registry title match"
+        },
+        {
+          "access": {
+            "url": "https://doi.org/10.1007/978-1-4842-4221-6",
+            "status": 200,
+            "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=1e961831-78a3-4167-bd0e-fefa7f9fd8ea",
+            "content_type": "text/html; charset=utf-8",
+            "sha256": "e5f7a415dc2e316ac5b1f70ba7e54e37f74cb0eabd6f7c169e72df4a37b3fe94"
+          },
+          "title_score": 0,
+          "matched_title": null
         }
       ]
     },
@@ -8990,7 +10159,7 @@
             "status": 200,
             "resolved_url": "https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "185f2bf01edd936fc40429b2eb6538de5a8ceae63ec18276f5ac66ddb10f5a81"
+            "sha256": "868f44578a5687f96dbc1304408d3071084b9e7281e112d94f7a62f3798a4270"
           },
           "titles": [
             "Sam Altman says the AI jobs apocalypse is not happening after all: 'Delighted to be wrong'",
@@ -9012,30 +10181,31 @@
       "doi": null,
       "arxiv_id": null,
       "checked_reference": true,
-      "identity_status": "confirmed",
+      "identity_status": "manual-confirmation",
       "conflicts": [],
       "warnings": [],
       "observations": [
         {
           "access": {
             "url": "https://openai.com/index/ten-advances-in-mathematics",
-            "status": 200,
-            "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/",
-            "content_type": "text/html; charset=utf-8",
-            "sha256": "cbb24f5a52f2088f1f9e8ae8d42c0f3aaf3085db8760484242e88dd45b7c51c7"
+            "status": 403,
+            "error": "HTTP Error 403: Forbidden"
           },
-          "titles": [
-            "Ten advances in mathematics and theoretical computer science",
-            "Ten advances in mathematics and theoretical computer science | OpenAI"
-          ],
-          "authors": [],
-          "dates": [],
-          "doi": "",
-          "title_score": 1.0,
-          "matched_title": "Ten advances in mathematics and theoretical computer science",
-          "identity_basis": "primary/registry title match"
+          "title_score": 0,
+          "matched_title": null
         }
-      ]
+      ],
+      "manual_review": {
+        "id": "ref-e299630b86",
+        "expected_title": "Ten advances in mathematics and theoretical computer science",
+        "url": "https://openai.com/index/ten-advances-in-mathematics",
+        "observed_title": "Ten advances in mathematics and theoretical computer science",
+        "evidence_url": "https://openai.com/index/ten-advances-in-mathematics/",
+        "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+        "checked_on": "2026-10-12",
+        "expires_on": "2026-11-12",
+        "reason": "Primary publisher page inspected through web retrieval on 13 October 2026 Warsaw time (12 October UTC). Exact title and 1 August 2026 publication date confirmed. Script retrieval intermittently returns 403. This confirms the announcement's identity, not the correctness or novelty of its mathematical claims."
+      }
     },
     {
       "id": "ref-9f81141e49",
@@ -9158,7 +10328,7 @@
             "status": 200,
             "resolved_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
             "content_type": "text/html; charset=utf-8",
-            "sha256": "85fca1a6b1d5c7474fd8ef0453a562bd01a01acc33b123698658d0e20e6bfa5d"
+            "sha256": "e1a6ffe776327fa78ef06d3998b2dff0844bcd31b85a9260e37947567c8c7175"
           },
           "titles": [
             "Why we no longer evaluate SWE-bench Verified",

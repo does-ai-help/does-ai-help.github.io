@@ -31,7 +31,7 @@ def topics_from_title(title):
 
 def main():
     release = load("release.json")
-    related = load("related-reviews.json")
+    related = load("related-reviews.json") + load("october-followup.json")
     allowed = {r["url"] for r in load("intake.json") + related}
     audit = load("audit.json") + load("audit-additions.json") + load("audit-related.json")
     records = {r["url"]: r for r in audit if r["url"] in allowed}

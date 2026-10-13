@@ -1,6 +1,11 @@
 {
-  "checked_at": "2026-10-12T22:28:23.944117+00:00",
+  "checked_at": "2026-10-13T03:44:19.092155+00:00",
   "interpretation": "Access checks only. Failure may reflect a paywall, bot restriction, redirect, timeout or unavailable resource; it is not a scientific-validity verdict.",
+  "deferred_publication_urls": [
+    "https://does-ai-help.github.io/",
+    "https://does-ai-help.github.io/releases.html",
+    "https://does-ai-help.github.io/bibliography.html"
+  ],
   "records": [
     {
       "id": "maier2026",
@@ -12,7 +17,7 @@
       "id": "robin2026",
       "url": "https://www.nature.com/articles/s41586-026-10652-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=fbacde97-de26-44d6-ae6c-2f38390cc51b"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=52b6c4dc-f1cc-4318-8f9b-6e603060900d"
     },
     {
       "id": "ramp2026",
@@ -27,10 +32,16 @@
       "resolved_url": "https://arxiv.org/abs/2609.29874"
     },
     {
+      "id": "mathmisalignment2026",
+      "url": "https://mathandai.org/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mathandai.org'. (_ssl.c:1144)>"
+    },
+    {
       "id": "coscientist2026",
       "url": "https://www.nature.com/articles/s41586-026-10644-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=efab6dfb-2f14-4b3c-bf88-d9f1076ff1a9"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=9e4bc8f0-6f17-438d-bd1a-27c88b8a86c5"
     },
     {
       "id": "murphyhill2026",
@@ -43,6 +54,18 @@
       "url": "https://arxiv.org/abs/2605.22763",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2605.22763"
+    },
+    {
+      "id": "ahm2026",
+      "url": "https://www.ahmath.org/statements",
+      "status": 206,
+      "resolved_url": "https://www.ahmath.org/statements"
+    },
+    {
+      "id": "orland2026",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "status": 200,
+      "resolved_url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
     },
     {
       "id": "ref-c5caafbad6",
@@ -69,16 +92,34 @@
       "resolved_url": "https://www.faros.ai/research/ai-acceleration-whiplash"
     },
     {
+      "id": "mukherjee2026",
+      "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "id": "herrengt2026",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "status": 206,
       "resolved_url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"
     },
     {
+      "id": "ghosttypolicy2026",
+      "url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+      "status": 206,
+      "resolved_url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md"
+    },
+    {
+      "id": "hemandate2026",
+      "url": "https://arxiv.org/abs/2607.01904v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.01904v1"
+    },
+    {
       "id": "era2026",
       "url": "https://www.nature.com/articles/s41586-026-10658-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=25b05ee8-59b8-4c94-9300-c78204472c0d"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=48cde71d-e9ce-4941-bb78-74dd3d1aafdf"
     },
     {
       "id": "ref-a32e7d5bed",
@@ -96,7 +137,7 @@
       "id": "hao2026",
       "url": "https://www.nature.com/articles/s41586-025-09922-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=3467c3ef-361b-47c8-aa94-bc380bff40b4"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=0679ba80-52e3-42a2-9084-bab0b8232acc"
     },
     {
       "id": "alignment2026",
@@ -144,7 +185,7 @@
       "id": "wulearning2026",
       "url": "https://www.nature.com/articles/s41599-026-07019-z",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=9faa46b7-95c4-4b08-9bbb-af701ff9d324"
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=a222823d-4cd4-4237-9ce8-96a8df73d463"
     },
     {
       "id": "coslr2026",
@@ -163,6 +204,12 @@
       "url": "https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint",
       "status": 200,
       "resolved_url": "https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint"
+    },
+    {
+      "id": "ghosttycontribution2026",
+      "url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+      "status": 206,
+      "resolved_url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md"
     },
     {
       "id": "darwinx2026",
@@ -204,13 +251,25 @@
       "id": "boolzen2026",
       "url": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=d3459d8f-9e0e-4a44-b51d-c18ba6e396c9"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=ded208bc-b84a-427e-acea-aa194f267e21"
     },
     {
       "id": "ref-c97b313435",
       "url": "https://arxiv.org/abs/2607.08849",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2607.08849"
+    },
+    {
+      "id": "openainavierpaper2026",
+      "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "status": 206,
+      "resolved_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+    },
+    {
+      "id": "openainaviercode2026",
+      "url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+      "status": 206,
+      "resolved_url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd"
     },
     {
       "id": "wittig2026",
@@ -245,8 +304,8 @@
     {
       "id": "norway2026",
       "url": "https://docs.iza.org/dp18767.pdf",
-      "status": null,
-      "error": "<urlopen error _ssl.c:1126: The handshake operation timed out>"
+      "status": 206,
+      "resolved_url": "https://docs.iza.org/dp18767.pdf"
     },
     {
       "id": "shen2026",
@@ -276,13 +335,31 @@
       "id": "ref-e337528cf5",
       "url": "https://link.springer.com/article/10.1186/s41239-026-00614-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=308a6d06-2662-4b3e-9f54-7aba32a3b20b"
+      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=2d75caee-d123-4ad0-b979-8ca52f233196"
     },
     {
       "id": "llamalima2026",
       "url": "https://arxiv.org/abs/2601.18685v5",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2601.18685v5"
+    },
+    {
+      "id": "taomath2026",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "status": 206,
+      "resolved_url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf"
+    },
+    {
+      "id": "klowdentao2026",
+      "url": "https://arxiv.org/abs/2603.26524v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.26524v1"
+    },
+    {
+      "id": "taoicm2026",
+      "url": "https://arxiv.org/abs/2608.16753v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.16753v1"
     },
     {
       "id": "rdmetrics2026",
@@ -297,6 +374,24 @@
       "resolved_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/"
     },
     {
+      "id": "ownership2026",
+      "url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+      "status": 206,
+      "resolved_url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf"
+    },
+    {
+      "id": "claynavier2026",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "status": 200,
+      "resolved_url": "https://www.claymath.org/news/navier-stokes-announcement/"
+    },
+    {
+      "id": "naviertranslation2026",
+      "url": "https://arxiv.org/abs/2610.08144v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2610.08144v1"
+    },
+    {
       "id": "oecdeducation2026",
       "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
       "status": 403,
@@ -306,7 +401,13 @@
       "id": "alphaproof2025",
       "url": "https://www.nature.com/articles/s41586-025-09833-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=12320aa1-7d2a-4ae2-90d0-bbd0dd2d07b5"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=cdcc0b50-a1c0-445f-8344-842f7ca658d2"
+    },
+    {
+      "id": "openainavier2026",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "status": 206,
+      "resolved_url": "https://openai.com/index/navier-stokes-solution/"
     },
     {
       "id": "ref-9c4616e51d",
@@ -327,10 +428,22 @@
       "resolved_url": "https://arxiv.org/abs/2607.24755"
     },
     {
+      "id": "demourakernel2026",
+      "url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+      "status": 206,
+      "resolved_url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/"
+    },
+    {
       "id": "ref-96ff1d3807",
       "url": "https://www.oecd.org/en/publications/2026/01/oecd-digital-education-outlook-2026_940e0dd8.html",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "candidate-cnbc-2026",
+      "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+      "status": 206,
+      "resolved_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
     },
     {
       "id": "ref-6c6c6edf18",
@@ -378,7 +491,13 @@
       "id": "ref-dc3f47c33a",
       "url": "https://www.nature.com/articles/s41586-025-10072-4",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=47b1d445-5e0b-469b-8b44-30c886493152"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=734fb10b-cc0c-4077-a951-d560cb70feba"
+    },
+    {
+      "id": "taoliving2026",
+      "url": "https://teorth.github.io/tao-web/ai-views.html",
+      "status": 206,
+      "resolved_url": "https://teorth.github.io/tao-web/ai-views.html"
     },
     {
       "id": "coverage2026",
@@ -395,8 +514,8 @@
     {
       "id": "nscc2026",
       "url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
-      "status": 200,
-      "resolved_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/"
+      "status": null,
+      "error": "The read operation timed out"
     },
     {
       "id": "interfaces2026",
@@ -411,10 +530,22 @@
       "resolved_url": "https://arxiv.org/abs/2605.23135"
     },
     {
+      "id": "pragmatic2026",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "status": 200,
+      "resolved_url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026"
+    },
+    {
       "id": "iloreview2026",
       "url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
       "status": 206,
       "resolved_url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical"
+    },
+    {
+      "id": "iqbal2026",
+      "url": "https://dl.acm.org/doi/10.1145/3786148.3788622",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-6a4ef3528c",
@@ -423,10 +554,22 @@
       "resolved_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html"
     },
     {
+      "id": "kompella2026",
+      "url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+      "status": 200,
+      "resolved_url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering"
+    },
+    {
       "id": "ref-ac9eac4127",
       "url": "https://arxiv.org/abs/2603.16975",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2603.16975"
+    },
+    {
+      "id": "gates2026",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-5b8fb411c7",
@@ -444,7 +587,7 @@
       "id": "aiscientist2026",
       "url": "https://www.nature.com/articles/s41586-026-10265-5",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=6a691fa4-1b6a-455f-9d60-1f300661b76d"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=358fe6f3-ae87-48b7-87a8-28f8e2ccf897"
     },
     {
       "id": "wilson2026",
@@ -481,6 +624,12 @@
       "url": "https://metr.org/blog/2026-02-24-uplift-update",
       "status": 206,
       "resolved_url": "https://metr.org/blog/2026-02-24-uplift-update/"
+    },
+    {
+      "id": "hales2026",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "status": 200,
+      "resolved_url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
     },
     {
       "id": "ref-af4b79f2b5",
@@ -606,13 +755,13 @@
       "id": "discorl2025",
       "url": "https://www.nature.com/articles/s41586-025-09761-x",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=be4bfea4-be83-43b4-90d5-b1b2e9faeab9"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=20202030-7a6c-409c-9667-d8e9224b0224"
     },
     {
       "id": "ref-45820a1db8",
       "url": "https://link.springer.com/article/10.1007/s10664-025-10658-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=9b659e76-6214-4606-9529-93e5db8ca18d"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=eee47522-7195-482e-ac59-9bfd60a5836d"
     },
     {
       "id": "dora2025",
@@ -810,13 +959,13 @@
       "id": "ref-3e9d5d7dce",
       "url": "https://www.nature.com/articles/s41586-024-07566-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=1fa1f2b0-796f-4bf6-a9fb-3f4999538c52"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=85e2a6f5-149a-4102-8ff6-c738c11a6ce0"
     },
     {
       "id": "messeri2024",
       "url": "https://www.nature.com/articles/s41586-024-07146-0",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=9c7cbb32-8557-4207-8842-c07c2b9ede36"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=e54ce162-2174-4d82-9279-d28cbbd7b913"
     },
     {
       "id": "dora2024",
@@ -858,7 +1007,7 @@
       "id": "funsearch2023",
       "url": "https://www.nature.com/articles/s41586-023-06924-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=2e608e36-4d34-4746-badd-7a92a4a66ee1"
+      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=a6f9c70e-0581-4ab8-9f95-9665dcb38e60"
     },
     {
       "id": "dellacqua2023",
@@ -894,7 +1043,7 @@
       "id": "alphafold2021",
       "url": "https://www.nature.com/articles/s41586-021-03819-2",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=3e56789c-22b0-41e3-aab3-8b0cc905856b"
+      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=778b9be7-7d6b-4e9d-a68d-c9fc237d385c"
     },
     {
       "id": "space2021",
@@ -919,6 +1068,12 @@
       "url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
       "status": 206,
       "resolved_url": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents"
+    },
+    {
+      "id": "qemupolicy2026",
+      "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+      "status": 200,
+      "resolved_url": "https://www.qemu.org/docs/master/devel/code-provenance.html"
     },
     {
       "id": "ref-ffcede42d0",
@@ -953,8 +1108,8 @@
     {
       "id": "ref-db9d091351",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "status": 206,
-      "resolved_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-d79880fda4",
@@ -977,7 +1132,7 @@
     {
       "id": "ref-c91813d328",
       "url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
-      "status": 206,
+      "status": 200,
       "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/"
     },
     {
@@ -989,14 +1144,14 @@
     {
       "id": "ref-3d99cf87d4",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "status": 206,
-      "resolved_url": "https://openai.com/index/how-agents-are-transforming-work/"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-824b5ba22f",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "status": 206,
-      "resolved_url": "https://openai.com/index/scientific-computing-agentic-ai/"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-47ac0a3015",
@@ -1055,8 +1210,8 @@
     {
       "id": "ref-bf9d293e6b",
       "url": "https://www.sciencedirect.com/science/article/pii/S2451958825000570",
-      "status": 400,
-      "error": "HTTP Error 400: Bad Request"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-9c796dc1e9",
@@ -1077,10 +1232,16 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "id": "candidate-sciencedirect-2026",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "id": "ref-a97b44c4bb",
       "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=9f2eb527-75ec-4f49-94f8-eeb916e459a1"
+      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=a62c03a3-445e-4637-9c20-c5645ebff8f1"
     },
     {
       "id": "ref-12d21bb68f",
@@ -1115,8 +1276,8 @@
     {
       "id": "ref-33e5e5bcd6",
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-      "status": 206,
-      "resolved_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "publication-document-link",
@@ -1132,6 +1293,12 @@
     },
     {
       "id": "publication-document-link",
+      "url": "https://arxiv.org/html/2605.23135v1",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/html/2605.23135v1"
+    },
+    {
+      "id": "publication-document-link",
       "url": "https://creativecommons.org/licenses/by/4.0/",
       "status": 206,
       "resolved_url": "https://creativecommons.org/licenses/by/4.0/"
@@ -1141,6 +1308,12 @@
       "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
       "status": 206,
       "resolved_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://docs.github.com/en/actions/deployment/targeting-different-environments/managing-environments-for-deployment",
+      "status": 206,
+      "resolved_url": "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments"
     },
     {
       "id": "publication-document-link",
@@ -1158,13 +1331,13 @@
       "id": "publication-document-link",
       "url": "https://doi.org/10.1007/s10462-026-11665-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=7d28c6f3-e6f9-4820-b059-13b8f6eec890"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=31d5f2b1-1a76-4e7f-bdac-269714831306"
     },
     {
       "id": "publication-document-link",
       "url": "https://doi.org/10.1057/s41599-026-07019-z",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=9b1b6963-f10b-41d8-a0f4-089873e37a44"
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=05f2de12-7d08-43c2-8b83-99c123e8c7a9"
     },
     {
       "id": "publication-document-link",
@@ -1192,9 +1365,39 @@
     },
     {
       "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help/does-ai-help.github.io"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io/issues/new/choose",
+      "status": 206,
+      "resolved_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdoes-ai-help%2Fdoes-ai-help.github.io%2Fissues%2Fnew%2Fchoose"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io/pulls",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help/does-ai-help.github.io/pulls"
+    },
+    {
+      "id": "publication-document-link",
       "url": "https://jit.team",
       "status": 200,
       "resolved_url": "https://jit.team"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://terrytao.wordpress.com/2026/10/10/math-2-0/",
+      "status": 200,
+      "resolved_url": "https://terrytao.wordpress.com/2026/10/10/math-2-0/"
     },
     {
       "id": "publication-document-link",
@@ -1204,21 +1407,27 @@
     },
     {
       "id": "website-external-link",
+      "url": "https://github.com/does-ai-help/does-ai-help.github.io/releases/tag/v2026.10.0",
+      "status": 206,
+      "resolved_url": "https://github.com/does-ai-help/does-ai-help.github.io/releases/tag/v2026.10.0"
+    },
+    {
+      "id": "website-external-link",
       "url": "https://doi.org/10.1007/978-981-95-3537-8_9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=c7728477-83db-4ea8-b36a-3a533239d7e2"
+      "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=0d58e330-31c8-430e-8a9d-a35e37395967"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1007/s10664-025-10658-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=6d27992e-29f9-46fa-abd5-8d64964b18a9"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=243e15f2-5f58-4562-b783-b5a8e92fadf1"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1007/s10664-025-10735-w",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=ee35341c-fe81-4a6e-93fb-530bc21760a4"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=ca49c8c6-cc0d-4951-b86e-cbacba65b1c2"
     },
     {
       "id": "website-external-link",
@@ -1230,73 +1439,73 @@
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-021-03819-2",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=6342a8a5-a16a-4d8c-ac45-e9fca18cbca1"
+      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=9439c0f8-1464-47fd-826d-198fe99ee734"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-023-06924-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=97bcff34-7b06-4263-bb35-2bb67766bbc8"
+      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=90f73290-296a-408e-8f60-4e652662a376"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-024-07146-0",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=639254ad-6c32-476a-8497-38cad4bfcb8c"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=b8f3bbcf-ee88-4f1f-8502-227815f2c127"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-024-07566-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=42023cde-352d-4bb4-8ebd-96cfaf58c93d"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=3e990c36-8bc5-4ca9-86a3-17f80ca3ca5b"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-09761-x",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=e90198c6-4da5-4938-96bb-ebc33342c6e5"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=8890cd5d-48dd-461a-9eca-4e01b61f719e"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-09833-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=e744265a-db68-42de-bdc2-62c550c3e0e1"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=8b22dae7-7b0d-4488-9191-3721c04b9315"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-09922-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=5ed3c2da-2d5b-4a87-b915-f3226e9e5306"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=f9d6d910-e389-4bd0-9fd4-3c665d167c60"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-10072-4",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=eedbd28a-ad51-41bd-a5ca-9570b6936ff1"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=5a0bc1d8-fa71-44ee-98d7-d054d065df12"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10265-5",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=13d79d76-ca16-4795-9044-f266cfc8cda2"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=fae465a7-0277-403c-9b2d-65d175626f21"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10644-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=3136d65c-2c33-48cf-936a-ae76f5080dbc"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=e66edaf4-f0ff-4bd2-bcd1-2a2c4e48427b"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10652-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=1ccce774-1911-4295-92ae-8a7f7e76753e"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=ed598c9f-6d60-4339-aeb4-c9caf1190500"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10658-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=1b4bf7a8-f366-43b9-aa67-c1b387eef78a"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=f9db9d6d-eaca-4d56-b34d-fe1d1f9c7147"
     },
     {
       "id": "website-external-link",
@@ -1307,6 +1516,12 @@
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1145/3454122.3454124",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.1145/3786148.3788622",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
@@ -1332,7 +1547,7 @@
       "id": "website-external-link",
       "url": "https://doi.org/10.1186/s41239-026-00614-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=6990ea26-ed58-47e2-a0c2-64bb82c7f237"
+      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=720e78f8-ce1a-4e26-8052-f3d925f88b6f"
     },
     {
       "id": "website-external-link",
@@ -1390,9 +1605,39 @@
     },
     {
       "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2603.26524",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2603.26524"
+    },
+    {
+      "id": "website-external-link",
       "url": "https://doi.org/10.48550/arXiv.2605.04779",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2605.04779"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2607.01904",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2607.01904"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2608.16753",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2608.16753"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.48550/arXiv.2610.08144",
+      "status": 206,
+      "resolved_url": "https://arxiv.org/abs/2610.08144"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://doi.org/10.5281/zenodo.22737750",
+      "status": 200,
+      "resolved_url": "https://zenodo.org/records/22737751"
     }
   ]
 }

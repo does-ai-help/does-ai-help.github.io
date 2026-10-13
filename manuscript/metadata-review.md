@@ -4,6 +4,10 @@ Checked by GPT 6.1 using primary pages and live Crossref metadata on 13 October 
 
 ## Title differences
 
+The 13 October follow-up records additional identity edge cases. QEMU's short *Code provenance* heading has the explicit full-page title alias *Code provenance — QEMU documentation*. AHM's statement appears under a lower-level heading on a generically titled statements page. The OpenAI manuscript's first-page title is split into `NA VIER` by one PDF parser; primary PDF retrieval and Poppler establish the intended heading. These observations are documented rather than handled by lowering the global title-match threshold.
+
+New expiring confirmations cover those inspected identities and restricted primary pages for Gates, Mukherjee and OpenAI, plus an intermittently timing-out Clearinghouse page. They are explicitly AI-assisted identity checks, not independent human checks. Thomas Hales is the author of the Lean guest essay; Tao is its host. The code-ownership manuscript's 2021 running header is a template artifact, while the author's publication list identifies the 2026 journal work. DOI identity remains unestablished for that paper and is not fabricated.
+
 - Stack Overflow's page title is *AI | 2025 Stack Overflow Developer Survey*; the earlier label reordered these words. The canonical citation now uses the page title.
 - The SPACE framework has the full subtitle on ACM Queue and the shorter *The SPACE of Developer Productivity* in Crossref. Authors, DOI 10.1145/3454122.3454124 and 2021 year agree; both titles are explicitly recorded.
 - Cambridge's *Generative AI in Computer Science Education* has the subtitle *Challenges and Opportunities* in publisher citation metadata but not Crossref. Authors and DOI agree; the shorter registry title is an explicit alias.

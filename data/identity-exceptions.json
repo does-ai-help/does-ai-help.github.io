@@ -1,5 +1,65 @@
 [
   {
+    "id": "openainavierpaper2026",
+    "expected_title": "Finite time blowup for Navier-Stokes",
+    "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+    "observed_title": "Finite time blowup for Navier-Stokes",
+    "evidence_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-13", "expires_on": "2026-11-13",
+    "reason": "Primary PDF first-page title and OpenAI attribution confirmed through web PDF retrieval and Poppler extraction. Pypdf splits the heading into NA VIER due to typographic spacing, preventing the exact opening-page title match; PDF title metadata is empty. Retrieved SHA-256 0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f. This confirms artifact identity, not the correctness of the 166-page proof."
+  },
+  {
+    "id": "nscc2026",
+    "expected_title": "The Changing Landscape of Postsecondary Education",
+    "url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
+    "observed_title": "The Changing Landscape of Postsecondary Education",
+    "evidence_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-13", "expires_on": "2026-11-13",
+    "reason": "Official National Student Clearinghouse page inspected through web retrieval: exact heading, organization identity and 10 February 2026 date. Direct script requests repeatedly timed out. This confirms bibliographic identity, not a causal link between enrollment changes and AI."
+  },
+  {
+    "id": "ahm2026",
+    "expected_title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+    "url": "https://www.ahmath.org/statements",
+    "observed_title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+    "evidence_url": "https://www.ahmath.org/statements",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-13", "expires_on": "2026-11-13",
+    "reason": "Official organization page inspected through web retrieval. The exact statement heading and working-group attribution occur below the generic page title Statements — AHM; the automated parser inspects H1/title metadata, not the lower-level statement heading. The dated 7 October guest repost on Tao's blog confirms identity. This confirms the statement, not its allegations or representativeness."
+  },
+  {
+    "id": "mukherjee2026",
+    "expected_title": "AI Is Eating Software and Investors Have Noticed",
+    "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+    "observed_title": "AI Is Eating Software and Investors Have Noticed",
+    "evidence_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-13", "expires_on": "2026-11-13",
+    "reason": "Publisher page inspected through web retrieval: exact title, Andy Mukherjee of Bloomberg News byline, and 8 October 2026 date. Direct script retrieval returns 403. Public article text only was appraised; subscriber functionality was not accessed. This is identity confirmation, not validation of market forecasts."
+  },
+  {
+    "id": "gates2026",
+    "expected_title": "The turbulent AI era is here. The choices we make now are critical.",
+    "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+    "observed_title": "The turbulent AI era is here. The choices we make now are critical.",
+    "evidence_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-13", "expires_on": "2026-11-13",
+    "reason": "Author's primary page inspected through web retrieval: exact main essay title, Bill Gates author block, and 26 August 2026 date. The page embeds other older articles; those dates were not assigned to this essay. Direct script retrieval returns 403. Identity does not establish the accuracy of predictions."
+  },
+  {
+    "id": "openainavier2026",
+    "expected_title": "On the Navier-Stokes Millennium Prize Problem",
+    "url": "https://openai.com/index/navier-stokes-solution/",
+    "observed_title": "On the Navier-Stokes Millennium Prize Problem",
+    "evidence_url": "https://openai.com/index/navier-stokes-solution/",
+    "reviewer": "GPT 6.1 (AI-assisted editorial verification)",
+    "checked_on": "2026-10-13", "expires_on": "2026-11-13",
+    "reason": "Official OpenAI page inspected through web retrieval: exact title, organization byline, 8 September 2026 date and links to the written paper and Lean repository. Script retrieval returns 403. Confirms the developer announcement's identity, not mathematical correctness or institutional acceptance."
+  },
+  {
     "id": "hesa2026",
     "expected_title": "UK higher education student numbers fall for second year in a row",
     "url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",

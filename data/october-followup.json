@@ -1,0 +1,228 @@
+[
+  {
+    "id": "orland2026", "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+    "title": "AI coding agents generate more code, but not more software", "authors": ["Orland, Kyle"], "year": 2026, "date": "2026-10-09",
+    "topics": ["engineering", "productivity", "business"], "method": "research-journalism", "publication_status": "journalism",
+    "summary": "Reports Chen and Stratton's firm-level study and its downstream review bottleneck.",
+    "limitations": "Secondary coverage of an already included study, not independent evidence. The headline is stronger than a statistically insignificant output estimate warrants.",
+    "related_to": ["chenstratton2026"], "verification_scope": "article text, byline and link to the author paper", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "pragmatic2026", "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+    "title": "The impact of AI on software engineers in 2026: key trends. Part 1", "authors": ["Orosz, Gergely", "Nilsson, Elin"], "year": 2026, "date": "2026-04-14",
+    "topics": ["engineering", "work", "business"], "method": "reader-survey-and-commentary", "publication_status": "expert-newsletter",
+    "summary": "A reader survey describes uneven benefits, rising costs, role changes and tensions between rapid delivery and maintenance.",
+    "limitations": "Self-selected 900-plus responses; only the public preview was inspected. Editorial role categories are not a validated workforce taxonomy.",
+    "verification_scope": "public introduction, reported sample size, key trends and subscription boundary; paid report not inspected", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "kompella2026", "url": "https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering",
+    "title": "The risks of AI overreliance in software engineering", "authors": ["Kompella, Kashyap"], "year": 2026, "date": "2026-10-05",
+    "topics": ["engineering", "learning", "quality"], "method": "expert-commentary", "publication_status": "industry-analysis",
+    "summary": "Connects implementation gains with verification costs, code comprehension and long-term engineering capability.",
+    "limitations": "Secondary synthesis, not a new experiment. The categorical productivity subheading is too broad; cited studies must be interpreted in their own settings.",
+    "related_to": ["maier2026", "vella2026", "hemandate2026", "ownership2026"], "verification_scope": "article and linked primary studies; findings attributed to those studies", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "mukherjee2026", "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+    "title": "AI Is Eating Software and Investors Have Noticed", "authors": ["Mukherjee, Andy"], "year": 2026, "date": "2026-10-08",
+    "topics": ["business", "work"], "method": "market-commentary", "publication_status": "opinion",
+    "summary": "Discusses delayed productivity effects and investors' expectations of AI-related software-sector change.",
+    "limitations": "Market interpretation and forecasts, not a causal evaluation of AI deployment. Inspected the public text only, not subscriber functionality.",
+    "verification_scope": "public article text, Bloomberg byline and publication date", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "gates2026", "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+    "title": "The turbulent AI era is here. The choices we make now are critical.", "title_aliases": ["The choices we make about AI now are critical"], "authors": ["Gates, Bill"], "year": 2026, "date": "2026-08-26",
+    "topics": ["work", "business", "learning"], "method": "policy-commentary", "publication_status": "expert-essay",
+    "summary": "Argues that AI's benefits and disruption require preparation, equitable access and protection for affected people.",
+    "limitations": "A prominent technology stakeholder's argument and forecasts, not empirical proof of future reliability or aggregate welfare gains.",
+    "verification_scope": "main essay and dated author block, excluding unrelated articles embedded on the page", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "iqbal2026", "url": "https://dl.acm.org/doi/10.1145/3786148.3788622", "doi": "10.1145/3786148.3788622",
+    "title": "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study",
+    "authors": ["Iqbal, Fazla", "Khan, Muhammad Asif", "Weerakoon, Oshani", "Oyedeji, Shola", "Porras, Jari"], "year": 2026, "date": "2026-07-06",
+    "container_title": "Proceedings of the IEEE/ACM 10th International Workshop on Green and Sustainable Software",
+    "topics": ["engineering", "sustainability", "business", "learning"], "method": "systematic-review-and-interviews", "publication_status": "peer-reviewed-workshop",
+    "summary": "Combines 64 studies with 27 interviews across 12 countries, identifying efficiency benefits alongside energy, dependency, skill and defect concerns.",
+    "limitations": "Small, geographically concentrated interview sample; broad AI scope and literature through mid-2025. Qualitative findings do not quantify net environmental impact.",
+    "verification_scope": "publisher full-text rendering, abstract, methodology and validity discussion", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "hemandate2026", "url": "https://arxiv.org/abs/2607.01904v1", "doi": "10.48550/arXiv.2607.01904",
+    "title": "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate",
+    "authors": ["He, Hao", "Agarwal, Shyam", "Denisov-Blanch, Yegor", "Azaletskiy, Pavel", "Koyejo, Sanmi", "Vasilescu, Bogdan"], "year": 2026, "date": "2026-07-02",
+    "topics": ["engineering", "productivity", "quality"], "method": "longitudinal-case-study", "publication_status": "preprint",
+    "summary": "One enterprise reaches 2.09 times baseline merged PRs per developer; review load also roughly doubles and automated review expands.",
+    "limitations": "Nonrandom adoption and use, one AI-forward company and PR throughput rather than user value. Stable merge/revert rates do not establish absence of downstream defects.",
+    "version_note": "Pinned to v1. Distinguish within-developer adoption estimates from the total organization-level throughput change.",
+    "verification_scope": "version-specific abstract, panel scope, identification caveats and review findings", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "ownership2026", "url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf",
+    "title": "More Code, Less Understanding? On the Impact of AI Assistants on Developers' Productivity and Code Ownership",
+    "authors": ["Martin-Lopez, Alberto", "Tufano, Rosalia", "Guglielmi, Emanuela", "Sánchez, Ana B.", "Sanz, Ana Lourdes", "Scalabrino, Simone", "Oliveto, Rocco", "Segura, Sergio", "Bavota, Gabriele"], "year": 2026,
+    "container_title": "IEEE Transactions on Software Engineering", "topics": ["engineering", "learning", "productivity"], "method": "crossover-experiment", "publication_status": "peer-reviewed",
+    "summary": "Among 69 participants, AI improves median task completeness but reduces immediate correct answers about the code: 87.5% versus 100% without AI.",
+    "limitations": "Mostly students; only 14 professionals. Short tasks and AI-generated comprehension questions do not measure permanent skill loss or long-run ownership.",
+    "version_note": "Author-hosted manuscript; journal identity confirmed on the author's research page. The August 2021 running header is a LaTeX template artifact, not the publication date. DOI not yet established in this review.",
+    "verification_scope": "author PDF abstract, participant table and study design; author publication list", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "qemupolicy2026", "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+    "title": "Code provenance", "title_aliases": ["Code provenance — QEMU documentation"], "authors": ["QEMU project"], "year": null,
+    "topics": ["engineering", "governance", "work"], "method": "project-policy", "publication_status": "project-documentation",
+    "summary": "QEMU declines contributions containing or derived from AI-generated content because of provenance and Developer Certificate of Origin concerns; research and debugging assistance remain permitted if generated output is not submitted.",
+    "limitations": "A policy and rationale, not a measured productivity effect or a definitive legal ruling. Live development documentation can change.",
+    "version_note": "Policy observed on 13 October 2026; original adoption date not established.",
+    "verification_scope": "official Use of AI-generated content section and its exceptions", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "ghosttypolicy2026", "url": "https://github.com/ghostty-org/ghostty/blob/00c33eaf72af6c9b93d9fd8d54b6f7086612a95b/AI_POLICY.md",
+    "title": "AI Usage Policy", "authors": ["Ghostty project"], "year": 2026,
+    "topics": ["engineering", "governance", "work"], "method": "project-policy", "publication_status": "project-documentation",
+    "summary": "Requires disclosure and human understanding of outside contributions, rejects generated media and sanctions low-quality submissions while explicitly welcoming responsible AI assistance.",
+    "limitations": "Not a blanket AI-code ban or an experiment; maintainers have different permissions from external contributors.",
+    "version_note": "Pinned to the latest file-changing revision available at the cutoff: 00c33eaf72af6c9b93d9fd8d54b6f7086612a95b, 15 February 2026.",
+    "verification_scope": "official policy text, including scope and AI-is-welcome qualification; revision identity", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "ghosttycontribution2026", "url": "https://github.com/ghostty-org/ghostty/blob/22f9233a0f7b85747483ce713411c67be4643d8f/CONTRIBUTING.md",
+    "title": "Contributing to Ghostty", "authors": ["Ghostty project"], "year": 2026,
+    "topics": ["engineering", "governance"], "method": "project-policy", "publication_status": "project-documentation",
+    "summary": "First-time contributors require maintainer vouching; the project attributes the gate to low-quality submissions and erosion of default trust.",
+    "limitations": "Shows an actual participation restriction, not its prevalence across open source or a causal estimate of AI harm.",
+    "related_to": ["ghosttypolicy2026"], "version_note": "Pinned to revision 22f9233a0f7b85747483ce713411c67be4643d8f, 19 April 2026.",
+    "verification_scope": "official critical rule and first-time-contributor sections; revision identity", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "taomath2026", "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "title": "Math 2.0", "authors": ["Tao, Terence"], "year": 2026, "date": "2026-10-09",
+    "topics": ["science", "learning", "governance"], "method": "expert-lecture", "publication_status": "lecture-slides",
+    "summary": "Proposes using AI to strengthen mathematical understanding, exposition and collaborative infrastructure rather than optimizing only the number of solved problems.",
+    "limitations": "A research agenda and expert assessment, not a causal measurement of community health; examples include announced future activity.",
+    "version_note": "Caltech lecture delivered 9 October; slides announced in Tao's blog on 10 October. Future November events are proposals, not completed outcomes.",
+    "verification_scope": "30-slide author PDF, especially capability, reporting-bias and human-understanding sections; linked author announcement", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "taoliving2026", "url": "https://teorth.github.io/tao-web/ai-views.html",
+    "title": "Terence Tao on AI in mathematics (and beyond)", "authors": ["Tao, Terence"], "year": 2026, "date": "2026-10-11",
+    "topics": ["science", "learning", "methods"], "method": "curated-expert-perspective", "publication_status": "living-essay",
+    "summary": "Connects Tao's evolving views, comparative advantage, verification and human-centered mathematics with primary writings and talks.",
+    "limitations": "AI-drafted, reviewed and corrected by Tao; editorial selection and third-person paraphrase. Cite original works for specific arguments where possible.",
+    "version_note": "Inspected version last updated 11 October 2026; page discloses AI assistance, industry access and collaborations.",
+    "verification_scope": "authorship disclosure, update date, chronology and links to original works", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "taoicm2026", "url": "https://arxiv.org/abs/2608.16753v1", "doi": "10.48550/arXiv.2608.16753",
+    "title": "Mathematics in the age of AI", "authors": ["Tao, Terence"], "year": 2026, "date": "2026-08-17",
+    "topics": ["science", "governance"], "method": "conceptual-essay", "publication_status": "preprint",
+    "summary": "Asks what mathematical research is for, conditional on increasingly capable AI problem solving, rather than making a new capability estimate.",
+    "limitations": "An ICM lecture-based conceptual argument; submission to proceedings does not establish peer review of this version.",
+    "verification_scope": "version-specific arXiv abstract and bibliographic history", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "klowdentao2026", "url": "https://arxiv.org/abs/2603.26524v1", "doi": "10.48550/arXiv.2603.26524",
+    "title": "Mathematical methods and human thought in the age of AI", "authors": ["Klowden, Tanya", "Tao, Terence"], "year": 2026, "date": "2026-03-27",
+    "topics": ["science", "learning", "governance"], "method": "philosophical-essay", "publication_status": "preprint",
+    "summary": "Situates AI in the history of intellectual tools and argues for applications that expand human thought and meet human needs.",
+    "limitations": "A philosophical framework, not a measured effect. Solicited chapter status is distinct from the unabridged preprint's publication status.",
+    "verification_scope": "primary abstract, authorship and version history", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "mathmisalignment2026", "url": "https://mathandai.org/", "doi": "10.5281/zenodo.22737750",
+    "title": "A Severe Misalignment of AI in Mathematics", "authors": [], "year": 2026, "date": "2026-09-11",
+    "topics": ["science", "governance", "work"], "method": "community-declaration", "publication_status": "public-statement",
+    "summary": "A declaration initiated by 25 Fields medallists recognizes stronger AI capabilities but opposes problem-count incentives disconnected from mathematical understanding.",
+    "limitations": "Normative collective statement, not representative polling or an empirical estimate. Signatories are endorsers, not automatically bibliographic coauthors.",
+    "version_note": "DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking.",
+    "verification_scope": "official declaration text, date and Tao's dated explanation of initial signatories", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "ahm2026", "url": "https://www.ahmath.org/statements",
+    "title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents", "authors": ["Association for Human Mathematics Communications Working Group"], "year": 2026, "date": "2026-10-07",
+    "topics": ["science", "governance", "work"], "method": "community-statement", "publication_status": "public-statement",
+    "summary": "Rejects the value of OpenAI's mass mathematical release and calls for mathematicians to discontinue collaboration with the company.",
+    "limitations": "A strong organizational position, not a vote of all mathematicians or a technical refutation of every released result. Legal allegations are not adjudicated here.",
+    "version_note": "Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements.",
+    "verification_scope": "official statement and dated author-hosted repost; no claims drawn from blog comments", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "hales2026", "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+    "title": "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI", "authors": ["Hales, Thomas"], "year": 2026, "date": "2026-10-09",
+    "topics": ["science", "verification", "security"], "method": "expert-technical-commentary", "publication_status": "expert-essay",
+    "summary": "Separates kernel checking from statement fidelity, discusses independent checkers and soundness risks, and describes AI-assisted detection and repair of kernel bugs.",
+    "limitations": "Expert technical account, not our independent execution of the proofs or a proof of complete kernel trustworthiness.",
+    "version_note": "Guest author is Thomas Hales, not blog host Terence Tao. Formal checking and human exposition address different questions.",
+    "verification_scope": "guest-authorship note and main reliability discussion; comments excluded", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "openainavier2026", "url": "https://openai.com/index/navier-stokes-solution/",
+    "title": "On the Navier-Stokes Millennium Prize Problem", "authors": ["OpenAI"], "year": 2026, "date": "2026-09-08",
+    "topics": ["science", "agents", "verification"], "method": "developer-research-announcement", "publication_status": "organization-announcement",
+    "summary": "Claims a solution of the forced Navier-Stokes breakdown alternatives, releasing a written proof and Lean formalization and describing a large multiagent effort.",
+    "limitations": "Developer claim with unavailable internal model; announcement, formal checking, statement fidelity and prize recognition are separate evidentiary stages.",
+    "related_to": ["openainavierpaper2026", "openainaviercode2026", "naviertranslation2026", "claynavier2026"],
+    "verification_scope": "official announcement, result formulation, resource account and linked artifacts", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "openainavierpaper2026", "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+    "title": "Finite time blowup for Navier-Stokes", "authors": ["OpenAI"], "year": 2026,
+    "topics": ["science", "verification"], "method": "mathematical-proof-claim", "publication_status": "technical-manuscript",
+    "summary": "The manuscript states a smooth forced flow with finite-time unbounded velocity and bounded kinetic energy, claiming the official breakdown alternatives.",
+    "limitations": "Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof.",
+    "related_to": ["openainavier2026", "naviertranslation2026"], "verification_scope": "first-page theorem and proof outline, not all lemmas", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "openainaviercode2026", "url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+    "title": "Finite time blowup for Navier-Stokes and Euler equations", "authors": ["OpenAI"], "year": 2026,
+    "topics": ["science", "verification"], "method": "formalization-artifact", "publication_status": "research-software",
+    "summary": "Provides Lean formalization artifacts and independent-checking instructions accompanying the announced mathematical results.",
+    "limitations": "Repository availability and build instructions are not our successful execution or an independent audit of formal statement fidelity.",
+    "related_to": ["openainavier2026", "naviertranslation2026"], "version_note": "Pinned to f9e8bc5b38b6e212696e8a30e3e91517af887bbd, the revision examined by the October critique.",
+    "verification_scope": "official README, artifact descriptions and revision identity; proof kernels not run", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "claynavier2026", "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+    "title": "Navier-Stokes Announcement", "authors": ["Clay Mathematics Institute"], "year": 2026, "date": "2026-09-11",
+    "topics": ["science", "verification", "governance"], "method": "institutional-statement", "publication_status": "organization-announcement",
+    "summary": "Welcomes the apparent resolution and anticipated new understanding while describing a deliberate evaluation process under the prize rules.",
+    "limitations": "Not a prize award or an independent completed validation. Its September statement predates the October translation critique.",
+    "verification_scope": "official dated statement and its qualification about evaluation", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "naviertranslation2026", "url": "https://arxiv.org/abs/2610.08144v1", "doi": "10.48550/arXiv.2610.08144",
+    "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+    "authors": ["Bastounis, Alexander", "Circelli, Fabian", "Hansen, Anders C."], "year": 2026, "date": "2026-10-06",
+    "topics": ["science", "verification", "methods"], "method": "technical-critique", "publication_status": "preprint",
+    "summary": "Identifies mismatches between OpenAI's written argument and Lean lemmas, distinguishing machine-checked validity from faithful translation.",
+    "limitations": "A preprint critique, not a complete independent adjudication. Its worst-case ambiguity result is not proof that every practical autoformalization is impossible or that Lean's logic is invalid.",
+    "related_to": ["openainavierpaper2026", "openainaviercode2026", "hales2026"],
+    "verification_scope": "v1 abstract, concrete derivative-loss and estimate comparisons, and interpretation of translation limits; proofs not independently reproduced", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "demourakernel2026", "url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+    "title": "Postmortem for the Kernel Soundness Bug Hunt", "authors": ["de Moura, Leonardo"], "year": 2026, "date": "2026-08-24",
+    "topics": ["science", "security", "verification", "engineering"], "method": "maintainer-postmortem", "publication_status": "expert-technical-report",
+    "summary": "The Lean maintainer documents AI-assisted discovery of soundness bugs and changes to proof-checking safeguards.",
+    "limitations": "Maintainer-reported case, not a controlled security comparison. Finding and fixing bugs neither certifies a bug-free kernel nor invalidates all earlier formal proofs.",
+    "verification_scope": "dated maintainer report and its distinction between builds and independent proof checking", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "candidate-sciencedirect-2026", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+    "title": "Reference awaiting identity verification: Elsevier PII S0378720626000066", "authors": [], "year": null,
+    "topics": ["context"], "method": "not-classified", "publication_status": "not-established", "verification_level": "candidate",
+    "summary": "User-suggested publisher record retained for follow-up; no findings are attributed.",
+    "limitations": "Publisher access failed and indexed results did not establish the title, authors or DOI. The URL's identifier is not enough to invent a citation.",
+    "verification_scope": "access attempt and exact-identifier search only; identity unresolved", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "candidate-cnbc-2026", "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+    "title": "Reference awaiting identity verification: CNBC software-developer jobs URL", "authors": [], "year": null,
+    "topics": ["work"], "method": "not-classified", "publication_status": "not-established", "verification_level": "candidate",
+    "summary": "User-suggested news link retained for follow-up; no employment claim is attributed.",
+    "limitations": "Robots/access restrictions and unsuccessful targeted search; existence and bibliographic identity are not independently confirmed.",
+    "verification_scope": "access attempt and targeted search only; identity unresolved", "checked_on": "2026-10-13"
+  }
+]

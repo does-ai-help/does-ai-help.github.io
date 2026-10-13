@@ -9,7 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    reader=PdfReader(ROOT / "site/downloads/ai-intellectual-work-2026-10.pdf")
+    meta=json.loads((ROOT / "data/release.json").read_text())
+    reader=PdfReader(ROOT / "site/downloads" / f"does-ai-help-{meta['release']}.pdf")
+    if reader.metadata.title != meta["title"]:
+        raise SystemExit("PDF title differs from the release manifest")
     counts=[]
     for i,page in enumerate(reader.pages):
         text=page.extract_text() or ""

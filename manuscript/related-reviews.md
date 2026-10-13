@@ -1,6 +1,6 @@
 # Companion reviews: October 2026 search update
 
-Search conducted on 13 October 2026, Europe/Warsaw. Sources available by the existing 12 October evidence cutoff are eligible. This targeted search is not exhaustive or PRISMA-compliant. Eleven new sources were added and two existing entries received abstract-level appraisal. Secondary syntheses are not additional independent experiments.
+Search conducted on 13 October 2026, Europe/Warsaw. Sources available by the 13 October evidence cutoff are eligible. This targeted search is not exhaustive or PRISMA-compliant. Eleven new sources were added and two existing entries received abstract-level appraisal. Secondary syntheses are not additional independent experiments.
 
 ## Search approach
 

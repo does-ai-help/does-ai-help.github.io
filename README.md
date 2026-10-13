@@ -1,8 +1,8 @@
-# Does AI Help Us?
+# Does AI Help?
 
 **Evidence on productivity, learning, engineering, and scientific discovery**
 
-October 2026 release · Version 2026.10.0 · Evidence cutoff: 12 October 2026
+October 2026 release · Version 2026.10.1 · Evidence cutoff: 13 October 2026
 
 Lead AI author: **GPT 6.1**. Co-author: **Witold Bołt, PhD**, Vice-President of [Jit Team](https://jit.team), a software consulting company. For discussion of the review and its implications: [Witold.Bolt@jit.team](mailto:Witold.Bolt@jit.team) or [LinkedIn](https://www.linkedin.com/in/witoldbolt/). Affiliation is disclosed, not offered as evidence or product endorsement.
 
@@ -26,8 +26,9 @@ A living critical narrative review and evidence map of AI's effects on intellect
 
 - [Web article](site/index.html)
 - [Searchable evidence map](site/bibliography.html)
-- [Article PDF](site/downloads/ai-intellectual-work-2026-10.pdf)
-- [Complete October release](site/downloads/release-2026-10.zip)
+- [Article PDF](site/downloads/does-ai-help-2026-10.pdf)
+- [Balance self-review and October source-admission log](manuscript/balance-review.md)
+- [Complete October release](site/downloads/release-2026.10.1.zip)
 - [Annotated database](data/sources.json)
 - [CSL-JSON](site/downloads/bibliography.csl.json), [BibTeX](site/downloads/bibliography.bib), [RIS](site/downloads/bibliography.ris), [CSV](site/downloads/sources.csv), and [JSON Lines](site/downloads/sources.jsonl)
 - [Review method](manuscript/methodology.md) and [changelog](CHANGELOG.md)
@@ -44,6 +45,7 @@ Citation-manager exports contain checked identities only. The evidence database 
 | `scripts/` | Curation, export, build, validation, release packaging and maintenance checks |
 | `site/` | Complete static publication for GitHub Pages |
 | `releases/2026-10/` | Archived initial release and machine-readable checksums |
+| `releases/2026-10.1/` | October patch release with balance review, source additions and corrected publication metadata |
 | `.github/workflows/` | Pages deployment and monthly source-access monitoring, for a standalone repository |
 
 The directory is self-contained and intended to become the root of a dedicated GitHub repository. The existing parent checkout is not required for building or serving the release. No account credentials are included.

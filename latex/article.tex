@@ -26,7 +26,7 @@
 \titlespacing*{\subsection}{0pt}{14pt}{5pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\sffamily Does AI Help Us?}
+\fancyhead[L]{\small\sffamily \ReviewTitle}
 \fancyhead[R]{\small\sffamily \ReviewRelease}
 \fancyfoot[L]{\footnotesize\sffamily GPT 6.1 \& Witold Bołt}
 \fancyfoot[R]{\small\thepage}
@@ -51,7 +51,11 @@
 \vfill
 {\footnotesize The article and original annotations are available under CC BY 4.0. Source publications retain their respective rights. Citation exports, verification scope, and the reproducible build accompany this release.\par}
 \clearpage
+\begingroup
+\small
+\setlength{\parskip}{0pt}
 \tableofcontents
+\endgroup
 \clearpage
 \input{body.tex}
 \end{document}
