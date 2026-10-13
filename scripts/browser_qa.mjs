@@ -30,9 +30,16 @@ try {
   browser=await chromium.launch({headless:true,...(fs.existsSync(chrome)?{executablePath:chrome}:{})});
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(url+'/index.html');
+  await page.goto(url+'/');
   assert.equal(await page.locator('h1').innerText(),'Does AI Help?');
   assert.equal(await page.locator('.wordmark').innerText(),release.title);
+  for(const route of ['/','/bibliography.html','/releases.html']) {
+    await page.goto(url+route);
+    assert.equal(await page.locator('a[href*="index.html"]').count(),0);
+    assert.equal(await page.locator('.wordmark').getAttribute('href'),'/');
+    await page.locator('header nav a').filter({hasText:'Review'}).click();
+    assert.equal(page.url(),url+'/');
+  }
   const cutoffLabel=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(release.cutoff+'T00:00:00Z'));
   assert.equal(await page.locator('.release-detail').innerText().then(t=>t.includes(cutoffLabel)),true);
   assert.equal(await page.locator('.pdf-link').getAttribute('href'),`downloads/does-ai-help-${release.release}.pdf`);
@@ -81,7 +88,7 @@ try {
   await page.screenshot({path:path.join(output,'bibliography-desktop.png')});
   for(const width of [390,768]) {
     await page.setViewportSize({width,height:844});
-    await page.goto(url+'/index.html');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    await page.goto(url+'/');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.screenshot({path:path.join(output,`article-${width}.png`)});
     await page.goto(url+'/bibliography.html');await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
     const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(el=>{const r=el.getBoundingClientRect();return r.width && r.right>innerWidth+1;}).slice(0,8).map(el=>({tag:el.tagName,class:el.className,text:el.textContent.slice(0,100),right:el.getBoundingClientRect().right})));

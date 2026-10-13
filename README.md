@@ -26,7 +26,7 @@ A living critical narrative review and evidence map of AI's effects on intellect
 
 ## Read the publication
 
-- [Web article](site/index.html)
+- [Web article](https://does-ai-help.github.io/)
 - [Searchable evidence map](site/bibliography.html)
 - [Article PDF](site/downloads/does-ai-help-2026-10.pdf)
 - [Balance self-review and October source-admission log](manuscript/balance-review.md)
