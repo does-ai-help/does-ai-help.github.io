@@ -19,7 +19,7 @@ const server=http.createServer((req,res)=>{
   const requested=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
   const file=path.resolve(site,'.'+(requested==='/'?'/index.html':requested));
   if(!file.startsWith(site+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404);res.end();return;}
-  const mime={'.html':'text/html','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.pdf':'application/pdf','.zip':'application/zip'}[path.extname(file)]||'application/octet-stream';
+  const mime={'.html':'text/html','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon','.pdf':'application/pdf','.zip':'application/zip'}[path.extname(file)]||'application/octet-stream';
   res.setHeader('Content-Type',mime);res.end(fs.readFileSync(file));
 });
 await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(0,'127.0.0.1',resolve);});
@@ -35,6 +35,12 @@ try {
   assert.equal(await page.locator('.wordmark').innerText(),release.title);
   for(const route of ['/','/bibliography.html','/releases.html','/cite.html']) {
     await page.goto(url+route);
+    assert.equal(await page.locator('link[rel="icon"][type="image/svg+xml"]').getAttribute('href'),'favicon.svg');
+    for(const icon of ['favicon.svg','favicon.ico','assets/favicon-32.png','apple-touch-icon.png']) {
+      const response=await page.request.get(url+'/'+icon);
+      assert.equal(response.ok(),true,`Missing favicon: ${icon}`);
+      assert.equal((await response.body()).length>0,true);
+    }
     assert.equal(await page.locator('a[href*="index.html"]').count(),0);
     assert.equal(await page.locator('.wordmark').getAttribute('href'),'/');
     await page.locator('header nav a').filter({hasText:'Review'}).click();

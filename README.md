@@ -67,6 +67,8 @@ The directory is self-contained and intended to become the root of a dedicated G
 
 Requires Python 3.10+, Node.js 20+, Pillow, and XeLaTeX with TeX Gyre fonts, `latexmk`, and standard LaTeX packages.
 
+The favicon's editable source is `site/favicon.svg`. To regenerate its PNG, ICO and Apple touch variants, run `python3 scripts/build_favicon.py` with Pillow and librsvg's `rsvg-convert` installed. Hosting uses the committed assets and does not require librsvg.
+
 ```bash
 npm install
 python3 -m pip install -r requirements.txt
