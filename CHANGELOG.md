@@ -1,5 +1,13 @@
 # Release history
 
+## 2026.10.7 - Repository-backed document dates
+
+- Replaced undated Gravity About, Gravity LLM policy, Zig Code of Conduct and Asahi LLM policy records with dates from source files and Git history.
+- Preserved authored/committed timestamps, timezone distinctions and pinned source revisions; publication, revision and policy-adoption dates are not conflated.
+- Zig's source-declared document date is 22 November 2025; the inspected policy contains later clarifications. Asahi declares 8 September 2026 despite a 7 September UTC commit.
+- Updated citation exports, web evidence map and PDF references. Findings and source counts are unchanged; previous snapshots and the 13 October cutoff are preserved.
+- Made repository URLs clickable and long commit identifiers line-breakable in PDF reference notes to prevent margin overflow.
+
 ## 2026.10.6 - Open-source contribution boundaries
 
 - Added primary policies for GIMP, NetBSD, Zig, Redox, Asahi, Linux and Gravity, distinguishing scoped prohibitions, default refusal and conditional permission.

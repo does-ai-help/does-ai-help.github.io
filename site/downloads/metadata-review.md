@@ -1,5 +1,18 @@
 # October 2026 metadata review
 
+## Repository dates for four previously undated pages
+
+Version 2026.10.7 replaces four undated entries with source-backed dates. Repository files were matched to the live page contents, and public GitHub or Forgejo file-history APIs supplied the commit identities and timestamps. The evidence database retains pinned file links, authored and committed timestamps, date type and date basis. None is inferred from the inspection date.
+
+| Source | Citation date | Basis and inspected revision |
+| --- | --- | --- |
+| Gravity About | 12 September 2026 | File's initial-import/latest-affecting commit, [b1a74639](https://github.com/GravityLinux/website/blob/b1a74639fe8931640f7f8eecb99f8b77f257463a/content/about.md). Not a fork or deployment date. |
+| Gravity LLM policy | 15 September 2026 | Current file revision [d0bdd178](https://github.com/GravityLinux/website/blob/d0bdd17839e9975a00d9201e842705acf2ca5a69/content/policies/llm.md), committed 15 September but authored 12 September. |
+| Zig Code of Conduct | 22 November 2025 | Date declared in the source, already present in the [introducing commit](https://codeberg.org/ziglang/ziglang.org/src/commit/f768f750524efd7595252759fcee1a20925a358b/content/en-US/code-of-conduct.smd). Current [0601a435 revision](https://codeberg.org/ziglang/ziglang.org/src/commit/0601a4358fec6fe445688face107a5e914b68a16/content/en-US/code-of-conduct.smd) is dated 25 September 2026 in -07:00 (26 September UTC); AI rules were clarified on 24 May 2026. The citation year does not backdate the expanded rules. |
+| Asahi LLM policy | 8 September 2026 | Publication date declared in [6eccc031 source](https://github.com/AsahiLinux/AsahiLinux.github.io/blob/6eccc0319839a9e21d89977f98140821369c3255/content/llm-policy.md): 09:00 in +10:00 on 8 September. Git committed the revision on 7 September UTC. |
+
+Repository introduction, source-declared publication, later revision, first deployment and policy adoption are distinct events. Earlier undated snapshots are preserved; these dates establish the cited documents, not the effectiveness of the policies or their first historical adoption.
+
 ## Open-source and benchmark follow-up
 
 Version 2026.10.6 dates QEMU's repository introduction of the AI rule to its 24 June 2025 commit, distinguishing the proposal's authored date and the current file's 22 May 2026 formatting revision. GIMP, Redox and Linux entries explicitly date document revisions, not original AI adoption. Undated live policies remain undated; the inspection date is not a publication date.

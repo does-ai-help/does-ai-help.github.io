@@ -279,6 +279,38 @@
     "DOI": "10.5281/zenodo.22737750"
   },
   {
+    "id": "gravityabout2026",
+    "type": "webpage",
+    "title": "About - Gravity Linux",
+    "URL": "https://gravitylinux.org/about/",
+    "author": [
+      {
+        "literal": "Gravity Linux contributors"
+      }
+    ],
+    "abstract": "Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-account. Status: project-documentation. Verification: content-checked (Official About FAQ, especially Gravity Linux vs Asahi Linux; web retrieval.). Limitations: Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits. Date basis: Latest file-affecting commit b1a74639fe8931640f7f8eecb99f8b77f257463a committed 12 September 2026 at 01:32:06 UTC. Also the initial repository import of this file; not proof of first public deployment, the fork date or initial composition. Version: Repository source matches the cited About FAQ; date is the file's committed revision date, not the date of the separately dated introductory blog.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          12
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "coscientist2026",
     "type": "article-journal",
     "title": "Accelerating scientific discovery with Co-Scientist",
@@ -1956,6 +1988,38 @@
     "DOI": "10.1145/3832783.3834386"
   },
   {
+    "id": "asahipolicy2026",
+    "type": "webpage",
+    "title": "Generative AI (LLM) Policy",
+    "URL": "https://asahilinux.org/llm-policy/",
+    "author": [
+      {
+        "literal": "Asahi Linux project"
+      }
+    ],
+    "abstract": "Asahi broadly forbids generative-AI tooling for material contributions, citing ethical concerns and possible contamination of clean-room reverse engineering. Its examples include generated issues and LLM interpretation of hardware traces.",
+    "keyword": "engineering; governance",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Entire official policy, including material contributions, trace interpretation and enforcement examples; web retrieval.). Limitations: Broader than a generated-code ban, but scoped to material project contributions. Stated ethical and legal concerns are project judgments, not independently established legal findings or experimental outcomes. Date basis: Pinned repository source front matter declares 2026-09-08T09:00:00+10:00. Use its calendar publication date, 8 September, rather than the Git commit date of 7 September UTC. The earlier board discussion does not date adoption of this revised policy. Version: Current text was reworked in commit 6cc32d06679d263ed33157a2cc0e029a0d0ffcb2 and given its title in 6eccc0319839a9e21d89977f98140821369c3255, both 7 September 2026 UTC. Its source-declared publication date is 8 September in +10:00. This dates the cited document, not the first Asahi policy on AI.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          8
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "westby2026",
     "type": "report",
     "title": "Generative AI and the Redefinition of Entry-Level Software Work",
@@ -2211,6 +2275,38 @@
       ]
     },
     "DOI": "10.48550/arXiv.2601.18685"
+  },
+  {
+    "id": "gravitypolicy2026",
+    "type": "webpage",
+    "title": "LLM Use and Clean-Room Policy",
+    "URL": "https://gravitylinux.org/policies/llm/",
+    "author": [
+      {
+        "literal": "Gravity Linux contributors"
+      }
+    ],
+    "abstract": "Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.",
+    "keyword": "engineering; governance; quality",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official policy sections on permission, human responsibility, contamination, disclosure and process records; web retrieval.). Limitations: Not unconditional acceptance. The project's safeguards and claimed effectiveness are not independently validated; its legal interpretation is not a legal opinion from this review. Date basis: Latest file-affecting commit d0bdd17839e9975a00d9201e842705acf2ca5a69 committed 15 September 2026 at 01:05:56 UTC, although authored 12 September. Citation uses committed revision date; policy adoption and deployment dates are not inferred. Version: Initially imported in b1a74639fe8931640f7f8eecb99f8b77f257463a on 12 September; revised communication policy in d0bdd17839e9975a00d9201e842705acf2ca5a69, committed 15 September. The source text matches the cited live policy.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
   },
   {
     "id": "taomath2026",
@@ -4142,6 +4238,38 @@
     }
   },
   {
+    "id": "zigpolicy2026",
+    "type": "webpage",
+    "title": "Code of Conduct",
+    "URL": "https://ziglang.org/code-of-conduct/",
+    "author": [
+      {
+        "literal": "Zig project"
+      }
+    ],
+    "abstract": "Zig's designated development spaces prohibit LLM-generated code and prose, paraphrasing, editing, translation, shared brainstorming results and LLM-assisted bug finding.",
+    "keyword": "engineering; governance; learning",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official scope and Strict No LLM / No AI section, read through web retrieval.). Limitations: Applies to the ziglang Codeberg organization, project IRC and development Zulip, not every independent community or project using Zig. No measured productivity effect follows from the rule. Date basis: Repository source declares .date = 2025-11-22, also present in the introducing commit f768f750524efd7595252759fcee1a20925a358b. Commit timestamps retain their original timezone; source-declared calendar date is used for citation, not the latest revision date. Version: Document originally dated 22 November 2025; current source revision 0601a4358fec6fe445688face107a5e914b68a16 is dated 25 September 2026 in the commit's -07:00 timezone (26 September UTC). The AI rules were clarified in commit 426e21fdd1180d1e1544edd668cfcd9864d7dc7f, 24 May 2026. The citation year does not backdate all current restrictions to 2025 or establish the first adoption of Zig's AI restrictions.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          22
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "qemupolicy2026",
     "type": "webpage",
     "title": "Code provenance",
@@ -5693,97 +5821,5 @@
     },
     "DOI": "10.1145/3454122.3454124",
     "container-title": "ACM Queue"
-  },
-  {
-    "id": "gravityabout2026",
-    "type": "webpage",
-    "title": "About - Gravity Linux",
-    "URL": "https://gravitylinux.org/about/",
-    "author": [
-      {
-        "literal": "Gravity Linux contributors"
-      }
-    ],
-    "abstract": "Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.",
-    "keyword": "engineering; governance",
-    "note": "Method: project-account. Status: project-documentation. Verification: content-checked (Official About FAQ, especially Gravity Linux vs Asahi Linux; web retrieval.). Limitations: Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits. Date basis: Live FAQ inspected 13 October 2026. Dated introductory blog is 5 September 2026, but does not date this FAQ or the fork itself.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          13
-        ]
-      ]
-    }
-  },
-  {
-    "id": "zigpolicy2026",
-    "type": "webpage",
-    "title": "Code of Conduct",
-    "URL": "https://ziglang.org/code-of-conduct/",
-    "author": [
-      {
-        "literal": "Zig project"
-      }
-    ],
-    "abstract": "Zig's designated development spaces prohibit LLM-generated code and prose, paraphrasing, editing, translation, shared brainstorming results and LLM-assisted bug finding.",
-    "keyword": "engineering; governance; learning",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official scope and Strict No LLM / No AI section, read through web retrieval.). Limitations: Applies to the ziglang Codeberg organization, project IRC and development Zulip, not every independent community or project using Zig. No measured productivity effect follows from the rule. Date basis: Current policy inspected 13 October 2026; this page supplies no publication date. A dated 11 July 2025 historical contributing-page revision documents earlier restrictions but does not date this expanded text. Version: Historical policy evidence: https://github.com/ziglang/zig/wiki/Contributing/61aff1ce9b3ebd8c38c0f5a18db00c06f0fa4022 (11 July 2025). Do not attribute all current restrictions to that historical revision.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          13
-        ]
-      ]
-    }
-  },
-  {
-    "id": "asahipolicy2026",
-    "type": "webpage",
-    "title": "Generative AI (LLM) Policy",
-    "URL": "https://asahilinux.org/llm-policy/",
-    "author": [
-      {
-        "literal": "Asahi Linux project"
-      }
-    ],
-    "abstract": "Asahi broadly forbids generative-AI tooling for material contributions, citing ethical concerns and possible contamination of clean-room reverse engineering. Its examples include generated issues and LLM interpretation of hardware traces.",
-    "keyword": "engineering; governance",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Entire official policy, including material contributions, trace interpretation and enforcement examples; web retrieval.). Limitations: Broader than a generated-code ban, but scoped to material project contributions. Stated ethical and legal concerns are project judgments, not independently established legal findings or experimental outcomes. Date basis: Official live page inspected 13 October 2026; original publication/adoption date not established. June 2025 board discussion is not treated as proof of adoption.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          13
-        ]
-      ]
-    }
-  },
-  {
-    "id": "gravitypolicy2026",
-    "type": "webpage",
-    "title": "LLM Use and Clean-Room Policy",
-    "URL": "https://gravitylinux.org/policies/llm/",
-    "author": [
-      {
-        "literal": "Gravity Linux contributors"
-      }
-    ],
-    "abstract": "Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.",
-    "keyword": "engineering; governance; quality",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official policy sections on permission, human responsibility, contamination, disclosure and process records; web retrieval.). Limitations: Not unconditional acceptance. The project's safeguards and claimed effectiveness are not independently validated; its legal interpretation is not a legal opinion from this review. Date basis: Undated live policy inspected 13 October 2026; adoption date not established.",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          13
-        ]
-      ]
-    }
   }
 ]

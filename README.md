@@ -2,7 +2,7 @@
 
 **Evidence on productivity, learning, engineering, and scientific discovery**
 
-October 2026 release · Version 2026.10.6 · Evidence cutoff: 13 October 2026
+October 2026 release · Version 2026.10.7 · Evidence cutoff: 13 October 2026
 
 Lead AI author: **GPT 6.1**. Co-author: **Witold Bołt, PhD**, Vice-President of [Jit Team](https://jit.team), a software consulting company. For discussion of the review and its implications: [Witold.Bolt@jit.team](mailto:Witold.Bolt@jit.team) or [LinkedIn](https://www.linkedin.com/in/witoldbolt/). Affiliation is disclosed, not offered as evidence or product endorsement.
 
@@ -30,7 +30,7 @@ A living critical narrative review and evidence map of AI's effects on intellect
 - [Searchable evidence map](site/bibliography.html)
 - [Article PDF](site/downloads/does-ai-help-2026-10.pdf)
 - [Balance self-review and October source-admission log](manuscript/balance-review.md)
-- [Complete October release](site/downloads/release-2026.10.6.zip)
+- [Complete October release](site/downloads/release-2026.10.7.zip)
 - [SWE-bench authors' recommended citations](site/downloads/swebench-recommended.bib)
 - [Annotated database](data/sources.json)
 - [CSL-JSON](site/downloads/bibliography.csl.json), [BibTeX](site/downloads/bibliography.bib), [RIS](site/downloads/bibliography.ris), [CSV](site/downloads/sources.csv), and [JSON Lines](site/downloads/sources.jsonl)
@@ -54,6 +54,7 @@ Citation-manager exports contain checked identities only. The evidence database 
 | `releases/2026-10.4/` | Supplied-document appraisal, three resolved candidates, agent-study version links and PDF provenance |
 | `releases/2026-10.5/` | Clarifies Crossref registration of the Hicks version DOI; previous document-follow-up snapshot preserved |
 | `releases/2026-10.6/` | Open-source policy contrasts, related research, QEMU history and SWE-bench citation recommendations |
+| `releases/2026-10.7/` | Repository-backed dates for Gravity, Zig and Asahi, with pinned revision provenance |
 | `.github/workflows/` | Pages deployment and monthly source-access monitoring, for a standalone repository |
 
 The directory is self-contained and intended to become the root of a dedicated GitHub repository. The existing parent checkout is not required for building or serving the release. No account credentials are included.

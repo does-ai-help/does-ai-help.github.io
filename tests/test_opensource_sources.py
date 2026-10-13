@@ -19,9 +19,24 @@ class OpenSourceSourceTests(unittest.TestCase):
         self.assertEqual(self.records["horapolicies2026"]["study_family"], self.records["horapoliciesearly2026"]["study_family"])
         self.assertIn("horapoliciesearly2026", self.records["horapolicies2026"]["related_to"])
 
-    def test_unknown_adoption_dates_not_observation_dates(self):
-        for key in ["asahipolicy2026", "zigpolicy2026", "gravitypolicy2026", "gravityabout2026"]:
-            self.assertIsNone(self.records[key]["date"])
+    def test_repository_dates_have_pinned_provenance(self):
+        dates = {"asahipolicy2026": "2026-09-08", "zigpolicy2026": "2025-11-22", "gravitypolicy2026": "2026-09-15", "gravityabout2026": "2026-09-12"}
+        for key, date in dates.items():
+            record = self.records[key]
+            self.assertEqual(record["date"], date)
+            self.assertIn(record["source_revision"]["commit"], record["source_revision"]["file_url"])
+            self.assertEqual(record["source_revision"]["checked_on"], "2026-10-13")
+
+    def test_authored_and_committed_dates_stay_distinct(self):
+        source = self.records["gravitypolicy2026"]
+        self.assertEqual(source["source_revision"]["authored_at"][:10], "2026-09-12")
+        self.assertEqual(source["source_revision"]["committed_at"][:10], source["date"])
+        self.assertEqual(source["date_kind"], "git-file-revision")
+
+    def test_pdf_repository_urls_are_breakable(self):
+        tex = (ROOT / "latex/body.tex").read_text()
+        self.assertIn(r"\url{https://github.com/redox-os/redox/blob/03d6b8bc05bab7cf03490671cd3d23571214a720/CONTRIBUTING.md}", tex)
+        self.assertIn(r"\nolinkurl{2f127af408e1b4675662f9b8a0c3606f6565a1a7}", tex)
 
     def test_qemu_introduction_date(self):
         self.assertEqual(self.records["qemupolicy2026"]["date"], "2025-06-24")

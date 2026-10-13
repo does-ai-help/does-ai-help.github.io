@@ -19,13 +19,14 @@
   },
   {
     "id": "zigpolicy2026", "url": "https://ziglang.org/code-of-conduct/",
-    "title": "Code of Conduct", "authors": ["Zig project"], "year": null, "date": null,
-    "date_basis": "Current policy inspected 13 October 2026; this page supplies no publication date. A dated 11 July 2025 historical contributing-page revision documents earlier restrictions but does not date this expanded text.",
+    "title": "Code of Conduct", "authors": ["Zig project"], "year": 2025, "date": "2025-11-22", "date_kind": "source-declared-publication",
+    "date_basis": "Repository source declares .date = 2025-11-22, also present in the introducing commit f768f750524efd7595252759fcee1a20925a358b. Commit timestamps retain their original timezone; source-declared calendar date is used for citation, not the latest revision date.",
+    "source_revision": {"repository": "https://codeberg.org/ziglang/ziglang.org", "path": "content/en-US/code-of-conduct.smd", "commit": "0601a4358fec6fe445688face107a5e914b68a16", "authored_at": "2026-09-25T18:56:25-07:00", "committed_at": "2026-09-25T18:56:25-07:00", "file_url": "https://codeberg.org/ziglang/ziglang.org/src/commit/0601a4358fec6fe445688face107a5e914b68a16/content/en-US/code-of-conduct.smd", "history_url": "https://codeberg.org/api/v1/repos/ziglang/ziglang.org/commits?path=content%2Fen-US%2Fcode-of-conduct.smd&limit=100", "checked_on": "2026-10-13", "method": "forgejo-file-history-api-and-source-content"},
     "topics": ["engineering", "governance", "learning"], "method": "project-policy", "publication_status": "project-documentation",
     "verification_level": "content-checked", "checked_on": "2026-10-13", "verification_scope": "Official scope and Strict No LLM / No AI section, read through web retrieval.",
     "summary": "Zig's designated development spaces prohibit LLM-generated code and prose, paraphrasing, editing, translation, shared brainstorming results and LLM-assisted bug finding.",
     "limitations": "Applies to the ziglang Codeberg organization, project IRC and development Zulip, not every independent community or project using Zig. No measured productivity effect follows from the rule.",
-    "version_note": "Historical policy evidence: https://github.com/ziglang/zig/wiki/Contributing/61aff1ce9b3ebd8c38c0f5a18db00c06f0fa4022 (11 July 2025). Do not attribute all current restrictions to that historical revision."
+    "version_note": "Document originally dated 22 November 2025; current source revision 0601a4358fec6fe445688face107a5e914b68a16 is dated 25 September 2026 in the commit's -07:00 timezone (26 September UTC). The AI rules were clarified in commit 426e21fdd1180d1e1544edd668cfcd9864d7dc7f, 24 May 2026. The citation year does not backdate all current restrictions to 2025 or establish the first adoption of Zig's AI restrictions."
   },
   {
     "id": "redoxpolicy2026", "url": "https://github.com/redox-os/redox/blob/master/CONTRIBUTING.md",
@@ -39,8 +40,10 @@
   },
   {
     "id": "asahipolicy2026", "url": "https://asahilinux.org/llm-policy/",
-    "title": "Generative AI (LLM) Policy", "authors": ["Asahi Linux project"], "year": null, "date": null,
-    "date_basis": "Official live page inspected 13 October 2026; original publication/adoption date not established. June 2025 board discussion is not treated as proof of adoption.",
+    "title": "Generative AI (LLM) Policy", "authors": ["Asahi Linux project"], "year": 2026, "date": "2026-09-08", "date_kind": "source-declared-publication",
+    "date_basis": "Pinned repository source front matter declares 2026-09-08T09:00:00+10:00. Use its calendar publication date, 8 September, rather than the Git commit date of 7 September UTC. The earlier board discussion does not date adoption of this revised policy.",
+    "source_revision": {"repository": "https://github.com/AsahiLinux/AsahiLinux.github.io", "path": "content/llm-policy.md", "commit": "6eccc0319839a9e21d89977f98140821369c3255", "authored_at": "2026-09-07T23:12:47Z", "committed_at": "2026-09-07T23:12:47Z", "file_url": "https://github.com/AsahiLinux/AsahiLinux.github.io/blob/6eccc0319839a9e21d89977f98140821369c3255/content/llm-policy.md", "history_url": "https://api.github.com/repos/AsahiLinux/AsahiLinux.github.io/commits?path=content/llm-policy.md&per_page=100", "checked_on": "2026-10-13", "method": "github-file-history-api-and-source-content"},
+    "version_note": "Current text was reworked in commit 6cc32d06679d263ed33157a2cc0e029a0d0ffcb2 and given its title in 6eccc0319839a9e21d89977f98140821369c3255, both 7 September 2026 UTC. Its source-declared publication date is 8 September in +10:00. This dates the cited document, not the first Asahi policy on AI.",
     "topics": ["engineering", "governance"], "method": "project-policy", "publication_status": "project-documentation",
     "verification_level": "content-checked", "checked_on": "2026-10-13", "verification_scope": "Entire official policy, including material contributions, trace interpretation and enforcement examples; web retrieval.",
     "summary": "Asahi broadly forbids generative-AI tooling for material contributions, citing ethical concerns and possible contamination of clean-room reverse engineering. Its examples include generated issues and LLM interpretation of hardware traces.",
@@ -77,8 +80,10 @@
   },
   {
     "id": "gravityabout2026", "url": "https://gravitylinux.org/about/",
-    "title": "About - Gravity Linux", "title_aliases": ["About — Gravity Linux"], "authors": ["Gravity Linux contributors"], "year": null, "date": null,
-    "date_basis": "Live FAQ inspected 13 October 2026. Dated introductory blog is 5 September 2026, but does not date this FAQ or the fork itself.",
+    "title": "About - Gravity Linux", "title_aliases": ["About — Gravity Linux"], "authors": ["Gravity Linux contributors"], "year": 2026, "date": "2026-09-12", "date_kind": "git-file-revision",
+    "date_basis": "Latest file-affecting commit b1a74639fe8931640f7f8eecb99f8b77f257463a committed 12 September 2026 at 01:32:06 UTC. Also the initial repository import of this file; not proof of first public deployment, the fork date or initial composition.",
+    "source_revision": {"repository": "https://github.com/GravityLinux/website", "path": "content/about.md", "commit": "b1a74639fe8931640f7f8eecb99f8b77f257463a", "authored_at": "2026-09-12T01:32:06Z", "committed_at": "2026-09-12T01:32:06Z", "file_url": "https://github.com/GravityLinux/website/blob/b1a74639fe8931640f7f8eecb99f8b77f257463a/content/about.md", "history_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/about.md&per_page=100", "checked_on": "2026-10-13", "method": "github-file-history-api-and-source-content"},
+    "version_note": "Repository source matches the cited About FAQ; date is the file's committed revision date, not the date of the separately dated introductory blog.",
     "topics": ["engineering", "governance"], "method": "project-account", "publication_status": "project-documentation",
     "verification_level": "content-checked", "checked_on": "2026-10-13", "verification_scope": "Official About FAQ, especially Gravity Linux vs Asahi Linux; web retrieval.",
     "summary": "Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.",
@@ -86,8 +91,10 @@
   },
   {
     "id": "gravitypolicy2026", "url": "https://gravitylinux.org/policies/llm/",
-    "title": "LLM Use and Clean-Room Policy", "authors": ["Gravity Linux contributors"], "year": null, "date": null,
-    "date_basis": "Undated live policy inspected 13 October 2026; adoption date not established.",
+    "title": "LLM Use and Clean-Room Policy", "authors": ["Gravity Linux contributors"], "year": 2026, "date": "2026-09-15", "date_kind": "git-file-revision",
+    "date_basis": "Latest file-affecting commit d0bdd17839e9975a00d9201e842705acf2ca5a69 committed 15 September 2026 at 01:05:56 UTC, although authored 12 September. Citation uses committed revision date; policy adoption and deployment dates are not inferred.",
+    "source_revision": {"repository": "https://github.com/GravityLinux/website", "path": "content/policies/llm.md", "commit": "d0bdd17839e9975a00d9201e842705acf2ca5a69", "authored_at": "2026-09-12T07:46:53Z", "committed_at": "2026-09-15T01:05:56Z", "file_url": "https://github.com/GravityLinux/website/blob/d0bdd17839e9975a00d9201e842705acf2ca5a69/content/policies/llm.md", "history_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/policies/llm.md&per_page=100", "checked_on": "2026-10-13", "method": "github-file-history-api-and-source-content"},
+    "version_note": "Initially imported in b1a74639fe8931640f7f8eecb99f8b77f257463a on 12 September; revised communication policy in d0bdd17839e9975a00d9201e842705acf2ca5a69, committed 15 September. The source text matches the cited live policy.",
     "topics": ["engineering", "governance", "quality"], "method": "project-policy", "publication_status": "project-documentation",
     "verification_level": "content-checked", "checked_on": "2026-10-13", "verification_scope": "Official policy sections on permission, human responsibility, contamination, disclosure and process records; web retrieval.",
     "summary": "Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.",

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T09:49:06.558040+00:00",
+  "checked_at": "2026-10-13T15:37:55.645832+00:00",
   "interpretation": "Access checks only. Failure may reflect a paywall, bot restriction, redirect, timeout or unavailable resource; it is not a scientific-validity verdict.",
   "deferred_publication_urls": [
     "https://does-ai-help.github.io/",
@@ -23,7 +23,7 @@
       "id": "robin2026",
       "url": "https://www.nature.com/articles/s41586-026-10652-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=1d41d6e4-3544-4b84-b29e-1dfc59331a52"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=2fa468e2-c445-49a1-aada-7944ca135c1c"
     },
     {
       "id": "ramp2026",
@@ -46,14 +46,20 @@
     {
       "id": "mathmisalignment2026",
       "url": "https://mathandai.org/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mathandai.org'. (_ssl.c:1010)>"
+    },
+    {
+      "id": "gravityabout2026",
+      "url": "https://gravitylinux.org/about/",
       "status": 200,
-      "resolved_url": "https://mathandai.org/"
+      "resolved_url": "https://gravitylinux.org/about/"
     },
     {
       "id": "coscientist2026",
       "url": "https://www.nature.com/articles/s41586-026-10644-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=f2a601c9-daf7-4887-9ced-a7b146c290a3"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=9f4c1115-b276-4e6b-bd22-894bb83774c5"
     },
     {
       "id": "murphyhill2026",
@@ -112,14 +118,14 @@
     {
       "id": "candidate-cnbc-2026",
       "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
-      "status": 200,
+      "status": 206,
       "resolved_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
     },
     {
       "id": "mukherjee2026",
       "url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
-      "status": 200,
-      "resolved_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "herrengt2026",
@@ -149,7 +155,7 @@
       "id": "era2026",
       "url": "https://www.nature.com/articles/s41586-026-10658-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=f8d43376-1804-4153-b459-dfc8375a5ecd"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=27fc4b30-34c3-4a55-91bb-362ae7709e03"
     },
     {
       "id": "ref-4336e76ca7",
@@ -173,7 +179,7 @@
       "id": "hao2026",
       "url": "https://www.nature.com/articles/s41586-025-09922-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=30b1f7d1-2c59-4398-a0d5-1040e85dabd1"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=082f9a51-79e9-4001-9064-4073c2915707"
     },
     {
       "id": "alignment2026",
@@ -227,7 +233,7 @@
       "id": "wulearning2026",
       "url": "https://www.nature.com/articles/s41599-026-07019-z",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=b399ae55-74b4-4d81-ae59-f6b1cfcd3a0c"
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=d8f1f96d-3e69-49d2-8f2f-38f84b92dbe4"
     },
     {
       "id": "coslr2026",
@@ -323,7 +329,7 @@
       "id": "boolzen2026",
       "url": "https://link.springer.com/article/10.1007/s10462-026-11665-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=3ddc14df-4c55-405c-8789-7fe97328f493"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=c65a8e10-cfeb-4f02-abba-5394f72d766e"
     },
     {
       "id": "ref-c97b313435",
@@ -354,6 +360,12 @@
       "url": "https://arxiv.org/abs/2607.13196",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2607.13196"
+    },
+    {
+      "id": "asahipolicy2026",
+      "url": "https://asahilinux.org/llm-policy/",
+      "status": 206,
+      "resolved_url": "https://asahilinux.org/llm-policy/"
     },
     {
       "id": "westby2026",
@@ -394,8 +406,8 @@
     {
       "id": "norway2026",
       "url": "https://docs.iza.org/dp18767.pdf",
-      "status": 206,
-      "resolved_url": "https://docs.iza.org/dp18767.pdf"
+      "status": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     {
       "id": "shen2026",
@@ -431,7 +443,7 @@
       "id": "ref-e337528cf5",
       "url": "https://link.springer.com/article/10.1186/s41239-026-00614-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=8608a1a4-ecdc-4452-a1bf-6798ce7b8441"
+      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=a4b32ea1-639c-45b6-bb60-bc7131e1c2aa"
     },
     {
       "id": "linuxgenerated2026",
@@ -450,6 +462,12 @@
       "url": "https://arxiv.org/abs/2601.18685v5",
       "status": 206,
       "resolved_url": "https://arxiv.org/abs/2601.18685v5"
+    },
+    {
+      "id": "gravitypolicy2026",
+      "url": "https://gravitylinux.org/policies/llm/",
+      "status": 200,
+      "resolved_url": "https://gravitylinux.org/policies/llm/"
     },
     {
       "id": "taomath2026",
@@ -509,7 +527,7 @@
       "id": "alphaproof2025",
       "url": "https://www.nature.com/articles/s41586-025-09833-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=e6c1f209-6075-4558-98db-6ce300d7fafb"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=b9dcb2ee-077a-4f79-94be-816f50250d2a"
     },
     {
       "id": "openainavier2026",
@@ -599,7 +617,7 @@
       "id": "ref-dc3f47c33a",
       "url": "https://www.nature.com/articles/s41586-025-10072-4",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=d338e27c-228f-4c44-80f9-a6361e41b7a7"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=d1569292-7276-45bb-b8ef-e10e1d8c6a0e"
     },
     {
       "id": "ref-e299630b86",
@@ -707,7 +725,7 @@
       "id": "aiscientist2026",
       "url": "https://www.nature.com/articles/s41586-026-10265-5",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=14526194-01a9-416a-9102-6e96231e5e70"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=2fc19c81-1e1e-4900-a0c4-8fb63ac673ca"
     },
     {
       "id": "wilson2026",
@@ -860,6 +878,12 @@
       "resolved_url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/"
     },
     {
+      "id": "zigpolicy2026",
+      "url": "https://ziglang.org/code-of-conduct/",
+      "status": 206,
+      "resolved_url": "https://ziglang.org/code-of-conduct/"
+    },
+    {
       "id": "qemupolicy2026",
       "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
       "status": 200,
@@ -905,13 +929,13 @@
       "id": "discorl2025",
       "url": "https://www.nature.com/articles/s41586-025-09761-x",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=f42ae8e4-d1b8-470c-9fce-5d89bbc63a76"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=06289c68-05aa-47c4-a7cb-ca86a6ee39ad"
     },
     {
       "id": "ref-45820a1db8",
       "url": "https://link.springer.com/article/10.1007/s10664-025-10658-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=220f73a2-1200-488e-963b-ad7a9035b969"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=db1fe7e7-83d3-4af0-9f09-4c6ad7f1e7e3"
     },
     {
       "id": "dora2025",
@@ -1024,7 +1048,7 @@
     {
       "id": "ref-c91813d328",
       "url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
-      "status": 206,
+      "status": 200,
       "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/"
     },
     {
@@ -1145,13 +1169,13 @@
       "id": "ref-3e9d5d7dce",
       "url": "https://www.nature.com/articles/s41586-024-07566-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=2ce6c798-ed7e-424e-adea-121748759b3a"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=15c68df1-df7a-4675-877b-a38029e9788b"
     },
     {
       "id": "messeri2024",
       "url": "https://www.nature.com/articles/s41586-024-07146-0",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=6fbb4bff-517e-427d-9a73-4d8f966fc787"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=e2c1e861-86b9-494c-a3a0-521711e099f1"
     },
     {
       "id": "dora2024",
@@ -1211,7 +1235,7 @@
       "id": "funsearch2023",
       "url": "https://www.nature.com/articles/s41586-023-06924-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=910086e0-eac7-4b42-a398-ae42cb0354c4"
+      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=bad61807-a814-4d17-bbfa-e7b5bca951fc"
     },
     {
       "id": "ref-fb7d2bc1f2",
@@ -1253,7 +1277,7 @@
       "id": "alphafold2021",
       "url": "https://www.nature.com/articles/s41586-021-03819-2",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=8621eb21-128d-408a-8f05-c14deed4a4e0"
+      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=8f8e82b9-c815-4d45-8771-1cb508d8a2b1"
     },
     {
       "id": "space2021",
@@ -1265,31 +1289,7 @@
       "id": "ref-a97b44c4bb",
       "url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=d44b4ab2-cc23-49bd-8d74-6233ba4bd4fc"
-    },
-    {
-      "id": "gravityabout2026",
-      "url": "https://gravitylinux.org/about/",
-      "status": 200,
-      "resolved_url": "https://gravitylinux.org/about/"
-    },
-    {
-      "id": "zigpolicy2026",
-      "url": "https://ziglang.org/code-of-conduct/",
-      "status": 206,
-      "resolved_url": "https://ziglang.org/code-of-conduct/"
-    },
-    {
-      "id": "asahipolicy2026",
-      "url": "https://asahilinux.org/llm-policy/",
-      "status": 206,
-      "resolved_url": "https://asahilinux.org/llm-policy/"
-    },
-    {
-      "id": "gravitypolicy2026",
-      "url": "https://gravitylinux.org/policies/llm/",
-      "status": 200,
-      "resolved_url": "https://gravitylinux.org/policies/llm/"
+      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=4498385c-99e3-49c9-8152-52e18c425787"
     },
     {
       "id": "ref-e2f16876f5",
@@ -1306,8 +1306,8 @@
     {
       "id": "ref-824b5ba22f",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "status": 206,
-      "resolved_url": "https://openai.com/index/scientific-computing-agentic-ai/"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-a5ad621910",
@@ -1330,8 +1330,8 @@
     {
       "id": "ref-6de8a45dae",
       "url": "https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378",
-      "status": 206,
-      "resolved_url": "https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "ref-2242749b51",
@@ -1395,6 +1395,18 @@
     },
     {
       "id": "publication-document-link",
+      "url": "https://codeberg.org/ziglang/ziglang.org/src/commit/0601a4358fec6fe445688face107a5e914b68a16/content/en-US/code-of-conduct.smd",
+      "status": 200,
+      "resolved_url": "https://codeberg.org/ziglang/ziglang.org/src/commit/0601a4358fec6fe445688face107a5e914b68a16/content/en-US/code-of-conduct.smd"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://codeberg.org/ziglang/ziglang.org/src/commit/f768f750524efd7595252759fcee1a20925a358b/content/en-US/code-of-conduct.smd",
+      "status": 200,
+      "resolved_url": "https://codeberg.org/ziglang/ziglang.org/src/commit/f768f750524efd7595252759fcee1a20925a358b/content/en-US/code-of-conduct.smd"
+    },
+    {
+      "id": "publication-document-link",
       "url": "https://creativecommons.org/licenses/by/4.0/",
       "status": 206,
       "resolved_url": "https://creativecommons.org/licenses/by/4.0/"
@@ -1427,19 +1439,19 @@
       "id": "publication-document-link",
       "url": "https://doi.org/10.1007/s10462-026-11665-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=a831ad8f-6f1d-4627-8674-f22474a1096a"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10462-026-11665-9?error=cookies_not_supported&code=8761908f-6529-4564-9d1f-584e4923daae"
     },
     {
       "id": "publication-document-link",
       "url": "https://doi.org/10.1057/s41599-026-07019-z",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=be76777b-a7bd-4fa6-bf19-a4d839ecb06b"
+      "resolved_url": "https://www.nature.com/articles/s41599-026-07019-z?error=cookies_not_supported&code=7668c63e-ae03-4d16-a109-0d71f9cf0ab7"
     },
     {
       "id": "publication-document-link",
       "url": "https://doi.org/10.1145/3832783.3834386",
-      "status": 200,
-      "resolved_url": "https://dl.acm.org/doi/10.1145/3832783.3834386"
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "publication-document-link",
@@ -1476,6 +1488,24 @@
       "url": "https://doi.org/10.54394/00034628",
       "status": 206,
       "resolved_url": "https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/995703566902676"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/AsahiLinux/AsahiLinux.github.io/blob/6eccc0319839a9e21d89977f98140821369c3255/content/llm-policy.md",
+      "status": 206,
+      "resolved_url": "https://github.com/AsahiLinux/AsahiLinux.github.io/blob/6eccc0319839a9e21d89977f98140821369c3255/content/llm-policy.md"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/GravityLinux/website/blob/b1a74639fe8931640f7f8eecb99f8b77f257463a/content/about.md",
+      "status": 206,
+      "resolved_url": "https://github.com/GravityLinux/website/blob/b1a74639fe8931640f7f8eecb99f8b77f257463a/content/about.md"
+    },
+    {
+      "id": "publication-document-link",
+      "url": "https://github.com/GravityLinux/website/blob/d0bdd17839e9975a00d9201e842705acf2ca5a69/content/policies/llm.md",
+      "status": 206,
+      "resolved_url": "https://github.com/GravityLinux/website/blob/d0bdd17839e9975a00d9201e842705acf2ca5a69/content/policies/llm.md"
     },
     {
       "id": "publication-document-link",
@@ -1545,27 +1575,51 @@
     },
     {
       "id": "website-external-link",
+      "url": "https://api.github.com/repos/AsahiLinux/AsahiLinux.github.io/commits?path=content/llm-policy.md&per_page=100",
+      "status": 206,
+      "resolved_url": "https://api.github.com/repos/AsahiLinux/AsahiLinux.github.io/commits?path=content/llm-policy.md&per_page=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/about.md&per_page=100",
+      "status": 206,
+      "resolved_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/about.md&per_page=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/policies/llm.md&per_page=100",
+      "status": 206,
+      "resolved_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/policies/llm.md&per_page=100"
+    },
+    {
+      "id": "website-external-link",
+      "url": "https://codeberg.org/api/v1/repos/ziglang/ziglang.org/commits?path=content%2Fen-US%2Fcode-of-conduct.smd&limit=100",
+      "status": 200,
+      "resolved_url": "https://codeberg.org/api/v1/repos/ziglang/ziglang.org/commits?path=content%2Fen-US%2Fcode-of-conduct.smd&limit=100"
+    },
+    {
+      "id": "website-external-link",
       "url": "https://doi.org/10.1007/978-1-4842-4221-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=c715e7ad-61ab-4aec-9bc7-0c076bcd5fe3"
+      "resolved_url": "https://link.springer.com/book/10.1007/978-1-4842-4221-6?error=cookies_not_supported&code=d154bb1d-91f4-4375-8e8d-c41c87d749d3"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1007/978-981-95-3537-8_9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=dd3afa73-b35d-4635-9353-57f7a1bde38b"
+      "resolved_url": "https://link.springer.com/chapter/10.1007/978-981-95-3537-8_9?error=cookies_not_supported&code=4632164e-7c6c-4d18-8ee3-38df9f965fcc"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1007/s10664-025-10658-6",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=503b82d8-b5ed-42ce-93d6-916ff2f8e397"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10658-6?error=cookies_not_supported&code=512a0e1f-511b-4e89-b8b5-cdfcd365b139"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1007/s10664-025-10735-w",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=e33e2e82-dd95-4e33-9894-432ada7095c6"
+      "resolved_url": "https://link.springer.com/article/10.1007/s10664-025-10735-w?error=cookies_not_supported&code=aa93be7e-a064-4ff0-a85e-9e26701a434d"
     },
     {
       "id": "website-external-link",
@@ -1583,73 +1637,73 @@
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-021-03819-2",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=e05df934-5b82-470c-8ab0-61b7527a7678"
+      "resolved_url": "https://www.nature.com/articles/s41586-021-03819-2?error=cookies_not_supported&code=6220b5cc-d938-4593-8603-9895093de47e"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-023-06924-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=76b837c0-f4f9-4603-abaa-cff49fa03e5e"
+      "resolved_url": "https://www.nature.com/articles/s41586-023-06924-6?error=cookies_not_supported&code=a08df7ce-e191-449b-b501-751298e7f38a"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-024-07146-0",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=ab0e566d-6ab1-4428-9313-1eccaf0ddc10"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=db08f798-efc4-448e-a921-041f632e8c9b"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-024-07566-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=8cf6ea57-36fa-4855-bd04-ff2da61cd8d3"
+      "resolved_url": "https://www.nature.com/articles/s41586-024-07566-y?error=cookies_not_supported&code=2f6b295f-40d6-42e3-a5ff-eb1b950ebf89"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-09761-x",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=36706c9b-2212-418b-8131-54355fea68b5"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09761-x?error=cookies_not_supported&code=ce415f87-4f22-4497-baa8-638a4bae7f64"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-09833-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=35010ae6-b6c1-451d-b496-73bef85e45ae"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09833-y?error=cookies_not_supported&code=186e404d-5a1c-4c2d-97e9-42f51b907025"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-09922-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=183d4f4a-89ec-4707-ab86-45b64fbfdee6"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-09922-y?error=cookies_not_supported&code=b368ae4b-1aef-4e1e-9f45-61b15625c95e"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-025-10072-4",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=d9acc520-ef49-4c30-9c62-e19cae56f47c"
+      "resolved_url": "https://www.nature.com/articles/s41586-025-10072-4?error=cookies_not_supported&code=640c8672-6ba1-4ac5-a4cf-4a369db9f3c3"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10265-5",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=06891485-f6ab-4abe-9289-22127c7f534b"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10265-5?error=cookies_not_supported&code=3f10ffbf-388f-4365-b929-50c4dcb92a21"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10644-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=23a6c0aa-adef-47ea-9880-ec171cd7e837"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10644-y?error=cookies_not_supported&code=03fc6bbf-2d6a-4834-b080-846473f0e489"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10652-y",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=8db44659-bfe9-4782-8dde-6e4693fd8d71"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10652-y?error=cookies_not_supported&code=2df639e2-971a-4a24-a162-7a284cd2f29f"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.1038/s41586-026-10658-6",
       "status": 200,
-      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=4083fa99-50ba-4667-b876-de6ea0e07f23"
+      "resolved_url": "https://www.nature.com/articles/s41586-026-10658-6?error=cookies_not_supported&code=d94f6bcc-b18b-498b-8c00-ef29648466cc"
     },
     {
       "id": "website-external-link",
@@ -1691,7 +1745,7 @@
       "id": "website-external-link",
       "url": "https://doi.org/10.1186/s41239-026-00614-9",
       "status": 200,
-      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=027fbf1c-62b0-4608-8042-3613a9c5a521"
+      "resolved_url": "https://link.springer.com/article/10.1186/s41239-026-00614-9?error=cookies_not_supported&code=f96b8855-b813-4d23-afa9-92a32e448f82"
     },
     {
       "id": "website-external-link",
@@ -1720,19 +1774,19 @@
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.3386/w35143",
-      "status": 200,
+      "status": 206,
       "resolved_url": "https://www.nber.org/system/files/working_papers/w35143/w35143.pdf"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.3386/w35275",
-      "status": 200,
+      "status": 206,
       "resolved_url": "https://www.nber.org/system/files/working_papers/w35275/w35275.pdf"
     },
     {
       "id": "website-external-link",
       "url": "https://doi.org/10.3386/w35684",
-      "status": 200,
+      "status": 206,
       "resolved_url": "https://www.nber.org/system/files/working_papers/w35684/w35684.pdf"
     },
     {

@@ -70,12 +70,12 @@ function inline(tokens) {
   return (tokens||[]).map(t=>{
     if(t.type==='strong') return `\\textbf{${inline(t.tokens)}}`;
     if(t.type==='em') return `\\emph{${inline(t.tokens)}}`;
-    if(t.type==='link') { const href=t.href.startsWith('downloads/') && meta.canonical_url ? new URL(t.href,meta.canonical_url).href : t.href.replace(/^downloads\//,''); return `\\href{${texEscape(href)}}{${inline(t.tokens)}}`; }
+    if(t.type==='link') { const href=t.href.startsWith('downloads/') && meta.canonical_url ? new URL(t.href,meta.canonical_url).href : t.href.replace(/^downloads\//,''); return t.text===t.href && /^https?:\/\//.test(href) ? `\\url{${texEscape(href)}}` : `\\href{${texEscape(href)}}{${inline(t.tokens)}}`; }
     if(t.type==='codespan') return `\\texttt{${texEscape(t.text)}}`;
     if(t.type==='br') return '\\newline ';
     if(t.type==='image') return `\n\\begin{figure}[htbp]\\centering\\includegraphics[width=\\textwidth]{../site/${texEscape(t.href)}}\\end{figure}\n`;
     if(t.tokens) return inline(t.tokens);
-    return texText(t.text||'');
+    return (t.text||'').split(/\b([a-f0-9]{40}|[a-f0-9]{64})\b/g).map((part,index)=>index%2?`\\nolinkurl{${part}}`:texText(part)).join('');
   }).join('');
 }
 function blocks(tokens) {
@@ -99,7 +99,7 @@ const abstractTokens = tokens.slice(1, tokens.findIndex(t=>t.type==='heading' &&
 write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
-const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorLabel(r))}. ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?texEscape(r.version_note)+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
+const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorLabel(r))}. ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?inline(marked.Lexer.lexInline(r.version_note))+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
 write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
 write('site/downloads/release.json', JSON.stringify({...meta,counts:{total:sources.length,verified:verified.length,core:core.length,cited:citations.length}},null,2)+'\n');
@@ -129,9 +129,14 @@ for(const filename of ['index.html','bibliography.html','releases.html']) {
   let source=read('site/'+filename);
   if(filename==='bibliography.html') for(const r of sources) {
     const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;
-    const dating=`<p><strong>Publication date:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
+    const dateLabel=r.date_kind==='git-file-revision'?'Document revision date':'Publication date';
+    const dating=`<p><strong>${dateLabel}:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
     const publisher=r.publisher?`<p><strong>Publisher:</strong> ${esc(r.publisher)}.</p>`:'';
     source=source.replace(stable,stable+dating+publisher);
+    if(r.source_revision) {
+      const revision=r.source_revision;
+      source=source.replace(stable,stable+`<p><strong>Repository provenance:</strong> <a href="${esc(revision.file_url)}">Pinned source revision</a> · <a href="${esc(revision.history_url)}">File history metadata</a>.</p><p><strong>Date type:</strong> ${esc(r.date_kind.replaceAll('-',' '))}. Authored: ${esc(revision.authored_at)}. Committed: ${esc(revision.committed_at)}.</p>`);
+    }
     if(['ref-8ecd8d70a1','ref-3e4a5dea3a'].includes(r.id)) source=source.replace(stable,stable+'<p><a href="downloads/swebench-recommended.bib" download>Download authors\' recommended SWE-bench citations</a>. Conference citations are separate from repository and preprint dates.</p>');
     if(r.document_verification) {
       const d=r.document_verification;
