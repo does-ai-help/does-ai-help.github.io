@@ -10,6 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
 const write = (p, text) => { fs.mkdirSync(path.dirname(path.join(root, p)), {recursive:true}); fs.writeFileSync(path.join(root, p), text); };
 const meta = JSON.parse(read('data/release.json'));
+const humanAffiliation = meta.authors.find(author=>author.name==='Witold Bołt').institution;
 const downloadStems={...JSON.parse(read('data/download-names.json')),[`does-ai-help-${meta.release}.pdf`]:'does-ai-help'};
 const downloadNames=Object.fromEntries(Object.entries(downloadStems).map(([name,stem])=>[name,`${stem}-${meta.version}${name.slice(name.indexOf('.'))}`]));
 const filteredCslName=`${downloadStems['bibliography.csl.json']}-filtered-${meta.version}.csl.json`;
@@ -131,7 +132,7 @@ function blocks(tokens) {
 const abstractTokens = tokens.slice(1, tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
-write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
+write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version],['ReviewHumanAffiliation',humanAffiliation]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
 const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorSentence(r))} ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${citationNotes[id]?texEscape(citationNotes[id])+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
 write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\setlength{\\parskip}{0pt}\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt,parsep=0pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
@@ -190,7 +191,7 @@ for(const filename of ['index.html','bibliography.html','releases.html','cite.ht
   const updated=source
     .replace('Initial English synthesis and searchable evidence map. Corrections include updated authorship and sample scope for Writing Code vs. Shipping Code, the current title of the retail field-experiment paper, and removal of an unrelated inherited catalog link.','Initial October 2026 publication: a critical synthesis and searchable evidence map covering productivity, learning, engineering, scientific discovery and community perspectives. Technical version history is preserved in the release changelog; monthly literature updates begin with the next release.')
     .replace(`<link rel="canonical" href="${esc(meta.canonical_url)}">`,canonical?`<link rel="canonical" href="${esc(canonical)}"><meta property="og:url" content="${esc(canonical)}">`:'')
-    .replace('<strong>Witold Bołt</strong>, co-author','<strong>Witold Bołt, PhD</strong>, co-author')
+    .replace('<strong>Witold Bołt</strong>, co-author',`<strong>Witold Bołt, PhD</strong>, co-author <span class="author-affiliation">· ${esc(humanAffiliation)}</span>`)
     .replace('</main>', '<section class="community-note" aria-label="Contribute and reuse"><h2>Contribute evidence</h2><p>'+contributionLinks+'. Suggestions are assessed for monthly releases; corrections are welcome.</p><p>Free reuse with attribution under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>. <a href="downloads/LICENSE-CONTENT.md">Reuse and attribution</a> · <a href="downloads/reference-verification.md">Latest identity audit</a> · <a href="downloads/metadata-review.md">Editorial metadata notes</a></p></section></main>')
     .replace('Living critical review · October 2026 release',`Living critical review · ${meta.release_status==='final'?'Final ':''}${esc(releaseLabel)} release`)
     .replaceAll('Evidence cutoff: 13 October 2026',`Evidence cutoff: ${esc(cutoffLabel)}`)

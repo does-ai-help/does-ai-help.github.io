@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.14",
-  "snapshot": "2026-10.14",
-  "archive_name": "does-ai-help-release-2026.10.14.zip",
+  "version": "2026.10.15",
+  "snapshot": "2026-10.15",
+  "archive_name": "does-ai-help-release-2026.10.15.zip",
   "release_status": "final",
   "release": "2026-10",
   "release_label": "October 2026",
@@ -19,6 +19,7 @@
       "name": "Witold Bołt",
       "credentials": "PhD",
       "role": "Co-author",
+      "institution": "Jit Team",
       "affiliation": "Vice-President of Jit Team, a software consulting company",
       "email": "Witold.Bolt@jit.team",
       "company_url": "https://jit.team",

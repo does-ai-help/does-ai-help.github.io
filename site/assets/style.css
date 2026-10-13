@@ -15,4 +15,5 @@
 .github-star-count[hidden]{display:none}
 header nav{flex-wrap:wrap}
 .github-repository{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;min-height:32px}
+.author-affiliation{color:var(--muted);white-space:nowrap}
 .github-icon{display:block;width:18px;height:18px;flex:none;background:currentColor;mask:url("github.svg") center/contain no-repeat;-webkit-mask:url("github.svg") center/contain no-repeat}
