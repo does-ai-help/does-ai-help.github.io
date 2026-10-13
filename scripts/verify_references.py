@@ -227,6 +227,18 @@ def exception_valid(exception, result, today):
                 and title_match(result["expected_title"], exception["observed_title"])[0])
 
 
+def apply_browser_receipt(result, receipt, source, release):
+    from browser_review import receipt_errors
+    if receipt and not receipt_errors(receipt, source, release):
+        result["alternative_review"] = receipt
+        if receipt["outcome"] in {"mismatch", "not-found"}:
+            result.update(identity_status="mismatch")
+            result["conflicts"].append("Local Chrome inspection found an identity failure")
+        elif receipt["outcome"] == "identity-confirmed" and result["identity_status"] == "unresolved":
+            result.update(identity_status="browser-confirmation")
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--strict", action="store_true", help="Exit nonzero for unresolved checked identities or any mismatch")
@@ -254,8 +266,14 @@ def main():
         new = {r["id"]: r for r in results}
         results = [new.get(r["id"], r) for r in previous["records"]]
     today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    from browser_review import latest_receipts
+    release = json.loads((ROOT / "data/release.json").read_text())
+    browser_checks = latest_receipts(json.loads((ROOT / "data/browser-verification.json").read_text()))
+    byid = {r["id"]: r for r in all_records}
     exceptions = {e["id"]: e for e in json.loads((ROOT / "data/identity-exceptions.json").read_text())}
     for result in results:
+        receipt = browser_checks.get(result["id"])
+        apply_browser_receipt(result, receipt, byid[result["id"]], release)
         ex = exceptions.get(result["id"], {})
         if exception_valid(ex, result, today):
             result.update(identity_status="manual-confirmation", manual_review=ex)

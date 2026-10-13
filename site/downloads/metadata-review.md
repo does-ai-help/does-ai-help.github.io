@@ -1,5 +1,9 @@
 # October 2026 metadata review
 
+## Local Chrome follow-up
+
+Version 2026.10.2 adds actual local Chrome observations for 15 selected resources. These are recorded separately from the earlier indexed-primary exceptions, which are not retrospectively labeled as Chrome checks. The Elsevier PII now resolves to Chang and Huang's journal paper and DOI 10.1016/j.im.2026.104306; the CNBC URL resolves to Corynn Winston's dated article. Newly observed supporting bylines and dates are retained in `browser-source-updates.json`. Scope limits, subscription boundaries and the genuine Kent Beck newsletter redirect are documented in the public browser ledger. No scientific correctness is certified.
+
 Checked by GPT 6.1 using primary pages and live Crossref metadata on 13 October 2026 (Warsaw time). This is AI-assisted editorial verification, not an independent human audit or scientific replication.
 
 ## Title differences

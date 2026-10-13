@@ -78,7 +78,7 @@ function inline(tokens) {
 function blocks(tokens) {
   return tokens.map(t=>{
     if(t.type==='space') return '\n';
-    if(t.type==='heading') { const text=texEscape(t.text); const cmd=t.depth<=2?'section':'subsection'; const pageBreak=t.text==='Selected references'?'\\clearpage\n':''; return `${pageBreak}\n\\${cmd}*{${text}}\\phantomsection\\addcontentsline{toc}{${cmd}}{${text}}\n`; }
+    if(t.type==='heading') { const text=texEscape(t.text); const cmd=t.depth<=2?'section':'subsection'; return `\n\\${cmd}*{${text}}\\phantomsection\\addcontentsline{toc}{${cmd}}{${text}}\n`; }
     if(t.type==='paragraph') return inline(t.tokens)+'\n\n';
     if(t.type==='list') return `\\begin{${t.ordered?'enumerate':'itemize'}}\n`+t.items.map(i=>'\\item '+blocks(i.tokens)).join('\n')+`\\end{${t.ordered?'enumerate':'itemize'}}\n`;
     if(t.type==='text') return (t.tokens?inline(t.tokens):texText(t.text))+'\n';
@@ -105,6 +105,7 @@ for (const filename of ['CONTRIBUTING.md', 'LICENSE-CONTENT.md', 'HOSTING.md']) 
 fs.copyFileSync(path.join(root,'manuscript/metadata-review.md'),path.join(root,'site/downloads/metadata-review.md'));
 fs.copyFileSync(path.join(root,'manuscript/related-reviews.md'),path.join(root,'site/downloads/related-reviews.md'));
 fs.copyFileSync(path.join(root,'manuscript/balance-review.md'),path.join(root,'site/downloads/balance-review.md'));
+for(const [from,to] of [['data/browser-verification.json','browser-verification.json'],['data/browser-review-policy.json','browser-review-policy.json'],['BROWSER-VERIFICATION.md','BROWSER-VERIFICATION.md']]) fs.copyFileSync(path.join(root,from),path.join(root,'site/downloads',to));
 const externalLinks=new Set();
 const documentPaths=['README.md','HOSTING.md','CONTRIBUTING.md','MAINTENANCE.md','LICENSE-CONTENT.md','manuscript/article.md','manuscript/methodology.md','manuscript/metadata-review.md','manuscript/related-reviews.md','manuscript/balance-review.md'];
 for(const file of documentPaths) marked.walkTokens(marked.lexer(read(file)), token=>{
@@ -120,7 +121,12 @@ write('site/.nojekyll','');
 write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citations:JSON.parse(read('site/downloads/bibliography.csl.json'))})+';\n');
 write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>','<script src="assets/data.js" defer></script><script src="assets/bibliography.js" defer></script>'));
 for(const filename of ['index.html','bibliography.html','releases.html']) {
-  const source=read('site/'+filename);
+  let source=read('site/'+filename);
+  if(filename==='bibliography.html') for(const r of sources.filter(r=>r.browser_verification)) {
+    const b=r.browser_verification;
+    const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;
+    source=source.replace(stable,stable+`<p><strong>Alternative verification:</strong> Local Chrome, ${esc(b.checked_at.slice(0,10))}; ${esc(b.outcome.replaceAll('-',' '))}. Reviewer: ${esc(b.reviewer)}.</p><p><strong>Browser reading scope:</strong> ${esc(b.scope)}</p><p>${esc(b.notes)} <a href="downloads/browser-verification.json">Browser verification ledger</a></p>`);
+  }
   const canonical=meta.canonical_url?new URL(filename==='index.html'?'':filename,meta.canonical_url).href:'';
   const updated=source
     .replace('Initial English synthesis and searchable evidence map. Corrections include updated authorship and sample scope for Writing Code vs. Shipping Code, the current title of the retail field-experiment paper, and removal of an unrelated inherited catalog link.','October update: evidence-weighted balance review, official contribution policies, mathematical-community perspectives, and the Navier-Stokes claim and critique. <a href="downloads/balance-review.md">Balance review and source-admission decisions</a>. <a href="https://github.com/does-ai-help/does-ai-help.github.io/releases/tag/v2026.10.0">Preserved initial release (2026.10.0)</a>.')

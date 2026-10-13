@@ -36,6 +36,9 @@ def to_csl(r):
         item["note"] += " Version: " + r["version_note"]
     if r.get("arxiv_id"):
         item["note"] += " Persistent identifier: arXiv:" + r["arxiv_id"]
+    if r.get("browser_verification"):
+        b = r["browser_verification"]
+        item["note"] += f" Alternative verification: local Chrome, {b['checked_at']}; {b['outcome']}. Scope: {b['scope']}"
     return item
 
 
@@ -52,19 +55,24 @@ def main():
     for filename, data in [("sources.json", records), ("bibliography.csl.json", [to_csl(r) for r in verified]), ("bibliography-core.csl.json", [to_csl(r) for r in verified if r['editorial_priority']=='core'])]:
         (output / filename).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     (output / "sources.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
-    fields = ["id", "title", "authors", "year", "date", "url", "doi", "arxiv_id", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note"]
+    fields = ["id", "title", "authors", "year", "date", "url", "doi", "arxiv_id", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note", "browser_method", "browser_checked_at", "browser_scope"]
     with (output / "sources.csv").open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=fields)
         writer.writeheader()
         for r in records:
             row = {k: r.get(k, "") for k in fields}
             row.update(authors="; ".join(r["authors"]), topics="; ".join(r["topics"]), verification_level=r["verification"]["level"], verification_scope=r["verification"].get("basis", ""), checked_on=r["verification"].get("checked_on", ""))
+            browser = r.get("browser_verification", {})
+            row.update(browser_method=browser.get("method", ""), browser_checked_at=browser.get("checked_at", ""), browser_scope=browser.get("scope", ""))
             writer.writerow(row)
     bib, ris = [], []
     for r in verified:
         values = {"title": "{" + bib_escape(r["title"]) + "}", "url": r["url"], "note": bib_escape(r["limitations"] + " Verification: " + r["verification"]["level"])}
         if r.get("version_note"):
             values["note"] += " Version: " + bib_escape(r["version_note"])
+        if r.get("browser_verification"):
+            b = r["browser_verification"]
+            values["note"] += bib_escape(f" Alternative verification: local Chrome, {b['checked_at']}; {b['outcome']}. Scope: {b['scope']}")
         if r["authors"]:
             values["author"] = " and ".join(bib_escape(a) if ", " in a else "{" + bib_escape(a) + "}" for a in r["authors"])
         if r.get("year"):
@@ -90,6 +98,9 @@ def main():
             rows.append("AN  - arXiv:" + r["arxiv_id"])
         if r.get("version_note"):
             rows.append("N1  - Version: " + r["version_note"])
+        if r.get("browser_verification"):
+            b = r["browser_verification"]
+            rows.append(f"N1  - Alternative verification: local Chrome, {b['checked_at']}; {b['outcome']}. Scope: {b['scope']}")
         rows.append("ER  - ")
         ris.append("\n".join(rows))
     (output / "bibliography.bib").write_text("\n".join(bib))

@@ -1,6 +1,6 @@
 # Balance self-review and October source-admission log
 
-Review date and evidence cutoff: **13 October 2026**. Publication: **Does AI Help?**, version **2026.10.1**.
+Review date and evidence cutoff: **13 October 2026**. Publication: **Does AI Help?**, version **2026.10.2**.
 
 ## Purpose and scope
 
@@ -42,13 +42,13 @@ There is no defensible tally of "AI-positive" versus "AI-negative" papers here. 
 | [Chen and Stratton, author PDF](https://fion.ac/jellyfish.pdf) | Already included as `chenstratton2026`; retain the August version and strengthen the interpretation of output bounds. |
 | [Vella and Blincoe, arXiv](https://arxiv.org/abs/2605.23135) and [v1 HTML](https://arxiv.org/html/2605.23135v1) | Already included as `vella2026`. These are one study, not two replications. |
 | [Ars Technica](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) | Add as `orland2026`, secondary reporting related to the existing firm study. |
-| [Elsevier PII S0378720626000066](https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066) | Retain as candidate. Access failed; title, authors and DOI were not reliably established. No findings enter the article. |
+| [Elsevier PII S0378720626000066](https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066) | Initially a candidate. Local Chrome subsequently established Chang/Huang authorship, title and DOI 10.1016/j.im.2026.104306. Public-preview appraisal only; survey/perceived-performance limits retained. |
 | [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026) | Add as `pragmatic2026`, with public-preview and self-selection limits. No claim of reading the paid report. |
 | [TechTarget](https://www.techtarget.com/ai/tip/The-risks-of-AI-overreliance-in-software-engineering) | Add as `kompella2026`; follow selected links to primary research rather than inherit its categorical framing. |
 | [ACM sustainability study](https://dl.acm.org/doi/10.1145/3786148.3788622) | Add as `iqbal2026`; a peer-reviewed workshop contribution, not a quantified lifecycle balance. |
 | [Advisor Perspectives / Bloomberg commentary](https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap) | Add as `mukherjee2026`, explicitly market commentary rather than measured productivity. |
 | [Gates Notes](https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make) | Add as `gates2026`, dated August 2026; a policy perspective, not future-outcome verification. |
-| [CNBC jobs URL](https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html) | Retain as candidate after access restrictions and unsuccessful identification. The URL slug is not a verified title or result. |
+| [CNBC jobs URL](https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html) | Initially a candidate. Local Chrome subsequently established the headline, Corynn Winston byline and 11 October date. Secondary reporting is not counted as independent evidence. |
 
 Selected linked primary studies added: [the enterprise mandate study, v1](https://arxiv.org/abs/2607.01904v1) and [the author-hosted code-ownership experiment](https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf). Other linked studies already represented in the database were not duplicated.
 
@@ -80,6 +80,6 @@ New annotations live in `data/october-followup.json` and are merged reproducibly
 1. Obtain an independent human methodological review, including whether the narrative foregrounds some harms or benefits disproportionately.
 2. Seek replications and longer-run production, learning and employment outcomes, including unsuccessful or abandoned deployments.
 3. Audit the mathematical claim and critique through specialist responses, exact revisions and primary checking records.
-4. Resolve the two inaccessible suggestions before attributing any findings; correct or remove them if identity proves wrong.
+4. Revisit the browser-resolved suggestions and other selected restricted sources each month; inspect primary reports or full methods where accessible before expanding claim-level appraisal.
 5. Improve prospective search reporting and outcome-level extraction. Do not turn overlapping reviews, press coverage or declarations into extra effect estimates.
 6. Record retractions and corrections with the same prominence as favorable advances, and reconsider conclusions when evidence warrants it.

@@ -31,7 +31,7 @@ def topics_from_title(title):
 
 def main():
     release = load("release.json")
-    related = load("related-reviews.json") + load("october-followup.json")
+    related = load("related-reviews.json") + load("october-followup.json") + load("browser-source-updates.json")
     allowed = {r["url"] for r in load("intake.json") + related}
     audit = load("audit.json") + load("audit-additions.json") + load("audit-related.json")
     records = {r["url"]: r for r in audit if r["url"] in allowed}
@@ -54,8 +54,10 @@ def main():
         if not annotation.get("checked_on"):
             raise ValueError(f"Editorial checking date is required for {annotation['id']}")
         r["verification"] = {"level": level, "checked_on": annotation["checked_on"], "basis": scope, "source_url": url}
-        r["editorial_priority"] = "core" if level == "content-checked" else "pending"
+        r["editorial_priority"] = "core" if level == "content-checked" else "supporting" if level == "identity-checked" else "pending"
     output = []
+    from browser_review import latest_receipts, receipt_errors
+    browser_checks = latest_receipts(load("browser-verification.json"))
     corrections = load("bibliographic-corrections.json")
     for r in records.values():
         r.update(corrections.get(r["id"], {}))
@@ -88,6 +90,9 @@ def main():
             r["year"] = int(match.group()) if match else int("20" + arxiv[1]) if arxiv else int(pathyear[1]) if pathyear else None
             r["date_basis"] = "primary metadata" if match else "identifier or URL year; exact date not established" if r["year"] else "not established"
         r["verified"] = r.get("verification", {}).get("level") in {"identity-checked", "content-checked"}
+        browser_check = browser_checks.get(r["id"])
+        if browser_check and not receipt_errors(browser_check, r, release):
+            r["browser_verification"] = browser_check
         r.setdefault("editorial_priority", "supporting" if r["verified"] else "pending")
         if r["editorial_priority"] != "core":
             title = r.get("title", "")

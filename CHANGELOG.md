@@ -1,5 +1,15 @@
 # Release history
 
+## 2026.10.2 — Local Chrome verification channel
+
+Evidence cutoff: 13 October 2026.
+
+- Inspected 15 selected references in local Chrome and recorded explicit AI-assisted browser receipts, observed metadata, reading scopes and limitations.
+- Resolved the Elsevier and CNBC candidates; retained their stable IDs, established the Elsevier DOI, and recovered missing bylines and dates in supporting references.
+- Added a monthly Chrome review queue and release gate: a new monthly version requires new inspections; unchanged current-month patch receipts expire after 31 days.
+- Added browser-method disclosures to the evidence map, citation exports, downloadable ledger and archived release. Browser confirmations cannot override detected identity conflicts or certify scientific correctness.
+- Preserved versions 2026.10.0 and 2026.10.1 and their original artifacts.
+
 ## 2026.10.1 — October 2026
 
 Evidence cutoff: 13 October 2026.

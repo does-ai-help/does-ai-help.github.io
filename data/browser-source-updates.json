@@ -1,0 +1,29 @@
+[
+  {"id": "ref-11a15eb594", "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work", "title": "Which AI Coding Tools Do Developers Actually Use at Work? - The JetBrains Blog", "authors": ["Bogdanov, Mikhail"], "year": 2026, "date": "2026-04-02", "verification_level": "identity-checked", "verification_scope": "Alternative method: local Chrome title, byline, date and survey-wave introduction; result-level appraisal remains pending", "checked_on": "2026-10-13"},
+  {"id": "ref-db9d091351", "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work", "title": "How AI is expanding what people do at work", "authors": ["OpenAI"], "year": 2026, "date": "2026-07-27", "verification_level": "identity-checked", "verification_scope": "Alternative method: local Chrome publisher title/date and Author block; linked report not inspected", "checked_on": "2026-10-13"},
+  {"id": "ref-fb7d2bc1f2", "url": "https://tidyfirst.substack.com/p/measuring-developer-productivity", "title": "Measuring developer productivity? A response to McKinsey", "authors": ["Beck, Kent", "Orosz, Gergely"], "year": 2023, "date": "2023-08-29", "verification_level": "identity-checked", "verification_scope": "Alternative method: local Chrome observed publisher redirect, headline, both bylines and date; essay arguments not newly appraised", "checked_on": "2026-10-13"},
+  {"id": "ref-33e5e5bcd6", "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified", "title": "Why we no longer evaluate SWE-bench Verified", "title_aliases": ["Why SWE-bench Verified no longer measures frontier coding capabilities"], "authors": ["OpenAI"], "year": 2026, "date": "2026-02-23", "verification_level": "identity-checked", "verification_scope": "Alternative method: local Chrome page title, displayed headline, date and Author block; benchmark claims not newly appraised", "checked_on": "2026-10-13"},
+  {
+    "id": "candidate-sciencedirect-2026",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+    "title": "The impact of generative artificial intelligence on software development performance: a study based on the theory of technology dominance",
+    "authors": ["Chang, Tsung-Sheng", "Huang, Lan-Gui"], "year": 2026, "date": "2026-04", "doi": "10.1016/j.im.2026.104306", "container_title": "Information & Management",
+    "topics": ["engineering", "productivity", "business"], "method": "survey", "publication_status": "peer-reviewed", "verification_level": "content-checked",
+    "summary": "Survey-based research relates AI reliance, task-technology fit, experience and knowledge integration to software-development performance.",
+    "limitations": "Public preview and section snippets only, not the subscription full text. Perceived performance and selected recent AI users do not establish a causal productivity effect; sample size and full estimates were not inspected.",
+    "version_note": "Previously an unresolved candidate; identified in local Chrome on 13 October 2026. Stable database ID retained after promotion.",
+    "verification_scope": "Alternative method: local Chrome native UI; publisher title, authors, April issue date, DOI, highlights, abstract opening and methods/discussion snippets; no purchased or institutional full text", "checked_on": "2026-10-13"
+  },
+  {
+    "id": "candidate-cnbc-2026",
+    "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+    "title": "AI is automating coding. So why are software developer job postings on the rise?",
+    "title_aliases": ["AI taking job of software developer? What labor market data shows"],
+    "authors": ["Winston, Corynn"], "year": 2026, "date": "2026-10-11",
+    "topics": ["engineering", "work"], "method": "research-journalism", "publication_status": "journalism", "verification_level": "content-checked",
+    "summary": "Contrasts a rebound in developer job postings with concentration in senior/AI-oriented roles and pressure on early-career employment.",
+    "limitations": "Secondary coverage of multiple datasets; postings, employment and long-term projections are not equivalent. No causal effect of AI on hiring is established by this article; linked underlying estimates were not newly audited here.",
+    "version_note": "Previously an unresolved candidate; title, byline and date identified in local Chrome on 13 October 2026. Stable ID retained.",
+    "verification_scope": "Alternative method: local Chrome native UI; headline, byline, date, key points and accessible text paragraphs; video and linked reports not inspected in this check", "checked_on": "2026-10-13"
+  }
+]

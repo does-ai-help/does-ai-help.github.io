@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "method": "local-chrome-native",
+  "cadence": "Repeat every selected inspection for each new monthly release, including currently accessible sources with a history of CI restrictions. Patch releases may reuse current-month receipts if the citation fingerprint is unchanged and the receipt is at most 31 days old.",
+  "selected_ids": [
+    "openainavierpaper2026", "nscc2026", "ahm2026", "mukherjee2026", "gates2026", "openainavier2026", "hesa2026",
+    "ref-db9d091351", "ref-10b59b402b", "ref-11a15eb594", "ref-e299630b86", "ref-fb7d2bc1f2", "ref-33e5e5bcd6",
+    "candidate-sciencedirect-2026", "candidate-cnbc-2026"
+  ]
+}

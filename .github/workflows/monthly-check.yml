@@ -17,9 +17,11 @@ jobs:
       - run: python3 scripts/check_links.py --output build/access-report.json
       - run: pip install -r requirements.txt
       - run: python3 scripts/verify_references.py
+      - run: python3 scripts/browser_review.py --audit build/reference-verification.json
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: monthly-source-access-report
           path: |
             build/access-report.json
             build/reference-verification.*
+            build/browser-review-queue.*

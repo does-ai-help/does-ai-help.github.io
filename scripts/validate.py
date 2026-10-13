@@ -36,6 +36,18 @@ def main():
     errors = []
     records = json.loads((ROOT / "data/sources.json").read_text())
     release = json.loads((ROOT / "data/release.json").read_text())
+    from browser_review import load_context, latest_receipts, receipt_errors
+    _, _, browser_policy, browser_history = load_context()
+    browser_checks = latest_receipts(browser_history)
+    source_by_id = {r["id"]: r for r in records}
+    for key in browser_policy["selected_ids"]:
+        source, receipt = source_by_id.get(key), browser_checks.get(key)
+        if not source or not receipt:
+            errors.append(f"Missing selected local Chrome inspection: {key}")
+        else:
+            errors.extend(f"Chrome inspection {key}: {error}" for error in receipt_errors(receipt, source, release))
+            if receipt.get("outcome") in {"mismatch", "not-found"}:
+                errors.append(f"Unresolved browser identity failure: {key}")
     if args.audit:
         audit = json.loads(args.audit.read_text())
         if audit.get("database_sha256") != hashlib.sha256((ROOT / "data/sources.json").read_bytes()).hexdigest():

@@ -2,6 +2,8 @@
 
 The publication is maintained through explicit, versioned editorial releases. Automated access checks do not approve claims or write the next article.
 
+**Required local Chrome stage:** follow [BROWSER-VERIFICATION.md](BROWSER-VERIFICATION.md). Generate the queue from the fresh automated audit, revisit every selected source for the new release month, append scoped browser receipts, and run `python3 scripts/browser_review.py --strict --audit build/reference-verification.json`. CI can validate the ledger but cannot visit the local Chrome profile. Missing, wrong-month or expired receipts block release validation; an access-blocked attempt does not clear unresolved identity.
+
 1. Create the next monthly release manifest and set the evidence cutoff. Retain the existing release directory and ZIP without modification.
 
    For a patch release, increment `version` and give `snapshot` and `archive_name` new, unique values in `data/release.json`. The month-based current PDF filename stays stable, while each archived snapshot preserves its original PDF and metadata.

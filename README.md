@@ -2,7 +2,7 @@
 
 **Evidence on productivity, learning, engineering, and scientific discovery**
 
-October 2026 release · Version 2026.10.1 · Evidence cutoff: 13 October 2026
+October 2026 release · Version 2026.10.2 · Evidence cutoff: 13 October 2026
 
 Lead AI author: **GPT 6.1**. Co-author: **Witold Bołt, PhD**, Vice-President of [Jit Team](https://jit.team), a software consulting company. For discussion of the review and its implications: [Witold.Bolt@jit.team](mailto:Witold.Bolt@jit.team) or [LinkedIn](https://www.linkedin.com/in/witoldbolt/). Affiliation is disclosed, not offered as evidence or product endorsement.
 
@@ -11,6 +11,8 @@ Original content is free to reuse under **CC BY 4.0**, including commercially, w
 Read the publication at [does-ai-help.github.io](https://does-ai-help.github.io/). Evidence suggestions and corrections are welcome through [GitHub issues](https://github.com/does-ai-help/does-ai-help.github.io/issues/new/choose) and [pull requests](https://github.com/does-ai-help/does-ai-help.github.io/pulls). See [CONTRIBUTING.md](CONTRIBUTING.md), the issue forms and PR template in `.github/`, and [HOSTING.md](HOSTING.md). Monthly releases include editorial triage, not automatic acceptance.
 
 ## Pre-release reference audit
+
+Selected problematic sources have an additional [local Chrome verification channel](BROWSER-VERIFICATION.md), a [monthly watchlist](data/browser-review-policy.json) and an [append-only observation ledger](data/browser-verification.json). Checks identify the AI-assisted reviewer and inspected scope. A new monthly release requires new Chrome observations; CI validates these receipts instead of pretending to operate the local browser. Two formerly unresolved suggestions were identified through this channel.
 
 The [companion-review search log](manuscript/related-reviews.md) positions this publication alongside broad OECD/ILO syntheses, Stanford AI Index, systematic software reviews, education meta-analyses and scientific-agent surveys. Annotations and inspected scopes are maintained in `data/related-reviews.json`; do not describe abstract-only checks as full-paper appraisal.
 
@@ -28,7 +30,7 @@ A living critical narrative review and evidence map of AI's effects on intellect
 - [Searchable evidence map](site/bibliography.html)
 - [Article PDF](site/downloads/does-ai-help-2026-10.pdf)
 - [Balance self-review and October source-admission log](manuscript/balance-review.md)
-- [Complete October release](site/downloads/release-2026.10.1.zip)
+- [Complete October release](site/downloads/release-2026.10.2.zip)
 - [Annotated database](data/sources.json)
 - [CSL-JSON](site/downloads/bibliography.csl.json), [BibTeX](site/downloads/bibliography.bib), [RIS](site/downloads/bibliography.ris), [CSV](site/downloads/sources.csv), and [JSON Lines](site/downloads/sources.jsonl)
 - [Review method](manuscript/methodology.md) and [changelog](CHANGELOG.md)
@@ -46,6 +48,7 @@ Citation-manager exports contain checked identities only. The evidence database 
 | `site/` | Complete static publication for GitHub Pages |
 | `releases/2026-10/` | Archived initial release and machine-readable checksums |
 | `releases/2026-10.1/` | October patch release with balance review, source additions and corrected publication metadata |
+| `releases/2026-10.2/` | Local Chrome verification ledger, corrected references and mandatory monthly browser-review process |
 | `.github/workflows/` | Pages deployment and monthly source-access monitoring, for a standalone repository |
 
 The directory is self-contained and intended to become the root of a dedicated GitHub repository. The existing parent checkout is not required for building or serving the release. No account credentials are included.

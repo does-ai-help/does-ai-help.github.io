@@ -523,7 +523,7 @@
     ],
     "abstract": "Rejects the value of OpenAI's mass mathematical release and calls for mathematicians to discontinue collaboration with the company.",
     "keyword": "science; governance; work",
-    "note": "Method: community-statement. Status: public-statement. Verification: content-checked (official statement and dated author-hosted repost; no claims drawn from blog comments). Limitations: A strong organizational position, not a vote of all mathematicians or a technical refutation of every released result. Legal allegations are not adjudicated here. Version: Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements.",
+    "note": "Method: community-statement. Status: public-statement. Verification: content-checked (official statement and dated author-hosted repost; no claims drawn from blog comments). Limitations: A strong organizational position, not a vote of all mathematicians or a technical refutation of every released result. Legal allegations are not adjudicated here. Version: Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Statement heading, official organization and working-group attribution, and main statement text in Chrome.",
     "issued": {
       "date-parts": [
         [
@@ -607,6 +607,39 @@
     }
   },
   {
+    "id": "candidate-cnbc-2026",
+    "type": "webpage",
+    "title": "AI is automating coding. So why are software developer job postings on the rise?",
+    "URL": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+    "author": [
+      {
+        "family": "Winston",
+        "given": "Corynn"
+      }
+    ],
+    "abstract": "Contrasts a rebound in developer job postings with concentration in senior/AI-oriented roles and pressure on early-career employment.",
+    "keyword": "engineering; work",
+    "note": "Method: research-journalism. Status: journalism. Verification: content-checked (Alternative method: local Chrome native UI; headline, byline, date, key points and accessible text paragraphs; video and linked reports not inspected in this check). Limitations: Secondary coverage of multiple datasets; postings, employment and long-term projections are not equivalent. No causal effect of AI on hiring is established by this article; linked underlying estimates were not newly audited here. Version: Previously an unresolved candidate; title, byline and date identified in local Chrome on 13 October 2026. Stable ID retained. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Headline, byline, publication date, key points and accessible article paragraphs in Chrome.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "mukherjee2026",
     "type": "webpage",
     "title": "AI Is Eating Software and Investors Have Noticed",
@@ -619,7 +652,7 @@
     ],
     "abstract": "Discusses delayed productivity effects and investors' expectations of AI-related software-sector change.",
     "keyword": "business; work",
-    "note": "Method: market-commentary. Status: opinion. Verification: content-checked (public article text, Bloomberg byline and publication date). Limitations: Market interpretation and forecasts, not a causal evaluation of AI deployment. Inspected the public text only, not subscriber functionality.",
+    "note": "Method: market-commentary. Status: opinion. Verification: content-checked (public article text, Bloomberg byline and publication date). Limitations: Market interpretation and forecasts, not a causal evaluation of AI deployment. Inspected the public text only, not subscriber functionality. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Headline, Andy Mukherjee/Bloomberg attribution, date and visible membership boundary in Chrome.",
     "issued": {
       "date-parts": [
         [
@@ -1685,7 +1718,7 @@
     ],
     "abstract": "The manuscript states a smooth forced flow with finite-time unbounded velocity and bounded kinetic energy, claiming the official breakdown alternatives.",
     "keyword": "science; verification",
-    "note": "Method: mathematical-proof-claim. Status: technical-manuscript. Verification: content-checked (first-page theorem and proof outline, not all lemmas). Limitations: Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof.",
+    "note": "Method: mathematical-proof-claim. Status: technical-manuscript. Verification: content-checked (first-page theorem and proof outline, not all lemmas). Limitations: Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: First-page title, attribution, abstract and introduction opening in Chrome's PDF viewer, using accessibility output and visual inspection.",
     "issued": {
       "date-parts": [
         [
@@ -2471,7 +2504,7 @@
     ],
     "abstract": "Claims a solution of the forced Navier-Stokes breakdown alternatives, releasing a written proof and Lean formalization and describing a large multiagent effort.",
     "keyword": "science; agents; verification",
-    "note": "Method: developer-research-announcement. Status: organization-announcement. Verification: content-checked (official announcement, result formulation, resource account and linked artifacts). Limitations: Developer claim with unavailable internal model; announcement, formal checking, statement fidelity and prize recognition are separate evidentiary stages.",
+    "note": "Method: developer-research-announcement. Status: organization-announcement. Verification: content-checked (official announcement, result formulation, resource account and linked artifacts). Limitations: Developer claim with unavailable internal model; announcement, formal checking, statement fidelity and prize recognition are separate evidentiary stages. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Fully rendered announcement heading/date, Author block, introductory claim and section headings in Chrome.",
     "issued": {
       "date-parts": [
         [
@@ -2768,7 +2801,7 @@
     ],
     "abstract": "Fall 2025 U.S. enrollments fall in traditional Computer and Information Science while Data Science and Analytics grow.",
     "keyword": "learning; work",
-    "note": "Method: administrative-observation. Status: organization-report. Verification: content-checked (primary administrative-data summary). Limitations: Enrollment shifts do not identify AI-driven motivation and can include changes in program labels and international flows.",
+    "note": "Method: administrative-observation. Status: organization-report. Verification: content-checked (primary administrative-data summary). Limitations: Enrollment shifts do not identify AI-driven motivation and can include changes in program labels and international flows. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Official headline/date, publisher identity and accessible enrollment paragraphs in Chrome.",
     "issued": {
       "date-parts": [
         [
@@ -2974,6 +3007,44 @@
     "DOI": "10.54394/00034628"
   },
   {
+    "id": "candidate-sciencedirect-2026",
+    "type": "article-journal",
+    "title": "The impact of generative artificial intelligence on software development performance: a study based on the theory of technology dominance",
+    "URL": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Tsung-Sheng"
+      },
+      {
+        "family": "Huang",
+        "given": "Lan-Gui"
+      }
+    ],
+    "abstract": "Survey-based research relates AI reliance, task-technology fit, experience and knowledge integration to software-development performance.",
+    "keyword": "engineering; productivity; business",
+    "note": "Method: survey. Status: peer-reviewed. Verification: content-checked (Alternative method: local Chrome native UI; publisher title, authors, April issue date, DOI, highlights, abstract opening and methods/discussion snippets; no purchased or institutional full text). Limitations: Public preview and section snippets only, not the subscription full text. Perceived performance and selected recent AI users do not establish a causal productivity effect; sample size and full estimates were not inspected. Version: Previously an unresolved candidate; identified in local Chrome on 13 October 2026. Stable database ID retained after promotion. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher headline, authors, issue month, DOI, highlights, abstract opening and methods/discussion snippets in Chrome accessibility output.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.im.2026.104306",
+    "container-title": "Information & Management"
+  },
+  {
     "id": "iqbal2026",
     "type": "article-journal",
     "title": "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study",
@@ -3070,7 +3141,7 @@
     ],
     "abstract": "Argues that AI's benefits and disruption require preparation, equitable access and protection for affected people.",
     "keyword": "work; business; learning",
-    "note": "Method: policy-commentary. Status: expert-essay. Verification: content-checked (main essay and dated author block, excluding unrelated articles embedded on the page). Limitations: A prominent technology stakeholder's argument and forecasts, not empirical proof of future reliability or aggregate welfare gains.",
+    "note": "Method: policy-commentary. Status: expert-essay. Verification: content-checked (main essay and dated author block, excluding unrelated articles embedded on the page). Limitations: A prominent technology stakeholder's argument and forecasts, not empirical proof of future reliability or aggregate welfare gains. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Main essay heading, author/date block and accessible opening paragraphs in Chrome.",
     "issued": {
       "date-parts": [
         [
@@ -3230,7 +3301,7 @@
     ],
     "abstract": "UK 2024/25 official data show growth in Computing and AI despite a decline in total student numbers.",
     "keyword": "learning; work",
-    "note": "Method: administrative-observation. Status: official-statistics. Verification: content-checked (official statistical release as indexed by the publisher). Limitations: Different period and classification from U.S. figures; a geographic contrast rather than direct refutation.",
+    "note": "Method: administrative-observation. Status: official-statistics. Verification: content-checked (official statistical release as indexed by the publisher). Limitations: Different period and classification from U.S. figures; a geographic contrast rather than direct refutation. Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Official HESA headline/date, organization identification, opening release and computing-subject paragraph in Chrome.",
     "issued": {
       "date-parts": [
         [

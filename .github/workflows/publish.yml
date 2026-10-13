@@ -26,6 +26,14 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python3 -m unittest discover -s tests
       - run: python3 scripts/verify_references.py --strict
+      - name: Validate local Chrome receipts and prepare follow-up queue
+        if: always()
+        run: |
+          if [ -f build/reference-verification.json ]; then
+            python3 scripts/browser_review.py --strict --audit build/reference-verification.json
+          else
+            python3 scripts/browser_review.py --strict
+          fi
       - run: python3 scripts/check_links.py --strict --pre-deployment
       - run: python3 scripts/validate.py --audit build/reference-verification.json
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -38,6 +46,11 @@ jobs:
         with:
           name: citation-identity-audit
           path: build/reference-verification.*
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: local-chrome-review-queue
+          path: build/browser-review-queue.*
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

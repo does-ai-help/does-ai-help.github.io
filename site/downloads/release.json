@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.1",
-  "snapshot": "2026-10.1",
-  "archive_name": "release-2026.10.1.zip",
+  "version": "2026.10.2",
+  "snapshot": "2026-10.2",
+  "archive_name": "release-2026.10.2.zip",
   "release": "2026-10",
   "release_label": "October 2026",
   "release_date": "2026-10-13",
@@ -33,8 +33,8 @@
   "doi": null,
   "counts": {
     "total": 212,
-    "verified": 191,
-    "core": 105,
-    "cited": 102
+    "verified": 193,
+    "core": 107,
+    "cited": 104
   }
 }

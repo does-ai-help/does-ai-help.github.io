@@ -2,6 +2,8 @@
 
 Release: October 2026. Cutoff: 13 October 2026.
 
+Selected restricted or parsing-problem sources receive a separate local Chrome check. The AI-assisted reviewer, observed bibliographic facts, reading scope and limits are recorded in `browser-verification.json`. Receipts are citation-bound and valid only for the release month and at most 31 days. Monthly releases require revisiting all selected entries. An access-blocked attempt is not an identity confirmation or scientific validation. See `BROWSER-VERIFICATION.md`.
+
 The October follow-up includes an explicit balance self-review and targeted source search. See [the review and admission log](balance-review.md). Positive, negative, null and mixed findings are evaluated using the same standards; community policies and opposition are classified separately from empirical effects. No numerical majority or overall net effect is inferred from this non-exhaustive collection.
 
 This is a critical narrative review and evidence map, not a systematic review or a statistical meta-analysis. The initial supplied reference collection was expanded through primary-source searches and bibliographic checks. The scope concentrates on 2023-2026, with selected earlier foundations.
