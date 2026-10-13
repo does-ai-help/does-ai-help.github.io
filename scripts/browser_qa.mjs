@@ -42,6 +42,11 @@ try {
     await page.waitForFunction(()=>document.querySelector('.github-star-count').textContent==='42');
     assert.equal(await page.locator('.github-star').getAttribute('href'),release.github_url);
     assert.equal(await page.locator('.github-star').getAttribute('target'),'_blank');
+    const repositoryLink=page.getByRole('link',{name:'Fork me on GitHub',exact:true});
+    assert.equal(await repositoryLink.isVisible(),true);
+    assert.equal(await repositoryLink.getAttribute('href'),release.github_url);
+    assert.equal(await repositoryLink.getAttribute('target'),'_blank');
+    assert.equal((await page.request.get(url+'/assets/github.svg')).ok(),true);
     assert.equal(await page.locator('link[rel="icon"][type="image/svg+xml"]').getAttribute('href'),'favicon.svg');
     for(const icon of ['favicon.svg','favicon.ico','assets/favicon-32.png','apple-touch-icon.png']) {
       const response=await page.request.get(url+'/'+icon);
