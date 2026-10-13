@@ -1,7 +1,8 @@
 {
-  "version": "2026.10.13",
-  "snapshot": "2026-10.13",
-  "archive_name": "does-ai-help-release-2026.10.13.zip",
+  "version": "2026.10.14",
+  "snapshot": "2026-10.14",
+  "archive_name": "does-ai-help-release-2026.10.14.zip",
+  "release_status": "final",
   "release": "2026-10",
   "release_label": "October 2026",
   "release_date": "2026-10-13",

@@ -34,11 +34,21 @@ def check(record):
         return {"id": record["id"], "url": record["url"], "status": getattr(error, "code", None), "error": str(error)[:180]}
 
 
+def is_publication_link(record, meta):
+    if record['id'] not in {'publication-document-link', 'website-external-link'}:
+        return False
+    origin = urlsplit(meta.get('canonical_url', ''))
+    if origin.netloc and urlsplit(record['url']).netloc == origin.netloc:
+        return True
+    github = meta.get('github_url', '').rstrip('/')
+    return bool(github) and record['url'] == f"{github}/releases/tag/v{meta['version']}"
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=Path("build/access-report.json"))
     parser.add_argument("--strict", action="store_true", help="Fail on confirmed 404/410 responses; other access restrictions need editorial inspection")
-    parser.add_argument("--pre-deployment", action="store_true", help="Defer this publication's own URLs until its first deployment; never skip reference URLs")
+    parser.add_argument("--pre-deployment", action="store_true", help="Defer this publication's Pages URLs and exact current GitHub release until publication; never skip reference URLs")
     args = parser.parse_args()
     records = json.loads((ROOT / "data/sources.json").read_text())
     known = {r["url"] for r in records}
@@ -62,9 +72,8 @@ def main():
                 known.add(url)
     deferred = []
     if args.pre_deployment:
-        canonical = json.loads((ROOT / "data/release.json").read_text()).get("canonical_url", "")
-        origin = urlsplit(canonical)
-        deferred = [r for r in records if r["id"] in {"publication-document-link", "website-external-link"} and origin.netloc and urlsplit(r["url"]).netloc == origin.netloc]
+        meta = json.loads((ROOT / "data/release.json").read_text())
+        deferred = [r for r in records if is_publication_link(r, meta)]
         records = [r for r in records if r not in deferred]
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(check, records))

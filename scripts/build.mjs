@@ -143,6 +143,7 @@ fs.copyFileSync(path.join(root,'manuscript/document-followup.md'),path.join(root
 fs.copyFileSync(path.join(root,'data/swebench-recommended.bib'),path.join(root,'site/downloads/swebench-recommended.bib'));
 fs.copyFileSync(path.join(root,'manuscript/related-reviews.md'),path.join(root,'site/downloads/related-reviews.md'));
 fs.copyFileSync(path.join(root,'manuscript/balance-review.md'),path.join(root,'site/downloads/balance-review.md'));
+fs.copyFileSync(path.join(root,'manuscript/october-final-review.md'),path.join(root,'site/downloads/october-final-review.md'));
 fs.copyFileSync(path.join(root,'manuscript/kpmg-q3-2026.md'),path.join(root,'site/downloads/kpmg-q3-2026.md'));
 for(const [from,to] of [['data/browser-verification.json','browser-verification.json'],['data/browser-review-policy.json','browser-review-policy.json'],['BROWSER-VERIFICATION.md','BROWSER-VERIFICATION.md']]) fs.copyFileSync(path.join(root,from),path.join(root,'site/downloads',to));
 const externalLinks=new Set();
@@ -191,7 +192,7 @@ for(const filename of ['index.html','bibliography.html','releases.html','cite.ht
     .replace(`<link rel="canonical" href="${esc(meta.canonical_url)}">`,canonical?`<link rel="canonical" href="${esc(canonical)}"><meta property="og:url" content="${esc(canonical)}">`:'')
     .replace('<strong>Witold Bołt</strong>, co-author','<strong>Witold Bołt, PhD</strong>, co-author')
     .replace('</main>', '<section class="community-note" aria-label="Contribute and reuse"><h2>Contribute evidence</h2><p>'+contributionLinks+'. Suggestions are assessed for monthly releases; corrections are welcome.</p><p>Free reuse with attribution under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>. <a href="downloads/LICENSE-CONTENT.md">Reuse and attribution</a> · <a href="downloads/reference-verification.md">Latest identity audit</a> · <a href="downloads/metadata-review.md">Editorial metadata notes</a></p></section></main>')
-    .replace('Living critical review · October 2026 release',`Living critical review · ${esc(releaseLabel)} release`)
+    .replace('Living critical review · October 2026 release',`Living critical review · ${meta.release_status==='final'?'Final ':''}${esc(releaseLabel)} release`)
     .replaceAll('Evidence cutoff: 13 October 2026',`Evidence cutoff: ${esc(cutoffLabel)}`)
     .replace('October 2026 · Reference database',`${esc(releaseLabel)} · Reference database`)
     .replace('<h2>October 2026</h2>',`<h2>${esc(releaseLabel)}</h2>`)

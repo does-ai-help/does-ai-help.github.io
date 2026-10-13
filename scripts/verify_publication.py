@@ -12,6 +12,8 @@ meta = json.loads((ROOT / "data/release.json").read_text())
 base = meta["canonical_url"]
 names = download_names(meta)
 paths = ["", "bibliography.html", "releases.html", 'cite.html', "downloads/"+names[f"does-ai-help-{meta['release']}.pdf"], "downloads/"+names['bibliography.csl.json'], "downloads/"+names['bibliography.bib'], "downloads/"+meta['archive_name']]
+if meta.get('github_url'):
+    paths.append(f"{meta['github_url'].rstrip('/')}/releases/tag/v{meta['version']}")
 for path in paths:
     error = None
     for attempt in range(5):

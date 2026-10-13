@@ -2,6 +2,8 @@
 
 The publication is maintained through explicit, versioned editorial releases. Automated access checks do not approve claims or write the next article.
 
+The final October baseline is version `2026.10.14`, tagged `v2026.10.14` and `october-2026-final`, with cutoff 13 October 2026. Routine November work belongs on `codex/november-2026-preparation`. Only reviewed releases merged into `main` deploy to Pages. Preserve the final October artifacts; urgent corrections require a new version. Do not assign a future verification date or silently reuse October browser receipts for November.
+
 **Required local Chrome stage:** follow [BROWSER-VERIFICATION.md](BROWSER-VERIFICATION.md). Generate the queue from the fresh automated audit, revisit every selected source for the new release month, append scoped browser receipts, and run `python3 scripts/browser_review.py --strict --audit build/reference-verification.json`. CI can validate the ledger but cannot visit the local Chrome profile. Missing, wrong-month or expired receipts block release validation; an access-blocked attempt does not clear unresolved identity.
 
 1. Create the next monthly release manifest and set the evidence cutoff. Retain the existing release directory and ZIP without modification.
@@ -15,7 +17,7 @@ The publication is maintained through explicit, versioned editorial releases. Au
 7. Edit the manuscript and changelog, identifying strengthened, weakened, corrected and unresolved claims. Keep publication dates separate from revision and retrieval dates.
 8. Regenerate the database, citation exports, HTML, LaTeX, PDF and conceptual figure if changed. Inspect the PDF page images and responsive browser layouts.
 9. Run validation, verify downloads and citation-manager imports, then package the release with checksums. Add the new release to the website history.
-10. Commit the release and publish through GitHub Pages. Retain the cutoff, original source version notes and previous release archive.
+10. Commit and push the release, then create its version tag and GitHub release with the PDF and archive before deployment verification completes. Pre-publication access checks defer only the publication's own Pages URLs and exact current GitHub release URL; post-publication checks verify them. Reference URLs are never deferred. Retain the cutoff, original source version notes and previous release archive.
 
 ## Search priorities
 

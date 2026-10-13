@@ -1,5 +1,13 @@
 # Release history
 
+## 2026.10.14 - Final October release
+
+- Completed a final AI-assisted editorial self-review of the entire main article, with targeted primary-source checks and a documented review scope.
+- Distinguished randomized experiments from the customer-support quasi-experiment; included mixed subgroup quality outcomes and learning evidence.
+- Clarified the scope of the mathematical translation critique without adjudicating proof correctness.
+- Closed the October baseline at the unchanged 13 October 2026 cutoff. November preparation proceeds on a separate branch.
+- Pre-publication access checks defer the exact not-yet-created GitHub release URL; post-publication verification checks it. Reference links remain subject to the strict access gate.
+
 ## 2026.10.13 - Publication baseline and navigation
 
 - Reviewed multi-label topics and explicit taxonomy; mathematics now includes 21 relevant records.

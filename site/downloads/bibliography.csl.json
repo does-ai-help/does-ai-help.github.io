@@ -7598,9 +7598,9 @@
         "given": "Lindsey"
       }
     ],
-    "abstract": "A staggered workplace deployment increased customer issues resolved per hour by 15% on average, with greater benefits for less experienced workers.",
+    "abstract": "A staggered rollout among 5,172 support agents increased issues resolved per hour by 15% on average. Less experienced workers gained more; the most experienced and highest-skilled workers had small speed gains and small quality declines. The authors also report evidence consistent with learning.",
     "keyword": "productivity; business; work",
-    "note": "Method: quasi-experiment. Status: peer-reviewed. Verification: content-checked (journal abstract and introduction). Limitations: One customer-support environment; assistance is embedded in a specific workflow. The published estimate differs from the earlier 14% working-paper figure.",
+    "note": "Method: quasi-experiment. Status: peer-reviewed. Verification: content-checked (journal abstract, introduction and outage-based learning section). Limitations: One customer-support environment; assistance is embedded in a specific workflow. The published estimate differs from the earlier 14% working-paper figure.",
     "issued": {
       "date-parts": [
         [
@@ -7615,7 +7615,7 @@
         [
           2026,
           10,
-          12
+          13
         ]
       ]
     },
