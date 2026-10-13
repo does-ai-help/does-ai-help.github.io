@@ -80,6 +80,19 @@ try {
     assert.equal(await noScript.evaluate(()=>scrollY),0);
   }
   await noScript.close();
+  await page.setViewportSize({width:1280,height:1000});
+  for(const route of ['/','/bibliography.html']) {
+    await page.goto(url+route);
+    await page.evaluate(()=>window.scrollTo({top:2000,behavior:'instant'}));
+    await page.locator('.back-to-top').waitFor({state:'visible'});
+    assert.equal(await page.evaluate(()=>{
+      const control=document.querySelector('.back-to-top').getBoundingClientRect();
+      const main=document.querySelector('main');
+      return main.getBoundingClientRect().right-parseFloat(getComputedStyle(main).paddingRight)<control.left;
+    }),true);
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  }
+  await page.setViewportSize({width:1440,height:1000});
   await page.goto(url+'/');
   await page.locator('[id="11-an-integrated-assessment-where-the-benefit-survives"]').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(output,'article-figure-desktop.png')});
