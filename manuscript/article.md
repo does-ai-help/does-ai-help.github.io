@@ -198,6 +198,10 @@ Our assessment is that AI-supported AI development is already a substantive engi
 
 ## 9. Business value, cost, and organizational change
 
+KPMG's quarterly executive surveys illustrate the gap between reported benefits and defensible economics. The June Q2 announcement reports established ROI for 7% of respondents. The September Q3 report, by Priya Emmanuel, Benedikt Höck and Simon Benson, surveys 2,131 senior leaders: 89% report measurable AI value, but the headline share consistently assessing value against cost is only 12%; 10% describe their organization as having established ROI. These are different measures, not conflicting estimates of the same outcome. [@ref-fee88585ea; @kpmgpulseq32026]
+
+The Q3 survey covers large organizations, not the typical small firm, and its value/cost questions exclude early-stage respondents. Group differences associated with controls or accountability are observational, not proof that those practices caused returns; maturity itself includes reported ROI. Comparisons across quarterly waves are not verified within-firm changes. The useful signal is the need to connect benefits with costs, not an independently audited return on AI investment. [@kpmgpulseq32026]
+
 The business question includes the total cost of obtaining an accepted result: user time, model inference, compute experiments, integration, verification, rework, and later operation. Counting tokens or licenses can describe input consumption without establishing benefit. Reported spending restrictions at Uber are useful as a case about value attribution, but not an audited estimate of whether AI paid for itself. [@uber2026]
 
 Sustainability broadens that accounting. Iqbal and colleagues combine a literature review with practitioner interviews and identify efficiency benefits alongside energy-monitoring gaps, dependency, skill and defect concerns. Their qualitative design does not determine a net emissions balance. The implication is to measure the resources and risks shifted elsewhere, rather than assume that faster coding reduces every cost. [@iqbal2026]

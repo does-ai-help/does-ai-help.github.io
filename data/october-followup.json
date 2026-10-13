@@ -1,5 +1,41 @@
 [
   {
+    "id": "kpmgpulseq32026",
+    "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+    "title": "Global AI Pulse Q3 2026: AI at scale: Accountability, resilience and economics",
+    "title_aliases": ["Global AI Pulse Q3 2026"],
+    "authors": ["Emmanuel, Priya", "Höck, Benedikt", "Benson, Simon"],
+    "publisher": "KPMG International", "year": 2026, "date": "2026-09",
+    "date_basis": "Publication imprint on page 30: September 2026; publication number 140611-G. No exact publication day established.",
+    "authorship_basis": "Explicit Authors page (page 27), inspected visually and as text on 13 October 2026; names ordered left to right. Contributors and contacts on pages 28-29 are not substituted for authors.",
+    "topics": ["business", "work", "agents", "security", "methods"],
+    "method": "executive-survey", "publication_status": "industry-report",
+    "summary": "Online survey of 2,131 senior leaders: 89% report measurable AI value, while 12% consistently assess value against cost. Established ROI is reported by 10%; planned annual investment averages US$210 million. Management controls, accountability and provider resilience are associated with maturity.",
+    "limitations": "Executive self-report in large organizations, not audited net returns or causal evidence. Value/cost questions exclude early-stage respondents; do not infer that 88% never evaluate value. Maturity includes self-reported ROI, so group comparisons are selection-sensitive. Wave changes do not establish within-firm improvement. KPMG sells related consulting services.",
+    "version_note": "Q3 is a distinct quarterly wave, not the report underlying the June Q2 announcement. Fieldwork: 23 July-26 August 2026. Authors and contributors are separately identified. Selective AI-assisted synthesis/editorial work is disclosed on page 25. Commentary and survey findings are kept distinct.",
+    "study_family": "kpmg-global-ai-pulse", "related_to": ["ref-fee88585ea"],
+    "verification_scope": "Full 30-page publisher PDF; opening identity, author page 27, imprint page 30, methodology/definitions pages 25-26, findings and chart denominators pages 3-8, 11-13 and 16-22. Third-party PDF inspected locally, not redistributed.",
+    "checked_on": "2026-10-13",
+    "document_verification": {
+      "method": "public-publisher-pdf", "checked_on": "2026-10-13",
+      "filename": "kpmg-global-ai-pulse-q3-2026.pdf", "pages": 30,
+      "sha256": "40b26dc37993f8bd4c588fab57110834c9002b37fa5cba866175aa2a005f5877",
+      "scope": "Full report; named authors, publication imprint, survey scope and definitions, main findings, subgroup bases and value-versus-cost caveats.", "redistributed": false
+    }
+  },
+  {
+    "id": "ref-fee88585ea",
+    "url": "https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html",
+    "title": "Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",
+    "authors": ["KPMG International"], "publisher": "KPMG International", "year": 2026, "date": "2026-06-24",
+    "topics": ["business", "methods"], "method": "executive-survey-summary", "publication_status": "press-release",
+    "summary": "Q2 announcement describes 2,145 senior leaders surveyed in April-May 2026. Only 7% report established ROI; cost visibility and executive accountability correlate with reported returns. This is the earlier wave, not the September Q3 report.",
+    "limitations": "Institutional summary and executive self-reports, not causal or audited evidence. Headline language about accountability driving results is stronger than the observational comparison establishes. Q2 and Q3 are related survey waves, not independent replications.",
+    "study_family": "kpmg-global-ai-pulse", "related_to": ["kpmgpulseq32026"],
+    "verification_scope": "Full official announcement, Q2 report link, fieldwork/sample paragraph and quoted spokesperson blocks; Q2 PDF not separately inspected. Attribution retained from official press-release metadata.",
+    "checked_on": "2026-10-13"
+  },
+  {
     "id": "orland2026", "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
     "title": "AI coding agents generate more code, but not more software", "authors": ["Orland, Kyle"], "year": 2026, "date": "2026-10-09",
     "topics": ["engineering", "productivity", "business"], "method": "research-journalism", "publication_status": "journalism",

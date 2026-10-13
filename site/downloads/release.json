@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.9",
-  "snapshot": "2026-10.9",
-  "archive_name": "release-2026.10.9.zip",
+  "version": "2026.10.10",
+  "snapshot": "2026-10.10",
+  "archive_name": "release-2026.10.10.zip",
   "release": "2026-10",
   "release_label": "October 2026",
   "release_date": "2026-10-13",
@@ -32,9 +32,9 @@
   "github_url": "https://github.com/does-ai-help/does-ai-help.github.io",
   "doi": null,
   "counts": {
-    "total": 227,
-    "verified": 211,
-    "core": 121,
-    "cited": 118
+    "total": 228,
+    "verified": 212,
+    "core": 123,
+    "cited": 120
   }
 }

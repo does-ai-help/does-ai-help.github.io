@@ -3089,6 +3089,47 @@
     }
   },
   {
+    "id": "kpmgpulseq32026",
+    "type": "report",
+    "title": "Global AI Pulse Q3 2026: AI at scale: Accountability, resilience and economics",
+    "URL": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+    "author": [
+      {
+        "family": "Emmanuel",
+        "given": "Priya"
+      },
+      {
+        "family": "Höck",
+        "given": "Benedikt"
+      },
+      {
+        "family": "Benson",
+        "given": "Simon"
+      }
+    ],
+    "abstract": "Online survey of 2,131 senior leaders: 89% report measurable AI value, while 12% consistently assess value against cost. Established ROI is reported by 10%; planned annual investment averages US$210 million. Management controls, accountability and provider resilience are associated with maturity.",
+    "keyword": "business; work; agents; security; methods",
+    "note": "Method: executive-survey. Status: industry-report. Verification: content-checked (Full 30-page publisher PDF; opening identity, author page 27, imprint page 30, methodology/definitions pages 25-26, findings and chart denominators pages 3-8, 11-13 and 16-22. Third-party PDF inspected locally, not redistributed.). Limitations: Executive self-report in large organizations, not audited net returns or causal evidence. Value/cost questions exclude early-stage respondents; do not infer that 88% never evaluate value. Maturity includes self-reported ROI, so group comparisons are selection-sensitive. Wave changes do not establish within-firm improvement. KPMG sells related consulting services. Date basis: Publication imprint on page 30: September 2026; publication number 140611-G. No exact publication day established. Authorship: Explicit Authors page (page 27), inspected visually and as text on 13 October 2026; names ordered left to right. Contributors and contacts on pages 28-29 are not substituted for authors. Version: Q3 is a distinct quarterly wave, not the report underlying the June Q2 announcement. Fieldwork: 23 July-26 August 2026. Authors and contributors are separately identified. Selective AI-assisted synthesis/editorial work is disclosed on page 25. Commentary and survey findings are kept distinct. Document inspection: public-publisher-pdf, 2026-10-13; 30 pages; SHA-256 40b26dc37993f8bd4c588fab57110834c9002b37fa5cba866175aa2a005f5877. Scope: Full report; named authors, publication imprint, survey scope and definitions, main findings, subgroup bases and value-versus-cost caveats.. Artifact not redistributed.",
+    "publisher": "KPMG International",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
     "id": "ref-fee88585ea",
     "type": "webpage",
     "title": "Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",
@@ -3098,9 +3139,9 @@
         "literal": "KPMG International"
       }
     ],
-    "abstract": "Supporting reference on methods, business. Scope indicated by the primary-source title: Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds. Result-level appraisal is pending.",
-    "keyword": "methods; business",
-    "note": "Method: not-classified. Status: not-established. Verification: identity-checked (Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Press-release dateline: London, 24 June 2026; checked 13 October 2026. Authorship: Official press release and structured metadata identify KPMG as publisher but supply no individual author byline; checked 13 October 2026. Attribution: Steve Chase and Rob Fisher are quoted spokespersons and linked contacts, not established article authors. Credit the institutional release to KPMG International rather than infer personal authorship from a quotation or contact card.",
+    "abstract": "Q2 announcement describes 2,145 senior leaders surveyed in April-May 2026. Only 7% report established ROI; cost visibility and executive accountability correlate with reported returns. This is the earlier wave, not the September Q3 report.",
+    "keyword": "business; methods",
+    "note": "Method: executive-survey-summary. Status: press-release. Verification: content-checked (Full official announcement, Q2 report link, fieldwork/sample paragraph and quoted spokesperson blocks; Q2 PDF not separately inspected. Attribution retained from official press-release metadata.). Limitations: Institutional summary and executive self-reports, not causal or audited evidence. Headline language about accountability driving results is stronger than the observational comparison establishes. Q2 and Q3 are related survey waves, not independent replications. Date basis: Press-release dateline: London, 24 June 2026; checked 13 October 2026. Authorship: Official press release and structured metadata identify KPMG as publisher but supply no individual author byline; checked 13 October 2026. Attribution: Steve Chase and Rob Fisher are quoted spokespersons and linked contacts, not established article authors. Credit the institutional release to KPMG International rather than infer personal authorship from a quotation or contact card.",
     "publisher": "KPMG International",
     "issued": {
       "date-parts": [
@@ -3116,7 +3157,7 @@
         [
           2026,
           10,
-          12
+          13
         ]
       ]
     }

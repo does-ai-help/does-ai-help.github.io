@@ -54,7 +54,7 @@ hamza2026,confirmed,"Does Working with AI Agents Change How Developers Code, Tes
 doratensions2026,confirmed,DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use,https://dora.dev/insights/balancing-ai-tensions,,
 boolzen2026,confirmed,Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes,https://link.springer.com/article/10.1007/s10462-026-11665-9,10.1007/s10462-026-11665-9,
 ref-c97b313435,confirmed,Experimental Evidence on the Learning Impact of Generative AI,https://arxiv.org/abs/2607.08849,,
-openainavierpaper2026,browser-confirmation,Finite time blowup for Navier-Stokes,https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf,,Title mismatch requires review: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+openainavierpaper2026,browser-confirmation,Finite time blowup for Navier-Stokes,https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf,,
 openainaviercode2026,confirmed,Finite time blowup for Navier-Stokes and Euler equations,https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd,,
 wittig2026,confirmed,"Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity",https://conf.researchr.org/details/ase-2026/ase-2026-research-track/56/Fragmented-Markers-Mixed-Results-A-Systematic-Review-of-AI-Coding-Assistants-and-De,10.1145/3832783.3834386,
 ref-20bf062604,confirmed,From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality,https://arxiv.org/abs/2607.13196,,
@@ -63,11 +63,12 @@ westby2026,confirmed,Generative AI and the Redefinition of Entry-Level Software 
 ref-8ecd8d70a1,confirmed,GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?,https://github.com/SWE-bench/SWE-bench,,
 ref-34e37fa225,confirmed,GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?,https://proceedings.mlr.press/v318/amro26a.html,,
 gimppolicy2026,confirmed,Giving or obtaining developer access in Gitlab,https://developer.gimp.org/core/maintainer/giving-developer-right/,,
+kpmgpulseq32026,confirmed,"Global AI Pulse Q3 2026: AI at scale: Accountability, resilience and economics",https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf,,
 ref-fee88585ea,confirmed,"Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",https://kpmg.com/xx/en/media/press-releases/2026/06/growing-adoption-signals-progress-as-cost-visibility-and-accountability-drive-ai-value.html,,
 ref-7ba221a977,confirmed,Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning,https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning,,
-norway2026,confirmed,Has AI Widened Employment Gaps?,https://docs.iza.org/dp18767.pdf,,
+norway2026,unresolved,Has AI Widened Employment Gaps?,https://docs.iza.org/dp18767.pdf,,
 shen2026,confirmed,How AI Impacts Skill Formation,https://arxiv.org/abs/2601.20245,,
-ref-db9d091351,browser-confirmation,How AI is expanding what people do at work,https://openai.com/index/how-ai-is-expanding-what-people-do-at-work,,
+ref-db9d091351,confirmed,How AI is expanding what people do at work,https://openai.com/index/how-ai-is-expanding-what-people-do-at-work,,
 alphafoldimpact2026,confirmed,How Artificial Intelligence Shapes Science: Evidence from AlphaFold,https://www.nber.org/papers/w35143,10.3386/w35143,
 ref-c12b530ad9,confirmed,How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests,https://arxiv.org/abs/2607.21832,,
 ref-f5457108a3,confirmed,How we’re evolving Jira for AI-native software development - Inside Atlassian,https://www.atlassian.com/blog/company-news/ai-sdlc,,
@@ -198,7 +199,7 @@ dora2024,confirmed,DORA | Accelerate State of DevOps Report 2024,https://dora.de
 ref-b9b0edfcd0,confirmed,Examining the Use and Impact of an AI Code Assistant on Developer Productivity and Experience in the Enterprise,https://arxiv.org/abs/2412.06603,,
 ref-f4550e10d8,confirmed,Generative AI and Software Engineering Education,https://www.sei.cmu.edu/blog/generative-ai-and-software-engineering-education,10.58012/ahc6-gk69,
 paradis2024,confirmed,How much does AI impact development speed? An enterprise-based randomized controlled trial,https://arxiv.org/abs/2410.12944,,
-ref-10b59b402b,browser-confirmation,Introducing SWE-bench Verified,https://openai.com/index/introducing-swe-bench-verified,,
+ref-10b59b402b,confirmed,Introducing SWE-bench Verified,https://openai.com/index/introducing-swe-bench-verified,,
 netbsdpolicy2024,confirmed,NetBSD Commit Guidelines,https://www.netbsd.org/developers/commit-guidelines.html,,
 ref-1ca76a8f96,confirmed,Software engineering education in the era of conversational AI: current trends and future directions,https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1436350/full,10.3389/frai.2024.1436350,
 ref-c6b798fb16,confirmed,A Large-Scale Survey on the Usability of AI Programming Assistants: Successes and Challenges,https://arxiv.org/abs/2303.17125,,
@@ -214,11 +215,11 @@ alphafold2021,confirmed,Highly accurate protein structure prediction with AlphaF
 space2021,confirmed,The SPACE of Developer Productivity: There's More to It than You Think,https://queue.acm.org/detail.cfm?id=3454124,10.1145/3454122.3454124,
 ref-a97b44c4bb,confirmed,Rethinking Productivity in Software Engineering,https://link.springer.com/book/10.1007/978-1-4842-4221-6,10.1007/978-1-4842-4221-6,
 ref-e2f16876f5,unresolved,Reference awaiting identity verification,https://about.gitlab.com/resources/ai-accountability-survey-2026,,Title mismatch requires review: https://about.gitlab.com/resources/ai-accountability-survey-2026
-ref-3d99cf87d4,unresolved,Reference awaiting identity verification,https://openai.com/index/how-agents-are-transforming-work,,
+ref-3d99cf87d4,unresolved,Reference awaiting identity verification,https://openai.com/index/how-agents-are-transforming-work,,Title mismatch requires review: https://openai.com/index/how-agents-are-transforming-work
 ref-824b5ba22f,unresolved,Reference awaiting identity verification,https://openai.com/index/scientific-computing-agentic-ai,,Title mismatch requires review: https://openai.com/index/scientific-computing-agentic-ai
 ref-a5ad621910,unresolved,Reference awaiting identity verification,https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535,,
 ref-b6ad5171c7,unresolved,Reference awaiting identity verification,https://www.bls.gov/news.release/archives/empsit_07022026.pdf,,
-ref-e926298d45,unresolved,Reference awaiting identity verification,https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5,,Title mismatch requires review: https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5
+ref-e926298d45,unresolved,Reference awaiting identity verification,https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5,,
 ref-6de8a45dae,unresolved,Reference awaiting identity verification,https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378,,
 ref-2242749b51,unresolved,Reference awaiting identity verification,https://www.hesa.ac.uk/news/27-01-2026/sb273-higher-education-student-statistics/subjects,,
 ref-1e963c6037,unresolved,Reference awaiting identity verification,https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity,,

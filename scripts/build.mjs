@@ -120,7 +120,7 @@ write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
 const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorSentence(r))} ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?inline(marked.Lexer.lexInline(r.version_note))+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
-write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt]\n'+texRefs+'\n\\end{description}}\n');
+write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\setlength{\\parskip}{0pt}\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=3pt,parsep=0pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
 write('site/downloads/release.json', JSON.stringify({...meta,counts:{total:sources.length,verified:verified.length,core:core.length,cited:citations.length}},null,2)+'\n');
 for(const [source, dest] of [['data/source-schema.json','source-schema.json'],['data/exclusions.json','exclusions.json'],['manuscript/methodology.md','methodology.md'],['CHANGELOG.md','CHANGELOG.md'],['MAINTENANCE.md','MAINTENANCE.md'],['CITATION.cff','CITATION.cff']]) fs.copyFileSync(path.join(root,source),path.join(root,'site/downloads',dest));
@@ -130,6 +130,7 @@ fs.copyFileSync(path.join(root,'manuscript/document-followup.md'),path.join(root
 fs.copyFileSync(path.join(root,'data/swebench-recommended.bib'),path.join(root,'site/downloads/swebench-recommended.bib'));
 fs.copyFileSync(path.join(root,'manuscript/related-reviews.md'),path.join(root,'site/downloads/related-reviews.md'));
 fs.copyFileSync(path.join(root,'manuscript/balance-review.md'),path.join(root,'site/downloads/balance-review.md'));
+fs.copyFileSync(path.join(root,'manuscript/kpmg-q3-2026.md'),path.join(root,'site/downloads/kpmg-q3-2026.md'));
 for(const [from,to] of [['data/browser-verification.json','browser-verification.json'],['data/browser-review-policy.json','browser-review-policy.json'],['BROWSER-VERIFICATION.md','BROWSER-VERIFICATION.md']]) fs.copyFileSync(path.join(root,from),path.join(root,'site/downloads',to));
 const externalLinks=new Set();
 const documentPaths=['README.md','HOSTING.md','CONTRIBUTING.md','MAINTENANCE.md','LICENSE-CONTENT.md','manuscript/article.md','manuscript/methodology.md','manuscript/metadata-review.md','manuscript/document-followup.md','manuscript/related-reviews.md','manuscript/balance-review.md'];
@@ -153,6 +154,7 @@ for(const filename of ['index.html','bibliography.html','releases.html','cite.ht
     const dating=`<p><strong>${dateLabel}:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
     const publisher=r.publisher?`<p><strong>Publisher:</strong> ${esc(r.publisher)}.</p>`:'';
     source=source.replace(stable,stable+dating+publisher);
+    if(r.id==='kpmgpulseq32026') source=source.replace(stable,stable+'<p><a href="downloads/kpmg-q3-2026.md">Detailed KPMG Q3 appraisal and reported figures</a></p>');
     if(r.authorship_basis) source=source.replace(stable,stable+`<p><strong>Authorship basis:</strong> ${esc(r.authorship_basis)}</p>${r.author_note?`<p><strong>Attribution note:</strong> ${esc(r.author_note)}</p>`:''}`);
     if(r.author_display) source=source.replace(stable,stable+`<p><strong>Registered creators:</strong> ${esc(authorLabel(r,false))}.</p>`);
     if(r.source_revision) {

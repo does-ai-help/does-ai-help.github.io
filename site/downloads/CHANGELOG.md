@@ -1,5 +1,12 @@
 # Release history
 
+## 2026.10.10 - KPMG primary report and quarterly context
+
+- Added the September Global AI Pulse Q3 2026 PDF with its three explicitly named authors, month-level publication date, survey scope, page-level appraisal and document checksum.
+- Appraised the June Q2 announcement separately and linked the waves as one survey family, not independent replications.
+- Added reported value versus cost-assessment findings to the business synthesis, qualified by large-firm sampling, executive self-report, early-stage exclusions and noncausal maturity comparisons.
+- Added a downloadable appraisal with additional figures and denominators. Cutoff remains 13 October 2026; previous archives are unchanged. Third-party PDF is not redistributed.
+
 ## 2026.10.9 - Readable BibTeX commit identifiers
 
 - Abbreviated repository commit IDs to 12 characters in BibTeX notes and pinned repository URLs. Full hashes remain in canonical evidence and verification records, CSL-JSON and RIS; document SHA-256 checksums are unchanged.
