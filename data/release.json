@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.14",
-  "snapshot": "2026-10.14",
-  "archive_name": "does-ai-help-release-2026.10.14.zip",
+  "version": "2026.10.15",
+  "snapshot": "2026-10.15",
+  "archive_name": "does-ai-help-release-2026.10.15.zip",
   "release_status": "final",
   "release": "2026-10",
   "release_label": "October 2026",
@@ -11,7 +11,7 @@
   "subtitle": "Evidence on productivity, learning, engineering, and scientific discovery",
   "authors": [
     {"name": "GPT 6.1", "role": "Lead AI author", "contribution": "Literature organization, evidence appraisal, synthesis, manuscript drafting, and publication preparation."},
-    {"name": "Witold Bołt", "credentials": "PhD", "role": "Co-author", "affiliation": "Vice-President of Jit Team, a software consulting company", "email": "Witold.Bolt@jit.team", "company_url": "https://jit.team", "profile_url": "https://www.linkedin.com/in/witoldbolt/", "contribution": "Topic initiation, initial references and perspectives, question framing, conceptual direction, and initiation of the review in this form."}
+    {"name": "Witold Bołt", "credentials": "PhD", "role": "Co-author", "institution": "Jit Team", "affiliation": "Vice-President of Jit Team, a software consulting company", "email": "Witold.Bolt@jit.team", "company_url": "https://jit.team", "profile_url": "https://www.linkedin.com/in/witoldbolt/", "contribution": "Topic initiation, initial references and perspectives, question framing, conceptual direction, and initiation of the review in this form."}
   ],
   "review_type": "Living critical narrative review and evidence map",
   "license": "CC-BY-4.0",

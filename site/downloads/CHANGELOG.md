@@ -1,5 +1,10 @@
 # Release history
 
+## 2026.10.15 - Author affiliation presentation
+
+- Added Jit Team as the human co-author's institute affiliation on the PDF title page and web front-page byline.
+- Affiliation-only presentation patch; article findings, source database, evidence cutoff and final editorial review are unchanged. The final October checkpoint tag and version 2026.10.14 artifacts remain intact.
+
 ## 2026.10.14 - Final October release
 
 - Completed a final AI-assisted editorial self-review of the entire main article, with targeted primary-source checks and a documented review scope.

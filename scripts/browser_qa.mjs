@@ -62,6 +62,7 @@ try {
   assert.equal(await page.locator('.release-detail').innerText().then(t=>t.includes(cutoffLabel)),true);
   assert.equal(await page.locator('.pdf-link').getAttribute('href'),`downloads/${publicName(`does-ai-help-${release.release}.pdf`)}`);
   assert.equal(await page.locator('.byline').innerText().then(t=>t.includes('Witold Bołt, PhD')),true);
+  assert.equal(await page.locator('.byline .author-affiliation').innerText(),'· Jit Team');
   assert.equal(await page.locator('a[href="mailto:Witold.Bolt@jit.team"]').count(),1);
   assert.equal(await page.locator('a[href="https://jit.team"]').count(),1);
   assert.equal(await page.locator('a[href="https://www.linkedin.com/in/witoldbolt/"]').count(),1);
