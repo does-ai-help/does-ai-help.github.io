@@ -61,6 +61,11 @@ def bib_escape(value):
     return "".join(replacements.get(c, c) for c in str(value))
 
 
+def bib_short_commits(value):
+    # Repository commit IDs are SHA-1-sized; do not truncate document SHA-256 checksums.
+    return re.sub(r"(?<![0-9a-fA-F])[0-9a-fA-F]{40}(?![0-9a-fA-F])", lambda match: match[0][:12], value)
+
+
 def main():
     records = json.loads((ROOT / "data/sources.json").read_text())
     verified = [r for r in records if r["verified"]]
@@ -117,7 +122,7 @@ def main():
         kind = "inproceedings" if r["publication_status"] == "peer-reviewed-conference" else "article" if r["publication_status"].startswith("peer-reviewed") else "misc"
         if r.get("editors"):
             kind = "book"
-        bib.append("@" + kind + "{" + r["id"] + ",\n" + ",\n".join("  " + key + " = {" + val + "}" for key, val in values.items()) + "\n}\n")
+        bib.append("@" + kind + "{" + r["id"] + ",\n" + ",\n".join("  " + key + " = {" + bib_short_commits(val) + "}" for key, val in values.items()) + "\n}\n")
         rows = ["TY  - " + ("BOOK" if kind == "book" else "CPAPER" if kind == "inproceedings" else "JOUR" if kind == "article" else "ELEC"), "ID  - " + r["id"], "TI  - " + r["title"], *["AU  - " + a for a in r["authors"]], *["A2  - " + a for a in r.get("editors", [])]]
         if r.get("publisher"):
             rows.append("PB  - " + r["publisher"])

@@ -1,5 +1,11 @@
 # Release history
 
+## 2026.10.9 - Readable BibTeX commit identifiers
+
+- Abbreviated repository commit IDs to 12 characters in BibTeX notes and pinned repository URLs. Full hashes remain in canonical evidence and verification records, CSL-JSON and RIS; document SHA-256 checksums are unchanged.
+- Added the release citation page and desktop back-to-top navigation to the current web presentation.
+- Findings, source counts and the 13 October evidence cutoff are unchanged. Previous release archives remain immutable.
+
 ## 2026.10.8 - Authorship and publisher corrections
 
 - Resolved the fifteen highlighted missing author credits against primary bylines, recommended citations or institutional credits, keeping publishers separate from named authors.
