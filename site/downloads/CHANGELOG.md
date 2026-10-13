@@ -1,5 +1,13 @@
 # Release history
 
+## 2026.10.8 - Authorship and publisher corrections
+
+- Resolved the fifteen highlighted missing author credits against primary bylines, recommended citations or institutional credits, keeping publishers separate from named authors.
+- Math and AI displays Terence Tao et al.; exports preserve the 25 registered creators in their DataCite order, separate from later signatories and endorsers.
+- Anthropic's recommended citation supplies seven authors. KPMG's release is credited institutionally; Steve Chase and Rob Fisher are quoted spokespersons, not established byline authors.
+- The February 2026 METR methodological follow-up was already included; strengthened explicit relationships without replacing the original 2025 experiment or duplicating evidence.
+- Added authorship provenance and attribution notes to the evidence map and exports. Findings, source counts, cutoff and earlier snapshots are unchanged.
+
 ## 2026.10.7 - Repository-backed document dates
 
 - Replaced undated Gravity About, Gravity LLM policy, Zig Code of Conduct and Asahi LLM policy records with dates from source files and Git history.

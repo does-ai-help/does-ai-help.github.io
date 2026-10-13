@@ -262,7 +262,33 @@
     "url": "https://mathandai.org/",
     "doi": "10.5281/zenodo.22737750",
     "title": "A Severe Misalignment of AI in Mathematics",
-    "authors": [],
+    "authors": [
+      "Avila, Artur",
+      "Bhargava, Manjul",
+      "Birkar, Caucher",
+      "Deligne, Pierre",
+      "Deng, Yu",
+      "Donaldson, Simon",
+      "Duminil-Copin, Hugo",
+      "Figalli, Alessio",
+      "Hairer, Martin",
+      "Huh, June",
+      "Kontsevich, Maxim",
+      "Lindenstrauss, Elon",
+      "Lions, Pierre-Louis",
+      "Maynard, James",
+      "McMullen, Curtis",
+      "Mori, Shigefumi",
+      "Ngô, Bảo Châu",
+      "Okounkov, Andrei",
+      "Scholze, Peter",
+      "Smirnov, Stanislav",
+      "Tao, Terence",
+      "Viazovska, Maryna",
+      "Villani, Cédric",
+      "Werner, Wendelin",
+      "Zelmanov, Efim"
+    ],
     "year": 2026,
     "date": "2026-09-11",
     "topics": [
@@ -273,8 +299,8 @@
     "method": "community-declaration",
     "publication_status": "public-statement",
     "summary": "A declaration initiated by 25 Fields medallists recognizes stronger AI capabilities but opposes problem-count incentives disconnected from mathematical understanding.",
-    "limitations": "Normative collective statement, not representative polling or an empirical estimate. Signatories are endorsers, not automatically bibliographic coauthors.",
-    "version_note": "DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking.",
+    "limitations": "Normative collective statement, not representative polling or an empirical estimate. Registered creators and subsequent endorsers are distinct roles.",
+    "version_note": "Registered DOI metadata establishes 25 creators. Compact display credits Terence Tao et al.; exports retain registered creator order. The live declaration's additional signatories are not silently converted into coauthors.",
     "verification_scope": "official declaration text, date and Tao's dated explanation of initial signatories",
     "checked_on": "2026-10-13",
     "verification": {
@@ -284,6 +310,10 @@
       "source_url": "https://mathandai.org/"
     },
     "editorial_priority": "core",
+    "publisher": "Math and AI",
+    "author_display": "Terence Tao et al.",
+    "authorship_basis": "DataCite metadata for DOI 10.5281/zenodo.22737750 lists these 25 creators; checked 13 October 2026. Tao's 11 September explanation confirms 25 initial signatories. Current declaration page has 28 named signatories, distinct from registered creators.",
+    "author_note": "Compact display highlights Terence Tao as requested; citation-manager exports preserve the DOI registry's alphabetical creator order. Later signatories and endorsers are not automatically added as bibliographic authors.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -667,7 +697,11 @@
     },
     "observed_title": "AI Economic Indicators: June 2026 Update",
     "pdf_pages": 13,
-    "authors": [],
+    "authors": [
+      "Stanford Digital Economy Lab"
+    ],
+    "publisher": "Stanford Digital Economy Lab",
+    "authorship_basis": "PDF first-page institutional credit and page 11 Cite this work/BibTeX explicitly specify Stanford Digital Economy Lab as author and institution; checked 13 October 2026.",
     "date": null,
     "year": 2026,
     "date_basis": "identifier or URL year; exact date not established",
@@ -1551,7 +1585,11 @@
     },
     "observed_title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
     "observed_date": "2026-06-09T18:11:28+00:00",
-    "authors": [],
+    "authors": [
+      "Masnick, Mike"
+    ],
+    "publisher": "Techdirt",
+    "authorship_basis": "Publisher's dated CEOs tag archive identifies the exact article with a Mike Masnick byline, 9 June 2026; checked 13 October 2026: https://www.techdirt.com/tag/ceos/.",
     "date": "2026-06-09",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -1758,7 +1796,12 @@
       "content_type": "text/html; charset=utf-8"
     },
     "observed_title": "Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify | Spotify Engineering",
-    "authors": [],
+    "authors": [
+      "Spotify Engineering"
+    ],
+    "publisher": "Spotify Engineering",
+    "authorship_basis": "Official Spotify Engineering post uses institutional attribution without an individual article byline; checked 13 October 2026.",
+    "author_note": "Niklas Gustavsson is the speaker whose presentation the post summarizes, not an identified individual author of the post.",
     "date": null,
     "year": 2026,
     "date_basis": "identifier or URL year; exact date not established",
@@ -2787,10 +2830,19 @@
       "content_type": "text/html;charset=utf-8"
     },
     "observed_title": "Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",
-    "authors": [],
-    "date": null,
+    "authors": [
+      "KPMG International"
+    ],
+    "publisher": "KPMG International",
+    "date": "2026-06-24",
+    "date_basis": "Press-release dateline: London, 24 June 2026; checked 13 October 2026.",
+    "quoted_speakers": [
+      "Chase, Steve",
+      "Fisher, Rob"
+    ],
+    "authorship_basis": "Official press release and structured metadata identify KPMG as publisher but supply no individual author byline; checked 13 October 2026.",
+    "author_note": "Steve Chase and Rob Fisher are quoted spokespersons and linked contacts, not established article authors. Credit the institutional release to KPMG International rather than infer personal authorship from a quotation or contact card.",
     "year": 2026,
-    "date_basis": "identifier or URL year; exact date not established",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -3068,7 +3120,11 @@
     },
     "observed_title": "How we’re evolving Jira for AI-native software development - Inside Atlassian",
     "observed_date": "2026-07-15T15:50:00+00:00",
-    "authors": [],
+    "authors": [
+      "Meyer, Dave"
+    ],
+    "publisher": "Atlassian",
+    "authorship_basis": "Article's About This Article section credits Dave Meyer and links his author profile; checked 13 October 2026.",
     "date": "2026-07-15",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -4054,10 +4110,14 @@
       "content_type": "text/html; charset=utf-8"
     },
     "observed_title": "Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs | Fortune",
-    "authors": [],
-    "date": null,
+    "authors": [
+      "Rogelberg, Sasha"
+    ],
+    "publisher": "Fortune",
+    "date": "2026-05-26",
+    "authorship_basis": "Article byline and author section name Sasha Rogelberg; checked 13 October 2026.",
     "year": 2026,
-    "date_basis": "identifier or URL year; exact date not established",
+    "date_basis": "primary metadata",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -4088,7 +4148,11 @@
     },
     "observed_title": "Sam Altman Says AI ‘Jobs Apocalypse’ Probably Won’t Happen. What Changed?",
     "observed_date": "2026-05-26T19:28:15.000Z",
-    "authors": [],
+    "authors": [
+      "Schneid, Rebecca"
+    ],
+    "publisher": "TIME",
+    "authorship_basis": "Article headline/byline block and reporter profile name Rebecca Schneid; checked 13 October 2026.",
     "date": "2026-05-26",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -4313,29 +4377,33 @@
       "content_type": "text/html; charset=utf-8"
     },
     "observed_title": "Ten advances in mathematics and theoretical computer science",
+    "authors": [
+      "OpenAI"
+    ],
+    "publisher": "OpenAI",
+    "authorship_basis": "Official announcement header identifies OpenAI above the 1 August 2026 date; checked 13 October 2026. Announcement authorship is distinct from authorship of each linked mathematical manuscript.",
     "year": 2026,
     "date": "2026-08-01",
     "date_basis": "Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026.",
-    "authors": [],
     "verified": true,
     "browser_verification": {
       "id": "ref-e299630b86",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T16:10:55+00:00",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source_fingerprint": "ec17dd50ca8a97ba0200301feed7d11580f8989a42de5080cd0f4ca3cdc9a6af",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
       "observed": {
         "title": "Ten advances in mathematics and theoretical computer science",
         "publication_date": "2026-08-01",
         "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"
       },
-      "scope": "Publisher title/date and visible results and responsibility section headings in Chrome.",
-      "notes": "Linked mathematical manuscripts and embedded video were not inspected. This is announcement identity, not verification of mathematical novelty or correctness.",
-      "source_fingerprint": "9d2fc77d35717fe65efd7fbdf771f5bd1ff1c0a612ddfb7a7e6dd562562da57b",
-      "method": "local-chrome-native",
-      "release_month": "2026-10",
-      "checked_at": "2026-10-13T07:11:49+00:00",
-      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
-      "outcome": "identity-confirmed",
-      "scientific_correctness_verified": false,
-      "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
+      "scope": "Loaded official announcement in local Chrome: page title, 1 August 2026 date, official publisher address and links to mathematical papers.",
+      "notes": "New inspection binds the corrected citation identity. OpenAI institutional attribution was checked separately in primary web-retrieved header text; no individual byline was exposed in Chrome's accessibility header. Linked manuscripts and mathematical correctness were not inspected or certified.",
+      "timestamp_basis": "Recording time following the observed local Chrome check."
     },
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -5132,10 +5200,14 @@
       "content_type": "text/html; charset=utf-8"
     },
     "observed_title": "Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune",
-    "authors": [],
-    "date": null,
+    "authors": [
+      "Angelo, Jake"
+    ],
+    "publisher": "Fortune",
+    "date": "2026-05-26",
+    "authorship_basis": "Article byline and author section identify Jake Angelo; checked 13 October 2026.",
     "year": 2026,
-    "date_basis": "identifier or URL year; exact date not established",
+    "date_basis": "primary metadata",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -5318,6 +5390,17 @@
     "verification_scope": "full methodological update",
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
+    "publisher": "METR",
+    "related_to": [
+      "metr2025",
+      "ref-596ebdd94b"
+    ],
+    "follow_up_to": [
+      "metr2025",
+      "ref-596ebdd94b"
+    ],
+    "authorship_basis": "Primary Contributors block confirms Joel Becker, Nate Rush, Tom Cunningham, David Rein and Khalid Mahamud; checked 13 October 2026.",
+    "version_note": "Already included and appraised before this authorship update. Reports a later experiment's selection and time-accounting problems and a design change; not a revision that replaces the original 2025 experiment.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -6320,7 +6403,11 @@
     },
     "observed_title": "Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible",
     "observed_date": "2025-12-07T14:26:28Z",
-    "authors": [],
+    "authors": [
+      "James, Luke"
+    ],
+    "publisher": "Tom's Hardware",
+    "authorship_basis": "Article's headline block and contributor profile identify Luke James; checked 13 October 2026.",
     "date": "2025-12-07",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7008,7 +7095,18 @@
     },
     "observed_title": "How AI is transforming work at Anthropic",
     "observed_date": "2025-12-02T18:58:43.576Z",
-    "authors": [],
+    "authors": [
+      "Huang, Saffron",
+      "Seethor, Bryan",
+      "Durmus, Esin",
+      "Handa, Kunal",
+      "McCain, Miles",
+      "Stern, Michael",
+      "Ganguli, Deep"
+    ],
+    "publisher": "Anthropic",
+    "authorship_basis": "Primary post's recommended BibTeX explicitly lists seven authors; its acknowledgments identify Huang as project lead and blog writer. Checked 13 October 2026.",
+    "author_note": "Follow the named authors in the publisher's recommended citation; Anthropic is the publisher, not a substitute corporate author when a credited author list is available.",
     "date": "2025-12-02",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7042,7 +7140,11 @@
     },
     "observed_title": "How are developers using AI? Inside our 2025 DORA report",
     "observed_date": "2025-09-23",
-    "authors": [],
+    "authors": [
+      "Salva, Ryan J."
+    ],
+    "publisher": "Google",
+    "authorship_basis": "Official Google post's header names Ryan J. Salva, Senior Director, Product Management; checked 13 October 2026.",
     "date": "2025-09-23",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7256,16 +7358,26 @@
     },
     "observed_title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
     "observed_date": "2025/07/10",
-    "authors": [],
+    "authors": [
+      "Becker, Joel",
+      "Rush, Nate",
+      "Barnes, Beth",
+      "Rein, David"
+    ],
+    "publisher": "METR",
+    "authorship_basis": "METR's Contributors block and recommended BibTeX list Joel Becker, Nate Rush, Beth Barnes and David Rein; checked 13 October 2026.",
+    "related_to": [
+      "metr2025",
+      "metr2026update"
+    ],
+    "author_note": "Beth Barnes is the blog's credited name; the linked arXiv paper uses Elizabeth Barnes. Preserve each version's supplied credit.",
+    "version_note": "Blog report of the original early-2025 experiment; the February 2026 post describes a subsequent experiment and methodological redesign, not a revised edition of this report.",
     "date": "2025-07-10",
     "year": 2025,
     "date_basis": "primary metadata",
     "verified": true,
     "editorial_priority": "supporting",
-    "added_in": "2026-10",
-    "related_to": [
-      "metr2025"
-    ]
+    "added_in": "2026-10"
   },
   {
     "id": "ref-fcb35d8ba0",
@@ -7294,7 +7406,11 @@
     },
     "observed_title": "Nearly half of all code generated by AI found to contain security flaws - even big LLMs affected",
     "observed_date": "2025-08-01T17:25:00Z",
-    "authors": [],
+    "authors": [
+      "Hale, Craig"
+    ],
+    "publisher": "TechRadar",
+    "authorship_basis": "Article byline and author profile identify Craig Hale; checked 13 October 2026.",
     "date": "2025-08-01",
     "year": 2025,
     "date_basis": "primary metadata",

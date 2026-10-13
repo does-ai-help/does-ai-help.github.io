@@ -65,6 +65,15 @@ try {
   assert.equal(await page.locator('#ref-3d0ab8c8d6 .source-meta span').first().innerText(),'2025');
   assert.equal(await page.locator('#ref-8ecd8d70a1 a[href="downloads/swebench-recommended.bib"]').count(),1);
   assert.equal(await page.locator('#ref-3e4a5dea3a a[href="downloads/swebench-recommended.bib"]').count(),1);
+  const correctedAuthors=JSON.parse(fs.readFileSync(path.join(root,'data/bibliographic-corrections.json'),'utf8'));
+  for(const [id,correction] of Object.entries(correctedAuthors).filter(([,c])=>c.authorship_basis)) {
+    const row=page.locator('#'+id);
+    assert.equal((await row.locator('.source-author').innerText()).includes('Author not established'),false,id);
+    await row.locator('details').evaluate(el=>el.open=true);
+    assert.equal((await row.innerText()).includes('Authorship basis:'),true,id);
+    await row.locator('details').evaluate(el=>el.open=false);
+  }
+  assert.equal(await page.locator('#mathmisalignment2026 .source-author').innerText(),'Terence Tao et al.');
   for(const [id,year,date] of [['gravityabout2026','2026','2026-09-12'],['gravitypolicy2026','2026','2026-09-15'],['asahipolicy2026','2026','2026-09-08'],['zigpolicy2026','2025','2025-11-22']]) {
     const row=page.locator('#'+id);
     assert.equal(await row.locator('.source-meta span').first().innerText(),year);

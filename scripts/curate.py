@@ -8,8 +8,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"Duplicate JSON key: {key}")
+        result[key] = value
+    return result
+
+
 def load(name):
-    return json.loads((ROOT / "data" / name).read_text())
+    return json.loads((ROOT / "data" / name).read_text(), object_pairs_hook=unique_object)
 
 
 def topics_from_title(title):
@@ -115,7 +124,7 @@ def main():
     for group in groups:
         members = [r for r in output if r["url"] in group]
         for r in members:
-            r["related_to"] = [other["id"] for other in members if other["id"] != r["id"]]
+            r["related_to"] = list(dict.fromkeys([*r.get("related_to", []), *[other["id"] for other in members if other["id"] != r["id"]]]))
     for r in output:
         if r["id"] == "coverage2026":
             r["dataset_family"] = "AIDev"

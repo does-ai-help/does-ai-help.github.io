@@ -1,5 +1,29 @@
 # October 2026 metadata review
 
+## Authorship follow-up
+
+Version 2026.10.8 resolves fifteen highlighted missing credits. Source-level `authorship_basis` and attribution notes distinguish article authors, institutional authors, publishers, registered creators, signatories, speakers and quoted contacts. Identity-only sources remain identity-only; establishing a byline is not an appraisal of findings.
+
+| Source | Author credit | Basis |
+| --- | --- | --- |
+| Math and AI declaration | Compact display: Terence Tao et al.; exports: 25 registered creators | [DataCite record](https://api.datacite.org/dois/10.5281/zenodo.22737750) and [Tao's dated explanation](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/). Registry creator order is preserved. The live declaration currently lists additional signatories; they are not automatically bibliographic authors. |
+| AI Economic Indicators, June 2026 | Stanford Digital Economy Lab | The PDF's first page and page 11 recommended citation explicitly credit the institution. |
+| Techdirt CEOs essay | Mike Masnick | Publisher's dated [CEOs archive](https://www.techdirt.com/tag/ceos/) identifies the exact article and byline. |
+| Spotify coding-constraint post | Spotify Engineering | Institutional post with no named individual article byline; Niklas Gustavsson is the presentation's speaker. |
+| KPMG Global AI Pulse release | KPMG International | Institutional press release, dated 24 June 2026. Steve Chase and Rob Fisher are quoted spokespersons and linked contacts; neither is identified as the author. |
+| Atlassian Jira post | Dave Meyer | About This Article credit and linked author profile. Publisher: Atlassian. |
+| Fortune AI-jobs predictions article | Sasha Rogelberg | Article byline and author section. |
+| TIME Altman article | Rebecca Schneid | Article byline and reporter profile. |
+| OpenAI mathematical advances announcement | OpenAI | Institutional announcement header. Credit does not transfer automatically to each linked manuscript. |
+| Fortune Uber article | Jake Angelo | Article byline and author section. |
+| Tom's Hardware IDEsaster article | Luke James | Article byline and contributor profile. |
+| Anthropic workplace study post | Saffron Huang, Bryan Seethor, Esin Durmus, Kunal Handa, Miles McCain, Michael Stern, Deep Ganguli | Publisher's recommended BibTeX explicitly supplies these authors; acknowledgments identify Huang as project lead and writer. Anthropic remains the publisher. |
+| Google DORA blog | Ryan J. Salva | Header byline. Publisher: Google. |
+| METR July 2025 blog | Joel Becker, Nate Rush, Beth Barnes, David Rein | Contributors block and recommended citation. The related paper uses Elizabeth Barnes; each source's credited name is retained. |
+| TechRadar security article | Craig Hale | Article byline and profile. |
+
+The [February 2026 METR update](https://metr.org/blog/2026-02-24-uplift-update/) was already appraised and cited, with Joel Becker, Nate Rush, Tom Cunningham, David Rein and Khalid Mahamud credited. It describes a subsequent experiment's measurement and selection problems and a redesign, not a replacement edition of the 2025 study. Related-source links now make that distinction explicit.
+
 ## Repository dates for four previously undated pages
 
 Version 2026.10.7 replaces four undated entries with source-backed dates. Repository files were matched to the live page contents, and public GitHub or Forgejo file-history APIs supplied the commit identities and timestamps. The evidence database retains pinned file links, authored and committed timestamps, date type and date basis. None is inferred from the inspection date.

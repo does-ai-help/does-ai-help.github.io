@@ -34,10 +34,12 @@ const articleHtml = marked.parse(citedHtml(manuscript));
 const tokens = marked.lexer(manuscript);
 const headings = tokens.filter(t => t.type === 'heading' && t.depth===2 && !['Abstract','Selected references'].includes(t.text));
 const authorLabel = (r, compact=true) => {
+  if(compact && r.author_display) return r.author_display;
   const names = r.authors.length ? r.authors : r.editors || [];
   return names.length ? (compact && names.length>5?names.slice(0,3):names).map(a=>a.includes(', ')?a.split(', ').reverse().join(' '):a).join('; ') + (compact && names.length>5?'; et al.':'') + (!r.authors.length && r.editors?.length?' (editors)':'') : 'Author not established';
 };
-const references = `<ol class="reference-list">${citations.map(id => { const r=byId.get(id); return `<li id="ref-${id}"><a class="reference-title" href="${esc(r.url)}">${esc(r.title)}</a><p>${esc(authorLabel(r))}. ${r.year || 'n.d.'}. ${esc(r.publication_status.replaceAll('-',' '))}.</p>${r.version_note?`<p>${esc(r.version_note)}</p>`:''}<p class="ref-scope">Checked: ${esc(r.verification.basis)}. <a href="bibliography.html#${id}">Evidence record</a></p></li>`; }).join('')}</ol>`;
+const authorSentence = r=>{const label=authorLabel(r);return label.endsWith('.')?label:label+'.';};
+const references = `<ol class="reference-list">${citations.map(id => { const r=byId.get(id); return `<li id="ref-${id}"><a class="reference-title" href="${esc(r.url)}">${esc(r.title)}</a><p>${esc(authorSentence(r))} ${r.year || 'n.d.'}. ${esc(r.publication_status.replaceAll('-',' '))}.</p>${r.version_note?`<p>${esc(r.version_note)}</p>`:''}<p class="ref-scope">Checked: ${esc(r.verification.basis)}. <a href="bibliography.html#${id}">Evidence record</a></p></li>`; }).join('')}</ol>`;
 const verified = sources.filter(r=>r.verified);
 const core = sources.filter(r=>r.editorial_priority==='core');
 const nav = `<a class="wordmark" href="/">${esc(meta.title)}</a><nav aria-label="Main navigation"><a href="/">Review</a><a href="bibliography.html">Evidence map</a><a href="releases.html">Releases</a><a href="downloads/${pdfName}" class="pdf-link">Download PDF <span aria-hidden="true">↗</span></a></nav>`;
@@ -99,7 +101,7 @@ const abstractTokens = tokens.slice(1, tokens.findIndex(t=>t.type==='heading' &&
 write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
-const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorLabel(r))}. ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?inline(marked.Lexer.lexInline(r.version_note))+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
+const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorSentence(r))} ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?inline(marked.Lexer.lexInline(r.version_note))+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
 write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
 write('site/downloads/release.json', JSON.stringify({...meta,counts:{total:sources.length,verified:verified.length,core:core.length,cited:citations.length}},null,2)+'\n');
@@ -133,6 +135,8 @@ for(const filename of ['index.html','bibliography.html','releases.html']) {
     const dating=`<p><strong>${dateLabel}:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
     const publisher=r.publisher?`<p><strong>Publisher:</strong> ${esc(r.publisher)}.</p>`:'';
     source=source.replace(stable,stable+dating+publisher);
+    if(r.authorship_basis) source=source.replace(stable,stable+`<p><strong>Authorship basis:</strong> ${esc(r.authorship_basis)}</p>${r.author_note?`<p><strong>Attribution note:</strong> ${esc(r.author_note)}</p>`:''}`);
+    if(r.author_display) source=source.replace(stable,stable+`<p><strong>Registered creators:</strong> ${esc(authorLabel(r,false))}.</p>`);
     if(r.source_revision) {
       const revision=r.source_revision;
       source=source.replace(stable,stable+`<p><strong>Repository provenance:</strong> <a href="${esc(revision.file_url)}">Pinned source revision</a> · <a href="${esc(revision.history_url)}">File history metadata</a>.</p><p><strong>Date type:</strong> ${esc(r.date_kind.replaceAll('-',' '))}. Authored: ${esc(revision.authored_at)}. Committed: ${esc(revision.committed_at)}.</p>`);

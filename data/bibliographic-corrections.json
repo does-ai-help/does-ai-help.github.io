@@ -1,4 +1,77 @@
 {
+  "mathmisalignment2026": {
+    "authors": ["Avila, Artur", "Bhargava, Manjul", "Birkar, Caucher", "Deligne, Pierre", "Deng, Yu", "Donaldson, Simon", "Duminil-Copin, Hugo", "Figalli, Alessio", "Hairer, Martin", "Huh, June", "Kontsevich, Maxim", "Lindenstrauss, Elon", "Lions, Pierre-Louis", "Maynard, James", "McMullen, Curtis", "Mori, Shigefumi", "Ngô, Bảo Châu", "Okounkov, Andrei", "Scholze, Peter", "Smirnov, Stanislav", "Tao, Terence", "Viazovska, Maryna", "Villani, Cédric", "Werner, Wendelin", "Zelmanov, Efim"],
+    "publisher": "Math and AI", "author_display": "Terence Tao et al.",
+    "authorship_basis": "DataCite metadata for DOI 10.5281/zenodo.22737750 lists these 25 creators; checked 13 October 2026. Tao's 11 September explanation confirms 25 initial signatories. Current declaration page has 28 named signatories, distinct from registered creators.",
+    "author_note": "Compact display highlights Terence Tao as requested; citation-manager exports preserve the DOI registry's alphabetical creator order. Later signatories and endorsers are not automatically added as bibliographic authors.",
+    "limitations": "Normative collective statement, not representative polling or an empirical estimate. Registered creators and subsequent endorsers are distinct roles.",
+    "version_note": "Registered DOI metadata establishes 25 creators. Compact display credits Terence Tao et al.; exports retain registered creator order. The live declaration's additional signatories are not silently converted into coauthors."
+  },
+  "ref-c5caafbad6": {
+    "authors": ["Stanford Digital Economy Lab"], "publisher": "Stanford Digital Economy Lab",
+    "authorship_basis": "PDF first-page institutional credit and page 11 Cite this work/BibTeX explicitly specify Stanford Digital Economy Lab as author and institution; checked 13 October 2026."
+  },
+  "ref-332821c892": {
+    "authors": ["Masnick, Mike"], "publisher": "Techdirt",
+    "authorship_basis": "Publisher's dated CEOs tag archive identifies the exact article with a Mike Masnick byline, 9 June 2026; checked 13 October 2026: https://www.techdirt.com/tag/ceos/."
+  },
+  "ref-cfd1453651": {
+    "authors": ["Spotify Engineering"], "publisher": "Spotify Engineering",
+    "authorship_basis": "Official Spotify Engineering post uses institutional attribution without an individual article byline; checked 13 October 2026.",
+    "author_note": "Niklas Gustavsson is the speaker whose presentation the post summarizes, not an identified individual author of the post."
+  },
+  "ref-fee88585ea": {
+    "authors": ["KPMG International"], "publisher": "KPMG International", "date": "2026-06-24",
+    "date_basis": "Press-release dateline: London, 24 June 2026; checked 13 October 2026.",
+    "quoted_speakers": ["Chase, Steve", "Fisher, Rob"],
+    "authorship_basis": "Official press release and structured metadata identify KPMG as publisher but supply no individual author byline; checked 13 October 2026.",
+    "author_note": "Steve Chase and Rob Fisher are quoted spokespersons and linked contacts, not established article authors. Credit the institutional release to KPMG International rather than infer personal authorship from a quotation or contact card."
+  },
+  "ref-f5457108a3": {
+    "authors": ["Meyer, Dave"], "publisher": "Atlassian",
+    "authorship_basis": "Article's About This Article section credits Dave Meyer and links his author profile; checked 13 October 2026."
+  },
+  "ref-5f7ee6a5f8": {
+    "authors": ["Rogelberg, Sasha"], "publisher": "Fortune", "date": "2026-05-26",
+    "authorship_basis": "Article byline and author section name Sasha Rogelberg; checked 13 October 2026."
+  },
+  "ref-03ecb262cc": {
+    "authors": ["Schneid, Rebecca"], "publisher": "TIME",
+    "authorship_basis": "Article headline/byline block and reporter profile name Rebecca Schneid; checked 13 October 2026."
+  },
+  "ref-ab61bb638a": {
+    "authors": ["Angelo, Jake"], "publisher": "Fortune", "date": "2026-05-26",
+    "authorship_basis": "Article byline and author section identify Jake Angelo; checked 13 October 2026."
+  },
+  "ref-829fdbdc8c": {
+    "authors": ["James, Luke"], "publisher": "Tom's Hardware",
+    "authorship_basis": "Article's headline block and contributor profile identify Luke James; checked 13 October 2026."
+  },
+  "ref-b05d2a6ff4": {
+    "authors": ["Huang, Saffron", "Seethor, Bryan", "Durmus, Esin", "Handa, Kunal", "McCain, Miles", "Stern, Michael", "Ganguli, Deep"], "publisher": "Anthropic",
+    "authorship_basis": "Primary post's recommended BibTeX explicitly lists seven authors; its acknowledgments identify Huang as project lead and blog writer. Checked 13 October 2026.",
+    "author_note": "Follow the named authors in the publisher's recommended citation; Anthropic is the publisher, not a substitute corporate author when a credited author list is available."
+  },
+  "ref-87a560f4b1": {
+    "authors": ["Salva, Ryan J."], "publisher": "Google",
+    "authorship_basis": "Official Google post's header names Ryan J. Salva, Senior Director, Product Management; checked 13 October 2026."
+  },
+  "ref-596ebdd94b": {
+    "authors": ["Becker, Joel", "Rush, Nate", "Barnes, Beth", "Rein, David"], "publisher": "METR",
+    "authorship_basis": "METR's Contributors block and recommended BibTeX list Joel Becker, Nate Rush, Beth Barnes and David Rein; checked 13 October 2026.",
+    "related_to": ["metr2025", "metr2026update"],
+    "author_note": "Beth Barnes is the blog's credited name; the linked arXiv paper uses Elizabeth Barnes. Preserve each version's supplied credit.",
+    "version_note": "Blog report of the original early-2025 experiment; the February 2026 post describes a subsequent experiment and methodological redesign, not a revised edition of this report."
+  },
+  "metr2026update": {
+    "publisher": "METR", "related_to": ["metr2025", "ref-596ebdd94b"], "follow_up_to": ["metr2025", "ref-596ebdd94b"],
+    "authorship_basis": "Primary Contributors block confirms Joel Becker, Nate Rush, Tom Cunningham, David Rein and Khalid Mahamud; checked 13 October 2026.",
+    "version_note": "Already included and appraised before this authorship update. Reports a later experiment's selection and time-accounting problems and a design change; not a revision that replaces the original 2025 experiment."
+  },
+  "ref-fcb35d8ba0": {
+    "authors": ["Hale, Craig"], "publisher": "TechRadar",
+    "authorship_basis": "Article byline and author profile identify Craig Hale; checked 13 October 2026."
+  },
   "qemupolicy2026": {
     "year": 2025, "date": "2025-06-24",
     "date_basis": "GitLab commit 3d40db0efc22520fa6c399cf73960dced423b048 introduced the AI prohibition on 24 June 2025 (committed date; authored 16 June). Repository introduction, not a separately established formal ratification.",
@@ -72,6 +145,8 @@
     "date_basis": "Primary NewsArticle JSON-LD publication date and byline; retrieved 12 October 2026, inspected 13 October 2026."
   },
   "ref-e299630b86": {
+    "authors": ["OpenAI"], "publisher": "OpenAI",
+    "authorship_basis": "Official announcement header identifies OpenAI above the 1 August 2026 date; checked 13 October 2026. Announcement authorship is distinct from authorship of each linked mathematical manuscript.",
     "year": 2026, "date": "2026-08-01",
     "date_basis": "Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026."
   },

@@ -254,10 +254,112 @@
     "type": "webpage",
     "title": "A Severe Misalignment of AI in Mathematics",
     "URL": "https://mathandai.org/",
-    "author": [],
+    "author": [
+      {
+        "family": "Avila",
+        "given": "Artur"
+      },
+      {
+        "family": "Bhargava",
+        "given": "Manjul"
+      },
+      {
+        "family": "Birkar",
+        "given": "Caucher"
+      },
+      {
+        "family": "Deligne",
+        "given": "Pierre"
+      },
+      {
+        "family": "Deng",
+        "given": "Yu"
+      },
+      {
+        "family": "Donaldson",
+        "given": "Simon"
+      },
+      {
+        "family": "Duminil-Copin",
+        "given": "Hugo"
+      },
+      {
+        "family": "Figalli",
+        "given": "Alessio"
+      },
+      {
+        "family": "Hairer",
+        "given": "Martin"
+      },
+      {
+        "family": "Huh",
+        "given": "June"
+      },
+      {
+        "family": "Kontsevich",
+        "given": "Maxim"
+      },
+      {
+        "family": "Lindenstrauss",
+        "given": "Elon"
+      },
+      {
+        "family": "Lions",
+        "given": "Pierre-Louis"
+      },
+      {
+        "family": "Maynard",
+        "given": "James"
+      },
+      {
+        "family": "McMullen",
+        "given": "Curtis"
+      },
+      {
+        "family": "Mori",
+        "given": "Shigefumi"
+      },
+      {
+        "family": "Ngô",
+        "given": "Bảo Châu"
+      },
+      {
+        "family": "Okounkov",
+        "given": "Andrei"
+      },
+      {
+        "family": "Scholze",
+        "given": "Peter"
+      },
+      {
+        "family": "Smirnov",
+        "given": "Stanislav"
+      },
+      {
+        "family": "Tao",
+        "given": "Terence"
+      },
+      {
+        "family": "Viazovska",
+        "given": "Maryna"
+      },
+      {
+        "family": "Villani",
+        "given": "Cédric"
+      },
+      {
+        "family": "Werner",
+        "given": "Wendelin"
+      },
+      {
+        "family": "Zelmanov",
+        "given": "Efim"
+      }
+    ],
     "abstract": "A declaration initiated by 25 Fields medallists recognizes stronger AI capabilities but opposes problem-count incentives disconnected from mathematical understanding.",
     "keyword": "science; governance; work",
-    "note": "Method: community-declaration. Status: public-statement. Verification: content-checked (official declaration text, date and Tao's dated explanation of initial signatories). Limitations: Normative collective statement, not representative polling or an empirical estimate. Signatories are endorsers, not automatically bibliographic coauthors. Version: DOI is displayed by the official declaration and its preprint references; registration and landing-page access require separate automated checking.",
+    "note": "Method: community-declaration. Status: public-statement. Verification: content-checked (official declaration text, date and Tao's dated explanation of initial signatories). Limitations: Normative collective statement, not representative polling or an empirical estimate. Registered creators and subsequent endorsers are distinct roles. Authorship: DataCite metadata for DOI 10.5281/zenodo.22737750 lists these 25 creators; checked 13 October 2026. Tao's 11 September explanation confirms 25 initial signatories. Current declaration page has 28 named signatories, distinct from registered creators. Attribution: Compact display highlights Terence Tao as requested; citation-manager exports preserve the DOI registry's alphabetical creator order. Later signatories and endorsers are not automatically added as bibliographic authors. Version: Registered DOI metadata establishes 25 creators. Compact display credits Terence Tao et al.; exports retain registered creator order. The live declaration's additional signatories are not silently converted into coauthors.",
+    "publisher": "Math and AI",
     "issued": {
       "date-parts": [
         [
@@ -3765,7 +3867,8 @@
     ],
     "abstract": "METR's follow-up describes selection and measurement problems as developers increasingly decline AI-disallowed work and operate agents concurrently.",
     "keyword": "productivity; methods",
-    "note": "Method: experiment-update. Status: organization-report. Verification: content-checked (full methodological update). Limitations: Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect.",
+    "note": "Method: experiment-update. Status: organization-report. Verification: content-checked (full methodological update). Limitations: Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect. Authorship: Primary Contributors block confirms Joel Becker, Nate Rush, Tom Cunningham, David Rein and Khalid Mahamud; checked 13 October 2026. Version: Already included and appraised before this authorship update. Reports a later experiment's selection and time-accounting problems and a design change; not a revision that replaces the original 2025 experiment.",
+    "publisher": "METR",
     "issued": {
       "date-parts": [
         [

@@ -376,6 +376,15 @@
       "scope": "SSRN title, bylines, 12-page count, posted/written dates, suggested-citation DOI and expanded version menu linking 6996078.",
       "notes": "Matches supplied ssrn-7070979.pdf; posted 24 July and written 7 July 2026. The unfinished LIPIcs DOI in the preprint is not used as a real identifier. The subsequently published paper has its own verified DOI.",
       "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    {
+      "id": "ref-e299630b86", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T16:10:55+00:00",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics", "source_fingerprint": "ec17dd50ca8a97ba0200301feed7d11580f8989a42de5080cd0f4ca3cdc9a6af",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
+      "observed": {"title": "Ten advances in mathematics and theoretical computer science", "publication_date": "2026-08-01", "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"},
+      "scope": "Loaded official announcement in local Chrome: page title, 1 August 2026 date, official publisher address and links to mathematical papers.",
+      "notes": "New inspection binds the corrected citation identity. OpenAI institutional attribution was checked separately in primary web-retrieved header text; no individual byline was exposed in Chrome's accessibility header. Linked manuscripts and mathematical correctness were not inspected or certified.",
+      "timestamp_basis": "Recording time following the observed local Chrome check."
     }
   ]
 }
