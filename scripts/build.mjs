@@ -25,6 +25,7 @@ const cutoffLabel=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',ye
 const pdfName=`does-ai-help-${meta.release}.pdf`;
 const zipName=meta.archive_name || `release-${meta.release}.zip`;
 const sources = JSON.parse(read('data/sources.json'));
+const citationNotes = JSON.parse(read('data/citation-notes.json'));
 const byId = new Map(sources.map(r => [r.id, r]));
 const manuscript = read('manuscript/article.md');
 const citations = [...new Set([...manuscript.matchAll(/\[@([^\]]+)\]/g)].flatMap(m => m[1].split(';').map(k => k.trim().replace(/^@/, ''))))];
@@ -49,9 +50,10 @@ const authorLabel = (r, compact=true) => {
   return names.length ? (compact && names.length>5?names.slice(0,3):names).map(a=>a.includes(', ')?a.split(', ').reverse().join(' '):a).join('; ') + (compact && names.length>5?'; et al.':'') + (!r.authors.length && r.editors?.length?' (editors)':'') : 'Author not established';
 };
 const authorSentence = r=>{const label=authorLabel(r);return label.endsWith('.')?label:label+'.';};
-const references = `<ol class="reference-list">${citations.map(id => { const r=byId.get(id); return `<li id="ref-${id}"><a class="reference-title" href="${esc(r.url)}">${esc(r.title)}</a><p>${esc(authorSentence(r))} ${r.year || 'n.d.'}. ${esc(r.publication_status.replaceAll('-',' '))}.</p>${r.version_note?`<p>${esc(r.version_note)}</p>`:''}<p class="ref-scope">Checked: ${esc(r.verification.basis)}. <a href="bibliography.html#${id}">Evidence record</a></p></li>`; }).join('')}</ol>`;
+const references = `<ol class="reference-list">${citations.map(id => { const r=byId.get(id); return `<li id="ref-${id}"><a class="reference-title" href="${esc(r.url)}">${esc(r.title)}</a><p>${esc(authorSentence(r))} ${r.year || 'n.d.'}. ${esc(r.publication_status.replaceAll('-',' '))}.</p>${citationNotes[id]?`<p>${esc(citationNotes[id])}</p>`:''}<p class="ref-scope"><a href="bibliography.html#${id}">Evidence record and reading scope</a></p></li>`; }).join('')}</ol>`;
 const verified = sources.filter(r=>r.verified);
 const core = sources.filter(r=>r.editorial_priority==='core');
+const star = meta.github_url ? `<a class="github-star" href="${esc(meta.github_url)}" target="_blank" rel="noopener" data-repository="${esc(new URL(meta.github_url).pathname.slice(1))}" aria-label="Star Does AI Help? on GitHub" title="View the repository and give it a star on GitHub"><span aria-hidden="true">☆</span> Star <span class="github-star-count" hidden></span></a>` : '';
 const nav = `<a class="wordmark" href="/">${esc(meta.title)}</a><nav aria-label="Main navigation"><a href="/">Review</a><a href="bibliography.html">Evidence map</a><a href="releases.html">Releases</a><a href="downloads/${pdfName}" class="pdf-link">Download PDF <span aria-hidden="true">↗</span></a></nav>`;
 const head = (title, description) => `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="stylesheet" href="assets/style.css"><link rel="icon" href="favicon.ico" sizes="16x16 32x32"><link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32"><link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any"><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180"><meta name="theme-color" content="#166f59"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}">${meta.canonical_url?`<link rel="canonical" href="${esc(meta.canonical_url)}">`:''}`;
 const footer = `<footer><span>GPT 6.1 · Witold Bołt</span><span>${esc(releaseLabel)} · CC BY 4.0</span><a href="cite.html">Cite this release</a><a href="releases.html">Methods &amp; maintenance</a></footer>`;
@@ -64,7 +66,7 @@ const page = (title, body, scripts='') => {
   const longPage=Boolean(scripts);
   const pageFooter=longPage?footer.replace('</footer>','<a class="back-to-top-link" href="#page-top">Back to top</a></footer>'):footer;
   const topControl=longPage?'<a class="back-to-top" href="#page-top" aria-label="Back to top" title="Back to top" hidden><span aria-hidden="true">↑</span></a><script src="assets/back-to-top.js" defer></script>':'';
-  return `<!doctype html><html lang="en"><head>${head(title,meta.subtitle)}</head><body><a href="#main" class="skip-link">Skip to content</a><header id="page-top" tabindex="-1">${nav}</header>${body}${pageFooter}${scripts}${topControl}</body></html>`;
+  return `<!doctype html><html lang="en"><head>${head(title,meta.subtitle)}</head><body><a href="#main" class="skip-link">Skip to content</a><header id="page-top" tabindex="-1">${nav.replace('</nav>',star+'</nav>')}</header>${body}${pageFooter}${scripts}${topControl}<script src="assets/github-star.js" defer></script></body></html>`;
 };
 const citationTitle=`${meta.title} ${meta.subtitle}`;
 const citationYear=meta.release_date.slice(0,4);
@@ -129,7 +131,7 @@ const abstractTokens = tokens.slice(1, tokens.findIndex(t=>t.type==='heading' &&
 write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
-const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorSentence(r))} ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?inline(marked.Lexer.lexInline(r.version_note))+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
+const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorSentence(r))} ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${citationNotes[id]?texEscape(citationNotes[id])+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
 write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\setlength{\\parskip}{0pt}\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt,parsep=0pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
 write('site/downloads/release.json', JSON.stringify({...meta,counts:{total:sources.length,verified:verified.length,core:core.length,cited:citations.length}},null,2)+'\n');
@@ -184,7 +186,7 @@ for(const filename of ['index.html','bibliography.html','releases.html','cite.ht
   }
   const canonical=meta.canonical_url?new URL(filename==='index.html'?'':filename,meta.canonical_url).href:'';
   const updated=source
-    .replace('Initial English synthesis and searchable evidence map. Corrections include updated authorship and sample scope for Writing Code vs. Shipping Code, the current title of the retail field-experiment paper, and removal of an unrelated inherited catalog link.','October update: evidence-weighted balance review, official contribution policies, mathematical-community perspectives, and the Navier-Stokes claim and critique. <a href="downloads/balance-review.md">Balance review and source-admission decisions</a>. <a href="https://github.com/does-ai-help/does-ai-help.github.io/releases/tag/v2026.10.0">Preserved initial release (2026.10.0)</a>.')
+    .replace('Initial English synthesis and searchable evidence map. Corrections include updated authorship and sample scope for Writing Code vs. Shipping Code, the current title of the retail field-experiment paper, and removal of an unrelated inherited catalog link.','Initial October 2026 publication: a critical synthesis and searchable evidence map covering productivity, learning, engineering, scientific discovery and community perspectives. Technical version history is preserved in the release changelog; monthly literature updates begin with the next release.')
     .replace(`<link rel="canonical" href="${esc(meta.canonical_url)}">`,canonical?`<link rel="canonical" href="${esc(canonical)}"><meta property="og:url" content="${esc(canonical)}">`:'')
     .replace('<strong>Witold Bołt</strong>, co-author','<strong>Witold Bołt, PhD</strong>, co-author')
     .replace('</main>', '<section class="community-note" aria-label="Contribute and reuse"><h2>Contribute evidence</h2><p>'+contributionLinks+'. Suggestions are assessed for monthly releases; corrections are welcome.</p><p>Free reuse with attribution under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>. <a href="downloads/LICENSE-CONTENT.md">Reuse and attribution</a> · <a href="downloads/reference-verification.md">Latest identity audit</a> · <a href="downloads/metadata-review.md">Editorial metadata notes</a></p></section></main>')

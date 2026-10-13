@@ -1,0 +1,28 @@
+{
+  "topics": {
+    "agents": "Agentic workflows, tool use, orchestration and autonomous systems.",
+    "ai-rd": "AI research and development, model improvement and self-improving systems.",
+    "business": "Organizational adoption, economic outcomes, investment and operating models.",
+    "cognition": "Understanding, cognitive effort, mental models and cognitive load.",
+    "context": "Unidentified or genuinely general contextual sources without a more specific established topic.",
+    "cost": "Financial, token, compute and usage costs or cost accounting.",
+    "diversity": "Diversity of research questions, approaches and knowledge production.",
+    "engineering": "Software development, maintenance, engineering workflows and developer tools.",
+    "governance": "Policies, responsibility, attribution, consent and institutional oversight.",
+    "judgment": "Expert judgment, interpretation and choosing meaningful problems or outcomes.",
+    "learning": "Education, training, skill formation, retention and learning design.",
+    "mathematics": "Mathematical research, mathematical learning, theorem proving, proof assistants and mathematical-community perspectives.",
+    "methods": "Evaluation, measurement, benchmarks, evidence synthesis and research methodology.",
+    "productivity": "Task performance, throughput, delivery and productivity measurement.",
+    "quality": "Software correctness, testing quality, defects, maintainability and technical debt.",
+    "reasoning": "Reasoning performance and the interpretation of reasoning capabilities.",
+    "science": "Scientific discovery, research tools, disciplinary practices and AI research, including mathematics.",
+    "security": "Cybersecurity, vulnerabilities, attacks, security controls and secure software.",
+    "sustainability": "Environmental and resource impacts of AI-assisted work.",
+    "trust": "Trust, confidence and calibration in AI outputs or collaboration.",
+    "verification": "Checking correctness, proof fidelity, formal verification and validation burdens.",
+    "work": "Employment, careers, workplace tasks, labor markets and workforce effects."
+  },
+  "parents": {"mathematics": ["science"], "ai-rd": ["science"], "cost": ["business"]},
+  "policy": "Use multiple labels for substantive source focus, not every incidental mention. Classify supporting references only from established metadata; classification does not upgrade evidence verification. Keep unidentified candidates as context. Reviewed corrections override title heuristics."
+}

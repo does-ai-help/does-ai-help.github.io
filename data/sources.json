@@ -294,7 +294,8 @@
     "topics": [
       "science",
       "governance",
-      "work"
+      "work",
+      "mathematics"
     ],
     "method": "community-declaration",
     "publication_status": "public-statement",
@@ -314,6 +315,7 @@
     "author_display": "Terence Tao et al.",
     "authorship_basis": "DataCite metadata for DOI 10.5281/zenodo.22737750 lists these 25 creators; checked 13 October 2026. Tao's 11 September explanation confirms 25 initial signatories. Current declaration page has 28 named signatories, distinct from registered creators.",
     "author_note": "Compact display highlights Terence Tao as requested; citation-manager exports preserve the DOI registry's alphabetical creator order. Later signatories and endorsers are not automatically added as bibliographic authors.",
+    "topic_basis": "Declaration explicitly concerns mathematical research and incentives.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -461,7 +463,9 @@
     "topics": [
       "productivity",
       "engineering",
-      "cost"
+      "cost",
+      "agents",
+      "business"
     ],
     "method": "observational",
     "publication_status": "preprint",
@@ -490,6 +494,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2607.01418",
+    "topic_basis": "CLI coding-agent adoption is central to the appraised source.",
     "date": "2026-07-01",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -501,11 +506,13 @@
     "url": "https://arxiv.org/abs/2605.22763",
     "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
     "topics": [
+      "mathematics",
+      "verification",
       "science"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Advancing Mathematics Research with AI-Driven Formal Proof Search. Result-level appraisal is pending.",
+    "summary": "Supporting reference on mathematics, verification, science. Scope indicated by the primary-source title: Advancing Mathematics Research with AI-Driven Formal Proof Search. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -546,6 +553,7 @@
     ],
     "observed_date": "2026/05/21",
     "arxiv_id": "2605.22763",
+    "topic_basis": "Established title identifies mathematical research and formal proof search.",
     "date": "2026-05-21",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -565,7 +573,8 @@
     "topics": [
       "science",
       "governance",
-      "work"
+      "work",
+      "mathematics"
     ],
     "method": "community-statement",
     "publication_status": "public-statement",
@@ -581,6 +590,7 @@
       "source_url": "https://www.ahmath.org/statements"
     },
     "editorial_priority": "core",
+    "topic_basis": "Mathematical-community statement about mathematical documents.",
     "verified": true,
     "browser_verification": {
       "id": "ahm2026",
@@ -676,11 +686,13 @@
     "url": "https://digitaleconomy.stanford.edu/app/uploads/2026/06/AIEI_RN01_Jun26.pdf",
     "title": "AI Economic Indicators: June 2026 Update",
     "topics": [
-      "context"
+      "business",
+      "work",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: AI Economic Indicators: June 2026 Update. Result-level appraisal is pending.",
+    "summary": "Supporting reference on business, work, methods. Scope indicated by the primary-source title: AI Economic Indicators: June 2026 Update. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -702,6 +714,7 @@
     ],
     "publisher": "Stanford Digital Economy Lab",
     "authorship_basis": "PDF first-page institutional credit and page 11 Cite this work/BibTeX explicitly specify Stanford Digital Economy Lab as author and institution; checked 13 October 2026.",
+    "topic_basis": "Established institutional economic-indicators title and series scope.",
     "date": null,
     "year": 2026,
     "date_basis": "identifier or URL year; exact date not established",
@@ -715,11 +728,13 @@
     "title": "AI Evaluation Should Measure Verification Cost, Not Correctness Alone",
     "topics": [
       "methods",
-      "business"
+      "business",
+      "cost",
+      "verification"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on methods, business. Scope indicated by the primary-source title: AI Evaluation Should Measure Verification Cost, Not Correctness Alone. Result-level appraisal is pending.",
+    "summary": "Supporting reference on methods, business, cost, verification. Scope indicated by the primary-source title: AI Evaluation Should Measure Verification Cost, Not Correctness Alone. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -743,6 +758,7 @@
     ],
     "observed_date": "2026/08/09",
     "arxiv_id": "2608.08709",
+    "topic_basis": "Established title explicitly advocates measuring verification cost.",
     "date": "2026-08-09",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -1168,11 +1184,13 @@
     "url": "https://rsi-benchmark.com/blog/announcing-rsi-bench",
     "title": "Announcing RSI Bench",
     "topics": [
-      "context"
+      "ai-rd",
+      "methods",
+      "science"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.",
+    "summary": "Supporting reference on ai-rd, methods, science. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -1199,6 +1217,7 @@
       "Yunzhong He"
     ],
     "date_basis": "Primary announcement date and byline; source page checked 13 October 2026.",
+    "topic_basis": "RSI benchmark concerns evaluating recursive AI improvement.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -1209,11 +1228,13 @@
     "title": "Are Coding Agents Generating Over-Mocked Tests? An Empirical Study",
     "topics": [
       "engineering",
-      "agents"
+      "agents",
+      "quality",
+      "verification"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: Are Coding Agents Generating Over-Mocked Tests? An Empirical Study. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, quality, verification. Scope indicated by the primary-source title: Are Coding Agents Generating Over-Mocked Tests? An Empirical Study. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -1235,6 +1256,7 @@
     ],
     "observed_date": "2026/01/30",
     "arxiv_id": "2602.00409",
+    "topic_basis": "Over-mocked generated tests concern testing quality and checking correctness.",
     "date": "2026-01-30",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -1564,11 +1586,13 @@
     "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos",
     "title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
     "topics": [
-      "context"
+      "work",
+      "business",
+      "governance"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs. Result-level appraisal is pending.",
+    "summary": "Supporting reference on work, business, governance. Scope indicated by the primary-source title: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -1590,6 +1614,7 @@
     ],
     "publisher": "Techdirt",
     "authorship_basis": "Publisher's dated CEOs tag archive identifies the exact article with a Mike Masnick byline, 9 June 2026; checked 13 October 2026: https://www.techdirt.com/tag/ceos/.",
+    "topic_basis": "Established title concerns CEOs, employee replacement and management responsibility.",
     "date": "2026-06-09",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -1604,7 +1629,8 @@
     "topics": [
       "engineering",
       "quality",
-      "cost"
+      "cost",
+      "business"
     ],
     "method": "observational",
     "publication_status": "preprint",
@@ -1697,7 +1723,9 @@
     "topics": [
       "science",
       "trust",
-      "methods"
+      "methods",
+      "verification",
+      "cognition"
     ],
     "summary": "A 63-participant evaluation of an AI-assisted review system finds that mandatory verification checkpoints alone do not ensure users actually check generated synthesis.",
     "limitations": "Short interaction and self-reported intentions, not a controlled estimate of review accuracy or error prevention. Useful as a process warning, not validation of this review.",
@@ -1728,6 +1756,7 @@
     },
     "editorial_priority": "core",
     "arxiv_id": "2609.22248",
+    "topic_basis": "Appraised review-system study measures verification behavior and trust calibration.",
     "date": "2026-09-05",
     "verified": true,
     "added_in": "2026-10"
@@ -1814,11 +1843,12 @@
     "url": "https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark",
     "title": "Computer Science Has Hit Its High Water Mark",
     "topics": [
-      "science"
+      "learning",
+      "work"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.",
+    "summary": "Supporting reference on learning, work. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -1840,6 +1870,7 @@
       "Caelan Wilkie-Rogers"
     ],
     "date_basis": "Primary Revelio publication date and suggested citation; checked 13 October 2026. The 11 June update is not the original publication date.",
+    "topic_basis": "Source concerns computer-science enrollment and career expectations, not AI-supported scientific discovery.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -1915,7 +1946,9 @@
     "title": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
     "topics": [
       "ai-rd",
-      "agents"
+      "agents",
+      "methods",
+      "science"
     ],
     "method": "benchmark",
     "publication_status": "preprint",
@@ -1953,6 +1986,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2608.07545",
+    "topic_basis": "Harness evolution and benchmark evaluation are central.",
     "date": "2026-07-31",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -2331,7 +2365,10 @@
     "title": "DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use",
     "topics": [
       "engineering",
-      "business"
+      "business",
+      "trust",
+      "verification",
+      "quality"
     ],
     "method": "commentary",
     "publication_status": "organization-analysis",
@@ -2357,6 +2394,7 @@
     "verification_scope": "primary analysis",
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
+    "topic_basis": "Appraised article addresses trust, verification and effective software-lifecycle use.",
     "date": null,
     "verified": true,
     "added_in": "2026-10"
@@ -2410,11 +2448,12 @@
     "url": "https://arxiv.org/abs/2607.08849",
     "title": "Experimental Evidence on the Learning Impact of Generative AI",
     "topics": [
-      "context"
+      "learning",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Experimental Evidence on the Learning Impact of Generative AI. Result-level appraisal is pending.",
+    "summary": "Supporting reference on learning, methods. Scope indicated by the primary-source title: Experimental Evidence on the Learning Impact of Generative AI. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -2436,6 +2475,7 @@
     ],
     "observed_date": "2026/07/09",
     "arxiv_id": "2607.08849",
+    "topic_basis": "Established title explicitly describes experimental learning effects.",
     "date": "2026-07-09",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -2453,7 +2493,8 @@
     "year": 2026,
     "topics": [
       "science",
-      "verification"
+      "verification",
+      "mathematics"
     ],
     "method": "mathematical-proof-claim",
     "publication_status": "technical-manuscript",
@@ -2472,6 +2513,7 @@
       "source_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
     },
     "editorial_priority": "core",
+    "topic_basis": "Navier-Stokes mathematical theorem and written proof.",
     "date": null,
     "verified": true,
     "browser_verification": {
@@ -2507,7 +2549,8 @@
     "year": 2026,
     "topics": [
       "science",
-      "verification"
+      "verification",
+      "mathematics"
     ],
     "method": "formalization-artifact",
     "publication_status": "research-software",
@@ -2527,6 +2570,7 @@
       "source_url": "https://github.com/openai/NavierStokesAndEuler/tree/f9e8bc5b38b6e212696e8a30e3e91517af887bbd"
     },
     "editorial_priority": "core",
+    "topic_basis": "Lean formalization of mathematical results.",
     "date": null,
     "verified": true,
     "added_in": "2026-10"
@@ -2579,12 +2623,11 @@
     "topics": [
       "engineering",
       "quality",
-      "agents",
-      "methods"
+      "agents"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering, quality, agents, methods. Scope indicated by the primary-source title: From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, quality, agents. Scope indicated by the primary-source title: From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -2703,11 +2746,13 @@
     "url": "https://github.com/SWE-bench/SWE-bench",
     "title": "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?",
     "topics": [
-      "context"
+      "engineering",
+      "agents",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -2730,6 +2775,7 @@
     "date": "2026-09-01",
     "date_basis": "README revision e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a committed 1 September 2026; document-revision date, not benchmark publication year.",
     "version_note": "Authors' README recommends Jimenez et al., ICLR 2024 for SWE-bench (Verified), Yang et al., ICLR 2025 for Multimodal, and Yang et al., SWE-smith (arXiv:2504.21798, 2025) for Multilingual. Exact BibTeX: https://does-ai-help.github.io/downloads/swebench-recommended.bib. Pinned README: https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md. Repository and paper citations are distinct.",
+    "topic_basis": "SWE-bench evaluates software issue resolution; not mathematics.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -2740,12 +2786,11 @@
     "title": "GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?",
     "topics": [
       "engineering",
-      "security",
-      "methods"
+      "security"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering, security, methods. Scope indicated by the primary-source title: GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, security. Scope indicated by the primary-source title: GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -2826,7 +2871,9 @@
       "work",
       "agents",
       "security",
-      "methods"
+      "methods",
+      "cost",
+      "governance"
     ],
     "method": "executive-survey",
     "publication_status": "industry-report",
@@ -2855,6 +2902,7 @@
       "source_url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf"
     },
     "editorial_priority": "core",
+    "topic_basis": "Appraised Q3 report specifically studies cost/value assessment and accountability.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -2864,7 +2912,9 @@
     "title": "Growing adoption signals progress as cost visibility and accountability drive AI value, new KPMG Global AI Pulse survey finds",
     "topics": [
       "business",
-      "methods"
+      "methods",
+      "cost",
+      "governance"
     ],
     "method": "executive-survey-summary",
     "publication_status": "press-release",
@@ -2903,6 +2953,7 @@
     ],
     "authorship_basis": "Official press release and structured metadata identify KPMG as publisher but supply no individual author byline; checked 13 October 2026.",
     "author_note": "Steve Chase and Rob Fisher are quoted spokespersons and linked contacts, not established article authors. Credit the institutional release to KPMG International rather than infer personal authorship from a quotation or contact card.",
+    "topic_basis": "Appraised Q2 announcement concerns usage-cost visibility and executive accountability.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -2911,11 +2962,13 @@
     "url": "https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning",
     "title": "Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning",
     "topics": [
-      "business"
+      "learning",
+      "business",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.",
+    "summary": "Supporting reference on learning, business, methods. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -2937,6 +2990,7 @@
       "Sebastian Gallegos"
     ],
     "date_basis": "Primary IZA Discussion Paper 18513 page: March 2026; checked 13 October 2026. No publication day supplied.",
+    "topic_basis": "AI-assisted learning and experimental guidance are explicit in the established title.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -2982,7 +3036,8 @@
     "title": "How AI Impacts Skill Formation",
     "topics": [
       "learning",
-      "engineering"
+      "engineering",
+      "cognition"
     ],
     "method": "experiment",
     "publication_status": "preprint",
@@ -3010,6 +3065,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2601.20245",
+    "topic_basis": "Appraised outcomes include conceptual understanding and code reading.",
     "date": "2026-01-28",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -3021,11 +3077,12 @@
     "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
     "title": "How AI is expanding what people do at work",
     "topics": [
-      "context"
+      "work",
+      "business"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: How AI is expanding what people do at work. Result-level appraisal is pending.",
+    "summary": "Supporting reference on work, business. Scope indicated by the primary-source title: How AI is expanding what people do at work. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -3049,6 +3106,7 @@
     "verification_scope": "Alternative method: local Chrome publisher title/date and Author block; linked report not inspected",
     "checked_on": "2026-10-13",
     "editorial_priority": "supporting",
+    "topic_basis": "Established title and institutional source concern workplace tasks.",
     "verified": true,
     "browser_verification": {
       "id": "ref-db9d091351",
@@ -3158,11 +3216,13 @@
     "url": "https://www.atlassian.com/blog/company-news/ai-sdlc",
     "title": "How we’re evolving Jira for AI-native software development - Inside Atlassian",
     "topics": [
-      "engineering"
+      "engineering",
+      "agents",
+      "business"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: How we’re evolving Jira for AI-native software development - Inside Atlassian. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, business. Scope indicated by the primary-source title: How we’re evolving Jira for AI-native software development - Inside Atlassian. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -3184,6 +3244,7 @@
     ],
     "publisher": "Atlassian",
     "authorship_basis": "Article's About This Article section credits Dave Meyer and links his author profile; checked 13 October 2026.",
+    "topic_basis": "AI-native development workflows and Jira's organizational operating context.",
     "date": "2026-07-15",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -3196,12 +3257,12 @@
     "url": "https://link.springer.com/article/10.1186/s41239-026-00614-9",
     "title": "Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation",
     "topics": [
-      "learning",
-      "science"
+      "science",
+      "learning"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on learning, science. Scope indicated by the primary-source title: Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation. Result-level appraisal is pending.",
+    "summary": "Supporting reference on science, learning. Scope indicated by the primary-source title: Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -3294,7 +3355,8 @@
       "science",
       "governance",
       "learning",
-      "work"
+      "work",
+      "mathematics"
     ],
     "method": "community-declaration",
     "publication_status": "public-statement",
@@ -3315,6 +3377,7 @@
       "source_url": "https://leidendeclaration.ai/"
     },
     "editorial_priority": "core",
+    "topic_basis": "Declaration on mathematics and its research community.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3361,7 +3424,9 @@
     "publication_status": "preprint",
     "topics": [
       "learning",
-      "methods"
+      "methods",
+      "mathematics",
+      "science"
     ],
     "summary": "A regularly updated mathematics-learning synthesis reports a positive estimate in its September v5, with larger effects for teacher-supplementing and longer interventions.",
     "limitations": "34 studies in v5; narrower eligibility and Bayesian models differ from broad STEM syntheses. Shared trials are not independent corroboration; a credible interval is not a confidence interval.",
@@ -3390,6 +3455,7 @@
     },
     "editorial_priority": "core",
     "arxiv_id": "2601.18685",
+    "topic_basis": "Meta-analysis specifically of mathematical learning.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3450,7 +3516,8 @@
     "topics": [
       "science",
       "learning",
-      "governance"
+      "governance",
+      "mathematics"
     ],
     "method": "expert-lecture",
     "publication_status": "lecture-slides",
@@ -3466,6 +3533,7 @@
       "source_url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf"
     },
     "editorial_priority": "core",
+    "topic_basis": "Math 2.0 lecture on mathematical practice and understanding.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3483,7 +3551,9 @@
     "topics": [
       "science",
       "learning",
-      "governance"
+      "governance",
+      "mathematics",
+      "cognition"
     ],
     "method": "philosophical-essay",
     "publication_status": "preprint",
@@ -3499,6 +3569,7 @@
     },
     "editorial_priority": "core",
     "arxiv_id": "2603.26524",
+    "topic_basis": "Mathematical methods and human thought are the source's stated focus.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3514,7 +3585,8 @@
     "date": "2026-08-17",
     "topics": [
       "science",
-      "governance"
+      "governance",
+      "mathematics"
     ],
     "method": "conceptual-essay",
     "publication_status": "preprint",
@@ -3530,6 +3602,7 @@
     },
     "editorial_priority": "core",
     "arxiv_id": "2608.16753",
+    "topic_basis": "ICM essay about mathematics in the age of AI.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3540,7 +3613,9 @@
     "topics": [
       "ai-rd",
       "methods",
-      "work"
+      "work",
+      "productivity",
+      "science"
     ],
     "method": "observational",
     "publication_status": "vendor-report",
@@ -3567,6 +3642,7 @@
     "verification_scope": "full methods and index interpretation",
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
+    "topic_basis": "Measurements concern the pace of AI development and research work.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3619,7 +3695,8 @@
     "topics": [
       "engineering",
       "learning",
-      "productivity"
+      "productivity",
+      "cognition"
     ],
     "method": "crossover-experiment",
     "publication_status": "peer-reviewed",
@@ -3635,6 +3712,7 @@
       "source_url": "https://personal.us.es/amarlop/wp-content/uploads/2026/03/More-Code-Less-Understanding-On-the-Impact-of-AI-Assistants-on-Developers-Productivity-and-Code-Ownership.pdf"
     },
     "editorial_priority": "core",
+    "topic_basis": "Appraised source measures understanding and code ownership.",
     "date": null,
     "verified": true,
     "added_in": "2026-10"
@@ -3651,7 +3729,8 @@
     "topics": [
       "science",
       "verification",
-      "governance"
+      "governance",
+      "mathematics"
     ],
     "method": "institutional-statement",
     "publication_status": "organization-announcement",
@@ -3666,6 +3745,7 @@
       "source_url": "https://www.claymath.org/news/navier-stokes-announcement/"
     },
     "editorial_priority": "core",
+    "topic_basis": "Mathematical-prize announcement and proof-evaluation process.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3684,7 +3764,8 @@
     "topics": [
       "science",
       "verification",
-      "methods"
+      "methods",
+      "mathematics"
     ],
     "method": "technical-critique",
     "publication_status": "preprint",
@@ -3705,6 +3786,7 @@
     },
     "editorial_priority": "core",
     "arxiv_id": "2610.08144",
+    "topic_basis": "Mathematical proof fidelity and Lean autoformalization.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -3837,7 +3919,8 @@
     "topics": [
       "science",
       "agents",
-      "verification"
+      "verification",
+      "mathematics"
     ],
     "method": "developer-research-announcement",
     "publication_status": "organization-announcement",
@@ -3858,6 +3941,7 @@
       "source_url": "https://openai.com/index/navier-stokes-solution/"
     },
     "editorial_priority": "core",
+    "topic_basis": "Navier-Stokes Millennium mathematical problem.",
     "verified": true,
     "browser_verification": {
       "id": "openainavier2026",
@@ -3888,12 +3972,11 @@
     "url": "https://arxiv.org/abs/2608.10178",
     "title": "One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models",
     "topics": [
-      "engineering",
       "agents"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models. Result-level appraisal is pending.",
+    "summary": "Supporting reference on agents. Scope indicated by the primary-source title: One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -4020,7 +4103,9 @@
       "science",
       "security",
       "verification",
-      "engineering"
+      "engineering",
+      "mathematics",
+      "quality"
     ],
     "method": "maintainer-postmortem",
     "publication_status": "expert-technical-report",
@@ -4035,6 +4120,7 @@
       "source_url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/"
     },
     "editorial_priority": "core",
+    "topic_basis": "Proof-kernel soundness and mathematical verification; not an arbitrary coding benchmark.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -4071,11 +4157,14 @@
     "url": "https://arxiv.org/abs/2601.20802",
     "title": "Reinforcement Learning via Self-Distillation",
     "topics": [
-      "context"
+      "learning",
+      "ai-rd",
+      "methods",
+      "science"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Reinforcement Learning via Self-Distillation. Result-level appraisal is pending.",
+    "summary": "Supporting reference on learning, ai-rd, methods, science. Scope indicated by the primary-source title: Reinforcement Learning via Self-Distillation. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -4106,6 +4195,7 @@
     ],
     "observed_date": "2026/01/28",
     "arxiv_id": "2601.20802",
+    "topic_basis": "Established title concerns reinforcement-learning methods and self-distillation.",
     "date": "2026-01-28",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -4118,11 +4208,12 @@
     "url": "https://arxiv.org/abs/2605.20695",
     "title": "Remarks on the disproof of the unit distance conjecture",
     "topics": [
+      "mathematics",
       "science"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Remarks on the disproof of the unit distance conjecture. Result-level appraisal is pending.",
+    "summary": "Supporting reference on mathematics, science. Scope indicated by the primary-source title: Remarks on the disproof of the unit distance conjecture. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -4151,6 +4242,7 @@
     ],
     "observed_date": "2026/05/20",
     "arxiv_id": "2605.20695",
+    "topic_basis": "Established title concerns a mathematical conjecture.",
     "date": "2026-05-20",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -4317,7 +4409,9 @@
     "topics": [
       "engineering",
       "quality",
-      "agents"
+      "agents",
+      "methods",
+      "verification"
     ],
     "method": "benchmark",
     "publication_status": "preprint",
@@ -4348,6 +4442,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2603.03823",
+    "topic_basis": "Appraised maintenance benchmark uses continuous-integration correctness checks.",
     "date": "2026-03-04",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -4360,12 +4455,11 @@
     "title": "SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review",
     "topics": [
       "engineering",
-      "agents",
-      "methods"
+      "agents"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents. Scope indicated by the primary-source title: SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -4472,11 +4566,12 @@
     "url": "https://openai.com/index/ten-advances-in-mathematics",
     "title": "Ten advances in mathematics and theoretical computer science",
     "topics": [
+      "mathematics",
       "science"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.",
+    "summary": "Supporting reference on mathematics, science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -4500,6 +4595,7 @@
     "year": 2026,
     "date": "2026-08-01",
     "date_basis": "Primary publication date, also recorded in the existing local Chrome receipt; rechecked through primary web retrieval 13 October 2026.",
+    "topic_basis": "Announcement explicitly covers mathematics and theoretical computer science.",
     "verified": true,
     "browser_verification": {
       "id": "ref-e299630b86",
@@ -4535,7 +4631,8 @@
     "topics": [
       "science",
       "learning",
-      "methods"
+      "methods",
+      "mathematics"
     ],
     "method": "curated-expert-perspective",
     "publication_status": "living-essay",
@@ -4551,6 +4648,7 @@
       "source_url": "https://teorth.github.io/tao-web/ai-views.html"
     },
     "editorial_priority": "core",
+    "topic_basis": "Tao's synthesis focuses on AI and mathematical research.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -4699,7 +4797,8 @@
     "topics": [
       "agents",
       "engineering",
-      "cost"
+      "cost",
+      "business"
     ],
     "method": "benchmark-experiment",
     "publication_status": "preprint",
@@ -5172,11 +5271,12 @@
     "topics": [
       "engineering",
       "agents",
+      "cost",
       "business"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering, agents, business. Scope indicated by the primary-source title: Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, cost, business. Scope indicated by the primary-source title: Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -5200,6 +5300,7 @@
     ],
     "observed_date": "2026/01/20",
     "arxiv_id": "2601.14470",
+    "topic_basis": "Token consumption and token economics are the explicit study focus.",
     "date": "2026-01-20",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -5213,7 +5314,8 @@
     "title": "Towards end-to-end automation of AI research",
     "topics": [
       "science",
-      "agents"
+      "agents",
+      "ai-rd"
     ],
     "method": "benchmark",
     "publication_status": "peer-reviewed",
@@ -5248,6 +5350,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "container_title": "Nature",
+    "topic_basis": "Appraised scope explicitly concerns end-to-end automation of AI research.",
     "date": "2026-03",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -5295,11 +5398,13 @@
     "url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code",
     "title": "Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune",
     "topics": [
-      "context"
+      "business",
+      "cost",
+      "engineering"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune. Result-level appraisal is pending.",
+    "summary": "Supporting reference on business, cost, engineering. Scope indicated by the primary-source title: Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -5321,6 +5426,7 @@
     "publisher": "Fortune",
     "date": "2026-05-26",
     "authorship_basis": "Article byline and author section identify Jake Angelo; checked 13 October 2026.",
+    "topic_basis": "Uber AI-tool spending and value attribution; not general context only.",
     "year": 2026,
     "date_basis": "primary metadata",
     "verified": true,
@@ -5424,7 +5530,9 @@
     "topics": [
       "engineering",
       "verification",
-      "agents"
+      "agents",
+      "methods",
+      "quality"
     ],
     "method": "benchmark",
     "publication_status": "preprint",
@@ -5461,6 +5569,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2608.13522",
+    "topic_basis": "Appraised formally verified software benchmark; distinct from mathematical research as a domain.",
     "date": "2026-08-13",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -5473,7 +5582,8 @@
     "title": "We are Changing our Developer Productivity Experiment Design",
     "topics": [
       "productivity",
-      "methods"
+      "methods",
+      "engineering"
     ],
     "method": "experiment-update",
     "publication_status": "organization-report",
@@ -5516,6 +5626,7 @@
     ],
     "authorship_basis": "Primary Contributors block confirms Joel Becker, Nate Rush, Tom Cunningham, David Rein and Khalid Mahamud; checked 13 October 2026.",
     "version_note": "Already included and appraised before this authorship update. Reports a later experiment's selection and time-accounting problems and a design change; not a revision that replaces the original 2025 experiment.",
+    "topic_basis": "Appraised experiment-design update concerns software developers.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -5531,7 +5642,8 @@
     "topics": [
       "science",
       "verification",
-      "security"
+      "security",
+      "mathematics"
     ],
     "method": "expert-technical-commentary",
     "publication_status": "expert-essay",
@@ -5547,6 +5659,7 @@
       "source_url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
     },
     "editorial_priority": "core",
+    "topic_basis": "Lean reliability and proof-assistant use for mathematicians.",
     "verified": true,
     "added_in": "2026-10"
   },
@@ -5555,11 +5668,12 @@
     "url": "https://arxiv.org/abs/2607.28041",
     "title": "When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution",
     "topics": [
-      "security"
+      "learning",
+      "cognition"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on security. Scope indicated by the primary-source title: When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution. Result-level appraisal is pending.",
+    "summary": "Supporting reference on learning, cognition. Scope indicated by the primary-source title: When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -5580,6 +5694,7 @@
     ],
     "observed_date": "2026/07/30",
     "arxiv_id": "2607.28041",
+    "topic_basis": "Risk of capacity dissolution concerns learning and cognition, not cybersecurity.",
     "date": "2026-07-30",
     "year": 2026,
     "date_basis": "primary metadata",
@@ -5685,11 +5800,11 @@
     "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
     "title": "Why we no longer evaluate SWE-bench Verified",
     "topics": [
-      "methods"
+      "engineering"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on methods. Scope indicated by the primary-source title: Why we no longer evaluate SWE-bench Verified. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: Why we no longer evaluate SWE-bench Verified. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6157,7 +6272,8 @@
     "topics": [
       "engineering",
       "quality",
-      "work"
+      "work",
+      "productivity"
     ],
     "method": "observational",
     "publication_status": "preprint",
@@ -6188,6 +6304,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2510.10165",
+    "topic_basis": "Appraised source explicitly studies productivity and maintenance burden.",
     "date": "2025-10-11",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6201,7 +6318,9 @@
     "topics": [
       "science",
       "engineering",
-      "ai-rd"
+      "ai-rd",
+      "mathematics",
+      "agents"
     ],
     "method": "experimental-demonstration",
     "publication_status": "preprint",
@@ -6245,6 +6364,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2506.13131",
+    "topic_basis": "Appraised mathematical and algorithmic discovery alongside engineering and AI R&D.",
     "date": "2025-06-16",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6298,11 +6418,13 @@
     "url": "https://arxiv.org/abs/2512.18925",
     "title": "Beyond the Prompt: An Empirical Study of Cursor Rules",
     "topics": [
-      "context"
+      "engineering",
+      "agents",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Beyond the Prompt: An Empirical Study of Cursor Rules. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: Beyond the Prompt: An Empirical Study of Cursor Rules. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6325,6 +6447,7 @@
     "observed_date": "2025/12/21",
     "doi": "10.1145/3793302.3793367",
     "arxiv_id": "2512.18925",
+    "topic_basis": "Cursor rules study concerns coding-agent instructions.",
     "date": "2025-12-21",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6455,11 +6578,13 @@
     "url": "https://proceedings.mlr.press/v267/kazdan25a.html",
     "title": "Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World",
     "topics": [
-      "context"
+      "ai-rd",
+      "methods",
+      "science"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World. Result-level appraisal is pending.",
+    "summary": "Supporting reference on ai-rd, methods, science. Scope indicated by the primary-source title: Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6485,6 +6610,7 @@
       "Sanmi Koyejo"
     ],
     "observed_date": "2025/10/06",
+    "topic_basis": "Established title concerns synthetic training data and self-generating systems.",
     "date": "2025-10-06",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6497,11 +6623,12 @@
     "url": "https://www.tomshardware.com/tech-industry/cyber-security/researchers-uncover-critical-ai-ide-flaws-exposing-developers-to-data-theft-and-rce",
     "title": "Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible",
     "topics": [
-      "engineering"
+      "engineering",
+      "security"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, security. Scope indicated by the primary-source title: Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6523,6 +6650,7 @@
     ],
     "publisher": "Tom's Hardware",
     "authorship_basis": "Article's headline block and contributor profile identify Luke James; checked 13 October 2026.",
+    "topic_basis": "IDEsaster reporting explicitly concerns data theft and remote code execution.",
     "date": "2025-12-07",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6537,7 +6665,8 @@
     "topics": [
       "ai-rd",
       "engineering",
-      "agents"
+      "agents",
+      "science"
     ],
     "method": "benchmark",
     "publication_status": "preprint",
@@ -6579,11 +6708,14 @@
     "url": "https://www.microsoft.com/en-us/research/publication/dear-diary-a-randomized-controlled-trial-of-generative-ai-coding-tools-in-the-workplace",
     "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
     "topics": [
-      "engineering"
+      "engineering",
+      "work",
+      "methods",
+      "productivity"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, work, methods, productivity. Scope indicated by the primary-source title: Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6606,6 +6738,7 @@
       "Constance Hadley"
     ],
     "observed_date": "2025/04/27",
+    "topic_basis": "Randomized workplace coding-tools trial.",
     "date": "2025-04-27",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6792,7 +6925,10 @@
     "title": "DORA 2025 State of AI-assisted Software Development Report",
     "topics": [
       "engineering",
-      "business"
+      "business",
+      "productivity",
+      "quality",
+      "methods"
     ],
     "method": "survey",
     "publication_status": "organization-report",
@@ -6832,6 +6968,7 @@
     "verification_scope": "research publication page and report synthesis",
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
+    "topic_basis": "Appraised report measures individual and organizational engineering outcomes.",
     "date": "2025",
     "verified": true,
     "added_in": "2026-10",
@@ -6844,11 +6981,14 @@
     "url": "https://research.google/pubs/dora-impact-of-generative-ai-in-software-development",
     "title": "DORA Impact of Generative AI in Software Development",
     "topics": [
-      "engineering"
+      "engineering",
+      "productivity",
+      "business",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA Impact of Generative AI in Software Development. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, productivity, business, methods. Scope indicated by the primary-source title: DORA Impact of Generative AI in Software Development. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6873,6 +7013,7 @@
       "Adam Brown"
     ],
     "observed_date": "2025",
+    "topic_basis": "DORA report's established scope is software-development impact and organizational measurement.",
     "date": "2025",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -6885,11 +7026,14 @@
     "url": "https://dora.dev/ai/gen-ai-report",
     "title": "DORA | Download the Impact of Generative AI in Software Development",
     "topics": [
-      "engineering"
+      "engineering",
+      "productivity",
+      "business",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, productivity, business, methods. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -6917,6 +7061,7 @@
     ],
     "date_basis": "Linked primary report edition v. 2025.2 and author list (page 54); https://dora.dev/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf; checked 13 October 2026. Exact publication day not established.",
     "version_note": "Cites report edition 2025.2. The landing page's 13 April 2026 update is not the report's publication year.",
+    "topic_basis": "DORA report-download entry shares the software-development measurement scope.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -7105,11 +7250,11 @@
     "title": "Generative AI in Computer Science Education: Challenges and Opportunities",
     "topics": [
       "learning",
-      "science"
+      "engineering"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on learning, science. Scope indicated by the primary-source title: Generative AI in Computer Science Education: Challenges and Opportunities. Result-level appraisal is pending.",
+    "summary": "Supporting reference on learning, engineering. Scope indicated by the primary-source title: Generative AI in Computer Science Education: Challenges and Opportunities. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7137,6 +7282,7 @@
       "Generative AI in Computer Science Education"
     ],
     "version_note": "Publisher citation metadata includes the subtitle Challenges and Opportunities; Crossref uses the shorter book title. DOI and authors agree. Metadata comparison checked 13 October 2026.",
+    "topic_basis": "Computer-science education is the source focus; the word science alone should not assign scientific-discovery coverage.",
     "date": "2025-04",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7189,11 +7335,13 @@
     "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
     "title": "How AI is transforming work at Anthropic",
     "topics": [
-      "context"
+      "work",
+      "engineering",
+      "productivity"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: How AI is transforming work at Anthropic. Result-level appraisal is pending.",
+    "summary": "Supporting reference on work, engineering, productivity. Scope indicated by the primary-source title: How AI is transforming work at Anthropic. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7222,6 +7370,7 @@
     "publisher": "Anthropic",
     "authorship_basis": "Primary post's recommended BibTeX explicitly lists seven authors; its acknowledgments identify Huang as project lead and blog writer. Checked 13 October 2026.",
     "author_note": "Follow the named authors in the publisher's recommended citation; Anthropic is the publisher, not a substitute corporate author when a credited author list is available.",
+    "topic_basis": "Established internal-work source includes software-development and productivity experience.",
     "date": "2025-12-02",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7234,11 +7383,14 @@
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/dora-report-2025",
     "title": "How are developers using AI? Inside our 2025 DORA report",
     "topics": [
-      "engineering"
+      "engineering",
+      "productivity",
+      "business",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: How are developers using AI? Inside our 2025 DORA report. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, productivity, business, methods. Scope indicated by the primary-source title: How are developers using AI? Inside our 2025 DORA report. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7260,6 +7412,7 @@
     ],
     "publisher": "Google",
     "authorship_basis": "Official Google post's header names Ryan J. Salva, Senior Director, Product Management; checked 13 October 2026.",
+    "topic_basis": "Official explanation of DORA's software-development survey.",
     "date": "2025-09-23",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7277,11 +7430,12 @@
     "topics": [
       "engineering",
       "productivity",
+      "methods",
       "business"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, productivity, methods, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7538,11 +7692,12 @@
     "url": "https://arxiv.org/abs/2503.05040",
     "title": "No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic",
     "topics": [
-      "engineering"
+      "engineering",
+      "cognition"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, cognition. Scope indicated by the primary-source title: No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7579,11 +7734,13 @@
     "url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
     "title": "OWASP LLM Top 10: How it Applies to Code Generation | Learn Article",
     "topics": [
-      "engineering"
+      "engineering",
+      "security",
+      "governance"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, security, governance. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7605,6 +7762,7 @@
       "SonarSource"
     ],
     "date_basis": "Primary Article JSON-LD datePublished and organization author; retrieved 12 October 2026, inspected 13 October 2026.",
+    "topic_basis": "OWASP LLM security guidance for code generation.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -7694,11 +7852,13 @@
     "url": "https://arxiv.org/abs/2504.20814",
     "title": "Secure Coding with AI -- From Detection to Repair",
     "topics": [
-      "engineering"
+      "engineering",
+      "security",
+      "quality"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on engineering. Scope indicated by the primary-source title: Secure Coding with AI -- From Detection to Repair. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, security, quality. Scope indicated by the primary-source title: Secure Coding with AI -- From Detection to Repair. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7721,6 +7881,7 @@
     ],
     "observed_date": "2025/04/29",
     "arxiv_id": "2504.20814",
+    "topic_basis": "Secure coding, vulnerability detection and repair.",
     "date": "2025-04-29",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -7889,11 +8050,13 @@
     "topics": [
       "quality",
       "productivity",
+      "cost",
+      "engineering",
       "business"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on quality, productivity, business. Scope indicated by the primary-source title: Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects. Result-level appraisal is pending.",
+    "summary": "Supporting reference on quality, productivity, cost, engineering, business. Scope indicated by the primary-source title: Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -7923,6 +8086,7 @@
     ],
     "version_note": "The November 2025 arXiv version uses a longer subtitle; Crossref records the same authors and associated 2026 conference publication under Speed at the Cost of Quality. Do not treat the versions as independent studies. Metadata comparison checked 13 October 2026.",
     "arxiv_id": "2511.04427",
+    "topic_basis": "Explicit source focus is software complexity and development velocity; enterprise value is not established by the title.",
     "date": "2025-11-06",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -8020,12 +8184,13 @@
     "url": "https://www.faros.ai/blog/ai-software-engineering",
     "title": "The AI Productivity Paradox Research Report",
     "topics": [
-      "science",
-      "productivity"
+      "productivity",
+      "business",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.",
+    "summary": "Supporting reference on productivity, business, methods. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -8050,6 +8215,7 @@
       "The AI Productivity Paradox Report 2025"
     ],
     "date_basis": "Primary BlogPosting JSON-LD datePublished and author; retrieved 12 October 2026, inspected 13 October 2026. The September 2026 modification is not the publication date.",
+    "topic_basis": "AI productivity report is economic/organizational evidence, not a source about scientific discovery merely because its title says research report.",
     "verified": true,
     "editorial_priority": "supporting",
     "added_in": "2026-10"
@@ -8145,7 +8311,8 @@
     "topics": [
       "productivity",
       "engineering",
-      "methods"
+      "methods",
+      "verification"
     ],
     "method": "survey",
     "publication_status": "preprint",
@@ -8178,6 +8345,7 @@
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
     "arxiv_id": "2510.24265",
+    "topic_basis": "Appraised practitioner study explicitly includes shifted review and verification costs.",
     "date": "2025-10-28",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -8283,11 +8451,15 @@
     "url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers",
     "title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
     "topics": [
-      "methods"
+      "methods",
+      "cognition",
+      "work",
+      "judgment",
+      "trust"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on methods. Scope indicated by the primary-source title: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Result-level appraisal is pending.",
+    "summary": "Supporting reference on methods, cognition, work, judgment, trust. Scope indicated by the primary-source title: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -8313,6 +8485,7 @@
       "Nicholas Wilson"
     ],
     "observed_date": "2025/04/01",
+    "topic_basis": "Critical thinking, cognitive effort and confidence among knowledge workers.",
     "date": "2025-04-01",
     "year": 2025,
     "date_basis": "primary metadata",
@@ -8406,7 +8579,9 @@
     "topics": [
       "engineering",
       "learning",
-      "judgment"
+      "judgment",
+      "work",
+      "cognition"
     ],
     "method": "case-study",
     "publication_status": "expert-blog",
@@ -8433,6 +8608,7 @@
     "verification_scope": "primary essay",
     "checked_on": "2026-10-12",
     "editorial_priority": "core",
+    "topic_basis": "Career pathway and retention of an engineering mental model are central.",
     "date": "2025-07-17",
     "verified": true,
     "added_in": "2026-10"
@@ -8442,11 +8618,13 @@
     "url": "https://www.nature.com/articles/s41586-024-07566-y",
     "title": "AI models collapse when trained on recursively generated data",
     "topics": [
-      "context"
+      "ai-rd",
+      "methods",
+      "science"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: AI models collapse when trained on recursively generated data. Result-level appraisal is pending.",
+    "summary": "Supporting reference on ai-rd, methods, science. Scope indicated by the primary-source title: AI models collapse when trained on recursively generated data. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -8473,6 +8651,7 @@
     "observed_date": "2024/07",
     "doi": "10.1038/s41586-024-07566-y",
     "container_title": "Nature",
+    "topic_basis": "Model collapse under recursively generated training data.",
     "date": "2024-07",
     "year": 2024,
     "date_basis": "primary metadata",
@@ -8684,11 +8863,14 @@
     "url": "https://openai.com/index/introducing-swe-bench-verified",
     "title": "Introducing SWE-bench Verified",
     "topics": [
-      "context"
+      "engineering",
+      "agents",
+      "methods",
+      "verification"
     ],
     "method": "not-classified",
     "publication_status": "not-established",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, methods, verification. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -8727,6 +8909,7 @@
     ],
     "date_basis": "Primary publication date and named Authors section; rechecked in local Chrome on 13 October 2026.",
     "version_note": "Originally published 13 August 2024; the page separately records an update on 24 February 2025. OpenAI is the publisher; named authors are retained.",
+    "topic_basis": "SWE-bench Verified is a software-agent evaluation and benchmark validation source.",
     "verified": true,
     "browser_verification": {
       "id": "ref-10b59b402b",
@@ -9105,11 +9288,13 @@
     "url": "https://arxiv.org/abs/2310.06770",
     "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
     "topics": [
-      "context"
+      "engineering",
+      "agents",
+      "methods"
     ],
     "method": "not-classified",
     "publication_status": "preprint",
-    "summary": "Supporting reference on context. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.",
+    "summary": "Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.",
     "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
     "verification": {
       "level": "identity-checked",
@@ -9137,6 +9322,7 @@
     "observed_date": "2023/10/10",
     "version_note": "This record dates the 2023 arXiv preprint. For benchmark use, the authors recommend the ICLR 2024 paper: https://openreview.net/forum?id=VTF8yNQM66. Exact recommended BibTeX is supplied in swebench-recommended.bib. OpenReview was access-blocked; conference citation metadata is sourced to the authors' README, not an independent full-text inspection.",
     "arxiv_id": "2310.06770",
+    "topic_basis": "Software issue-resolution benchmark, not a mathematical research paper.",
     "date": "2023-10-10",
     "year": 2023,
     "date_basis": "primary metadata",

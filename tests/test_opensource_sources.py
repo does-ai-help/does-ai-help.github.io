@@ -35,8 +35,10 @@ class OpenSourceSourceTests(unittest.TestCase):
 
     def test_pdf_repository_urls_are_breakable(self):
         tex = (ROOT / "latex/body.tex").read_text()
-        self.assertIn(r"\url{https://github.com/redox-os/redox/blob/03d6b8bc05bab7cf03490671cd3d23571214a720/CONTRIBUTING.md}", tex)
-        self.assertIn(r"\nolinkurl{2f127af408e1b4675662f9b8a0c3606f6565a1a7}", tex)
+        self.assertIn(r"\url{" + self.records['redoxpolicy2026']['url'] + '}', tex)
+        # Detailed source-revision provenance belongs to the evidence record.
+        self.assertIn('03d6b8bc05bab7cf03490671cd3d23571214a720',
+                      self.records['redoxpolicy2026']['version_note'])
 
     def test_qemu_introduction_date(self):
         self.assertEqual(self.records["qemupolicy2026"]["date"], "2025-06-24")

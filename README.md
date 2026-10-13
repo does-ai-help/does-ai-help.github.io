@@ -2,7 +2,7 @@
 
 **Evidence on productivity, learning, engineering, and scientific discovery**
 
-October 2026 release · Version 2026.10.12 · Evidence cutoff: 13 October 2026
+October 2026 release · Version 2026.10.13 · Evidence cutoff: 13 October 2026
 
 Lead AI author: **GPT 6.1**. Co-author: **Witold Bołt, PhD**, Vice-President of [Jit Team](https://jit.team), a software consulting company. For discussion of the review and its implications: [Witold.Bolt@jit.team](mailto:Witold.Bolt@jit.team) or [LinkedIn](https://www.linkedin.com/in/witoldbolt/). Affiliation is disclosed, not offered as evidence or product endorsement.
 
@@ -28,12 +28,12 @@ A living critical narrative review and evidence map of AI's effects on intellect
 
 - [Web article](https://does-ai-help.github.io/)
 - [Searchable evidence map](site/bibliography.html)
-- [Article PDF](site/downloads/does-ai-help-2026.10.12.pdf)
+- [Article PDF](site/downloads/does-ai-help-2026.10.13.pdf)
 - [Balance self-review and October source-admission log](manuscript/balance-review.md)
-- [Complete October release](site/downloads/does-ai-help-release-2026.10.12.zip)
-- [SWE-bench authors' recommended citations](site/downloads/does-ai-help-swebench-recommended-2026.10.12.bib)
+- [Complete October release](site/downloads/does-ai-help-release-2026.10.13.zip)
+- [SWE-bench authors' recommended citations](site/downloads/does-ai-help-swebench-recommended-2026.10.13.bib)
 - [Annotated database](data/sources.json)
-- [CSL-JSON](site/downloads/does-ai-work-2026.10.12.csl.json), [BibTeX](site/downloads/does-ai-work-2026.10.12.bib), [RIS](site/downloads/does-ai-work-2026.10.12.ris), [CSV](site/downloads/does-ai-help-evidence-2026.10.12.csv), and [JSON Lines](site/downloads/does-ai-help-evidence-2026.10.12.jsonl)
+- [CSL-JSON](site/downloads/does-ai-work-2026.10.13.csl.json), [BibTeX](site/downloads/does-ai-work-2026.10.13.bib), [RIS](site/downloads/does-ai-work-2026.10.13.ris), [CSV](site/downloads/does-ai-help-evidence-2026.10.13.csv), and [JSON Lines](site/downloads/does-ai-help-evidence-2026.10.13.jsonl)
 
 Public downloads include the full release version, including patch numbers. `data/download-names.json` defines their project-specific names; the build generates a downloadable filename manifest. Generic file paths remain compatibility aliases for existing links and tools. Archives include current files and aliases, never other releases' versioned downloads.
 - [Review method](manuscript/methodology.md) and [changelog](CHANGELOG.md)
@@ -62,6 +62,7 @@ Citation-manager exports contain checked identities only. The evidence database 
 | `releases/2026-10.10/` | Primary KPMG Q3 report, named authors and qualified value-versus-cost findings |
 | `releases/2026-10.11/` | Leiden Declaration, registered authors, original date and mathematical governance context |
 | `releases/2026-10.12/` | Project-specific versioned downloads, filename manifest and compatibility aliases |
+| `releases/2026-10.13/` | Reviewed topic coverage, clean article references and GitHub star navigation |
 | `.github/workflows/` | Pages deployment and monthly source-access monitoring, for a standalone repository |
 
 The directory is self-contained and intended to become the root of a dedicated GitHub repository. The existing parent checkout is not required for building or serving the release. No account credentials are included.

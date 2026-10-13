@@ -1,5 +1,12 @@
 # Release history
 
+## 2026.10.13 - Publication baseline and navigation
+
+- Reviewed multi-label topics and explicit taxonomy; mathematics now includes 21 relevant records.
+- Conventional article references omit editorial verification history while retaining source-version caveats; audit provenance remains in the evidence database.
+- October is presented as the initial publication baseline.
+- Shared GitHub star link displays the public live count with a usable offline fallback.
+
 ## 2026.10.12 - Project-specific versioned downloads
 
 - Public bibliography files use `does-ai-work-2026.10.12` with their BibTeX, RIS and CSL-JSON extensions. Filtered exports include the same full release version.

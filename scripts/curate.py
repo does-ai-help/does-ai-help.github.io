@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from topics import classify, title_topics
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,20 +23,7 @@ def load(name):
 
 
 def topics_from_title(title):
-    words = title.lower()
-    rules = {
-        "engineering": ["code", "coding", "software", "developer", "devops", "programming"],
-        "learning": ["education", "learning programming", "student", "learner", "teaching", "tutor", "skill formation"],
-        "science": ["scientific", "science", "research", "alphafold", "mathemat", "proof"],
-        "work": ["jobs", "employment", "labor", "workforce", "career"],
-        "quality": ["quality", "defect", "maintenance", "refactor", "test coverage", "bugs", "debt"],
-        "productivity": ["productivity", "efficiency", "velocity", "speed"],
-        "security": ["security", "vulnerabil", "red-team", "risk"],
-        "agents": ["agent", "harness"],
-        "methods": ["measur", "benchmark", "evaluat", "survey", "review"],
-        "business": ["firm", "spending", "token", "cost", "adoption", "enterprise"],
-    }
-    return [k for k, terms in rules.items() if any(t in words for t in terms)] or ["context"]
+    return title_topics(title)
 
 
 def main():
@@ -68,6 +56,11 @@ def main():
     from browser_review import latest_receipts, receipt_errors
     browser_checks = latest_receipts(load("browser-verification.json"))
     corrections = load("bibliographic-corrections.json")
+    taxonomy = load('topic-taxonomy.json')
+    topic_corrections = load('topic-corrections.json')
+    missing = set(topic_corrections) - {r['id'] for r in records.values()}
+    if missing:
+        raise ValueError(f'Unknown topic-correction IDs: {sorted(missing)}')
     for r in records.values():
         r.update(corrections.get(r["id"], {}))
         r.setdefault("authors", [])
@@ -87,6 +80,7 @@ def main():
         r.setdefault("topics", topics_from_title(r.get("title", "")))
         if not r["topics"]:
             r["topics"] = topics_from_title(r.get("title", ""))
+        classify(r, taxonomy, topic_corrections)
         r.setdefault("method", "not-classified")
         r.setdefault("publication_status", "not-established")
         if r["publication_status"] == "not-established" and "arxiv.org/" in r["url"]:

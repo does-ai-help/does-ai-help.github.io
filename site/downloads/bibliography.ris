@@ -149,6 +149,7 @@ N1  - Normative collective statement, not representative polling or an empirical
 KW  - science
 KW  - governance
 KW  - work
+KW  - mathematics
 DO  - 10.5281/zenodo.22737750
 N1  - Version: Registered DOI metadata establishes 25 creators. Compact display credits Terence Tao et al.; exports retain registered creator order. The live declaration's additional signatories are not silently converted into coauthors.
 ER  - 
@@ -249,6 +250,8 @@ N1  - Merged PRs are a proxy rather than value; adoption spreads through social 
 KW  - productivity
 KW  - engineering
 KW  - cost
+KW  - agents
+KW  - business
 AN  - arXiv:2607.01418
 ER  - 
 
@@ -280,8 +283,10 @@ DA  - 2026-05-21
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2605.22763
-AB  - Supporting reference on science. Scope indicated by the primary-source title: Advancing Mathematics Research with AI-Driven Formal Proof Search. Result-level appraisal is pending.
+AB  - Supporting reference on mathematics, verification, science. Scope indicated by the primary-source title: Advancing Mathematics Research with AI-Driven Formal Proof Search. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - mathematics
+KW  - verification
 KW  - science
 AN  - arXiv:2605.22763
 ER  - 
@@ -298,6 +303,7 @@ N1  - A strong organizational position, not a vote of all mathematicians or a te
 KW  - science
 KW  - governance
 KW  - work
+KW  - mathematics
 N1  - Version: Date confirmed by the organization's text referring to the preceding day and Tao's 7 October guest repost. The official page contains multiple statements.
 N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Statement heading, official organization and working-group attribution, and main statement text in Chrome.
 ER  - 
@@ -341,9 +347,11 @@ N1  - Date basis: identifier or URL year; exact date not established
 N1  - Authorship: PDF first-page institutional credit and page 11 Cite this work/BibTeX explicitly specify Stanford Digital Economy Lab as author and institution; checked 13 October 2026.
 PY  - 2026
 UR  - https://digitaleconomy.stanford.edu/app/uploads/2026/06/AIEI_RN01_Jun26.pdf
-AB  - Supporting reference on context. Scope indicated by the primary-source title: AI Economic Indicators: June 2026 Update. Result-level appraisal is pending.
+AB  - Supporting reference on business, work, methods. Scope indicated by the primary-source title: AI Economic Indicators: June 2026 Update. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - business
+KW  - work
+KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -357,10 +365,12 @@ DA  - 2026-08-09
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2608.08709
-AB  - Supporting reference on methods, business. Scope indicated by the primary-source title: AI Evaluation Should Measure Verification Cost, Not Correctness Alone. Result-level appraisal is pending.
+AB  - Supporting reference on methods, business, cost, verification. Scope indicated by the primary-source title: AI Evaluation Should Measure Verification Cost, Not Correctness Alone. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - methods
 KW  - business
+KW  - cost
+KW  - verification
 AN  - arXiv:2608.08709
 ER  - 
 
@@ -563,9 +573,11 @@ DA  - 2026-08-07
 N1  - Date basis: Primary announcement date and byline; source page checked 13 October 2026.
 PY  - 2026
 UR  - https://rsi-benchmark.com/blog/announcing-rsi-bench
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.
+AB  - Supporting reference on ai-rd, methods, science. Scope indicated by the primary-source title: Announcing RSI Bench. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - ai-rd
+KW  - methods
+KW  - science
 ER  - 
 
 TY  - ELEC
@@ -577,10 +589,12 @@ DA  - 2026-01-30
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2602.00409
-AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: Are Coding Agents Generating Over-Mocked Tests? An Empirical Study. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, quality, verification. Scope indicated by the primary-source title: Are Coding Agents Generating Over-Mocked Tests? An Empirical Study. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
 KW  - agents
+KW  - quality
+KW  - verification
 AN  - arXiv:2602.00409
 ER  - 
 
@@ -729,9 +743,11 @@ N1  - Date basis: primary metadata
 N1  - Authorship: Publisher's dated CEOs tag archive identifies the exact article with a Mike Masnick byline, 9 June 2026; checked 13 October 2026: https://www.techdirt.com/tag/ceos/.
 PY  - 2026
 UR  - https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos
-AB  - Supporting reference on context. Scope indicated by the primary-source title: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs. Result-level appraisal is pending.
+AB  - Supporting reference on work, business, governance. Scope indicated by the primary-source title: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - work
+KW  - business
+KW  - governance
 ER  - 
 
 TY  - ELEC
@@ -754,6 +770,7 @@ N1  - One enterprise and language, attribution challenges, private data; the res
 KW  - engineering
 KW  - quality
 KW  - cost
+KW  - business
 AN  - arXiv:2608.06640
 ER  - 
 
@@ -794,6 +811,8 @@ N1  - Short interaction and self-reported intentions, not a controlled estimate 
 KW  - science
 KW  - trust
 KW  - methods
+KW  - verification
+KW  - cognition
 AN  - arXiv:2609.22248
 ER  - 
 
@@ -835,9 +854,10 @@ DA  - 2026-05-19
 N1  - Date basis: Primary Revelio publication date and suggested citation; checked 13 October 2026. The 11 June update is not the original publication date.
 PY  - 2026
 UR  - https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark
-AB  - Supporting reference on science. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.
+AB  - Supporting reference on learning, work. Scope indicated by the primary-source title: Computer Science Has Hit Its High Water Mark. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - science
+KW  - learning
+KW  - work
 ER  - 
 
 TY  - ELEC
@@ -891,6 +911,8 @@ AB  - Population search over harnesses improves benchmark performance with a fro
 N1  - Recent author-reported benchmark results require independent replication and careful train-test separation.
 KW  - ai-rd
 KW  - agents
+KW  - methods
+KW  - science
 AN  - arXiv:2608.07545
 ER  - 
 
@@ -1042,6 +1064,9 @@ AB  - Discusses tensions between AI adoption, trust, verification, workflow desi
 N1  - Interpretive and practical guidance; not a new randomized productivity estimate.
 KW  - engineering
 KW  - business
+KW  - trust
+KW  - verification
+KW  - quality
 ER  - 
 
 TY  - JOUR
@@ -1073,9 +1098,10 @@ DA  - 2026-07-09
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2607.08849
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Experimental Evidence on the Learning Impact of Generative AI. Result-level appraisal is pending.
+AB  - Supporting reference on learning, methods. Scope indicated by the primary-source title: Experimental Evidence on the Learning Impact of Generative AI. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - learning
+KW  - methods
 AN  - arXiv:2607.08849
 ER  - 
 
@@ -1089,6 +1115,7 @@ AB  - The manuscript states a smooth forced flow with finite-time unbounded velo
 N1  - Only the abstract, theorem statement and outline were inspected. This review does not independently validate the 166-page proof.
 KW  - science
 KW  - verification
+KW  - mathematics
 N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: First-page title, attribution, abstract and introduction opening in Chrome's PDF viewer, using accessibility output and visual inspection.
 ER  - 
 
@@ -1102,6 +1129,7 @@ AB  - Provides Lean formalization artifacts and independent-checking instruction
 N1  - Repository availability and build instructions are not our successful execution or an independent audit of formal statement fidelity.
 KW  - science
 KW  - verification
+KW  - mathematics
 N1  - Version: Pinned to f9e8bc5b38b6e212696e8a30e3e91517af887bbd, the revision examined by the October critique.
 ER  - 
 
@@ -1133,12 +1161,11 @@ DA  - 2026-07-14
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2607.13196
-AB  - Supporting reference on engineering, quality, agents, methods. Scope indicated by the primary-source title: From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, quality, agents. Scope indicated by the primary-source title: From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
 KW  - quality
 KW  - agents
-KW  - methods
 AN  - arXiv:2607.13196
 ER  - 
 
@@ -1180,9 +1207,11 @@ DA  - 2026-09-01
 N1  - Date basis: README revision e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a committed 1 September 2026; document-revision date, not benchmark publication year.
 PY  - 2026
 UR  - https://github.com/SWE-bench/SWE-bench
-AB  - Supporting reference on context. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues?. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - engineering
+KW  - agents
+KW  - methods
 N1  - Version: Authors' README recommends Jimenez et al., ICLR 2024 for SWE-bench (Verified), Yang et al., ICLR 2025 for Multimodal, and Yang et al., SWE-smith (arXiv:2504.21798, 2025) for Multilingual. Exact BibTeX: https://does-ai-help.github.io/downloads/swebench-recommended.bib. Pinned README: https://github.com/SWE-bench/SWE-bench/blob/e2c13307b6cf7764a50958b9c8bfbfb3f72cb70a/README.md. Repository and paper citations are distinct.
 ER  - 
 
@@ -1195,11 +1224,10 @@ DA  - 2026-06-29
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://proceedings.mlr.press/v318/amro26a.html
-AB  - Supporting reference on engineering, security, methods. Scope indicated by the primary-source title: GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: GitHub’s Copilot Code Review: Can AI Spot Security Flaws Before You Commit?. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
 KW  - security
-KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -1236,6 +1264,8 @@ KW  - work
 KW  - agents
 KW  - security
 KW  - methods
+KW  - cost
+KW  - governance
 N1  - Version: Q3 is a distinct quarterly wave, not the report underlying the June Q2 announcement. Fieldwork: 23 July-26 August 2026. Authors and contributors are separately identified. Selective AI-assisted synthesis/editorial work is disclosed on page 25. Commentary and survey findings are kept distinct.
 ER  - 
 
@@ -1254,6 +1284,8 @@ AB  - Q2 announcement describes 2,145 senior leaders surveyed in April-May 2026.
 N1  - Institutional summary and executive self-reports, not causal or audited evidence. Headline language about accountability driving results is stronger than the observational comparison establishes. Q2 and Q3 are related survey waves, not independent replications.
 KW  - business
 KW  - methods
+KW  - cost
+KW  - governance
 ER  - 
 
 TY  - ELEC
@@ -1264,9 +1296,11 @@ DA  - 2026-03
 N1  - Date basis: Primary IZA Discussion Paper 18513 page: March 2026; checked 13 October 2026. No publication day supplied.
 PY  - 2026
 UR  - https://www.iza.org/publications/dp/18513/guidance-over-adoption-experimental-evidence-on-ai-assisted-learning
-AB  - Supporting reference on business. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.
+AB  - Supporting reference on learning, business, methods. Scope indicated by the primary-source title: Guidance Over Adoption: Experimental Evidence on AI-Assisted Learning. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - learning
 KW  - business
+KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -1282,6 +1316,7 @@ AB  - Randomized study of learning a programming library finds reduced conceptua
 N1  - A small task-specific study; interaction-pattern subgroups are exploratory and not separately randomized.
 KW  - learning
 KW  - engineering
+KW  - cognition
 AN  - arXiv:2601.20245
 ER  - 
 
@@ -1292,9 +1327,10 @@ AU  - OpenAI
 DA  - 2026-07-27
 PY  - 2026
 UR  - https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
-AB  - Supporting reference on context. Scope indicated by the primary-source title: How AI is expanding what people do at work. Result-level appraisal is pending.
+AB  - Supporting reference on work, business. Scope indicated by the primary-source title: How AI is expanding what people do at work. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - work
+KW  - business
 N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Publisher heading/date, Author block and accessible report introduction in Chrome.
 ER  - 
 
@@ -1340,9 +1376,11 @@ N1  - Date basis: primary metadata
 N1  - Authorship: Article's About This Article section credits Dave Meyer and links his author profile; checked 13 October 2026.
 PY  - 2026
 UR  - https://www.atlassian.com/blog/company-news/ai-sdlc
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: How we’re evolving Jira for AI-native software development - Inside Atlassian. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, business. Scope indicated by the primary-source title: How we’re evolving Jira for AI-native software development - Inside Atlassian. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - agents
+KW  - business
 ER  - 
 
 TY  - ELEC
@@ -1353,10 +1391,10 @@ DA  - 2026-12
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://link.springer.com/article/10.1186/s41239-026-00614-9
-AB  - Supporting reference on learning, science. Scope indicated by the primary-source title: Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation. Result-level appraisal is pending.
+AB  - Supporting reference on science, learning. Scope indicated by the primary-source title: Human-centered GenAI feedback design in higher education: a multisite experiment on direct, reflective, and hybrid approaches to scientific argumentation. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - learning
 KW  - science
+KW  - learning
 DO  - 10.1186/s41239-026-00614-9
 ER  - 
 
@@ -1407,6 +1445,7 @@ KW  - science
 KW  - governance
 KW  - learning
 KW  - work
+KW  - mathematics
 DO  - 10.5281/zenodo.20302944
 N1  - Version: Original declaration DOI: 10.5281/zenodo.20302944; concept DOI: 10.5281/zenodo.20302943. Later arXiv manifestation: https://arxiv.org/abs/2609.35334v2 (v1: 28 September; v2: 30 September 2026). One declaration, not independent evidence. IMU endorsement: https://www.mathunion.org/fileadmin/documents/2026-06/IMU_AO_CL_8_2026.pdf. Source license is CC BY-NC 4.0; the review's CC BY 4.0 does not relicense the declaration.
 ER  - 
@@ -1440,6 +1479,8 @@ AB  - A regularly updated mathematics-learning synthesis reports a positive esti
 N1  - 34 studies in v5; narrower eligibility and Bayesian models differ from broad STEM syntheses. Shared trials are not independent corroboration; a credible interval is not a confidence interval.
 KW  - learning
 KW  - methods
+KW  - mathematics
+KW  - science
 DO  - 10.48550/arXiv.2601.18685
 AN  - arXiv:2601.18685
 N1  - Version: Pinned to v5 (11 September 2026): g=0.57, credible interval 0.36-0.79. DOI identifies the version family; January first-submission and September revision dates must not be conflated.
@@ -1473,6 +1514,7 @@ N1  - A research agenda and expert assessment, not a causal measurement of commu
 KW  - science
 KW  - learning
 KW  - governance
+KW  - mathematics
 N1  - Version: Caltech lecture delivered 9 October; slides announced in Tao's blog on 10 October. Future November events are proposals, not completed outcomes.
 ER  - 
 
@@ -1489,6 +1531,8 @@ N1  - A philosophical framework, not a measured effect. Solicited chapter status
 KW  - science
 KW  - learning
 KW  - governance
+KW  - mathematics
+KW  - cognition
 DO  - 10.48550/arXiv.2603.26524
 AN  - arXiv:2603.26524
 ER  - 
@@ -1504,6 +1548,7 @@ AB  - Asks what mathematical research is for, conditional on increasingly capabl
 N1  - An ICM lecture-based conceptual argument; submission to proceedings does not establish peer review of this version.
 KW  - science
 KW  - governance
+KW  - mathematics
 DO  - 10.48550/arXiv.2608.16753
 AN  - arXiv:2608.16753
 ER  - 
@@ -1520,6 +1565,8 @@ N1  - Model-rated internal documentation and approximate time weights; automatio
 KW  - ai-rd
 KW  - methods
 KW  - work
+KW  - productivity
+KW  - science
 ER  - 
 
 TY  - ELEC
@@ -1554,6 +1601,7 @@ N1  - Mostly students; only 14 professionals. Short tasks and AI-generated compr
 KW  - engineering
 KW  - learning
 KW  - productivity
+KW  - cognition
 JO  - IEEE Transactions on Software Engineering
 N1  - Version: Author-hosted manuscript; journal identity confirmed on the author's research page. The August 2021 running header is a LaTeX template artifact, not the publication date. DOI not yet established in this review.
 ER  - 
@@ -1570,6 +1618,7 @@ N1  - Not a prize award or an independent completed validation. Its September st
 KW  - science
 KW  - verification
 KW  - governance
+KW  - mathematics
 ER  - 
 
 TY  - ELEC
@@ -1586,6 +1635,7 @@ N1  - A preprint critique, not a complete independent adjudication. Its worst-ca
 KW  - science
 KW  - verification
 KW  - methods
+KW  - mathematics
 DO  - 10.48550/arXiv.2610.08144
 AN  - arXiv:2610.08144
 ER  - 
@@ -1671,6 +1721,7 @@ N1  - Developer claim with unavailable internal model; announcement, formal chec
 KW  - science
 KW  - agents
 KW  - verification
+KW  - mathematics
 N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Fully rendered announcement heading/date, Author block, introductory claim and section headings in Chrome.
 ER  - 
 
@@ -1686,9 +1737,8 @@ DA  - 2026-08-10
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2608.10178
-AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models. Result-level appraisal is pending.
+AB  - Supporting reference on agents. Scope indicated by the primary-source title: One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - engineering
 KW  - agents
 AN  - arXiv:2608.10178
 ER  - 
@@ -1741,6 +1791,8 @@ KW  - science
 KW  - security
 KW  - verification
 KW  - engineering
+KW  - mathematics
+KW  - quality
 ER  - 
 
 TY  - ELEC
@@ -1761,9 +1813,12 @@ DA  - 2026-01-28
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2601.20802
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Reinforcement Learning via Self-Distillation. Result-level appraisal is pending.
+AB  - Supporting reference on learning, ai-rd, methods, science. Scope indicated by the primary-source title: Reinforcement Learning via Self-Distillation. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - learning
+KW  - ai-rd
+KW  - methods
+KW  - science
 AN  - arXiv:2601.20802
 ER  - 
 
@@ -1783,8 +1838,9 @@ DA  - 2026-05-20
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2605.20695
-AB  - Supporting reference on science. Scope indicated by the primary-source title: Remarks on the disproof of the unit distance conjecture. Result-level appraisal is pending.
+AB  - Supporting reference on mathematics, science. Scope indicated by the primary-source title: Remarks on the disproof of the unit distance conjecture. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - mathematics
 KW  - science
 AN  - arXiv:2605.20695
 ER  - 
@@ -1867,6 +1923,8 @@ N1  - A benchmark environment and curated tasks; longitudinal agent evaluation i
 KW  - engineering
 KW  - quality
 KW  - agents
+KW  - methods
+KW  - verification
 AN  - arXiv:2603.03823
 ER  - 
 
@@ -1887,11 +1945,10 @@ DA  - 2026-07-07
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2607.06065
-AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents. Scope indicated by the primary-source title: SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
 KW  - agents
-KW  - methods
 AN  - arXiv:2607.06065
 ER  - 
 
@@ -1947,8 +2004,9 @@ N1  - Date basis: Primary publication date, also recorded in the existing local 
 N1  - Authorship: Official announcement header identifies OpenAI above the 1 August 2026 date; checked 13 October 2026. Announcement authorship is distinct from authorship of each linked mathematical manuscript.
 PY  - 2026
 UR  - https://openai.com/index/ten-advances-in-mathematics
-AB  - Supporting reference on science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.
+AB  - Supporting reference on mathematics, science. Scope indicated by the primary-source title: Ten advances in mathematics and theoretical computer science. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
+KW  - mathematics
 KW  - science
 N1  - Alternative verification: local Chrome, 2026-10-13T16:10:55+00:00; identity-confirmed. Scope: Loaded official announcement in local Chrome: page title, 1 August 2026 date, official publisher address and links to mathematical papers.
 ER  - 
@@ -1965,6 +2023,7 @@ N1  - AI-drafted, reviewed and corrected by Tao; editorial selection and third-p
 KW  - science
 KW  - learning
 KW  - methods
+KW  - mathematics
 N1  - Version: Inspected version last updated 11 October 2026; page discloses AI assistance, industry access and collaborations.
 ER  - 
 
@@ -2036,6 +2095,7 @@ N1  - Repository-issue tasks and selected actors; efficiency within this evaluat
 KW  - agents
 KW  - engineering
 KW  - cost
+KW  - business
 AN  - arXiv:2608.11386
 ER  - 
 
@@ -2222,10 +2282,11 @@ DA  - 2026-01-20
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2601.14470
-AB  - Supporting reference on engineering, agents, business. Scope indicated by the primary-source title: Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, cost, business. Scope indicated by the primary-source title: Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
 KW  - agents
+KW  - cost
 KW  - business
 AN  - arXiv:2601.14470
 ER  - 
@@ -2249,6 +2310,7 @@ AB  - Demonstrates an extended automated ML-research workflow and evaluation of 
 N1  - Human selection and workshop-level assessment are not evidence of unrestricted autonomous scientific excellence.
 KW  - science
 KW  - agents
+KW  - ai-rd
 DO  - 10.1038/s41586-026-10265-5
 JO  - Nature
 ER  - 
@@ -2276,9 +2338,11 @@ N1  - Date basis: primary metadata
 N1  - Authorship: Article byline and author section identify Jake Angelo; checked 13 October 2026.
 PY  - 2026
 UR  - https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune. Result-level appraisal is pending.
+AB  - Supporting reference on business, cost, engineering. Scope indicated by the primary-source title: Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it | Fortune. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - business
+KW  - cost
+KW  - engineering
 ER  - 
 
 TY  - ELEC
@@ -2332,6 +2396,8 @@ N1  - Formal validity is conditional on specification; small curated benchmark a
 KW  - engineering
 KW  - verification
 KW  - agents
+KW  - methods
+KW  - quality
 AN  - arXiv:2608.13522
 ER  - 
 
@@ -2352,6 +2418,7 @@ AB  - METR's follow-up describes selection and measurement problems as developer
 N1  - Raw later estimates are explicitly treated as unreliable; they neither erase the original trial nor establish a new precise productivity effect.
 KW  - productivity
 KW  - methods
+KW  - engineering
 N1  - Version: Already included and appraised before this authorship update. Reports a later experiment's selection and time-accounting problems and a design change; not a revision that replaces the original 2025 experiment.
 ER  - 
 
@@ -2367,6 +2434,7 @@ N1  - Expert technical account, not our independent execution of the proofs or a
 KW  - science
 KW  - verification
 KW  - security
+KW  - mathematics
 N1  - Version: Guest author is Thomas Hales, not blog host Terence Tao. Formal checking and human exposition address different questions.
 ER  - 
 
@@ -2378,9 +2446,10 @@ DA  - 2026-07-30
 N1  - Date basis: primary metadata
 PY  - 2026
 UR  - https://arxiv.org/abs/2607.28041
-AB  - Supporting reference on security. Scope indicated by the primary-source title: When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution. Result-level appraisal is pending.
+AB  - Supporting reference on learning, cognition. Scope indicated by the primary-source title: When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - security
+KW  - learning
+KW  - cognition
 AN  - arXiv:2607.28041
 ER  - 
 
@@ -2417,9 +2486,9 @@ AU  - OpenAI
 DA  - 2026-02-23
 PY  - 2026
 UR  - https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified
-AB  - Supporting reference on methods. Scope indicated by the primary-source title: Why we no longer evaluate SWE-bench Verified. Result-level appraisal is pending.
+AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Why we no longer evaluate SWE-bench Verified. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - methods
+KW  - engineering
 N1  - Alternative verification: local Chrome, 2026-10-13T07:11:49+00:00; identity-confirmed. Scope: Browser page title, date, Author block and main headline in Chrome.
 ER  - 
 
@@ -2605,6 +2674,7 @@ N1  - Contributor seniority proxies and observational adoption; review redistrib
 KW  - engineering
 KW  - quality
 KW  - work
+KW  - productivity
 AN  - arXiv:2510.10165
 ER  - 
 
@@ -2638,6 +2708,8 @@ N1  - Developer white paper, selected demonstrations and human-defined evaluator
 KW  - science
 KW  - engineering
 KW  - ai-rd
+KW  - mathematics
+KW  - agents
 AN  - arXiv:2506.13131
 ER  - 
 
@@ -2668,9 +2740,11 @@ DA  - 2025-12-21
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://arxiv.org/abs/2512.18925
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Beyond the Prompt: An Empirical Study of Cursor Rules. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: Beyond the Prompt: An Empirical Study of Cursor Rules. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - engineering
+KW  - agents
+KW  - methods
 DO  - 10.1145/3793302.3793367
 AN  - arXiv:2512.18925
 ER  - 
@@ -2735,9 +2809,11 @@ DA  - 2025-10-06
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://proceedings.mlr.press/v267/kazdan25a.html
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World. Result-level appraisal is pending.
+AB  - Supporting reference on ai-rd, methods, science. Scope indicated by the primary-source title: Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - ai-rd
+KW  - methods
+KW  - science
 ER  - 
 
 TY  - ELEC
@@ -2750,9 +2826,10 @@ N1  - Date basis: primary metadata
 N1  - Authorship: Article's headline block and contributor profile identify Luke James; checked 13 October 2026.
 PY  - 2025
 UR  - https://www.tomshardware.com/tech-industry/cyber-security/researchers-uncover-critical-ai-ide-flaws-exposing-developers-to-data-theft-and-rce
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, security. Scope indicated by the primary-source title: Critical flaws found in AI development tools are dubbed an 'IDEsaster' — data theft and remote code execution possible. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - security
 ER  - 
 
 TY  - ELEC
@@ -2772,6 +2849,7 @@ N1  - Agent-code improvement is not autonomous selection of goals or demonstrate
 KW  - ai-rd
 KW  - engineering
 KW  - agents
+KW  - science
 AN  - arXiv:2505.22954
 ER  - 
 
@@ -2786,9 +2864,12 @@ DA  - 2025-04-27
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://www.microsoft.com/en-us/research/publication/dear-diary-a-randomized-controlled-trial-of-generative-ai-coding-tools-in-the-workplace
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, work, methods, productivity. Scope indicated by the primary-source title: Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - work
+KW  - methods
+KW  - productivity
 ER  - 
 
 TY  - ELEC
@@ -2895,6 +2976,9 @@ AB  - The 2025 report interprets AI as an amplifier of existing organizational c
 N1  - Organizational associations do not imply that mature practices guarantee positive outcomes for every adoption.
 KW  - engineering
 KW  - business
+KW  - productivity
+KW  - quality
+KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -2910,9 +2994,12 @@ DA  - 2025
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://research.google/pubs/dora-impact-of-generative-ai-in-software-development
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: DORA Impact of Generative AI in Software Development. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, productivity, business, methods. Scope indicated by the primary-source title: DORA Impact of Generative AI in Software Development. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - productivity
+KW  - business
+KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -2927,9 +3014,12 @@ AU  - Adam Brown
 N1  - Date basis: Linked primary report edition v. 2025.2 and author list (page 54); https://dora.dev/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf; checked 13 October 2026. Exact publication day not established.
 PY  - 2025
 UR  - https://dora.dev/ai/gen-ai-report
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, productivity, business, methods. Scope indicated by the primary-source title: DORA | Download the Impact of Generative AI in Software Development. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - productivity
+KW  - business
+KW  - methods
 N1  - Version: Cites report edition 2025.2. The landing page's 13 April 2026 update is not the report's publication year.
 ER  - 
 
@@ -3042,10 +3132,10 @@ DA  - 2025-04
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://www.cambridge.org/core/elements/abs/generative-ai-in-computer-science-education/0A22106CBD7FCB391FD120C56E21420F
-AB  - Supporting reference on learning, science. Scope indicated by the primary-source title: Generative AI in Computer Science Education: Challenges and Opportunities. Result-level appraisal is pending.
+AB  - Supporting reference on learning, engineering. Scope indicated by the primary-source title: Generative AI in Computer Science Education: Challenges and Opportunities. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - learning
-KW  - science
+KW  - engineering
 DO  - 10.1017/9781009581738
 N1  - Version: Publisher citation metadata includes the subtitle Challenges and Opportunities; Crossref uses the shorter book title. DOI and authors agree. Metadata comparison checked 13 October 2026.
 ER  - 
@@ -3085,9 +3175,11 @@ N1  - Authorship: Primary post's recommended BibTeX explicitly lists seven autho
 N1  - Attribution: Follow the named authors in the publisher's recommended citation; Anthropic is the publisher, not a substitute corporate author when a credited author list is available.
 PY  - 2025
 UR  - https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
-AB  - Supporting reference on context. Scope indicated by the primary-source title: How AI is transforming work at Anthropic. Result-level appraisal is pending.
+AB  - Supporting reference on work, engineering, productivity. Scope indicated by the primary-source title: How AI is transforming work at Anthropic. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - work
+KW  - engineering
+KW  - productivity
 ER  - 
 
 TY  - ELEC
@@ -3100,9 +3192,12 @@ N1  - Date basis: primary metadata
 N1  - Authorship: Official Google post's header names Ryan J. Salva, Senior Director, Product Management; checked 13 October 2026.
 PY  - 2025
 UR  - https://blog.google/innovation-and-ai/technology/developers-tools/dora-report-2025
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: How are developers using AI? Inside our 2025 DORA report. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, productivity, business, methods. Scope indicated by the primary-source title: How are developers using AI? Inside our 2025 DORA report. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - productivity
+KW  - business
+KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -3119,10 +3214,11 @@ AU  - Satish Chandra
 N1  - Date basis: Primary ICSE 2025 conference entry and author list; checked 13 October 2026. Presentation on 2 May 2025 is not asserted as the publication day.
 PY  - 2025
 UR  - https://conf.researchr.org/details/icse-2025/icse-2025-software-engineering-in-practice/26/How-much-does-AI-impact-development-speed-An-enterprise-based-randomized-controlled-
-AB  - Supporting reference on engineering, productivity, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, productivity, methods, business. Scope indicated by the primary-source title: How much does AI impact development speed? An enterprise-based randomized controlled trial (ICSE 2025 - Software Engineering in Practice (SEIP)) - ICSE 2025. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
 KW  - productivity
+KW  - methods
 KW  - business
 N1  - Version: Conference entry for ICSE 2025; related 2024 arXiv version is the same study, not independent evidence.
 ER  - 
@@ -3229,9 +3325,10 @@ DA  - 2025-03-06
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://arxiv.org/abs/2503.05040
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, cognition. Scope indicated by the primary-source title: No Silver Bullets: Why Understanding Software Cycle Time is Messy, Not Magic. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - cognition
 DO  - 10.1007/s10664-025-10735-w
 AN  - arXiv:2503.05040
 ER  - 
@@ -3244,9 +3341,11 @@ DA  - 2025-10-21
 N1  - Date basis: Primary Article JSON-LD datePublished and organization author; retrieved 12 October 2026, inspected 13 October 2026.
 PY  - 2025
 UR  - https://www.sonarsource.com/resources/library/owasp-llm-code-generation
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, security, governance. Scope indicated by the primary-source title: OWASP LLM Top 10: How it Applies to Code Generation | Learn Article. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - security
+KW  - governance
 ER  - 
 
 TY  - ELEC
@@ -3284,9 +3383,11 @@ DA  - 2025-04-29
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://arxiv.org/abs/2504.20814
-AB  - Supporting reference on engineering. Scope indicated by the primary-source title: Secure Coding with AI -- From Detection to Repair. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, security, quality. Scope indicated by the primary-source title: Secure Coding with AI -- From Detection to Repair. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - engineering
+KW  - security
+KW  - quality
 AN  - arXiv:2504.20814
 ER  - 
 
@@ -3356,10 +3457,12 @@ DA  - 2025-11-06
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://arxiv.org/abs/2511.04427
-AB  - Supporting reference on quality, productivity, business. Scope indicated by the primary-source title: Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects. Result-level appraisal is pending.
+AB  - Supporting reference on quality, productivity, cost, engineering, business. Scope indicated by the primary-source title: Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - quality
 KW  - productivity
+KW  - cost
+KW  - engineering
 KW  - business
 DO  - 10.1145/3793302.3793349
 AN  - arXiv:2511.04427
@@ -3411,10 +3514,11 @@ DA  - 2025-07-23
 N1  - Date basis: Primary BlogPosting JSON-LD datePublished and author; retrieved 12 October 2026, inspected 13 October 2026. The September 2026 modification is not the publication date.
 PY  - 2025
 UR  - https://www.faros.ai/blog/ai-software-engineering
-AB  - Supporting reference on science, productivity. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.
+AB  - Supporting reference on productivity, business, methods. Scope indicated by the primary-source title: The AI Productivity Paradox Research Report. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - science
 KW  - productivity
+KW  - business
+KW  - methods
 ER  - 
 
 TY  - ELEC
@@ -3472,6 +3576,7 @@ N1  - Self-report and adoption differences; neither proves net losses nor measur
 KW  - productivity
 KW  - engineering
 KW  - methods
+KW  - verification
 AN  - arXiv:2510.24265
 ER  - 
 
@@ -3537,9 +3642,13 @@ DA  - 2025-04-01
 N1  - Date basis: primary metadata
 PY  - 2025
 UR  - https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers
-AB  - Supporting reference on methods. Scope indicated by the primary-source title: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Result-level appraisal is pending.
+AB  - Supporting reference on methods, cognition, work, judgment, trust. Scope indicated by the primary-source title: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
 KW  - methods
+KW  - cognition
+KW  - work
+KW  - judgment
+KW  - trust
 ER  - 
 
 TY  - ELEC
@@ -3586,6 +3695,8 @@ N1  - A selected experience and polemical argument; cannot establish prevalence 
 KW  - engineering
 KW  - learning
 KW  - judgment
+KW  - work
+KW  - cognition
 ER  - 
 
 TY  - ELEC
@@ -3601,9 +3712,11 @@ DA  - 2024-07
 N1  - Date basis: primary metadata
 PY  - 2024
 UR  - https://www.nature.com/articles/s41586-024-07566-y
-AB  - Supporting reference on context. Scope indicated by the primary-source title: AI models collapse when trained on recursively generated data. Result-level appraisal is pending.
+AB  - Supporting reference on ai-rd, methods, science. Scope indicated by the primary-source title: AI models collapse when trained on recursively generated data. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - ai-rd
+KW  - methods
+KW  - science
 DO  - 10.1038/s41586-024-07566-y
 JO  - Nature
 ER  - 
@@ -3723,9 +3836,12 @@ DA  - 2024-08-13
 N1  - Date basis: Primary publication date and named Authors section; rechecked in local Chrome on 13 October 2026.
 PY  - 2024
 UR  - https://openai.com/index/introducing-swe-bench-verified
-AB  - Supporting reference on context. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, methods, verification. Scope indicated by the primary-source title: Introducing SWE-bench Verified. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - engineering
+KW  - agents
+KW  - methods
+KW  - verification
 N1  - Version: Originally published 13 August 2024; the page separately records an update on 24 February 2025. OpenAI is the publisher; named authors are retained.
 N1  - Alternative verification: local Chrome, 2026-10-13T07:46:43+00:00; identity-confirmed. Scope: Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.
 ER  - 
@@ -3895,9 +4011,11 @@ DA  - 2023-10-10
 N1  - Date basis: primary metadata
 PY  - 2023
 UR  - https://arxiv.org/abs/2310.06770
-AB  - Supporting reference on context. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.
+AB  - Supporting reference on engineering, agents, methods. Scope indicated by the primary-source title: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?. Result-level appraisal is pending.
 N1  - Bibliographic identity checked; substantive findings have not been independently appraised for this release.
-KW  - context
+KW  - engineering
+KW  - agents
+KW  - methods
 AN  - arXiv:2310.06770
 N1  - Version: This record dates the 2023 arXiv preprint. For benchmark use, the authors recommend the ICLR 2024 paper: https://openreview.net/forum?id=VTF8yNQM66. Exact recommended BibTeX is supplied in swebench-recommended.bib. OpenReview was access-blocked; conference citation metadata is sourced to the authors' README, not an independent full-text inspection.
 ER  - 

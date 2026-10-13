@@ -32,11 +32,16 @@ try {
   browser=await chromium.launch({headless:true,...(fs.existsSync(chrome)?{executablePath:chrome}:{})});
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const starApi='https://api.github.com/repos/does-ai-help/does-ai-help.github.io';
+  await page.route(starApi, route=>route.fulfill({json:{stargazers_count:42}}));
   await page.goto(url+'/');
   assert.equal(await page.locator('h1').innerText(),'Does AI Help?');
   assert.equal(await page.locator('.wordmark').innerText(),release.title);
   for(const route of ['/','/bibliography.html','/releases.html','/cite.html']) {
     await page.goto(url+route);
+    await page.waitForFunction(()=>document.querySelector('.github-star-count').textContent==='42');
+    assert.equal(await page.locator('.github-star').getAttribute('href'),release.github_url);
+    assert.equal(await page.locator('.github-star').getAttribute('target'),'_blank');
     assert.equal(await page.locator('link[rel="icon"][type="image/svg+xml"]').getAttribute('href'),'favicon.svg');
     for(const icon of ['favicon.svg','favicon.ico','assets/favicon-32.png','apple-touch-icon.png']) {
       const response=await page.request.get(url+'/'+icon);
@@ -158,6 +163,12 @@ try {
   await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
   const initial=await page.locator('.source-row:visible').count();assert.equal(initial,verifiedCount);
   await page.locator('#search').fill('InnovationEval');assert.equal(await page.locator('.source-row:visible').count(),1);
+  await page.locator('#search').fill('');
+  await page.locator('#topic').selectOption('mathematics');
+  assert.equal(await page.locator('.source-row:visible').count(),records.filter(r=>r.verified && r.topics.includes('mathematics')).length);
+  assert.equal(await page.locator('#taomath2026').isVisible(),true);
+  assert.equal(await page.locator('#leiden2026').isVisible(),true);
+  await page.locator('#topic').selectOption('');
   await page.locator('#search').fill('unlikely-search-no-results');assert.equal(await page.locator('.source-row:visible').count(),0);assert.equal(await page.locator('#empty-state').isVisible(),true);
   await page.locator('button[type=reset]').click();await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);assert.equal(await page.locator('.source-row:visible').count(),verifiedCount);
   await page.locator('#verification').selectOption('candidate');assert.equal(await page.locator('.source-row:visible').count(),candidateCount);
@@ -198,6 +209,17 @@ try {
     assert.equal((await saved).suggestedFilename(),publicName(name));
   }
   await page.goto(url+'/releases.html');assert.equal(await page.locator('h1').innerText(),'Releases & methods');
+  await page.unroute(starApi);
+  await page.route(starApi, route=>route.fulfill({status:403,json:{message:'Rate limited'}}));
+  await page.goto(url+'/cite.html');
+  await page.waitForFunction(()=>document.querySelector('.github-star').title.includes('unavailable'));
+  assert.equal(await page.locator('.github-star-count').isVisible(),false);
+  assert.equal(await page.locator('.github-star').isVisible(),true);
+  await page.unroute(starApi);
+  await page.route(starApi, route=>route.fulfill({json:{stargazers_count:0}}));
+  await page.goto(url+'/cite.html');
+  await page.waitForFunction(()=>document.querySelector('.github-star-count').textContent==='0');
+  assert.equal(await page.locator('.github-star-count').isVisible(),true);
   await page.getByRole('link',{name:'Cite this release',exact:true}).click();
   assert.equal(page.url(),url+'/cite.html');
   assert.equal(await page.locator('h1').innerText(),'Cite this release');
