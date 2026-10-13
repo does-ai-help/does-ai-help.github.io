@@ -52,6 +52,35 @@ try {
   assert.equal(await page.locator('a[href^="#ref-"]').count()>=citedCount,true);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   await page.screenshot({path:path.join(output,'article-desktop.png')});
+  for(const route of ['/','/bibliography.html']) {
+    await page.goto(url+route);
+    const topButton=page.getByRole('link',{name:'Back to top',exact:true}).filter({has:page.locator('span')});
+    assert.equal(await topButton.isVisible(),false);
+    await page.evaluate(()=>window.scrollTo({top:2000,behavior:'instant'}));
+    await topButton.waitFor({state:'visible'});
+    await page.screenshot({path:path.join(output,route==='/'?'article-top-control.png':'bibliography-top-control.png')});
+    await topButton.focus();
+    await page.keyboard.press('Enter');
+    await page.waitForFunction(()=>scrollY===0);
+    assert.equal(await page.evaluate(()=>document.activeElement.id),'page-top');
+    await page.emulateMedia({reducedMotion:'reduce'});
+    await page.locator('.back-to-top-link').click();
+    await page.waitForFunction(()=>scrollY===0);
+    assert.equal(await page.evaluate(()=>document.activeElement.id),'page-top');
+    await page.emulateMedia({reducedMotion:'no-preference'});
+  }
+  const noScript=await browser.newPage({javaScriptEnabled:false});
+  for(const route of ['/','/bibliography.html']) {
+    await noScript.goto(url+route);
+    await noScript.locator('.back-to-top-link').click();
+    // Disabled page scripts also disable in-page polling timers.
+    for(let attempt=0;attempt<100 && await noScript.evaluate(()=>scrollY!==0);attempt++) {
+      await new Promise(resolve=>setTimeout(resolve,100));
+    }
+    assert.equal(await noScript.evaluate(()=>scrollY),0);
+  }
+  await noScript.close();
+  await page.goto(url+'/');
   await page.locator('[id="11-an-integrated-assessment-where-the-benefit-survives"]').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(output,'article-figure-desktop.png')});
   await page.goto(url+'/bibliography.html');
@@ -106,6 +135,14 @@ try {
   for(const width of [390,768]) {
     await page.setViewportSize({width,height:844});
     await page.goto(url+'/');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    for(const route of ['/','/bibliography.html']) {
+      await page.goto(url+route);
+      await page.evaluate(()=>window.scrollTo({top:2000,behavior:'instant'}));
+      assert.equal(await page.locator('.back-to-top').isVisible(),false);
+      await page.locator('.back-to-top-link').click();
+      await page.waitForFunction(()=>scrollY===0);
+    }
+    await page.goto(url+'/');
     await page.screenshot({path:path.join(output,`article-${width}.png`)});
     await page.goto(url+'/bibliography.html');await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
     const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(el=>{const r=el.getBoundingClientRect();return r.width && r.right>innerWidth+1;}).slice(0,8).map(el=>({tag:el.tagName,class:el.className,text:el.textContent.slice(0,100),right:el.getBoundingClientRect().right})));
@@ -125,7 +162,7 @@ try {
   await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);
   await page.locator('#search').fill('InnovationEval');assert.equal(await page.locator('.source-row:visible').count(),1);
   assert.deepEqual(errors,[]);
-  fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({result:'passed',viewports:[1440,768,390],checks:['article rendering','source filters and reset','empty state','candidate/core counts','filtered CSL download','responsive overflow','all download endpoints','release page','no JavaScript errors']},null,2));
+  fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({result:'passed',viewports:[1440,768,390],checks:['article rendering','back-to-top keyboard and focus','reduced-motion navigation','no-JavaScript footer navigation','mobile footer navigation','source filters and reset','empty state','candidate/core counts','filtered CSL download','responsive overflow','all download endpoints','release page','no JavaScript errors']},null,2));
   console.log('Browser checks passed at 1440, 768 and 390 pixels. Screenshots in build/qa.');
 } finally {
   if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));
