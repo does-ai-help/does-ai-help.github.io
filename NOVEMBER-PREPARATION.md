@@ -1,0 +1,33 @@
+# November 2026 Release Preparation
+
+Status: **unpublished preparation**. Branch: `codex/november-2026-preparation`.
+Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026.
+
+The live site remains on the final October release until a reviewed November release is merged into `main`. This branch initially retains October's manifest and built artifacts as its baseline; they are not November deliverables. No November publication, cutoff or verification date has been assigned. Intended first November version: `2026.11.0`, subject to release preparation.
+
+## Editorial Priorities
+
+- Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.
+- Search for independent replications, randomized or credible quasi-experimental interventions, longer-run outcomes, null and adverse results, and broad companion reviews.
+- Revisit production quality, security, reviewer effort, accepted output, adoption costs and actual use rather than activity counts alone.
+- Seek learning retention and transfer measures, credible instructional interventions, subgroup effects and synthesis-method sensitivity.
+- Track specialist responses to mathematical proof claims, precise artifact revisions and institutional decisions without treating announcements as settled validation.
+- Examine autonomous-research novelty, task memorization, result selection, compute budgets, evaluator independence and fair human comparisons.
+- Recheck labor-market study revisions, entry-level pathways and institutional differences; distinguish forecasts from observed effects.
+- Invite independent human or specialist review of the October synthesis, especially causal identification and mathematical interpretation.
+
+## Preparation Checklist
+
+- [ ] Establish the November search window and document searches and exclusions.
+- [ ] Triage community issues and proposed references.
+- [ ] Inspect revised sources, publication status, corrections and retractions.
+- [ ] Record outcome-level changes to conclusions, not just additions to the source count.
+- [ ] Set November manifest, snapshot, citation metadata and actual cutoff together when release preparation begins.
+- [ ] Refresh selected local Chrome receipts for November; do not redate or reuse October observations as November verification.
+- [ ] Draft a concise “What's new” section distinguishing new evidence from editorial corrections.
+- [ ] Preserve all October versioned downloads, archives, tags and checksums.
+- [ ] Regenerate site, citation exports and PDF; inspect desktop/mobile layouts and all PDF pages.
+- [ ] Run unit tests, strict reference and access checks, browser-receipt validation and release checksums.
+- [ ] Complete editorial approval, merge into `main`, verify deployment, and tag the November publication.
+
+Follow `MAINTENANCE.md` and `BROWSER-VERIFICATION.md`. The monitoring workflow checks access; it does not approve evidence or publish a new research article. No future verification is asserted by this plan.
