@@ -44,7 +44,7 @@ const verified = sources.filter(r=>r.verified);
 const core = sources.filter(r=>r.editorial_priority==='core');
 const nav = `<a class="wordmark" href="/">${esc(meta.title)}</a><nav aria-label="Main navigation"><a href="/">Review</a><a href="bibliography.html">Evidence map</a><a href="releases.html">Releases</a><a href="downloads/${pdfName}" class="pdf-link">Download PDF <span aria-hidden="true">↗</span></a></nav>`;
 const head = (title, description) => `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="stylesheet" href="assets/style.css"><meta name="theme-color" content="#166f59"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}">${meta.canonical_url?`<link rel="canonical" href="${esc(meta.canonical_url)}">`:''}`;
-const footer = `<footer><span>GPT 6.1 · Witold Bołt</span><span>${esc(releaseLabel)} · CC BY 4.0</span><a href="downloads/CITATION.cff">Cite this release</a><a href="releases.html">Methods &amp; maintenance</a></footer>`;
+const footer = `<footer><span>GPT 6.1 · Witold Bołt</span><span>${esc(releaseLabel)} · CC BY 4.0</span><a href="cite.html">Cite this release</a><a href="releases.html">Methods &amp; maintenance</a></footer>`;
 const contributionLinks = meta.github_url
   ? `<a href="${esc(meta.github_url)}/issues/new/choose">Suggest evidence or a correction</a> · <a href="${esc(meta.github_url)}/pulls">Pull requests</a>`
   : '<a href="downloads/CONTRIBUTING.md">Contribution guide</a> · Public repository address pending';
@@ -56,6 +56,19 @@ const page = (title, body, scripts='') => {
   const topControl=longPage?'<a class="back-to-top" href="#page-top" aria-label="Back to top" title="Back to top" hidden><span aria-hidden="true">↑</span></a><script src="assets/back-to-top.js" defer></script>':'';
   return `<!doctype html><html lang="en"><head>${head(title,meta.subtitle)}</head><body><a href="#main" class="skip-link">Skip to content</a><header id="page-top" tabindex="-1">${nav}</header>${body}${pageFooter}${scripts}${topControl}</body></html>`;
 };
+const citationTitle=`${meta.title} ${meta.subtitle}`;
+const citationYear=meta.release_date.slice(0,4);
+const citationKey=`does-ai-help-${meta.version}`;
+const citationNames=meta.authors.map(a=>a.name);
+const citationNote=`Living critical narrative review and evidence map; ${releaseLabel} release; version ${meta.version}; lead AI author and human co-author; not peer reviewed.`;
+const citationText=`${citationNames.join(' & ')} (${citationYear}). ${citationTitle} (Version ${meta.version}). ${meta.canonical_url}`;
+const citationBib=`@misc{${citationKey},\n  author = {${citationNames.map(name=>name==='GPT 6.1'?'{GPT 6.1}':name).join(' and ')}},\n  title = {{${citationTitle}}},\n  year = {${citationYear}},\n  month = {${meta.release_date.slice(5,7)}},\n  version = {${meta.version}},\n  url = {${meta.canonical_url}},\n  note = {${citationNote}}\n}\n`;
+const citationCsl={id:citationKey,type:'report',title:citationTitle,author:meta.authors.map(a=>a.name==='Witold Bołt'?{given:'Witold',family:'Bołt'}:{literal:a.name}),issued:{'date-parts':[meta.release_date.split('-').map(Number)]},version:meta.version,URL:meta.canonical_url,note:citationNote};
+const citationRis=`TY  - RPRT\n${citationNames.map(name=>`AU  - ${name==='Witold Bołt'?'Bołt, Witold':name}`).join('\n')}\nTI  - ${citationTitle}\nPY  - ${citationYear}\nDA  - ${meta.release_date.replaceAll('-','/')}\nUR  - ${meta.canonical_url}\nN1  - ${citationNote}\nER  - \n`;
+write('site/downloads/does-ai-help-citation.bib',citationBib);
+write('site/downloads/does-ai-help-citation.csl.json',JSON.stringify([citationCsl],null,2)+'\n');
+write('site/downloads/does-ai-help-citation.ris',citationRis);
+write('site/cite.html',page('Cite this release | Does AI Help?',`<main id="main" class="release-page citation-page"><p class="eyebrow">${esc(releaseLabel)} · Version ${esc(meta.version)}</p><h1>Cite this release</h1><section><h2>Full reference</h2><p class="citation-example">${esc(citationText)}</p><p><strong>In-text citation:</strong> (${esc(citationNames.join(' & '))}, ${citationYear}).</p><p><strong>Release date:</strong> ${esc(cutoffLabel)}. <strong>Evidence cutoff:</strong> ${esc(cutoffLabel)}.</p><p>${esc(citationNote)}</p>${meta.github_url?`<p><a href="${esc(meta.github_url)}/releases/tag/v${esc(meta.version)}">Permanent versioned release</a></p>`:''}</section><section><h2>BibTeX</h2><pre><code>${esc(citationBib)}</code></pre><a href="downloads/does-ai-help-citation.bib" download>Download BibTeX</a></section><section><h2>Citation formats</h2><div class="downloads"><a href="downloads/does-ai-help-citation.ris" download>RIS</a><a href="downloads/does-ai-help-citation.csl.json" download>CSL-JSON</a><a href="downloads/CITATION.cff" download>Citation File Format</a></div></section><p>Article text and original annotations are licensed under CC BY 4.0. Source publications retain their own rights.</p></main>`));
 write('site/index.html', page(meta.title+' | October 2026', `<main id="main"><section class="article-heading"><p class="eyebrow">Living critical review · October 2026 release</p><h1>${esc(meta.title)}</h1><p class="subtitle">${esc(meta.subtitle)}</p><p class="byline"><strong>GPT 6.1</strong>, lead AI author &nbsp;·&nbsp; <strong>Witold Bołt</strong>, co-author</p><p class="release-detail">Evidence cutoff: 13 October 2026 · Version ${esc(meta.version)} · Not peer reviewed</p>${downloads}${counts}</section><div class="reading-layout"><aside class="contents"><p>Contents</p><nav aria-label="Article contents">${headings.map(t=>`<a href="#${slug(t.text)}">${esc(t.text)}</a>`).join('')}<a href="#selected-references">Selected references</a></nav></aside><article class="manuscript">${articleHtml}${references}</article></div></main>`, '<script src="assets/article.js" defer></script>'));
 const option = (value,label=value)=>`<option value="${esc(value)}">${esc(label.replaceAll('-',' '))}</option>`;
 const topicOptions = [...new Set(sources.flatMap(r=>r.topics))].sort();
@@ -132,7 +145,7 @@ for (const extension of ['json','csv','md']) {
 write('site/.nojekyll','');
 write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citations:JSON.parse(read('site/downloads/bibliography.csl.json'))})+';\n');
 write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>','<script src="assets/data.js" defer></script><script src="assets/bibliography.js" defer></script>'));
-for(const filename of ['index.html','bibliography.html','releases.html']) {
+for(const filename of ['index.html','bibliography.html','releases.html','cite.html']) {
   let source=read('site/'+filename);
   if(filename==='bibliography.html') for(const r of sources) {
     const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;

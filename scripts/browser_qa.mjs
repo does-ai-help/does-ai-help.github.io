@@ -33,7 +33,7 @@ try {
   await page.goto(url+'/');
   assert.equal(await page.locator('h1').innerText(),'Does AI Help?');
   assert.equal(await page.locator('.wordmark').innerText(),release.title);
-  for(const route of ['/','/bibliography.html','/releases.html']) {
+  for(const route of ['/','/bibliography.html','/releases.html','/cite.html']) {
     await page.goto(url+route);
     assert.equal(await page.locator('a[href*="index.html"]').count(),0);
     assert.equal(await page.locator('.wordmark').getAttribute('href'),'/');
@@ -171,6 +171,24 @@ try {
     const response=await page.request.get(url+'/downloads/'+name);assert.equal(response.ok(),true,`Download missing: ${name}`);assert.equal((await response.body()).length>0,true);
   }
   await page.goto(url+'/releases.html');assert.equal(await page.locator('h1').innerText(),'Releases & methods');
+  await page.getByRole('link',{name:'Cite this release',exact:true}).click();
+  assert.equal(page.url(),url+'/cite.html');
+  assert.equal(await page.locator('h1').innerText(),'Cite this release');
+  assert.match(await page.locator('.citation-example').innerText(),new RegExp(release.version.replaceAll('.','\\.')));
+  assert.match(await page.locator('pre').innerText(),/author = \{\{GPT 6\.1\} and Witold Bołt\}/);
+  for(const width of [1440,390]) {
+    await page.setViewportSize({width,height:1000});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    await page.screenshot({path:path.join(output,`citation-${width}.png`)});
+  }
+  for(const format of ['bib','ris','csl.json']) {
+    const response=await page.request.get(url+'/downloads/does-ai-help-citation.'+format);
+    assert.equal(response.ok(),true);
+    assert.match(await response.text(),new RegExp(release.version.replaceAll('.','\\.')));
+  }
+  const citationDownload=page.waitForEvent('download');
+  await page.getByRole('link',{name:'Download BibTeX',exact:true}).click();
+  assert.equal((await citationDownload).suggestedFilename(),'does-ai-help-citation.bib');
   await page.goto(pathToFileURL(path.join(site,'bibliography.html')).href);
   await page.waitForFunction(n=>document.querySelector('#result-count').textContent.startsWith(n+' matching'),verifiedCount);
   await page.locator('#search').fill('InnovationEval');assert.equal(await page.locator('.source-row:visible').count(),1);

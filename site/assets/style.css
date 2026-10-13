@@ -8,3 +8,5 @@
 @media(min-width:1051px) and (max-width:1399px){body:has(.back-to-top) main,body:has(.back-to-top) footer{padding-right:80px}}
 @media(max-width:1050px){.back-to-top{display:none}}
 @media print{.back-to-top,.back-to-top-link{display:none}}
+.citation-page pre{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;padding:20px;background:#f4f6f5;border-left:3px solid #166f59;font-size:14px;line-height:1.6}
+.citation-page .citation-example{overflow-wrap:anywhere}
