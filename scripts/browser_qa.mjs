@@ -57,6 +57,12 @@ try {
   await swe.locator('details').evaluate(el=>el.open=false);
   assert.equal(await page.locator('#ref-3d0ab8c8d6 .source-meta span').first().innerText(),'2025');
   assert.match(await page.locator('#ref-a97b44c4bb .source-author').innerText(),/editors/);
+  const supplied=page.locator('#ref-47ac0a3015');
+  await supplied.locator('details').evaluate(el=>el.open=true);
+  assert.match(await supplied.innerText(),/Document inspection: user supplied pdf plus local chrome/);
+  assert.match(await supplied.innerText(),/Third-party PDF not redistributed/);
+  assert.match(await supplied.innerText(),/2025-03-15/);
+  await supplied.locator('details').evaluate(el=>el.open=false);
   await page.locator('#candidate-sciencedirect-2026 details').evaluate(el=>el.open=true);
   assert.equal(await page.locator('#candidate-sciencedirect-2026').innerText().then(t=>t.includes('Alternative verification: Local Chrome')),true);
   await page.locator('#candidate-sciencedirect-2026 details').evaluate(el=>el.open=false);
@@ -78,8 +84,13 @@ try {
     await page.goto(url+'/bibliography.html');await page.waitForFunction(()=>document.querySelector('#result-count').textContent.includes('matching'));
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.screenshot({path:path.join(output,`bibliography-${width}.png`)});
+    await page.locator('#search').fill('ref-47ac0a3015');
+    await page.locator('#ref-47ac0a3015 details').evaluate(el=>el.open=true);
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    await page.locator('#ref-47ac0a3015').scrollIntoViewIfNeeded();
+    await page.screenshot({path:path.join(output,`document-record-${width}.png`)});
   }
-  for(const name of [`does-ai-help-${release.release}.pdf`,'bibliography.csl.json','bibliography.bib','bibliography.ris','sources.csv','sources.json',release.archive_name || `release-${release.release}.zip`,'related-reviews.md','balance-review.md','BROWSER-VERIFICATION.md','browser-verification.json','reference-verification.json']) {
+  for(const name of [`does-ai-help-${release.release}.pdf`,'bibliography.csl.json','bibliography.bib','bibliography.ris','sources.csv','sources.json',release.archive_name || `release-${release.release}.zip`,'related-reviews.md','balance-review.md','document-followup.md','BROWSER-VERIFICATION.md','browser-verification.json','reference-verification.json']) {
     const response=await page.request.get(url+'/downloads/'+name);assert.equal(response.ok(),true,`Download missing: ${name}`);assert.equal((await response.body()).length>0,true);
   }
   await page.goto(url+'/releases.html');assert.equal(await page.locator('h1').innerText(),'Releases & methods');

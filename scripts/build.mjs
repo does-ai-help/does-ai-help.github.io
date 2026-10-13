@@ -100,17 +100,18 @@ write('latex/abstract.tex', '\\section*{Abstract}\n'+blocks(abstractTokens));
 const bodyTokens = tokens.slice(tokens.findIndex(t=>t.type==='heading' && t.text.startsWith('1.')));
 write('latex/release.tex', [['ReviewTitle',meta.title],['ReviewRelease',releaseLabel],['ReviewCutoff',cutoffLabel],['ReviewVersion',meta.version]].map(([name,value])=>`\\newcommand{\\${name}}{${texEscape(value)}}`).join('\n')+'\n');
 const texRefs = citations.map(id=>{const r=byId.get(id); return `\\item[${numbers.get(id)}.] \\hypertarget{ref-${id}}{} ${texEscape(authorLabel(r))}. ${r.year||'n.d.'}. \\textit{${texEscape(r.title)}}. ${texEscape(r.publication_status.replaceAll('-',' '))}. ${r.version_note?texEscape(r.version_note)+' ':''}\\url{${texEscape(r.url)}}.`;}).join('\n\n');
-write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\begin{description}[leftmargin=2em,labelwidth=1.5em]\n'+texRefs+'\n\\end{description}}\n');
+write('latex/body.tex', blocks(bodyTokens)+'\n{\\small\\begin{description}[leftmargin=2em,labelwidth=1.5em,itemsep=1pt]\n'+texRefs+'\n\\end{description}}\n');
 write('site/downloads/article.md', manuscript);
 write('site/downloads/release.json', JSON.stringify({...meta,counts:{total:sources.length,verified:verified.length,core:core.length,cited:citations.length}},null,2)+'\n');
 for(const [source, dest] of [['data/source-schema.json','source-schema.json'],['data/exclusions.json','exclusions.json'],['manuscript/methodology.md','methodology.md'],['CHANGELOG.md','CHANGELOG.md'],['MAINTENANCE.md','MAINTENANCE.md'],['CITATION.cff','CITATION.cff']]) fs.copyFileSync(path.join(root,source),path.join(root,'site/downloads',dest));
 for (const filename of ['CONTRIBUTING.md', 'LICENSE-CONTENT.md', 'HOSTING.md']) fs.copyFileSync(path.join(root, filename), path.join(root,'site/downloads',filename));
 fs.copyFileSync(path.join(root,'manuscript/metadata-review.md'),path.join(root,'site/downloads/metadata-review.md'));
+fs.copyFileSync(path.join(root,'manuscript/document-followup.md'),path.join(root,'site/downloads/document-followup.md'));
 fs.copyFileSync(path.join(root,'manuscript/related-reviews.md'),path.join(root,'site/downloads/related-reviews.md'));
 fs.copyFileSync(path.join(root,'manuscript/balance-review.md'),path.join(root,'site/downloads/balance-review.md'));
 for(const [from,to] of [['data/browser-verification.json','browser-verification.json'],['data/browser-review-policy.json','browser-review-policy.json'],['BROWSER-VERIFICATION.md','BROWSER-VERIFICATION.md']]) fs.copyFileSync(path.join(root,from),path.join(root,'site/downloads',to));
 const externalLinks=new Set();
-const documentPaths=['README.md','HOSTING.md','CONTRIBUTING.md','MAINTENANCE.md','LICENSE-CONTENT.md','manuscript/article.md','manuscript/methodology.md','manuscript/metadata-review.md','manuscript/related-reviews.md','manuscript/balance-review.md'];
+const documentPaths=['README.md','HOSTING.md','CONTRIBUTING.md','MAINTENANCE.md','LICENSE-CONTENT.md','manuscript/article.md','manuscript/methodology.md','manuscript/metadata-review.md','manuscript/document-followup.md','manuscript/related-reviews.md','manuscript/balance-review.md'];
 for(const file of documentPaths) marked.walkTokens(marked.lexer(read(file)), token=>{
   if(['link','image'].includes(token.type) && /^https?:\/\//.test(token.href)) externalLinks.add(token.href.split('#')[0]);
 });
@@ -130,6 +131,10 @@ for(const filename of ['index.html','bibliography.html','releases.html']) {
     const dating=`<p><strong>Publication date:</strong> ${esc(r.date || r.year || 'Not established')}.</p><p><strong>Date basis:</strong> ${esc(r.date_basis || 'Not established')}.</p>`;
     const publisher=r.publisher?`<p><strong>Publisher:</strong> ${esc(r.publisher)}.</p>`:'';
     source=source.replace(stable,stable+dating+publisher);
+    if(r.document_verification) {
+      const d=r.document_verification;
+      source=source.replace(stable,stable+`<p><strong>Document inspection:</strong> ${esc(d.method.replaceAll('-',' '))}, ${esc(d.checked_on)}; ${esc(d.pages)} pages. Artifact: ${esc(d.filename)}.</p><p><strong>Reading scope:</strong> ${esc(d.scope)}. Third-party PDF not redistributed. <a href="downloads/document-followup.md">Document follow-up and provenance</a>.</p>`);
+    }
   }
   if(filename==='bibliography.html') for(const r of sources.filter(r=>r.browser_verification)) {
     const b=r.browser_verification;

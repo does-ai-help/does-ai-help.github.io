@@ -341,5 +341,41 @@
       "scope": "Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.",
       "notes": "Publication is 13 August 2024; update is 24 February 2025. OpenAI is publisher, with named authors credited. This recheck updates citation identity only; benchmark findings were not independently validated."
     }
+    ,{
+      "id": "ref-47ac0a3015", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2", "source_fingerprint": "700ebfb88a23d61ec3163aab0a67c76d45b84920fcd7a8a24a27c8485136ee5e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
+      "observed": {"title": "The New Developer: AI Skill Threat, Identity Change & Developer Thriving in the Transition to AI-Assisted Software Development", "authors": ["Catherine M. Hicks", "Carol Lee", "Kristen Foster-Marks"], "publication_date": "2025-03-15", "doi": "10.31234/osf.io/2gej5_v2", "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"},
+      "scope": "OSF title, bylines, version-2 DOI, submitted/last-edited dates, data/preregistration declarations and embedded PDF first page and filename (55 pages).",
+      "notes": "OSF retains the older title while its embedded AIST_ Preprint Update.pdf has the revised AI Skill Threat title, matching the supplied PDF. Preprint version 2 and embedded file's internal Version: 1 are distinct. Raw data are not public; no scientific claim or preregistration compliance independently validated.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    {
+      "id": "ref-283d4e8368", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932", "source_fingerprint": "aa54cbc8388465451d78005f475600027fe0ab0d3d694bc727a0d5fa149f1c83",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
+      "observed": {"title": "Self-Regulated AI Use Hinders Long-Term Learning", "authors": ["Stefanos Poulidis", "Hamsa Bastani", "Osbert Bastani"], "publication_date": "2025-10-16", "doi": "10.2139/ssrn.5604932", "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932"},
+      "scope": "SSRN heading, three bylines, 63-page count, posting date, written date, 1 August 2026 revision and DOI in suggested citation.",
+      "notes": "Matches supplied ssrn-5604932.pdf. Written, posted and revised dates are distinct. Scientific appraisal uses scoped reading of the supplied PDF, not browser metadata alone; no replication.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    {
+      "id": "ref-776550e112", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078", "source_fingerprint": "85ab5909c48f1eb11762ac8a7c04c0f7f66091cdc36cf8b28137f4e3297466d2",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
+      "observed": {"title": "Does Working with AI Agents Change How Developers Code, Test, and Review?", "authors": ["Muhammad Hamza", "Dominik Siemon", "Wardah Naeem Awan"], "publication_date": "2026-07-18", "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"},
+      "scope": "Original SSRN title, authors, posted 18 July 2026, written 25 June 2026 and no-download notice; reached through the actual 7070979 version-menu link.",
+      "notes": "Original record is not the supplied PDF's version. Retained as identity-checked related version; not independently appraised or counted as replication.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    {
+      "id": "hamza-preprint2026", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979", "source_fingerprint": "318fc32e30a804c4ba5fc5047988b8debade99b7c685db7e746d50a38eaf6cf6",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
+      "observed": {"title": "Does Working with AI Agents Change How Developers Code, Test, and Review?", "authors": ["Muhammad Hamza", "Dominik Siemon", "Wardah Naeem Awan"], "publication_date": "2026-07-24", "doi": "10.2139/ssrn.7070979", "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979"},
+      "scope": "SSRN title, bylines, 12-page count, posted/written dates, suggested-citation DOI and expanded version menu linking 6996078.",
+      "notes": "Matches supplied ssrn-7070979.pdf; posted 24 July and written 7 July 2026. The unfinished LIPIcs DOI in the preprint is not used as a real identifier. The subsequently published paper has its own verified DOI.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    }
   ]
 }

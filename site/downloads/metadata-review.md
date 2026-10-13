@@ -1,5 +1,9 @@
 # October 2026 metadata review
 
+## Supplied documents and matched online versions
+
+Version 2026.10.4 records three PDFs supplied by the human coauthor, matched to their online versions in local Chrome. Three inherited candidates now have established identities. The Hamza study's original SSRN 6996078 record is not the supplied 7070979 PDF; the actual SSRN version menu links them, and the published ESEM version has a completed DOI and 5 October 2026 publication date. The Hicks OSF page retains an older title but embeds the supplied revised-title PDF; both are recorded. Chess-paper first posting and its 2026 revision are kept separate. The [document follow-up](document-followup.md) records reading scopes, hashes, reporting questions and limitations. Financial Times remains inaccessible to the coauthor and unappraised here.
+
 ## Publication-date follow-up
 
 Version 2026.10.3 resolves 16 of the 18 undated checked references. Each correction retains its evidence in `date_basis`, visible in the evidence map and downloadable exports. Exact dates are used only where supplied: IZA provides March 2026, while DORA's v. 2025.2, JetBrains' 2025 edition and the ICSE 2025 conference entry establish years but not publication days. Ramp's landing page uses the dated launch announcement, explicitly distinguished from a paper revision. Faros, Sonar and Yahoo provide publication dates in primary structured metadata, inspected in the pages retrieved on 12 October.

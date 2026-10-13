@@ -2232,6 +2232,132 @@
     }
   },
   {
+    "id": "ref-776550e112",
+    "type": "manuscript",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+    "author": [
+      {
+        "family": "Hamza",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Siemon",
+        "given": "Dominik"
+      },
+      {
+        "family": "Awan",
+        "given": "Wardah Naeem"
+      }
+    ],
+    "abstract": "Supporting reference on engineering, quality, methods, agents. Scope indicated by the primary-source title: Does Working with AI Agents Change How Developers Code, Test, and Review?. Result-level appraisal is pending.",
+    "keyword": "engineering; quality; methods; agents",
+    "note": "Method: quasi-experiment. Status: preprint. Verification: identity-checked (Local Chrome title, authors, original posting/writing dates and version linkage from 7070979. This original record has no downloadable PDF; findings are appraised using the linked later preprint and published version instead.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Original SSRN version posted 18 July 2026; Date Written is 25 June 2026. Both observed directly in local Chrome on 13 October 2026. Version: Original SSRN record, linked by SSRN to 7070979. The user supplied the later 7070979 PDF, not an artifact from this original record. Also linked to the published ESEM paper; one study, not multiple replications. Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: Original SSRN title, authors, posted 18 July 2026, written 25 June 2026 and no-download notice; reached through the actual 7070979 version-menu link.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          18
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hamza-preprint2026",
+    "type": "manuscript",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979",
+    "author": [
+      {
+        "family": "Hamza",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Siemon",
+        "given": "Dominik"
+      },
+      {
+        "family": "Awan",
+        "given": "Wardah Naeem"
+      }
+    ],
+    "abstract": "Supporting reference on engineering, quality, methods, agents. Scope indicated by the primary-source title: Does Working with AI Agents Change How Developers Code, Test, and Review?. Result-level appraisal is pending.",
+    "keyword": "engineering; quality; methods; agents",
+    "note": "Method: quasi-experiment. Status: preprint. Verification: identity-checked (User-supplied 12-page PDF identity and main methods/results compared with local Chrome SSRN title, authors, date and version menu. The main result appraisal is attached to the subsequently published ESEM record.). Limitations: Bibliographic identity checked; substantive findings have not been independently appraised for this release. Date basis: Local Chrome SSRN posting date, 24 July 2026; Date Written is 7 July 2026. PDF creation time is not used as publication date. Version: Later version of SSRN 6996078, verified through the actual SSRN version menu. The supplied preprint has unfinished proceedings-template DOI/copyright fields; they do not establish a conference DOI or publication. Use the separately verified published version for the synthesis. Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: SSRN title, bylines, 12-page count, posted/written dates, suggested-citation DOI and expanded version menu linking 6996078. Document inspection: user-supplied-pdf-plus-local-chrome, 2026-10-13; 12 pages; SHA-256 d5a518024677df9ecbf9f51dcc820a968b493f165bb1b0e87813406b6973f410. Scope: Identity, main methods/results and comparison with published version; no independent replication. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          24
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.2139/ssrn.7070979"
+  },
+  {
+    "id": "hamza2026",
+    "type": "paper-conference",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "URL": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67",
+    "author": [
+      {
+        "family": "Hamza",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Siemon",
+        "given": "Dominik"
+      },
+      {
+        "family": "Awan",
+        "given": "Wardah Naeem"
+      }
+    ],
+    "abstract": "AIDev-based comparisons of 669 developer-repository pairs in agent-exposed repositories with 228 control pairs find increased PR-description length and small test-change associations. Apparent review changes in before/after comparisons do not remain significant after comparison with controls. This challenges simple attribution of every review trend to agents, without establishing better delivered software.",
+    "keyword": "engineering; quality; methods; agents",
+    "note": "Method: quasi-experiment. Status: peer-reviewed-conference. Verification: content-checked (Publisher metadata and linked 13-page published PDF: abstract, methods, results/Tables 1-5 and discussion; compared with user-supplied 12-page SSRN preprint. Replication package not executed.). Limitations: Nonrandom adoption defined by first visible agent PR, not first AI use; selection of persistent contributors and active reviewers, median-split controls and limited matching weaken causal identification. Description length and test-file heuristics do not measure explanation quality or defect prevention. Null review contrasts do not establish equivalence. Reporting questions in the time-window and misattribution summaries are logged for clarification; no replication was run. Date basis: Primary Dagstuhl publication metadata dated 5 October 2026, checked 13 October 2026. Version: Published in the Emerging Results, Vision & Reflection Track on 5 October 2026. SSRN 6996078 and 7070979 are earlier versions of this study, not additional evidence. Shares the AIDev dataset family with other repository studies, but its analytic samples and outcomes differ. Document inspection: public-publisher-pdf, 2026-10-13; 13 pages; SHA-256 342b776c023a75dd9a17cf1b0494e6e264c4358340fa48a6e58cdd5cb545ab0f. Scope: Publisher metadata, abstract, methods, results and discussion; compared with supplied preprint. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.4230/LIPIcs.ESEM.2026.67",
+    "container-title": "20th International Symposium on Empirical Software Engineering and Measurement (ESEM 2026)"
+  },
+  {
     "id": "doratensions2026",
     "type": "webpage",
     "title": "DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use",
@@ -5561,6 +5687,48 @@
     }
   },
   {
+    "id": "ref-47ac0a3015",
+    "type": "manuscript",
+    "title": "AI Skill Threat: How the Structure of Developers' Beliefs about Software Development Ability Impacts Their Psychological Resilience During Rapid Technology Shift",
+    "URL": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+    "author": [
+      {
+        "family": "Hicks",
+        "given": "Catherine M."
+      },
+      {
+        "family": "Lee",
+        "given": "Carol S."
+      },
+      {
+        "family": "Foster-Marks",
+        "given": "Kristen L."
+      }
+    ],
+    "abstract": "An observational survey of 3,267 developers and technical managers relates competitive and innate-brilliance beliefs to reported AI-related identity threat, and learning culture and belonging to more favorable reported experiences. It also identifies differences in concerns and intended upskilling across groups.",
+    "keyword": "engineering; work; learning; governance",
+    "note": "Method: survey. Status: preprint. Verification: content-checked (User-supplied 55-page PDF: title, abstract, recruitment, measures, principal results and limitations; OSF page and embedded first PDF page inspected in local Chrome to match the artifact and version. Data and preregistered analysis were not independently reanalyzed.). Limitations: Volunteer recruitment including Pluralsight users, self-report outcomes, optional demographic responses and cross-sectional mediation limit causal interpretation. The study does not measure delivered software, demonstrate permanent skill loss, prove that a culture intervention works, or establish that AI skepticism is irrational. Authors' Developer Success Lab/Pluralsight affiliations are relevant context. Date basis: Supplied PDF draft date and OSF version-2 submission date, both 15 March 2025; source page inspected in local Chrome on 13 October 2026. Last-edited date (27 August 2025) is separate. Version: OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The publisher-declared version DOI resolves to OSF, although the DataCite API returned 404 during this check; registry access is not claimed. Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: OSF title, bylines, version-2 DOI, submitted/last-edited dates, data/preregistration declarations and embedded PDF first page and filename (55 pages). Document inspection: user-supplied-pdf-plus-local-chrome, 2026-10-13; 55 pages; SHA-256 576ea4b6b35ac4ca1d1198e077dc77572b8f85976bba60ba977e1408cd076560. Scope: Identity and main study sections including limitations; appendix and data not independently audited. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.31234/osf.io/2gej5_v2"
+  },
+  {
     "id": "stackoverflow2025",
     "type": "report",
     "title": "AI | 2025 Stack Overflow Developer Survey",
@@ -7332,6 +7500,48 @@
       ]
     },
     "DOI": "10.1007/978-981-95-3537-8_9"
+  },
+  {
+    "id": "ref-283d4e8368",
+    "type": "report",
+    "title": "Self-Regulated AI Use Hinders Long-Term Learning",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+    "author": [
+      {
+        "family": "Poulidis",
+        "given": "Stefanos"
+      },
+      {
+        "family": "Bastani",
+        "given": "Hamsa"
+      },
+      {
+        "family": "Bastani",
+        "given": "Osbert"
+      }
+    ],
+    "abstract": "A preregistered chess-training experiment compares automatic AI tips with the same tips plus optional answer-revealing help. Among 216 completers from 306 recruits, the optional-help group had smaller unaided test-score gains after 12 weeks of training. Both randomized groups received AI; the comparison isolates assistance design, not AI versus no AI.",
+    "keyword": "learning; methods",
+    "note": "Method: randomized-field-experiment. Status: working-paper. Verification: content-checked (User-supplied 63-page PDF: title, abstract, experimental design, main results and Table 1, mediation assumptions, boundary conditions and selected appendix details on Stockfish and attrition; SSRN dates, bylines and identifier matched in local Chrome. No data reanalysis.). Limitations: Stockfish-based chess assistance, not a general-purpose LLM or programming intervention. Main analysis is of completers, with approximately 29% attrition; reported absence of differential attrition does not remove every selection concern. The 30% versus 64% figures are relative changes in bounded test-game scores, not percentages of underlying skill. Causal mediation needs additional assumptions; the nonparticipant comparison is observational. Date basis: Local Chrome SSRN page: posted 16 October 2025, written 1 October 2025, revised 1 August 2026. Citation year describes first posting; results describe the supplied 2026 revision. Version: Supplied PDF matches the 63-page SSRN revision dated 1 August 2026. The 2026 Academy of Management proceedings abstract is related coverage, not independent evidence or proof that this full manuscript is a peer-reviewed journal article. Alternative verification: local Chrome, 2026-10-13T08:11:25+00:00; identity-confirmed. Scope: SSRN heading, three bylines, 63-page count, posting date, written date, 1 August 2026 revision and DOI in suggested citation. Document inspection: user-supplied-pdf-plus-local-chrome, 2026-10-13; 63 pages; SHA-256 42b052fff67d466c52463948560f33507dd1a1a53c133881a99b416cdbfae7ec. Scope: Methods, principal results, limitations and selected appendices; no independent replication. Artifact not redistributed.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.2139/ssrn.5604932"
   },
   {
     "id": "ref-cebccd633f",

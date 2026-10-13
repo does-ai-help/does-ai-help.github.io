@@ -13,6 +13,20 @@
       "editors": {"type":"array","items":{"type":"string"}},
       "publisher": {"type":"string"},
       "date_basis": {"type":"string"},
+      "study_family": {"type":"string"},
+      "document_verification": {
+        "type": "object",
+        "required": ["method", "checked_on", "filename", "sha256", "pages", "scope", "redistributed"],
+        "properties": {
+          "method": {"enum": ["user-supplied-pdf-plus-local-chrome", "public-publisher-pdf"]},
+          "checked_on": {"type": "string", "format": "date"},
+          "filename": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "pages": {"type": "integer", "minimum": 1},
+          "scope": {"type": "string", "minLength": 1},
+          "redistributed": {"const": false}
+        }
+      },
       "year": {"type":["integer","null"],"minimum":1900,"maximum":2100},
       "date": {"type":["string","null"]},
       "topics": {"type":"array","items":{"type":"string"}},

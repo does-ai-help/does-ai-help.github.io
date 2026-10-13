@@ -1893,6 +1893,205 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-776550e112",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "topics": [
+      "engineering",
+      "quality",
+      "methods",
+      "agents"
+    ],
+    "method": "quasi-experiment",
+    "publication_status": "preprint",
+    "summary": "Supporting reference on engineering, quality, methods, agents. Scope indicated by the primary-source title: Does Working with AI Agents Change How Developers Code, Test, and Review?. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-13",
+      "basis": "Local Chrome title, authors, original posting/writing dates and version linkage from 7070979. This original record has no downloadable PDF; findings are appraised using the linked later preprint and published version instead.",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"
+    },
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    },
+    "authors": [
+      "Hamza, Muhammad",
+      "Siemon, Dominik",
+      "Awan, Wardah Naeem"
+    ],
+    "year": 2026,
+    "date": "2026-07-18",
+    "date_basis": "Original SSRN version posted 18 July 2026; Date Written is 25 June 2026. Both observed directly in local Chrome on 13 October 2026.",
+    "verification_level": "identity-checked",
+    "checked_on": "2026-10-13",
+    "verification_scope": "Local Chrome title, authors, original posting/writing dates and version linkage from 7070979. This original record has no downloadable PDF; findings are appraised using the linked later preprint and published version instead.",
+    "version_note": "Original SSRN record, linked by SSRN to 7070979. The user supplied the later 7070979 PDF, not an artifact from this original record. Also linked to the published ESEM paper; one study, not multiple replications.",
+    "study_family": "hamza-agent-behavior",
+    "related_to": [
+      "hamza-preprint2026",
+      "hamza2026"
+    ],
+    "editorial_priority": "supporting",
+    "verified": true,
+    "browser_verification": {
+      "id": "ref-776550e112",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+      "source_fingerprint": "85ab5909c48f1eb11762ac8a7c04c0f7f66091cdc36cf8b28137f4e3297466d2",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+        "authors": [
+          "Muhammad Hamza",
+          "Dominik Siemon",
+          "Wardah Naeem Awan"
+        ],
+        "publication_date": "2026-07-18",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"
+      },
+      "scope": "Original SSRN title, authors, posted 18 July 2026, written 25 June 2026 and no-download notice; reached through the actual 7070979 version-menu link.",
+      "notes": "Original record is not the supplied PDF's version. Retained as identity-checked related version; not independently appraised or counted as replication.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    "added_in": "2026-10"
+  },
+  {
+    "id": "hamza-preprint2026",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "authors": [
+      "Hamza, Muhammad",
+      "Siemon, Dominik",
+      "Awan, Wardah Naeem"
+    ],
+    "year": 2026,
+    "date": "2026-07-24",
+    "doi": "10.2139/ssrn.7070979",
+    "date_basis": "Local Chrome SSRN posting date, 24 July 2026; Date Written is 7 July 2026. PDF creation time is not used as publication date.",
+    "topics": [
+      "engineering",
+      "quality",
+      "methods",
+      "agents"
+    ],
+    "method": "quasi-experiment",
+    "publication_status": "preprint",
+    "verification_level": "identity-checked",
+    "checked_on": "2026-10-13",
+    "verification_scope": "User-supplied 12-page PDF identity and main methods/results compared with local Chrome SSRN title, authors, date and version menu. The main result appraisal is attached to the subsequently published ESEM record.",
+    "version_note": "Later version of SSRN 6996078, verified through the actual SSRN version menu. The supplied preprint has unfinished proceedings-template DOI/copyright fields; they do not establish a conference DOI or publication. Use the separately verified published version for the synthesis.",
+    "study_family": "hamza-agent-behavior",
+    "related_to": [
+      "ref-776550e112",
+      "hamza2026"
+    ],
+    "document_verification": {
+      "method": "user-supplied-pdf-plus-local-chrome",
+      "checked_on": "2026-10-13",
+      "filename": "ssrn-7070979.pdf",
+      "sha256": "d5a518024677df9ecbf9f51dcc820a968b493f165bb1b0e87813406b6973f410",
+      "pages": 12,
+      "scope": "Identity, main methods/results and comparison with published version; no independent replication",
+      "redistributed": false
+    },
+    "verification": {
+      "level": "identity-checked",
+      "checked_on": "2026-10-13",
+      "basis": "User-supplied 12-page PDF identity and main methods/results compared with local Chrome SSRN title, authors, date and version menu. The main result appraisal is attached to the subsequently published ESEM record.",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979"
+    },
+    "editorial_priority": "supporting",
+    "verified": true,
+    "browser_verification": {
+      "id": "hamza-preprint2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979",
+      "source_fingerprint": "318fc32e30a804c4ba5fc5047988b8debade99b7c685db7e746d50a38eaf6cf6",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+        "authors": [
+          "Muhammad Hamza",
+          "Dominik Siemon",
+          "Wardah Naeem Awan"
+        ],
+        "publication_date": "2026-07-24",
+        "doi": "10.2139/ssrn.7070979",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979"
+      },
+      "scope": "SSRN title, bylines, 12-page count, posted/written dates, suggested-citation DOI and expanded version menu linking 6996078.",
+      "notes": "Matches supplied ssrn-7070979.pdf; posted 24 July and written 7 July 2026. The unfinished LIPIcs DOI in the preprint is not used as a real identifier. The subsequently published paper has its own verified DOI.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    "summary": "Supporting reference on engineering, quality, methods, agents. Scope indicated by the primary-source title: Does Working with AI Agents Change How Developers Code, Test, and Review?. Result-level appraisal is pending.",
+    "limitations": "Bibliographic identity checked; substantive findings have not been independently appraised for this release.",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "hamza2026",
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67",
+    "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+    "authors": [
+      "Hamza, Muhammad",
+      "Siemon, Dominik",
+      "Awan, Wardah Naeem"
+    ],
+    "year": 2026,
+    "date": "2026-10-05",
+    "doi": "10.4230/LIPIcs.ESEM.2026.67",
+    "container_title": "20th International Symposium on Empirical Software Engineering and Measurement (ESEM 2026)",
+    "date_basis": "Primary Dagstuhl publication metadata dated 5 October 2026, checked 13 October 2026.",
+    "topics": [
+      "engineering",
+      "quality",
+      "methods",
+      "agents"
+    ],
+    "method": "quasi-experiment",
+    "publication_status": "peer-reviewed-conference",
+    "verification_level": "content-checked",
+    "checked_on": "2026-10-13",
+    "verification_scope": "Publisher metadata and linked 13-page published PDF: abstract, methods, results/Tables 1-5 and discussion; compared with user-supplied 12-page SSRN preprint. Replication package not executed.",
+    "summary": "AIDev-based comparisons of 669 developer-repository pairs in agent-exposed repositories with 228 control pairs find increased PR-description length and small test-change associations. Apparent review changes in before/after comparisons do not remain significant after comparison with controls. This challenges simple attribution of every review trend to agents, without establishing better delivered software.",
+    "limitations": "Nonrandom adoption defined by first visible agent PR, not first AI use; selection of persistent contributors and active reviewers, median-split controls and limited matching weaken causal identification. Description length and test-file heuristics do not measure explanation quality or defect prevention. Null review contrasts do not establish equivalence. Reporting questions in the time-window and misattribution summaries are logged for clarification; no replication was run.",
+    "version_note": "Published in the Emerging Results, Vision & Reflection Track on 5 October 2026. SSRN 6996078 and 7070979 are earlier versions of this study, not additional evidence. Shares the AIDev dataset family with other repository studies, but its analytic samples and outcomes differ.",
+    "dataset_family": "AIDev",
+    "study_family": "hamza-agent-behavior",
+    "related_to": [
+      "ref-776550e112",
+      "hamza-preprint2026"
+    ],
+    "document_verification": {
+      "method": "public-publisher-pdf",
+      "checked_on": "2026-10-13",
+      "filename": "LIPIcs.ESEM.2026.67.pdf",
+      "sha256": "342b776c023a75dd9a17cf1b0494e6e264c4358340fa48a6e58cdd5cb545ab0f",
+      "pages": 13,
+      "scope": "Publisher metadata, abstract, methods, results and discussion; compared with supplied preprint",
+      "redistributed": false
+    },
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-10-13",
+      "basis": "Publisher metadata and linked 13-page published PDF: abstract, methods, results/Tables 1-5 and discussion; compared with user-supplied 12-page SSRN preprint. Replication package not executed.",
+      "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67"
+    },
+    "editorial_priority": "core",
+    "verified": true,
+    "added_in": "2026-10"
+  },
+  {
     "id": "doratensions2026",
     "url": "https://dora.dev/insights/balancing-ai-tensions",
     "title": "DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use",
@@ -5186,6 +5385,87 @@
     "added_in": "2026-10"
   },
   {
+    "id": "ref-47ac0a3015",
+    "url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+    "title": "AI Skill Threat: How the Structure of Developers' Beliefs about Software Development Ability Impacts Their Psychological Resilience During Rapid Technology Shift",
+    "topics": [
+      "engineering",
+      "work",
+      "learning",
+      "governance"
+    ],
+    "method": "survey",
+    "publication_status": "preprint",
+    "summary": "An observational survey of 3,267 developers and technical managers relates competitive and innate-brilliance beliefs to reported AI-related identity threat, and learning culture and belonging to more favorable reported experiences. It also identifies differences in concerns and intended upskilling across groups.",
+    "limitations": "Volunteer recruitment including Pluralsight users, self-report outcomes, optional demographic responses and cross-sectional mediation limit causal interpretation. The study does not measure delivered software, demonstrate permanent skill loss, prove that a culture intervention works, or establish that AI skepticism is irrational. Authors' Developer Success Lab/Pluralsight affiliations are relevant context.",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-10-13",
+      "basis": "User-supplied 55-page PDF: title, abstract, recruitment, measures, principal results and limitations; OSF page and embedded first PDF page inspected in local Chrome to match the artifact and version. Data and preregistered analysis were not independently reanalyzed.",
+      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"
+    },
+    "access": {
+      "status": 200,
+      "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+      "checked_on": "2026-10-12",
+      "content_type": "text/html"
+    },
+    "observed_title": "OSF",
+    "title_aliases": [
+      "The New Developer: AI Skill Threat, Identity Change & Developer Thriving in the Transition to AI-Assisted Software Development"
+    ],
+    "authors": [
+      "Hicks, Catherine M.",
+      "Lee, Carol S.",
+      "Foster-Marks, Kristen L."
+    ],
+    "year": 2025,
+    "date": "2025-03-15",
+    "doi": "10.31234/osf.io/2gej5_v2",
+    "date_basis": "Supplied PDF draft date and OSF version-2 submission date, both 15 March 2025; source page inspected in local Chrome on 13 October 2026. Last-edited date (27 August 2025) is separate.",
+    "verification_level": "content-checked",
+    "checked_on": "2026-10-13",
+    "verification_scope": "User-supplied 55-page PDF: title, abstract, recruitment, measures, principal results and limitations; OSF page and embedded first PDF page inspected in local Chrome to match the artifact and version. Data and preregistered analysis were not independently reanalyzed.",
+    "version_note": "OSF version 2 displays the older The New Developer title but embeds the supplied revised-title PDF. Preserve both titles; do not count versions as separate studies. The publisher-declared version DOI resolves to OSF, although the DataCite API returned 404 during this check; registry access is not claimed.",
+    "document_verification": {
+      "method": "user-supplied-pdf-plus-local-chrome",
+      "checked_on": "2026-10-13",
+      "filename": "AIST_ Preprint Update.pdf",
+      "sha256": "576ea4b6b35ac4ca1d1198e077dc77572b8f85976bba60ba977e1408cd076560",
+      "pages": 55,
+      "scope": "Identity and main study sections including limitations; appendix and data not independently audited",
+      "redistributed": false
+    },
+    "editorial_priority": "core",
+    "verified": true,
+    "browser_verification": {
+      "id": "ref-47ac0a3015",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+      "source_fingerprint": "700ebfb88a23d61ec3163aab0a67c76d45b84920fcd7a8a24a27c8485136ee5e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "The New Developer: AI Skill Threat, Identity Change & Developer Thriving in the Transition to AI-Assisted Software Development",
+        "authors": [
+          "Catherine M. Hicks",
+          "Carol Lee",
+          "Kristen Foster-Marks"
+        ],
+        "publication_date": "2025-03-15",
+        "doi": "10.31234/osf.io/2gej5_v2",
+        "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"
+      },
+      "scope": "OSF title, bylines, version-2 DOI, submitted/last-edited dates, data/preregistration declarations and embedded PDF first page and filename (55 pages).",
+      "notes": "OSF retains the older title while its embedded AIST_ Preprint Update.pdf has the revised AI Skill Threat title, matching the supplied PDF. Preprint version 2 and embedded file's internal Version: 1 are distinct. Raw data are not public; no scientific claim or preregistration compliance independently validated.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
+    "added_in": "2026-10"
+  },
+  {
     "id": "stackoverflow2025",
     "url": "https://survey.stackoverflow.co/2025/ai",
     "title": "AI | 2025 Stack Overflow Developer Survey",
@@ -6768,6 +7048,80 @@
     "date_basis": "primary metadata",
     "verified": true,
     "editorial_priority": "supporting",
+    "added_in": "2026-10"
+  },
+  {
+    "id": "ref-283d4e8368",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+    "title": "Self-Regulated AI Use Hinders Long-Term Learning",
+    "topics": [
+      "learning",
+      "methods"
+    ],
+    "method": "randomized-field-experiment",
+    "publication_status": "working-paper",
+    "summary": "A preregistered chess-training experiment compares automatic AI tips with the same tips plus optional answer-revealing help. Among 216 completers from 306 recruits, the optional-help group had smaller unaided test-score gains after 12 weeks of training. Both randomized groups received AI; the comparison isolates assistance design, not AI versus no AI.",
+    "limitations": "Stockfish-based chess assistance, not a general-purpose LLM or programming intervention. Main analysis is of completers, with approximately 29% attrition; reported absence of differential attrition does not remove every selection concern. The 30% versus 64% figures are relative changes in bounded test-game scores, not percentages of underlying skill. Causal mediation needs additional assumptions; the nonparticipant comparison is observational.",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-10-13",
+      "basis": "User-supplied 63-page PDF: title, abstract, experimental design, main results and Table 1, mediation assumptions, boundary conditions and selected appendix details on Stockfish and attrition; SSRN dates, bylines and identifier matched in local Chrome. No data reanalysis.",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932"
+    },
+    "access": {
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-10-12"
+    },
+    "authors": [
+      "Poulidis, Stefanos",
+      "Bastani, Hamsa",
+      "Bastani, Osbert"
+    ],
+    "year": 2025,
+    "date": "2025-10-16",
+    "doi": "10.2139/ssrn.5604932",
+    "date_basis": "Local Chrome SSRN page: posted 16 October 2025, written 1 October 2025, revised 1 August 2026. Citation year describes first posting; results describe the supplied 2026 revision.",
+    "verification_level": "content-checked",
+    "checked_on": "2026-10-13",
+    "verification_scope": "User-supplied 63-page PDF: title, abstract, experimental design, main results and Table 1, mediation assumptions, boundary conditions and selected appendix details on Stockfish and attrition; SSRN dates, bylines and identifier matched in local Chrome. No data reanalysis.",
+    "version_note": "Supplied PDF matches the 63-page SSRN revision dated 1 August 2026. The 2026 Academy of Management proceedings abstract is related coverage, not independent evidence or proof that this full manuscript is a peer-reviewed journal article.",
+    "document_verification": {
+      "method": "user-supplied-pdf-plus-local-chrome",
+      "checked_on": "2026-10-13",
+      "filename": "ssrn-5604932.pdf",
+      "sha256": "42b052fff67d466c52463948560f33507dd1a1a53c133881a99b416cdbfae7ec",
+      "pages": 63,
+      "scope": "Methods, principal results, limitations and selected appendices; no independent replication",
+      "redistributed": false
+    },
+    "editorial_priority": "core",
+    "verified": true,
+    "browser_verification": {
+      "id": "ref-283d4e8368",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+      "source_fingerprint": "aa54cbc8388465451d78005f475600027fe0ab0d3d694bc727a0d5fa149f1c83",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Self-Regulated AI Use Hinders Long-Term Learning",
+        "authors": [
+          "Stefanos Poulidis",
+          "Hamsa Bastani",
+          "Osbert Bastani"
+        ],
+        "publication_date": "2025-10-16",
+        "doi": "10.2139/ssrn.5604932",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932"
+      },
+      "scope": "SSRN heading, three bylines, 63-page count, posting date, written date, 1 August 2026 revision and DOI in suggested citation.",
+      "notes": "Matches supplied ssrn-5604932.pdf. Written, posted and revised dates are distinct. Scientific appraisal uses scoped reading of the supplied PDF, not browser metadata alone; no replication.",
+      "timestamp_basis": "Batch recording time following the observed local Chrome checks."
+    },
     "added_in": "2026-10"
   },
   {
@@ -8390,39 +8744,6 @@
     "added_in": "2026-10"
   },
   {
-    "id": "ref-47ac0a3015",
-    "url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
-    "title": "Reference awaiting identity verification",
-    "topics": [
-      "context"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Candidate reference; no substantive conclusion is attributed before source review.",
-    "limitations": "Result-level appraisal pending.",
-    "verification": {
-      "level": "candidate",
-      "checked_on": "2026-10-12",
-      "basis": "Bibliographic identity inspected in primary-source page metadata; findings not yet appraised.",
-      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
-      "retrieved_sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3"
-    },
-    "access": {
-      "status": 200,
-      "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
-      "checked_on": "2026-10-12",
-      "content_type": "text/html"
-    },
-    "observed_title": "OSF",
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": false,
-    "editorial_priority": "pending",
-    "added_in": "2026-10"
-  },
-  {
     "id": "ref-a5ad621910",
     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
     "title": "Reference awaiting identity verification",
@@ -8680,62 +9001,6 @@
   {
     "id": "ref-9c796dc1e9",
     "url": "https://www.sciencedirect.com/science/article/pii/S2666920X25001778",
-    "title": "Reference awaiting identity verification",
-    "topics": [
-      "context"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Candidate reference; no substantive conclusion is attributed before source review.",
-    "limitations": "Result-level appraisal pending.",
-    "verification": {
-      "level": "candidate",
-      "checked_on": null
-    },
-    "access": {
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden",
-      "checked_on": "2026-10-12"
-    },
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": false,
-    "editorial_priority": "pending",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-283d4e8368",
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
-    "title": "Reference awaiting identity verification",
-    "topics": [
-      "context"
-    ],
-    "method": "not-classified",
-    "publication_status": "not-established",
-    "summary": "Candidate reference; no substantive conclusion is attributed before source review.",
-    "limitations": "Result-level appraisal pending.",
-    "verification": {
-      "level": "candidate",
-      "checked_on": null
-    },
-    "access": {
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden",
-      "checked_on": "2026-10-12"
-    },
-    "authors": [],
-    "date": null,
-    "year": null,
-    "date_basis": "not established",
-    "verified": false,
-    "editorial_priority": "pending",
-    "added_in": "2026-10"
-  },
-  {
-    "id": "ref-776550e112",
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
     "title": "Reference awaiting identity verification",
     "topics": [
       "context"

@@ -33,6 +33,8 @@ The fingerprint binds a receipt to the citation's ID, title, URL, DOI and author
 
 ## Reading scope and privacy
 
+When the coauthor supplies a PDF, match it to the actual online version before appraisal. `data/document-source-updates.json` records these follow-ups; `document_verification` preserves the basename, SHA-256, page count, inspection method and exact reading scope. A supplied file is neither proof of peer review nor permission to redistribute it. Do not put private local paths or third-party PDFs into the public repository. The four OSF/SSRN records matched during the October document follow-up are included in the mandatory monthly watchlist. If a source revision changes, refresh the artifact/version comparison and substantive appraisal, not just its timestamp. CI can validate the provenance record but cannot read the coauthor's private Downloads directory.
+
 Record title-only, abstract, public-preview, selected-section or full-text inspection honestly. Keep identity verification separate from methodological appraisal and independent replication. Do not infer sample sizes, estimates or correctness from a headline. A certificate, DOI and working URL answer different questions.
 
 Do not bypass paywalls, CAPTCHAs, browser security warnings or access controls. Stop for user action where required. Do not publish cookies, credentials, private browser history, institutional account details or whole accessibility snapshots. The public ledger contains only selected bibliographic facts and original review notes, not copied full texts. Screenshots, if needed for local inspection, must not expose unrelated tabs or personal information.

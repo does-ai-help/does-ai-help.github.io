@@ -1,5 +1,14 @@
 # Release history
 
+## 2026.10.4 - Supplied documents and Chrome version checks
+
+- Resolved three previously unverified study records using PDFs supplied by the human coauthor and actual local Chrome source-page inspections.
+- Appraised the chess assistance-design experiment and the AI Skill Threat survey, preserving the specialized-engine/counterfactual distinction and self-report/observational limitations.
+- Established SSRN 6996078 and 7070979 as related versions, then appraised the published ESEM paper dated 5 October 2026. One study family; no duplicate replication claims.
+- Added a qualified counterpoint to simple agent-induced review-degradation narratives and logged remaining reporting questions.
+- Recorded third-party PDF filenames, checksums and reading scopes without redistributing the PDFs. Added four records to the mandatory monthly Chrome watchlist and provenance-validation tests.
+- Financial Times remains an unappraised paywalled candidate. Cutoff remains 13 October 2026; previous release snapshots remain unchanged.
+
 ## 2026.10.3 - Publication dates and attribution
 
 - Resolved 16 undated checked references using primary bylines, report editions, publisher announcements and structured publication metadata. Retained genuinely undated live documentation and repository entries.

@@ -46,6 +46,9 @@ def to_csl(r):
     if r.get("browser_verification"):
         b = r["browser_verification"]
         item["note"] += f" Alternative verification: local Chrome, {b['checked_at']}; {b['outcome']}. Scope: {b['scope']}"
+    if r.get("document_verification"):
+        d = r["document_verification"]
+        item["note"] += f" Document inspection: {d['method']}, {d['checked_on']}; {d['pages']} pages; SHA-256 {d['sha256']}. Scope: {d['scope']}. Artifact not redistributed."
     return item
 
 
@@ -62,7 +65,7 @@ def main():
     for filename, data in [("sources.json", records), ("bibliography.csl.json", [to_csl(r) for r in verified]), ("bibliography-core.csl.json", [to_csl(r) for r in verified if r['editorial_priority']=='core'])]:
         (output / filename).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     (output / "sources.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
-    fields = ["id", "title", "authors", "editors", "publisher", "year", "date", "date_basis", "url", "doi", "arxiv_id", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note", "browser_method", "browser_checked_at", "browser_scope"]
+    fields = ["id", "title", "authors", "editors", "publisher", "year", "date", "date_basis", "url", "doi", "arxiv_id", "study_family", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note", "browser_method", "browser_checked_at", "browser_scope", "document_method", "document_checked_on", "document_sha256", "document_scope"]
     with (output / "sources.csv").open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=fields)
         writer.writeheader()
@@ -72,6 +75,8 @@ def main():
             row["editors"] = "; ".join(r.get("editors", []))
             browser = r.get("browser_verification", {})
             row.update(browser_method=browser.get("method", ""), browser_checked_at=browser.get("checked_at", ""), browser_scope=browser.get("scope", ""))
+            document = r.get("document_verification", {})
+            row.update(document_method=document.get("method", ""), document_checked_on=document.get("checked_on", ""), document_sha256=document.get("sha256", ""), document_scope=document.get("scope", ""))
             writer.writerow(row)
     bib, ris = [], []
     for r in verified:
@@ -89,6 +94,9 @@ def main():
             values["publisher"] = bib_escape(r["publisher"])
         if r.get("date_basis"):
             values["note"] += " Date basis: " + bib_escape(r["date_basis"])
+        if r.get("document_verification"):
+            d = r["document_verification"]
+            values["note"] += bib_escape(f" Document inspection: {d['method']}, {d['checked_on']}; SHA-256 {d['sha256']}. Scope: {d['scope']}. Artifact not redistributed.")
         if r.get("year"):
             values["year"] = str(r["year"])
         if r.get("doi"):
@@ -109,6 +117,9 @@ def main():
             rows.append("DA  - " + r["date"])
         if r.get("date_basis"):
             rows.append("N1  - Date basis: " + r["date_basis"])
+        if r.get("document_verification"):
+            d = r["document_verification"]
+            rows.append(f"N1  - Document inspection: {d['method']}, {d['checked_on']}; SHA-256 {d['sha256']}. Scope: {d['scope']}. Artifact not redistributed.")
         if r.get("year"):
             rows.append("PY  - " + str(r["year"]))
         rows += ["UR  - " + r["url"], "AB  - " + r["summary"], "N1  - " + r["limitations"], *["KW  - " + topic for topic in r["topics"]]]

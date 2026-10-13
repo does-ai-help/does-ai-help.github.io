@@ -43,6 +43,9 @@ ref-080071453a,confirmed,Debt Behind the AI Boom: A Large-Scale Empirical Study 
 ref-6d1ee1d676,confirmed,Developers and Generative AI: A Study of Self-Admitted Usage in Open Source Projects,https://arxiv.org/abs/2603.26277,,
 ref-18f316cc73,confirmed,Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories,https://arxiv.org/abs/2608.10319,,
 iac2026,confirmed,Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair,https://arxiv.org/abs/2608.13404,,
+ref-776550e112,browser-confirmation,"Does Working with AI Agents Change How Developers Code, Test, and Review?",https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078,,
+hamza-preprint2026,confirmed,"Does Working with AI Agents Change How Developers Code, Test, and Review?",https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979,10.2139/ssrn.7070979,
+hamza2026,confirmed,"Does Working with AI Agents Change How Developers Code, Test, and Review?",https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.67,10.4230/lipics.esem.2026.67,
 doratensions2026,confirmed,DORA | Balancing AI tensions: Moving from AI adoption to effective SDLC use,https://dora.dev/insights/balancing-ai-tensions,,
 boolzen2026,confirmed,Evidence of impact and interpretational limits of generative AI in STEM education: a systematic review and meta-analysis on cognitive learning outcomes,https://link.springer.com/article/10.1007/s10462-026-11665-9,10.1007/s10462-026-11665-9,
 ref-c97b313435,confirmed,Experimental Evidence on the Learning Impact of Generative AI,https://arxiv.org/abs/2607.08849,,
@@ -122,6 +125,7 @@ ref-cdc899d526,confirmed,A Survey of Bugs in AI-Generated Code,https://arxiv.org
 ref-293e50cc97,confirmed,A Survey on Code Generation with LLM-based Agents,https://arxiv.org/abs/2508.00083,,
 ref-5830326d93,confirmed,Agentic Refactoring: An Empirical Study of AI Coding Agents,https://arxiv.org/abs/2511.04824,,
 gitclear2025,confirmed,AI Copilot Code Quality: 2025 Look Back at 12 Months of Data,https://www.gitclear.com/ai_assistant_code_quality_2025_research,,
+ref-47ac0a3015,browser-confirmation,AI Skill Threat: How the Structure of Developers' Beliefs about Software Development Ability Impacts Their Psychological Resilience During Rapid Technology Shift,https://osf.io/preprints/psyarxiv/2gej5_v2,10.31234/osf.io/2gej5_v2,Title mismatch requires review: https://osf.io/preprints/psyarxiv/2gej5_v2
 stackoverflow2025,confirmed,AI | 2025 Stack Overflow Developer Survey,https://survey.stackoverflow.co/2025/ai,,
 maintenance2025,confirmed,AI-Assisted Programming Decreases the Productivity of Experienced Developers by Increasing the Technical Debt and Maintenance Burden,https://arxiv.org/abs/2510.10165,,
 alphaevolve2025,confirmed,AlphaEvolve: A coding agent for scientific and algorithmic discovery,https://arxiv.org/abs/2506.13131,,
@@ -160,6 +164,7 @@ ref-e36d2a38a9,unresolved,Reference awaiting identity verification,https://alici
 ref-91e8bb760f,confirmed,Secure Coding with AI -- From Detection to Repair,https://arxiv.org/abs/2504.20814,,
 ref-c49fcf21a4,confirmed,Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox,https://arxiv.org/abs/2506.11022,,
 ref-a4d736c4f3,confirmed,Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories,https://arxiv.org/abs/2510.26103,10.1007/978-981-95-3537-8_9,
+ref-283d4e8368,confirmed,Self-Regulated AI Use Hinders Long-Term Learning,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932,10.2139/ssrn.5604932,
 ref-cebccd633f,confirmed,Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects,https://arxiv.org/abs/2511.04427,10.1145/3793302.3793349,"Date/version differs from recorded year: [2026, 2026, 2026]"
 humlum2026,confirmed,"Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",https://www.nber.org/papers/w33777,10.3386/w33777,
 ref-e71e370e4c,confirmed,"Teaching with AI: A Systematic Review of Chatbots, Generative Tools, and Tutoring Systems in Programming Education",https://arxiv.org/abs/2510.03884,10.26803/ijlter.25.1.1,"Date/version differs from recorded year: [2026, 2026, 2026]"
@@ -198,16 +203,13 @@ ref-8ecd8d70a1,confirmed,GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language M
 ref-e2f16876f5,unresolved,Reference awaiting identity verification,https://about.gitlab.com/resources/ai-accountability-survey-2026,,Title mismatch requires review: https://about.gitlab.com/resources/ai-accountability-survey-2026
 ref-3d99cf87d4,unresolved,Reference awaiting identity verification,https://openai.com/index/how-agents-are-transforming-work,,Title mismatch requires review: https://openai.com/index/how-agents-are-transforming-work
 ref-824b5ba22f,unresolved,Reference awaiting identity verification,https://openai.com/index/scientific-computing-agentic-ai,,Title mismatch requires review: https://openai.com/index/scientific-computing-agentic-ai
-ref-47ac0a3015,unresolved,Reference awaiting identity verification,https://osf.io/preprints/psyarxiv/2gej5_v2,,Title mismatch requires review: https://osf.io/preprints/psyarxiv/2gej5_v2
 ref-a5ad621910,unresolved,Reference awaiting identity verification,https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535,,
 ref-b6ad5171c7,unresolved,Reference awaiting identity verification,https://www.bls.gov/news.release/archives/empsit_07022026.pdf,,
 ref-e926298d45,unresolved,Reference awaiting identity verification,https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5,,
-ref-6de8a45dae,unresolved,Reference awaiting identity verification,https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378,,Title mismatch requires review: https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378
+ref-6de8a45dae,unresolved,Reference awaiting identity verification,https://www.ft.com/content/9183a122-10b7-4707-a728-b61ab50da378,,
 ref-2242749b51,unresolved,Reference awaiting identity verification,https://www.hesa.ac.uk/news/27-01-2026/sb273-higher-education-student-statistics/subjects,,
 ref-1e963c6037,unresolved,Reference awaiting identity verification,https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity,,
 ref-8264be6d82,unresolved,Reference awaiting identity verification,https://www.mdpi.com/2075-4698/15/1/6,,
 ref-e4cd7d579d,unresolved,Reference awaiting identity verification,https://www.sciencedirect.com/science/article/pii/S0950584925000904,,
 ref-bf9d293e6b,unresolved,Reference awaiting identity verification,https://www.sciencedirect.com/science/article/pii/S2451958825000570,,
 ref-9c796dc1e9,unresolved,Reference awaiting identity verification,https://www.sciencedirect.com/science/article/pii/S2666920X25001778,,
-ref-283d4e8368,unresolved,Reference awaiting identity verification,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932,,
-ref-776550e112,unresolved,Reference awaiting identity verification,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078,,

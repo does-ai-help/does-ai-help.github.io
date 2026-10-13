@@ -14,6 +14,28 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def document_receipt_errors(document):
+    errors = []
+    if document.get("method") not in {"user-supplied-pdf-plus-local-chrome", "public-publisher-pdf"}:
+        errors.append("Unknown document inspection method")
+    if not re.fullmatch(r"[a-f0-9]{64}", document.get("sha256", "")):
+        errors.append("Missing or invalid document checksum")
+    filename = document.get("filename", "")
+    if not filename or "/" in filename or "\\" in filename:
+        errors.append("Record only a document basename, not a private local path")
+    if type(document.get("pages")) is not int or document["pages"] < 1:
+        errors.append("Invalid document page count")
+    if not document.get("scope") or document.get("redistributed") is not False:
+        errors.append("Missing reading scope or third-party redistribution restriction")
+    try:
+        date = dt.date.fromisoformat(document["checked_on"])
+        if date > dt.datetime.now(dt.timezone.utc).date():
+            errors.append("Future document inspection")
+    except (KeyError, ValueError, TypeError):
+        errors.append("Missing or invalid document inspection date")
+    return errors
+
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -63,6 +85,8 @@ def main():
         errors.append("Duplicate canonical source URLs")
     byid = {r["id"]:r for r in records}
     for r in records:
+        if r.get('document_verification'):
+            errors.extend(f"Document {r['id']}: {e}" for e in document_receipt_errors(r['document_verification']))
         if (r.get('year') or 0) > int(release['cutoff'][:4]):
             errors.append(f"Future or misparsed publication year: {r['id']}")
         if r.get('date') and re.fullmatch(r'\d{4}(?:-\d{2}(?:-\d{2})?)?', r['date']) and r.get('year') != int(r['date'][:4]):
