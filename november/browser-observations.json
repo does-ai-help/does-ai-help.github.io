@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target_release": "2026-11",
+  "inspection_date": "2026-10-16",
+  "method": "local-chrome-native",
+  "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+  "release_receipts_complete": false,
+  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026"],
+  "policy": "These are October intake observations for November preparation, not November monthly release receipts. Revisit selected resources during November release verification and append appropriately dated observations to the release ledger.",
+  "observations": [
+    {
+      "id": "torvaldstools2026",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3242",
+      "observed": {"author": "Linus Torvalds", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Tue, 13 Oct 2026 13:45:09 -0700"},
+      "outcome": "identity-and-message-content-inspected",
+      "scope": "Full message and quoted parent context, author and message date read from the rendered accessibility tree in the user's existing Chrome tab.",
+      "access_notes": "The web retrieval tool could not access the supplied URL. Chrome rendered it successfully. Header-view navigation did not expose an RFC Message-ID; none is fabricated.",
+      "refresh_required": true
+    },
+    {
+      "id": "pincharttools2026",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3226",
+      "observed": {"author": "Laurent Pinchart", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Tue, 13 Oct 2026 22:16:28 +0200"},
+      "outcome": "identity-and-message-content-inspected",
+      "scope": "Full reply and quoted exchange, with authorship distinguished from quotations.",
+      "access_notes": "The linked fancy-rendering route returned Access denied; the already-observed plain-text route rendered successfully. No access control or security interstitial was bypassed.",
+      "refresh_required": true
+    },
+    {
+      "id": "cooktools2026",
+      "source_url": "https://lkml.org/lkml/2026/10/14/2388",
+      "observed": {"author": "Kees Cook", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Wed, 14 Oct 2026 11:47:46 -0700"},
+      "outcome": "identity-and-message-content-inspected",
+      "scope": "Full follow-up including testing, trust, review volume, drafting and accountability. Linked review-bot implementation was not evaluated.",
+      "access_notes": "Read through an explicit thread link in local Chrome; no claim of independent measurement of the described workflow.",
+      "refresh_required": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "target_release": "2026-11",
+  "checked_on": "2026-10-16",
+  "upstream_revision": "2f2f7eeef8b0a1a9b9ca998231419873ccae8d4e",
+  "upstream_revision_committed_at": "2026-10-15T22:10:26Z",
+  "method": "Official GitHub API: resolve torvalds/linux master, retrieve both full files at that exact revision, and inspect the coding-assistants file history.",
+  "history_url": "https://api.github.com/repos/torvalds/linux/commits?path=Documentation/process/coding-assistants.rst&per_page=5",
+  "interpretation": "A snapshot of this inspected upstream revision, not proof of every subsystem or docs-next branch state. Recheck at November release; do not turn this October inspection into a November receipt.",
+  "records": [
+    {
+      "id": "linuxassistants2026",
+      "action": "recheck-existing-source-without-duplicating-it",
+      "source_url": "https://docs.kernel.org/process/coding-assistants.html",
+      "inspected_url": "https://github.com/torvalds/linux/blob/2f2f7eeef8b0a1a9b9ca998231419873ccae8d4e/Documentation/process/coding-assistants.rst",
+      "api_url": "https://api.github.com/repos/torvalds/linux/contents/Documentation/process/coding-assistants.rst?ref=2f2f7eeef8b0a1a9b9ca998231419873ccae8d4e",
+      "finding": "The inspected file still includes an Attribution section requiring an Assisted-by trailer. File history returned no October removal commit. Do not report the proposal as merged into this upstream snapshot.",
+      "latest_file_history_entry": "72fdff1416e280e2baaa3cca69574defb998437e",
+      "latest_file_history_entry_committed_at": "2026-08-20T17:31:50Z"
+    },
+    {
+      "id": "linuxgenerated2026",
+      "action": "recheck-existing-source-without-duplicating-it",
+      "source_url": "https://docs.kernel.org/process/generated-content.html",
+      "inspected_url": "https://github.com/torvalds/linux/blob/2f2f7eeef8b0a1a9b9ca998231419873ccae8d4e/Documentation/process/generated-content.rst",
+      "api_url": "https://api.github.com/repos/torvalds/linux/contents/Documentation/process/generated-content.rst?ref=2f2f7eeef8b0a1a9b9ca998231419873ccae8d4e",
+      "finding": "Full file retains transparency about tool use, testing and human understanding, with individual-maintainer discretion over acceptance and scrutiny. Removing a structured trailer would not by itself remove these broader requirements."
+    }
+  ]
+}

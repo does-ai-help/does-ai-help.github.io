@@ -1,9 +1,18 @@
 # November 2026 Release Preparation
 
 Status: **unpublished preparation**. Branch: `codex/november-2026-preparation`.
-Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026.
+Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026. The affiliation-only patch `2026.10.15` is incorporated without reopening October's scientific content.
 
 The live site remains on the final October release until a reviewed November release is merged into `main`. This branch initially retains October's manifest and built artifacts as its baseline; they are not November deliverables. No November publication, cutoff or verification date has been assigned. Intended first November version: `2026.11.0`, subject to release preparation.
+
+## Staged Material
+
+### 16 October: Linux Tool Use and Disclosure
+
+- [Analysis and ready-to-integrate article passage](manuscript/november-linux-tools.md): Torvalds's tool-neutral position, Pinchart's norm-setting objection, Cook's review and accountability argument, and the distinction between proposal and implemented policy.
+- [Six new source records](data/november-sources.json), [two existing-policy rechecks](data/november-source-rechecks.json), and [alternative Chrome observations](november/browser-observations.json).
+- Existing October article, database, citation exports, PDF, version manifest and release artifacts are unchanged. These intake files are not automatically consumed by the October curation/build pipeline.
+- During November integration, merge the appraised intake into the curation inputs, apply the policy rechecks to existing IDs rather than duplicating them, set the actual November manifest/cutoff, regenerate exports and article together, and refresh selected browser receipts. Do not treat October intake observations as November release verification.
 
 ## Editorial Priorities
 
@@ -22,6 +31,7 @@ The live site remains on the final October release until a reviewed November rel
 - [ ] Triage community issues and proposed references.
 - [ ] Inspect revised sources, publication status, corrections and retractions.
 - [ ] Record outcome-level changes to conclusions, not just additions to the source count.
+- [ ] Integrate the staged Linux discussion and verify whether the trailer-removal proposal has been merged.
 - [ ] Set November manifest, snapshot, citation metadata and actual cutoff together when release preparation begins.
 - [ ] Refresh selected local Chrome receipts for November; do not redate or reuse October observations as November verification.
 - [ ] Draft a concise “What's new” section distinguishing new evidence from editorial corrections.
