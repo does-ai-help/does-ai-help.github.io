@@ -67,3 +67,34 @@ class NovemberIntakeTests(unittest.TestCase):
         self.assertEqual(parsedate_to_datetime(observation['pubDate']).date().isoformat(), source['date'])
         self.assertEqual(observation['feed_type'], 'rss')
         self.assertEqual(source['method'], 'expert-commentary')
+
+    def test_restricted_reading_scopes_and_article_metadata(self):
+        ledger = json.loads((ROOT / 'november/browser-observations.json').read_text())
+        observations = {r['id']: r for r in ledger['observations']}
+        self.assertFalse(observations['strogatzfuture2026']['full_text_read'])
+        self.assertTrue(observations['baimehomework2026']['full_text_read'])
+        self.assertEqual(self.by_id['baimehomework2026']['authors'], ['Baime, Audrey'])
+        self.assertEqual(self.by_id['baimehomework2026']['date'], '2026-10-23')
+        for observation in ledger['observations']:
+            self.assertLessEqual(ledger['created_on'], observation['inspection_date'])
+            self.assertLessEqual(observation['inspection_date'], ledger['updated_on'])
+            self.assertEqual(observation['inspection_date'],
+                             self.by_id[observation['id']]['verification']['checked_on'])
+        self.assertEqual(self.by_id['slokpayoff2026']['admission_decision'],
+                         'include-as-critical-macro-context-not-causal-null')
+
+    def test_price_snapshot_has_explicit_units_and_token_categories(self):
+        snapshot = self.by_id['opus55pricing2026']['pricing_snapshot']
+        self.assertEqual(snapshot['unit'], 'per-million-tokens')
+        self.assertEqual(snapshot['currency'], 'USD')
+        self.assertEqual({k: snapshot[k] for k in ['standard_input', 'standard_output', 'cache_read', 'cache_write']},
+                         {'standard_input': 4, 'standard_output': 20, 'cache_read': 0.2, 'cache_write': 5})
+        self.assertEqual(self.by_id['vercelindex2026']['method'], 'commercial-platform-telemetry')
+
+    def test_syndicated_reuters_is_one_identified_report(self):
+        report = self.by_id['reutersitcontracts2026']
+        self.assertEqual(report['publisher'], 'Reuters')
+        self.assertTrue(report['original_url'].startswith('https://www.reuters.com/'))
+        self.assertTrue(report['url'].startswith('https://www.thestar.com.my/'))
+        self.assertEqual(report['date'], '2026-08-21')
+        self.assertEqual(sum(r.get('study_family') == report['study_family'] for r in self.sources), 1)

@@ -18,7 +18,14 @@ The live site remains on the final October release until a reviewed November rel
 
 - [Analysis and proposed article passage](manuscript/november-ambitious-software.md), connecting Dan Luu's essay to option value, verification costs and different quality thresholds.
 - Three additional records in [November sources](data/november-sources.json): the essay and two primary PostgreSQL follow-ups. Publication date verified from the publisher's RSS; practitioner testimony is distinguished from causal evidence and production-readiness claims.
-- Total staged new references: nine. No October article, database or release artifacts are regenerated.
+- This intake brought the staged reference count to nine. No October article, database or release artifacts are regenerated.
+
+### 26 October: Payoff, Prices, Contracts and Assessment
+
+- [Admission decisions and proposed article additions](manuscript/november-payoff-costs-and-assessment.md) assess all five suggestions, distinguishing macro commentary, price accounting, contractual value capture, educational assessment and a preview-limited mathematical perspective.
+- Seven records added: Slok/Apollo, Woolf, Strogatz, Baime/The Daily Californian, Reuters via attributed syndication, and primary Anthropic pricing and Vercel methods. Total staged new references: **16**.
+- The Atlantic is appraised only within its accessible preview, not as a full-text reading. The Berkeley article was read in full through local Chrome. Both require appropriately dated monthly rechecks before November publication.
+- October remains unchanged; no new public release or generated bibliography is produced at this intake stage.
 
 ## Editorial Priorities
 

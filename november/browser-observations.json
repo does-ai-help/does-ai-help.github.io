@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "target_release": "2026-11",
-  "inspection_date": "2026-10-16",
+  "created_on": "2026-10-16",
+  "updated_on": "2026-10-26",
   "method": "local-chrome-native",
   "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
   "release_receipts_complete": false,
-  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026"],
+  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026", "strogatzfuture2026", "baimehomework2026"],
   "policy": "These are October intake observations for November preparation, not November monthly release receipts. Revisit selected resources during November release verification and append appropriately dated observations to the release ledger.",
   "observations": [
     {
       "id": "torvaldstools2026",
+      "inspection_date": "2026-10-16",
       "source_url": "https://lkml.org/lkml/2026/10/13/3242",
       "observed": {"author": "Linus Torvalds", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Tue, 13 Oct 2026 13:45:09 -0700"},
       "outcome": "identity-and-message-content-inspected",
@@ -19,6 +21,7 @@
     },
     {
       "id": "pincharttools2026",
+      "inspection_date": "2026-10-16",
       "source_url": "https://lkml.org/lkml/2026/10/13/3226",
       "observed": {"author": "Laurent Pinchart", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Tue, 13 Oct 2026 22:16:28 +0200"},
       "outcome": "identity-and-message-content-inspected",
@@ -28,11 +31,34 @@
     },
     {
       "id": "cooktools2026",
+      "inspection_date": "2026-10-16",
       "source_url": "https://lkml.org/lkml/2026/10/14/2388",
       "observed": {"author": "Kees Cook", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Wed, 14 Oct 2026 11:47:46 -0700"},
       "outcome": "identity-and-message-content-inspected",
       "scope": "Full follow-up including testing, trust, review volume, drafting and accountability. Linked review-bot implementation was not evaluated.",
       "access_notes": "Read through an explicit thread link in local Chrome; no claim of independent measurement of the described workflow.",
+      "refresh_required": true
+    },
+    {
+      "id": "strogatzfuture2026",
+      "inspection_date": "2026-10-26",
+      "source_url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "observed": {"author": "Steven Strogatz", "title": "A Mathematician Reads the AI Future", "publication_date": "October 25, 2026, 8 AM ET"},
+      "outcome": "identity-and-public-preview-inspected",
+      "scope": "Headline, byline, date, subtitle, public opening and author biography, followed by a subscription/sign-in boundary. Remainder not read.",
+      "full_text_read": false,
+      "access_notes": "Automated web open failed. Native Chrome app accessibility exposed the public preview. No sign-in, subscription or paywall circumvention was attempted; search excerpts were not treated as full-text inspection.",
+      "refresh_required": true
+    },
+    {
+      "id": "baimehomework2026",
+      "inspection_date": "2026-10-26",
+      "source_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "observed": {"author": "Audrey Baime", "title": "AI use leads UC Berkeley math professor to see ‘no point’ in grading homework", "publication_date": "Oct 23, 2026"},
+      "outcome": "identity-and-article-content-inspected",
+      "scope": "Full rendered article, byline and article date, Borcherds's completion-credit account and reported comments from Anne Marie Richard. Photo credit and current-day site masthead distinguished from authorship/publication date.",
+      "full_text_read": true,
+      "access_notes": "Automated retrieval was robots-restricted. Native Chrome app accessibility rendered the complete article. No privacy-consent or newsletter form was submitted.",
       "refresh_required": true
     }
   ]
