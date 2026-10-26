@@ -14,6 +14,12 @@ The live site remains on the final October release until a reviewed November rel
 - Existing October article, database, citation exports, PDF, version manifest and release artifacts are unchanged. These intake files are not automatically consumed by the October curation/build pipeline.
 - During November integration, merge the appraised intake into the curation inputs, apply the policy rechecks to existing IDs rather than duplicating them, set the actual November manifest/cutoff, regenerate exports and article together, and refresh selected browser receipts. Do not treat October intake observations as November release verification.
 
+### 26 October: Ambition and Previously Uneconomic Software
+
+- [Analysis and proposed article passage](manuscript/november-ambitious-software.md), connecting Dan Luu's essay to option value, verification costs and different quality thresholds.
+- Three additional records in [November sources](data/november-sources.json): the essay and two primary PostgreSQL follow-ups. Publication date verified from the publisher's RSS; practitioner testimony is distinguished from causal evidence and production-readiness claims.
+- Total staged new references: nine. No October article, database or release artifacts are regenerated.
+
 ## Editorial Priorities
 
 - Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.

@@ -1,6 +1,7 @@
 import json
 import re
 import unittest
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,7 +28,7 @@ class NovemberIntakeTests(unittest.TestCase):
             self.assertFalse(set(source['topics']) - set(taxonomy['topics']))
 
     def test_draft_citations_resolve_without_expanding_october(self):
-        draft = (ROOT / 'manuscript/november-linux-tools.md').read_text()
+        draft = '\n'.join(path.read_text() for path in (ROOT / 'manuscript').glob('november-*.md'))
         ids = {item.strip().lstrip('@') for group in re.findall(r'\[@([^\]]+)\]', draft)
                for item in group.split(';')}
         available = set(self.by_id) | {r['id'] for r in self.base}
@@ -35,6 +36,7 @@ class NovemberIntakeTests(unittest.TestCase):
         self.assertIn('torvaldstools2026', ids)
         self.assertIn('pincharttools2026', ids)
         self.assertIn('cooktools2026', ids)
+        self.assertIn('luuambitious2026', ids)
         for source in self.sources:
             for related in source['related_to']:
                 self.assertIn(related, available)
@@ -57,3 +59,11 @@ class NovemberIntakeTests(unittest.TestCase):
             self.assertIn(record['id'], existing)
             self.assertNotIn(record['id'], self.by_id)
             self.assertIn(rechecks['upstream_revision'], record['inspected_url'])
+
+    def test_essay_date_uses_publisher_metadata(self):
+        source = self.by_id['luuambitious2026']
+        observation = source['metadata_observation']
+        self.assertEqual(observation['guid'], source['url'])
+        self.assertEqual(parsedate_to_datetime(observation['pubDate']).date().isoformat(), source['date'])
+        self.assertEqual(observation['feed_type'], 'rss')
+        self.assertEqual(source['method'], 'expert-commentary')
