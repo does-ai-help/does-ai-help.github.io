@@ -91,6 +91,30 @@ class NovemberIntakeTests(unittest.TestCase):
                          {'standard_input': 4, 'standard_output': 20, 'cache_read': 0.2, 'cache_write': 5})
         self.assertEqual(self.by_id['vercelindex2026']['method'], 'commercial-platform-telemetry')
 
+    def test_full_text_document_check_preserves_browser_history(self):
+        ledger = json.loads((ROOT / 'november/document-observations.json').read_text())
+        self.assertEqual(ledger['target_release'], '2026-11')
+        self.assertFalse(ledger['release_receipts_complete'])
+        observation = next(r for r in ledger['observations'] if r['id'] == 'strogatzfuture2026')
+        source = self.by_id[observation['id']]
+        document = source['document_verification']
+        self.assertTrue(observation['full_text_read'])
+        self.assertEqual(observation['source_url'], source['url'])
+        self.assertEqual(observation['inspection_date'], document['checked_on'])
+        self.assertEqual(observation['inspection_date'], source['verification']['checked_on'])
+        self.assertLessEqual(ledger['created_on'], observation['inspection_date'])
+        self.assertRegex(document['sha256'], r'^[a-f0-9]{64}$')
+        for key in ['filename', 'sha256', 'pages', 'redistributed']:
+            self.assertEqual(observation[key], document[key])
+        self.assertEqual(document['pages'], 10)
+        self.assertFalse(document['redistributed'])
+        self.assertTrue(document['scope'])
+        self.assertTrue(observation['refresh_required'])
+        self.assertEqual(source['authors'], ['Strogatz, Steven'])
+        self.assertEqual(source['method'], 'expert-perspective')
+        self.assertEqual(source['admission_decision'],
+                         'include-full-text-expert-perspective-not-proof-validation')
+
     def test_syndicated_reuters_is_one_identified_report(self):
         report = self.by_id['reutersitcontracts2026']
         self.assertEqual(report['publisher'], 'Reuters')

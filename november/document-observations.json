@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_release": "2026-11",
+  "created_on": "2026-10-26",
+  "release_receipts_complete": false,
+  "observations": [
+    {
+      "id": "strogatzfuture2026",
+      "inspection_date": "2026-10-26",
+      "source_url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "method": "user-supplied-pdf-plus-prior-chrome-identity",
+      "filename": "A Mathematician Reads the AI Future - The Atlantic.pdf",
+      "sha256": "a6e8b374b0fb539845621e8fb21fdeb059192c52d8c39ddf0f7b358350f9bc5a",
+      "pages": 10,
+      "full_text_read": true,
+      "scope": "All 10 printed pages inspected in text extraction, with visual checks of discussion and conclusion on pages 7-8. Essay body spans pages 2-8; identity and date appear on page 1, biography on page 9, and page 10 has only print headers/footers.",
+      "observed": {
+        "title": "A Mathematician Reads the AI Future",
+        "author": "Steven Strogatz",
+        "publication_date": "October 25, 2026, 8 AM ET",
+        "print_creator": "Safari",
+        "print_creation_date": "2026-10-26"
+      },
+      "access_notes": "User reports obtaining the article through a Safari free trial and supplying the PDF. This records user-provided access, not a trial or sign-in performed by the reviewer. PDF metadata naming Witold Bolt as print creator is not article authorship. Prior Chrome inspection established identity but read only the preview; that historical scope is unchanged.",
+      "limitations": "Printout is not a proof-validation artifact or an authenticated archival publisher version. Reading confirms what the essay says, not the correctness of its reported mathematical results or correspondence.",
+      "redistributed": false,
+      "refresh_required": true,
+      "refresh_scope": "At November release and monthly thereafter, recheck publisher identity, date, corrections and accessible content; record access limits honestly. A stored printout does not attest that the live article is unchanged. Request a new authorized copy if substantive changes cannot be inspected."
+    }
+  ]
+}

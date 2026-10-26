@@ -22,9 +22,9 @@ The live site remains on the final October release until a reviewed November rel
 
 ### 26 October: Payoff, Prices, Contracts and Assessment
 
-- [Admission decisions and proposed article additions](manuscript/november-payoff-costs-and-assessment.md) assess all five suggestions, distinguishing macro commentary, price accounting, contractual value capture, educational assessment and a preview-limited mathematical perspective.
+- [Admission decisions and proposed article additions](manuscript/november-payoff-costs-and-assessment.md) assess all five suggestions, distinguishing macro commentary, price accounting, contractual value capture, educational assessment and a mathematical perspective.
 - Seven records added: Slok/Apollo, Woolf, Strogatz, Baime/The Daily Californian, Reuters via attributed syndication, and primary Anthropic pricing and Vercel methods. Total staged new references: **16**.
-- The Atlantic is appraised only within its accessible preview, not as a full-text reading. The Berkeley article was read in full through local Chrome. Both require appropriately dated monthly rechecks before November publication.
+- The Atlantic essay was read in full using the user-supplied Safari PDF. [Full-text appraisal](manuscript/november-strogatz-mathematical-practice.md) separates discovery, understanding, training and participation, including constructive and adverse perspectives. [Document observations](november/document-observations.json) record the printout's checksum and reading scope without redistributing it; the historical preview-only Chrome observation is unchanged. The Berkeley article was read in full through local Chrome. Both sources require appropriately dated monthly rechecks before November publication.
 - October remains unchanged; no new public release or generated bibliography is produced at this intake stage.
 
 ## Editorial Priorities
