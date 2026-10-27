@@ -27,6 +27,13 @@ The live site remains on the final October release until a reviewed November rel
 - The Atlantic essay was read in full using the user-supplied Safari PDF. [Full-text appraisal](manuscript/november-strogatz-mathematical-practice.md) separates discovery, understanding, training and participation, including constructive and adverse perspectives. [Document observations](november/document-observations.json) record the printout's checksum and reading scope without redistributing it; the historical preview-only Chrome observation is unchanged. The Berkeley article was read in full through local Chrome. Both sources require appropriately dated monthly rechecks before November publication.
 - October remains unchanged; no new public release or generated bibliography is produced at this intake stage.
 
+### 27 October: Coordination, Skills and Scientific Stewardship
+
+- [Admission decisions, critical reading and proposed article additions](manuscript/november-coordination-skills-and-scientific-stewardship.md) cover all five new suggestions.
+- Seven new records: van den Berg, OpenAI, Voytko, Kärki and Stewart, plus the public Microsoft memo and GeekWire corroboration. Total staged references: **23**; the three Microsoft records concern one event, not independent employment-effect studies.
+- New emphasis: coordination costs; historical software-quality baselines; collective responsibility for skills; and scientific stewardship distinct from proof validation. A primary-source crosscheck qualifies the deskilling paper's use of a self-report study as evidence of skill decay.
+- Four alternative Chrome observations record actual reading scope, including Business Insider's subscription overlay. Selected resources require fresh monthly checks before publication. No October outputs are rebuilt.
+
 ## Editorial Priorities
 
 - Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.

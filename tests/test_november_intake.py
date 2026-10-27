@@ -45,7 +45,7 @@ class NovemberIntakeTests(unittest.TestCase):
         ledger = json.loads((ROOT / 'november/browser-observations.json').read_text())
         self.assertEqual(ledger['target_release'], '2026-11')
         self.assertFalse(ledger['release_receipts_complete'])
-        self.assertEqual(ledger['method'], 'local-chrome-native')
+        self.assertIn(ledger['method'], ['local-chrome-native', 'local-chrome-mixed'])
         for observation in ledger['observations']:
             self.assertIn(observation['id'], self.by_id)
             self.assertEqual(observation['source_url'], self.by_id[observation['id']]['url'])
@@ -122,3 +122,35 @@ class NovemberIntakeTests(unittest.TestCase):
         self.assertTrue(report['url'].startswith('https://www.thestar.com.my/'))
         self.assertEqual(report['date'], '2026-08-21')
         self.assertEqual(sum(r.get('study_family') == report['study_family'] for r in self.sources), 1)
+
+    def test_latest_intake_differentiates_methods_and_stable_identity(self):
+        self.assertEqual(self.by_id['vandenbergagents2026']['authors'], ['van den Berg, Jan'])
+        self.assertEqual(self.by_id['voytkoquality2026']['authors'], ['Voytko, Jake'])
+        paper = self.by_id['karkideskilling2026']
+        self.assertEqual(paper['doi'], '10.1515/humaff-2026-0080')
+        self.assertEqual(paper['date'], '2026-09-23')
+        self.assertEqual(paper['method'], 'empirically-informed-normative-argument')
+        self.assertIn('self-report', paper['limitations'])
+        self.assertIn('ref-712e3405f2', paper['related_to'])
+
+    def test_artifact_identity_is_not_proof_verification(self):
+        source = self.by_id['openaiunderstanding2026']
+        self.assertEqual(source['title'], 'Working with academic communities to build scientific understanding')
+        artifact = source['artifact_inspection']
+        self.assertRegex(artifact['upstream_revision'], r'^[a-f0-9]{40}$')
+        self.assertFalse(artifact['proofs_independently_checked'])
+        self.assertRegex(artifact['manuscript_git_blob_sha'], r'^[a-f0-9]{40}$')
+        for key in ['scope_note_url', 'manuscript_url']:
+            self.assertIn(artifact['upstream_revision'], artifact[key])
+
+    def test_buyout_reports_are_one_event_with_honest_access_scope(self):
+        ids = ['stewartbuyouts2026', 'colemanexit2026', 'bishopbuyouts2026']
+        self.assertEqual({self.by_id[key]['study_family'] for key in ids},
+                         {'microsoft-voluntary-exit-october-2026'})
+        ledger = json.loads((ROOT / 'november/browser-observations.json').read_text())
+        observations = {r['id']: r for r in ledger['observations']}
+        self.assertFalse(observations['stewartbuyouts2026']['full_text_read'])
+        for key in ['vandenbergagents2026', 'voytkoquality2026', 'karkideskilling2026']:
+            self.assertTrue(observations[key]['full_text_read'])
+        for key in ['stewartbuyouts2026', 'vandenbergagents2026', 'voytkoquality2026', 'karkideskilling2026']:
+            self.assertIn(key, ledger['monthly_watchlist_additions_on_promotion'])
