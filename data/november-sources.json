@@ -1,5 +1,37 @@
 [
   {
+    "id": "sonpatching2026",
+    "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+    "authors": ["Son, Hugh"],
+    "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+    "year": 2026, "date": "2026-10-14",
+    "date_basis": "Publisher timestamp: published 14 October 2026, 2:47 PM EDT; updated the same day, 4:06 PM EDT.",
+    "container_title": "CNBC",
+    "topics": ["security", "engineering", "cost", "work", "business", "verification"],
+    "method": "executive-interview-and-earnings-reporting",
+    "publication_status": "journalism",
+    "summary": "Reports Moynihan's account of 1,000 contractors added in Q2 for patching alongside 3,000 existing staff, illustrating remediation demand after AI-enabled vulnerability discovery. Internal AI savings are management projections, not audited net benefits.",
+    "limitations": "Single-company executive account, not an independent security audit or causal employment study. Reported Q3 expense combines software remediation and anti-money-laundering compliance; it is not a Mythos-only cost. Exposed flaws are not necessarily AI-created flaws. No vulnerability-level validation, measured avoided losses or realized net AI return is supplied. Employee headcount excludes an unknown broader contractor population; no causal workforce conclusion follows.",
+    "verified": true,
+    "verification": {"level": "content-checked", "checked_on": "2026-10-27", "basis": "Complete publisher article, Hugh Son byline, publication/update timestamps and interview-versus-analyst attribution read in local Chrome after automated retrieval failed. Embedded video was not watched. Investor-relations Q3 transcript link located but PDF retrieval returned 403; transcript not independently inspected.", "source_url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html", "method": "local-chrome-extension-dom"},
+    "editorial_priority": "core",
+    "study_family": "bank-of-america-mythos-remediation-q3-2026",
+    "related_to": ["stewartbuyouts2026", "reutersitcontracts2026", "slokpayoff2026", "vandenbergagents2026"],
+    "admission_decision": "include-security-remediation-case-not-net-roi-or-causal-employment-estimate",
+    "requires_monthly_recheck": true,
+    "reported_measurement_scope": {
+      "contractors_added": 1000,
+      "contractor_addition_period": "2026-Q2",
+      "existing_staff_in_area": 3000,
+      "expense_period": "2026-Q3",
+      "expense_scope": ["software-remediation", "anti-money-laundering-compliance"],
+      "mythos_only_expense_established": false,
+      "net_ai_return_established": false,
+      "causal_employment_effect_established": false
+    },
+    "added_in": "2026-11", "target_release": "2026-11", "staging_status": "appraised-not-yet-published"
+  },
+  {
     "id": "vandenbergagents2026",
     "title": "The Mythical Man-Month in the age of AI",
     "authors": ["van den Berg, Jan"],

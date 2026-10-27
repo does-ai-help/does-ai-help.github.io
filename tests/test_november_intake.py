@@ -154,3 +154,21 @@ class NovemberIntakeTests(unittest.TestCase):
             self.assertTrue(observations[key]['full_text_read'])
         for key in ['stewartbuyouts2026', 'vandenbergagents2026', 'voytkoquality2026', 'karkideskilling2026']:
             self.assertIn(key, ledger['monthly_watchlist_additions_on_promotion'])
+
+    def test_patching_case_preserves_period_and_mixed_cost_scope(self):
+        source = self.by_id['sonpatching2026']
+        self.assertEqual(source['authors'], ['Son, Hugh'])
+        self.assertEqual(source['date'], '2026-10-14')
+        scope = source['reported_measurement_scope']
+        self.assertEqual(scope['contractors_added'], 1000)
+        self.assertEqual(scope['contractor_addition_period'], '2026-Q2')
+        self.assertEqual(scope['expense_period'], '2026-Q3')
+        self.assertEqual(set(scope['expense_scope']),
+                         {'software-remediation', 'anti-money-laundering-compliance'})
+        for key in ['mythos_only_expense_established', 'net_ai_return_established',
+                    'causal_employment_effect_established']:
+            self.assertFalse(scope[key])
+        ledger = json.loads((ROOT / 'november/browser-observations.json').read_text())
+        observation = next(r for r in ledger['observations'] if r['id'] == source['id'])
+        self.assertTrue(observation['full_text_read'])
+        self.assertIn(source['id'], ledger['monthly_watchlist_additions_on_promotion'])

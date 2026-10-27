@@ -6,9 +6,21 @@
   "method": "local-chrome-mixed",
   "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
   "release_receipts_complete": false,
-  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026", "strogatzfuture2026", "baimehomework2026", "vandenbergagents2026", "voytkoquality2026", "karkideskilling2026", "stewartbuyouts2026"],
+  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026", "strogatzfuture2026", "baimehomework2026", "vandenbergagents2026", "voytkoquality2026", "karkideskilling2026", "stewartbuyouts2026", "sonpatching2026"],
   "policy": "These are October intake observations for November preparation, not November monthly release receipts. Revisit selected resources during November release verification and append appropriately dated observations to the release ledger.",
   "observations": [
+    {
+      "id": "sonpatching2026",
+      "inspection_date": "2026-10-27",
+      "source_url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "method": "local-chrome-extension-dom",
+      "observed": {"author": "Hugh Son", "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos", "publication_date": "Oct 14 2026, 2:47 PM EDT", "updated_date": "Oct 14 2026, 4:06 PM EDT"},
+      "outcome": "identity-and-article-content-inspected",
+      "scope": "Full publisher article and key points, byline, publication/update dates, interview quotations and reported earnings-call remarks. Embedded video not watched; underlying systems and financial attribution not audited.",
+      "full_text_read": true,
+      "access_notes": "Automated retrieval failed; original article rendered in local Chrome without sign-in or a subscription workaround. Public investor-relations index inspected separately; linked Q3 transcript PDF returned 403 in web retrieval and was not read.",
+      "refresh_required": true
+    },
     {
       "id": "vandenbergagents2026",
       "inspection_date": "2026-10-27",

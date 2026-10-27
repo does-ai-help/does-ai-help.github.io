@@ -34,6 +34,12 @@ The live site remains on the final October release until a reviewed November rel
 - New emphasis: coordination costs; historical software-quality baselines; collective responsibility for skills; and scientific stewardship distinct from proof validation. A primary-source crosscheck qualifies the deskilling paper's use of a self-report study as evidence of skill decay.
 - Four alternative Chrome observations record actual reading scope, including Business Insider's subscription overlay. Selected resources require fresh monthly checks before publication. No October outputs are rebuilt.
 
+### 27 October: Security Discovery and Remediation
+
+- [Critical appraisal and proposed article passage](manuscript/november-security-discovery-and-remediation.md) add Hugh Son's CNBC report on Bank of America's patching contractors. The original article was read in full in Chrome; the linked primary transcript was located but not accessible for inspection.
+- Distinguish exposed from AI-created flaws, contractor additions from net employment, mixed compliance/remediation expense from a model-only cost, and forecast savings from realized net benefits.
+- One new record brings the staged total to **24**. October remains unchanged.
+
 ## Editorial Priorities
 
 - Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.
