@@ -47,6 +47,12 @@ The live site remains on the final October release until a reviewed November rel
 - [Dated observations](november/security-observations.json) preserve the qualified PHP-prevalence denominator, Censys service units and CISA catalog additions: PHP on 26 October and Brotli on 27 October. Earlier negative sensor observations are not current global absence claims.
 - Three new Chrome observations document dynamically loaded data and inaccessible article text. All selected resources need appropriately dated November checks; no October outputs are rebuilt.
 
+### 27 October: Python Brotli Follow-Up
+
+- Added Aikido's analysis and the reviewed Python package advisory to the [security review](manuscript/november-ai-security-php-brotli.md). Total staged references: **46**.
+- [Package observations](november/security-observations.json) retain fixed versions, PYSEC/GHSA aliases, the null GitHub CVE field and differing lower affected bounds. Do not equate installation or downloads with reachable exploitation.
+- Both new records share the existing Brotli family. No additional discovery, Python RCE reproduction or scanner efficacy is asserted; October remains unchanged.
+
 ## Editorial Priorities
 
 - Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.

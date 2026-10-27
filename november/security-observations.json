@@ -56,6 +56,21 @@
     "php_windows_source_runtime_version_changes": false,
     "policy": "Historical milestones, not a substitute for current maintainer/vendor advice. PHP's 23 October separate session notice and 26 October dependency rebuild mean a single source-runtime version is not a universal all-issues-safe assertion."
   },
+  "python_package_observation": {
+    "source_ids": ["aikidopython2026", "pythonbrotliadvisory2026"],
+    "checked_on": "2026-10-27",
+    "advisory_api_cve_id": null,
+    "shared_cve_mapping": "CVE-2026-111497",
+    "mapping_basis": "Advisory description and both PyPA/OSV alias records; not a populated GitHub API CVE field.",
+    "packages": [
+      {"name": "brotli", "ecosystem": "PyPI", "purl": "pkg:pypi/brotli", "ghsa": "GHSA-9v8h-qqgm-4m35", "pysec": "PYSEC-2026-4322", "github_affected_range": ">= 1.0.3, < 1.2.1", "fixed": "1.2.1"},
+      {"name": "brotlicffi", "ecosystem": "PyPI", "purl": "pkg:pypi/brotlicffi", "ghsa": "GHSA-9v8h-qqgm-4m35", "pysec": "PYSEC-2026-4323", "github_affected_range": ">= 1.0.3, < 1.2.1.0", "fixed": "1.2.1.0"}
+    ],
+    "range_caveat": "Observed PyPA/OSV records use introduced=0, while GitHub starts at 1.0.3. Fixed endpoints agree. Lower affected-bound discrepancy is unresolved; do not extrapolate universal safety for earlier packages.",
+    "installation_alone_establishes_reachable_exposure": false,
+    "python_rce_independently_demonstrated_here": false,
+    "download_counts_are_exposure_counts": false
+  },
   "anthropic_evaluation_scope": {
     "source_id": "anthropicndays2026",
     "firefox_engine_patches": 18,

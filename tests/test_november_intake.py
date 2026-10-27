@@ -226,3 +226,24 @@ class NovemberIntakeTests(unittest.TestCase):
         self.assertEqual(scope['windows_local_privilege_escalation_patches'], 21)
         self.assertFalse(scope['independently_replicated_here'])
         self.assertFalse(scope['represents_observed_real_world_attacks'])
+
+    def test_python_bindings_share_cve_without_inventing_api_metadata(self):
+        ledger = json.loads((ROOT / 'november/security-observations.json').read_text())
+        observation = ledger['python_package_observation']
+        self.assertIsNone(observation['advisory_api_cve_id'])
+        self.assertEqual(observation['shared_cve_mapping'], 'CVE-2026-111497')
+        self.assertEqual({r['name']: r['fixed'] for r in observation['packages']},
+                         {'brotli': '1.2.1', 'brotlicffi': '1.2.1.0'})
+        self.assertTrue(observation['range_caveat'])
+        self.assertFalse(observation['installation_alone_establishes_reachable_exposure'])
+        self.assertFalse(observation['python_rce_independently_demonstrated_here'])
+        self.assertFalse(observation['download_counts_are_exposure_counts'])
+        for key in observation['source_ids']:
+            self.assertEqual(self.by_id[key]['study_family'], 'brotli-cve-2026-111497')
+
+    def test_python_source_publication_and_update_are_distinct(self):
+        source = self.by_id['aikidopython2026']
+        self.assertEqual(source['authors'], ['The Aikido Team'])
+        self.assertEqual(source['date'], '2026-10-23')
+        self.assertEqual(source['updated_date'], '2026-10-27')
+        self.assertEqual(self.by_id['pythonbrotliadvisory2026']['date'], '2026-10-22')

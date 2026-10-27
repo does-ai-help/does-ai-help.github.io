@@ -54,6 +54,14 @@ PHP's 26 October Windows rebuilds update Brotli without changing the PHP source-
 
 Names such as Brotli2Shell, Node2Shell, HTTP2Shell and Broccoli2Shell circulate for the shared Brotli problem. Prefer the CVE for joining evidence. CISA's observed catalog adds this CVE on **27 October**; older claims that it is not listed, including Tenable's 26 October FAQ, are no longer current. Catalog inclusion does not quantify how broadly or reliably it has been exploited. [@narangbrotli2026; @cisakev2026]
 
+### Python: Optional Dependencies and Reachable Decoding
+
+Aikido's Python discussion adds a useful dependency-path example: applications can reach a native decoder through HTTP libraries without a direct Brotli import. Check the resolved package graph and actual processing of untrusted input. Installation is a reason to investigate, not by itself proof of a reachable attack path. The article's cited Python tests concern decoder behavior, not a complete Python RCE chain. [@aikidopython2026]
+
+The reviewed GitHub advisory lists fixes in `brotli` **1.2.1** and `brotlicffi` **1.2.1.0**. Both [PyPA/OSV records](https://osv.dev/vulnerability/PYSEC-2026-4322) link to the shared CVE, but lower affected bounds differ from GitHub's ranges; the [brotlicffi record](https://osv.dev/vulnerability/PYSEC-2026-4323) also needs package-specific interpretation. Preserve this metadata discrepancy rather than invent agreement or treat a missing API CVE field as absence of a known problem. [@pythonbrotliadvisory2026]
+
+This is another downstream manifestation of the same vulnerability, not a new AI discovery. Download volume is not an exposed-installation count, and advisory publication does not guarantee that every scanner or deployment has consumed it. The practical research question is how quickly evidence moves from a shared-library flaw to package metadata and then to verified remediation. Aikido's product and image promotions are not independent efficacy evidence.
+
 ## 4. A Positive Comparator: Maintainer-Validated Firefox Findings
 
 Mozilla's March account confirms **22 CVEs, including 14 high-severity bugs**, following collaboration with Anthropic. The maintainer emphasizes reproducible reports and joint work to validate and fix them. Its April account reports **271 vulnerability fixes** from an initial Mythos Preview evaluation. These are separate batches, not interchangeable totals. [@mozhardening2026; @mozzero2026]
@@ -98,13 +106,14 @@ For future studies, measure:
 | Essential | [CISA official JSON](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json), [W3Techs](https://w3techs.com/technologies/details/pl-php), [Censys](https://php2shell.censys.com/) | Status, denominators and exposure units; dated snapshots required. |
 | Technical context | [Calif](https://calif.io/php2shell/), [Wiz discovery](https://www.wiz.io/blog/php2shell-php-rce) | Human-model workflows and demonstrated paths; not independent effectiveness estimates. |
 | Dependency map | [Tenable's Brotli FAQ](https://www.tenable.com/blog/brotli2shell-frequently-asked-questions-for-google-brotli-decoder-cve-2026-111497) | Cross-product and alias map; update its dated exploitation status against CISA. |
+| Python follow-up | [Aikido analysis](https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497), [reviewed package advisory](https://github.com/advisories/GHSA-9v8h-qqgm-4m35) | Optional dependencies and package metadata; distinguish installation, reachability and demonstrated impact. |
 | Essential balance | [AWS](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/), [CrowdStrike](https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/), [Wiz follow-up](https://www.wiz.io/blog/php2shell-exploitation-so-far) | Distinguish attempts, success, dates and sensor populations. |
 | Positive comparator | [Mozilla March](https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/), [Mozilla April](https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/) | Maintainer-confirmed benefits; forecasts kept separate. |
 | Research and governance | [Anthropic N-days](https://www.anthropic.com/research/n-days), [OpenAI coordination proposal](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/) | Controlled capability evidence and a process proposal, with different evidentiary roles. |
 
 ## Scope, Exclusions and Release Preparation
 
-This intake adds **20 source records**, bringing November's staged total to **44**. Multiple reports in the PHP family and downstream Brotli advisories are linked, not counted as independent discoveries or studies. No DOI is invented for advisories or blogs; CVE/GHSA IDs supply stable identity where applicable.
+This security review and its Python follow-up add **22 source records**, bringing November's staged total to **46**. Multiple reports in the PHP family and downstream Brotli advisories are linked, not counted as independent discoveries or studies. No DOI is invented for advisories or blogs; CVE/GHSA IDs supply stable identity where applicable.
 
 Media coverage was used to locate primary sources, not to multiply evidence. Unrelated compromises, certificate incidents and supply-chain attacks are not labeled AI-discovered without established provenance. Claims about a universal working exploit, total sites compromised, offensive AI use and causal net public benefit are not established by the reviewed material. No attack code was executed, no vulnerable target probed and no patches applied to the user's machine.
 
