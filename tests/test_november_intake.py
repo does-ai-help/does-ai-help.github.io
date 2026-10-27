@@ -172,3 +172,57 @@ class NovemberIntakeTests(unittest.TestCase):
         observation = next(r for r in ledger['observations'] if r['id'] == source['id'])
         self.assertTrue(observation['full_text_read'])
         self.assertIn(source['id'], ledger['monthly_watchlist_additions_on_promotion'])
+
+    def test_security_advisories_have_stable_identifiers_and_families(self):
+        self.assertIn('CVE-2026-109618', self.by_id['phpoom2026']['advisory_identifiers'])
+        self.assertIn('CVE-2026-109619', self.by_id['phpstale2026']['advisory_identifiers'])
+        for key in ['nodeoct2026', 'dotnetbrotli2026']:
+            self.assertIn('CVE-2026-111497', self.by_id[key]['advisory_identifiers'])
+            self.assertEqual(self.by_id[key]['study_family'], 'brotli-cve-2026-111497')
+        for key in ['phpoom2026', 'phpstale2026', 'califphp2026', 'wizphp2026']:
+            self.assertEqual(self.by_id[key]['study_family'], 'php2shell-2026')
+
+    def test_security_snapshots_preserve_denominators_and_units(self):
+        ledger = json.loads((ROOT / 'november/security-observations.json').read_text())
+        self.assertEqual(ledger['target_release'], '2026-11')
+        self.assertFalse(ledger['release_receipts_complete'])
+        prevalence = ledger['w3techs_snapshot']
+        self.assertEqual(prevalence['php_usage_percent'], 69.2)
+        self.assertIn('known', prevalence['denominator'])
+        self.assertFalse(prevalence['is_vulnerability_or_compromise_rate'])
+        exposure = ledger['censys_snapshot']
+        self.assertEqual(exposure['unit'], 'services')
+        self.assertFalse(exposure['is_confirmed_compromise_count'])
+        self.assertTrue(exposure['limitations'])
+        for key in ['w3php2026', 'censysphp2026', 'cisakev2026']:
+            self.assertTrue(self.by_id[key]['date_is_snapshot'])
+
+    def test_known_exploitation_status_is_dated_not_global_sensor_absence(self):
+        ledger = json.loads((ROOT / 'november/security-observations.json').read_text())
+        snapshot = ledger['cisa_snapshot']
+        dates = {r['cve_id']: r['date_added'] for r in snapshot['entries']}
+        self.assertEqual(dates, {'CVE-2026-109618': '2026-10-26',
+                                 'CVE-2026-109619': '2026-10-26',
+                                 'CVE-2026-111497': '2026-10-27'})
+        self.assertFalse(snapshot['establishes_attack_prevalence_or_attacker_ai_use'])
+        for date in dates.values():
+            self.assertLessEqual(date, ledger['checked_on'])
+        self.assertLess(self.by_id['crowdphp2026']['date'], dates['CVE-2026-109618'])
+        self.assertEqual(self.by_id['cisakev2026']['verification']['method'],
+                         'official-machine-readable-feed')
+
+    def test_security_dynamic_sources_have_browser_rechecks(self):
+        ledger = json.loads((ROOT / 'november/browser-observations.json').read_text())
+        observations = {r['id']: r for r in ledger['observations']}
+        for key in ['wizphptel2026', 'w3php2026', 'censysphp2026']:
+            self.assertIn(key, ledger['monthly_watchlist_additions_on_promotion'])
+            self.assertEqual(observations[key]['inspection_date'], '2026-10-27')
+            self.assertTrue(observations[key]['refresh_required'])
+
+    def test_capability_evaluation_is_not_an_incident_count(self):
+        ledger = json.loads((ROOT / 'november/security-observations.json').read_text())
+        scope = ledger['anthropic_evaluation_scope']
+        self.assertEqual(scope['firefox_engine_patches'], 18)
+        self.assertEqual(scope['windows_local_privilege_escalation_patches'], 21)
+        self.assertFalse(scope['independently_replicated_here'])
+        self.assertFalse(scope['represents_observed_real_world_attacks'])

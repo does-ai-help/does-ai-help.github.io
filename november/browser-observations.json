@@ -6,9 +6,33 @@
   "method": "local-chrome-mixed",
   "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
   "release_receipts_complete": false,
-  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026", "strogatzfuture2026", "baimehomework2026", "vandenbergagents2026", "voytkoquality2026", "karkideskilling2026", "stewartbuyouts2026", "sonpatching2026"],
+  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026", "strogatzfuture2026", "baimehomework2026", "vandenbergagents2026", "voytkoquality2026", "karkideskilling2026", "stewartbuyouts2026", "sonpatching2026", "wizphptel2026", "censysphp2026", "w3php2026"],
   "policy": "These are October intake observations for November preparation, not November monthly release receipts. Revisit selected resources during November release verification and append appropriately dated observations to the release ledger.",
   "observations": [
+    {
+      "id": "wizphptel2026", "inspection_date": "2026-10-27",
+      "source_url": "https://www.wiz.io/blog/php2shell-exploitation-so-far", "method": "local-chrome-extension-dom",
+      "observed": {"title": "PHP2Shell: Exploitation Attempts and Remediation Trends", "authors": ["Yaara Shriki", "Shahar Dorfman", "Alma Blachsan", "Yaron Samuel"], "publication_date": "October 27, 2026"},
+      "outcome": "identity-and-article-content-inspected", "full_text_read": true,
+      "scope": "Full article including own-telemetry limits, external honeypot-success acknowledgement, exposure definitions and conclusion. Exploit code was neither executed nor downloaded.",
+      "access_notes": "Automated article retrieval failed. Local Chrome rendered the public article without sign-in or an access-control workaround.", "refresh_required": true
+    },
+    {
+      "id": "censysphp2026", "inspection_date": "2026-10-27",
+      "source_url": "https://php2shell.censys.com/", "method": "local-chrome-extension-dom",
+      "observed": {"author": "Censys", "title": "PHP2Shell services", "data_refreshed": "2026-10-27 21:15 UTC"},
+      "outcome": "dynamic-data-and-methods-inspected", "full_text_read": false,
+      "scope": "Loaded headline counts, update timestamp and complete notes/limitations read. No exhaustive inspection of all country, network, historical or interactive chart data.",
+      "access_notes": "Automated retrieval exposed only the dashboard shell; Chrome loaded the live counts. Search-index snapshot was stale and is not used as the current observation.", "refresh_required": true
+    },
+    {
+      "id": "w3php2026", "inspection_date": "2026-10-27",
+      "source_url": "https://w3techs.com/technologies/details/pl-php", "method": "local-chrome-extension-dom",
+      "observed": {"author": "W3Techs / Q-Success", "title": "Usage statistics of PHP for websites", "usage_percent": 69.2, "denominator": "websites whose server-side programming language is known"},
+      "outcome": "prevalence-denominator-inspected", "full_text_read": false,
+      "scope": "Primary usage statement, exact denominator, daily-update notice and version breakdown read; underlying detection methodology and full commercial reports not audited.",
+      "access_notes": "Automated page text omitted the usage sentence; it was visible in the ordinary local Chrome page. No account or report purchase.", "refresh_required": true
+    },
     {
       "id": "sonpatching2026",
       "inspection_date": "2026-10-27",

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "target_release": "2026-11",
+  "checked_on": "2026-10-27",
+  "release_receipts_complete": false,
+  "scope": "Targeted narrative review of primary advisories, maintainer accounts, discoverer methods and dated telemetry. Not an exhaustive systematic review or an independent vulnerability reproduction.",
+  "search_examples": [
+    "php2shell vulnerability 2026 70% websites AI",
+    "Node.js AI discovered security vulnerability October 2026 high severity",
+    "site:thephp.foundation PHP2Shell October 2026",
+    "Brotli CVE-2026-111497 AI discovered OpenAI 2026",
+    "site:aws.amazon.com/security php2shell October 17",
+    "site:blog.mozilla.org 2026 AI vulnerabilities Anthropic Firefox"
+  ],
+  "selection": "Prefer stable maintainer/CVE identifiers and directly observed methods. Retain contrary and time-limited findings. Do not count syndication, branding aliases or downstream advisories as independent discoveries. Exclude unrelated incidents lacking established AI involvement from claims of AI-discovered vulnerabilities.",
+  "w3techs_snapshot": {
+    "source_id": "w3php2026",
+    "observed_on": "2026-10-27",
+    "php_usage_percent": 69.2,
+    "denominator": "websites whose server-side programming language is known",
+    "is_vulnerability_or_compromise_rate": false
+  },
+  "censys_snapshot": {
+    "source_id": "censysphp2026",
+    "observed_on": "2026-10-27",
+    "data_refreshed_utc": "2026-10-27T21:15:00Z",
+    "unit": "services",
+    "unit_definition": "IP address or hostname plus port; not unique websites, machines or organizations",
+    "version_inferred_currently_affected": 32559818,
+    "observed_transitions_to_fixed_since_october_21": 10309711,
+    "unknown_version_services": 61678228,
+    "unknown_version_percent_rounded": 58,
+    "limitations": ["reported-version inference, not exploit testing", "vendor backports can preserve old version labels", "scan lag", "coverage and detection changes", "remaining decoys", "unknown versions excluded from affected/fixed classification"],
+    "is_confirmed_compromise_count": false
+  },
+  "cisa_snapshot": {
+    "source_id": "cisakev2026",
+    "catalog_version": "2026.10.27",
+    "date_released": "2026-10-27T19:00:02.2307Z",
+    "retrieval_method": "direct HTTPS request to official public JSON feed, parsed by exact CVE ID",
+    "entries": [
+      {"cve_id": "CVE-2026-109618", "date_added": "2026-10-26", "known_ransomware_campaign_use": "Unknown"},
+      {"cve_id": "CVE-2026-109619", "date_added": "2026-10-26", "known_ransomware_campaign_use": "Unknown"},
+      {"cve_id": "CVE-2026-111497", "date_added": "2026-10-27", "known_ransomware_campaign_use": "Unknown"}
+    ],
+    "establishes_attack_prevalence_or_attacker_ai_use": false
+  },
+  "families": [
+    {"family": "php2shell-2026", "cve_ids": ["CVE-2026-109618", "CVE-2026-109619"], "distinguish_from": ["CVE-2026-115560", "CVE-2026-111497"]},
+    {"family": "brotli-cve-2026-111497", "cve_ids": ["CVE-2026-111497"], "aliases": ["Brotli2Shell", "Node2Shell", "HTTP2Shell", "Broccoli2Shell"], "alias_source_id": "narangbrotli2026", "downstream_advisories_are_independent_discoveries": false}
+  ],
+  "patch_milestones": {
+    "php2shell_fixed_releases_on_2026_10_21": ["8.2.35", "8.3.36", "8.4.27", "8.5.12"],
+    "node_fixed_releases": ["22.23.4", "24.22.1", "26.12.1"],
+    "php_windows_brotli_rebuild_date": "2026-10-26",
+    "php_windows_source_runtime_version_changes": false,
+    "policy": "Historical milestones, not a substitute for current maintainer/vendor advice. PHP's 23 October separate session notice and 26 October dependency rebuild mean a single source-runtime version is not a universal all-issues-safe assertion."
+  },
+  "anthropic_evaluation_scope": {
+    "source_id": "anthropicndays2026",
+    "firefox_engine_patches": 18,
+    "windows_local_privilege_escalation_patches": 21,
+    "reported_mythos_firefox_exploit_successes": 8,
+    "reported_mythos_windows_privilege_escalation_successes": 8,
+    "independently_replicated_here": false,
+    "represents_observed_real_world_attacks": false
+  },
+  "release_recheck": "Refresh catalog entries, primary advisories, patches and browser-selected dashboards at November publication and monthly thereafter. Append new observations; do not silently replace the dated intake snapshot or present it as a current release receipt."
+}

@@ -40,6 +40,13 @@ The live site remains on the final October release until a reviewed November rel
 - Distinguish exposed from AI-created flaws, contractor additions from net employment, mixed compliance/remediation expense from a model-only cost, and forecast savings from realized net benefits.
 - One new record brings the staged total to **24**. October remains unchanged.
 
+### 27 October: PHP2Shell, Brotli and AI-Assisted Security Research
+
+- [Detailed review and selected reading](manuscript/november-ai-security-php-brotli.md) cover PHP2Shell, shared Brotli exposure in Node.js/.NET/PHP, Firefox maintainer-confirmed findings and N-day capability research.
+- Twenty new primary, first-party and expert-analysis records bring the staged total to **44**. Family labels prevent treating downstream advisories, discovery partners or reporting aliases as independent discoveries.
+- [Dated observations](november/security-observations.json) preserve the qualified PHP-prevalence denominator, Censys service units and CISA catalog additions: PHP on 26 October and Brotli on 27 October. Earlier negative sensor observations are not current global absence claims.
+- Three new Chrome observations document dynamically loaded data and inaccessible article text. All selected resources need appropriately dated November checks; no October outputs are rebuilt.
+
 ## Editorial Priorities
 
 - Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.
