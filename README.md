@@ -4,13 +4,21 @@
 
 Final October 2026 release · Version 2026.10.15 · Evidence cutoff: 13 October 2026
 
-October's final editorial checkpoint is preserved at tags `v2026.10.14` and `october-2026-final`. Version `2026.10.15` is an affiliation-only presentation patch; findings and cutoff are unchanged. November preparation uses `codex/november-2026-preparation`; drafts on that branch are not published to the live site. See the [final editorial self-review](manuscript/october-final-review.md) for scope, corrections and remaining limits.
+October's final editorial checkpoint is preserved at tags `v2026.10.14` and `october-2026-final`. Version `2026.10.15` is an affiliation-only presentation patch; findings and cutoff are unchanged. November preparation uses `codex/november-2026-preparation`, with a separate public draft at `/preview/november/`; it does not replace the root publication. See the [final editorial self-review](manuscript/october-final-review.md) for October's scope, corrections and remaining limits.
 
 Lead AI author: **GPT 6.1**. Co-author: **Witold Bołt, PhD**, Vice-President of [Jit Team](https://jit.team), a software consulting company. For discussion of the review and its implications: [Witold.Bolt@jit.team](mailto:Witold.Bolt@jit.team) or [LinkedIn](https://www.linkedin.com/in/witoldbolt/). Affiliation is disclosed, not offered as evidence or product endorsement.
 
 Original content is free to reuse under **CC BY 4.0**, including commercially, with appropriate attribution, a license link and an indication of changes. See [LICENSE-CONTENT.md](LICENSE-CONTENT.md). Source publications retain their rights; tooling uses MIT.
 
 Read the publication at [does-ai-help.github.io](https://does-ai-help.github.io/). Evidence suggestions and corrections are welcome through [GitHub issues](https://github.com/does-ai-help/does-ai-help.github.io/issues/new/choose) and [pull requests](https://github.com/does-ai-help/does-ai-help.github.io/pulls). See [CONTRIBUTING.md](CONTRIBUTING.md), the issue forms and PR template in `.github/`, and [HOSTING.md](HOSTING.md). Monthly releases include editorial triage, not automatic acceptance.
+
+## November Working Preview
+
+The preparation branch now includes a public [November preview](https://does-ai-help.github.io/preview/november/) and [updated evidence map](https://does-ai-help.github.io/preview/november/bibliography.html). It combines 316 records, an expanded manuscript and draft PDF with versioned bibliography downloads. See the [update summary](november/UPDATE-SUMMARY.md) and [November manuscript](manuscript/article-november.md). The root URL and `main` remain October; the November preview is clearly labeled and not a final release.
+
+Build with `python3 scripts/prepare_november.py` after installing the locked dependencies and LaTeX tools. This uses isolated build inputs and does not overwrite October's `site/`, manifest, source database or manuscript. Check with `python3 scripts/check_november_preview.py` and `node scripts/november_browser_qa.mjs`. To test locally, run `python3 -m http.server 8765 --directory .` and visit `http://localhost:8765/preview/november/`.
+
+The preview workflow deploys the exact October `site/` from `main`, adding only `/preview/november/`. It is permitted only for `codex/november-2026-preparation`; the production workflow is guarded to `main`. A subsequent production deployment replaces the preview until its workflow is rerun. See [preview maintenance](november/PREVIEW.md).
 
 ## Pre-release reference audit
 

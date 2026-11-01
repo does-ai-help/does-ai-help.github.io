@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "searched_on": "2026-10-28",
+  "target_release": "2026-11",
+  "status": "targeted-search-and-appraisal-not-publication",
+  "method": "Targeted web searches, primary-source follow-up, revision checking and deduplication against the October database and existing November intake. Not an exhaustive systematic search; no PRISMA flow or estimated coverage claimed.",
+  "scope": ["knowledge-work productivity", "learning and cognitive effort", "developer delegation and coordination", "organizational adoption and employment", "scientific reuse and reproducibility", "creativity and diversity", "global access and distribution", "inference resources and sustainability"],
+  "representative_queries_executed": [
+    "site.microsoft.com \"Energy use of AI inference\" Oviedo 2026",
+    "site.ilo.org \"Disruption without dividend\" 2026",
+    "\"Firm Data on AI\" \"9,000\" October 2026 productivity",
+    "\"What Work Does Generative AI Do\" Bick Blandin August 2026",
+    "\"To Boldly Go Where No One Has Gone Before\" Choudhuri arxiv 2026"
+  ],
+  "query_log_scope": "Representative exact queries from the session, not a complete search-engine transcript. Other candidates were followed from topical searches and primary-source links. No search-result counts reconstructed.",
+  "selected_ids": ["kewenigscaffolds2026", "sodanetworks2026", "ferinodelegation2026", "choumanagers2026", "choudhuriunlock2026", "mockuscontext2026", "botteschfit2026", "joincentives2026", "yotzovfirm2026", "bicktasks2026", "countsintensification2026", "coakleyrepro2026", "miaopaper2agent2026", "oviedoenergy2026", "gmyrekdivide2026", "myttonenergy2026"],
+  "selected_count": 16,
+  "staged_total_after_session": 62,
+  "verification_policy": "Each selected record names its actual reading scope, verified identity, method and limitations. Content-checked can mean a checked public abstract, not full-text reading or independent replication. Pending arXiv DOIs and placeholder proceedings metadata are not promoted to verified identifiers.",
+  "full_text_follow_up_ids": ["yotzovfirm2026", "bicktasks2026", "oviedoenergy2026", "gmyrekdivide2026"],
+  "important_version_observation": {
+    "id": "yotzovfirm2026",
+    "observed_revision": "2026-10",
+    "current_sample": "Nearly 9,000 executives, seven countries, summer 2026",
+    "rejected_stale_substitution": "Earlier approximately 6,000-executive, four-country abstract and its estimates",
+    "basis": "Local Chrome revision/date/abstract opening plus complete current publisher-indexed abstract and expanded author list. Full revised paper not inspected."
+  },
+  "known_not_duplicated": [
+    {"id": "maier2026", "reason": "Programming productivity/learning meta-analysis already in the database."},
+    {"id": "iloreview2026", "reason": "Broad ILO literature review already present; the newly selected digital-divide paper is a different study."},
+    {"id": "oecdproductivity2025", "reason": "Broad OECD productivity synthesis already present."},
+    {"id": "oecdeducation2026", "reason": "OECD education synthesis already present."},
+    {"id": "ref-c97b313435", "reason": "Contractor/Reyes learning experiment, arXiv 2607.08849, already present."},
+    {"id": "hao2026", "reason": "Scientific impact/diversity study already present; new creativity experiment adds an incentive intervention rather than duplicating it."}
+  ],
+  "deferred_or_excluded": [
+    {
+      "title": "Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+      "url": "https://www.nber.org/papers/w34851",
+      "doi": "10.3386/w34851",
+      "decision": "defer-results-until-current-revision-read",
+      "reason": "Local Chrome confirmed February issue and October revision, but the public abstract truncates before results. An August arXiv version exists; its outcomes were not substituted for the current revision. No download agreeing to terms or consuming a free-download allowance was performed."
+    },
+    {
+      "title": "Firm-level AI productivity evidence, NBER Working Paper 34984",
+      "url": "https://www.nber.org/papers/w34984",
+      "decision": "defer-overlap-and-full-text-check",
+      "reason": "Additional executive survey identified, but potential survey-program overlap with Firm Data on AI needs checking. Avoid treating related reports and expectations as independent causal studies."
+    },
+    {
+      "title": "Agentic AI systems for scientific discovery",
+      "url": "https://www.nature.com/articles/s43586-026-00534-y",
+      "decision": "follow-up-broad-primer",
+      "reason": "Relevant new methods primer identified; full authorship and content appraisal not completed. Companion PrimeView would not be a separate empirical study."
+    },
+    {
+      "title": "Training AI Scientists to Replicate Research",
+      "url": "https://arxiv.org/abs/2608.13331",
+      "decision": "follow-up-benchmark-methods",
+      "reason": "Potentially useful replication benchmark; developer evaluation, rubric validity and scientific-fidelity outcomes need deeper inspection before admission."
+    },
+    {
+      "title": "Organizational Incentives and Returns to Technology Adoption",
+      "url": "https://www.nber.org/papers/w35445",
+      "decision": "exclude-as-direct-ai-effect-evidence",
+      "reason": "Organizational technology analogy does not by itself constitute an AI intervention."
+    }
+  ],
+  "limits": [
+    "No inference that the selected references exhaust recent literature or establish field-wide effect sizes.",
+    "Qualitative studies, surveys, quasi-experiments, randomized interventions, benchmarks and commentary remain distinct.",
+    "No downloaded publisher PDFs or complete article text redistributed.",
+    "October manuscript, evidence database, release manifest, site, PDF and archives remain unchanged.",
+    "Appropriately dated November verification and editorial promotion are still required."
+  ]
+}

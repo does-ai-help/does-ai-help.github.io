@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "target_release": "2026-11",
+  "created_on": "2026-10-16",
+  "updated_on": "2026-11-01",
+  "method": "local-chrome-mixed",
+  "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+  "release_receipts_complete": false,
+  "monthly_watchlist_additions_on_promotion": ["torvaldstools2026", "pincharttools2026", "cooktools2026", "strogatzfuture2026", "baimehomework2026", "vandenbergagents2026", "voytkoquality2026", "karkideskilling2026", "stewartbuyouts2026", "sonpatching2026", "wizphptel2026", "censysphp2026", "w3php2026", "yotzovfirm2026", "bicktasks2026", "coffeefailure2026", "howlettquantum2026", "vanoosteromcuts2026", "feinerwikimedia2026", "howartheth2026", "bonifieldram2026", "hartaltmanmath2026"],
+  "policy": "These are dated intake observations for November preparation, not completed monthly release receipts. Historical October observations are not redated. Revisit selected resources during release verification and append appropriately dated observations to the release ledger.",
+  "observations": [
+    {
+      "id": "hartaltmanmath2026", "inspection_date": "2026-11-01",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "Sam Altman sympathizes with mathematicians, but says OpenAI's math onslaught won't stop", "author": "Robert Hart", "publication_date": "October 30, 2026, 2:01 PM GMT+1"},
+      "outcome": "identity-and-main-reporting-inspected", "full_text_read": false,
+      "scope": "Main reporting, attributed release rationale, spending and unpublished-result claims, author/date and interview link inspected. Some long accessibility text may be clipped; exhaustive full-text reading not asserted. Interview not watched and claims not independently validated.",
+      "access_notes": "Automated web tool failed. Native Chrome exposed main reporting without a subscription boundary during this inspection; publisher HTML used for matching citation metadata. Embedded video remained blocked by existing cookie preferences. No sign-in, purchase or consent changes.", "refresh_required": true
+    },
+    {
+      "id": "bonifieldram2026", "inspection_date": "2026-11-01",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "Sam Altman says it's better for RAM to be in a data center than on your desk", "author": "Stevie Bonifield", "publication_date": "October 30, 2026, 9:48 PM GMT+1"},
+      "outcome": "identity-and-short-article-inspected", "full_text_read": true,
+      "scope": "Complete short article, attributed quotation and links inspected. Embedded interview was blocked by cookie preferences and not played; original audio/transcript and the quoted utilization estimate not independently checked. Manufacturer source read separately.",
+      "access_notes": "Web retrieval tool failed. Native Chrome displayed the short article without a subscription boundary; no sign-in, purchase or cookie changes to enable embedded media. Publisher HTML supplied matching citation metadata.", "refresh_required": true
+    },
+    {
+      "id": "feinerwikimedia2026", "inspection_date": "2026-11-01",
+      "source_url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "Wikipedia's operator says a bad AI copyright ruling could threaten the open web", "author": "Lauren Feiner", "publication_date": "October 30, 2026, 10:00 AM GMT+1"},
+      "outcome": "identity-and-public-preview-inspected", "full_text_read": false,
+      "scope": "Visible heading, byline/date and preview through subscription boundary inspected. Standard publisher HTML used for metadata crosscheck. Substantive legal-position details taken from the public Foundation statement and proposed filing, not subscriber-only material.",
+      "access_notes": "Web tool failed. Ordinary publisher HTML was reachable, but Chrome displayed a subscription restriction. No attempt to remove or bypass that restriction, sign in or purchase access. Initial Chrome check was delayed until the user unlocked the Mac.", "refresh_required": true
+    },
+    {
+      "id": "howartheth2026", "inspection_date": "2026-11-01",
+      "source_url": "https://www.science.org/content/article/ai-cracks-27-year-old-pillar-computer-science-openai-and-anthropic-claim", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "AI cracks a 27-year-old pillar of computer science, OpenAI and Anthropic claim", "author": "Tom Howarth", "publication_date": "28 October 2026, 5:25 PM ET", "doi": "10.1126/science.z3zo39t"},
+      "outcome": "identity-and-main-reporting-inspected", "full_text_read": false,
+      "scope": "Publisher main text, interviews, DOI and reporting-support disclosure inspected. Some long accessibility paragraphs were clipped; exhaustive full-text reading not asserted. No independent proof checking or discovery-timeline audit.",
+      "access_notes": "Automated page retrieval returned 403. Ordinary native Chrome rendered the reporting without sign-in or a security/access-control workaround after the user unlocked the Mac. No newsletter submission or software installation.", "refresh_required": true
+    },
+    {
+      "id": "coffeefailure2026", "inspection_date": "2026-11-01",
+      "source_url": "https://coffeecupai.com/blog/95-ai-failure-stat-one-year-later-junk/", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "The 95% AI failure stat, one year later: junk number, real problem", "author": "Coffee Cup AI", "publication_date": "October 29, 2026"},
+      "outcome": "identity-and-main-article-inspected", "full_text_read": false,
+      "scope": "Main article, chart captions, conclusions and source links inspected. Some long accessibility text strings were clipped; exhaustive full-text reading is not asserted. Primary McKinsey survey checked separately; underlying NANDA PDF and Wiblin critique not read after automated access failures. Not an independent audit of every number.",
+      "access_notes": "Automated retrieval failed; ordinary Chrome displayed the public article. No login, purchase or access-control workaround.", "refresh_required": true
+    },
+    {
+      "id": "howlettquantum2026", "inspection_date": "2026-11-01",
+      "source_url": "https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem/", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "OpenAI just scooped mathematicians' work on another million-dollar problem", "author": "Joseph Howlett", "editor": "Lee Billings", "publication_date": "October 27, 2026", "editors_note": "Breaking news story; may be updated."},
+      "outcome": "identity-and-main-article-inspected", "full_text_read": false,
+      "scope": "Main article through editor's note, interview quotations and claim-scope distinctions inspected. Some long accessibility paragraph strings were clipped; exhaustive full-text reading is not asserted. No independent proof, internal-timeline or priority verification; no inference from the broader URL title.",
+      "access_notes": "Automated retrieval blocked. Chrome displayed the article without sign-in or circumventing a paywall; newsletter fields were left untouched.", "refresh_required": true
+    },
+    {
+      "id": "vanoosteromcuts2026", "inspection_date": "2026-11-01",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-26/dutch-government-plans-to-cut-25-000-jobs-in-ai-led-overhaul", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "Dutch Government Plans to Cut 25,000 Jobs in AI-Led Overhaul", "author": "Patrick Van Oosterom", "publication_date": "October 26, 2026 11:10 AM GMT+1", "updated_date": "October 26, 2026 12:23 PM GMT+1"},
+      "outcome": "identity-and-public-opening-only", "full_text_read": false,
+      "scope": "Publisher title/byline/date/update, public opening and linked government statement identified. No subscriber article beyond the public opening read; substantive policy details checked in the official statement separately.",
+      "access_notes": "Rejected nonessential cookies. Subscriber offer limited further reading; no sign-in, purchase or restriction bypass. Tracking parameters omitted from stored citation URL.", "refresh_required": true
+    },
+    {
+      "id": "yotzovfirm2026", "inspection_date": "2026-10-28",
+      "source_url": "https://www.nber.org/papers/w34836", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "Firm Data on AI", "doi": "10.3386/w34836", "issue_month": "2026-02", "revision_month": "2026-10", "abstract_opening": "Nearly 9,000 executives in seven countries in summer 2026; 78% of firms use AI."},
+      "outcome": "identity-revision-and-abstract-opening-inspected", "full_text_read": false,
+      "scope": "Native Chrome displayed title, DOI, issue/revision months, author links and a truncated revised abstract. Complete current publisher-indexed abstract and expanded author list were read separately. No claim to have inspected the full paper or complete browser abstract.",
+      "access_notes": "Ordinary automated NBER/PDF retrieval returned 403. Chrome rendered the public page without login or an access-control workaround; extension was unavailable so native UI was used. No terms-accepting download or free-download allowance consumed.", "refresh_required": true
+    },
+    {
+      "id": "bicktasks2026", "inspection_date": "2026-10-28",
+      "source_url": "https://www.nber.org/papers/w35677", "method": "local-chrome-native-accessibility",
+      "observed": {"title": "What Work Does Generative AI Do?", "authors": ["Alexander Bick", "Adam Blandin", "David J. Deming", "Tyler R. Schumacher"], "doi": "10.3386/w35677", "issue_month": "2026-08"},
+      "outcome": "identity-and-abstract-opening-inspected", "full_text_read": false,
+      "scope": "Native Chrome title, author links, DOI, issue month and truncated abstract; public SSRN abstract and earlier Federal Reserve summary inspected separately. No full-text reading or assumption of identical versions.",
+      "access_notes": "Automated NBER/PDF retrieval returned 403. Public page read in native Chrome without sign-in; extension unavailable. No download requiring agreement or consuming the user's allowance was performed.", "refresh_required": true
+    },
+    {
+      "id": "wizphptel2026", "inspection_date": "2026-10-27",
+      "source_url": "https://www.wiz.io/blog/php2shell-exploitation-so-far", "method": "local-chrome-extension-dom",
+      "observed": {"title": "PHP2Shell: Exploitation Attempts and Remediation Trends", "authors": ["Yaara Shriki", "Shahar Dorfman", "Alma Blachsan", "Yaron Samuel"], "publication_date": "October 27, 2026"},
+      "outcome": "identity-and-article-content-inspected", "full_text_read": true,
+      "scope": "Full article including own-telemetry limits, external honeypot-success acknowledgement, exposure definitions and conclusion. Exploit code was neither executed nor downloaded.",
+      "access_notes": "Automated article retrieval failed. Local Chrome rendered the public article without sign-in or an access-control workaround.", "refresh_required": true
+    },
+    {
+      "id": "censysphp2026", "inspection_date": "2026-10-27",
+      "source_url": "https://php2shell.censys.com/", "method": "local-chrome-extension-dom",
+      "observed": {"author": "Censys", "title": "PHP2Shell services", "data_refreshed": "2026-10-27 21:15 UTC"},
+      "outcome": "dynamic-data-and-methods-inspected", "full_text_read": false,
+      "scope": "Loaded headline counts, update timestamp and complete notes/limitations read. No exhaustive inspection of all country, network, historical or interactive chart data.",
+      "access_notes": "Automated retrieval exposed only the dashboard shell; Chrome loaded the live counts. Search-index snapshot was stale and is not used as the current observation.", "refresh_required": true
+    },
+    {
+      "id": "w3php2026", "inspection_date": "2026-10-27",
+      "source_url": "https://w3techs.com/technologies/details/pl-php", "method": "local-chrome-extension-dom",
+      "observed": {"author": "W3Techs / Q-Success", "title": "Usage statistics of PHP for websites", "usage_percent": 69.2, "denominator": "websites whose server-side programming language is known"},
+      "outcome": "prevalence-denominator-inspected", "full_text_read": false,
+      "scope": "Primary usage statement, exact denominator, daily-update notice and version breakdown read; underlying detection methodology and full commercial reports not audited.",
+      "access_notes": "Automated page text omitted the usage sentence; it was visible in the ordinary local Chrome page. No account or report purchase.", "refresh_required": true
+    },
+    {
+      "id": "sonpatching2026",
+      "inspection_date": "2026-10-27",
+      "source_url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "method": "local-chrome-extension-dom",
+      "observed": {"author": "Hugh Son", "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos", "publication_date": "Oct 14 2026, 2:47 PM EDT", "updated_date": "Oct 14 2026, 4:06 PM EDT"},
+      "outcome": "identity-and-article-content-inspected",
+      "scope": "Full publisher article and key points, byline, publication/update dates, interview quotations and reported earnings-call remarks. Embedded video not watched; underlying systems and financial attribution not audited.",
+      "full_text_read": true,
+      "access_notes": "Automated retrieval failed; original article rendered in local Chrome without sign-in or a subscription workaround. Public investor-relations index inspected separately; linked Q3 transcript PDF returned 403 in web retrieval and was not read.",
+      "refresh_required": true
+    },
+    {
+      "id": "vandenbergagents2026",
+      "inspection_date": "2026-10-27",
+      "source_url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "method": "local-chrome-extension-dom",
+      "observed": {"author": "Jan van den Berg", "title": "The Mythical Man-Month in the age of AI", "publication_date": "27 October 2026"},
+      "outcome": "identity-and-article-content-inspected",
+      "scope": "Full short essay, dated time element and author banner/footer. Comments not loaded.",
+      "full_text_read": true,
+      "access_notes": "Automated retrieval failed; the ordinary page rendered in local Chrome. No sign-in or access-control workaround.",
+      "refresh_required": true
+    },
+    {
+      "id": "voytkoquality2026",
+      "inspection_date": "2026-10-27",
+      "source_url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "method": "local-chrome-extension-dom",
+      "observed": {"author": "Jake Voytko", "title": "Software may be getting worse, but it used to be horrible", "publication_date": "October 27, 2026"},
+      "outcome": "identity-and-article-content-inspected",
+      "scope": "Entire essay, historical examples, conclusion and footnotes, including the author's uncertainty about a game anecdote.",
+      "full_text_read": true,
+      "access_notes": "Automated retrieval failed; publisher page rendered in Chrome without sign-in. Anecdotes and linked predecessor essay not independently checked.",
+      "refresh_required": true
+    },
+    {
+      "id": "karkideskilling2026",
+      "inspection_date": "2026-10-27",
+      "source_url": "https://www.degruyterbrill.com/document/doi/10.1515/humaff-2026-0080/html",
+      "method": "local-chrome-extension-dom",
+      "observed": {"author": "Kaisa Kärki", "title": "Who is Responsible for Tackling Professional Deskilling?", "publication_date": "September 23, 2026", "doi": "10.1515/humaff-2026-0080"},
+      "outcome": "identity-and-open-access-article-inspected",
+      "scope": "Full HTML sections 1-5, abstract, references, publication history, funding, disclosures and open-access license. Not every referenced study independently checked; interactive footnotes not all expanded.",
+      "full_text_read": true,
+      "access_notes": "Automated publisher and DOI retrieval returned 405. Chrome rendered the open-access HTML; no sign-in. Lee et al. primary abstract separately inspected through public web retrieval.",
+      "refresh_required": true
+    },
+    {
+      "id": "stewartbuyouts2026",
+      "inspection_date": "2026-10-27",
+      "source_url": "https://www.businessinsider.com/microsoft-is-offering-buyouts-read-the-memo-2026-10",
+      "method": "local-chrome-extension-dom-plus-screenshot",
+      "observed": {"author": "Ashley Stewart", "title": "Microsoft is offering buyouts to around 60,000 employees. Read the memo.", "publication_date": "Oct 26, 2026, 4:30 PM GMT+1"},
+      "outcome": "identity-and-limited-access-inspected",
+      "scope": "Title, byline and timestamp inspected. DOM snapshot exposed article/memo text, but a screenshot confirmed a subscription overlay. Do not certify unrestricted full-text access; current synthesis uses the headline and public crosschecks.",
+      "full_text_read": false,
+      "access_notes": "Automated retrieval failed. Cookie notice rejected; no trial, subscription, sign-in or access-control workaround. Public Microsoft memo and GeekWire reporting used for substantive event checks instead.",
+      "refresh_required": true
+    },
+    {
+      "id": "torvaldstools2026",
+      "inspection_date": "2026-10-16",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3242",
+      "observed": {"author": "Linus Torvalds", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Tue, 13 Oct 2026 13:45:09 -0700"},
+      "outcome": "identity-and-message-content-inspected",
+      "scope": "Full message and quoted parent context, author and message date read from the rendered accessibility tree in the user's existing Chrome tab.",
+      "access_notes": "The web retrieval tool could not access the supplied URL. Chrome rendered it successfully. Header-view navigation did not expose an RFC Message-ID; none is fabricated.",
+      "refresh_required": true
+    },
+    {
+      "id": "pincharttools2026",
+      "inspection_date": "2026-10-16",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3226",
+      "observed": {"author": "Laurent Pinchart", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Tue, 13 Oct 2026 22:16:28 +0200"},
+      "outcome": "identity-and-message-content-inspected",
+      "scope": "Full reply and quoted exchange, with authorship distinguished from quotations.",
+      "access_notes": "The linked fancy-rendering route returned Access denied; the already-observed plain-text route rendered successfully. No access control or security interstitial was bypassed.",
+      "refresh_required": true
+    },
+    {
+      "id": "cooktools2026",
+      "inspection_date": "2026-10-16",
+      "source_url": "https://lkml.org/lkml/2026/10/14/2388",
+      "observed": {"author": "Kees Cook", "title": "Re: [PATCH] docs: remove Assisted-by references", "message_date": "Wed, 14 Oct 2026 11:47:46 -0700"},
+      "outcome": "identity-and-message-content-inspected",
+      "scope": "Full follow-up including testing, trust, review volume, drafting and accountability. Linked review-bot implementation was not evaluated.",
+      "access_notes": "Read through an explicit thread link in local Chrome; no claim of independent measurement of the described workflow.",
+      "refresh_required": true
+    },
+    {
+      "id": "strogatzfuture2026",
+      "inspection_date": "2026-10-26",
+      "source_url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "observed": {"author": "Steven Strogatz", "title": "A Mathematician Reads the AI Future", "publication_date": "October 25, 2026, 8 AM ET"},
+      "outcome": "identity-and-public-preview-inspected",
+      "scope": "Headline, byline, date, subtitle, public opening and author biography, followed by a subscription/sign-in boundary. Remainder not read.",
+      "full_text_read": false,
+      "access_notes": "Automated web open failed. Native Chrome app accessibility exposed the public preview. No sign-in, subscription or paywall circumvention was attempted; search excerpts were not treated as full-text inspection.",
+      "refresh_required": true
+    },
+    {
+      "id": "baimehomework2026",
+      "inspection_date": "2026-10-26",
+      "source_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "observed": {"author": "Audrey Baime", "title": "AI use leads UC Berkeley math professor to see ‘no point’ in grading homework", "publication_date": "Oct 23, 2026"},
+      "outcome": "identity-and-article-content-inspected",
+      "scope": "Full rendered article, byline and article date, Borcherds's completion-credit account and reported comments from Anne Marie Richard. Photo credit and current-day site masthead distinguished from authorship/publication date.",
+      "full_text_read": true,
+      "access_notes": "Automated retrieval was robots-restricted. Native Chrome app accessibility rendered the complete article. No privacy-consent or newsletter form was submitted.",
+      "refresh_required": true
+    }
+  ]
+}

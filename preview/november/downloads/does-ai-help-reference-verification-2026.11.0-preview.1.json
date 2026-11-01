@@ -1,0 +1,8 @@
+{
+  "status": "draft-not-release-audit",
+  "preview_version": "2026.11.0-preview.1",
+  "assembled_records": 316,
+  "staged_new_records": 87,
+  "release_receipts_complete": false,
+  "note": "Existing source inspections retain their dates. No new release-wide live audit or monthly Chrome refresh is claimed."
+}

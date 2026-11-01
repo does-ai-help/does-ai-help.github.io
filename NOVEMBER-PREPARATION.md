@@ -1,9 +1,11 @@
 # November 2026 Release Preparation
 
-Status: **unpublished preparation**. Branch: `codex/november-2026-preparation`.
+Status: **public draft preview; final release pending**. Branch: `codex/november-2026-preparation`.
 Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026. The affiliation-only patch `2026.10.15` is incorporated without reopening October's scientific content.
 
-The live site remains on the final October release until a reviewed November release is merged into `main`. This branch initially retains October's manifest and built artifacts as its baseline; they are not November deliverables. No November publication, cutoff or verification date has been assigned. Intended first November version: `2026.11.0`, subject to release preparation.
+The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`, version `2026.11.0-preview.1`, with provisional cutoff 1 November 2026. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+
+See the [summary of all additions](november/UPDATE-SUMMARY.md), [preview maintenance guide](november/PREVIEW.md), and [updated manuscript](manuscript/article-november.md). Historical intake entries below describe the state at each addition; they are not a claim that the current draft remains private.
 
 ## Staged Material
 
@@ -52,6 +54,79 @@ The live site remains on the final October release until a reviewed November rel
 - Added Aikido's analysis and the reviewed Python package advisory to the [security review](manuscript/november-ai-security-php-brotli.md). Total staged references: **46**.
 - [Package observations](november/security-observations.json) retain fixed versions, PYSEC/GHSA aliases, the null GitHub CVE field and differing lower affected bounds. Do not equate installation or downloads with reachable exploitation.
 - Both new records share the existing Brotli family. No additional discovery, Python RCE reproduction or scanner efficacy is asserted; October remains unchanged.
+
+### 28 October: Cross-Topic Literature Search
+
+- [Synthesis, critical appraisal and proposed article passage](manuscript/november-cross-topic-search-2026-10-28.md) cover productivity, cognition, delegation, collaboration, adoption, global access, scientific reuse, diversity and sustainability.
+- Sixteen new references bring the staged total to **62**. [Search and disposition log](november/search-2026-10-28.json) distinguishes known sources, deferred candidates and actual reading depth; this is a targeted update, not an exhaustive systematic review.
+- Important revision check: *Firm Data on AI* now describes nearly 9,000 executives across seven countries. The earlier four-country abstract is not substituted for the October revision. Current public abstracts and local Chrome metadata were inspected; full-text follow-up remains necessary for the two NBER papers, ILO study and Joule article.
+- The update pairs expanded capabilities with work intensification, favorable engineering associations with context confounding, scientific reuse with validation limits, and resource efficiency with aggregate demand. No October outputs are regenerated.
+
+### 1 November: Mathematical Institutions and Incentives
+
+- Added Frank Calegari's guest post on Terence Tao's blog, with [critical appraisal and proposed article passage](manuscript/november-calegari-mathematical-institutions.md). Guest authorship is distinguished from the platform's host byline.
+- One new expert-perspective record brings the staged total to **63**. Connects expanded research possibilities to evaluation, hiring, publishing and education, without treating reform proposals or claims about announced proofs as independently validated results.
+- Full main post and notes inspected on 1 November; no release-wide verification completion or new public publication is asserted. October remains unchanged.
+
+### 1 November: Failure Statistics, Quantum Claims, Creativity and Public Employment
+
+- Added all four suggested articles, plus Zoran's original journal paper, McKinsey's 2026 survey and the Dutch government's statement. [Appraisal and proposed article passage](manuscript/november-roi-quantum-creativity-and-public-work.md) connect them through claim scope and evaluation denominators. Staged total: **70** references.
+- Preserve the distinctions between reported financial impact and pilot failure; existence and the full Yang-Mills mass-gap problem; creative output and learning; and a multi-year FTE target and observed AI displacement.
+- Coffee Cup AI and Scientific American were inspected in Chrome; Bloomberg was preview-only. The linked NANDA PDF and Wiblin critique remain uninspected follow-ups. No October files or published artifacts are regenerated.
+
+### 1 November: Open Knowledge and ETH Reporting
+
+- Added the requested Verge and Science reports, plus Wikimedia's primary statement and proposed court brief. [Critical appraisal and proposed article passage](manuscript/november-open-knowledge-and-eth.md) connect source-ecosystem sustainability with scientific verification, access and stewardship. Staged total: **74**.
+- Science metadata, DOI and main text checked in Chrome; The Verge is preview-only there, with publisher metadata checked separately. Filing stamps distinguish the 29 October motion from the 30 October announcement/upload. Neither legal arguments nor reported proof claims are treated as independently established results.
+- Alternative observations require release-time refresh. No October article, database or generated artifact is changed.
+
+### 1 November: Memory Allocation, Cloud Utilization and Local Agency
+
+- Added Bonifield's RAM-allocation report and its linked SK hynix primary release. [Appraisal and proposed article passage](manuscript/november-memory-allocation-and-local-ai.md) distinguish utilization, useful outcomes, resource access and user control. Staged total: **76**.
+- The short report was read in Chrome; the embedded interview was not watched. Manufacturer-specific capacity and forward-looking guidance are not converted into global market shares, measured consumer-price effects or independent productivity results.
+- Records and browser observations retain the actual reading scope. October remains unchanged; no generated publication artifacts are rebuilt.
+
+### 1 November: Altman's Mathematical Release Rationale
+
+- Added Robert Hart's coverage of Altman's Cheeky Pint remarks, with [appraisal and proposed article passage](manuscript/november-altman-mathematical-release-rationale.md). Staged total: **77**.
+- Adds the developer's rationale for continued releases and attributed resource claims. Does not certify undisclosed discoveries, proof validity or cost-effectiveness. The RAM report shares the same interview-family label rather than counting as independent corroboration.
+- Main text and citation metadata inspected; original interview not watched. October and generated publication artifacts remain unchanged.
+
+### 1 November: Recruitment and Entry-Level Onboarding
+
+- Added Clark's Accenture report, its original investor-day transcript and the cited 2022 recruitment critique. [Appraisal and proposed article passage](manuscript/november-recruitment-and-onboarding.md) distinguish process speed, selection quality, applicant outcomes and durable learning. Staged total: **80**.
+- Primary transcript confirms the attributed figures and the event date, 14 October 2026; FY27 is not a publication year. Company testimony and news coverage share one family. The historical paper analyzes marketing assumptions and is not an audit of current Accenture agents.
+- No company outcome is independently reproduced. October remains unchanged; no generated publication artifacts are rebuilt.
+
+### 1 November: The AI Ambition Gap
+
+- Added Robinson's report and van Ark/Karountzos's original commissioned synthesis. [Appraisal and proposed article passage](manuscript/november-ai-ambition-gap.md) assess complementary investments, delayed returns and the distinction between recommendations and a guarantee of payoff. Staged total: **82**.
+- Original 44-page PDF inspected selectively through its public download link, with checksum retained and no redistribution. The report synthesizes existing evidence and eight expert interviews; repeated studies are not new replications.
+- Keep newer primary-study versions in our quantitative synthesis. October remains unchanged; no publication artifacts are rebuilt.
+
+### 1 November: Amazon's Engineering Role Guidance
+
+- Added Terk Terkowitz's published leadership memo, dated 27 October. [Appraisal and proposed article passage](manuscript/november-amazon-engineering-role.md) examine outcome-based evaluation, adoption proxies and legitimate non-benefit findings. Staged total: **83**.
+- Classified as employer policy commentary, not a causal productivity study. Public text and publisher metadata verified; complete internal guideline, underlying data and implementation not inspected.
+- October remains unchanged; no generated publication artifacts are rebuilt.
+
+### 1 November: Cisco Legacy Modernization Proposal
+
+- Added Royle's executive-interview report. [Appraisal and follow-up protocol](manuscript/november-cisco-legacy-modernization.md) distinguish announced ambition from accepted production delivery. Staged total: **84**.
+- Treat as a prospective case, not a causal productivity or employment estimate. A secondary follow-up was checked for reporting propagation, not admitted as independent evidence.
+- October remains unchanged; no generated publication artifacts are rebuilt.
+
+### 1 November: PostgreSQL Discovery and Maintenance Pressure
+
+- Added Haas's maintainer account and official Beta 4 / RC 1 announcements. [Appraisal and proposed article passage](manuscript/november-postgres-discovery-bottleneck.md) distinguish useful defect discovery, repair capacity, release timing and generated-code defects. Staged total: **87**.
+- Official notices verify announced reverts and a conditional November schedule, not AI causality. Commit comparisons are descriptive, not unique defect counts; three records share one project-episode family.
+- October remains unchanged; no generated publication artifacts are rebuilt.
+
+### 1 November: Critical-Thinking Survey Reappraisal
+
+- The supplied ACM DOI matches existing source `ref-712e3405f2`. [New substantive appraisal](manuscript/november-critical-thinking-survey.md) and `november/source-updates.json` stage its method, DOI, metadata and limitations for November promotion. New-source count remains **87**.
+- ACM returned 403; institutional publication page and selected author-PDF sections provided verification. This is an alternative public institutional access route, not a local Chrome receipt. No duplicate source was added.
+- Distinguish self-reported effort and engagement from objective skill, causal effects and longitudinal decline. October remains unchanged.
 
 ## Editorial Priorities
 

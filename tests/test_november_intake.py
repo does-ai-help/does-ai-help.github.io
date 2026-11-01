@@ -14,6 +14,237 @@ class NovemberIntakeTests(unittest.TestCase):
         cls.base = json.loads((ROOT / 'data/sources.json').read_text())
         cls.by_id = {r['id']: r for r in cls.sources}
 
+    def test_existing_critical_thinking_paper_is_updated_not_duplicated(self):
+        updates = json.loads((ROOT / 'november/source-updates.json').read_text())
+        self.assertEqual(updates['target_release'], '2026-11')
+        self.assertEqual(updates['status'], 'pending-editorial-promotion')
+        existing = {r['id'] for r in self.base}
+        ids = [r['id'] for r in updates['records']]
+        self.assertEqual(len(ids), len(set(ids)))
+        taxonomy = json.loads((ROOT / 'data/topic-taxonomy.json').read_text())
+        for update in updates['records']:
+            self.assertIn(update['id'], existing)
+            self.assertNotIn(update['id'], self.by_id)
+            fields = update['fields']
+            self.assertEqual(fields['verification']['checked_on'], update['checked_on'])
+            self.assertLessEqual(fields['date'], update['checked_on'])
+            self.assertFalse(set(fields['topics']) - set(taxonomy['topics']))
+        paper = next(r['fields'] for r in updates['records'] if r['id'] == 'ref-712e3405f2')
+        self.assertEqual(paper['doi'], '10.1145/3706598.3713778')
+        self.assertEqual(len(paper['authors']), 7)
+        self.assertEqual(paper['date'], '2025-04')
+        self.assertIn('not an objective skill test', paper['limitations'])
+        self.assertEqual(paper['document_snapshot']['version'], 'author-version')
+        self.assertFalse(paper['document_snapshot']['redistributed'])
+        self.assertIn('403', paper['verification']['basis'])
+
+    def test_postgres_release_notices_do_not_establish_ai_causality(self):
+        account = self.by_id['haaspostgres2026']
+        beta = self.by_id['pg19beta42026']
+        rc = self.by_id['pg19rc12026']
+        self.assertEqual(account['authors'], ['Haas, Robert'])
+        self.assertEqual(account['date'], '2026-10-21')
+        self.assertEqual(beta['date'], '2026-09-24')
+        self.assertEqual(rc['date'], '2026-10-15')
+        self.assertEqual(len({r['study_family'] for r in [account, beta, rc]}), 1)
+        self.assertIn('neither unique defect counts', account['limitations'])
+        self.assertIn('not independently rerun', account['limitations'])
+        self.assertIn('Does not attribute', beta['limitations'])
+        self.assertIn('not evidence', rc['limitations'])
+        self.assertIn('19 November', rc['summary'])
+        for source in [beta, rc]:
+            self.assertEqual(source['publication_status'], 'project-release-notice')
+
+    def test_cisco_proposal_is_not_a_completed_productivity_result(self):
+        source = self.by_id['roylecisco2026']
+        self.assertEqual(source['authors'], ['Royle, Orianna Rosa'])
+        self.assertEqual(source['date'], '2026-10-30')
+        self.assertEqual(source['publication_status'], 'journalism')
+        self.assertEqual(source['method'], 'executive-interview-reporting')
+        self.assertIn('not demonstrated delivery', source['summary'])
+        self.assertIn('not a representative sample', source['limitations'])
+        self.assertIn('not independent confirmation', source['verification']['basis'])
+        self.assertIn('terkowitzrole2026', source['related_to'])
+        self.assertTrue({'engineering', 'work', 'cost', 'quality'}.issubset(source['topics']))
+
+    def test_amazon_guidance_is_policy_not_a_productivity_estimate(self):
+        source = self.by_id['terkowitzrole2026']
+        self.assertEqual(source['authors'], ['Terkowitz, Terk'])
+        self.assertEqual(source['date'], '2026-10-27')
+        self.assertEqual(source['publication_status'], 'company-policy-commentary')
+        self.assertEqual(source['method'], 'corporate-engineering-leadership-memo')
+        self.assertIn('does not help', source['summary'])
+        self.assertIn('do not establish causality', source['limitations'])
+        self.assertIn('complete guideline', source['limitations'])
+        self.assertTrue({'engineering', 'governance', 'learning', 'methods'}.issubset(source['topics']))
+        self.assertEqual(source['verification']['checked_on'], '2026-11-01')
+
+    def test_cross_topic_search_has_resolvable_selections_and_reading_scopes(self):
+        log = json.loads((ROOT / 'november/search-2026-10-28.json').read_text())
+        self.assertEqual(log['searched_on'], '2026-10-28')
+        selected = log['selected_ids']
+        self.assertEqual(log['selected_count'], len(selected))
+        self.assertEqual(len(selected), len(set(selected)))
+        self.assertTrue(set(log['full_text_follow_up_ids']).issubset(selected))
+        available = {r['id'] for r in self.base}
+        self.assertTrue({r['id'] for r in log['known_not_duplicated']}.issubset(available))
+        for key in selected:
+            source = self.by_id[key]
+            self.assertEqual(source['verification']['checked_on'], log['searched_on'])
+            self.assertTrue(source['reading_scope'])
+            self.assertTrue(source['limitations'])
+            self.assertTrue(source.get('doi') or source.get('arxiv_id') or source['date_basis'])
+        topics = {topic for key in selected for topic in self.by_id[key]['topics']}
+        self.assertTrue({'learning', 'science', 'work', 'business', 'engineering',
+                         'diversity', 'sustainability'}.issubset(topics))
+
+    def test_cross_topic_revision_and_method_boundaries(self):
+        firm = self.by_id['yotzovfirm2026']
+        self.assertEqual(firm['date'], '2026-02')
+        self.assertEqual(firm['revision_date'], '2026-10')
+        self.assertEqual(len(firm['authors']), 17)
+        self.assertIn('9,000', firm['summary'])
+        self.assertIn('forecasts', firm['limitations'])
+        self.assertIn('not actual rerunning', self.by_id['coakleyrepro2026']['limitations'])
+        self.assertIn('Not a test of transfer without AI',
+                      self.by_id['kewenigscaffolds2026']['limitations'])
+        self.assertIn('preprint', self.by_id['ferinodelegation2026']['publication_status'])
+        self.assertEqual(self.by_id['mockuscontext2026']['publication_status'], 'conference-paper')
+        self.assertEqual(self.by_id['oviedoenergy2026']['study_family'],
+                         self.by_id['myttonenergy2026']['study_family'])
+
+    def test_calegari_guest_authorship_is_not_the_platform_host(self):
+        source = self.by_id['calegarichanged2026']
+        self.assertEqual(source['authors'], ['Calegari, Frank'])
+        self.assertEqual(source['date'], '2026-11-01')
+        self.assertEqual(source['verification']['checked_on'], '2026-11-01')
+        self.assertEqual(source['method'], 'expert-normative-commentary')
+        self.assertEqual(source['publication_status'], 'guest-blog-post')
+        self.assertTrue({'mathematics', 'science', 'learning', 'governance'}.issubset(source['topics']))
+        self.assertIn('not a causal study', source['limitations'])
+
+    def test_november_four_article_intake_preserves_roles_and_primary_families(self):
+        explainer = self.by_id['millscreativity2026']
+        paper = self.by_id['zoranbecoming2026']
+        self.assertEqual(explainer['authors'], ['Mills, Yarden'])
+        self.assertEqual(explainer['editors'], ['Cohen, Shy'])
+        self.assertEqual(paper['doi'], '10.1007/s00146-026-03379-x')
+        self.assertEqual(explainer['study_family'], paper['study_family'])
+        report = self.by_id['vanoosteromcuts2026']
+        policy = self.by_id['dutchrestructuring2026']
+        self.assertEqual(report['study_family'], policy['study_family'])
+        self.assertNotIn('?', report['url'])
+        self.assertIn('FTE', policy['summary'])
+        self.assertIn('2027', policy['summary'])
+        self.assertEqual(report['reading_scope'], 'publisher-metadata-and-public-opening-only')
+        self.assertEqual(self.by_id['mckinseyroi2026']['date'], '2026-08-25')
+        self.assertIn('not equivalent to project failure',
+                      self.by_id['mckinseyroi2026']['limitations'])
+        self.assertIn('not independently read', self.by_id['coffeefailure2026']['limitations'])
+
+    def test_quantum_reporting_does_not_validate_a_millennium_solution(self):
+        report = self.by_id['howlettquantum2026']
+        self.assertEqual(report['authors'], ['Howlett, Joseph'])
+        self.assertEqual(report['publication_status'], 'journalism')
+        self.assertIn('narrower', report['summary'])
+        self.assertIn('not proof verification', report['limitations'])
+        self.assertIn('openaiunderstanding2026', report['related_to'])
+        self.assertIn('quantum-math-problem', report['url'])
+        self.assertNotEqual(report['title'], report['alternate_title'])
+
+    def test_wikimedia_filing_identity_and_procedural_status(self):
+        brief = self.by_id['wmfbrief2026']
+        statement = self.by_id['wmfknowledge2026']
+        report = self.by_id['feinerwikimedia2026']
+        self.assertEqual(brief['date'], '2026-10-29')
+        self.assertEqual(statement['date'], '2026-10-30')
+        self.assertEqual(brief['court_identifiers']['proposed_brief'], '2361-1')
+        self.assertEqual(brief['publication_status'], 'court-filing-not-a-ruling')
+        self.assertEqual(len({r['study_family'] for r in [brief, statement, report]}), 1)
+        self.assertIn('Footnote 24', brief['summary'])
+        self.assertIn('not a court decision', statement['limitations'])
+        self.assertEqual(report['authors'], ['Feiner, Lauren'])
+
+    def test_eth_news_is_not_proof_validation_and_access_is_scoped(self):
+        report = self.by_id['howartheth2026']
+        self.assertEqual(report['authors'], ['Howarth, Tom'])
+        self.assertEqual(report['date'], '2026-10-28')
+        self.assertEqual(report['doi'], '10.1126/science.z3zo39t')
+        self.assertEqual(report['publication_status'], 'journalism')
+        self.assertIn('not a peer-reviewed proof', report['limitations'])
+        observations = {r['id']: r for r in json.loads(
+            (ROOT / 'november/browser-observations.json').read_text())['observations']}
+        for key in ['howartheth2026', 'feinerwikimedia2026']:
+            self.assertFalse(observations[key]['full_text_read'])
+            self.assertEqual(observations[key]['inspection_date'], '2026-11-01')
+
+    def test_memory_allocation_argument_is_not_an_efficiency_benchmark(self):
+        report = self.by_id['bonifieldram2026']
+        supplier = self.by_id['skhynixsupply2026']
+        self.assertEqual(report['authors'], ['Bonifield, Stevie'])
+        self.assertEqual(report['date'], '2026-10-30')
+        self.assertEqual(supplier['date'], '2026-10-28')
+        self.assertIn('not a comparative cloud/local benchmark', report['limitations'])
+        self.assertIn('Company capacity is not global output', supplier['limitations'])
+        self.assertIn('not watched', report['limitations'])
+        self.assertEqual(report['publication_status'], 'journalism')
+        self.assertEqual(supplier['publication_status'], 'company-earnings-release')
+
+    def test_altman_math_remarks_share_interview_family_not_independent_validation(self):
+        source = self.by_id['hartaltmanmath2026']
+        self.assertEqual(source['authors'], ['Hart, Robert'])
+        self.assertEqual(source['date'], '2026-10-30')
+        self.assertEqual(source['publication_status'], 'journalism')
+        self.assertEqual(source['study_family'], self.by_id['bonifieldram2026']['study_family'])
+        self.assertIn('not proof validation', source['limitations'])
+        self.assertIn('Original interview not watched', source['limitations'])
+        self.assertIn('hartaltmanmath2026', self.by_id['bonifieldram2026']['related_to'])
+
+    def test_recruiting_claims_keep_primary_date_and_historical_method(self):
+        report = self.by_id['clarkrecruiting2026']
+        transcript = self.by_id['accenturetalent2026']
+        critique = self.by_id['dragemackereth2022']
+        self.assertEqual(report['authors'], ['Clark, Lindsay'])
+        self.assertEqual(transcript['date'], '2026-10-14')
+        self.assertEqual(transcript['year'], 2026)
+        self.assertEqual(report['study_family'], transcript['study_family'])
+        self.assertIn('28%', transcript['summary'])
+        self.assertIn('30%', transcript['summary'])
+        self.assertIn('not an independent test of durable skill', transcript['limitations'])
+        self.assertEqual(critique['doi'], '10.1007/s13347-022-00543-1')
+        self.assertEqual(critique['date'], '2022-10-10')
+        self.assertEqual(critique['method'], 'critical-theoretical-analysis-of-recruitment-marketing')
+        self.assertIn('not a randomized hiring-outcome study', critique['limitations'])
+
+    def test_ambition_gap_is_commissioned_synthesis_not_a_payoff_guarantee(self):
+        report = self.by_id['vanarkambition2026']
+        news = self.by_id['robinsonambition2026']
+        self.assertEqual(report['authors'], ['van Ark, Bart', 'Karountzos, Vassilis'])
+        self.assertEqual(report['date'], '2026-10-29')
+        self.assertEqual(news['date'], '2026-10-30')
+        self.assertEqual(news['authors'], ['Robinson, Dan'])
+        self.assertEqual(report['study_family'], news['study_family'])
+        self.assertEqual(report['method'], 'narrative-evidence-synthesis-and-expert-interviews')
+        self.assertIn('not a new causal trial', report['limitations'])
+        self.assertIn('do not establish inevitable payoff', report['limitations'])
+        self.assertIn('Bytes', report['container_title'])
+        snapshot = report['document_snapshot']
+        self.assertEqual(snapshot['pages'], 44)
+        self.assertEqual(snapshot['bytes'], 4275794)
+        self.assertRegex(snapshot['sha256'], r'^[a-f0-9]{64}$')
+        self.assertFalse(snapshot['redistributed'])
+
+    def test_cross_topic_new_dois_do_not_duplicate_existing_studies(self):
+        log = json.loads((ROOT / 'november/search-2026-10-28.json').read_text())
+        selected = set(log['selected_ids'])
+        normalize = lambda value: value.lower().removeprefix('https://doi.org/').strip()
+        prior = {normalize(r['doi']) for r in self.base + self.sources
+                 if r.get('doi') and r['id'] not in selected}
+        new = [normalize(self.by_id[key]['doi']) for key in selected
+               if self.by_id[key].get('doi')]
+        self.assertEqual(len(new), len(set(new)))
+        self.assertFalse(set(new) & prior)
+
     def test_unique_staged_identities_and_scope(self):
         self.assertEqual(len(self.sources), len(self.by_id))
         self.assertEqual(len(self.sources), len({r['url'] for r in self.sources}))

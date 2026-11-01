@@ -1,0 +1,49 @@
+name: Publish November preview alongside October
+on:
+  push:
+    branches: [codex/november-2026-preparation]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  preview:
+    if: github.ref == 'refs/heads/codex/november-2026-preparation'
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: https://does-ai-help.github.io/preview/november/
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: preparation
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          path: published
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Test preparation and inspect committed preview
+        working-directory: preparation
+        run: |
+          python3 -m pip install -r requirements.txt
+          python3 -m unittest discover -s tests
+          python3 scripts/check_november_preview.py
+      - name: Preserve published October bytes and add isolated preview
+        run: |
+          test "$(python3 -c 'import json;print(json.load(open("published/data/release.json"))["version"])')" = "2026.10.15"
+          mkdir -p deployment/preview
+          cp -a published/site/. deployment/
+          cp -a preparation/preview/november deployment/preview/
+          diff -qr published/site deployment --exclude=preview
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: deployment
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

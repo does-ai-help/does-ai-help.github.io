@@ -1,0 +1,34 @@
+{
+  "target_release": "2026-11",
+  "status": "pending-editorial-promotion",
+  "instructions": "Merge each fields object into its existing source ID only during November release preparation. Do not append a duplicate source or change October artifacts. This file is staging data, not consumed by the October build.",
+  "records": [
+    {
+      "id": "ref-712e3405f2",
+      "checked_on": "2026-11-01",
+      "reason": "Existing identity-only reference substantively appraised; add DOI and authoritative author-copy access without creating another study record.",
+      "fields": {
+        "doi": "10.1145/3706598.3713778",
+        "date": "2025-04",
+        "year": 2025,
+        "date_basis": "Microsoft Research publication page identifies CHI 2025, April 2025. Month precision retained: first-of-month page metadata is not evidence of an exact publication day; the author PDF's January creation date is not publication date.",
+        "container_title": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+        "article_number": "1121",
+        "pages": "1-22",
+        "authors": ["Lee, Hao-Ping (Hank)", "Sarkar, Advait", "Tankelevitch, Lev", "Drosos, Ian", "Rintel, Sean", "Banks, Richard", "Wilson, Nicholas"],
+        "topics": ["cognition", "judgment", "trust", "work", "learning", "verification", "methods"],
+        "method": "cross-sectional-self-report-survey-with-mixed-effects-models-and-qualitative-analysis",
+        "publication_status": "peer-reviewed-conference-paper",
+        "summary": "Survey of 319 weekly GenAI users with 936 retained work examples associates greater task-specific AI confidence with less reported critical thinking and self-confidence with more. Describes verification, integration and stewardship as changing cognitive work.",
+        "limitations": "Self-report, selected examples and observational associations; not an objective skill test, randomized AI intervention or longitudinal measure of decline. Participants may conflate reduced effort with less critical thinking. English-speaking regular-user sample limits generalization; self-confidence need not equal expertise. Most authors are affiliated with Microsoft Research.",
+        "related_urls": ["https://doi.org/10.1145/3706598.3713778", "https://dl.acm.org/doi/full/10.1145/3706598.3713778", "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf"],
+        "document_snapshot": {"sha256": "4f241a87e3b5383ff1d08311bb55d932237937e038d8c9c2e9e5bd792355709a", "pages": 23, "bytes": 1018898, "version": "author-version", "redistributed": false},
+        "verified": true,
+        "reading_scope": "primary-publication-page-and-selected-author-pdf-methods-results-discussion-limitations",
+        "verification": {"level": "content-checked", "checked_on": "2026-11-01", "source_url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers", "method": "institutional-publication-page-plus-author-pdf-reading", "basis": "ACM full-text endpoint returned 403. Institutional page verified title, seven authors, DOI, proceedings and published citation. Public author PDF inspected for abstract, recruitment, repeated-measures models, selected findings, discussion and limitations; complete references and appendices not appraised. Author PDF has 23 pages; institutional published citation specifies 1-22. No local Chrome check performed or claimed."},
+        "editorial_priority": "core-context",
+        "last_substantive_review": "2026-11-01"
+      }
+    }
+  ]
+}
