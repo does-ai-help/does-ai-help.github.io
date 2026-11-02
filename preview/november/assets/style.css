@@ -19,3 +19,4 @@ header nav{flex-wrap:wrap}
 .github-icon{display:block;width:18px;height:18px;flex:none;background:currentColor;mask:url("github.svg") center/contain no-repeat;-webkit-mask:url("github.svg") center/contain no-repeat}
 
 .draft-notice{max-width:1200px;margin:16px auto;padding:14px 20px;border-left:3px solid #b43539;background:#f7f8f9;font-size:14px;line-height:1.6}.draft-notice a{text-decoration:underline}
+header nav{flex-wrap:wrap}.update-summary{padding-top:38px}.update-summary h1{font-size:36px;line-height:1.2}.update-summary h2{margin:36px 0 16px}.update-summary table{font-size:14px;line-height:1.55}.update-summary .summary-download{font-family:Arial,Helvetica,sans-serif;font-size:14px;margin-top:32px}.update-summary .community-note{font-family:Arial,Helvetica,sans-serif}

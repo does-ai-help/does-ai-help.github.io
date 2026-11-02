@@ -1,0 +1,29 @@
+.reference-preview { display: none; }
+@media (hover: hover) and (pointer: fine) and (min-width: 721px) {
+  .reference-preview:not([hidden]) {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    width: min(450px, calc(100vw - 32px));
+    max-height: min(520px, calc(100dvh - 32px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 18px 20px;
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--accent);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+    box-shadow: 0 8px 28px #0000001f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .reference-preview h2 { font-size: 16px; line-height: 1.4; margin: 8px 0; }
+  .reference-preview p { margin: 10px 0 0; }
+  .reference-preview .reference-preview-meta { margin: 0; color: var(--muted); font-size: 12px; }
+  .reference-preview .reference-preview-method { color: var(--accent); font-size: 12px; }
+  .reference-preview .reference-preview-scope { border-top: 1px solid var(--line); padding-top: 10px; color: var(--muted); font-size: 12px; }
+}

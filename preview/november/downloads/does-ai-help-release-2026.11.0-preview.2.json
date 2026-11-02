@@ -33,6 +33,7 @@
   "canonical_url": "https://does-ai-help.github.io/preview/november/",
   "github_url": "https://github.com/does-ai-help/does-ai-help.github.io",
   "doi": null,
+  "reference_previews": true,
   "counts": {
     "total": 327,
     "verified": 311,

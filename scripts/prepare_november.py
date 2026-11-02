@@ -101,6 +101,10 @@ def main():
     (work / 'data/sources.json').write_text(json.dumps(records, ensure_ascii=False, indent=2) + '\n')
     (work / 'data/release.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n')
     (work / 'manuscript/article.md').write_text(article)
+    summary = ROOT / 'november/UPDATE-SUMMARY.md'
+    summary_html_source = summary.read_text().replace('../manuscript/', 'downloads/appraisals/')
+    summary_html_source = re.sub(r'\]\((search-[^()]+\.json)\)', r'](downloads/\1)', summary_html_source)
+    (work / 'manuscript/update-summary.md').write_text(summary_html_source)
     (work / 'CHANGELOG.md').write_text('# November Draft Preview\n\nVersion ' + meta['version'] +
                                       '. Provisional cutoff: ' + meta['cutoff'] +
                                       '. Final editorial and release verification checks pending.\n\n' +
@@ -133,7 +137,7 @@ def main():
         page.write_text(text)
     with (work / 'site/assets/style.css').open('a') as stream:
         stream.write('\n.draft-notice{max-width:1200px;margin:16px auto;padding:14px 20px;border-left:3px solid #b43539;background:#f7f8f9;font-size:14px;line-height:1.6}.draft-notice a{text-decoration:underline}\n')
-    summary = ROOT / 'november/UPDATE-SUMMARY.md'
+        stream.write('header nav{flex-wrap:wrap}.update-summary{padding-top:38px}.update-summary h1{font-size:36px;line-height:1.2}.update-summary h2{margin:36px 0 16px}.update-summary table{font-size:14px;line-height:1.55}.update-summary .summary-download{font-family:Arial,Helvetica,sans-serif;font-size:14px;margin-top:32px}.update-summary .community-note{font-family:Arial,Helvetica,sans-serif}\n')
     (work / 'site/downloads/november-update-summary.md').write_text(summary.read_text().replace('../manuscript/', 'appraisals/'))
     for log in (ROOT / 'november').glob('search-*.json'):
         shutil.copyfile(log, work / 'site/downloads' / log.name)

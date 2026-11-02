@@ -10,6 +10,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
 const write = (p, text) => { fs.mkdirSync(path.dirname(path.join(root, p)), {recursive:true}); fs.writeFileSync(path.join(root, p), text); };
 const meta = JSON.parse(read('data/release.json'));
+const referencePreviews = Boolean(meta.reference_previews);
+const hasUpdates = fs.existsSync(path.join(root, 'manuscript/update-summary.md'));
 const humanAffiliation = meta.authors.find(author=>author.name==='Witold Bołt').institution;
 const downloadStems={...JSON.parse(read('data/download-names.json')),[`does-ai-help-${meta.release}.pdf`]:'does-ai-help'};
 const downloadNames=Object.fromEntries(Object.entries(downloadStems).map(([name,stem])=>[name,`${stem}-${meta.version}${name.slice(name.indexOf('.'))}`]));
@@ -36,7 +38,7 @@ for (const id of citations) {
 const numbers = new Map(citations.map((id, i) => [id, i+1]));
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const slug = text => text.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').replace(/\s+/g, '-');
-const citedHtml = text => text.replace(/\[@([^\]]+)\]/g, (_, group) => '<span class="citations">[' + group.split(';').map(k => k.trim().replace(/^@/,'')).map(id => `<a href="#ref-${id}" aria-label="Reference ${numbers.get(id)}" title="${esc(byId.get(id).title)}">${numbers.get(id)}</a>`).join(', ') + ']</span>');
+const citedHtml = text => text.replace(/\[@([^\]]+)\]/g, (_, group) => '<span class="citations">[' + group.split(';').map(k => k.trim().replace(/^@/,'')).map(id => `<a href="#ref-${id}"${referencePreviews?` data-reference-id="${esc(id)}"`:''} aria-label="Reference ${numbers.get(id)}" title="${esc(byId.get(id).title)}">${numbers.get(id)}</a>`).join(', ') + ']</span>');
 const headingRenderer = {
   heading({tokens, depth, text}) { return `<h${depth} id="${slug(text)}">${this.parser.parseInline(tokens)}</h${depth}>\n`; },
   image({href,text}) { return `<a class="diagram-link" href="${esc(href)}" target="_blank" rel="noopener" title="View full-resolution figure"><img src="${esc(href)}" alt="${esc(text)}"></a>`; }
@@ -56,7 +58,7 @@ const verified = sources.filter(r=>r.verified);
 const core = sources.filter(r=>r.editorial_priority==='core');
 const star = meta.github_url ? `<a class="github-star" href="${esc(meta.github_url)}" target="_blank" rel="noopener" data-repository="${esc(new URL(meta.github_url).pathname.slice(1))}" aria-label="Star Does AI Help? on GitHub" title="View the repository and give it a star on GitHub"><span aria-hidden="true">☆</span> Star <span class="github-star-count" hidden></span></a>` : '';
 const githubLink = meta.github_url ? `<a class="github-repository" href="${esc(meta.github_url)}" target="_blank" rel="noopener" title="Browse the source, suggest changes, or fork the repository"><span class="github-icon" aria-hidden="true"></span>Fork me on GitHub</a>` : '';
-const nav = `<a class="wordmark" href="/">${esc(meta.title)}</a><nav aria-label="Main navigation"><a href="/">Review</a><a href="bibliography.html">Evidence map</a><a href="releases.html">Releases</a><a href="downloads/${pdfName}" class="pdf-link">Download PDF <span aria-hidden="true">↗</span></a></nav>`;
+const nav = `<a class="wordmark" href="/">${esc(meta.title)}</a><nav aria-label="Main navigation"><a href="/">Review</a><a href="bibliography.html">Evidence map</a>${hasUpdates?'<a href="updates.html">What\'s new</a>':''}<a href="releases.html">Releases</a><a href="downloads/${pdfName}" class="pdf-link">Download PDF <span aria-hidden="true">↗</span></a></nav>`;
 const head = (title, description) => `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="stylesheet" href="assets/style.css"><link rel="icon" href="favicon.ico" sizes="16x16 32x32"><link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32"><link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any"><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180"><meta name="theme-color" content="#166f59"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}">${meta.canonical_url?`<link rel="canonical" href="${esc(meta.canonical_url)}">`:''}`;
 const footer = `<footer><span>GPT 6.1 · Witold Bołt</span><span>${esc(releaseLabel)} · CC BY 4.0</span><a href="cite.html">Cite this release</a><a href="releases.html">Methods &amp; maintenance</a></footer>`;
 const contributionLinks = meta.github_url
@@ -64,8 +66,7 @@ const contributionLinks = meta.github_url
   : '<a href="downloads/CONTRIBUTING.md">Contribution guide</a> · Public repository address pending';
 const downloads = `<div class="downloads" id="downloads"><a href="downloads/${pdfName}">Article PDF</a><a href="downloads/bibliography.csl.json" download>CSL-JSON</a><a href="downloads/bibliography.bib" download>BibTeX</a><a href="downloads/bibliography.ris" download>RIS</a><a href="downloads/sources.csv" download>CSV</a><a href="downloads/sources.json" download>Evidence JSON</a><a href="downloads/${zipName}" download>Release ZIP</a></div>`;
 const counts = `<div class="release-counts"><span><strong>${verified.length}</strong> checked reference identities</span><span><strong>${core.length}</strong> annotated sources</span><span><strong>${citations.length}</strong> cited in the article</span></div>`;
-const page = (title, body, scripts='') => {
-  const longPage=Boolean(scripts);
+const page = (title, body, scripts='', longPage=Boolean(scripts)) => {
   const pageFooter=longPage?footer.replace('</footer>','<a class="back-to-top-link" href="#page-top">Back to top</a></footer>'):footer;
   const topControl=longPage?'<a class="back-to-top" href="#page-top" aria-label="Back to top" title="Back to top" hidden><span aria-hidden="true">↑</span></a><script src="assets/back-to-top.js" defer></script>':'';
   return `<!doctype html><html lang="en"><head>${head(title,meta.subtitle)}</head><body><a href="#main" class="skip-link">Skip to content</a><header id="page-top" tabindex="-1">${nav.replace('</nav>',githubLink+star+'</nav>')}</header>${body}${pageFooter}${scripts}${topControl}<script src="assets/github-star.js" defer></script></body></html>`;
@@ -93,6 +94,10 @@ write('site/bibliography.html', page('Evidence map | Does AI Help?', `<main id="
 write('site/releases.html', page('Releases and methods | Does AI Help?', `<main id="main" class="release-page"><p class="eyebrow">Versioned publication</p><h1>Releases &amp; methods</h1><section><h2>October 2026</h2><p>Version ${esc(meta.version)}. Evidence cutoff: 13 October 2026.</p>${counts}${downloads}<p>Initial English synthesis and searchable evidence map. Corrections include updated authorship and sample scope for Writing Code vs. Shipping Code, the current title of the retail field-experiment paper, and removal of an unrelated inherited catalog link.</p><p><a href="downloads/CHANGELOG.md">Release changelog</a> · <a href="downloads/methodology.md">Methodology</a> · <a href="downloads/exclusions.json">Exclusions</a> · <a href="downloads/checksums.sha256">Checksums</a></p></section><section><h2>Verification levels</h2><dl><dt>Content checked</dt><dd>Inspected source scope is recorded, ranging from an abstract to a full technical report. This is appraisal, not independent replication.</dd><dt>Identity checked</dt><dd>Primary metadata establishes the bibliographic identity. Result-level appraisal remains pending.</dd><dt>Candidate</dt><dd>Retained for follow-up after incomplete access or identification. Excluded from checked-citation exports.</dd></dl></section><section><h2>Monthly update policy</h2><p>Each release preserves its manuscript, database, PDF, exports, cutoff, changelog, and checksums. Link monitoring is automated; substantive inclusion and conclusions require editorial review. New versions will be added to this release history.</p><p><a href="downloads/MAINTENANCE.md">Maintenance procedure</a> · <a href="downloads/source-schema.json">Database schema</a></p></section><section><h2>Contributions</h2>${meta.authors.map(a=>`<p><strong>${esc(a.name)} · ${esc(a.role)}</strong><br>${esc(a.contribution)}</p>`).join('')}<p>AI-authored initial release; not a peer-reviewed publication. Source publications retain their rights. Article text and original annotations are licensed under CC BY 4.0.</p></section></main>`));
 
 const texEscape = text => String(text).replace(/[\\{}%&#_$^~]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','$':'\\$','^':'\\textasciicircum{}','~':'\\textasciitilde{}'}[c]));
+if(hasUpdates) {
+  const summary=marked.parse(read('manuscript/update-summary.md'));
+  write('site/updates.html',page('November update summary | Does AI Help?',`<main id="main" class="release-page manuscript update-summary"><p class="eyebrow">${esc(releaseLabel)} · What’s new</p>${summary}<p class="summary-download"><a href="downloads/november-update-summary.md" download>Download Markdown source</a></p></main>`,'',true));
+}
 function texText(text) {
   return text.split(/(\[@[^\]]+\])/g).map(part=>{
     const match = part.match(/^\[@([^\]]+)\]$/);
@@ -104,7 +109,7 @@ function inline(tokens) {
   return (tokens||[]).map(t=>{
     if(t.type==='strong') return `\\textbf{${inline(t.tokens)}}`;
     if(t.type==='em') return `\\emph{${inline(t.tokens)}}`;
-    if(t.type==='link') { const target=downloadHref(t.href); const href=target.startsWith('downloads/') && meta.canonical_url ? new URL(target,meta.canonical_url).href : target.replace(/^downloads\//,''); return t.text===t.href && /^https?:\/\//.test(href) ? `\\url{${texEscape(href)}}` : `\\href{${texEscape(href)}}{${inline(t.tokens)}}`; }
+    if(t.type==='link') { const target=downloadHref(t.href); const href=!/^[a-z][a-z0-9+.-]*:/i.test(target) && !target.startsWith('#') && meta.canonical_url ? new URL(target,meta.canonical_url).href : target; return t.text===t.href && /^https?:\/\//.test(href) ? `\\url{${texEscape(href)}}` : `\\href{${texEscape(href)}}{${inline(t.tokens)}}`; }
     if(t.type==='codespan') return `\\texttt{${texEscape(t.text)}}`;
     if(t.type==='br') return '\\newline ';
     if(t.type==='image') return `\n\\begin{figure}[htbp]\\centering\\includegraphics[width=\\textwidth]{../site/${texEscape(t.href)}}\\end{figure}\n`;
@@ -161,7 +166,7 @@ for (const extension of ['json','csv','md']) {
 write('site/.nojekyll','');
 write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citations:JSON.parse(read('site/downloads/bibliography.csl.json')),releaseVersion:meta.version,filteredCslName})+';\n');
 write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>',`<script src="assets/data.js?v=${esc(meta.version)}" defer></script><script src="assets/bibliography.js?v=${esc(meta.version)}" defer></script>`));
-for(const filename of ['index.html','bibliography.html','releases.html','cite.html']) {
+for(const filename of ['index.html','bibliography.html','releases.html','cite.html',...(hasUpdates?['updates.html']:[])]) {
   let source=read('site/'+filename);
   if(filename==='bibliography.html') for(const r of sources) {
     const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;
@@ -198,7 +203,18 @@ for(const filename of ['index.html','bibliography.html','releases.html','cite.ht
     .replace('October 2026 · Reference database',`${esc(releaseLabel)} · Reference database`)
     .replace('<h2>October 2026</h2>',`<h2>${esc(releaseLabel)}</h2>`)
     .replace(' | October 2026</title>',` | ${esc(releaseLabel)}</title>`);
-  write('site/'+filename,publicDownloads(updated));
+  let enhanced=updated;
+  if(filename==='index.html' && referencePreviews) {
+    const templates=citations.map(id=>{
+      const r=byId.get(id);
+      const scope=(r.reading_scope || r.verification.basis || 'Inspection scope not specified').replaceAll('-',' ');
+      return `<template data-reference-id="${esc(id)}"><p class="reference-preview-meta">${esc(authorLabel(r))} · ${esc(r.year || 'n.d.')}${r.container_title?' · '+esc(r.container_title):''}</p><h2>${esc(r.title)}</h2><p class="reference-preview-method">${esc(r.publication_status.replaceAll('-',' '))} · ${esc(r.method.replaceAll('-',' '))}</p><p class="reference-preview-summary">${esc(r.summary)}</p><p><strong>Limitations</strong><br>${esc(r.limitations)}</p><p class="reference-preview-scope"><strong>Source inspection</strong><br>${esc(scope)} · ${esc(r.verification.checked_on || 'date not established')}</p></template>`;
+    }).join('');
+    enhanced=enhanced.replace('</head>','<link rel="stylesheet" href="assets/reference-preview.css"></head>')
+      .replace('</body>',`<template id="reference-preview-templates">${templates}</template><script src="assets/reference-preview.js" defer></script></body>`);
+    for(const extension of ['js','css']) write(`site/assets/reference-preview.${extension}`,read(`scripts/web/reference-preview.${extension}`));
+  }
+  write('site/'+filename,publicDownloads(enhanced));
 }
 write('site/downloads/download-files.json',JSON.stringify({version:meta.version,files:downloadNames,filtered_csl:filteredCslName},null,2)+'\n');
 for(const [original,versioned] of Object.entries(downloadNames)) {

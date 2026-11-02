@@ -5,6 +5,7 @@
   "release_date": "2026-11-01",
   "cutoff": "2026-11-01",
   "release_status": "draft-preview",
+  "reference_previews": true,
   "canonical_url": "https://does-ai-help.github.io/preview/november/",
   "preview_path": "/preview/november/",
   "baseline_commit": "0a8feb7",

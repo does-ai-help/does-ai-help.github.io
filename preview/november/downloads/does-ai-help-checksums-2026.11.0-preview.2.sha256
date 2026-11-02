@@ -25,7 +25,7 @@ c94f91ef1edb9d235b6e691a773a12a23e63ef7e5010ea54964939a3c3c3ea35  appraisals/nov
 382744e0ac3d6983bbea3a0e3642e596e57869383a754881410e762422440c3e  appraisals/november-roi-quantum-creativity-and-public-work.md
 705fe61f229a79234189d3a81d0bb2db6f34edfd0959160b8e496cce51058a14  appraisals/november-security-discovery-and-remediation.md
 bf66cd94b3c673df9ffa313cff988ed981f59b98593717e3a47ff46ede5a906f  appraisals/november-strogatz-mathematical-practice.md
-860ec04b678493771c60d392a6bb03d8f0df8dcbfaf743650afafc10652521b2  article.md
+4c810c2cabdacca52f90d6a9d0e8a1767c5ce052dfeb0d00c2483f1767728893  article.md
 d9706177bd99bb515be8211203e628c86fea501e683ffa3f4eef854c3717a114  balance-review.md
 453627fecbcfafe1cc9c0ab412af08d7e43c3c3989566efd76c659955e0ff461  bibliography-core.csl.json
 3d4b28e94dcae11f8a10e7697e95b56fadee7eb832adac7a396c95ddb6fb6c60  bibliography.bib
@@ -34,9 +34,9 @@ d9706177bd99bb515be8211203e628c86fea501e683ffa3f4eef854c3717a114  balance-review
 c4d9a1e40d8f632d886a18e771032e2d83b888c9d28ac81b505b85b14bcb4163  browser-review-policy.json
 b6f05a1e6f8a3334569071a114ac22ce81bda034c618eb6b94c7f5dafd14c25a  browser-verification.json
 5c88ba691532a013e32a01f0161d50c3bf9c6feb6ae1b65302dbda951a2f1bb6  document-followup.md
-9c8213f0a91631b0eb237d52311d219846b7d15010f5103cb2a8ebb7d232a03a  does-ai-help-2026-11.pdf
-9c8213f0a91631b0eb237d52311d219846b7d15010f5103cb2a8ebb7d232a03a  does-ai-help-2026.11.0-preview.2.pdf
-860ec04b678493771c60d392a6bb03d8f0df8dcbfaf743650afafc10652521b2  does-ai-help-article-2026.11.0-preview.2.md
+b00ffbda0da95bf3dc0cd69a6e4361ea2f4c3a52d782e532e04bd654c4cd277e  does-ai-help-2026-11.pdf
+b00ffbda0da95bf3dc0cd69a6e4361ea2f4c3a52d782e532e04bd654c4cd277e  does-ai-help-2026.11.0-preview.2.pdf
+4c810c2cabdacca52f90d6a9d0e8a1767c5ce052dfeb0d00c2483f1767728893  does-ai-help-article-2026.11.0-preview.2.md
 d9706177bd99bb515be8211203e628c86fea501e683ffa3f4eef854c3717a114  does-ai-help-balance-review-2026.11.0-preview.2.md
 c4d9a1e40d8f632d886a18e771032e2d83b888c9d28ac81b505b85b14bcb4163  does-ai-help-browser-review-policy-2026.11.0-preview.2.json
 b6f05a1e6f8a3334569071a114ac22ce81bda034c618eb6b94c7f5dafd14c25a  does-ai-help-browser-verification-2026.11.0-preview.2.json
@@ -68,8 +68,8 @@ b2abee70a32ef7f9ee15b6e6ff785cae50d4e0c7e1779fe95bc6d44a2152a70d  does-ai-help-e
 6112ba5bd54124faf588ffe2f1e2bb5be217081a6cd5a0d6a4a890124d4c265b  does-ai-help-reference-verification-2026.11.0-preview.2.json
 b468d4560875739659d7037ba4d42d019470416aa335ff477d4c10a0483f860d  does-ai-help-reference-verification-2026.11.0-preview.2.md
 5f23deb2a5fc8155c3a9e44417f771fe8a4670fce8e2e12944955cd301f489c3  does-ai-help-related-reviews-2026.11.0-preview.2.md
-a7a029492debcc0adc92a3b34805ead123c77dfa81b903e1482ad285c35a0b60  does-ai-help-release-2026.11.0-preview.2.json
-ae05fcb62cdbf8e73b1e3d24178438a79b27fa22da59c57c45f5d21e7e3dfe37  does-ai-help-release-2026.11.0-preview.2.zip
+63fc844f7d45f537b1c6bcedb98669fe6a1392bc871c32d4b1b7d31c88b9c88a  does-ai-help-release-2026.11.0-preview.2.json
+e9f25e8ab43264ed1e4ce709ce95569c26c0d36a30628121bbf413564fa5c471  does-ai-help-release-2026.11.0-preview.2.zip
 a6eddf11a70f731e4f56a3301e0b66e5e6fef88d6045232dbe9a6dec425f4bd8  does-ai-help-swebench-recommended-2026.11.0-preview.2.bib
 3d4b28e94dcae11f8a10e7697e95b56fadee7eb832adac7a396c95ddb6fb6c60  does-ai-work-2026.11.0-preview.2.bib
 490da09768e9e18a6228f3cc37f0f900ae5da537d10f41d1d486458adba612e9  does-ai-work-2026.11.0-preview.2.csl.json
@@ -85,7 +85,7 @@ b2abee70a32ef7f9ee15b6e6ff785cae50d4e0c7e1779fe95bc6d44a2152a70d  exclusions.jso
 26c87bf20637988390e5c6ec128f73b0f24eed5fe1c2c19ad3e5a0c4c4a86931  november-update-summary.md
 6bd9ab5d558ab9fd3f757ba1f0274b10689e3135ce8bf7e3e838990fbd268c9a  october-final-review.md
 5f23deb2a5fc8155c3a9e44417f771fe8a4670fce8e2e12944955cd301f489c3  related-reviews.md
-a7a029492debcc0adc92a3b34805ead123c77dfa81b903e1482ad285c35a0b60  release.json
+63fc844f7d45f537b1c6bcedb98669fe6a1392bc871c32d4b1b7d31c88b9c88a  release.json
 a8d9e479a6ae3fcdf68683eadfd2b5dc294e9b4f8e36cd46976d3b2c69548bbd  search-2026-10-28.json
 c34bdc8dc0273b7340f7b984d3bf800f8bf238ae5476755e2ba336d3dba34c11  search-2026-11-01.json
 78160ef459d82c50a867474b10f337d2f77a67a9c79476e77d808aeb84682bf9  source-schema.json

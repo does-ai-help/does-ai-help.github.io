@@ -33,7 +33,7 @@ try {
   await page.route('https://api.github.com/repos/does-ai-help/does-ai-help.github.io',route=>route.fulfill({json:{stargazers_count:42}}));
   for(const width of [1440,768,390]){
     await page.setViewportSize({width,height:1000});
-    for(const route of ['', 'bibliography.html','cite.html','releases.html']){
+    for(const route of ['', 'bibliography.html','cite.html','releases.html','updates.html']){
       await page.goto(origin+prefix+route);
       assert.equal(await page.locator('.draft-notice').isVisible(),true);
       assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'),'noindex,follow');
@@ -43,6 +43,51 @@ try {
       await page.screenshot({path:path.join(output,`${route.replace('.html','')||'article'}-${width}.png`)});
     }
   }
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto(origin+prefix);
+  const citation=page.locator('.citations a').first();
+  const referenceId=await citation.getAttribute('data-reference-id');
+  const source=records.find(record=>record.id===referenceId);
+  await citation.hover();
+  const tooltip=page.getByRole('tooltip');
+  await tooltip.waitFor({state:'visible'});
+  assert.equal(await tooltip.locator('h2').innerText(),source.title);
+  assert.equal(await tooltip.locator('.reference-preview-summary').innerText(),source.summary);
+  assert.ok((await tooltip.innerText()).includes(source.limitations));
+  assert.ok((await tooltip.locator('.reference-preview-meta').innerText()).includes(String(source.year)));
+  assert.equal(await citation.getAttribute('title'),null);
+  assert.equal(await citation.getAttribute('aria-describedby'),'reference-preview');
+  const tipBox=await tooltip.boundingBox();
+  assert.ok(tipBox.x>=0 && tipBox.y>=0 && tipBox.x+tipBox.width<=1440 && tipBox.y+tipBox.height<=1000);
+  await tooltip.hover();
+  assert.equal(await tooltip.isVisible(),true);
+  await page.screenshot({path:path.join(output,'reference-preview-desktop.png')});
+  await page.keyboard.press('Escape');
+  assert.equal(await tooltip.isVisible(),false);
+  assert.equal(await citation.getAttribute('aria-describedby'),null);
+  await citation.focus();
+  await tooltip.waitFor({state:'visible'});
+  await page.keyboard.press('Escape');
+  assert.equal(await tooltip.isVisible(),false);
+  const touchContext=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+  const touchPage=await touchContext.newPage();
+  await touchPage.goto(origin+prefix);
+  const touchCitation=touchPage.locator('.citations a').first();
+  const hash=await touchCitation.getAttribute('href');
+  assert.ok(await touchCitation.getAttribute('title'));
+  await touchCitation.tap();
+  assert.equal(new URL(touchPage.url()).hash,hash);
+  assert.equal(await touchPage.locator('#reference-preview').isVisible(),false);
+  await touchContext.close();
+  await page.goto(origin+prefix);
+  await page.getByRole('link',{name:'November update summary',exact:true}).click();
+  assert.equal(page.url(),origin+prefix+'updates.html');
+  assert.equal(await page.locator('h1').innerText(),'November 2026 Preview: Evidence Update');
+  assert.equal(await page.locator('main table thead th').count(),3);
+  assert.equal(await page.locator('main table tbody tr').count(),6);
+  assert.equal(await page.getByRole('link',{name:'Download Markdown source'}).getAttribute('href'),'downloads/november-update-summary.md');
+  assert.equal(await page.getByRole('link',{name:"What's new",exact:true}).getAttribute('href'),'updates.html');
+  assert.equal(await page.locator('.back-to-top-link').count(),1);
   await page.goto(origin+prefix+'bibliography.html');
   await page.waitForFunction(()=>Boolean(window.REVIEW_DATA));
   assert.equal(await page.locator('.source-row').count(),records.length);
@@ -70,8 +115,15 @@ try {
   assert.equal(page.url(),origin+'/');
   assert.ok((await page.locator('.release-detail').innerText()).includes('2026.10.15'));
   assert.deepEqual(errors,[]);
-  fs.writeFileSync(path.join(output,'report.json'),JSON.stringify({result:'passed',records:records.length,viewports:[1440,768,390],checks:['draft labels','navigation','no horizontal overflow','filters','existing-source DOI','downloads','October return link','no page errors']},null,2)+'\n');
+  fs.writeFileSync(path.join(output,'report.json'),JSON.stringify({result:'passed',records:records.length,viewports:[1440,768,390],checks:['draft labels','navigation','rendered update summary','desktop citation context','hover persistence','keyboard focus and Escape','tooltip screen bounds','unchanged touch reference navigation','no horizontal overflow','filters','existing-source DOI','downloads','October return link','no page errors']},null,2)+'\n');
   console.log('November preview browser checks passed; screenshots in build/november-qa.');
+} catch (error) {
+  const page=browser?.contexts()[0]?.pages()[0];
+  if(page) {
+    await page.screenshot({path:path.join(output,'failure.png')});
+    console.error(await page.evaluate(()=>({desktop:matchMedia('(hover: hover) and (pointer: fine) and (min-width: 721px)').matches,tooltip:document.getElementById('reference-preview')?.outerHTML,active:document.activeElement?.outerHTML})));
+  }
+  throw error;
 } finally {
   if(browser) await browser.close();
   await new Promise(resolve=>server.close(resolve));
