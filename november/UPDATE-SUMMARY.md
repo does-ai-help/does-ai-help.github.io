@@ -1,10 +1,12 @@
 # November 2026 Preview: Evidence Update
 
-Version **2026.11.0-preview.1**, prepared **1 November 2026**. This is a public working draft, not a final monthly release. October version 2026.10.15 remains the published edition.
+Version **2026.11.0-preview.2**, prepared **1 November 2026**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
 
 ## Scale and Scope
 
-The preview combines **229 October records with 87 new records: 316 references**. It also substantively appraises one existing reference, the CHI 2025 critical-thinking survey, without counting it twice. Records include primary studies, linked reporting, expert commentary, project notices and security advisories; they are not 316 independent studies.
+The preview combines **229 October records with 98 new records: 327 references**. It also substantively appraises one existing reference, the CHI 2025 critical-thinking survey, without counting it twice. Records include primary studies, linked reporting, expert commentary, project notices and security advisories; they are not 327 independent studies.
+
+The additional [1 November citation-following search](../manuscript/november-citation-followup-2026-11-01.md) admits eleven sources and records seventeen inspected citation links. Its main additions are task-expansion field evidence, cognition reviews, scientific-agent validation and reanalysis, European adoption synthesis and the institutional financing of expertise. [Machine-readable search log](search-2026-11-01.json).
 
 The update is a targeted narrative-review extension, not an exhaustive systematic search or a pooled effect estimate. Reading scopes vary and are recorded in the evidence map. Source families link overlapping reports and related advisories.
 

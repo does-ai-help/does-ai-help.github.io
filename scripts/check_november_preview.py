@@ -54,7 +54,7 @@ def main():
     for line in (site / 'downloads/checksums.sha256').read_text().splitlines():
         digest, name = line.split('  ', 1)
         assert hashlib.sha256((site / 'downloads' / name).read_bytes()).hexdigest() == digest, name
-    pdfs = list((site / 'downloads').glob('does-ai-help-2026.11.0-preview.1.pdf'))
+    pdfs = list((site / 'downloads').glob(f'does-ai-help-{meta["version"]}.pdf'))
     assert len(pdfs) == 1 and pdfs[0].read_bytes().startswith(b'%PDF-')
     print(f'Preview integrity passed: {len(records)} records, manuscript, downloads, local links and checksums.')
 

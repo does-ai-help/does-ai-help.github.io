@@ -9955,6 +9955,584 @@
     "added_in": "2026-10"
   },
   {
+    "id": "fanmetacognition2026",
+    "title": "A metacognitive approach to learning and performance in human-AI interaction",
+    "authors": [
+      "Fan, Yizhou",
+      "Yan, Lixiang",
+      "Molenaar, Inge",
+      "Greiff, Samuel",
+      "Gašević, Dragan"
+    ],
+    "url": "https://www.nature.com/articles/s44271-026-00548-y",
+    "doi": "10.1038/s44271-026-00548-y",
+    "year": 2026,
+    "date": "2026-10-30",
+    "date_basis": "Publisher publication date; PDF identity and five authors checked separately.",
+    "container_title": "Communications Psychology",
+    "topics": [
+      "cognition",
+      "learning",
+      "judgment",
+      "trust",
+      "methods"
+    ],
+    "method": "theory-building-perspective",
+    "publication_status": "peer-reviewed-perspective",
+    "summary": "Proposes the SYNC framework separating assisted performance from durable learning and distinguishing metacognitive offloading from onloading. Discusses calibrated scaffolding rather than assuming all delegation is harmful.",
+    "limitations": "Conceptual model, explicitly not empirically validated. Measures and proposed mechanisms require testing; generalization across domains and cultures is unresolved. More scaffolding can itself undermine autonomy. Cited studies overlap existing records and are not new replications.",
+    "verified": true,
+    "reading_scope": "selected-original-pdf-framework-discussion-limitations-and-reference-sections",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "Publisher-indexed date and public original PDF inspected for title/authors, SYNC definitions, instrumental-use boundary, limitations and references 56, 57 and 92. Not every cited study independently audited.",
+      "source_url": "https://www.nature.com/articles/s44271-026-00548-y",
+      "method": "public-publisher-pdf-and-metadata-reading"
+    },
+    "document_snapshot": {
+      "sha256": "0c29f56c6248ed018c2feae855225d863987293c68726e4e90afee1703b4328e",
+      "pages": 18,
+      "redistributed": false
+    },
+    "editorial_priority": "core",
+    "related_to": [
+      "ref-712e3405f2",
+      "bastani2025",
+      "kewenigscaffolds2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-companion-review"
+  },
+  {
+    "id": "iniecritical2026",
+    "title": "A Critical Review of Critical Thinking in HCI Research About AI",
+    "authors": [
+      "Inie, Nanna",
+      "Kristensen, Anne Marie",
+      "Misfeldt, Morten",
+      "Dalsgaard, Peter"
+    ],
+    "url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2722522",
+    "doi": "10.1080/10447318.2026.2722522",
+    "year": 2026,
+    "date": "2026-09-21",
+    "date_basis": "Crossref published-online date; Aarhus institutional record independently confirms September 2026.",
+    "container_title": "International Journal of Human-Computer Interaction",
+    "topics": [
+      "cognition",
+      "learning",
+      "methods",
+      "judgment",
+      "verification"
+    ],
+    "method": "critical-scoping-review",
+    "publication_status": "peer-reviewed-review",
+    "summary": "Maps definitions, measures and claimed effects in 80 empirical HCI papers. Highlights construct validity and self-report limitations; direction-of-effect counts are not quality-weighted conclusions.",
+    "limitations": "Venue- and keyword-bounded scope, no included-study quality assessment, and extraction primarily by one author. Publisher endpoint and PDF returned 403; selected publisher-indexed sections, not a downloaded full text, were appraised. Reported effects cannot be generalized to all critical thinking or workers.",
+    "verified": true,
+    "reading_scope": "publisher-indexed-methods-results-limitations-excerpts-plus-institutional-and-crossref-metadata",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "Primary publisher-indexed inclusion criteria, measurement discussion and limitations inspected. Aarhus/Copenhagen institutional pages and Crossref confirm identity, four authors and date; registered references include the Lee survey DOI. Direct full-text/PDF access failed; no full-paper or Chrome inspection claimed.",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2722522",
+      "method": "publisher-indexed-excerpts-plus-institutional-and-registry-check"
+    },
+    "related_urls": [
+      "https://pure.au.dk/portal/en/publications/a-critical-review-of-critical-thinking-in-hci-research-about-ai/"
+    ],
+    "editorial_priority": "core",
+    "related_to": [
+      "ref-712e3405f2",
+      "fanmetacognition2026",
+      "maier2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-companion-review"
+  },
+  {
+    "id": "rivacapital2026",
+    "title": "When AI performs, what remains? An integrative review of generative AI and cognitive capital in individuals and organizations",
+    "authors": [
+      "Riva, Giuseppe",
+      "La Rocca, Stefania",
+      "Wiederhold, Brenda K.",
+      "Gaggioli, Andrea"
+    ],
+    "url": "https://arxiv.org/abs/2610.38647",
+    "arxiv_id": "2610.38647v1",
+    "doi": "10.48550/arXiv.2610.38647",
+    "year": 2026,
+    "date": "2026-10-28",
+    "date_basis": "arXiv v1 submission history, not an aggregator's later update date.",
+    "container_title": "arXiv",
+    "topics": [
+      "cognition",
+      "learning",
+      "work",
+      "business",
+      "diversity",
+      "methods"
+    ],
+    "method": "integrative-narrative-review",
+    "publication_status": "preprint",
+    "summary": "Separates individual and organizational cognitive capital from joint human-AI performance. Synthesizes substitution of practice, scaffolding, calibration and organizational aggregation into propositions for future tests.",
+    "limitations": "Non-exhaustive narrative selection, no quantitative pooling or validated theory. Organizational mechanisms are partly inferred from individual studies; short tasks and adjacent non-generative-AI evidence limit transfer. Much underlying evidence is already in this database.",
+    "verified": true,
+    "reading_scope": "selected-original-pdf-review-methods-evidence-table-limitations-and-references",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "arXiv identity/version and original PDF review approach, Table 2, limitations and cited Lee/Shen/Bastani papers inspected. The review reports final literature search on 19 October, earlier than its submission. No claim that all references were revalidated here.",
+      "source_url": "https://arxiv.org/abs/2610.38647",
+      "method": "arxiv-metadata-and-original-pdf-reading"
+    },
+    "document_snapshot": {
+      "sha256": "b650bea2fff010fc5633d3661414f7270fae98499331e29d532c1d513d939d23",
+      "redistributed": false
+    },
+    "editorial_priority": "core",
+    "related_to": [
+      "ref-712e3405f2",
+      "shen2026",
+      "bastani2025",
+      "hao2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-companion-review"
+  },
+  {
+    "id": "broschtasks2026",
+    "title": "Task Expansion with Generative AI: Experimental Evidence on Middle-Skilled, Early-Career Workers",
+    "authors": [
+      "Brosch, Hanna",
+      "Langer, Christina",
+      "Lergetporer, Philipp",
+      "Mueller, Sandra",
+      "Pfeifer, Harald",
+      "Tschoepe, Nele"
+    ],
+    "url": "https://iza.org/publications/dp/18999/task-expansion-with-generative-ai-experimental-evidence-on-middle-skilled-early-career-workers",
+    "report_number": "IZA Discussion Paper 18999",
+    "related_urls": [
+      "https://docs.iza.org/dp18999.pdf"
+    ],
+    "year": 2026,
+    "date": "2026-10",
+    "date_basis": "Institutional record and PDF cover specify October; no exact day inferred from a secondary listing.",
+    "container_title": "IZA Discussion Paper Series",
+    "topics": [
+      "work",
+      "learning",
+      "productivity",
+      "engineering",
+      "methods"
+    ],
+    "method": "individual-randomized-field-experiment",
+    "publication_status": "working-paper",
+    "summary": "Randomly assigns AI access among 673 final-year German IT apprentices. Reports improved performance beyond the curriculum without lower immediate comprehension, testing task expansion rather than speed alone.",
+    "limitations": "Short occupational tasks and immediate multiple-choice comprehension do not establish durable learning or workplace delivery. Treatment retained internet access during instructed unaided comprehension; authors report compliance checks and exclusion sensitivity. Open answers use blinded LLM grading with teacher-validated rubrics; model-version exposure changed during collection. Working paper, not a completed workplace rollout.",
+    "verified": true,
+    "reading_scope": "original-pdf-cover-abstract-design-measures-grading-and-selected-robustness-sections",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "Institutional identity and 106-page PDF checked for sample, within-school randomization, collection October 2025-January 2026, comprehension instructions and access, grading and sensitivity disclosures. References to Shen/Tamkin and Bastani verified. Full appendix and underlying data not audited.",
+      "source_url": "https://iza.org/publications/dp/18999/task-expansion-with-generative-ai-experimental-evidence-on-middle-skilled-early-career-workers",
+      "method": "institutional-page-and-primary-pdf-methods-reading"
+    },
+    "document_snapshot": {
+      "sha256": "a6b25d00ae5f3da2d5e7cb2ab2eed57bb1051f2bff40f5b2a01b580addb38e95",
+      "pages": 106,
+      "redistributed": false
+    },
+    "editorial_priority": "core",
+    "related_to": [
+      "shen2026",
+      "bastani2025",
+      "choudhuriunlock2026",
+      "luuambitious2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core"
+  },
+  {
+    "id": "fujimuraquestions2026",
+    "title": "Letting AI Formulate the Research Question: Autonomous Research Agents",
+    "authors": [
+      "Fujimura, Ko"
+    ],
+    "url": "https://arxiv.org/abs/2610.39620",
+    "arxiv_id": "2610.39620v1",
+    "doi": "10.48550/arXiv.2610.39620",
+    "year": 2026,
+    "date": "2026-10-29",
+    "date_basis": "arXiv v1 history and main-text date, not the later digest date.",
+    "container_title": "arXiv",
+    "topics": [
+      "science",
+      "agents",
+      "ai-rd",
+      "verification",
+      "methods"
+    ],
+    "method": "small-unfiltered-autonomous-research-demonstration",
+    "publication_status": "preprint",
+    "summary": "Reports five consecutive research runs after development, with agent-selected questions, re-computation and AI review. Exposes agenda-setting and reporting choices rather than showing only selected successful papers.",
+    "limitations": "Five runs, one research model, no ablation and no independent human quality evaluation. Pilot inclusion and choice of review format were amended after results were seen. Re-running the same code is not independent validation; hosted model computation is not local laptop computation. Human instructions and development choices shape the agenda.",
+    "verified": true,
+    "reading_scope": "primary-html-methods-evaluation-deviations-limitations-and-selected-references",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "arXiv identity and HTML system, evaluation, limitations, AI-involvement statement and selected references inspected. Released code, five generated papers and recordings not independently reproduced. Workshop-level ratings are AI judgments, not actual acceptances.",
+      "source_url": "https://arxiv.org/abs/2610.39620",
+      "method": "primary-arxiv-html-and-metadata-reading"
+    },
+    "editorial_priority": "core",
+    "related_to": [
+      "aiscientist2026",
+      "coscientist2026",
+      "luopitfalls2026",
+      "innovationeval2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-context"
+  },
+  {
+    "id": "kimunknown2026",
+    "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+    "authors": [
+      "Kim, Seungone",
+      "Geng, Jiayi",
+      "Lee, Young-Jun",
+      "Liu, Bo",
+      "Suk, Juyoung",
+      "Lubbers, Nicholas",
+      "Wood, Mitchell",
+      "Noack, Marcus",
+      "Yao, Yong-Xin",
+      "Shi, Yuan",
+      "Bujack, Roxana",
+      "Garcia Cardona, Cristina",
+      "Rodriguez, Austin",
+      "Joseph, Ilon",
+      "Cho, Woojin",
+      "Wang, Zora Zhiruo",
+      "Jin, Chuanyang",
+      "Wu, Ian",
+      "Gandhi, Apurva",
+      "Li, Tianjian",
+      "Sun, Weiwei",
+      "Lawrence, Carolin",
+      "Gashteovski, Kiril",
+      "Kang, Dongyeop",
+      "Shin, Jay",
+      "Asai, Akari",
+      "Neubig, Graham",
+      "Welleck, Sean"
+    ],
+    "url": "https://arxiv.org/abs/2610.19159",
+    "arxiv_id": "2610.19159v1",
+    "doi": "10.48550/arXiv.2610.19159",
+    "year": 2026,
+    "date": "2026-10-13",
+    "date_basis": "arXiv first submission, 20:25:59 UTC; novelty to this collection does not imply November publication.",
+    "container_title": "arXiv",
+    "topics": [
+      "science",
+      "agents",
+      "ai-rd",
+      "verification",
+      "methods"
+    ],
+    "method": "expert-rubric-open-research-benchmark",
+    "publication_status": "preprint",
+    "summary": "Evaluates nine agents on 15 expert-specified follow-up problems. Reports that none of 135 submissions meets all criteria; integrity judgments are a major bottleneck.",
+    "limitations": "A challenging selected benchmark, not every form of scientific assistance. Scientist-designed rubrics are operationalized through automated judges, not independent human review of all papers. Model, harness and budget affect results. Subsequent reanalysis of these same submissions is not new replication, and judge failure does not establish deliberate fabrication.",
+    "verified": true,
+    "reading_scope": "arxiv-metadata-abstract-and-public-html-introduction-protocol-plus-official-repository-overview",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "28-author list and submission history verified. Public HTML introduction and protocol inspected alongside original repository's task/trajectory description; HTML rendering is incomplete and full paper/results appendix not claimed read. No benchmark rerun or individual integrity adjudication conducted.",
+      "source_url": "https://arxiv.org/abs/2610.19159",
+      "method": "primary-arxiv-and-author-repository-reading"
+    },
+    "related_urls": [
+      "https://github.com/prometheus-eval/into-the-unknown"
+    ],
+    "study_family": "into-the-unknown-benchmark-2026",
+    "editorial_priority": "core",
+    "related_to": [
+      "alfaqeehprovenance2026",
+      "innovationeval2026",
+      "researchgym2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core"
+  },
+  {
+    "id": "alfaqeehprovenance2026",
+    "title": "Beyond fabrication: Misattributed numbers in papers written by AI research agents",
+    "authors": [
+      "Alfaqeeh, Mosab",
+      "Hourani, Omar",
+      "Hourani, Muath",
+      "Alfaqeeh, Hashem"
+    ],
+    "url": "https://arxiv.org/abs/2610.38691",
+    "arxiv_id": "2610.38691v1",
+    "year": 2026,
+    "date": "2026-10-28",
+    "date_basis": "arXiv v1 date and primary HTML header.",
+    "container_title": "arXiv",
+    "topics": [
+      "science",
+      "agents",
+      "verification",
+      "methods",
+      "trust"
+    ],
+    "method": "benchmark-reanalysis-with-human-claim-labeling-and-provenance-checker",
+    "publication_status": "preprint",
+    "summary": "Reanalyzes released research-agent judgments and labels numerical claims, distinguishing absent evidence from real values assigned to the wrong experiment. Tests provenance checking and sensitivity to judge choice.",
+    "limitations": "One reused benchmark, small labeled samples and two in-team annotators, not an independent external panel. A provenance check does not establish scientific correctness, and failure to certify is not falsehood. Judge disagreements were not fully human-adjudicated; relative agent differences may reflect harnesses. A journal name in the manuscript does not establish acceptance.",
+    "verified": true,
+    "reading_scope": "primary-html-methods-results-limitations-ai-disclosure-and-selected-reference-sections",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "Author/date, source benchmark, 256-claim labeling scope, held-out evaluation and failure-to-verify distinction inspected. Explicit InnovationEval reference and benchmark snapshot noted. Code and labels not independently rerun; AI assistance in code, drafting and label-consistency review is disclosed.",
+      "source_url": "https://arxiv.org/abs/2610.38691",
+      "method": "primary-arxiv-html-reading"
+    },
+    "study_family": "into-the-unknown-benchmark-2026",
+    "editorial_priority": "core",
+    "related_to": [
+      "kimunknown2026",
+      "innovationeval2026",
+      "luopitfalls2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core"
+  },
+  {
+    "id": "luopitfalls2026",
+    "title": "The more you automate, the less you see: Hidden pitfalls of autonomous AI scientists",
+    "authors": [
+      "Luo, Ziming",
+      "Kasirzadeh, Atoosa",
+      "Shah, Nihar B."
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42832657/",
+    "doi": "10.1073/pnas.2610214123",
+    "pmid": "42832657",
+    "related_urls": [
+      "https://www.pnas.org/doi/10.1073/pnas.2610214123",
+      "https://arxiv.org/abs/2509.08713"
+    ],
+    "year": 2026,
+    "date": "2026-10-05",
+    "date_basis": "PubMed article date is 5 October; issue date is 13 October. Related preprint first appeared in September 2025.",
+    "container_title": "Proceedings of the National Academy of Sciences",
+    "topics": [
+      "science",
+      "agents",
+      "ai-rd",
+      "verification",
+      "methods"
+    ],
+    "method": "controlled-diagnostic-evaluation-of-scientific-agent-workflows",
+    "publication_status": "peer-reviewed-journal",
+    "summary": "Studies benchmark selection, leakage, metric misuse and post-hoc selection in two open-source scientific-agent systems. Argues that workflow logs and code expose failures that final manuscripts can conceal.",
+    "limitations": "Published abstract inspected, not the complete final journal methods. Two systems and controlled pitfalls do not estimate population-wide failure rates or current model ability. Preprint and journal versions are one study family. Kasirzadeh's Google DeepMind employment is disclosed in the journal record.",
+    "verified": true,
+    "reading_scope": "published-abstract-bibliographic-dates-and-conflicts-plus-linked-preprint-identity",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "PubMed authors, DOI/PMID, online/issue dates, abstract and competing interests checked; earlier arXiv/OpenReview identity crosschecked. PNAS endpoint returned 403. No claim to full final-paper inspection or an independent version comparison.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42832657/",
+      "method": "pubmed-primary-abstract-and-linked-preprint-identity-check"
+    },
+    "study_family": "luo-scientific-agent-pitfalls-2025-2026",
+    "editorial_priority": "core",
+    "related_to": [
+      "aiscientist2026",
+      "fujimuraquestions2026",
+      "alfaqeehprovenance2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-context"
+  },
+  {
+    "id": "fengprimer2026",
+    "title": "Agentic AI systems for scientific discovery",
+    "authors": [
+      "Feng, Bin",
+      "Walther, Peter",
+      "Zhang, Leili",
+      "Coyle, Reid A.",
+      "Kim, Seongmin",
+      "Mandal, Abhijoy",
+      "Zhang, Zijian",
+      "Papidocha, Sven M.",
+      "Kelmanson, Anna",
+      "Segura, David Ming",
+      "Thakur, Saumya",
+      "Pal, Shyam Chand",
+      "Bernales, Varinia",
+      "Gao, Wenhao",
+      "Yang, Xin",
+      "Cong, Le",
+      "Schwaller, Philippe",
+      "Aspuru-Guzik, Alán",
+      "Zheng, Zhiling"
+    ],
+    "url": "https://www.nature.com/articles/s43586-026-00534-y",
+    "doi": "10.1038/s43586-026-00534-y",
+    "year": 2026,
+    "date": "2026-10-22",
+    "date_basis": "Publisher citation_online_date and EPFL institutional issued date agree; repository deposit date is later.",
+    "container_title": "Nature Reviews Methods Primers",
+    "topics": [
+      "science",
+      "agents",
+      "ai-rd",
+      "methods",
+      "verification",
+      "security"
+    ],
+    "method": "scientific-agent-methods-primer",
+    "publication_status": "peer-reviewed-review",
+    "summary": "Organizes scientific agents through literature, simulation and experiment workflows, including evaluation, reproducible reporting and safety. Provides a companion methods map rather than a new effect estimate.",
+    "limitations": "Public abstract and publisher metadata inspected, not the complete primer. A PDF request returned publisher HTML and is not recorded as a read PDF. Review references overlap existing agent studies; prospective laboratory integration is not measured scientific benefit.",
+    "verified": true,
+    "reading_scope": "public-abstract-publisher-citation-metadata-and-selected-registered-reference-links",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "19 authors, title, DOI and date checked in publisher HTML; EPFL record crosschecked. Public abstract and citation_reference links to AI Scientist and Co-Scientist verified. Full-text methods, figures and supplement not appraised.",
+      "source_url": "https://www.nature.com/articles/s43586-026-00534-y",
+      "method": "publisher-abstract-and-structured-metadata-plus-institutional-check"
+    },
+    "editorial_priority": "supporting",
+    "related_to": [
+      "aiscientist2026",
+      "coscientist2026",
+      "miaopaper2agent2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "companion-review"
+  },
+  {
+    "id": "laneadoption2026",
+    "title": "AI adoption in Europe",
+    "authors": [
+      "Lane, Philip R."
+    ],
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+    "year": 2026,
+    "date": "2026-10-30",
+    "date_basis": "ECB keynote header specifies author, venue and 30 October 2026.",
+    "container_title": "European Central Bank",
+    "topics": [
+      "business",
+      "work",
+      "productivity",
+      "cost",
+      "methods",
+      "governance"
+    ],
+    "method": "policy-synthesis-of-surveys-and-macroeconomic-scenarios",
+    "publication_status": "institutional-keynote",
+    "summary": "Brings euro-area firm and worker surveys into the adoption debate and cites October's Firm Data on AI. Separates usage intensity, perceived time savings, investment and modeled macroeconomic effects.",
+    "limitations": "Synthesis, not a single causal productivity study. Survey populations and periods differ; perceived savings are not observed time use. The IT productivity shock and subsequent output/employment paths are model scenarios, not realized effects. Task-level time-saving figures can reflect respondents' total weekly savings rather than task-specific increments.",
+    "verified": true,
+    "reading_scope": "keynote-adoption-sections-chart-notes-scenario-description-and-selected-footnotes",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "Author/date, SAFE/CES definitions, conditional investment denominator, chart 17 time-saving note, chart 19 scenario and footnotes citing revised Firm Data on AI inspected. Linked underlying datasets and every study not reanalyzed.",
+      "source_url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "method": "public-institutional-text-and-chart-note-reading"
+    },
+    "editorial_priority": "core",
+    "related_to": [
+      "yotzovfirm2026",
+      "bicktasks2026",
+      "humlum2026",
+      "vanarkambition2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-context"
+  },
+  {
+    "id": "ranadepublic2026",
+    "title": "AI, Mathematics, Education, and a public goods problem",
+    "authors": [
+      "Ranade, Gireeja"
+    ],
+    "url": "https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/",
+    "year": 2026,
+    "date": "2026-10-29",
+    "date_basis": "Dated blog header and explicit guest-post attribution; Tao is host, not author.",
+    "container_title": "What's New (Terence Tao's blog)",
+    "topics": [
+      "mathematics",
+      "science",
+      "learning",
+      "work",
+      "governance"
+    ],
+    "method": "expert-normative-commentary",
+    "publication_status": "guest-blog-post",
+    "summary": "Frames sustaining intellectual training and participation as a public-good problem, connecting education incentives, early-career pathways and collective expertise.",
+    "limitations": "Expert argument with anecdotes and forecasts, not measured participation or employment effects. Assumptions about future mathematical capability and student motivation are not established by the essay. AI-assisted format conversion is disclosed by the host.",
+    "verified": true,
+    "reading_scope": "main-guest-essay-and-host-attribution-not-reader-comment-census",
+    "verification": {
+      "level": "content-checked",
+      "checked_on": "2026-11-01",
+      "basis": "Main essay, guest attribution, date, education/public-goods argument and closing acknowledgements inspected. Linked interviews and all reader comments not evaluated; no proof claim certified.",
+      "source_url": "https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/",
+      "method": "public-primary-guest-essay-reading"
+    },
+    "editorial_priority": "core",
+    "related_to": [
+      "calegarichanged2026",
+      "strogatzfuture2026",
+      "taomath2026",
+      "leiden2026"
+    ],
+    "added_in": "2026-11",
+    "target_release": "2026-11",
+    "staging_status": "included-in-draft-preview",
+    "intake_editorial_priority": "core-context"
+  },
+  {
     "id": "haaspostgres2026",
     "title": "Postgres 19 is late, and it's AI's fault",
     "authors": [

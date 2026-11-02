@@ -14,7 +14,7 @@ Read the publication at [does-ai-help.github.io](https://does-ai-help.github.io/
 
 ## November Working Preview
 
-The preparation branch now includes a public [November preview](https://does-ai-help.github.io/preview/november/) and [updated evidence map](https://does-ai-help.github.io/preview/november/bibliography.html). It combines 316 records, an expanded manuscript and draft PDF with versioned bibliography downloads. See the [update summary](november/UPDATE-SUMMARY.md) and [November manuscript](manuscript/article-november.md). The root URL and `main` remain October; the November preview is clearly labeled and not a final release.
+The preparation branch includes a public [November preview](https://does-ai-help.github.io/preview/november/) and [updated evidence map](https://does-ai-help.github.io/preview/november/bibliography.html). The current local draft combines 327 records, an expanded manuscript and draft PDF with versioned bibliography downloads; the live version advances on push/deployment. See the [update summary](november/UPDATE-SUMMARY.md) and [November manuscript](manuscript/article-november.md). The root URL and `main` remain October; the November preview is clearly labeled and not a final release.
 
 Build with `python3 scripts/prepare_november.py` after installing the locked dependencies and LaTeX tools. This uses isolated build inputs and does not overwrite October's `site/`, manifest, source database or manuscript. Check with `python3 scripts/check_november_preview.py` and `node scripts/november_browser_qa.mjs`. To test locally, run `python3 -m http.server 8765 --directory .` and visit `http://localhost:8765/preview/november/`.
 

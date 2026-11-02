@@ -6,7 +6,7 @@ Adverse findings are substantive results, not merely qualifications to assistanc
 
 ## November preview: what changes
 
-This draft extends the October synthesis with 87 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 1 November 2026. This is a publicly reviewable draft, not the final November release.
+This draft extends the October synthesis with 98 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 1 November 2026. This is a publicly reviewable draft, not the final November release.
 
 The additions sharpen rather than reverse the central assessment. AI can expand feasible work and uncover valuable defects, while moving constraints into review, remediation, learning and institutions. Positive output effects, adverse task-specific outcomes, null organizational results and explicit opposition remain different kinds of evidence. The updated database retains their reading scopes and methodological limits. The [November update summary](downloads/november-update-summary.md) and detailed appraisals accompany this draft.
 
@@ -172,6 +172,12 @@ Hicks, Lee and Foster-Marks add the psychological and organizational dimension. 
 
 Our interpretation is that the relevant educational aim is an accountable relationship to assisted work. Learners should be able to explain the result, recover essential reasoning, detect consequential errors, and transfer knowledge to a new task. Institutions need evidence about those abilities, especially when polished artifacts cease to be reliable evidence of independent understanding. The optimal balance between assisted practice and unaided work remains a subject for intervention research.
 
+### Task expansion and the interpretation of cognitive evidence
+
+A field experiment with German IT apprentices supplies more direct evidence of AI-enabled task expansion than practitioner reports alone. It finds benefits on tasks beyond the curriculum without lower immediate comprehension. The scope matters: comprehension uses short tests, internet access remains available under instructions not to use aids, and open answers use blinded LLM grading with teacher-validated rubrics and sensitivity checks. These results do not establish durable expertise or production delivery. [@broschtasks2026]
+
+Recent citation-linked reviews help interpret apparently conflicting findings. Fan and colleagues propose a conceptual learning/performance framework rather than an empirically validated model; Riva and colleagues develop a narrative account of cognitive capital rather than a new longitudinal dataset. Inie's scoping review emphasizes validity and measurement, not a quality-weighted pooled effect. They add explanatory structure, not independent replications of the studies they cite. [@fanmetacognition2026; @rivacapital2026; @iniecritical2026]
+
 ### Cognitive relief is not the same as retained capability
 
 Lee and colleagues' CHI 2025 survey was already listed in October; November adds substantive appraisal and its DOI, not a duplicate study. Among regular workplace users, confidence in AI and confidence in oneself have different associations with reported critical thinking. These are observational self-reports, not objective tests of longitudinal skill loss. Reduced effort can reflect effective delegation, inadequate scrutiny or different combinations across tasks. [@ref-712e3405f2]
@@ -239,6 +245,14 @@ Automated alignment research offers a positive contrast under another protocol: 
 Anthropic's internal R&D measurements add a process view, distinguishing assistance, collaboration, leadership, and autonomy. Their task basket is model-rated and their numbers require external checking. They should not be converted into a percentage increase in discovery speed. [@rdmetrics2026]
 
 Our assessment is that AI-supported AI development is already a substantive engineering reality. The evidence for reliable end-to-end innovation is less settled. The appropriate questions concern what improved, how it was tested, how far it transfers, and which parts of goal setting and evaluation remain outside the automated process.
+
+### Scientific reporting needs claim-to-experiment provenance
+
+Into the Unknown tests agents on expert-specified research follow-ups and reports no submission satisfying every criterion. Its strict operational rubrics and automated judges are part of the evaluation design, not a universal standard for all scientific assistance. A subsequent reanalysis of the same artifacts distinguishes unsupported numbers from real values assigned to the wrong experiment. Judge choice changes absolute pass rates, and automatic non-certification does not establish falsehood. These are complementary analyses of shared outputs, not separate replications. [@kimunknown2026; @alfaqeehprovenance2026]
+
+The recent journal publication of Luo and colleagues' workflow-pitfall study also makes process visibility salient; its earlier preprint is the same study family. Fujimura's small demonstration offers a constructive counterpart through consecutive agent-selected research runs and re-computation, while disclosing post-result amendments, AI-only ratings and the lack of independent human validation. Re-running code, demonstrating novelty and producing scientifically sound conclusions remain different achievements. [@luopitfalls2026; @fujimuraquestions2026]
+
+A new scientific-agent methods primer provides a broader workflow map. Only its public abstract and metadata were inspected here, so it informs orientation rather than detailed claims about effectiveness. [@fengprimer2026]
 
 ## 9. Business value, cost, and organizational change
 
@@ -315,6 +329,12 @@ A deployment can succeed without full autonomy. It can also be valuable without 
 The evidence is strongest for specific task and workflow benefits, increasingly informative about downstream engineering constraints, and still heterogeneous on learning and labor effects. Scientific benefits range from well-established specialized predictions to emerging agent workflows with very different degrees of validation. The largest opportunity may include work previously regarded as too complex or expensive to pursue, but its value must still be established through credible results and relevant outcomes.
 
 Our answer to "Does AI Help?" is therefore **yes in demonstrated settings, no in some tested settings, and unresolved in many others**. AI already helps people produce, search, calculate and explore; it has also measurably slowed expert work, weakened some learning or comprehension outcomes, and imposed costs on reviewers and institutions. Gains and losses can coexist in the same intervention. This collection does not establish whether positive or negative net effects predominate across intellectual work: the outcomes and populations are too different, and selection is not exhaustive. The next research priority is measuring those relationships over time, rather than extrapolating one task's percentage to an entire institution.
+
+### Adoption and expertise have institutional denominators
+
+Lane's October ECB keynote, citing the revised Firm Data on AI, brings European firm and worker surveys into this discussion. Its usage intensity, perceived savings and investment measures concern different populations and periods; macroeconomic scenarios are not realized effects. In particular, respondents' total weekly savings should not be added across tasks as if they were independent increments. [@laneadoption2026]
+
+Ranade's guest essay on Tao's blog identifies intellectual training and participation as a public-good concern. This is an institutional argument, not an employment estimate. The question of who finances the development of future expertise remains important even without accepting categorical claims that AI augmentation cannot support human understanding. That latter question requires empirical assessment of particular learning designs. [@ranadepublic2026]
 
 ### What the November additions do and do not establish
 

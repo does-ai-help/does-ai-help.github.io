@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.0-preview.1",
-  "snapshot": "2026.11.0-preview.1",
-  "archive_name": "does-ai-help-release-2026.11.0-preview.1.zip",
+  "version": "2026.11.0-preview.2",
+  "snapshot": "2026.11.0-preview.2",
+  "archive_name": "does-ai-help-release-2026.11.0-preview.2.zip",
   "release_status": "draft-preview",
   "release": "2026-11",
   "release_label": "November 2026 draft preview",
@@ -34,9 +34,9 @@
   "github_url": "https://github.com/does-ai-help/does-ai-help.github.io",
   "doi": null,
   "counts": {
-    "total": 316,
-    "verified": 300,
-    "core": 190,
-    "cited": 181
+    "total": 327,
+    "verified": 311,
+    "core": 200,
+    "cited": 192
   }
 }

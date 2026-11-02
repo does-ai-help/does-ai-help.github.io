@@ -53,7 +53,8 @@ def assemble():
         anchor = addition['before']
         if article.count(anchor) != 1:
             raise ValueError('Manuscript anchor changed: ' + anchor)
-        article = article.replace(anchor, addition['text'] + '\n\n' + anchor)
+        text = addition['text'].replace('{{new_source_count}}', str(len(load('data/november-sources.json'))))
+        article = article.replace(anchor, text + '\n\n' + anchor)
     for match in re.findall(r'\[@([^\]]+)\]', article):
         for key in match.split(';'):
             source = by_id.get(key.strip().lstrip('@'))
@@ -133,7 +134,9 @@ def main():
     with (work / 'site/assets/style.css').open('a') as stream:
         stream.write('\n.draft-notice{max-width:1200px;margin:16px auto;padding:14px 20px;border-left:3px solid #b43539;background:#f7f8f9;font-size:14px;line-height:1.6}.draft-notice a{text-decoration:underline}\n')
     summary = ROOT / 'november/UPDATE-SUMMARY.md'
-    shutil.copyfile(summary, work / 'site/downloads/november-update-summary.md')
+    (work / 'site/downloads/november-update-summary.md').write_text(summary.read_text().replace('../manuscript/', 'appraisals/'))
+    for log in (ROOT / 'november').glob('search-*.json'):
+        shutil.copyfile(log, work / 'site/downloads' / log.name)
     shutil.copyfile(ROOT / 'november/browser-observations.json', work / 'site/downloads/november-browser-observations.json')
     appraisal_dir = work / 'site/downloads/appraisals'
     appraisal_dir.mkdir()

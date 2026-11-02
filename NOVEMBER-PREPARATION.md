@@ -3,7 +3,7 @@
 Status: **public draft preview; final release pending**. Branch: `codex/november-2026-preparation`.
 Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026. The affiliation-only patch `2026.10.15` is incorporated without reopening October's scientific content.
 
-The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`, version `2026.11.0-preview.1`, with provisional cutoff 1 November 2026. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.2`, with provisional cutoff 1 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
 
 See the [summary of all additions](november/UPDATE-SUMMARY.md), [preview maintenance guide](november/PREVIEW.md), and [updated manuscript](manuscript/article-november.md). Historical intake entries below describe the state at each addition; they are not a claim that the current draft remains private.
 
@@ -127,6 +127,12 @@ See the [summary of all additions](november/UPDATE-SUMMARY.md), [preview mainten
 - The supplied ACM DOI matches existing source `ref-712e3405f2`. [New substantive appraisal](manuscript/november-critical-thinking-survey.md) and `november/source-updates.json` stage its method, DOI, metadata and limitations for November promotion. New-source count remains **87**.
 - ACM returned 403; institutional publication page and selected author-PDF sections provided verification. This is an alternative public institutional access route, not a local Chrome receipt. No duplicate source was added.
 - Distinguish self-reported effort and engagement from objective skill, causal effects and longitudinal decline. October remains unchanged.
+
+### 1 November: Citation-Following Search
+
+- Added eleven primary sources and companion syntheses, bringing staged records to **98** and the combined preview to **327**. [Critical appraisal](manuscript/november-citation-followup-2026-11-01.md) and [search log](november/search-2026-11-01.json) distinguish seventeen observed citation links from thematic relevance and shared data.
+- Adds a task-expansion field experiment; cognition perspective/scoping/narrative reviews; open-science benchmark and reanalysis; workflow-pitfall journal publication; scientific-agent primer; ECB keynote; and Ranade's guest essay. Review overlap, partial access, AI grading and immediate versus durable comprehension remain explicit.
+- Local preview advances to `.2`; October remains unchanged. No new release-wide audit, independent computational replication or monthly browser refresh is asserted.
 
 ## Editorial Priorities
 

@@ -10,6 +10,7 @@ const output=path.join(root,'build/november-qa');
 fs.mkdirSync(output,{recursive:true});
 const prefix='/preview/november/';
 const records=JSON.parse(fs.readFileSync(path.join(root,'preview/november/downloads/sources.json')));
+const release=JSON.parse(fs.readFileSync(path.join(root,'preview/november/downloads/release.json')));
 const server=http.createServer((req,res)=>{
   const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
   const base=pathname.startsWith(prefix)?path.join(root,'preview/november'):path.join(root,'site');
@@ -56,7 +57,7 @@ try {
   await row.locator('summary').click();
   assert.equal(await row.locator('a[href="https://doi.org/10.1145/3706598.3713778"]').count(),1);
   await page.goto(origin+prefix+'cite.html');
-  assert.ok((await page.locator('.citation-example').innerText()).includes('2026.11.0-preview.1'));
+  assert.ok((await page.locator('.citation-example').innerText()).includes(release.version));
   assert.equal(await page.getByRole('link',{name:'Permanent versioned release'}).count(),0);
   const downloads=JSON.parse(fs.readFileSync(path.join(root,'preview/november/downloads/download-files.json'))).files;
   for(const name of ['bibliography.bib','bibliography.ris','bibliography.csl.json','sources.csv','sources.json','does-ai-help-2026-11.pdf']){

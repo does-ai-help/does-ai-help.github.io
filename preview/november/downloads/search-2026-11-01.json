@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "searched_on": "2026-11-01",
+  "target_release": "2026-11",
+  "status": "citation-following-search-and-appraisal",
+  "method": "Targeted forward-title searches, inspected reference lists, backward citation following and primary-source checks. Prioritized September-October 2026 material available by 1 November. Not an exhaustive citation-index export, systematic review or bibliometric citation count.",
+  "seed_ids": ["ref-712e3405f2", "shen2026", "bastani2025", "kewenigscaffolds2026", "maier2026", "demirer2026", "yotzovfirm2026", "miaopaper2agent2026", "innovationeval2026", "researchgym2026", "aiscientist2026", "coscientist2026", "haaspostgres2026"],
+  "representative_queries_executed": [
+    "\"Metacognitive Scaffolds Create Productive Friction\" -site:arxiv.org -site:researchgate.net",
+    "\"Writing Code vs. Shipping Code\" October 2026 research review",
+    "\"The Impact of Generative AI on Critical Thinking\" 2026 review meta-analysis",
+    "\"Firm Data on AI\" October 2026 research productivity review",
+    "\"Paper2Agent\" \"2026\" review reproducibility -site:reddit.com",
+    "\"InnovationEval\" review criticism October 2026",
+    "\"How AI Impacts Skill Formation\" \"2026\" replication review",
+    "\"A Critical Review of Critical Thinking in HCI Research About AI\" authors",
+    "\"Task Expansion with Generative AI\" Brosch 2026",
+    "\"The more you automate, the less you see\" Luo PNAS DOI",
+    "\"Firm Data on AI\" \"October 2026\" site:ecb.europa.eu OR site:imf.org OR site:bankofengland.co.uk"
+  ],
+  "query_log_scope": "Representative executed queries, not a reconstructed complete transcript or result count.",
+  "selected_ids": ["fanmetacognition2026", "iniecritical2026", "rivacapital2026", "broschtasks2026", "fujimuraquestions2026", "kimunknown2026", "alfaqeehprovenance2026", "luopitfalls2026", "fengprimer2026", "laneadoption2026", "ranadepublic2026"],
+  "selected_count": 11,
+  "staged_total_after_session": 98,
+  "combined_record_count_after_session": 327,
+  "confirmed_citation_edges": [
+    {"citing": "fanmetacognition2026", "cited": "ref-712e3405f2", "basis": "Original PDF reference 57 gives Lee et al.'s survey title."},
+    {"citing": "fanmetacognition2026", "cited": "bastani2025", "basis": "Original PDF reference 92 names published guardrails paper."},
+    {"citing": "fanmetacognition2026", "cited": "noy2023", "basis": "Original PDF reference 56 names Noy and Zhang productivity experiment."},
+    {"citing": "iniecritical2026", "cited": "ref-712e3405f2", "basis": "Publisher-deposited Crossref reference e_1_3_4_119_1 identifies DOI 10.1145/3706598.3713778; context also visible in indexed publisher sections."},
+    {"citing": "rivacapital2026", "cited": "ref-712e3405f2", "basis": "Original PDF Table 2 and reference 31."},
+    {"citing": "rivacapital2026", "cited": "shen2026", "basis": "Original PDF Table 2 and reference 7."},
+    {"citing": "rivacapital2026", "cited": "bastani2025", "basis": "Original PDF Table 2 and reference 23."},
+    {"citing": "broschtasks2026", "cited": "shen2026", "basis": "Primary PDF introduction contrasts skill-formation outcomes and reference list names Shen and Tamkin."},
+    {"citing": "broschtasks2026", "cited": "bastani2025", "basis": "Primary PDF introduction and reference list contrast unguarded learning effects."},
+    {"citing": "fujimuraquestions2026", "cited": "aiscientist2026", "basis": "Primary HTML reference 7 identifies Nature DOI 10.1038/s41586-026-10265-5."},
+    {"citing": "fujimuraquestions2026", "cited": "luopitfalls2026", "basis": "Primary HTML reference 8 cites the 2025 preprint version of the study subsequently published in PNAS; version-family edge, not a citation to the final journal version."},
+    {"citing": "alfaqeehprovenance2026", "cited": "innovationeval2026", "basis": "Primary HTML section 2.2 and Owen 2026 reference link to Epoch report."},
+    {"citing": "alfaqeehprovenance2026", "cited": "kimunknown2026", "basis": "Primary HTML section 3 identifies the reused benchmark and fixed repository snapshot."},
+    {"citing": "fengprimer2026", "cited": "aiscientist2026", "basis": "Publisher citation_reference CR43 identifies the journal DOI."},
+    {"citing": "fengprimer2026", "cited": "coscientist2026", "basis": "Publisher citation_reference CR123 identifies the journal DOI."},
+    {"citing": "laneadoption2026", "cited": "yotzovfirm2026", "basis": "ECB keynote footnote 12 explicitly cites the October 2026 revision and expanded author list."},
+    {"citing": "laneadoption2026", "cited": "humlum2026", "basis": "ECB keynote footnote 16 cites NBER working paper 33777, using its 2025 bibliographic year."}
+  ],
+  "relationship_limits": "Only inspected links are called citations. Other related_to links are thematic. A citation is not endorsement, replication or independent corroboration. Absence from this search does not establish absence of follow-up literature.",
+  "discovery_hubs_not_admitted_as_empirical_evidence": [
+    {"url": "https://thesuperskills.com/research/evidence/", "use": "Search-index discovery route to the Brosch experiment; primary IZA paper used for admission. Hub grading and corpus size not independently audited."},
+    {"url": "https://edtechdev.github.io/aied/articles/critical-review-critical-thinking-hci-research-ai-2026/", "use": "Discovery aid; primary publisher, institutional and registry material used instead of adopting its synthesis."},
+    {"url": "https://amarcu.github.io/ai-paper-digest/archive/2026-10-30.html", "use": "Discovery route to Fujimura; arXiv submission is 29 October, not the digest's date."},
+    {"url": "https://www.impossiblearn.com/agents/evidence", "use": "Potential monitoring hub, not a validated evidence-grade system or an admitted source."}
+  ],
+  "deferred_or_excluded": [
+    {"url": "https://journal-isi.org/index.php/isi/article/view/1826", "decision": "defer-methods-and-reference-audit", "reason": "New practitioner review identified, but evidence provenance and its broad security-rate aggregation require checking before admission."},
+    {"url": "https://after42.org/research/can-ai-propose-interesting-research-questions/", "decision": "follow-up-primary-expert-evaluation", "reason": "Located in Fujimura's references; original report, date, sample and expert-rating design not yet inspected."},
+    {"url": "https://www.nber.org/papers/w35793", "decision": "follow-up-financial-inference-methods", "reason": "ECB scenario links to a software-engineering productivity estimate inferred from asset prices; not adopted as measured worker productivity without inspecting identification."},
+    {"url": "https://www.binmage.com/innovationeval-ai-research-reports-en/", "decision": "exclude-duplicate-reporting", "reason": "Coverage of an existing study adds no inspected independent evaluation."},
+    {"url": "https://www.explainx.ai/blog/postgres-19-delayed-llm-bug-reports-robert-haas-backpatch-commits-2026", "decision": "exclude-duplicate-reporting", "reason": "Recent circulation of the existing Haas account is not a new project-level causal study."}
+  ],
+  "full_text_follow_up_ids": ["iniecritical2026", "luopitfalls2026", "fengprimer2026", "kimunknown2026"],
+  "verification_notes": [
+    "PNAS and Taylor & Francis returned 403. The final journal abstract or indexed primary sections and institutional/registry identity checks were used with explicit reading limits.",
+    "The primer PDF request returned publisher HTML; it was not falsely recorded as an inspected PDF.",
+    "No local Chrome verification or monthly refresh is claimed by this session.",
+    "Third-party PDFs are not redistributed and no computational results were independently reproduced.",
+    "Reviews, perspectives, policy synthesis and a benchmark reanalysis are not pooled as independent effect estimates."
+  ]
+}

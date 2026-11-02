@@ -4144,6 +4144,283 @@ KW  - productivity
 DO  - 10.1007/978-1-4842-4221-6
 ER  -
 
+TY  - JOUR
+ID  - fanmetacognition2026
+TI  - A metacognitive approach to learning and performance in human-AI interaction
+AU  - Fan, Yizhou
+AU  - Yan, Lixiang
+AU  - Molenaar, Inge
+AU  - Greiff, Samuel
+AU  - Gašević, Dragan
+DA  - 2026-10-30
+N1  - Date basis: Publisher publication date; PDF identity and five authors checked separately.
+PY  - 2026
+UR  - https://www.nature.com/articles/s44271-026-00548-y
+AB  - Proposes the SYNC framework separating assisted performance from durable learning and distinguishing metacognitive offloading from onloading. Discusses calibrated scaffolding rather than assuming all delegation is harmful.
+N1  - Conceptual model, explicitly not empirically validated. Measures and proposed mechanisms require testing; generalization across domains and cultures is unresolved. More scaffolding can itself undermine autonomy. Cited studies overlap existing records and are not new replications.
+KW  - cognition
+KW  - learning
+KW  - judgment
+KW  - trust
+KW  - methods
+DO  - 10.1038/s44271-026-00548-y
+JO  - Communications Psychology
+ER  -
+
+TY  - JOUR
+ID  - iniecritical2026
+TI  - A Critical Review of Critical Thinking in HCI Research About AI
+AU  - Inie, Nanna
+AU  - Kristensen, Anne Marie
+AU  - Misfeldt, Morten
+AU  - Dalsgaard, Peter
+DA  - 2026-09-21
+N1  - Date basis: Crossref published-online date; Aarhus institutional record independently confirms September 2026.
+PY  - 2026
+UR  - https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2722522
+AB  - Maps definitions, measures and claimed effects in 80 empirical HCI papers. Highlights construct validity and self-report limitations; direction-of-effect counts are not quality-weighted conclusions.
+N1  - Venue- and keyword-bounded scope, no included-study quality assessment, and extraction primarily by one author. Publisher endpoint and PDF returned 403; selected publisher-indexed sections, not a downloaded full text, were appraised. Reported effects cannot be generalized to all critical thinking or workers.
+KW  - cognition
+KW  - learning
+KW  - methods
+KW  - judgment
+KW  - verification
+DO  - 10.1080/10447318.2026.2722522
+JO  - International Journal of Human-Computer Interaction
+ER  -
+
+TY  - ELEC
+ID  - rivacapital2026
+TI  - When AI performs, what remains? An integrative review of generative AI and cognitive capital in individuals and organizations
+AU  - Riva, Giuseppe
+AU  - La Rocca, Stefania
+AU  - Wiederhold, Brenda K.
+AU  - Gaggioli, Andrea
+DA  - 2026-10-28
+N1  - Date basis: arXiv v1 submission history, not an aggregator's later update date.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.38647
+AB  - Separates individual and organizational cognitive capital from joint human-AI performance. Synthesizes substitution of practice, scaffolding, calibration and organizational aggregation into propositions for future tests.
+N1  - Non-exhaustive narrative selection, no quantitative pooling or validated theory. Organizational mechanisms are partly inferred from individual studies; short tasks and adjacent non-generative-AI evidence limit transfer. Much underlying evidence is already in this database.
+KW  - cognition
+KW  - learning
+KW  - work
+KW  - business
+KW  - diversity
+KW  - methods
+DO  - 10.48550/arXiv.2610.38647
+JO  - arXiv
+AN  - arXiv:2610.38647v1
+ER  -
+
+TY  - ELEC
+ID  - broschtasks2026
+TI  - Task Expansion with Generative AI: Experimental Evidence on Middle-Skilled, Early-Career Workers
+AU  - Brosch, Hanna
+AU  - Langer, Christina
+AU  - Lergetporer, Philipp
+AU  - Mueller, Sandra
+AU  - Pfeifer, Harald
+AU  - Tschoepe, Nele
+DA  - 2026-10
+N1  - Date basis: Institutional record and PDF cover specify October; no exact day inferred from a secondary listing.
+PY  - 2026
+UR  - https://iza.org/publications/dp/18999/task-expansion-with-generative-ai-experimental-evidence-on-middle-skilled-early-career-workers
+AB  - Randomly assigns AI access among 673 final-year German IT apprentices. Reports improved performance beyond the curriculum without lower immediate comprehension, testing task expansion rather than speed alone.
+N1  - Short occupational tasks and immediate multiple-choice comprehension do not establish durable learning or workplace delivery. Treatment retained internet access during instructed unaided comprehension; authors report compliance checks and exclusion sensitivity. Open answers use blinded LLM grading with teacher-validated rubrics; model-version exposure changed during collection. Working paper, not a completed workplace rollout.
+KW  - work
+KW  - learning
+KW  - productivity
+KW  - engineering
+KW  - methods
+JO  - IZA Discussion Paper Series
+ER  -
+
+TY  - ELEC
+ID  - fujimuraquestions2026
+TI  - Letting AI Formulate the Research Question: Autonomous Research Agents
+AU  - Fujimura, Ko
+DA  - 2026-10-29
+N1  - Date basis: arXiv v1 history and main-text date, not the later digest date.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.39620
+AB  - Reports five consecutive research runs after development, with agent-selected questions, re-computation and AI review. Exposes agenda-setting and reporting choices rather than showing only selected successful papers.
+N1  - Five runs, one research model, no ablation and no independent human quality evaluation. Pilot inclusion and choice of review format were amended after results were seen. Re-running the same code is not independent validation; hosted model computation is not local laptop computation. Human instructions and development choices shape the agenda.
+KW  - science
+KW  - agents
+KW  - ai-rd
+KW  - verification
+KW  - methods
+DO  - 10.48550/arXiv.2610.39620
+JO  - arXiv
+AN  - arXiv:2610.39620v1
+ER  -
+
+TY  - ELEC
+ID  - kimunknown2026
+TI  - Into the Unknown: Benchmarking AI agents on open scientific research problems
+AU  - Kim, Seungone
+AU  - Geng, Jiayi
+AU  - Lee, Young-Jun
+AU  - Liu, Bo
+AU  - Suk, Juyoung
+AU  - Lubbers, Nicholas
+AU  - Wood, Mitchell
+AU  - Noack, Marcus
+AU  - Yao, Yong-Xin
+AU  - Shi, Yuan
+AU  - Bujack, Roxana
+AU  - Garcia Cardona, Cristina
+AU  - Rodriguez, Austin
+AU  - Joseph, Ilon
+AU  - Cho, Woojin
+AU  - Wang, Zora Zhiruo
+AU  - Jin, Chuanyang
+AU  - Wu, Ian
+AU  - Gandhi, Apurva
+AU  - Li, Tianjian
+AU  - Sun, Weiwei
+AU  - Lawrence, Carolin
+AU  - Gashteovski, Kiril
+AU  - Kang, Dongyeop
+AU  - Shin, Jay
+AU  - Asai, Akari
+AU  - Neubig, Graham
+AU  - Welleck, Sean
+DA  - 2026-10-13
+N1  - Date basis: arXiv first submission, 20:25:59 UTC; novelty to this collection does not imply November publication.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.19159
+AB  - Evaluates nine agents on 15 expert-specified follow-up problems. Reports that none of 135 submissions meets all criteria; integrity judgments are a major bottleneck.
+N1  - A challenging selected benchmark, not every form of scientific assistance. Scientist-designed rubrics are operationalized through automated judges, not independent human review of all papers. Model, harness and budget affect results. Subsequent reanalysis of these same submissions is not new replication, and judge failure does not establish deliberate fabrication.
+KW  - science
+KW  - agents
+KW  - ai-rd
+KW  - verification
+KW  - methods
+DO  - 10.48550/arXiv.2610.19159
+JO  - arXiv
+AN  - arXiv:2610.19159v1
+ER  -
+
+TY  - ELEC
+ID  - alfaqeehprovenance2026
+TI  - Beyond fabrication: Misattributed numbers in papers written by AI research agents
+AU  - Alfaqeeh, Mosab
+AU  - Hourani, Omar
+AU  - Hourani, Muath
+AU  - Alfaqeeh, Hashem
+DA  - 2026-10-28
+N1  - Date basis: arXiv v1 date and primary HTML header.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.38691
+AB  - Reanalyzes released research-agent judgments and labels numerical claims, distinguishing absent evidence from real values assigned to the wrong experiment. Tests provenance checking and sensitivity to judge choice.
+N1  - One reused benchmark, small labeled samples and two in-team annotators, not an independent external panel. A provenance check does not establish scientific correctness, and failure to certify is not falsehood. Judge disagreements were not fully human-adjudicated; relative agent differences may reflect harnesses. A journal name in the manuscript does not establish acceptance.
+KW  - science
+KW  - agents
+KW  - verification
+KW  - methods
+KW  - trust
+JO  - arXiv
+AN  - arXiv:2610.38691v1
+ER  -
+
+TY  - JOUR
+ID  - luopitfalls2026
+TI  - The more you automate, the less you see: Hidden pitfalls of autonomous AI scientists
+AU  - Luo, Ziming
+AU  - Kasirzadeh, Atoosa
+AU  - Shah, Nihar B.
+DA  - 2026-10-05
+N1  - Date basis: PubMed article date is 5 October; issue date is 13 October. Related preprint first appeared in September 2025.
+PY  - 2026
+UR  - https://pubmed.ncbi.nlm.nih.gov/42832657/
+AB  - Studies benchmark selection, leakage, metric misuse and post-hoc selection in two open-source scientific-agent systems. Argues that workflow logs and code expose failures that final manuscripts can conceal.
+N1  - Published abstract inspected, not the complete final journal methods. Two systems and controlled pitfalls do not estimate population-wide failure rates or current model ability. Preprint and journal versions are one study family. Kasirzadeh's Google DeepMind employment is disclosed in the journal record.
+KW  - science
+KW  - agents
+KW  - ai-rd
+KW  - verification
+KW  - methods
+DO  - 10.1073/pnas.2610214123
+JO  - Proceedings of the National Academy of Sciences
+ER  -
+
+TY  - JOUR
+ID  - fengprimer2026
+TI  - Agentic AI systems for scientific discovery
+AU  - Feng, Bin
+AU  - Walther, Peter
+AU  - Zhang, Leili
+AU  - Coyle, Reid A.
+AU  - Kim, Seongmin
+AU  - Mandal, Abhijoy
+AU  - Zhang, Zijian
+AU  - Papidocha, Sven M.
+AU  - Kelmanson, Anna
+AU  - Segura, David Ming
+AU  - Thakur, Saumya
+AU  - Pal, Shyam Chand
+AU  - Bernales, Varinia
+AU  - Gao, Wenhao
+AU  - Yang, Xin
+AU  - Cong, Le
+AU  - Schwaller, Philippe
+AU  - Aspuru-Guzik, Alán
+AU  - Zheng, Zhiling
+DA  - 2026-10-22
+N1  - Date basis: Publisher citation_online_date and EPFL institutional issued date agree; repository deposit date is later.
+PY  - 2026
+UR  - https://www.nature.com/articles/s43586-026-00534-y
+AB  - Organizes scientific agents through literature, simulation and experiment workflows, including evaluation, reproducible reporting and safety. Provides a companion methods map rather than a new effect estimate.
+N1  - Public abstract and publisher metadata inspected, not the complete primer. A PDF request returned publisher HTML and is not recorded as a read PDF. Review references overlap existing agent studies; prospective laboratory integration is not measured scientific benefit.
+KW  - science
+KW  - agents
+KW  - ai-rd
+KW  - methods
+KW  - verification
+KW  - security
+DO  - 10.1038/s43586-026-00534-y
+JO  - Nature Reviews Methods Primers
+ER  -
+
+TY  - ELEC
+ID  - laneadoption2026
+TI  - AI adoption in Europe
+AU  - Lane, Philip R.
+DA  - 2026-10-30
+N1  - Date basis: ECB keynote header specifies author, venue and 30 October 2026.
+PY  - 2026
+UR  - https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html
+AB  - Brings euro-area firm and worker surveys into the adoption debate and cites October's Firm Data on AI. Separates usage intensity, perceived time savings, investment and modeled macroeconomic effects.
+N1  - Synthesis, not a single causal productivity study. Survey populations and periods differ; perceived savings are not observed time use. The IT productivity shock and subsequent output/employment paths are model scenarios, not realized effects. Task-level time-saving figures can reflect respondents' total weekly savings rather than task-specific increments.
+KW  - business
+KW  - work
+KW  - productivity
+KW  - cost
+KW  - methods
+KW  - governance
+JO  - European Central Bank
+ER  -
+
+TY  - ELEC
+ID  - ranadepublic2026
+TI  - AI, Mathematics, Education, and a public goods problem
+AU  - Ranade, Gireeja
+DA  - 2026-10-29
+N1  - Date basis: Dated blog header and explicit guest-post attribution; Tao is host, not author.
+PY  - 2026
+UR  - https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/
+AB  - Frames sustaining intellectual training and participation as a public-good problem, connecting education incentives, early-career pathways and collective expertise.
+N1  - Expert argument with anecdotes and forecasts, not measured participation or employment effects. Assumptions about future mathematical capability and student motivation are not established by the essay. AI-assisted format conversion is disclosed by the host.
+KW  - mathematics
+KW  - science
+KW  - learning
+KW  - work
+KW  - governance
+JO  - What's New (Terence Tao's blog)
+ER  -
+
 TY  - ELEC
 ID  - haaspostgres2026
 TI  - Postgres 19 is late, and it's AI's fault
