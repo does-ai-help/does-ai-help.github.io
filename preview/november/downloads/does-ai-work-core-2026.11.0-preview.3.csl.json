@@ -6095,6 +6095,804 @@
     "container-title": "ACM Queue"
   },
   {
+    "id": "wilestemporary2026",
+    "type": "article-journal",
+    "title": "Generative AI and the temporary upskilling of knowledge workers",
+    "URL": "https://www.nature.com/articles/s41562-026-02566-6",
+    "author": [
+      {
+        "family": "Wiles",
+        "given": "Emma"
+      },
+      {
+        "family": "Krayer",
+        "given": "Lisa"
+      },
+      {
+        "family": "Abbadi",
+        "given": "Mohamed"
+      },
+      {
+        "family": "Awasthi",
+        "given": "Urvi"
+      },
+      {
+        "family": "Kennedy",
+        "given": "Ryan"
+      },
+      {
+        "family": "Mishkin",
+        "given": "Pamela"
+      },
+      {
+        "family": "Sack",
+        "given": "Daniel"
+      },
+      {
+        "family": "Candelon",
+        "given": "Francois"
+      }
+    ],
+    "abstract": "Final abstract reports 487 consultants benefiting on unfamiliar data-science tasks, without matching expert performance or showing better unaided technical knowledge afterward.",
+    "keyword": "learning; productivity; work; cognition; methods",
+    "note": "Method: randomized-knowledge-worker-task-experiment. Status: peer-reviewed-article. Verification: content-checked (Original publisher HTML, eight authors and date checked via direct public HTTP. Earlier 49-page author PDF cover differs in sample size; not treated as final full text or a separate study.). Limitations: Assisted performance is not durable learning; a null knowledge result is not proof of harm or zero effect. Final full text is subscription-limited. Earlier author PDF says 573 participants, so its sample and methods must not be silently substituted for the final article. BCG/OpenAI affiliations disclosed. Date basis: Final publisher online date, not discovery date or earlier author version.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41562-026-02566-6",
+    "container-title": "Nature Human Behaviour"
+  },
+  {
+    "id": "machadonovelty2026",
+    "type": "article-journal",
+    "title": "Generative AI bias against scientific novelty: a cautionary tale from a small-sample evaluation of research proposals",
+    "URL": "https://link.springer.com/article/10.1007/s11192-026-05792-x",
+    "author": [
+      {
+        "family": "Machado",
+        "given": "Diogo"
+      }
+    ],
+    "abstract": "Compares model rankings with funding decisions for 139 Austrian proposals. Human-rated novelty is associated with proposals humans funded but GPT-4o did not select.",
+    "keyword": "science; judgment; diversity; governance; methods",
+    "note": "Method: retrospective-model-versus-human-grant-selection-comparison. Status: peer-reviewed-article. Verification: content-checked (Primary publisher author/date/DOI, pairwise selection design and rubric/novelty confounding limitations inspected. November Nature news used only as discovery lead.). Limitations: Small single-funder/year sample and one model/prompt design. Model did not receive the human rubric explicitly; human judgments are not objective novelty ground truth. No observed AI allocation of actual grants, no causal mechanism identified, and no proof that all models penalize innovation. Date basis: Online publication date; October issue and November news coverage are later dissemination.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          27
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11192-026-05792-x",
+    "container-title": "Scientometrics"
+  },
+  {
+    "id": "balepurunderstanding2026",
+    "type": "manuscript",
+    "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
+    "URL": "https://arxiv.org/abs/2607.26375",
+    "author": [
+      {
+        "family": "Balepur",
+        "given": "Nishant"
+      },
+      {
+        "family": "Baumler",
+        "given": "Connor"
+      },
+      {
+        "family": "Chen",
+        "given": "Valerie"
+      },
+      {
+        "family": "Choi",
+        "given": "Eunsol"
+      },
+      {
+        "family": "Rudinger",
+        "given": "Rachel"
+      },
+      {
+        "family": "Boyd-Graber",
+        "given": "Jordan Lee"
+      }
+    ],
+    "abstract": "Compares 54 students using an editing agent or chatbot. Better initial task completion coexists with weaker code comprehension; subsequent extension outcomes need adjustment-sensitive interpretation.",
+    "keyword": "engineering; learning; cognition; productivity; verification; methods",
+    "note": "Method: between-subjects-agent-versus-chatbot-user-study. Status: preprint. Verification: content-checked (Six authors/version, study groups, differing comprehension/extension outcomes and question-validation limitations inspected. Data and analysis not rerun.). Limitations: Students, short web tasks and a constrained interface. Comparison is agent versus chatbot, not AI versus none. Raw extension performance is not uniformly worse; adjustment for initial accuracy changes interpretation and is not a separate randomized effect. Some scoring/questions use LLMs with human checks; no long-run skill-loss test. Date basis: arXiv v1 history; marked in-progress preprint, not a new November experiment. Persistent identifier: arXiv:2607.26375v1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2607.26375",
+    "container-title": "arXiv"
+  },
+  {
+    "id": "hucostskills2026",
+    "type": "manuscript",
+    "title": "Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
+    "URL": "https://arxiv.org/abs/2609.30725",
+    "author": [
+      {
+        "family": "Hu",
+        "given": "Yiran"
+      },
+      {
+        "family": "Jiang",
+        "given": "Nan"
+      },
+      {
+        "family": "Liang",
+        "given": "Shanchao"
+      },
+      {
+        "family": "Dey",
+        "given": "Anik"
+      },
+      {
+        "family": "Wu",
+        "given": "Yi"
+      },
+      {
+        "family": "Tan",
+        "given": "Lin"
+      }
+    ],
+    "abstract": "Finds redundant retrieval, script generation and testing in agent trajectories. Developer-designed guidance can reduce inference costs, while structured retrieval can add overhead.",
+    "keyword": "engineering; agents; cost; productivity; methods",
+    "note": "Method: coding-agent-trajectory-analysis-and-benchmark-interventions. Status: preprint. Verification: content-checked (Six authors, v3 date, trajectory sample, intervention comparisons and measurement exclusions inspected. No benchmark reproduction or anonymous-repository audit.). Limitations: Selected agents and benchmark tasks; costs exclude execution time and hardware. Maximum savings are not typical organizational ROI. Repetition and uncertainty differ across interventions; passing tests may miss regressions. Developer-designed skills are not proven universally superior to learned guidance. Date basis: First submission; inspected version v3 revised 12 October 2026. Persistent identifier: arXiv:2609.30725v3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2609.30725",
+    "container-title": "arXiv"
+  },
+  {
+    "id": "jabarianvoice2025",
+    "type": "report",
+    "title": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709",
+    "author": [
+      {
+        "family": "Jabarian",
+        "given": "Brian"
+      },
+      {
+        "family": "Henkel",
+        "given": "Luca"
+      }
+    ],
+    "abstract": "Randomizes interviewing mode in high-volume recruitment while humans retain hiring decisions. Reports higher offer and job-start rates with AI interviews; offer effect is about one percentage point, or 12% relative.",
+    "keyword": "work; business; productivity; judgment; diversity; methods",
+    "note": "Method: randomized-natural-field-hiring-experiment. Status: working-paper. Verification: content-checked (127-page author PDF dated 10 September checked for design, 70,884 applications, absolute/relative effects and disclosures. Original posting and revision distinguished; later arXiv hosting is not another experiment. Full appendix not audited.). Limitations: One recruitment setting and entry-level customer-service jobs, not engineering hiring. Interview collection is automated, not final decisions. Conditional-hire outcomes involve selection; productivity observed only for a subset. Does not establish universal fairness or applicant acceptance. Funding and a later unpaid partner-firm role are disclosed. Date basis: First SSRN posting; author-hosted PDF inspected is dated 10 September 2026, and SSRN records a 11 September revision.",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          18
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "SSRN"
+  },
+  {
+    "id": "wangfeedback2026",
+    "type": "manuscript",
+    "title": "Human-AI Collaboration in Science at Scale: A Global Large-scale Randomized Field Experiment",
+    "URL": "https://arxiv.org/abs/2605.24180",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Binglu"
+      },
+      {
+        "family": "Liang",
+        "given": "Weixin"
+      },
+      {
+        "family": "Xue",
+        "given": "Jiahui"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yuhui"
+      },
+      {
+        "family": "Cao",
+        "given": "Hancheng"
+      },
+      {
+        "family": "Wang",
+        "given": "Dashun"
+      },
+      {
+        "family": "Yin",
+        "given": "Yian"
+      }
+    ],
+    "abstract": "Randomizes feedback delivery across roughly 31,000 preprints. Reports a small absolute increase in subsequent revision activity, with a larger relative effect against a low baseline.",
+    "keyword": "science; diversity; productivity; verification; methods",
+    "note": "Method: large-scale-randomized-feedback-delivery-experiment. Status: preprint. Verification: content-checked (Seven authors and original 16-page PDF checked. Main text reports 0.005 additional revisions per paper over one month, not a 12.55 percentage-point effect. Detector-based long-run outcome and 2024 timing inspected.). Limitations: Revisions are not validated improvements or discoveries. Delivery/contact effects and feedback content are not fully separated; longer-run AI adoption uses an imperfect detector. 2024 intervention does not evaluate current frontier agents. Subgroup significance alone does not establish differences between subgroup effects; appendix and data not rerun. Date basis: arXiv first posting; intervention used 2024 preprints and feedback delivery. Persistent identifier: arXiv:2605.24180v1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.48550/arXiv.2605.24180",
+    "container-title": "arXiv"
+  },
+  {
+    "id": "andrewscpython2026",
+    "type": "report",
+    "title": "Formalizing CPython: A Lean Model of CPython 3.15.2",
+    "URL": "https://broyojo.com/python-formalization/",
+    "author": [
+      {
+        "family": "Andrews",
+        "given": "David"
+      },
+      {
+        "family": "Zhang",
+        "given": "Chao"
+      }
+    ],
+    "abstract": "Reports partial Lean modeling of CPython, differential testing and proof review, with hundreds of candidate bug records. Highlights valid proofs whose models omit relevant behavior.",
+    "keyword": "engineering; verification; mathematics; quality; agents; methods",
+    "note": "Method: agent-assisted-formal-modeling-and-differential-testing-case-study. Status: technical-project-report. Verification: content-checked (Original HTML read after search-reader failure; authors' citation, coverage correction and trust boundary checked. Repository overview and revision 7d5a5ed recorded; instructions in source artifacts treated as reference content, not executed.). Limitations: About 14% coverage, not verification of all Python. Agent review is not independent human validation; differential tests do not prove model equivalence. Bug records are not all novel accepted upstream defects or security vulnerabilities. No independent build or reproduction here; counts are mutable. Date basis: Page byline/date; title follows the authors' supplied citation.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "David Andrews and Chao Zhang"
+  },
+  {
+    "id": "cranmerjulia2026",
+    "type": "report",
+    "title": "Formalizing Julia in Lean (and finding 400+ bugs in Base)",
+    "URL": "https://discourse.julialang.org/t/formalizing-julia-in-lean-and-finding-400-bugs-in-base/140243",
+    "author": [
+      {
+        "family": "Cranmer",
+        "given": "Miles"
+      }
+    ],
+    "abstract": "Describes AI-assisted Julia modeling, reproducer checks and manual triage. Explicitly reports formally valid but vacuous proofs and separates candidate findings from filed issues.",
+    "keyword": "engineering; verification; mathematics; quality; agents",
+    "note": "Method: practitioner-formal-modeling-case-study. Status: technical-forum-report. Verification: content-checked (Post identity/date, model-versus-runtime distinction, filtering and vacuity disclosure inspected. Linked Julia issue 64124 opened; reproducers not executed and all issue statuses not audited.). Limitations: Partial coverage and model-level guarantees, not verification of the complete runtime. Reported bugs include edge cases and possible intended behavior. Author review and released reproducers are useful safeguards, not independent replication of all findings. Date basis: Original forum post timestamp; later discussion is not the initial publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "Julia Discourse"
+  },
+  {
+    "id": "koskaptx2026",
+    "type": "manuscript",
+    "title": "Formalizing PTX in Lean to Prove GPU Kernel Correctness",
+    "URL": "https://arxiv.org/abs/2611.04447",
+    "author": [
+      {
+        "family": "Koska",
+        "given": "Luk"
+      },
+      {
+        "family": "Koska",
+        "given": "Tom"
+      },
+      {
+        "family": "Koska",
+        "given": "Ben"
+      }
+    ],
+    "abstract": "Presents a Lean model for selected GPU-kernel behavior and LLM-assisted correctness proofs. Offers a potential assurance complement to AI-generated kernels.",
+    "keyword": "engineering; verification; mathematics; ai-rd; methods",
+    "note": "Method: formal-semantics-and-llm-assisted-proof-demonstration. Status: preprint. Verification: content-checked (Three authors, version/date and selected main-text sections inspected. The explicit AI-usage statement supports classifying this as assisted proof work, not a controlled comparison.). Limitations: Simple hand-written kernels, limited instructions and partial correctness, not termination. Real-number arithmetic omits floating-point error. Undefined-behavior freedom, compiler and hardware conformity are assumed; concurrent multi-GPU execution is not covered. No measured productivity gain or independent proof rebuild here. Date basis: arXiv v1 submission history. arXiv lists its DOI as pending registration, so no DOI is asserted here. Persistent identifier: arXiv:2611.04447v1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "arXiv"
+  },
+  {
+    "id": "mollickjagged2026",
+    "type": "webpage",
+    "title": "Fable 5.2 and Jagged AGI",
+    "URL": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+    "author": [
+      {
+        "family": "Mollick",
+        "given": "Ethan"
+      }
+    ],
+    "abstract": "Presents selected cross-domain agent demonstrations with substantial human steering. Describes impressive generation alongside failures of self-evaluation and excessive procedural growth.",
+    "keyword": "judgment; science; business; engineering; agents; verification",
+    "note": "Method: expert-demonstration-and-capability-commentary. Status: expert-blog. Verification: content-checked (Byline/date and human-steering/access disclosures inspected. Linked One-Dollar Company page explicitly disclaims human verification; its 182-page PDF, code and substantive findings were not independently appraised.). Limitations: Selected demonstrations, no representative expert benchmark. AGI is the author's restricted definition, not a validated threshold. Business experiment stopped before operation; research results not fully human-checked or genuinely preregistered. Unmetered early access prevents reading these as ordinary cost-effectiveness evidence. Date basis: Original post date and byline.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "One Useful Thing"
+  },
+  {
+    "id": "alpineauth2026",
+    "type": "webpage",
+    "title": "Security advisory: openssh-server password authentication bypass",
+    "URL": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+    "author": [
+      {
+        "literal": "Alpine Linux"
+      }
+    ],
+    "abstract": "Confirms a configuration-dependent authentication bypass and supplies affected conditions and fixed packages. Emphasizes that an installed update does not replace a running daemon.",
+    "keyword": "security; engineering; verification; quality",
+    "note": "Method: primary-project-security-advisory. Status: security-advisory. Verification: content-checked (Project date, conditions, exclusions, credit and remediation distinction checked against version-specific OpenSSH release notes. Advisory had no CVE assigned at writing; no identifier inferred from secondary snippets.). Limitations: Confirms vulnerability and remediation, not an AI productivity effect or population compromise count. Does not independently isolate AI's contribution to discovery. No affected deployment audited here. Date basis: Project advisory date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "Alpine Linux"
+  },
+  {
+    "id": "openssh106p22026",
+    "type": "webpage",
+    "title": "OpenSSH 10.6p2 release notes",
+    "URL": "https://www.openssh.org/txt/release-10.6p2",
+    "author": [
+      {
+        "literal": "OpenSSH Project"
+      }
+    ],
+    "abstract": "Documents the workaround and welcomes AI-assisted security reports with human triage. Maintainers describe faster release cadence in response to overlapping discoveries and adversarial risk.",
+    "keyword": "security; engineering; governance; verification; quality",
+    "note": "Method: maintainer-release-and-security-process-statement. Status: project-release-notice. Verification: content-checked (Stable text release linked from primary notes inspected for date, security scope, named discoverer and AI-reporting policy. Not a live installation audit.). Limitations: Maintainer observations, not controlled discovery-rate or harm estimates. Many reports lack realistic security impact; independent rediscovery does not establish who exploited a flaw. Release cadence is not proof that all deployments patched. Date basis: Version-specific primary release document.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "OpenSSH"
+  },
+  {
+    "id": "kultekinssh2026",
+    "type": "webpage",
+    "title": "*sshole",
+    "URL": "https://sshhole.com/",
+    "author": [
+      {
+        "family": "Kültekin",
+        "given": "Özgün"
+      }
+    ],
+    "abstract": "Attributes discovery to agent-assisted testing across component and configuration combinations, illustrating cross-system assurance gaps.",
+    "keyword": "security; engineering; agents; verification",
+    "note": "Method: discoverer-technical-account. Status: technical-blog. Verification: content-checked (Named discoverer, agent-use statement and affected-condition account inspected, cross-referenced to Alpine and OpenSSH credit. Public NVD endpoint yielded no readable record, so its identifier was not promoted as verified metadata.). Limitations: Discoverer's account, not a no-AI counterfactual or independent cost comparison. Historical and configuration details are not all audited here. No exploit execution; discovery speed and downstream harm cannot be quantified from this account. Date basis: Account's November 2026 discovery timeline and dated project credit; exact page publication day not established.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "Özgün Kültekin / Wakefield"
+  },
+  {
+    "id": "chaudhurialphaproofcode2026",
+    "type": "report",
+    "title": "AlphaProof Code: Verifying Signal's Security at the Machine-Code Level",
+    "URL": "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf",
+    "author": [
+      {
+        "family": "Chaudhuri",
+        "given": "Swarat"
+      },
+      {
+        "family": "Ferraiuolo",
+        "given": "Andrew"
+      },
+      {
+        "family": "Kovsharov",
+        "given": "Anton"
+      },
+      {
+        "family": "Chajed",
+        "given": "Tej"
+      },
+      {
+        "family": "Schlesinger",
+        "given": "Sam"
+      },
+      {
+        "family": "Seth",
+        "given": "Karn"
+      },
+      {
+        "family": "Katz",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Sutton",
+        "given": "Charles"
+      },
+      {
+        "family": "Kohli",
+        "given": "Pushmeet"
+      }
+    ],
+    "abstract": "Reports machine-checked proofs for specified properties of a libsignal AArch64 build, with human-approved specifications and agent-generated proofs. Shows a route to deeper assurance rather than merely producing code faster.",
+    "keyword": "engineering; mathematics; security; verification; agents; judgment",
+    "note": "Method: formal-verification-case-study-with-released-artifacts. Status: technical-report. Verification: content-checked (Nine authors and dated 57-page PDF checked; selected methods and limitations inspected alongside the linked artifact overview. Proof compilation and external review not performed.). Limitations: Not verification of the complete Signal apps. Trusted specifications, semantics and primitive contracts remain; group messaging and multi-device state are excluded. Computational guarantees are classical, with restrictive games and bounds that become vacuous at scale. No independent artifact rebuild or cost-effectiveness replication here. Date basis: Dated primary technical-paper cover, consistent with the announcement.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "Google DeepMind"
+  },
+  {
+    "id": "merzfragile2026",
+    "type": "webpage",
+    "title": "AI usage generates a fragile codebase",
+    "URL": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+    "author": [
+      {
+        "family": "Merz",
+        "given": "Evan X."
+      }
+    ],
+    "abstract": "Describes shallow tests, unnecessary complexity, reduced code understanding and review overload as mechanisms of codebase fragility.",
+    "keyword": "engineering; quality; learning; work; verification",
+    "note": "Method: practitioner-first-person-account. Status: practitioner-blog. Verification: content-checked (Original HTML retrieved directly after the search reader failed; byline, date and complete short post inspected. No Chrome inspection or employer corroboration claimed.). Limitations: No released incident series, comparison group or causal identification. Layoff explanation is explicitly speculation; workplace adoption expectations are personal testimony, not verified company policy. Categorical claims about incidents and user experience exceed the evidence supplied. Date basis: Visible publication date and author on the original page.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "Evan X. Merz"
+  },
+  {
+    "id": "stolovitzusage2026",
+    "type": "webpage",
+    "title": "How I use AI (Oct 2026)",
+    "URL": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+    "author": [
+      {
+        "family": "Stolovitz",
+        "given": "Ben"
+      }
+    ],
+    "abstract": "Reports valuable agent-assisted prototyping and newly feasible personal projects, alongside architecture failures, manual simplification and fatigue from supervising parallel agents.",
+    "keyword": "engineering; productivity; quality; work; cognition; judgment; cost",
+    "note": "Method: practitioner-workflow-retrospective. Status: practitioner-blog. Verification: content-checked (Byline/footer dates, role change and mixed engineering account checked. Linked RNNoise commit and Mumble PR opened, not built or benchmarked.). Limitations: One practitioner's account; role changed from production engineering to research prototyping. Linked code artifacts do not establish net time savings or maintained quality. Broad claims that coding is solved, and mathematical breakthrough shorthand, are not adopted as findings. Date basis: Footer publication date; last modified 1 November 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          31
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "Ben Stolovitz"
+  },
+  {
+    "id": "metrrdassessment2026",
+    "type": "report",
+    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+    "URL": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "author": [
+      {
+        "family": "Cunningham",
+        "given": "Tom"
+      },
+      {
+        "family": "Rush",
+        "given": "Nate"
+      },
+      {
+        "family": "Whitfill",
+        "given": "Parker"
+      },
+      {
+        "family": "Wijk",
+        "given": "Hjalmar"
+      }
+    ],
+    "abstract": "Estimates 1.9x acceleration in an internal capability-index trend (95% interval 1.5-2.8x). Attribution to AI is a separate, uncertain judgment; staff report large assistance effects.",
+    "keyword": "ai-rd; science; productivity; methods; governance; verification",
+    "note": "Method: high-access-single-lab-observational-assessment. Status: organization-report. Verification: content-checked (Public primary report and named contributors inspected, distinguishing fit uncertainty from attribution and forecast uncertainty. Internal data and roughly 100-page unredacted report unavailable.). Limitations: One lab; benchmark trend is not researcher productivity or causal AI uplift. Most informative evidence was redacted. Baseline and link-function choices matter; self-reported 12x uplift is loose evidence. No access to the unredacted report here. Paid no assessment fee; provided devices/tokens and disclosed staff conflicts and mitigations. Date basis: Named contributors and public report date; assessment period is not publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "METR"
+  },
+  {
+    "id": "anthropics12026",
+    "type": "webpage",
+    "title": "Registration Statement on Form S-1",
+    "URL": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "author": [
+      {
+        "literal": "Anthropic"
+      }
+    ],
+    "abstract": "Reports rapid revenue growth alongside operating losses, research spending and continuing compute obligations. Supplies primary accounting context for optimistic profitability claims.",
+    "keyword": "business; cost; context; ai-rd",
+    "note": "Method: company-regulatory-financial-disclosure. Status: regulatory-filing. Verification: content-checked (SEC-hosted identity, date and accession checked; selected tables and notes distinguish operating results, noncash remeasurement and recurring compute commitments. No whole-filing audit claimed.). Limitations: Issuer disclosure, not an independent customer-productivity study or investment recommendation. Interim figures are unaudited. Contribution calculations are not net profit; large fair-value losses are not equivalent cash burn. Only selected sections inspected, not a complete financial audit. Date basis: As-filed date on SEC-hosted cover.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "U.S. Securities and Exchange Commission"
+  },
+  {
+    "id": "activtraklonger2026",
+    "type": "webpage",
+    "title": "ActivTrak Productivity Lab: AI Users Have Workdays Up to 90 Minutes Longer Than Non-Users",
+    "URL": "https://www.activtrak.com/news/productivity-lab-ai-users-longer-workdays/",
+    "author": [
+      {
+        "literal": "ActivTrak Productivity Lab"
+      }
+    ],
+    "abstract": "Compares 9,140 workers across 467 enterprises during April-September 2026. AI-user groups have longer workday spans; heavy users show more switching and shorter focus sessions than light users.",
+    "keyword": "work; productivity; cognition; business; methods; cost",
+    "note": "Method: vendor-observational-workplace-telemetry. Status: industry-research-release. Verification: content-checked (Date, sample, period, usage tiers and outcome comparisons inspected. Linked annual report checked separately rather than substituting its larger sample. No underlying telemetry or causal model audited.). Limitations: Association, not randomized or controlled causal attribution. Workday span is not continuous active labor or accepted output. Roles, workload and selection may confound comparisons; embedded-tool and focus comparisons have different denominators. Vendor definitions and raw data are not independently validated; monitoring creates privacy concerns. Date basis: Original release dateline.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "container-title": "ActivTrak"
+  },
+  {
     "id": "fanmetacognition2026",
     "type": "article-journal",
     "title": "A metacognitive approach to learning and performance in human-AI interaction",

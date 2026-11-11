@@ -1,0 +1,37 @@
+{
+  "searched_on": "2026-11-11",
+  "target_release": "2026-11",
+  "approach": "reader-suggested-source-appraisal-and-targeted-link-following",
+  "exhaustive": false,
+  "suggested_count": 7,
+  "selected_count": 12,
+  "selected_ids": ["chaudhurialphaproofcode2026", "kohlicode2026", "merzfragile2026", "stolovitzusage2026", "metrrdassessment2026", "cotrard2026", "metrassessmentproposal2026", "rasobubble2026", "anthropics12026", "djadphp2026", "activtraklonger2026", "activtrakworkplace2026"],
+  "staged_total_after_session": 110,
+  "combined_record_count_after_session": 339,
+  "confirmed_citation_edges": [
+    {"citing": "kohlicode2026", "cited": "chaudhurialphaproofcode2026", "basis": "Announcement's Read the technical paper link opened and original PDF inspected."},
+    {"citing": "cotrard2026", "cited": "metrrdassessment2026", "basis": "Essay's report link opened; primary assessment contributors, date and selected methods/disclosures inspected."},
+    {"citing": "metrrdassessment2026", "cited": "metrassessmentproposal2026", "basis": "Assessment's October 2026 article link opened; four proposed assessment questions inspected."},
+    {"citing": "rasobubble2026", "cited": "anthropics12026", "basis": "Original HTML S-1 link followed to SEC-hosted filing; selected financial sections inspected."},
+    {"citing": "activtraklonger2026", "cited": "activtrakworkplace2026", "basis": "Release's report link opened; sample definitions, earlier observation window and glossary inspected. Shared site navigation is a discovery route, not a claim that the annual report contains the October analysis."}
+  ],
+  "contextual_artifact_links_inspected": [
+    {"from": "chaudhurialphaproofcode2026", "url": "https://google-deepmind.github.io/code-verification/", "scope": "Selected overview, verification scope and trusted-base descriptions; not a proof rebuild."},
+    {"from": "stolovitzusage2026", "url": "https://github.com/citelao/mumbo/commit/a92fd3117bde8cf0fa8e323aaa64093eb4466396", "scope": "Public commit page; no build or timing replication."},
+    {"from": "stolovitzusage2026", "url": "https://github.com/mumble-voip/mumble/pull/7136", "scope": "Public PR and review page; not independent productivity confirmation."},
+    {"from": "djadphp2026", "url": "https://github.com/pavja2/smbc-source-oct-2026", "scope": "Challenge repository identity and context; no exploit execution."},
+    {"from": "djadphp2026", "url": "https://github.com/djad04/php2shell-deep-dive", "scope": "Public repository and GitHub API index.html history, including initial bdc478f and inspected eca5653 revision."}
+  ],
+  "not_separately_admitted": [
+    {"item": "AlphaProof artifact portal and practitioner code examples", "reason": "Linked contextual artifacts, not independent empirical studies."},
+    {"item": "Profitability aggregator, archived spending estimate and market multiples linked by Raso", "reason": "Not independently appraised; excluded as quantitative support. Selected regulatory filing sections take priority."},
+    {"item": "Other prior/concurrent formal-verification projects in the AlphaProof bibliography", "reason": "Useful follow-up leads, but not independently appraised in this targeted session; no reference laundering from a bibliography."},
+    {"item": "ActivTrak PDF download and underlying telemetry", "reason": "Public HTML report appraised; no downloaded PDF or raw-data inspection claimed."}
+  ],
+  "access_notes": {
+    "alternative_http_reading": ["merzfragile2026", "rasobubble2026", "djadphp2026"],
+    "local_chrome_used": false,
+    "release_wide_audit": false,
+    "third_party_full_text_redistributed": false
+  }
+}

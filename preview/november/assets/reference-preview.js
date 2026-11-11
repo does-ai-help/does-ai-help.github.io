@@ -13,9 +13,11 @@
   document.body.append(tooltip);
   let current = null;
   let timer;
+  let pending = null;
 
   function hide() {
     clearTimeout(timer);
+    pending = null;
     if (current) {
       const ids = (current.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== tooltip.id);
       if (ids.length) current.setAttribute('aria-describedby', ids.join(' '));
@@ -47,14 +49,17 @@
 
   function queueShow(link) {
     clearTimeout(timer);
+    pending = link;
     if (desktop.matches) timer = setTimeout(() => {
       if (link.matches(':hover') || document.activeElement === link) show(link);
     }, 200);
   }
 
   function queueHide() {
+    if (pending?.matches(':focus-visible') || current?.matches(':focus-visible')) return;
     clearTimeout(timer);
-    if (!current?.matches(':focus-visible')) timer = setTimeout(hide, 160);
+    pending = null;
+    timer = setTimeout(hide, 160);
   }
 
   function updateMode() {

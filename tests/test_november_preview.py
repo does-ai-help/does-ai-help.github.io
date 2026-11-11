@@ -72,4 +72,5 @@ class NovemberPreviewTests(unittest.TestCase):
         self.assertIn("tooltip.setAttribute('role', 'tooltip')", script)
         self.assertIn("event.key === 'Escape'", script)
         self.assertIn("event.pointerType !== 'touch'", script)
+        self.assertIn("pending?.matches(':focus-visible')", script)
         self.assertNotIn('preventDefault', script)

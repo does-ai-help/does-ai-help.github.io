@@ -1,0 +1,58 @@
+{
+  "searched_on": "2026-11-11",
+  "target_release": "2026-11",
+  "planned_publication_target": "2026-11-13",
+  "approach": "cross-topic-prerelease-discovery-primary-source-appraisal-and-deduplication",
+  "exhaustive": false,
+  "queries": [
+    "site:arxiv.org November 2026 AI software developer productivity randomized",
+    "site:nber.org November 2026 artificial intelligence productivity workers",
+    "site:nature.com November 2026 generative AI science research productivity",
+    "site:science.org November 2026 artificial intelligence learning experiment",
+    "site:arxiv.org/abs/2611 coding agents productivity",
+    "site:nber.org/papers November 2026 AI",
+    "site:nature.com November 2026 laboratory agents",
+    "Applicants interviewed by AI agents 12% paper",
+    "Diogo Machado 139 2026 Scientometrics",
+    "Generative AI and the temporary upskilling 487 results",
+    "site:arxiv.org/abs/2611 human AI randomized",
+    "site:nber.org/papers November 2026 generative",
+    "site:arxiv.org/abs/2611 developer study",
+    "site:arxiv.org/abs/2611 AI learning experiment",
+    "site:arxiv.org/abs/2611 productivity study",
+    "site:science.org November 2026 AI research",
+    "AI productivity November 2026 study research",
+    "generative AI November 2026 experiment",
+    "AI November 2026 systematic review",
+    "AI November 2026 mathematics research paper"
+  ],
+  "query_note": "Quotes and punctuation normalized here. November-only searches often returned older or irrelevant results; no completeness or date-filter guarantee is claimed.",
+  "selected_count": 10,
+  "selected_ids": ["wilestemporary2026", "wuautodna2026", "machadonovelty2026", "adarkwahwellbeing2026", "barwickshared2026", "balepurunderstanding2026", "hucostskills2026", "jabarianvoice2025", "wangfeedback2026", "gallupproductivity2026"],
+  "staged_total_after_session": 129,
+  "combined_record_count_after_session": 358,
+  "deduplication": {"checked_against": ["data/sources.json", "data/november-sources.json"], "keys": ["canonical URL", "DOI", "arXiv identifier", "title and study family"], "existing_sources_not_added_again": ["arXiv:2605.04779", "10.1038/s41586-025-09922-y"]},
+  "important_version_checks": [
+    {"id": "wilestemporary2026", "finding": "Final abstract N=487; earlier author-hosted PDF abstract N=573. Final public abstract used for sample; earlier PDF not assumed final full text."},
+    {"id": "jabarianvoice2025", "finding": "First SSRN posting August 2025; author PDF dated 10 September 2026, 127 pages. Not a newly run November experiment or separate arXiv replication."},
+    {"id": "hucostskills2026", "finding": "First September submission; inspected v3 dated 12 October, not a November paper."},
+    {"id": "gallupproductivity2026", "finding": "Page updated 10 November; underlying survey periods earlier. Not a new independent survey."},
+    {"id": "wangfeedback2026", "finding": "2026 preprint reports 2024 intervention. Relative effect is not percentage points or a validated science-quality gain."}
+  ],
+  "discovery_routes": [
+    {"url": "https://www.nature.com/articles/d41586-026-03340-4", "leads_to": "machadonovelty2026", "role": "November news about an August primary study; not independent evidence."},
+    {"url": "https://www.nature.com/articles/d41586-026-03270-1", "leads_to": "wuautodna2026", "role": "News and Views identifies primary AutoDNA DOI; no separate empirical record."},
+    {"url": "https://www.nber.org/conferences/ai-and-economic-measurement-spring-2026", "leads_to": "jabarianvoice2025", "role": "Discovery of revised experiment; current author PDF takes priority over stale snippets."},
+    {"url": "https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx", "leads_to": "gallupproductivity2026", "role": "Linked primary survey discussion inspected; not an independent replication of the synthesis."}
+  ],
+  "deferred_or_not_admitted": [
+    {"url": "https://arxiv.org/abs/2608.03585", "reason": "Community simulation rather than observed real-world developer treatment; not promoted as empirical productivity evidence."},
+    {"url": "https://arxiv.org/abs/2605.14830", "reason": "Relevant customer-service experiment, but only abstract screened; full methods appraisal deferred rather than treating every lead as a completed review."},
+    {"url": "https://www.nber.org/papers/w34984", "reason": "Relevant corporate survey, but full version/publication-family appraisal deferred."},
+    {"url": "https://www.nature.com/articles/d41586-026-03627-6", "reason": "Recent mathematical overview identified, not appraised as a new primary result."},
+    {"item": "Recent systematic reviews of nursing, language learning and water monitoring", "reason": "Screened as leads; scope, overlap and included-study quality not appraised. No automatic inclusion based on review label."},
+    {"item": "Special issue calls and automated evidence digests", "reason": "Discovery tools, not empirical findings; reference lists not imported without primary checks."}
+  ],
+  "full_text_followup": ["wilestemporary2026", "wuautodna2026", "barwickshared2026"],
+  "access_notes": {"local_chrome_used": false, "release_wide_audit": false, "underlying_studies_reproduced": false, "third_party_full_text_redistributed": false}
+}

@@ -1,0 +1,29 @@
+{
+  "searched_on": "2026-11-11",
+  "target_release": "2026-11",
+  "approach": "second-reader-suggested-batch-and-primary-link-following",
+  "exhaustive": false,
+  "suggested_count": 4,
+  "selected_count": 9,
+  "selected_ids": ["andrewscpython2026", "cranmerjulia2026", "koskaptx2026", "glaznerengineer2026", "mollickjagged2026", "vaughanalpine2026", "alpineauth2026", "openssh106p22026", "kultekinssh2026"],
+  "staged_total_after_session": 119,
+  "combined_record_count_after_session": 348,
+  "confirmed_citation_edges": [
+    {"citing": "andrewscpython2026", "cited": "cranmerjulia2026", "basis": "Original write-up's first reference opened, with methods/caveats and selected discussion inspected."},
+    {"citing": "andrewscpython2026", "cited": "koskaptx2026", "basis": "Original write-up's second reference opened; arXiv v1 identity and HTML methods/limitations/AI statement inspected."},
+    {"citing": "vaughanalpine2026", "cited": "alpineauth2026", "basis": "Original reporting links the primary project advisory, which was read."},
+    {"citing": "vaughanalpine2026", "cited": "kultekinssh2026", "basis": "Original reporting links the named discoverer's technical account, which was read."},
+    {"citing": "alpineauth2026", "cited": "openssh106p22026", "basis": "Advisory's release-note link followed to version-specific stable text."}
+  ],
+  "contextual_artifact_links_inspected": [
+    {"from": "andrewscpython2026", "url": "https://github.com/Broyojo/python-formalization", "scope": "Repository overview and revision 7d5a5ed; no build or bug reproduction."},
+    {"from": "cranmerjulia2026", "url": "https://github.com/JuliaLang/julia/issues/64124", "scope": "One public upstream issue; not verification of all candidate findings."},
+    {"from": "mollickjagged2026", "url": "https://the-one-dollar-company.netlify.app/", "scope": "Landing-page disclaimer and research framing only; generated paper not admitted as established findings."}
+  ],
+  "not_separately_admitted": [
+    {"item": "One-Dollar Company generated research paper", "reason": "No complete independent human validation; landing page disclaims it. Not an additional empirical source for economic conclusions."},
+    {"item": "CVE-2026-123158", "reason": "Secondary reports cite the identifier, but NVD yielded no readable record in this session. No verified CVE field added."},
+    {"item": "Other historical references in the formalization project", "reason": "Not independently appraised in this targeted session; not added automatically from a bibliography."}
+  ],
+  "access_notes": {"alternative_http_reading": ["andrewscpython2026", "glaznerengineer2026", "vaughanalpine2026"], "local_chrome_used": false, "release_wide_audit": false, "third_party_full_text_redistributed": false}
+}

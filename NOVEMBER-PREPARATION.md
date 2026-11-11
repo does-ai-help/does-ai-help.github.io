@@ -3,7 +3,21 @@
 Status: **public draft preview; final release pending**. Branch: `codex/november-2026-preparation`.
 Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026. The affiliation-only patch `2026.10.15` is incorporated without reopening October's scientific content.
 
-The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.2`, with provisional cutoff 1 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.3`, with provisional cutoff 11 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+
+### 11 November: Verification, AI R&D, Practitioner Experience and Workdays
+
+- Added twelve records, bringing the November intake to **110**, or **339** combined references. All seven reader-suggested pages are retained with different evidentiary roles; linked additions are the AlphaProof Code paper, METR assessment and methods proposal, Anthropic filing and ActivTrak annual report.
+- [Appraisal](manuscript/november-verification-acceleration-and-workdays.md) and [selection log](november/search-2026-11-11.json) distinguish primary findings from commentary and extrapolation. Shared study-family labels prevent counting announcements and interpretations as replications.
+- Updated the provisional cutoff explicitly to 11 November; earlier inspections retain their true dates. Original HTML HTTP retrieval, rather than Chrome, resolved three search-reader failures. PHP2Shell page dating uses its Git history, not its stated writing-start date.
+- Integrated the findings in engineering, AI R&D, economics and work sections, and regenerated the separate November web/PDF/bibliography preview. October inputs and artifacts remain untouched; no final November release or fresh release-wide audit is claimed.
+
+### 11 November: Follow-up Sources and Pre-release Search
+
+- A further nine reader-linked records and ten search-selected studies/reports bring the intake to **129**, or **358 combined references**. [Formalization/judgment/security appraisal](manuscript/november-formalization-judgment-and-ssh.md) and [cross-topic search appraisal](manuscript/november-prerelease-search-2026-11-11.md) document inclusion and limits.
+- Notable checks: CPython model coverage is not full implementation verification; the PTX preprint omits numerical error and termination guarantees; OpenSSH's primary release statement separates useful reports from triage noise. Mollick's generated research demo is not admitted as validated economic findings.
+- New evidence includes the final Wiles study, scientific feedback randomization, grant-selection comparison, AutoDNA, a revised voice-interview field experiment, firm sales and agent inference costs. Full-text-limited sources remain explicitly partial; earlier studies keep original dates.
+- Publication target: **13 November 2026**, subject to final editorial/verification approval. Current cutoff and selected inspection date: **11 November**. No final tag or October expansion is authorized by this preview update.
 
 See the [summary of all additions](november/UPDATE-SUMMARY.md), [preview maintenance guide](november/PREVIEW.md), and [updated manuscript](manuscript/article-november.md). Historical intake entries below describe the state at each addition; they are not a claim that the current draft remains private.
 

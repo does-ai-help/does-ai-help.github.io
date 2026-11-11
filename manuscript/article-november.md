@@ -1,12 +1,12 @@
 ## Abstract
 
-Artificial intelligence already improves some forms of intellectual work, but the size and meaning of the benefit depend on what is measured. Randomized experiments demonstrate gains in bounded writing and programming tasks; a quasi-experimental workplace rollout finds gains in customer support. Observational studies increasingly show that greater artifact production can coexist with review bottlenecks, modest changes in delivered output, and uncertain commercial value. In education, assisted performance and durable learning can move in different directions. In science, specialized prediction, evaluator-guided algorithm search, and selected research workflows provide credible benefits, while reliable autonomous innovation remains uneven. This living critical narrative review connects these findings across productivity, engineering, learning, scientific discovery, business, and employment. Its central proposition is that AI's contribution should be evaluated across a complete pathway: from proposed work to verified output, use, and consequential value. The accompanying evidence map distinguishes source identity verification from substantive appraisal, and reports study design, publication status, limitations, and version information. This November 2026 draft preview has a provisional evidence cutoff of 1 November 2026; it does not offer a pooled effect estimate or claim exhaustive systematic coverage.
+Artificial intelligence already improves some forms of intellectual work, but the size and meaning of the benefit depend on what is measured. Randomized experiments demonstrate gains in bounded writing and programming tasks; a quasi-experimental workplace rollout finds gains in customer support. Observational studies increasingly show that greater artifact production can coexist with review bottlenecks, modest changes in delivered output, and uncertain commercial value. In education, assisted performance and durable learning can move in different directions. In science, specialized prediction, evaluator-guided algorithm search, and selected research workflows provide credible benefits, while reliable autonomous innovation remains uneven. This living critical narrative review connects these findings across productivity, engineering, learning, scientific discovery, business, and employment. Its central proposition is that AI's contribution should be evaluated across a complete pathway: from proposed work to verified output, use, and consequential value. The accompanying evidence map distinguishes source identity verification from substantive appraisal, and reports study design, publication status, limitations, and version information. This November 2026 draft preview has a provisional evidence cutoff of 11 November 2026; it does not offer a pooled effect estimate or claim exhaustive systematic coverage.
 
 Adverse findings are substantive results, not merely qualifications to assistance: some interventions slow expert work or weaken comprehension and unaided learning. Community restrictions also demonstrate that useful capability does not settle questions of provenance, participation or scientific purpose. This selective review cannot determine the overall prevalence or net balance of benefits and harms.
 
 ## November preview: what changes
 
-This draft extends the October synthesis with 98 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 1 November 2026. This is a publicly reviewable draft, not the final November release.
+This draft extends the October synthesis with 129 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 11 November 2026. This is a publicly reviewable draft, not the final November release.
 
 The additions sharpen rather than reverse the central assessment. AI can expand feasible work and uncover valuable defects, while moving constraints into review, remediation, learning and institutions. Positive output effects, adverse task-specific outcomes, null organizational results and explicit opposition remain different kinds of evidence. The updated database retains their reading scopes and methodological limits. The [November update summary](updates.html) and detailed appraisals accompany this draft.
 
@@ -134,6 +134,20 @@ Broader policy evidence prevents prominent bans from becoming a misleading pictu
 
 The managerial implication is to evaluate the whole change lifecycle. Useful measures include elapsed time to acceptance, rework, defect escape, security, resource use, and adoption of the delivered capability. The broader question is whether a team obtains more dependable useful functionality for its total effort and cost.
 
+### What a machine-checked result does and does not establish
+
+The CPython and Julia formalization projects combine source-mirroring models, differential tests and proof review. They make previously costly scrutiny more feasible, while documenting a serious failure mode: valid proofs can establish too little or describe an inaccurate model. Candidate bug counts, accepted upstream defects and exploitable vulnerabilities are different quantities. The linked PTX work likewise states conditional guarantees, not numerical stability, termination or universal correctness of production GPU kernels. [@andrewscpython2026; @cranmerjulia2026; @koskaptx2026]
+
+The Alpine/OpenSSH case extends the security argument across component boundaries. Project advisories establish affected conditions and remediation, while the discoverer attributes testing to agents. OpenSSH maintainers welcome useful AI-assisted reports with human triage and describe a faster release cadence. These sources support a real assurance contribution and an operational burden, not a controlled estimate of discovery speed or a claim that every deployment was compromised. [@alpineauth2026; @openssh106p22026; @kultekinssh2026; @vaughanalpine2026]
+
+### Verification can change the feasible scope of engineering
+
+AlphaProof Code supplies a concrete example of deeper assurance becoming feasible: agents produce proofs against human-approved specifications for a particular compiled libsignal build. This is not proof that the entire Signal application is secure. Specifications, environmental models and cryptographic assumptions remain trusted; the computational theorem has substantial scope and scale limits. The technical report and announcement describe one demonstration, not two replications. [@chaudhurialphaproofcode2026; @kohlicode2026]
+
+Practitioner accounts expose a different trust boundary. Merz describes shallow tests, complexity and lost understanding; Stolovitz reports useful prototypes and newly feasible projects alongside architecture failures and supervisory fatigue. These are hypotheses and situated experiences, not estimates of average incident rates or productivity. Their contrasting accounts support measuring maintenance and accepted outcomes rather than generated-code volume alone. [@merzfragile2026; @stolovitzusage2026]
+
+The PHP2Shell walkthrough adds an exploitability qualification to the existing security discussion: environment-specific challenge success does not imply reliable exploitation across production deployments. It is commentary on the same vulnerability family, not another AI discovery or a population breach estimate. [@djadphp2026]
+
 ### New feasibility, delegation and maintenance capacity
 
 The opportunity is not confined to faster completion of familiar tasks. Dan Luu's account and a survey of 331 Microsoft developers describe work that people consider newly feasible. These practitioner reports motivate an option-value hypothesis, not an estimate of additional realized business value. A difficult project may become rational if assistance reduces its total cost sufficiently, even when verification remains demanding. [@luuambitious2026; @choudhuriunlock2026]
@@ -171,6 +185,10 @@ A second developmental question concerns working experts. Longitudinal survey wo
 Hicks, Lee and Foster-Marks add the psychological and organizational dimension. Their 3,267-person observational survey relates competitive and innate-brilliance beliefs to reported AI-related identity threat, while learning culture and belonging accompany more favorable reported experiences. This is not causal evidence that culture interventions increase productivity, and its performance measures are self-reported. Neither identity threat nor reluctance to adopt AI makes concerns about reliability, employment or provenance unfounded. A responsible interpretation takes those concerns seriously rather than diagnosing resistance as a defect in the worker. [@ref-47ac0a3015]
 
 Our interpretation is that the relevant educational aim is an accountable relationship to assisted work. Learners should be able to explain the result, recover essential reasoning, detect consequential errors, and transfer knowledge to a new task. Institutions need evidence about those abilities, especially when polished artifacts cease to be reliable evidence of independent understanding. The optimal balance between assisted practice and unaided work remains a subject for intervention research.
+
+### Capability, comprehension and acquired knowledge
+
+The final Wiles study reports improved performance by consultants on unfamiliar data-science tasks, but not expert-equivalent results or improved unaided technical knowledge afterward. A separate student study finds weaker code comprehension with an editing agent than with a chatbot, despite better initial task performance. These outcomes concern different populations and constructs. Null knowledge effects are not demonstrated harm; adjustment-sensitive extension results should not be summarized as uniformly worse performance. [@wilestemporary2026; @balepurunderstanding2026]
 
 ### Task expansion and the interpretation of cognitive evidence
 
@@ -220,6 +238,12 @@ Bastounis, Circelli and Hansen's 6 October preprint reports differences between 
 
 Hales provides a complementary technical account: kernel validity, statement fidelity, independent checking and readable exposition are different assurance layers. Lean's maintainer documents a positive AI contribution to finding and repairing soundness bugs, while treating adversarial proof artifacts as a genuine risk. Together these accounts show why formal mathematics is promising without being verification-free. [@hales2026; @demourakernel2026]
 
+### Scientific feedback, selection and physical execution
+
+A randomized feedback-delivery experiment reports more manuscript revisions, not independently validated improvements in science. A retrospective grant comparison raises a different concern: model selection diverges from human decisions for proposals humans rate as novel, under a design that does not provide the same explicit rubric to the model. Neither establishes the universal value of AI scientific judgment. [@wangfeedback2026; @machadonovelty2026]
+
+AutoDNA's reported physical laboratory demonstrations broaden the evidence beyond digital artifacts. They concern a co-designed system with ongoing human maintenance, not autonomous general science; the public abstract was inspected, not complete subscription methods. [@wuautodna2026]
+
 ### Scientific reuse, understanding and institutional choice
 
 Scientific help includes making existing methods easier to inspect and reuse. Paper2Agent evaluates executable research resources on tutorial-derived tasks; success there is not independent confirmation of the original science. A large AI-assisted analysis of research documentation similarly estimates a reproducibility proxy rather than reporting thousands of successful reruns. These intermediate contributions deserve recognition without conflating reuse with validation or autonomous discovery. [@miaopaper2agent2026; @coakleyrepro2026]
@@ -245,6 +269,16 @@ Automated alignment research offers a positive contrast under another protocol: 
 Anthropic's internal R&D measurements add a process view, distinguishing assistance, collaboration, leadership, and autonomy. Their task basket is model-rated and their numbers require external checking. They should not be converted into a percentage increase in discovery speed. [@rdmetrics2026]
 
 Our assessment is that AI-supported AI development is already a substantive engineering reality. The evidence for reliable end-to-end innovation is less settled. The appropriate questions concern what improved, how it was tested, how far it transfers, and which parts of goal setting and evaluation remain outside the automated process.
+
+### Generation and self-evaluation remain different capabilities
+
+Glazner's engineering essay locates value in tacit experience and responsibility; this is a hypothesis about human contribution, not evidence of an immutable boundary. Mollick's selected cross-domain demonstrations show both compelling generation and substantial steering needs. His AGI label is a restricted interpretation, while the research demonstration is explicitly not fully human-validated. Neither a polished artifact nor agent review alone establishes correctness, durable value or representative expert-level performance. [@glaznerengineer2026; @mollickjagged2026]
+
+### AI-assisted AI research: acceleration is not autonomy
+
+METR's high-access Anthropic assessment estimates 1.9 times the earlier growth rate of an internal capability index, with a reported 95% interval of 1.5-2.8. Its attribution to AI is a separate judgment with substantial uncertainty and largely redacted evidence. The estimate is neither a randomized researcher-productivity effect nor proof of autonomous recursive improvement; METR's earlier methodological proposal separates these questions. Cotra's compounding scenario is interpretation of the same assessment, not independent evidence or METR's forecast. [@metrrdassessment2026; @metrassessmentproposal2026; @cotrard2026]
+
+This does not straightforwardly contradict InnovationEval's weak end-to-end autonomous results: assistance inside an expert organization and autonomous performance on a selected benchmark measure different capabilities. Both deserve attention. [@innovationeval2026]
 
 ### Scientific reporting needs claim-to-experiment provenance
 
@@ -274,6 +308,16 @@ Organizations should therefore specify the intended outcome before comparing too
 
 Public discussion adds context, not additional controlled effects. The Pragmatic Engineer's reader survey describes heterogeneous experience and cost concerns; TechTarget connects verification and comprehension risks; Gates argues for managing disruption and distributing benefits. Market commentary describes investor expectations, which are not realized productivity. Ars Technica's bottleneck account covers the Chen-Stratton study already analyzed here and must not be counted as another independent result. [@pragmatic2026; @kompella2026; @gates2026; @mukherjee2026; @orland2026]
 
+### Organizational results require task-specific designs
+
+A revised randomized voice-interview study finds higher hiring-related outcomes when AI collects information and humans retain decisions. Its entry-level recruitment setting does not establish fairness or effects in expert hiring. A new small-firm e-commerce study reports sales benefits under an observational identification design; only its primary indexed abstract was accessible here, so detailed causal appraisal remains pending. These are more direct organizational questions than counting generated artifacts, but their denominators still differ. [@jabarianvoice2025; @barwickshared2026]
+
+Agent-cost research also shows why implementation matters: guidance can reduce benchmark inference spending, while additional retrieval infrastructure can increase it. Neither maximum token savings nor benchmark success is total organizational return. [@hucostskills2026]
+
+### Commercial success is a separate denominator
+
+Raso's optimistic valuation argument is useful as a counterpoint, not a settled financial assessment. The linked company filing distinguishes revenue, compute expense, operating loss and noncash valuation changes; exceeding one expense category does not establish profitability. Infrastructure also entails continuing commitments and replacement costs. Provider growth, investor returns, customer value and worker welfare must not be treated as interchangeable evidence that AI helps. [@rasobubble2026; @anthropics12026]
+
 ### Complementarity is a hypothesis, not a guarantee of payoff
 
 The Productivity Institute's commissioned synthesis connects task, job, organization and economy, emphasizing complementary investment and potentially delayed returns. Its eight expert interviews and literature synthesis are not a new causal trial. The productivity J-curve is a possible mechanism; it does not show that every disappointing investment will eventually pay. Sponsor interests, earlier study versions and overlapping evidence must remain visible. [@vanarkambition2026; @robinsonambition2026]
@@ -297,6 +341,16 @@ There is also a developmental pathway between education and expert work. If orga
 Educational choices provide an earlier signal of changing expectations. U.S. enrollment data report declines in traditional Computer and Information Science alongside growth in data-oriented programs. UK official data for a different period show growth in Computing and AI. These contrasts caution against treating changes in course selection as direct evidence of AI substitution. They may reflect employment conditions, international mobility, program naming, or perceived returns. [@nscc2026; @hesa2026]
 
 The key long-run question is whether AI adoption leaves enough people able to understand and improve the systems on which institutions depend. That question includes access to training, meaningful work for entrants, concentration of expertise, and the distribution of benefits across workers and firms. Current evidence is more informative about early transitions than settled long-run outcomes.
+
+### Welfare is not a residual productivity metric
+
+Recent Ghanaian adult-learning research records both perceived benefits and difficulties in a setting rarely covered by engineering trials. Its cross-sectional measures and purposively selected narratives do not establish causal health or learning effects. Gallup's November-updated synthesis likewise concerns perceived productivity, not observed output. These perspectives deserve inclusion without displacing telemetry, experiments or the voices of people who reject assistance. [@adarkwahwellbeing2026; @gallupproductivity2026]
+
+### Longer workdays are not necessarily greater output
+
+ActivTrak's October release compares 9,140 workers and reports AI-user workday spans up to 90 minutes longer than non-users'. This is an association, not evidence that AI caused additional labor or reduced productivity. Roles and workloads may differ; span is not active working time, and focus comparisons use different groups. Its linked annual report covers earlier periods and separate cohorts, so it is not interchangeable with this analysis. Neither telemetry nor subjective enthusiasm alone establishes welfare or accepted output. [@activtraklonger2026; @activtrakworkplace2026]
+
+Taken alongside qualitative work-intensification research, this is a reason to measure whether assistance buys time, expands chosen work or increases involuntary demands, without presuming that those outcomes coincide. [@countsintensification2026]
 
 ### Adoption, recruitment and the distribution of work
 

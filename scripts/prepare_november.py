@@ -10,6 +10,7 @@ import shutil
 import subprocess
 import sys
 import zipfile
+from datetime import date
 from html import escape
 from pathlib import Path
 
@@ -48,18 +49,23 @@ def assemble():
     old = 'The October 2026 release covers sources available by 13 October 2026;'
     if article.count(old) != 1:
         raise ValueError('October abstract anchor changed')
-    article = article.replace(old, 'This November 2026 draft preview has a provisional evidence cutoff of 1 November 2026;')
+    cutoff = date.fromisoformat(config['cutoff'])
+    cutoff_label = f'{cutoff.day} {cutoff:%B %Y}'
+    article = article.replace(old, f'This November 2026 draft preview has a provisional evidence cutoff of {cutoff_label};')
     for addition in load('november/article-additions.json'):
         anchor = addition['before']
         if article.count(anchor) != 1:
             raise ValueError('Manuscript anchor changed: ' + anchor)
         text = addition['text'].replace('{{new_source_count}}', str(len(load('data/november-sources.json'))))
+        text = text.replace('{{cutoff_date}}', cutoff_label)
         article = article.replace(anchor, text + '\n\n' + anchor)
     for match in re.findall(r'\[@([^\]]+)\]', article):
         for key in match.split(';'):
             source = by_id.get(key.strip().lstrip('@'))
             if not source or source['verification']['level'] != 'content-checked':
                 raise ValueError('Unappraised manuscript citation: ' + key)
+            if (source.get('date') or '') > config['cutoff']:
+                raise ValueError('Manuscript citation exceeds preview cutoff: ' + key)
     meta = load('data/release.json')
     meta.update({k: v for k, v in config.items() if k not in ['notice', 'preview_path', 'baseline_commit']})
     meta.update(snapshot=config['version'], archive_name=f"does-ai-help-release-{config['version']}.zip",
