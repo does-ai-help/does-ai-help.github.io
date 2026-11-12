@@ -1,10 +1,10 @@
 # November 2026 Preview: Evidence Update
 
-Version **2026.11.0-preview.3**, prepared **11 November 2026**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
+Version **2026.11.0-preview.4**, prepared **12 November 2026**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
 
 ## Scale and Scope
 
-The preview combines **229 October records with 129 new records: 358 references**. It also substantively appraises one existing reference, the CHI 2025 critical-thinking survey, without counting it twice. Records include primary studies, linked reporting, expert commentary, project notices and security advisories; they are not 358 independent studies.
+The preview combines **229 October records with 138 new records: 367 references**. It also substantively appraises one existing reference, the CHI 2025 critical-thinking survey, without counting it twice. Records include primary studies, linked reporting, expert commentary, project notices and security advisories; they are not 367 independent studies.
 
 The additional [1 November citation-following search](../manuscript/november-citation-followup-2026-11-01.md) admits eleven sources and records seventeen inspected citation links. Its main additions are task-expansion field evidence, cognition reviews, scientific-agent validation and reanalysis, European adoption synthesis and the institutional financing of expertise. [Machine-readable search log](search-2026-11-01.json).
 
@@ -12,7 +12,9 @@ The [11 November source appraisal](../manuscript/november-verification-accelerat
 
 A [second suggested-source appraisal](../manuscript/november-formalization-judgment-and-ssh.md) adds nine records on CPython/Julia/PTX formalization, engineering judgment, selected agent demonstrations and Alpine/OpenSSH security. [Follow-up log](search-2026-11-11-followup.json).
 
-The [pre-release cross-topic search](../manuscript/november-prerelease-search-2026-11-11.md) admits ten more sources on assisted capability versus knowledge, scientific feedback and evaluation, physical laboratories, hiring, firm sales, agent costs and well-being. [Search and selection log](search-2026-11-11-prerelease.json). The intended publication target is **13 November**; this preview's provisional evidence cutoff remains **11 November**, and final release checks remain pending.
+The [pre-release cross-topic search](../manuscript/november-prerelease-search-2026-11-11.md) admits ten more sources on assisted capability versus knowledge, scientific feedback and evaluation, physical laboratories, hiring, firm sales, agent costs and well-being. [Search and selection log](search-2026-11-11-prerelease.json).
+
+The [12 November assessment appraisal](../manuscript/november-assessment-validity-and-ai-detection.md) adds nine records, following reader-suggested reporting to the OfS/Advance HE report, detector research and its correction, product assessments and school policies. It distinguishes assessment validity from authorship classification and policy announcements from observed outcomes. [Selection and link-following log](search-2026-11-12-assessment.json). The intended publication target is **13 November**; this preview's provisional evidence cutoff is **12 November**, and final release checks remain pending.
 
 The update is a targeted narrative-review extension, not an exhaustive systematic search or a pooled effect estimate. Reading scopes vary and are recorded in the evidence map. Source families link overlapping reports and related advisories.
 

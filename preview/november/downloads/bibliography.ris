@@ -4144,6 +4144,180 @@ KW  - productivity
 DO  - 10.1007/978-1-4842-4221-6
 ER  -
 
+TY  - ELEC
+ID  - yildirimassessment2026
+TI  - Universities Are Giving Up on Trying to Detect AI Cheating
+AU  - Yildirim, Ece
+DA  - 2026-11-11
+N1  - Date basis: Visible original byline and publication timestamp.
+PY  - 2026
+UR  - https://gizmodo.com/universities-are-giving-up-on-trying-to-detect-ai-cheating-2000838311
+AB  - Reports English assessment reform debates.
+N1  - Use the linked primary material for substantive claims.
+KW  - learning
+KW  - verification
+KW  - governance
+KW  - judgment
+JO  - Gizmodo
+ER  -
+
+TY  - ELEC
+ID  - ofsassessment2026
+TI  - Making AI work for students: reflections on institutional practice
+AU  - Office for Students
+AU  - Advance HE
+DA  - 2026-11-11
+N1  - Date basis: Primary publication record and dated report cover.
+PY  - 2026
+UR  - https://www.officeforstudents.org.uk/publications/making-ai-work-for-students-reflections-on-institutional-practice/
+AB  - Examines assessment validity, AI literacy and institutional practice. Supports both secure assessment and carefully designed AI-permitted work, while documenting accessibility benefits and principled non-use.
+N1  - Self-selecting participants, not representative prevalence or causal learning evidence. Mainly English regulatory context with broader UK participation. Recommendations and reported experiences are not demonstrated policy effects; detector scores do not establish misconduct.
+KW  - learning
+KW  - verification
+KW  - governance
+KW  - diversity
+KW  - judgment
+KW  - work
+KW  - trust
+JO  - Office for Students and Advance HE
+ER  -
+
+TY  - JOUR
+ID  - vlasselaerdetectors2026
+TI  - Who wrote this? Evaluating the reliability of AI detection tools in higher education
+AU  - Van Vlasselaer, Marijke
+AU  - Van Droogenbroeck, Filip
+AU  - Spruyt, Bram
+DA  - 2026-06-29
+N1  - Date basis: Original publisher date; related model-label correction published 6 October.
+PY  - 2026
+UR  - https://link.springer.com/article/10.1007/s40979-026-00226-w
+AB  - Compares four detectors on 160 documents with known provenance. Pangram performs better in this benchmark; false positives are rare in the controlled human subset. Real-thesis flags lack ground truth.
+N1  - Small time-specific corpus and one humanisation strategy; thresholds and strict/inclusive scoring affect accuracy. Detector-estimated text fractions are not misconduct probabilities. Applying a detector to 1,163 unlabeled theses does not establish AI-use prevalence or individual guilt. Corrected model identity must be used.
+KW  - learning
+KW  - verification
+KW  - methods
+KW  - trust
+KW  - governance
+DO  - 10.1007/s40979-026-00226-w
+JO  - International Journal for Educational Integrity
+ER  -
+
+TY  - ELEC
+ID  - vlasselaercorrection2026
+TI  - Correction: Who wrote this? Evaluating the reliability of AI detection tools in higher education
+AU  - Van Vlasselaer, Marijke
+AU  - Van Droogenbroeck, Filip
+AU  - Spruyt, Bram
+DA  - 2026-10-06
+N1  - Date basis: Publisher correction date, not the original study's publication date.
+PY  - 2026
+UR  - https://link.springer.com/article/10.1007/s40979-026-00236-8
+AB  - Clarifies that fully generated texts used ChatGPT Deep Research mode, powered by an o3-based model, rather than the interface's GPT-4o label. Hybrid categories are unchanged.
+N1  - Correction to the same study, not replication or a new detector experiment. Authors state that analyses and conclusions are unchanged.
+KW  - verification
+KW  - methods
+KW  - learning
+DO  - 10.1007/s40979-026-00236-8
+JO  - International Journal for Educational Integrity
+ER  -
+
+TY  - JOUR
+ID  - perkinsdetectors2024
+TI  - Simple techniques to bypass GenAI text detectors: implications for inclusive education
+AU  - Perkins, Mike
+AU  - Roe, Jasper
+AU  - Vu, Binh H.
+AU  - Postma, Darius
+AU  - Hickerson, Don
+AU  - McGaughran, James
+AU  - Khuat, Huy Q.
+DA  - 2024-09-09
+N1  - Date basis: Publisher original online date; older evidence followed from the November report.
+PY  - 2024
+UR  - https://link.springer.com/article/10.1186/s41239-024-00487-w
+AB  - Tests detector robustness to modified generated writing and identifies accuracy and fairness concerns. Released data permit scrutiny of this historical benchmark.
+N1  - Short constrained samples and older generators/detectors, not a test of November 2026 systems. Abstract/body detector counts differ; no universal rate adopted here. Evasion resistance, false accusations and actual misconduct are distinct outcomes; neither detector tests nor transformations were rerun.
+KW  - learning
+KW  - verification
+KW  - methods
+KW  - diversity
+KW  - governance
+DO  - 10.1186/s41239-024-00487-w
+JO  - International Journal of Educational Technology in Higher Education
+ER  -
+
+TY  - ELEC
+ID  - csmenteens2026
+TI  - ChatGPT for Teens
+AU  - Common Sense Media Youth AI Safety Institute
+DA  - 2026-10-07
+N1  - Date basis: Displayed assessment update date; testing occurred July-September 2026.
+PY  - 2026
+UR  - https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens
+AB  - Tests teen-account safeguards and homework behavior before and after a product change. Finds that tutoring-oriented defaults do not reliably prevent completion of submitted assignments.
+N1  - Product snapshots and selected prompts/accounts, not a student learning experiment or population harm rate. Overall risk rating is an evaluator judgment, not a diagnosis. Feature availability and configurations can change. Industry/philanthropic funding and asserted editorial independence are disclosed.
+KW  - learning
+KW  - governance
+KW  - trust
+KW  - verification
+KW  - methods
+JO  - Common Sense Media Youth AI Safety Institute
+ER  -
+
+TY  - ELEC
+ID  - csmsearch2026
+TI  - Google Search: AI Overview & AI Mode
+AU  - Common Sense Media Youth AI Safety Institute
+DA  - 2026-07-14
+N1  - Date basis: Displayed assessment update date; test window May-July 2026.
+PY  - 2026
+UR  - https://institute.commonsensemedia.org/risk-assessments/google-search
+AB  - Reports assignment completion on its 180-item homework battery, illustrating how readily available search assistance can bypass an assessment's intended process.
+N1  - Completion is not correctness, improved learning or observed cheating. A selected product/account/prompt snapshot cannot establish a universal success rate. AI Mode and AI Overview differ; safety ratings use normative evaluator criteria. No independent replication or current configuration audit here.
+KW  - learning
+KW  - trust
+KW  - verification
+KW  - governance
+KW  - methods
+JO  - Common Sense Media Youth AI Safety Institute
+ER  -
+
+TY  - ELEC
+ID  - nycschools2026
+TI  - Mayor Mamdani and Chancellor Samuels Put Students First with Nation's Broadest Generative AI Moratorium in Schools
+AU  - NYC Mayor's Office
+DA  - 2026-09-02
+N1  - Date basis: Official dated policy announcement.
+PY  - 2026
+UR  - https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat
+AB  - Announces a one-year moratorium on student-facing generative AI for younger grades, with limited high-school pilots and AI-literacy instruction.
+N1  - Policy and stated rationale, not measured educational benefit or proof of harm. Grade, user and pilot scope matter; not a ban on every school use of AI. Implementation and effectiveness not independently audited.
+KW  - learning
+KW  - governance
+KW  - work
+KW  - diversity
+JO  - City of New York
+ER  -
+
+TY  - ELEC
+ID  - norwayschools2026
+TI  - Kunstig intelligens skal i all hovedsak ikke brukes i barneskolen
+AU  - Norwegian Prime Minister's Office
+AU  - Norwegian Ministry of Education and Research
+DA  - 2026-06-19
+N1  - Date basis: Official press-release dateline.
+PY  - 2026
+UR  - https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/
+AB  - Announces age-tiered national recommendations limiting younger pupils' AI access, allowing cautious later use and preserving accommodations for learners who need AI-based tools.
+N1  - Recommendations, not evidence of a universal statutory prohibition. Educational rationale is not a causal evaluation; announcement does not establish implementation or learning effects. School-age policy should not be extrapolated to university or workplace settings.
+KW  - learning
+KW  - governance
+KW  - diversity
+KW  - work
+JO  - Government of Norway
+ER  -
+
 TY  - JOUR
 ID  - wilestemporary2026
 TI  - Generative AI and the temporary upskilling of knowledge workers

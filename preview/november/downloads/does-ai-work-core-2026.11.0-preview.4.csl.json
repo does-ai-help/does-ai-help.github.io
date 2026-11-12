@@ -6095,6 +6095,144 @@
     "container-title": "ACM Queue"
   },
   {
+    "id": "ofsassessment2026",
+    "type": "report",
+    "title": "Making AI work for students: reflections on institutional practice",
+    "URL": "https://www.officeforstudents.org.uk/publications/making-ai-work-for-students-reflections-on-institutional-practice/",
+    "author": [
+      {
+        "literal": "Office for Students"
+      },
+      {
+        "literal": "Advance HE"
+      }
+    ],
+    "abstract": "Examines assessment validity, AI literacy and institutional practice. Supports both secure assessment and carefully designed AI-permitted work, while documenting accessibility benefits and principled non-use.",
+    "keyword": "learning; verification; governance; diversity; judgment; work; trust",
+    "note": "Method: qualitative-institutional-engagement-and-policy-synthesis. Status: organization-report. Verification: content-checked (Publication identity, methods and assessment chapter checked in original 48-page PDF; linked coauthors' commentary corroborates scope. Not all cited studies independently audited.). Limitations: Self-selecting participants, not representative prevalence or causal learning evidence. Mainly English regulatory context with broader UK participation. Recommendations and reported experiences are not demonstrated policy effects; detector scores do not establish misconduct. Date basis: Primary publication record and dated report cover.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Office for Students and Advance HE"
+  },
+  {
+    "id": "vlasselaerdetectors2026",
+    "type": "article-journal",
+    "title": "Who wrote this? Evaluating the reliability of AI detection tools in higher education",
+    "URL": "https://link.springer.com/article/10.1007/s40979-026-00226-w",
+    "author": [
+      {
+        "family": "Van Vlasselaer",
+        "given": "Marijke"
+      },
+      {
+        "family": "Van Droogenbroeck",
+        "given": "Filip"
+      },
+      {
+        "family": "Spruyt",
+        "given": "Bram"
+      }
+    ],
+    "abstract": "Compares four detectors on 160 documents with known provenance. Pangram performs better in this benchmark; false positives are rare in the controlled human subset. Real-thesis flags lack ground truth.",
+    "keyword": "learning; verification; methods; trust; governance",
+    "note": "Method: controlled-document-detector-benchmark-and-unlabeled-thesis-application. Status: peer-reviewed-article. Verification: content-checked (Three authors, DOI/date, provenance categories, benchmark versus unlabeled application and correction checked. Live HTML retains an older model label in a results passage; October correction takes priority. No detector rerun.). Limitations: Small time-specific corpus and one humanisation strategy; thresholds and strict/inclusive scoring affect accuracy. Detector-estimated text fractions are not misconduct probabilities. Applying a detector to 1,163 unlabeled theses does not establish AI-use prevalence or individual guilt. Corrected model identity must be used. Date basis: Original publisher date; related model-label correction published 6 October.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40979-026-00226-w",
+    "container-title": "International Journal for Educational Integrity"
+  },
+  {
+    "id": "perkinsdetectors2024",
+    "type": "article-journal",
+    "title": "Simple techniques to bypass GenAI text detectors: implications for inclusive education",
+    "URL": "https://link.springer.com/article/10.1186/s41239-024-00487-w",
+    "author": [
+      {
+        "family": "Perkins",
+        "given": "Mike"
+      },
+      {
+        "family": "Roe",
+        "given": "Jasper"
+      },
+      {
+        "family": "Vu",
+        "given": "Binh H."
+      },
+      {
+        "family": "Postma",
+        "given": "Darius"
+      },
+      {
+        "family": "Hickerson",
+        "given": "Don"
+      },
+      {
+        "family": "McGaughran",
+        "given": "James"
+      },
+      {
+        "family": "Khuat",
+        "given": "Huy Q."
+      }
+    ],
+    "abstract": "Tests detector robustness to modified generated writing and identifies accuracy and fairness concerns. Released data permit scrutiny of this historical benchmark.",
+    "keyword": "learning; verification; methods; diversity; governance",
+    "note": "Method: historical-detector-robustness-experiment. Status: peer-reviewed-article. Verification: content-checked (Seven authors, date/DOI, historical sampling and design limitations checked. Primary dataset description confirms 2023 generation timing and version-specific interpretation; files not independently analyzed.). Limitations: Short constrained samples and older generators/detectors, not a test of November 2026 systems. Abstract/body detector counts differ; no universal rate adopted here. Evasion resistance, false accusations and actual misconduct are distinct outcomes; neither detector tests nor transformations were rerun. Date basis: Publisher original online date; older evidence followed from the November report.",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1186/s41239-024-00487-w",
+    "container-title": "International Journal of Educational Technology in Higher Education"
+  },
+  {
     "id": "wilestemporary2026",
     "type": "article-journal",
     "title": "Generative AI and the temporary upskilling of knowledge workers",

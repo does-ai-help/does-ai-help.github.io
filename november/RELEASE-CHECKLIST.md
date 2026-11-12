@@ -1,6 +1,6 @@
 # November Publication Readiness
 
-Intended publication target: **13 November 2026**. This is a target, not an approved release. Current preparation: **2026.11.0-preview.3**, provisional evidence cutoff **11 November**. October remains the published edition.
+Intended publication target: **13 November 2026**. This is a target, not an approved release. Current preparation: **2026.11.0-preview.4**, provisional evidence cutoff **12 November**. October remains the published edition.
 
 ## Prepared in This Update
 

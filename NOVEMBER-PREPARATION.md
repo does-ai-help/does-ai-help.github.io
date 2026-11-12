@@ -3,7 +3,13 @@
 Status: **public draft preview; final release pending**. Branch: `codex/november-2026-preparation`.
 Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026. The affiliation-only patch `2026.10.15` is incorporated without reopening October's scientific content.
 
-The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.3`, with provisional cutoff 11 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.4`, with provisional cutoff 12 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+
+### 12 November: Assessment Validity and AI Detection
+
+- Nine records bring the November intake to **138**, or **367 combined references**. [Appraisal](manuscript/november-assessment-validity-and-ai-detection.md) and [selection log](november/search-2026-11-12-assessment.json) trace the suggested reporting to primary evidence.
+- The synthesis distinguishes detector benchmarks, product testing and official policy from measured learning outcomes. A model-identity correction is linked to its original study, not counted as replication.
+- Current provisional cutoff is **12 November**; the intended final publication target remains **13 November**, subject to review. No release-wide re-verification or final tag is claimed.
 
 ### 11 November: Verification, AI R&D, Practitioner Experience and Workdays
 

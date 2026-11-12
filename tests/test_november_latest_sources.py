@@ -1,6 +1,7 @@
 import importlib.util
 import json
 import unittest
+from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
@@ -64,11 +65,14 @@ class LatestNovemberSourcesTests(unittest.TestCase):
 
     def test_cutoff_and_manifest_stay_consistent(self):
         article, records, meta = builder.assemble()
-        self.assertEqual(meta['cutoff'], '2026-11-11')
-        self.assertEqual(meta['version'], '2026.11.0-preview.3')
+        config = json.loads((ROOT / 'november/preview.json').read_text())
+        self.assertEqual(meta['cutoff'], config['cutoff'])
+        self.assertEqual(meta['version'], config['version'])
         self.assertGreaterEqual(len(records), self.log['combined_record_count_after_session'])
-        self.assertIn('provisional evidence cutoff of 11 November 2026', article)
-        self.assertIn('provisional evidence cutoff is 11 November 2026', article)
+        cutoff = date.fromisoformat(config['cutoff'])
+        label = f'{cutoff.day} {cutoff:%B %Y}'
+        self.assertIn('provisional evidence cutoff of ' + label, article)
+        self.assertIn('provisional evidence cutoff is ' + label, article)
         self.assertNotIn('{{cutoff_date}}', article)
         self.assertNotIn('provisional evidence cutoff is 1 November 2026', article)
 
@@ -111,13 +115,13 @@ class LatestNovemberSourcesTests(unittest.TestCase):
         self.assertIn('403', self.sources['barwickshared2026']['limitations'])
         self.assertIn('10 November', self.sources['gallupproductivity2026']['date_basis'])
 
-    def test_current_counts_match_the_last_search_batch(self):
+    def test_historical_counts_remain_valid_after_later_batches(self):
         log = json.loads((ROOT / 'november/search-2026-11-11-prerelease.json').read_text())
         article, records, _ = builder.assemble()
-        self.assertEqual(len(records), log['combined_record_count_after_session'])
-        self.assertEqual(len(json.loads((ROOT / 'data/november-sources.json').read_text())), log['staged_total_after_session'])
+        self.assertGreaterEqual(len(records), log['combined_record_count_after_session'])
+        self.assertGreaterEqual(len(json.loads((ROOT / 'data/november-sources.json').read_text())), log['staged_total_after_session'])
         self.assertEqual(log['planned_publication_target'], '2026-11-13')
-        self.assertIn('11 November 2026', article)
+        self.assertIn('November 2026 draft preview', article)
 
 
 if __name__ == '__main__':

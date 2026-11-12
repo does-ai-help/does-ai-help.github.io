@@ -1,0 +1,35 @@
+{
+  "searched_on": "2026-11-12",
+  "target_release": "2026-11",
+  "approach": "reader-suggested-reporting-primary-link-following-and-policy-verification",
+  "exhaustive": false,
+  "suggested_count": 1,
+  "selected_count": 9,
+  "selected_ids": ["yildirimassessment2026", "ofsassessment2026", "vlasselaerdetectors2026", "vlasselaercorrection2026", "perkinsdetectors2024", "csmenteens2026", "csmsearch2026", "nycschools2026", "norwayschools2026"],
+  "staged_total_after_session": 138,
+  "combined_record_count_after_session": 367,
+  "planned_publication_target": "2026-11-13",
+  "confirmed_citation_edges": [
+    {"citing": "yildirimassessment2026", "cited": "ofsassessment2026", "basis": "Original reporting links the primary PDF; canonical publication record and selected report sections were read."},
+    {"citing": "ofsassessment2026", "cited": "vlasselaerdetectors2026", "basis": "Report's detector discussion and references followed to publisher methods/results and limits."},
+    {"citing": "ofsassessment2026", "cited": "perkinsdetectors2024", "basis": "Report reference followed to original publisher article and versioned data description."}
+  ],
+  "other_followed_relationships": [
+    {"from": "vlasselaercorrection2026", "to": "vlasselaerdetectors2026", "relationship": "publisher-correction-to", "scope": "Complete correction read; same study, unchanged conclusions according to authors."},
+    {"from": "yildirimassessment2026", "to": "nycschools2026", "relationship": "secondary-story-to-primary-policy", "scope": "Two-hop route through linked city-school reporting, not a direct citation to the primary release."},
+    {"from": "yildirimassessment2026", "to": "norwayschools2026", "relationship": "secondary-story-and-primary-search", "scope": "Linked reporting inspected; Reuters endpoint failed. Official Norwegian record separately found and read."},
+    {"from": "yildirimassessment2026", "to": "csmenteens2026", "relationship": "linked-secondary-failed-primary-organization-search", "scope": "Secondary endpoint failed; primary assessment independently located and relevant sections read."},
+    {"from": "yildirimassessment2026", "to": "csmsearch2026", "relationship": "linked-secondary-failed-primary-organization-search", "scope": "Primary product assessment checked separately; does not establish all assertions in the unavailable secondary story."}
+  ],
+  "contextual_links_inspected": [
+    {"url": "https://www.hepi.ac.uk/2026/11/11/making-ai-work-for-students/", "scope": "Related institutional commentary; same report family, not separately admitted."},
+    {"url": "https://data.mendeley.com/datasets/xv6fk2mmh9/3", "scope": "Dataset metadata/description only; DOI 10.17632/xv6fk2mmh9.3; no files reanalyzed."}
+  ],
+  "not_separately_admitted": [
+    {"url": "https://www.theatlantic.com/technology/2026/05/pangram-ai-detection-accuracy/687381/", "reason": "Only public opening accessible. Primary detector study used instead; no claim of complete article appraisal."},
+    {"item": "Image-authenticity comparisons", "reason": "Different modality; not evidence of text-detector performance."},
+    {"item": "Linked mental-health, emotional-support and lawsuit reporting", "reason": "Outside this assessment-focused appraisal; no clinical or adjudicated legal outcomes inferred."},
+    {"item": "Other papers cited in the OfS report", "reason": "Not all independently appraised; no automatic import of a secondary bibliography."}
+  ],
+  "access_notes": {"local_chrome_used": false, "release_wide_audit": false, "third_party_full_text_redistributed": false, "policy_implementation_audited": false, "product_or_detector_tests_repeated": false}
+}

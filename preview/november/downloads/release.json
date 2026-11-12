@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.0-preview.3",
-  "snapshot": "2026.11.0-preview.3",
-  "archive_name": "does-ai-help-release-2026.11.0-preview.3.zip",
+  "version": "2026.11.0-preview.4",
+  "snapshot": "2026.11.0-preview.4",
+  "archive_name": "does-ai-help-release-2026.11.0-preview.4.zip",
   "release_status": "draft-preview",
   "release": "2026-11",
   "release_label": "November 2026 draft preview",
-  "release_date": "2026-11-11",
-  "cutoff": "2026-11-11",
+  "release_date": "2026-11-12",
+  "cutoff": "2026-11-12",
   "title": "Does AI Help?",
   "subtitle": "Evidence on productivity, learning, engineering, and scientific discovery",
   "authors": [
@@ -35,9 +35,9 @@
   "doi": null,
   "reference_previews": true,
   "counts": {
-    "total": 358,
-    "verified": 342,
-    "core": 219,
-    "cited": 223
+    "total": 367,
+    "verified": 351,
+    "core": 222,
+    "cited": 231
   }
 }

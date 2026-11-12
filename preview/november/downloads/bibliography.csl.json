@@ -10146,6 +10146,356 @@
     "DOI": "10.1007/978-1-4842-4221-6"
   },
   {
+    "id": "yildirimassessment2026",
+    "type": "webpage",
+    "title": "Universities Are Giving Up on Trying to Detect AI Cheating",
+    "URL": "https://gizmodo.com/universities-are-giving-up-on-trying-to-detect-ai-cheating-2000838311",
+    "author": [
+      {
+        "family": "Yildirim",
+        "given": "Ece"
+      }
+    ],
+    "abstract": "Reports English assessment reform debates.",
+    "keyword": "learning; verification; governance; judgment",
+    "note": "Method: secondary-education-reporting. Status: journalism. Verification: content-checked (Original metadata checked; substantive appraisal follows linked primary sources rather than importing headline framing.). Limitations: Use the linked primary material for substantive claims. Date basis: Visible original byline and publication timestamp.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Gizmodo"
+  },
+  {
+    "id": "ofsassessment2026",
+    "type": "report",
+    "title": "Making AI work for students: reflections on institutional practice",
+    "URL": "https://www.officeforstudents.org.uk/publications/making-ai-work-for-students-reflections-on-institutional-practice/",
+    "author": [
+      {
+        "literal": "Office for Students"
+      },
+      {
+        "literal": "Advance HE"
+      }
+    ],
+    "abstract": "Examines assessment validity, AI literacy and institutional practice. Supports both secure assessment and carefully designed AI-permitted work, while documenting accessibility benefits and principled non-use.",
+    "keyword": "learning; verification; governance; diversity; judgment; work; trust",
+    "note": "Method: qualitative-institutional-engagement-and-policy-synthesis. Status: organization-report. Verification: content-checked (Publication identity, methods and assessment chapter checked in original 48-page PDF; linked coauthors' commentary corroborates scope. Not all cited studies independently audited.). Limitations: Self-selecting participants, not representative prevalence or causal learning evidence. Mainly English regulatory context with broader UK participation. Recommendations and reported experiences are not demonstrated policy effects; detector scores do not establish misconduct. Date basis: Primary publication record and dated report cover.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Office for Students and Advance HE"
+  },
+  {
+    "id": "vlasselaerdetectors2026",
+    "type": "article-journal",
+    "title": "Who wrote this? Evaluating the reliability of AI detection tools in higher education",
+    "URL": "https://link.springer.com/article/10.1007/s40979-026-00226-w",
+    "author": [
+      {
+        "family": "Van Vlasselaer",
+        "given": "Marijke"
+      },
+      {
+        "family": "Van Droogenbroeck",
+        "given": "Filip"
+      },
+      {
+        "family": "Spruyt",
+        "given": "Bram"
+      }
+    ],
+    "abstract": "Compares four detectors on 160 documents with known provenance. Pangram performs better in this benchmark; false positives are rare in the controlled human subset. Real-thesis flags lack ground truth.",
+    "keyword": "learning; verification; methods; trust; governance",
+    "note": "Method: controlled-document-detector-benchmark-and-unlabeled-thesis-application. Status: peer-reviewed-article. Verification: content-checked (Three authors, DOI/date, provenance categories, benchmark versus unlabeled application and correction checked. Live HTML retains an older model label in a results passage; October correction takes priority. No detector rerun.). Limitations: Small time-specific corpus and one humanisation strategy; thresholds and strict/inclusive scoring affect accuracy. Detector-estimated text fractions are not misconduct probabilities. Applying a detector to 1,163 unlabeled theses does not establish AI-use prevalence or individual guilt. Corrected model identity must be used. Date basis: Original publisher date; related model-label correction published 6 October.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40979-026-00226-w",
+    "container-title": "International Journal for Educational Integrity"
+  },
+  {
+    "id": "vlasselaercorrection2026",
+    "type": "webpage",
+    "title": "Correction: Who wrote this? Evaluating the reliability of AI detection tools in higher education",
+    "URL": "https://link.springer.com/article/10.1007/s40979-026-00236-8",
+    "author": [
+      {
+        "family": "Van Vlasselaer",
+        "given": "Marijke"
+      },
+      {
+        "family": "Van Droogenbroeck",
+        "given": "Filip"
+      },
+      {
+        "family": "Spruyt",
+        "given": "Bram"
+      }
+    ],
+    "abstract": "Clarifies that fully generated texts used ChatGPT Deep Research mode, powered by an o3-based model, rather than the interface's GPT-4o label. Hybrid categories are unchanged.",
+    "keyword": "verification; methods; learning",
+    "note": "Method: publisher-model-identity-correction. Status: published-correction. Verification: content-checked (Correction text, three authors, DOI and date checked against the original article.). Limitations: Correction to the same study, not replication or a new detector experiment. Authors state that analyses and conclusions are unchanged. Date basis: Publisher correction date, not the original study's publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40979-026-00236-8",
+    "container-title": "International Journal for Educational Integrity"
+  },
+  {
+    "id": "perkinsdetectors2024",
+    "type": "article-journal",
+    "title": "Simple techniques to bypass GenAI text detectors: implications for inclusive education",
+    "URL": "https://link.springer.com/article/10.1186/s41239-024-00487-w",
+    "author": [
+      {
+        "family": "Perkins",
+        "given": "Mike"
+      },
+      {
+        "family": "Roe",
+        "given": "Jasper"
+      },
+      {
+        "family": "Vu",
+        "given": "Binh H."
+      },
+      {
+        "family": "Postma",
+        "given": "Darius"
+      },
+      {
+        "family": "Hickerson",
+        "given": "Don"
+      },
+      {
+        "family": "McGaughran",
+        "given": "James"
+      },
+      {
+        "family": "Khuat",
+        "given": "Huy Q."
+      }
+    ],
+    "abstract": "Tests detector robustness to modified generated writing and identifies accuracy and fairness concerns. Released data permit scrutiny of this historical benchmark.",
+    "keyword": "learning; verification; methods; diversity; governance",
+    "note": "Method: historical-detector-robustness-experiment. Status: peer-reviewed-article. Verification: content-checked (Seven authors, date/DOI, historical sampling and design limitations checked. Primary dataset description confirms 2023 generation timing and version-specific interpretation; files not independently analyzed.). Limitations: Short constrained samples and older generators/detectors, not a test of November 2026 systems. Abstract/body detector counts differ; no universal rate adopted here. Evasion resistance, false accusations and actual misconduct are distinct outcomes; neither detector tests nor transformations were rerun. Date basis: Publisher original online date; older evidence followed from the November report.",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1186/s41239-024-00487-w",
+    "container-title": "International Journal of Educational Technology in Higher Education"
+  },
+  {
+    "id": "csmenteens2026",
+    "type": "webpage",
+    "title": "ChatGPT for Teens",
+    "URL": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens",
+    "author": [
+      {
+        "literal": "Common Sense Media Youth AI Safety Institute"
+      }
+    ],
+    "abstract": "Tests teen-account safeguards and homework behavior before and after a product change. Finds that tutoring-oriented defaults do not reliably prevent completion of submitted assignments.",
+    "keyword": "learning; governance; trust; verification; methods",
+    "note": "Method: third-party-product-risk-and-guardrail-testing. Status: organization-product-assessment. Verification: content-checked (Primary HTML date, account/test windows, homework scope and evaluation framework inspected. No product tests independently repeated; broad clinical and incident claims not appraised here.). Limitations: Product snapshots and selected prompts/accounts, not a student learning experiment or population harm rate. Overall risk rating is an evaluator judgment, not a diagnosis. Feature availability and configurations can change. Industry/philanthropic funding and asserted editorial independence are disclosed. Date basis: Displayed assessment update date; testing occurred July-September 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Common Sense Media Youth AI Safety Institute"
+  },
+  {
+    "id": "csmsearch2026",
+    "type": "webpage",
+    "title": "Google Search: AI Overview & AI Mode",
+    "URL": "https://institute.commonsensemedia.org/risk-assessments/google-search",
+    "author": [
+      {
+        "literal": "Common Sense Media Youth AI Safety Institute"
+      }
+    ],
+    "abstract": "Reports assignment completion on its 180-item homework battery, illustrating how readily available search assistance can bypass an assessment's intended process.",
+    "keyword": "learning; trust; verification; governance; methods",
+    "note": "Method: third-party-age-configured-product-risk-testing. Status: organization-product-assessment. Verification: content-checked (Primary page date, child/teen test-account definitions, 180 assignments and completion outcome checked. Broader safety findings and product settings not independently tested.). Limitations: Completion is not correctness, improved learning or observed cheating. A selected product/account/prompt snapshot cannot establish a universal success rate. AI Mode and AI Overview differ; safety ratings use normative evaluator criteria. No independent replication or current configuration audit here. Date basis: Displayed assessment update date; test window May-July 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          14
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Common Sense Media Youth AI Safety Institute"
+  },
+  {
+    "id": "nycschools2026",
+    "type": "webpage",
+    "title": "Mayor Mamdani and Chancellor Samuels Put Students First with Nation's Broadest Generative AI Moratorium in Schools",
+    "URL": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "author": [
+      {
+        "literal": "NYC Mayor's Office"
+      }
+    ],
+    "abstract": "Announces a one-year moratorium on student-facing generative AI for younger grades, with limited high-school pilots and AI-literacy instruction.",
+    "keyword": "learning; governance; work; diversity",
+    "note": "Method: official-school-policy-announcement. Status: government-policy-statement. Verification: content-checked (Primary city release linked by secondary reporting inspected for date, 2026-27 duration and distinction between younger-grade moratorium and high-school provision.). Limitations: Policy and stated rationale, not measured educational benefit or proof of harm. Grade, user and pilot scope matter; not a ban on every school use of AI. Implementation and effectiveness not independently audited. Date basis: Official dated policy announcement.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "City of New York"
+  },
+  {
+    "id": "norwayschools2026",
+    "type": "webpage",
+    "title": "Kunstig intelligens skal i all hovedsak ikke brukes i barneskolen",
+    "URL": "https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/",
+    "author": [
+      {
+        "literal": "Norwegian Prime Minister's Office"
+      },
+      {
+        "literal": "Norwegian Ministry of Education and Research"
+      }
+    ],
+    "abstract": "Announces age-tiered national recommendations limiting younger pupils' AI access, allowing cautious later use and preserving accommodations for learners who need AI-based tools.",
+    "keyword": "learning; governance; diversity; work",
+    "note": "Method: official-age-tiered-education-policy-announcement. Status: government-policy-statement. Verification: content-checked (Official original-language date, recommendations, exceptions and teacher-competence conditions inspected. Reuters endpoint failed; no claim to have read it. English summary is a paraphrase, not an official translation.). Limitations: Recommendations, not evidence of a universal statutory prohibition. Educational rationale is not a causal evaluation; announcement does not establish implementation or learning effects. School-age policy should not be extrapolated to university or workplace settings. Date basis: Official press-release dateline.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          19
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Government of Norway"
+  },
+  {
     "id": "wilestemporary2026",
     "type": "article-journal",
     "title": "Generative AI and the temporary upskilling of knowledge workers",
