@@ -33,7 +33,7 @@ try {
   await page.route('https://api.github.com/repos/does-ai-help/does-ai-help.github.io',route=>route.fulfill({json:{stargazers_count:42}}));
   for(const width of [1440,768,390]){
     await page.setViewportSize({width,height:1000});
-    for(const route of ['', 'bibliography.html','cite.html','releases.html','updates.html']){
+    for(const route of ['', 'bibliography.html','cite.html','releases.html','updates.html','release-notes.html']){
       await page.goto(origin+prefix+route);
       assert.equal(await page.locator('.draft-notice').isVisible(),true);
       assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'),'noindex,follow');
@@ -80,6 +80,17 @@ try {
   assert.equal(await touchPage.locator('#reference-preview').isVisible(),false);
   await touchContext.close();
   await page.goto(origin+prefix);
+  await page.getByRole('link',{name:'November release notes',exact:true}).click();
+  assert.equal(page.url(),origin+prefix+'release-notes.html');
+  assert.equal(await page.locator('h1').innerText(),'November 2026 Release Notes');
+  assert.equal(await page.getByRole('navigation',{name:'Release notes contents'}).getByRole('link').count(),13);
+  await page.getByRole('navigation',{name:'Release notes contents'}).getByRole('link',{name:'2. Security Discovery Becomes an Operational Question',exact:true}).click();
+  assert.equal(new URL(page.url()).hash,'#2-security-discovery-becomes-an-operational-question');
+  assert.equal(await page.getByRole('link',{name:'Download release notes as Markdown'}).getAttribute('href'),`downloads/does-ai-help-release-notes-${release.version}.md`);
+  assert.equal(await page.locator('.back-to-top-link').count(),1);
+  await page.goto(origin+prefix+'updates.html');
+  assert.equal(await page.getByRole('link',{name:'November release notes',exact:true}).getAttribute('href'),'release-notes.html');
+  await page.goto(origin+prefix);
   await page.getByRole('link',{name:'November update summary',exact:true}).click();
   assert.equal(page.url(),origin+prefix+'updates.html');
   assert.equal(await page.locator('h1').innerText(),'November 2026 Preview: Evidence Update');
@@ -115,7 +126,7 @@ try {
   assert.equal(page.url(),origin+'/');
   assert.ok((await page.locator('.release-detail').innerText()).includes('2026.10.15'));
   assert.deepEqual(errors,[]);
-  fs.writeFileSync(path.join(output,'report.json'),JSON.stringify({result:'passed',records:records.length,viewports:[1440,768,390],checks:['draft labels','navigation','rendered update summary','desktop citation context','hover persistence','keyboard focus and Escape','tooltip screen bounds','unchanged touch reference navigation','no horizontal overflow','filters','existing-source DOI','downloads','October return link','no page errors']},null,2)+'\n');
+  fs.writeFileSync(path.join(output,'report.json'),JSON.stringify({result:'passed',records:records.length,viewports:[1440,768,390],checks:['draft labels','navigation','rendered update summary','detailed release notes and contents links','desktop citation context','hover persistence','keyboard focus and Escape','tooltip screen bounds','unchanged touch reference navigation','no horizontal overflow','filters','existing-source DOI','downloads','October return link','no page errors']},null,2)+'\n');
   console.log('November preview browser checks passed; screenshots in build/november-qa.');
 } catch (error) {
   const page=browser?.contexts()[0]?.pages()[0];

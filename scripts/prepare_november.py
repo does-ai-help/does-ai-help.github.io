@@ -79,13 +79,36 @@ def run(args, work):
     subprocess.run(args, cwd=work, env=env, check=True)
 
 
+def existing_pdf_for_web_update(article, records, meta):
+    """Reuse a PDF only when its manuscript, evidence and release inputs match."""
+    download = ROOT / 'preview/november/downloads'
+    previous_meta = json.loads((download / 'release.json').read_text())
+    if any(previous_meta.get(key) != value for key, value in meta.items()):
+        raise ValueError('PDF reuse requires unchanged release metadata')
+    if json.loads((download / 'sources.json').read_text()) != records:
+        raise ValueError('PDF reuse requires unchanged evidence records')
+    canonical_text = lambda text: '\n'.join(line.rstrip() for line in text.splitlines()).rstrip()
+    if canonical_text((download / 'article.md').read_text()) != canonical_text(article):
+        raise ValueError('PDF reuse requires an unchanged manuscript')
+    pdf = (download / f"does-ai-help-{meta['version']}.pdf").read_bytes()
+    if not pdf.startswith(b'%PDF-'):
+        raise ValueError('Existing preview PDF is invalid')
+    checksums = dict(line.split('  ', 1)[::-1] for line in (download / 'checksums.sha256').read_text().splitlines())
+    if hashlib.sha256(pdf).hexdigest() != checksums.get(f"does-ai-help-{meta['version']}.pdf"):
+        raise ValueError('Existing preview PDF checksum mismatch')
+    return pdf
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--assemble-only', action='store_true')
-    parser.add_argument('--skip-pdf', action='store_true', help='For quick development only; not for publishing.')
+    pdf_mode = parser.add_mutually_exclusive_group()
+    pdf_mode.add_argument('--skip-pdf', action='store_true', help='For quick development only; not for publishing.')
+    pdf_mode.add_argument('--reuse-pdf', action='store_true', help='Web-only update: preserve a checked PDF with unchanged publication inputs.')
     args = parser.parse_args()
     config = load('november/preview.json')
     article, records, meta = assemble()
+    existing_pdf = existing_pdf_for_web_update(article, records, meta) if args.reuse_pdf else None
     (ROOT / 'manuscript/article-november.md').write_text(article)
     if args.assemble_only:
         print(f'Assembled November manuscript and {len(records)} evidence records')
@@ -111,6 +134,8 @@ def main():
     summary_html_source = summary.read_text().replace('../manuscript/', 'downloads/appraisals/')
     summary_html_source = re.sub(r'\]\((search-[^()]+\.json)\)', r'](downloads/\1)', summary_html_source)
     (work / 'manuscript/update-summary.md').write_text(summary_html_source)
+    notes = ROOT / 'november/RELEASE-NOTES.md'
+    (work / 'manuscript/release-notes.md').write_text(notes.read_text())
     (work / 'CHANGELOG.md').write_text('# November Draft Preview\n\nVersion ' + meta['version'] +
                                       '. Provisional cutoff: ' + meta['cutoff'] +
                                       '. Final editorial and release verification checks pending.\n\n' +
@@ -124,10 +149,13 @@ def main():
     (work / 'CITATION.cff').write_text(citation)
     run([sys.executable, 'scripts/export.py'], work)
     run(['node', 'scripts/build.mjs'], work)
-    if not args.skip_pdf:
+    if not args.skip_pdf and existing_pdf is None:
         run([sys.executable, 'scripts/build_pdf.py'], work)
     from download_names import download_names
     names = download_names(meta)
+    if existing_pdf is not None:
+        for filename in [f"does-ai-help-{meta['release']}.pdf", names[f"does-ai-help-{meta['release']}.pdf"]]:
+            (work / 'site/downloads' / filename).write_bytes(existing_pdf)
     # Replace release-only claims in the isolated preview, not in October's builder.
     banner = ('<aside class="draft-notice" aria-label="Draft status"><strong>November draft preview</strong><br>'
               + escape(config['notice']) + ' <a href="/">Read the published October edition</a>.</aside>')
@@ -144,7 +172,10 @@ def main():
     with (work / 'site/assets/style.css').open('a') as stream:
         stream.write('\n.draft-notice{max-width:1200px;margin:16px auto;padding:14px 20px;border-left:3px solid #b43539;background:#f7f8f9;font-size:14px;line-height:1.6}.draft-notice a{text-decoration:underline}\n')
         stream.write('header nav{flex-wrap:wrap}.update-summary{padding-top:38px}.update-summary h1{font-size:36px;line-height:1.2}.update-summary h2{margin:36px 0 16px}.update-summary table{font-size:14px;line-height:1.55}.update-summary .summary-download{font-family:Arial,Helvetica,sans-serif;font-size:14px;margin-top:32px}.update-summary .community-note{font-family:Arial,Helvetica,sans-serif}\n')
+        stream.write('.release-notes-link{font-family:Arial,Helvetica,sans-serif;font-size:15px}.release-notes-contents{border-bottom:1px solid #d9dfdd;padding-bottom:20px;margin-bottom:30px;font-family:Arial,Helvetica,sans-serif;font-size:15px}.release-notes-contents h2{font-size:18px;margin:0 0 12px}.release-notes-contents ul{columns:2;column-gap:30px;padding-left:20px}.release-notes-contents li{break-inside:avoid;margin-bottom:8px}@media(max-width:720px){.release-notes-contents ul{columns:1}}\n')
     (work / 'site/downloads/november-update-summary.md').write_text(summary.read_text().replace('../manuscript/', 'appraisals/'))
+    (work / 'site/downloads' / f"does-ai-help-release-notes-{meta['version']}.md").write_text(notes.read_text())
+    shutil.copyfile(ROOT / 'november/RELEASE-CHECKLIST.md', work / 'site/downloads' / f"does-ai-help-release-checklist-{meta['version']}.md")
     for log in (ROOT / 'november').glob('search-*.json'):
         shutil.copyfile(log, work / 'site/downloads' / log.name)
     shutil.copyfile(ROOT / 'november/browser-observations.json', work / 'site/downloads/november-browser-observations.json')

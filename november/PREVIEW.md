@@ -9,11 +9,14 @@ The preview's `reference_previews` setting enables desktop citation context from
 1. Edit source intakes and appraisals using their established files. Existing-source corrections belong in `november/source-updates.json`, not duplicate entries.
 2. Edit `november/article-additions.json` for integrated additions; it specifies stable section anchors in October's manuscript. The builder produces the complete `manuscript/article-november.md`.
    Edit `november/UPDATE-SUMMARY.md` for the reader-facing changes summary. The builder renders it at `updates.html` with shared navigation and retains the Markdown download; do not edit generated HTML directly.
+   Edit `november/RELEASE-NOTES.md` for the detailed reader-facing notes at `release-notes.html`. They are linked from the review, summary and releases pages, and included as versioned Markdown in the download archive, not inserted into the article or PDF.
 3. Update `november/preview.json` and this edition's summary when advancing the preview. The cutoff is provisional, not a future verification claim.
 4. Install dependencies, then run `python3 scripts/prepare_november.py`. A temporary build assembles baseline records and the current staged additions, applies existing-paper corrections, and generates `preview/november/`, exports and PDF. October inputs and outputs are not rewritten.
 5. Run unit tests, `python3 scripts/check_november_preview.py`, and `node scripts/november_browser_qa.mjs`. Inspect browser screenshots and all PDF pages. Commit the source changes and generated preview together.
 
 For a local test, serve the repository root and open `/preview/november/`. The static pages also work offline, apart from absolute navigation and external services. The live preview is marked `noindex` to reduce confusion with the published edition; it is not access-restricted.
+
+For web-only editorial updates, `python3 scripts/prepare_november.py --reuse-pdf` preserves the existing checked PDF byte for byte. It refuses reuse if manuscript, evidence records or release metadata differ, or if the existing PDF fails its recorded checksum. Changes to PDF templates, fonts or rendering code still require a full build; this option is only for website/documentation changes.
 
 ## Deployment Safety
 

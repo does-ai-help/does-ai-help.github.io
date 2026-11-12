@@ -64,7 +64,7 @@ d9b93f65447a9eb89c6860fe7c361bb250e608628a2df0faf19c5df8b772f50f  does-ai-help-c
 c01b899166eeb156225fffc827f83458e48268ebae29a14324755e0c885cf3de  does-ai-help-evidence-2026.11.0-preview.6.jsonl
 78160ef459d82c50a867474b10f337d2f77a67a9c79476e77d808aeb84682bf9  does-ai-help-evidence-schema-2026.11.0-preview.6.json
 b2abee70a32ef7f9ee15b6e6ff785cae50d4e0c7e1779fe95bc6d44a2152a70d  does-ai-help-exclusions-2026.11.0-preview.6.json
-51ce39112f0e03208949c3c963ee8582f410238e157712d8df61f39a431ec2a0  does-ai-help-external-links-2026.11.0-preview.6.json
+7050ad82ed1a7b58ed0a5aab5601c77f436e7b003f1d4bbfc2262c9d0f52d375  does-ai-help-external-links-2026.11.0-preview.6.json
 8d4466dea4db9aa8447529e54257c4efa76c7f696c085696e963bdeb4433357e  does-ai-help-hosting-2026.11.0-preview.6.md
 89a3587ffa3747358c17c471e03ce4532000efdc0bc88ed8181bcef6966b7133  does-ai-help-kpmg-q3-appraisal-2026.11.0-preview.6.md
 94876d1b65089488c12aa09981bf23af575c1c7e7ad2aa0c80a693251bb0a2fc  does-ai-help-maintenance-2026.11.0-preview.6.md
@@ -75,7 +75,9 @@ b2abee70a32ef7f9ee15b6e6ff785cae50d4e0c7e1779fe95bc6d44a2152a70d  does-ai-help-e
 b468d4560875739659d7037ba4d42d019470416aa335ff477d4c10a0483f860d  does-ai-help-reference-verification-2026.11.0-preview.6.md
 5f23deb2a5fc8155c3a9e44417f771fe8a4670fce8e2e12944955cd301f489c3  does-ai-help-related-reviews-2026.11.0-preview.6.md
 6212694fe0b61a6861e06d822c14667ca7c6466bc081e321fe2f3236a8b7dd12  does-ai-help-release-2026.11.0-preview.6.json
-4ebcf7f164b8200c64ff0a3406fce73a7d0cbacc11b0452df19ae27127632e4c  does-ai-help-release-2026.11.0-preview.6.zip
+eb4b9d1f621a40dfc571ef8a89f5f61f5e52a5a23edba87b27cd0d6e438019f7  does-ai-help-release-2026.11.0-preview.6.zip
+12ba199530165c0ceb00f261ce8b3ca538e8ea84574243d88ec985db1224c3bc  does-ai-help-release-checklist-2026.11.0-preview.6.md
+580c2d12218b6c2c9ed230688f43629422c40d5b0a37aef148c3f0c00aa33bad  does-ai-help-release-notes-2026.11.0-preview.6.md
 a6eddf11a70f731e4f56a3301e0b66e5e6fef88d6045232dbe9a6dec425f4bd8  does-ai-help-swebench-recommended-2026.11.0-preview.6.bib
 937233ab02fe632ca1a6a32c687a90061b226e13174a052d12c2f19cfca4f407  does-ai-work-2026.11.0-preview.6.bib
 ddb7161c77d235dfd19f1be9c2bbaf0501b057e8810ab5389fd9107bd92c7909  does-ai-work-2026.11.0-preview.6.csl.json
@@ -83,7 +85,7 @@ ddb7161c77d235dfd19f1be9c2bbaf0501b057e8810ab5389fd9107bd92c7909  does-ai-work-2
 4f16d9510a58005b69335936471a83a3f698fb961a1133ecac8483fbb5ea1f01  does-ai-work-core-2026.11.0-preview.6.csl.json
 0bf133a0325b60a31eacdf7b1f2b735baa77eaea554850c1fa2c4433decb8ae1  download-files.json
 b2abee70a32ef7f9ee15b6e6ff785cae50d4e0c7e1779fe95bc6d44a2152a70d  exclusions.json
-51ce39112f0e03208949c3c963ee8582f410238e157712d8df61f39a431ec2a0  external-links.json
+7050ad82ed1a7b58ed0a5aab5601c77f436e7b003f1d4bbfc2262c9d0f52d375  external-links.json
 89a3587ffa3747358c17c471e03ce4532000efdc0bc88ed8181bcef6966b7133  kpmg-q3-2026.md
 37b56ffccd614910bb9bc54199d8abbf56f6bd2d7fa1d596476531d28007bbcc  metadata-review.md
 04f4d4219a7a6d875cd6d249b840ac440da143fc64b79aede2d09e380c8511b7  methodology.md

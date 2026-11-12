@@ -12,6 +12,7 @@ const write = (p, text) => { fs.mkdirSync(path.dirname(path.join(root, p)), {rec
 const meta = JSON.parse(read('data/release.json'));
 const referencePreviews = Boolean(meta.reference_previews);
 const hasUpdates = fs.existsSync(path.join(root, 'manuscript/update-summary.md'));
+const hasReleaseNotes = fs.existsSync(path.join(root, 'manuscript/release-notes.md'));
 const humanAffiliation = meta.authors.find(author=>author.name==='Witold Bołt').institution;
 const downloadStems={...JSON.parse(read('data/download-names.json')),[`does-ai-help-${meta.release}.pdf`]:'does-ai-help'};
 const downloadNames=Object.fromEntries(Object.entries(downloadStems).map(([name,stem])=>[name,`${stem}-${meta.version}${name.slice(name.indexOf('.'))}`]));
@@ -65,7 +66,8 @@ const contributionLinks = meta.github_url
   ? `<a href="${esc(meta.github_url)}/issues/new/choose">Suggest evidence or a correction</a> · <a href="${esc(meta.github_url)}/pulls">Pull requests</a>`
   : '<a href="downloads/CONTRIBUTING.md">Contribution guide</a> · Public repository address pending';
 const downloads = `<div class="downloads" id="downloads"><a href="downloads/${pdfName}">Article PDF</a><a href="downloads/bibliography.csl.json" download>CSL-JSON</a><a href="downloads/bibliography.bib" download>BibTeX</a><a href="downloads/bibliography.ris" download>RIS</a><a href="downloads/sources.csv" download>CSV</a><a href="downloads/sources.json" download>Evidence JSON</a><a href="downloads/${zipName}" download>Release ZIP</a></div>`;
-const counts = `<div class="release-counts"><span><strong>${verified.length}</strong> checked reference identities</span><span><strong>${core.length}</strong> annotated sources</span><span><strong>${citations.length}</strong> cited in the article</span></div>`;
+const releaseNotesLink = hasReleaseNotes ? '<p class="release-notes-link"><a href="release-notes.html">November release notes</a></p>' : '';
+const counts = `<div class="release-counts"><span><strong>${verified.length}</strong> checked reference identities</span><span><strong>${core.length}</strong> annotated sources</span><span><strong>${citations.length}</strong> cited in the article</span></div>${releaseNotesLink}`;
 const page = (title, body, scripts='', longPage=Boolean(scripts)) => {
   const pageFooter=longPage?footer.replace('</footer>','<a class="back-to-top-link" href="#page-top">Back to top</a></footer>'):footer;
   const topControl=longPage?'<a class="back-to-top" href="#page-top" aria-label="Back to top" title="Back to top" hidden><span aria-hidden="true">↑</span></a><script src="assets/back-to-top.js" defer></script>':'';
@@ -96,7 +98,16 @@ write('site/releases.html', page('Releases and methods | Does AI Help?', `<main 
 const texEscape = text => String(text).replace(/[\\{}%&#_$^~]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','$':'\\$','^':'\\textasciicircum{}','~':'\\textasciitilde{}'}[c]));
 if(hasUpdates) {
   const summary=marked.parse(read('manuscript/update-summary.md'));
-  write('site/updates.html',page('November update summary | Does AI Help?',`<main id="main" class="release-page manuscript update-summary"><p class="eyebrow">${esc(releaseLabel)} · What’s new</p>${summary}<p class="summary-download"><a href="downloads/november-update-summary.md" download>Download Markdown source</a></p></main>`,'',true));
+  write('site/updates.html',page('November update summary | Does AI Help?',`<main id="main" class="release-page manuscript update-summary"><p class="eyebrow">${esc(releaseLabel)} · What’s new</p>${releaseNotesLink}${summary}<p class="summary-download"><a href="downloads/november-update-summary.md" download>Download Markdown source</a></p></main>`,'',true));
+}
+if(hasReleaseNotes) {
+  const notes=read('manuscript/release-notes.md');
+  const noteTokens=marked.lexer(notes);
+  const sections=noteTokens.filter(token=>token.type==='heading' && token.depth===2);
+  const contents=`<nav class="release-notes-contents" aria-label="Release notes contents"><h2>Contents</h2><ul>${sections.map(section=>`<li><a href="#${slug(section.text)}">${esc(section.text)}</a></li>`).join('')}</ul></nav>`;
+  const firstSection=noteTokens.findIndex(token=>token.type==='heading' && token.depth===2);
+  const notesHtml=marked.parser(noteTokens.slice(0,firstSection))+contents+marked.parser(noteTokens.slice(firstSection));
+  write('site/release-notes.html',page('November release notes | Does AI Help?',`<main id="main" class="release-page manuscript update-summary release-notes"><p class="eyebrow">${esc(releaseLabel)} · Changes since October</p>${notesHtml}<p class="summary-download"><a href="downloads/does-ai-help-release-notes-${esc(meta.version)}.md" download>Download release notes as Markdown</a></p></main>`,'',true));
 }
 function texText(text) {
   return text.split(/(\[@[^\]]+\])/g).map(part=>{
@@ -166,7 +177,7 @@ for (const extension of ['json','csv','md']) {
 write('site/.nojekyll','');
 write('site/assets/data.js','window.REVIEW_DATA='+JSON.stringify({sources,citations:JSON.parse(read('site/downloads/bibliography.csl.json')),releaseVersion:meta.version,filteredCslName})+';\n');
 write('site/bibliography.html',read('site/bibliography.html').replace('<script src="assets/bibliography.js" defer></script>',`<script src="assets/data.js?v=${esc(meta.version)}" defer></script><script src="assets/bibliography.js?v=${esc(meta.version)}" defer></script>`));
-for(const filename of ['index.html','bibliography.html','releases.html','cite.html',...(hasUpdates?['updates.html']:[])]) {
+for(const filename of ['index.html','bibliography.html','releases.html','cite.html',...(hasUpdates?['updates.html']:[]),...(hasReleaseNotes?['release-notes.html']:[])]) {
   let source=read('site/'+filename);
   if(filename==='bibliography.html') for(const r of sources) {
     const stable=`<p><strong>Stable ID:</strong> <code>${r.id}</code></p>`;

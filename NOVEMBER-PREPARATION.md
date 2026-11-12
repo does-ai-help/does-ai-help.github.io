@@ -168,6 +168,8 @@ See the [summary of all additions](november/UPDATE-SUMMARY.md), [preview mainten
 
 ## Editorial Priorities
 
+Reader-facing [November release notes](november/RELEASE-NOTES.md) now summarize the complete change from October, not only the latest source intake. Their web view is separate from the short update summary and article/PDF; final status, counts and outstanding checks must be reviewed at publication.
+
 - Review incoming GitHub source suggestions, corrections and substantive alternative interpretations; record admission decisions and overlapping evidence.
 - Search for independent replications, randomized or credible quasi-experimental interventions, longer-run outcomes, null and adverse results, and broad companion reviews.
 - Revisit production quality, security, reviewer effort, accepted output, adoption costs and actual use rather than activity counts alone.
