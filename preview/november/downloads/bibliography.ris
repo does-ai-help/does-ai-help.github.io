@@ -4145,6 +4145,94 @@ DO  - 10.1007/978-1-4842-4221-6
 ER  -
 
 TY  - ELEC
+ID  - apachehttp21196182026
+TI  - CVE-2026-119618: mod_http2 heap corruption and RCE in assign_headers
+AU  - Apache HTTP Server Project
+DA  - 2026-11-11
+N1  - Date basis: Official 2.4.71 release and disclosure date; report dates are separately recorded.
+PY  - 2026
+UR  - https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-119618
+AB  - Confirms a critical HTTP/2 race with potential RCE, fixed in httpd 2.4.71. Credits Anthropic's OSS Scanner and Google Cloud researchers, reporting on 26 October and 3 November respectively.
+N1  - Discovery credit does not establish model identity, autonomous workflow, comparative speed or harms avoided. One flaw has multiple discoverers and publications. Version ranges are not counts of reachable or compromised servers.
+KW  - security
+KW  - engineering
+KW  - verification
+KW  - quality
+KW  - agents
+JO  - Apache HTTP Server security advisories
+ER  -
+
+TY  - ELEC
+ID  - cve1196182026
+TI  - CVE-2026-119618: Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers
+AU  - Apache Software Foundation
+DA  - 2026-11-11
+N1  - Date basis: CVE datePublished 2026-11-11T14:54:08.155Z; inspected record dateUpdated 2026-11-12T09:30:48.936Z.
+PY  - 2026
+UR  - https://www.cve.org/CVERecord?id=CVE-2026-119618
+AB  - Published Apache-assigned record identifies CWE-362, affected httpd and standalone-module ranges, finder credits and report dates. CNA severity is textual critical, not a numeric CVSS score.
+N1  - Metadata and advisory validation, not independent reproduction or evidence of exploitation. Discovery UNKNOWN is not a verdict on AI involvement. ADP links and CNA assertions have different provenance; linked reporting does not become validated by inclusion.
+KW  - security
+KW  - engineering
+KW  - verification
+KW  - methods
+JO  - CVE Program / Apache CNA
+ER  -
+
+TY  - ELEC
+ID  - wizapache2026
+TI  - Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know
+AU  - Bar, Merav
+DA  - 2026-11-11
+N1  - Date basis: Original named byline and publication date.
+PY  - 2026
+UR  - https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability
+AB  - Reports version-based presence in 64% of observed cloud environments and public exposure in 51%, explicitly without configuration checks. Explains operational risk and mitigation.
+N1  - Vendor sample and denominator do not establish global website exposure, HTTP/2 reachability or compromise. Standalone-module table lists 2.0.24 as patched despite an affected range through 2.0.42; do not use it as remediation authority. No-exploit statement is dated, not a current universal fact.
+KW  - security
+KW  - engineering
+KW  - business
+KW  - methods
+KW  - verification
+JO  - Wiz Blog
+ER  -
+
+TY  - ELEC
+ID  - redhatapache2026
+TI  - CVE-2026-119618: Red Hat product-security assessment
+AU  - Red Hat Product Security
+DA  - 2026-11-11
+N1  - Date basis: Associated public CVE disclosure date, not an independently displayed page-publication timestamp; evolving assessment inspected 12 November.
+PY  - 2026
+UR  - https://access.redhat.com/security/cve/cve-2026-119618
+AB  - Explains HTTP/2 preconditions and allocator-dependent risk. Rates RHEL 9/10 Important and RHEL 8 or earlier unaffected; supplies Red Hat's general CVSS 9.8 assessment.
+N1  - Product-specific builds and backports matter; general CVSS is not Apache's or NVD's score. Reports reliable public exploit research, but artifacts were not independently reproduced here. Does not establish in-the-wild exploitation or root-level control.
+KW  - security
+KW  - engineering
+KW  - methods
+KW  - verification
+KW  - quality
+JO  - Red Hat Customer Portal
+ER  -
+
+TY  - ELEC
+ID  - modh2archive2026
+TI  - mod_http2: standalone repository archive notice
+AU  - Eissing, Stefan
+DA  - 2026-06-09
+N1  - Date basis: README archive-notice commit timestamp; latest release v2.0.42 published 29 May 2026.
+PY  - 2026
+UR  - https://github.com/icing/mod_h2/blob/f1417a5d8ac478273aba14ffc591b46e321085b1/README.md
+AB  - Archives the standalone mirror while directing users to Apache's maintained module. Maintainer cites LLM-related pressure on time and mental resources.
+N1  - One maintainer's account, not a causal burnout study. Predates this CVE disclosure and cannot be attributed to it. Does not mean Apache's bundled module is abandoned or that AI's net security impact is negative.
+KW  - engineering
+KW  - security
+KW  - governance
+KW  - work
+JO  - GitHub / icing/mod_h2
+ER  -
+
+TY  - ELEC
 ID  - calligerosasahi2026
 TI  - Progress Report: Linux 7.3
 AU  - Calligeros, James

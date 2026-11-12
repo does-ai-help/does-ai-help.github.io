@@ -6,7 +6,7 @@ Adverse findings are substantive results, not merely qualifications to assistanc
 
 ## November preview: what changes
 
-This draft extends the October synthesis with 147 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 12 November 2026. This is a publicly reviewable draft, not the final November release.
+This draft extends the October synthesis with 152 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 12 November 2026. This is a publicly reviewable draft, not the final November release.
 
 The additions sharpen rather than reverse the central assessment. AI can expand feasible work and uncover valuable defects, while moving constraints into review, remediation, learning and institutions. Positive output effects, adverse task-specific outcomes, null organizational results and explicit opposition remain different kinds of evidence. The updated database retains their reading scopes and methodological limits. The [November update summary](updates.html) and detailed appraisals accompany this draft.
 
@@ -133,6 +133,14 @@ Ghostty illustrates a different policy: responsible AI-written text and code are
 Broader policy evidence prevents prominent bans from becoming a misleading picture of the whole community. Hora, Robbes and Zacchiroli identify 281 policies in a September 2026 study: 83.3% permit or encourage AI code contributions, while 14.9% forbid them. The denominator is identified policies in popular active repositories and selected prominent projects, not all open source. This expanded study is related to the authors' earlier work, not an independent replication; changed sampling and detection also prevent interpreting their different percentages as a clean time trend. Documented rules do not establish compliance, policy effectiveness or net productivity. [@horapolicies2026]
 
 The managerial implication is to evaluate the whole change lifecycle. Useful measures include elapsed time to acceptance, rework, defect escape, security, resource use, and adoption of the delivered capability. The broader question is whether a team obtains more dependable useful functionality for its total effort and cost.
+
+### A concentrated wave of high-impact security fixes
+
+Apache's critical HTTP/2 flaw, CVE-2026-119618, adds to PHP2Shell, the shared Brotli issue reaching Node.js and other runtimes, and *sshole in OpenSSH/musl. Their public fix window spans 21 October to 11 November: several serious AI-assisted findings in widely deployed infrastructure within 22 days. Apache credits Anthropic's OSS Scanner and Google Cloud researchers; httpd 2.4.71 contains the fix. This is a cluster with potentially extensive reach, not merely an isolated coding demonstration. [@apachehttp21196182026; @cve1196182026; @phpoom2026; @phpstale2026; @nodeoct2026; @kultekinssh2026; @alpineauth2026]
+
+The operational implication is overlapping remediation demand: inventory, dependency updates, rebuilds, regression testing and restarts across several layers. OpenSSH maintainers already describe moving to more frequent releases in response to AI-assisted reports and independent rediscoveries. Our synthesis is that organizations should prepare for a possible new norm of compressed high-impact patch cycles. The cluster does not by itself establish a historically unprecedented rate, a sustained trend or measured additional labor. [@openssh106p22026]
+
+Potential reach is not universal exploitability: HTTP/2 configuration and distribution builds matter, and cloud-environment presence is not a breach count. Maintainer credit establishes a contribution without revealing the scanner's complete workflow. The standalone module's June archive notice supplies an earlier, separate example of LLM-related maintenance pressure, not a consequence of this CVE. The emerging question is whether remediation capacity can keep pace with successful discovery. [@redhatapache2026; @wizapache2026; @modh2archive2026]
 
 ### What a machine-checked result does and does not establish
 

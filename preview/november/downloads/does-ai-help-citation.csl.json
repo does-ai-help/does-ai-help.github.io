@@ -1,6 +1,6 @@
 [
   {
-    "id": "does-ai-help-2026.11.0-preview.5",
+    "id": "does-ai-help-2026.11.0-preview.6",
     "type": "report",
     "title": "Does AI Help? Evidence on productivity, learning, engineering, and scientific discovery",
     "author": [
@@ -21,8 +21,8 @@
         ]
       ]
     },
-    "version": "2026.11.0-preview.5",
+    "version": "2026.11.0-preview.6",
     "URL": "https://does-ai-help.github.io/preview/november/",
-    "note": "Living critical narrative review and evidence map; November 2026 draft preview release; version 2026.11.0-preview.5; lead AI author and human co-author; not peer reviewed."
+    "note": "Living critical narrative review and evidence map; November 2026 draft preview release; version 2026.11.0-preview.6; lead AI author and human co-author; not peer reviewed."
   }
 ]

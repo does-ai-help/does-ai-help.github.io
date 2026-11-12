@@ -10146,6 +10146,173 @@
     "DOI": "10.1007/978-1-4842-4221-6"
   },
   {
+    "id": "apachehttp21196182026",
+    "type": "webpage",
+    "title": "CVE-2026-119618: mod_http2 heap corruption and RCE in assign_headers",
+    "URL": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-119618",
+    "author": [
+      {
+        "literal": "Apache HTTP Server Project"
+      }
+    ],
+    "abstract": "Confirms a critical HTTP/2 race with potential RCE, fixed in httpd 2.4.71. Credits Anthropic's OSS Scanner and Google Cloud researchers, reporting on 26 October and 3 November respectively.",
+    "keyword": "security; engineering; verification; quality; agents",
+    "note": "Method: maintainer-security-advisory-and-published-fix. Status: security-advisory. Verification: content-checked (Primary advisory, Eric Covener's disclosure and linked 824beab patch checked. No exploit, scanner or server test run.). Limitations: Discovery credit does not establish model identity, autonomous workflow, comparative speed or harms avoided. One flaw has multiple discoverers and publications. Version ranges are not counts of reachable or compromised servers. Date basis: Official 2.4.71 release and disclosure date; report dates are separately recorded.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Apache HTTP Server security advisories"
+  },
+  {
+    "id": "cve1196182026",
+    "type": "webpage",
+    "title": "CVE-2026-119618: Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers",
+    "URL": "https://www.cve.org/CVERecord?id=CVE-2026-119618",
+    "author": [
+      {
+        "literal": "Apache Software Foundation"
+      }
+    ],
+    "abstract": "Published Apache-assigned record identifies CWE-362, affected httpd and standalone-module ranges, finder credits and report dates. CNA severity is textual critical, not a numeric CVSS score.",
+    "keyword": "security; engineering; verification; methods",
+    "note": "Method: structured-CNA-vulnerability-record. Status: vulnerability-record. Verification: content-checked (cve.org returned a JavaScript shell; official CVEProject cvelistV5 JSON read instead and crosschecked with Apache. This is alternative machine-readable verification, not a local Chrome observation.). Limitations: Metadata and advisory validation, not independent reproduction or evidence of exploitation. Discovery UNKNOWN is not a verdict on AI involvement. ADP links and CNA assertions have different provenance; linked reporting does not become validated by inclusion. Date basis: CVE datePublished 2026-11-11T14:54:08.155Z; inspected record dateUpdated 2026-11-12T09:30:48.936Z.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "CVE Program / Apache CNA"
+  },
+  {
+    "id": "wizapache2026",
+    "type": "webpage",
+    "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
+    "URL": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+    "author": [
+      {
+        "family": "Bar",
+        "given": "Merav"
+      }
+    ],
+    "abstract": "Reports version-based presence in 64% of observed cloud environments and public exposure in 51%, explicitly without configuration checks. Explains operational risk and mitigation.",
+    "keyword": "security; engineering; business; methods; verification",
+    "note": "Method: vendor-exposure-telemetry-and-advisory-commentary. Status: vendor-analysis. Verification: content-checked (Byline/date, explicit configuration caveat and inconsistent standalone-module table checked against Apache, Red Hat and official archived mod_h2 release state. Underlying Wiz telemetry not available for independent analysis.). Limitations: Vendor sample and denominator do not establish global website exposure, HTTP/2 reachability or compromise. Standalone-module table lists 2.0.24 as patched despite an affected range through 2.0.42; do not use it as remediation authority. No-exploit statement is dated, not a current universal fact. Date basis: Original named byline and publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Wiz Blog"
+  },
+  {
+    "id": "redhatapache2026",
+    "type": "webpage",
+    "title": "CVE-2026-119618: Red Hat product-security assessment",
+    "URL": "https://access.redhat.com/security/cve/cve-2026-119618",
+    "author": [
+      {
+        "literal": "Red Hat Product Security"
+      }
+    ],
+    "abstract": "Explains HTTP/2 preconditions and allocator-dependent risk. Rates RHEL 9/10 Important and RHEL 8 or earlier unaffected; supplies Red Hat's general CVSS 9.8 assessment.",
+    "keyword": "security; engineering; methods; verification; quality",
+    "note": "Method: distribution-specific-vulnerability-assessment. Status: vendor-security-advisory. Verification: content-checked (Original product assessment checked for HTTP/2 requirement, per-stream allocator caveat and vendor-specific scoring. Distribution package deployment, errata and exploit claims not independently tested.). Limitations: Product-specific builds and backports matter; general CVSS is not Apache's or NVD's score. Reports reliable public exploit research, but artifacts were not independently reproduced here. Does not establish in-the-wild exploitation or root-level control. Date basis: Associated public CVE disclosure date, not an independently displayed page-publication timestamp; evolving assessment inspected 12 November.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Red Hat Customer Portal"
+  },
+  {
+    "id": "modh2archive2026",
+    "type": "webpage",
+    "title": "mod_http2: standalone repository archive notice",
+    "URL": "https://github.com/icing/mod_h2/blob/f1417a5d8ac478273aba14ffc591b46e321085b1/README.md",
+    "author": [
+      {
+        "family": "Eissing",
+        "given": "Stefan"
+      }
+    ],
+    "abstract": "Archives the standalone mirror while directing users to Apache's maintained module. Maintainer cites LLM-related pressure on time and mental resources.",
+    "keyword": "engineering; security; governance; work",
+    "note": "Method: maintainer-archive-notice-and-release-state. Status: project-maintenance-notice. Verification: content-checked (Original notice and public API confirm archive state, named author, 9 June commit and latest standalone release v2.0.42. No later fixed standalone release established in this inspection.). Limitations: One maintainer's account, not a causal burnout study. Predates this CVE disclosure and cannot be attributed to it. Does not mean Apache's bundled module is abandoned or that AI's net security impact is negative. Date basis: README archive-notice commit timestamp; latest release v2.0.42 published 29 May 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          9
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "GitHub / icing/mod_h2"
+  },
+  {
     "id": "calligerosasahi2026",
     "type": "webpage",
     "title": "Progress Report: Linux 7.3",

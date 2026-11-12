@@ -1,0 +1,29 @@
+{
+  "searched_on": "2026-11-12",
+  "target_release": "2026-11",
+  "approach": "reader-suggested-advisory-primary-CNA-maintainer-distribution-and-repository-crosschecks",
+  "exhaustive": false,
+  "suggested_count": 2,
+  "selected_count": 5,
+  "selected_ids": ["apachehttp21196182026", "cve1196182026", "wizapache2026", "redhatapache2026", "modh2archive2026"],
+  "reused_existing_ids": ["phpoom2026", "phpstale2026", "nodeoct2026", "dotnetbrotli2026", "alpineauth2026", "kultekinssh2026", "openssh106p22026"],
+  "additional_scoped_reading": [{"id": "openssh106p22026", "checked_on": "2026-11-12", "scope": "Stable release note's AI-reporting, independent-rediscovery and faster-release passages reread; no new deployment audit."}, {"id": "kultekinssh2026", "checked_on": "2026-11-12", "scope": "Discoverer's agent-use section reread, not complete historical-commit or exploit revalidation."}],
+  "main_framing": "A concentrated 21 October-11 November public-fix cluster in widely deployed components creates potentially overlapping remediation work. OpenSSH documents faster release cadence. New operational norm is a planning hypothesis, not measured historical rarity or population workload.",
+  "staged_total_after_session": 152,
+  "combined_record_count_after_session": 381,
+  "confirmed_citation_edges": [
+    {"citing": "wizapache2026", "cited": "apachehttp21196182026", "basis": "Original article's Apache release-notes link leads to the security advisory page."},
+    {"citing": "apachehttp21196182026", "cited": "cve1196182026", "basis": "Advisory links the exact CVE; official CVE Program JSON used because site is a JavaScript shell."},
+    {"citing": "cve1196182026", "cited": "apachehttp21196182026", "basis": "CNA vendor-advisory reference checked."},
+    {"citing": "cve1196182026", "cited": "redhatapache2026", "basis": "CVE Program ADP reference followed; not a CNA endorsement of every downstream assessment."}
+  ],
+  "related_artifacts_inspected": [
+    {"url": "https://www.openwall.com/lists/oss-security/2026/11/11/13", "scope": "Original Eric Covener disclosure, credit and timeline; same vulnerability family."},
+    {"url": "https://github.com/apache/httpd/commit/824beab9b9424d6cfb29595248fdbf6c3dddeab1", "scope": "Selected one-line defensive correction; no build or exploitation attempted."},
+    {"url": "https://github.com/icing/mod_h2/releases/tag/v2.0.42", "scope": "Official latest release API confirms 29 May release; repository archived June 9. No fixed standalone 2.0.43 established."}
+  ],
+  "queries": ["CVE-2026-119618 Anthropic Google mod_h2", "ANT-2026-MAPKT6MZ", "site:anthropic.com 119618", "site:cloud.google.com CVE-2026-119618", "mod_h2 2.0.43 119618"],
+  "not_established": ["fully autonomous AI discovery", "model/version used by Anthropic scanner", "comparative cost or time saved", "global website vulnerability prevalence", "in-the-wild compromise", "independently reproduced RCE", "new maintained standalone fixed release", "causal link between this CVE and June archive notice"],
+  "editorial_corrections": ["Wiz's 2.0.24 patched-module table is inconsistent with its own affected range and is not adopted.", "Wiz configuration-blind cloud-environment percentages are not reachability or breach rates.", "Red Hat's public-exploit statement and Wiz's earlier no-exploit statement retain their source/time scopes; no independent exploit audit claimed.", "CVSS 9.8 is Red Hat's score; inspected CNA record supplies textual critical only."],
+  "access_notes": {"cve_org_html": "JavaScript shell only", "official_alternative": "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119618.json", "official_record_updated": "2026-11-12T09:30:48.936Z", "local_chrome_used": false, "release_wide_audit": false, "exploit_or_scanner_run": false, "third_party_full_text_redistributed": false}
+}

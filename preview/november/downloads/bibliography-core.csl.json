@@ -6095,6 +6095,39 @@
     "container-title": "ACM Queue"
   },
   {
+    "id": "apachehttp21196182026",
+    "type": "webpage",
+    "title": "CVE-2026-119618: mod_http2 heap corruption and RCE in assign_headers",
+    "URL": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-119618",
+    "author": [
+      {
+        "literal": "Apache HTTP Server Project"
+      }
+    ],
+    "abstract": "Confirms a critical HTTP/2 race with potential RCE, fixed in httpd 2.4.71. Credits Anthropic's OSS Scanner and Google Cloud researchers, reporting on 26 October and 3 November respectively.",
+    "keyword": "security; engineering; verification; quality; agents",
+    "note": "Method: maintainer-security-advisory-and-published-fix. Status: security-advisory. Verification: content-checked (Primary advisory, Eric Covener's disclosure and linked 824beab patch checked. No exploit, scanner or server test run.). Limitations: Discovery credit does not establish model identity, autonomous workflow, comparative speed or harms avoided. One flaw has multiple discoverers and publications. Version ranges are not counts of reachable or compromised servers. Date basis: Official 2.4.71 release and disclosure date; report dates are separately recorded.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Apache HTTP Server security advisories"
+  },
+  {
     "id": "calligerosasahi2026",
     "type": "webpage",
     "title": "Progress Report: Linux 7.3",
