@@ -255,7 +255,10 @@ class NovemberIntakeTests(unittest.TestCase):
             self.assertEqual(source['staging_status'], 'appraised-not-yet-published')
             self.assertEqual(source['verification']['level'], 'content-checked')
             self.assertTrue(source['verification']['basis'])
-            self.assertLessEqual(source['date'], source['verification']['checked_on'])
+            if source['date']:
+                self.assertLessEqual(source['date'], source['verification']['checked_on'])
+            else:
+                self.assertTrue(source['date_basis'])
             self.assertFalse(set(source['topics']) - set(taxonomy['topics']))
 
     def test_draft_citations_resolve_without_expanding_october(self):

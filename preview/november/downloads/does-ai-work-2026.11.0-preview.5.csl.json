@@ -10146,6 +10146,303 @@
     "DOI": "10.1007/978-1-4842-4221-6"
   },
   {
+    "id": "calligerosasahi2026",
+    "type": "webpage",
+    "title": "Progress Report: Linux 7.3",
+    "URL": "https://asahilinux.org/2026/11/progress-report-7-3/",
+    "author": [
+      {
+        "family": "Calligeros",
+        "given": "James"
+      }
+    ],
+    "abstract": "Announces a transition toward strong copyleft, alleging unattributed reuse and LLM-assisted concealment of origins. Does not name Omarchy or identify offending commits.",
+    "keyword": "engineering; governance; trust; verification; work",
+    "note": "Method: project-progress-report-and-licensing-announcement. Status: project-statement. Verification: content-checked (Named author/date, announced process and lack of named accused party checked against original report; separate repository history inspected for implementation chronology.). Limitations: Participant allegations, not an independent forensic or legal finding. Announcement is not proof every repository has transitioned; does not establish AI productivity effects. Date basis: Original named byline and dateline.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Asahi Linux"
+  },
+  {
+    "id": "dhhomarchym2026",
+    "type": "webpage",
+    "title": "Introducing Omarchy M",
+    "URL": "https://omarchy.org/news/2026/09/introducing-omarchy-m/",
+    "author": [
+      {
+        "family": "Hansson",
+        "given": "David Heinemeier"
+      }
+    ],
+    "abstract": "Frames Omarchy M as an Apple Silicon effort building on Asahi, presenting agent-assisted work and ambitious integration goals.",
+    "keyword": "engineering; agents; governance; productivity",
+    "note": "Method: interested-project-launch-account. Status: project-announcement. Verification: content-checked (Byline/date, Asahi framing and links to actual Mac repositories inspected; no installer or driver executed.). Limitations: Promotional participant account; goals and contributor claims are not independently tested hardware support or measured AI speedup. Current text may have changed since the displayed date. Date basis: Original DHH byline and publication date; current page, not an archived launch snapshot.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Omarchy News"
+  },
+  {
+    "id": "dhhomarchy452026",
+    "type": "webpage",
+    "title": "Omarchy 4.5 floats, speaks 50 languages, and runs on your Mac",
+    "URL": "https://omarchy.org/news/2026/11/omarchy-4-5/",
+    "author": [
+      {
+        "family": "Hansson",
+        "given": "David Heinemeier"
+      }
+    ],
+    "abstract": "Announces Mac integration and a native installer, repeating the launch's Asahi framing and listing shipped features versus future hardware work.",
+    "keyword": "engineering; agents; governance; quality",
+    "note": "Method: official-release-announcement. Status: project-announcement. Verification: content-checked (Official date and scoped Mac claims inspected; tested compatibility and accepted upstream status not independently reproduced.). Limitations: Release announcement is not an independent feature, security or provenance audit. Pull-request counts are not causal AI productivity estimates or evidence that downstream work replaces the upstream stack. Date basis: Official announcement date, distinct from GitHub/secondary release dates on 5 November.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Omarchy News"
+  },
+  {
+    "id": "prakashomarchy2026",
+    "type": "webpage",
+    "title": "\"First We Take Manhattan\": DHH on Omarchy, AI, Asahi and Winning the Linux Desktop",
+    "URL": "https://itsfoss.com/interview/dhh-asahi-omarchy-take/",
+    "author": [
+      {
+        "family": "Prakash",
+        "given": "Abhishek"
+      }
+    ],
+    "abstract": "DHH defends reuse under open-source licenses, asserts compliance and says Asahi's no-AI policy blocks contributions back. Documents his response, not its independent validation.",
+    "keyword": "engineering; governance; agents; business; trust",
+    "note": "Method: published-email-interview-with-project-leader. Status: journalism-interview. Verification: content-checked (Named interviewer/date and direct Q&A checked. Underlying emails and referenced X posts not independently inspected.). Limitations: Interested interviewee; compliance, security comparisons and hypothetical upstreaming are claims, not audited findings. Interviewer framing is not proof of the unnamed targets in Asahi's announcement. Date basis: Original interview byline and publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "It's FOSS"
+  },
+  {
+    "id": "omarchymac2026",
+    "type": "webpage",
+    "title": "Omarchy Mac: repository and installer provenance documentation",
+    "URL": "https://github.com/omacom/omarchy-mac/tree/667500c5eefab78424af66350f5ea7bf40fdede6",
+    "author": [
+      {
+        "literal": "Omacom contributors"
+      }
+    ],
+    "abstract": "README acknowledges the Asahi Alarm base and migration to the newer installer. Related installer documentation separates its own MIT code from externally licensed dependencies and pins upstream inputs.",
+    "keyword": "engineering; governance; verification; quality",
+    "note": "Method: selected-repository-and-dependency-provenance-inspection. Status: software-repository. Verification: content-checked (GitHub HTML and public API inspected. Installer snapshot c07e54c pins upstream installer v0.9.2 and m1n1 06a4601; pinned m1n1 LICENSE separately checked as MIT. No artifacts executed.). Limitations: Selected documentation, license and lock fields only; not complete source comparison, binary audit, license-compliance certification or proof of clean-room development. Legacy script repository and native installer are different artifacts. Date basis: Pinned repository snapshot commit date; not project creation or release date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          8
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "GitHub / Omacom"
+  },
+  {
+    "id": "asahicopyright2021",
+    "type": "webpage",
+    "title": "Copyright & Reverse Engineering",
+    "URL": "https://asahilinux.org/copyright/",
+    "author": [
+      {
+        "literal": "Asahi Linux contributors"
+      }
+    ],
+    "abstract": "Specifies Git authorship, co-development credit, DCO sign-off and provenance controls. Licensing guidance still favors permissive terms on the inspected page, unlike the newer announcement.",
+    "keyword": "engineering; governance; verification; trust",
+    "note": "Method: primary-contribution-and-reverse-engineering-policy. Status: project-documentation. Verification: content-checked (Original HTML and pinned source front matter/history checked. Conflicting permissive guidance retained as a documented transition caveat, not silently harmonized.). Limitations: Living policy with older publication date, not evidence that its current revision existed in 2021. Its legal rationale is project policy, not a court ruling; page does not establish completion or authorization of relicensing. Date basis: Source front matter declares 2021-01-05T20:00:00+09:00; inspected revision includes later changes through 19 July 2026.",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Asahi Linux"
+  },
+  {
+    "id": "m1n1license2026",
+    "type": "webpage",
+    "title": "m1n1: relicence under the GNU General Public License v2",
+    "URL": "https://github.com/AsahiLinux/m1n1/commit/ce2b8a43cea4220b602af1005dc9dbfc59c9624e",
+    "author": [
+      {
+        "family": "Calligeros",
+        "given": "James"
+      },
+      {
+        "literal": "Asahi Linux contributors"
+      }
+    ],
+    "abstract": "Changes m1n1's MIT license file to GPLv2; accompanying README specifies version 2 or later. Provides concrete chronology and license text, not a project-wide transition audit.",
+    "keyword": "engineering; governance; verification",
+    "note": "Method: license-change-diff-and-primary-license-text-inspection. Status: software-revision. Verification: content-checked (Public commit history and diff establish 2 October change and README's or-later term; older pinned MIT file separately inspected. Not an adjudication of the change's legal validity.). Limitations: Does not prove all contributor permissions or compliance by downstream projects. GNU endpoints timed out; GPLv2 text was read in the project's license file, particularly sections 0-3 on scope, modification, aggregation and source provision. Date basis: Exact license-change commit timestamp; predates the November progress report.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          2
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "GitHub / Asahi Linux"
+  },
+  {
+    "id": "mitlicense",
+    "type": "webpage",
+    "title": "The MIT License",
+    "URL": "https://opensource.org/license/mit",
+    "author": [
+      {
+        "literal": "Open Source Initiative"
+      }
+    ],
+    "abstract": "Permits broad reuse, modification and sale subject to retaining copyright and permission notices in copies or substantial portions.",
+    "keyword": "engineering; governance",
+    "note": "Method: canonical-license-text. Status: license-document. Verification: content-checked (Canonical OSI license permissions and notice condition read; no publication date invented.). Limitations: License terms are not a compliance finding about particular code or a resolution of AI training, output ownership or fair-use disputes. Notice retention and social credit are not identical. Date basis: Undated canonical license text; access date is not a publication date.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Open Source Initiative"
+  },
+  {
+    "id": "provenomarchyfunding2026",
+    "type": "webpage",
+    "title": "Omarchy gains $18.5M in backing, fresh converts - and fierce critics",
+    "URL": "https://www.theregister.com/software/2026/09/17/omarchy-gains-185m-in-backing-fresh-converts-and-fierce-critics/5296780",
+    "author": [
+      {
+        "family": "Proven",
+        "given": "Liam"
+      }
+    ],
+    "abstract": "Reports approximately $18.5 million in announced backing, including multiyear commitments and AI tokens. Supplies dated funding context, not audited cash receipts.",
+    "keyword": "engineering; governance; business; cost; work",
+    "note": "Method: secondary-funding-and-community-reporting. Status: journalism. Verification: content-checked (Author/date and funding composition checked against current primary patron tiers and interview framing. No bank records, contracts or exact current aggregate independently reconciled.). Limitations: Interested foundation's reported totals, not independently audited finances or money attributable to particular upstream work. Current patron lists and interview figures refer to different dates; sums must not be silently combined. Political commentary is not adopted here. Date basis: Original named byline and publication timestamp.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "The Register"
+  },
+  {
     "id": "yildirimassessment2026",
     "type": "webpage",
     "title": "Universities Are Giving Up on Trying to Detect AI Cheating",

@@ -1,0 +1,32 @@
+{
+  "searched_on": "2026-11-12",
+  "target_release": "2026-11",
+  "approach": "online-search-primary-project-statements-interview-license-texts-and-pinned-repository-inspection",
+  "exhaustive": false,
+  "queries": ["Omarchy M Asahi Linux controversy attribution AI November 2026", "Omarchy Asahi license", "Omarchy M Asahi November 2026 attribution license", "Asahi Omarchy GPL November 2026 funding attribution licensing", "Asahi Omarchy licensing November 2026 The Register"],
+  "selected_count": 9,
+  "selected_ids": ["calligerosasahi2026", "dhhomarchym2026", "dhhomarchy452026", "prakashomarchy2026", "omarchymac2026", "asahicopyright2021", "m1n1license2026", "mitlicense", "provenomarchyfunding2026"],
+  "reused_existing_ids": ["asahipolicy2026", "gravityabout2026", "gravitypolicy2026"],
+  "staged_total_after_session": 147,
+  "combined_record_count_after_session": 376,
+  "confirmed_citation_edges": [
+    {"citing": "dhhomarchy452026", "cited": "dhhomarchym2026", "basis": "Official release's Omarchy M team link followed to the September announcement."},
+    {"citing": "dhhomarchym2026", "cited": "omarchymac2026", "basis": "Launch links to the Mac project and native installer inspected; repository relationships distinguish legacy script from native installer."},
+    {"citing": "calligerosasahi2026", "cited": "asahicopyright2021", "basis": "Original report footer links Copyright policy; source metadata separately checked through GitHub."}
+  ],
+  "discovery_sources_not_separately_admitted": [
+    {"url": "https://omarchycentral.com/news/asahi-linux-is-moving-to-gpl-version-2-or-later-and-dhh-says-it-changes-nothing-for-omarchy/", "scope": "Read for public framing and links; secondary accounts of X statements not treated as directly verified posts."},
+    {"url": "https://sesamedisk.com/asahi-omarchy-license-fight/", "scope": "Read and followed primary links; generic API User byline and overconfident legal conclusions mean it is not used as legal authority."},
+    {"url": "https://tuxai.dev/omarchy-4-5/", "scope": "Search-discovered dependency leads independently checked in pinned source; not admitted as independent compliance evidence."},
+    {"url": "https://arxiv.org/abs/2512.00867", "scope": "Abstract and HTML methods/limitations screened. Submission 30 November 2025, internal date 24 August 2026 and stated sampling through December 2025 need reconciliation. Keyword-selected sample also cannot measure general AI-use prevalence. Empirical findings deferred, not labeled fabricated."}
+  ],
+  "pinned_artifacts": [
+    {"repository": "https://github.com/omacom/omarchy-mac", "commit": "667500c5eefab78424af66350f5ea7bf40fdede6", "scope": "README and license; snapshot date 8 November, not release date."},
+    {"repository": "https://github.com/omacom/omarchy-mac-installer", "commit": "c07e54c2134a8ec1415e7e2b917589ae1d3d7dc9", "scope": "README and Engine/source-lock.json selected fields. Pins Asahi installer v0.9.2, dffbb38ef0c00c0431c609ecd8a00f42deb5b24c, and m1n1 06a4601a351ebfd1abb6abba9a44c34e40d94776."},
+    {"repository": "https://github.com/AsahiLinux/m1n1", "commit": "06a4601a351ebfd1abb6abba9a44c34e40d94776", "scope": "LICENSE read as MIT, including Asahi copyright notice."},
+    {"repository": "https://github.com/AsahiLinux/m1n1", "commit": "ce2b8a43cea4220b602af1005dc9dbfc59c9624e", "scope": "2 October license-change diff and README's GPLv2-or-later term. GPLv2 text read from project repository."},
+    {"repository": "https://github.com/AsahiLinux/AsahiLinux.github.io", "commit": "1b3c252fa72ed819b5093ccaf98791bd0cf9d7db", "scope": "content/copyright.md front matter and selected policy text; dated 2021 publication with later revision, not newly published July 2026."}
+  ],
+  "funding_context": {"dated_report": "Approximately $18.5 million announced September backing includes multiyear commitments and AI tokens.", "primary_pages_read": ["https://omarchy.org/patrons/", "https://omarchy.org/foundation/"], "not_established": ["audited cash receipts", "exact current aggregate", "funding caused by Asahi work", "Asahi donation displacement", "all support assigned to Omarchy M"]},
+  "access_notes": {"local_chrome_used": false, "release_wide_audit": false, "x_posts_directly_verified": false, "gnu_endpoints": "Repeated timeouts; GPLv2 text inspected in project's LICENSE instead.", "project_code_executed": false, "forensic_source_or_binary_audit": false, "third_party_full_text_redistributed": false}
+}

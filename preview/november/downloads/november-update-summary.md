@@ -1,10 +1,10 @@
 # November 2026 Preview: Evidence Update
 
-Version **2026.11.0-preview.4**, prepared **12 November 2026**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
+Version **2026.11.0-preview.5**, prepared **12 November 2026**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
 
 ## Scale and Scope
 
-The preview combines **229 October records with 138 new records: 367 references**. It also substantively appraises one existing reference, the CHI 2025 critical-thinking survey, without counting it twice. Records include primary studies, linked reporting, expert commentary, project notices and security advisories; they are not 367 independent studies.
+The preview combines **229 October records with 147 new records: 376 references**. It also substantively appraises one existing reference, the CHI 2025 critical-thinking survey, without counting it twice. Records include primary studies, linked reporting, expert commentary, project notices and security advisories; they are not 376 independent studies.
 
 The additional [1 November citation-following search](appraisals/november-citation-followup-2026-11-01.md) admits eleven sources and records seventeen inspected citation links. Its main additions are task-expansion field evidence, cognition reviews, scientific-agent validation and reanalysis, European adoption synthesis and the institutional financing of expertise. [Machine-readable search log](search-2026-11-01.json).
 
@@ -15,6 +15,8 @@ A [second suggested-source appraisal](appraisals/november-formalization-judgment
 The [pre-release cross-topic search](appraisals/november-prerelease-search-2026-11-11.md) admits ten more sources on assisted capability versus knowledge, scientific feedback and evaluation, physical laboratories, hiring, firm sales, agent costs and well-being. [Search and selection log](search-2026-11-11-prerelease.json).
 
 The [12 November assessment appraisal](appraisals/november-assessment-validity-and-ai-detection.md) adds nine records, following reader-suggested reporting to the OfS/Advance HE report, detector research and its correction, product assessments and school policies. It distinguishes assessment validity from authorship classification and policy announcements from observed outcomes. [Selection and link-following log](search-2026-11-12-assessment.json). The intended publication target is **13 November**; this preview's provisional evidence cutoff is **12 November**, and final release checks remain pending.
+
+The [Asahi/Omarchy M case appraisal](appraisals/november-asahi-omarchy-provenance.md) adds nine records on provenance, authorship, licensing, funding and reciprocity. It documents the prominent public interpretation while separating allegations from established repository facts, and funding commitments from received cash. [Online search and source-selection log](search-2026-11-12-omarchy.json).
 
 The update is a targeted narrative-review extension, not an exhaustive systematic search or a pooled effect estimate. Reading scopes vary and are recorded in the evidence map. Source families link overlapping reports and related advisories.
 

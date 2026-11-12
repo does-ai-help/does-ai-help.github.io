@@ -6095,6 +6095,74 @@
     "container-title": "ACM Queue"
   },
   {
+    "id": "calligerosasahi2026",
+    "type": "webpage",
+    "title": "Progress Report: Linux 7.3",
+    "URL": "https://asahilinux.org/2026/11/progress-report-7-3/",
+    "author": [
+      {
+        "family": "Calligeros",
+        "given": "James"
+      }
+    ],
+    "abstract": "Announces a transition toward strong copyleft, alleging unattributed reuse and LLM-assisted concealment of origins. Does not name Omarchy or identify offending commits.",
+    "keyword": "engineering; governance; trust; verification; work",
+    "note": "Method: project-progress-report-and-licensing-announcement. Status: project-statement. Verification: content-checked (Named author/date, announced process and lack of named accused party checked against original report; separate repository history inspected for implementation chronology.). Limitations: Participant allegations, not an independent forensic or legal finding. Announcement is not proof every repository has transitioned; does not establish AI productivity effects. Date basis: Original named byline and dateline.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "Asahi Linux"
+  },
+  {
+    "id": "prakashomarchy2026",
+    "type": "webpage",
+    "title": "\"First We Take Manhattan\": DHH on Omarchy, AI, Asahi and Winning the Linux Desktop",
+    "URL": "https://itsfoss.com/interview/dhh-asahi-omarchy-take/",
+    "author": [
+      {
+        "family": "Prakash",
+        "given": "Abhishek"
+      }
+    ],
+    "abstract": "DHH defends reuse under open-source licenses, asserts compliance and says Asahi's no-AI policy blocks contributions back. Documents his response, not its independent validation.",
+    "keyword": "engineering; governance; agents; business; trust",
+    "note": "Method: published-email-interview-with-project-leader. Status: journalism-interview. Verification: content-checked (Named interviewer/date and direct Q&A checked. Underlying emails and referenced X posts not independently inspected.). Limitations: Interested interviewee; compliance, security comparisons and hypothetical upstreaming are claims, not audited findings. Interviewer framing is not proof of the unnamed targets in Asahi's announcement. Date basis: Original interview byline and publication date.",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ]
+    },
+    "container-title": "It's FOSS"
+  },
+  {
     "id": "ofsassessment2026",
     "type": "report",
     "title": "Making AI work for students: reflections on institutional practice",

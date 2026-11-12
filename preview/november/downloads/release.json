@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.0-preview.4",
-  "snapshot": "2026.11.0-preview.4",
-  "archive_name": "does-ai-help-release-2026.11.0-preview.4.zip",
+  "version": "2026.11.0-preview.5",
+  "snapshot": "2026.11.0-preview.5",
+  "archive_name": "does-ai-help-release-2026.11.0-preview.5.zip",
   "release_status": "draft-preview",
   "release": "2026-11",
   "release_label": "November 2026 draft preview",
@@ -35,9 +35,9 @@
   "doi": null,
   "reference_previews": true,
   "counts": {
-    "total": 367,
-    "verified": 351,
-    "core": 222,
-    "cited": 231
+    "total": 376,
+    "verified": 360,
+    "core": 224,
+    "cited": 239
   }
 }

@@ -3,7 +3,13 @@
 Status: **public draft preview; final release pending**. Branch: `codex/november-2026-preparation`.
 Starting baseline: final October version `2026.10.14`, tags `v2026.10.14` and `october-2026-final`, evidence cutoff 13 October 2026. The affiliation-only patch `2026.10.15` is incorporated without reopening October's scientific content.
 
-The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.4`, with provisional cutoff 12 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+The main site remains on the final October release until a reviewed November release is merged into `main`. A separate public draft is available at `/preview/november/`; current local preparation is `2026.11.0-preview.5`, with provisional cutoff 12 November 2026, pending push/deployment. It does not assert completed release-time verification. October's inputs and artifacts remain the baseline; November has a separate assembled manuscript, evidence map, exports and PDF. Intended first final November version: `2026.11.0`, subject to editorial approval.
+
+### 12 November: Asahi, Omarchy M and Provenance
+
+- [Case appraisal](manuscript/november-asahi-omarchy-provenance.md) and [search log](november/search-2026-11-12-omarchy.json) add nine records, bringing the intake to **147** and the combined evidence map to **376**.
+- The prominent public connection to Omarchy is documented without attributing Asahi's unnamed allegations as proven misconduct. Source pins distinguish the October m1n1 license change, older MIT dependencies and the November project-wide announcement.
+- Funding, attribution, upstream contribution rules, license compliance and AI productivity remain distinct questions. No forensic audit or legal ruling is implied.
 
 ### 12 November: Assessment Validity and AI Detection
 

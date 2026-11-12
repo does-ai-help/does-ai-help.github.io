@@ -4145,6 +4145,158 @@ DO  - 10.1007/978-1-4842-4221-6
 ER  -
 
 TY  - ELEC
+ID  - calligerosasahi2026
+TI  - Progress Report: Linux 7.3
+AU  - Calligeros, James
+DA  - 2026-11-07
+N1  - Date basis: Original named byline and dateline.
+PY  - 2026
+UR  - https://asahilinux.org/2026/11/progress-report-7-3/
+AB  - Announces a transition toward strong copyleft, alleging unattributed reuse and LLM-assisted concealment of origins. Does not name Omarchy or identify offending commits.
+N1  - Participant allegations, not an independent forensic or legal finding. Announcement is not proof every repository has transitioned; does not establish AI productivity effects.
+KW  - engineering
+KW  - governance
+KW  - trust
+KW  - verification
+KW  - work
+JO  - Asahi Linux
+ER  -
+
+TY  - ELEC
+ID  - dhhomarchym2026
+TI  - Introducing Omarchy M
+AU  - Hansson, David Heinemeier
+DA  - 2026-09-11
+N1  - Date basis: Original DHH byline and publication date; current page, not an archived launch snapshot.
+PY  - 2026
+UR  - https://omarchy.org/news/2026/09/introducing-omarchy-m/
+AB  - Frames Omarchy M as an Apple Silicon effort building on Asahi, presenting agent-assisted work and ambitious integration goals.
+N1  - Promotional participant account; goals and contributor claims are not independently tested hardware support or measured AI speedup. Current text may have changed since the displayed date.
+KW  - engineering
+KW  - agents
+KW  - governance
+KW  - productivity
+JO  - Omarchy News
+ER  -
+
+TY  - ELEC
+ID  - dhhomarchy452026
+TI  - Omarchy 4.5 floats, speaks 50 languages, and runs on your Mac
+AU  - Hansson, David Heinemeier
+DA  - 2026-11-04
+N1  - Date basis: Official announcement date, distinct from GitHub/secondary release dates on 5 November.
+PY  - 2026
+UR  - https://omarchy.org/news/2026/11/omarchy-4-5/
+AB  - Announces Mac integration and a native installer, repeating the launch's Asahi framing and listing shipped features versus future hardware work.
+N1  - Release announcement is not an independent feature, security or provenance audit. Pull-request counts are not causal AI productivity estimates or evidence that downstream work replaces the upstream stack.
+KW  - engineering
+KW  - agents
+KW  - governance
+KW  - quality
+JO  - Omarchy News
+ER  -
+
+TY  - ELEC
+ID  - prakashomarchy2026
+TI  - "First We Take Manhattan": DHH on Omarchy, AI, Asahi and Winning the Linux Desktop
+AU  - Prakash, Abhishek
+DA  - 2026-11-10
+N1  - Date basis: Original interview byline and publication date.
+PY  - 2026
+UR  - https://itsfoss.com/interview/dhh-asahi-omarchy-take/
+AB  - DHH defends reuse under open-source licenses, asserts compliance and says Asahi's no-AI policy blocks contributions back. Documents his response, not its independent validation.
+N1  - Interested interviewee; compliance, security comparisons and hypothetical upstreaming are claims, not audited findings. Interviewer framing is not proof of the unnamed targets in Asahi's announcement.
+KW  - engineering
+KW  - governance
+KW  - agents
+KW  - business
+KW  - trust
+JO  - It's FOSS
+ER  -
+
+TY  - ELEC
+ID  - omarchymac2026
+TI  - Omarchy Mac: repository and installer provenance documentation
+AU  - Omacom contributors
+DA  - 2026-11-08
+N1  - Date basis: Pinned repository snapshot commit date; not project creation or release date.
+PY  - 2026
+UR  - https://github.com/omacom/omarchy-mac/tree/667500c5eefab78424af66350f5ea7bf40fdede6
+AB  - README acknowledges the Asahi Alarm base and migration to the newer installer. Related installer documentation separates its own MIT code from externally licensed dependencies and pins upstream inputs.
+N1  - Selected documentation, license and lock fields only; not complete source comparison, binary audit, license-compliance certification or proof of clean-room development. Legacy script repository and native installer are different artifacts.
+KW  - engineering
+KW  - governance
+KW  - verification
+KW  - quality
+JO  - GitHub / Omacom
+ER  -
+
+TY  - ELEC
+ID  - asahicopyright2021
+TI  - Copyright & Reverse Engineering
+AU  - Asahi Linux contributors
+DA  - 2021-01-05
+N1  - Date basis: Source front matter declares 2021-01-05T20:00:00+09:00; inspected revision includes later changes through 19 July 2026.
+PY  - 2021
+UR  - https://asahilinux.org/copyright/
+AB  - Specifies Git authorship, co-development credit, DCO sign-off and provenance controls. Licensing guidance still favors permissive terms on the inspected page, unlike the newer announcement.
+N1  - Living policy with older publication date, not evidence that its current revision existed in 2021. Its legal rationale is project policy, not a court ruling; page does not establish completion or authorization of relicensing.
+KW  - engineering
+KW  - governance
+KW  - verification
+KW  - trust
+JO  - Asahi Linux
+ER  -
+
+TY  - ELEC
+ID  - m1n1license2026
+TI  - m1n1: relicence under the GNU General Public License v2
+AU  - Calligeros, James
+AU  - Asahi Linux contributors
+DA  - 2026-10-02
+N1  - Date basis: Exact license-change commit timestamp; predates the November progress report.
+PY  - 2026
+UR  - https://github.com/AsahiLinux/m1n1/commit/ce2b8a43cea4220b602af1005dc9dbfc59c9624e
+AB  - Changes m1n1's MIT license file to GPLv2; accompanying README specifies version 2 or later. Provides concrete chronology and license text, not a project-wide transition audit.
+N1  - Does not prove all contributor permissions or compliance by downstream projects. GNU endpoints timed out; GPLv2 text was read in the project's license file, particularly sections 0-3 on scope, modification, aggregation and source provision.
+KW  - engineering
+KW  - governance
+KW  - verification
+JO  - GitHub / Asahi Linux
+ER  -
+
+TY  - ELEC
+ID  - mitlicense
+TI  - The MIT License
+AU  - Open Source Initiative
+N1  - Date basis: Undated canonical license text; access date is not a publication date.
+UR  - https://opensource.org/license/mit
+AB  - Permits broad reuse, modification and sale subject to retaining copyright and permission notices in copies or substantial portions.
+N1  - License terms are not a compliance finding about particular code or a resolution of AI training, output ownership or fair-use disputes. Notice retention and social credit are not identical.
+KW  - engineering
+KW  - governance
+JO  - Open Source Initiative
+ER  -
+
+TY  - ELEC
+ID  - provenomarchyfunding2026
+TI  - Omarchy gains $18.5M in backing, fresh converts - and fierce critics
+AU  - Proven, Liam
+DA  - 2026-09-17
+N1  - Date basis: Original named byline and publication timestamp.
+PY  - 2026
+UR  - https://www.theregister.com/software/2026/09/17/omarchy-gains-185m-in-backing-fresh-converts-and-fierce-critics/5296780
+AB  - Reports approximately $18.5 million in announced backing, including multiyear commitments and AI tokens. Supplies dated funding context, not audited cash receipts.
+N1  - Interested foundation's reported totals, not independently audited finances or money attributable to particular upstream work. Current patron lists and interview figures refer to different dates; sums must not be silently combined. Political commentary is not adopted here.
+KW  - engineering
+KW  - governance
+KW  - business
+KW  - cost
+KW  - work
+JO  - The Register
+ER  -
+
+TY  - ELEC
 ID  - yildirimassessment2026
 TI  - Universities Are Giving Up on Trying to Detect AI Cheating
 AU  - Yildirim, Ece

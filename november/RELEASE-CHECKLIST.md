@@ -1,6 +1,6 @@
 # November Publication Readiness
 
-Intended publication target: **13 November 2026**. This is a target, not an approved release. Current preparation: **2026.11.0-preview.4**, provisional evidence cutoff **12 November**. October remains the published edition.
+Intended publication target: **13 November 2026**. This is a target, not an approved release. Current preparation: **2026.11.0-preview.5**, provisional evidence cutoff **12 November**. October remains the published edition.
 
 ## Prepared in This Update
 
@@ -14,6 +14,7 @@ Intended publication target: **13 November 2026**. This is a target, not an appr
 - Recheck high-impact evolving materials, including AlphaProof artifacts, formalization coverage, mathematical claims and security advisories. Released artifacts are not independently reproduced experiments.
 - Run the release-wide identity/link checks and monthly alternative-browser checks specified by the existing policy. Resolve failures or record justified access limits; do not fabricate successful receipts.
 - Review statistical denominators, causal wording, positive/null/adverse evidence and source-family overlap. Keep researcher assistance distinct from autonomy, and activity metrics distinct from outcomes.
+- Recheck the Asahi licensing transition and Omarchy dependency pins. Do not convert unnamed allegations into proven misconduct, combine dated funding totals, or claim a completed forensic/license-compliance audit.
 - Rebuild and inspect the final web/PDF/exports, confirm download checksums and October preservation, and run tests and browser QA.
 - Set final release date, cutoff, version and changelog together only after editorial approval. Merge/tag deliberately; pushing a preview does not close November or replace October.
 

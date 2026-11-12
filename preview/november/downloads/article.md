@@ -6,7 +6,7 @@ Adverse findings are substantive results, not merely qualifications to assistanc
 
 ## November preview: what changes
 
-This draft extends the October synthesis with 138 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 12 November 2026. This is a publicly reviewable draft, not the final November release.
+This draft extends the October synthesis with 147 newly appraised source records and a substantive reassessment of an existing critical-thinking paper. Records include studies, related reports, advisories and commentary: the number is not a count of independent experiments. The provisional evidence cutoff is 12 November 2026. This is a publicly reviewable draft, not the final November release.
 
 The additions sharpen rather than reverse the central assessment. AI can expand feasible work and uncover valuable defects, while moving constraints into review, remediation, learning and institutions. Positive output effects, adverse task-specific outcomes, null organizational results and explicit opposition remain different kinds of evidence. The updated database retains their reading scopes and methodological limits. The [November update summary](updates.html) and detailed appraisals accompany this draft.
 
@@ -391,6 +391,14 @@ A deployment can succeed without full autonomy. It can also be valuable without 
 The evidence is strongest for specific task and workflow benefits, increasingly informative about downstream engineering constraints, and still heterogeneous on learning and labor effects. Scientific benefits range from well-established specialized predictions to emerging agent workflows with very different degrees of validation. The largest opportunity may include work previously regarded as too complex or expensive to pursue, but its value must still be established through credible results and relevant outcomes.
 
 Our answer to "Does AI Help?" is therefore **yes in demonstrated settings, no in some tested settings, and unresolved in many others**. AI already helps people produce, search, calculate and explore; it has also measurably slowed expert work, weakened some learning or comprehension outcomes, and imposed costs on reviewers and institutions. Gains and losses can coexist in the same intervention. This collection does not establish whether positive or negative net effects predominate across intellectual work: the outcomes and populations are too different, and selection is not exhaustive. The next research priority is measuring those relationships over time, rather than extrapolating one task's percentage to an entire institution.
+
+### Open-source benefits depend on provenance and reciprocity
+
+The Asahi/Omarchy M controversy extends the question from faster development to who receives credit and sustains the underlying work. Omarchy explicitly frames its Apple Silicon effort as finishing what Asahi started. Asahi subsequently announces stronger copyleft, alleging unattributed reuse and LLM-assisted concealment without naming an accused project. DHH defends licensed reuse and says the AI contribution ban prevents upstreaming. The public connection is substantial, but specific misconduct is not established by these statements alone. [@dhhomarchym2026; @calligerosasahi2026; @prakashomarchy2026]
+
+Funding gives the reciprocity dispute material context: reported backing includes multiyear pledges and AI tokens, not only received cash. Repository evidence also complicates a simple narrative: Omarchy acknowledges its Asahi base, while an inspected installer pins an older MIT-licensed m1n1 revision despite that component's later GPL transition. This is selected provenance evidence, not a compliance certification. [@provenomarchyfunding2026; @omarchymac2026; @m1n1license2026]
+
+License permission, retained notices, community credit, contribution acceptance and clean-room provenance are distinct obligations or expectations. Neither an LLM rewrite nor a functioning product establishes independent origin; copyleft is not a general ban on commercial forks or AI. Our interpretation is that assistance can benefit downstream users while redistributing credit and maintenance costs. This case exposes that possibility, not its measured net effect. [@mitlicense; @asahicopyright2021; @asahipolicy2026]
 
 ### Adoption and expertise have institutional denominators
 
