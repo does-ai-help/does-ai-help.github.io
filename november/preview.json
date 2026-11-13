@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.0-preview.6",
+  "version": "2026.11.0-preview.7",
   "release": "2026-11",
   "release_label": "November 2026 draft preview",
-  "release_date": "2026-11-12",
+  "release_date": "2026-11-13",
   "cutoff": "2026-11-12",
   "release_status": "draft-preview",
   "reference_previews": true,
   "canonical_url": "https://does-ai-help.github.io/preview/november/",
   "preview_path": "/preview/november/",
   "baseline_commit": "0a8feb7",
-  "notice": "November work in progress, updated 12 November 2026. Provisional evidence cutoff; editorial review and release-time verification remain pending. The published October edition is unchanged."
+  "notice": "November work in progress, updated 13 November 2026. Provisional evidence cutoff: 12 November; source-verification follow-up: 13 November. Editorial approval is pending. Four contextual references are retained as currently unverified by explicit editorial decision. The published October edition is unchanged."
 }

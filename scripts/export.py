@@ -16,10 +16,12 @@ def csl_author(name):
     return {"literal": name}
 
 
-def to_csl(r):
+def to_csl(r, access_note=''):
     status = r["publication_status"]
     kind = "paper-conference" if status == "peer-reviewed-conference" else "article-journal" if status.startswith("peer-reviewed") else "manuscript" if status == "preprint" else "report" if "paper" in status or "report" in status else "webpage"
     item = {"id": r["id"], "type": kind, "title": r["title"], "URL": r["url"], "author": [csl_author(a) for a in r["authors"]], "abstract": r["summary"], "keyword": "; ".join(r["topics"]), "note": f"Method: {r['method']}. Status: {status}. Verification: {r['verification']['level']} ({r['verification'].get('basis','')}). Limitations: {r['limitations']}"}
+    if access_note:
+        item['note'] = access_note + ' Earlier reading history: ' + item['note']
     if r.get("editors"):
         item["editor"] = [csl_author(a) for a in r["editors"]]
         item["type"] = "book"
@@ -68,18 +70,27 @@ def bib_short_commits(value):
 
 def main():
     records = json.loads((ROOT / "data/sources.json").read_text())
+    release = json.loads((ROOT / 'data/release.json').read_text())
+    decisions = json.loads((ROOT / 'data/identity-exceptions.json').read_text())
+    access_notes = {d['id']: 'Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation.'
+                    for d in decisions if d.get('decision') == 'retain-unverified-access-blocked' and d.get('release_month') == release['release']}
     verified = [r for r in records if r["verified"]]
     output = ROOT / "site/downloads"
     output.mkdir(parents=True, exist_ok=True)
-    for filename, data in [("sources.json", records), ("bibliography.csl.json", [to_csl(r) for r in verified]), ("bibliography-core.csl.json", [to_csl(r) for r in verified if r['editorial_priority']=='core'])]:
+    for filename, data in [("sources.json", records), ("bibliography.csl.json", [to_csl(r, access_notes.get(r['id'], '')) for r in verified]), ("bibliography-core.csl.json", [to_csl(r, access_notes.get(r['id'], '')) for r in verified if r['editorial_priority']=='core'])]:
         (output / filename).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     (output / "sources.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
     fields = ["id", "title", "authors", "author_display", "authorship_basis", "author_note", "editors", "publisher", "year", "date", "date_basis", "url", "doi", "arxiv_id", "study_family", "topics", "method", "publication_status", "summary", "limitations", "verified", "verification_level", "verification_scope", "checked_on", "version_note", "browser_method", "browser_checked_at", "browser_scope", "document_method", "document_checked_on", "document_sha256", "document_scope"]
+    if access_notes:
+        fields += ['current_release_access_status', 'current_release_access_decision']
     with (output / "sources.csv").open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=fields)
         writer.writeheader()
         for r in records:
             row = {k: r.get(k, "") for k in fields}
+            if r['id'] in access_notes:
+                row.update(current_release_access_status='unverified-deferred',
+                           current_release_access_decision='retain-unverified-access-blocked')
             row.update(authors="; ".join(r["authors"]), topics="; ".join(r["topics"]), verification_level=r["verification"]["level"], verification_scope=r["verification"].get("basis", ""), checked_on=r["verification"].get("checked_on", ""))
             row["editors"] = "; ".join(r.get("editors", []))
             browser = r.get("browser_verification", {})
@@ -90,6 +101,8 @@ def main():
     bib, ris = [], []
     for r in verified:
         values = {"title": "{" + bib_escape(r["title"]) + "}", "url": r["url"], "note": bib_escape(r["limitations"] + " Verification: " + r["verification"]["level"])}
+        if r['id'] in access_notes:
+            values['note'] = bib_escape(access_notes[r['id']]) + ' Earlier reading history: ' + values['note']
         if r.get("version_note"):
             values["note"] += " Version: " + bib_escape(r["version_note"])
         if r.get("browser_verification"):
@@ -124,6 +137,8 @@ def main():
             kind = "book"
         bib.append("@" + kind + "{" + r["id"] + ",\n" + ",\n".join("  " + key + " = {" + bib_short_commits(val) + "}" for key, val in values.items()) + "\n}\n")
         rows = ["TY  - " + ("BOOK" if kind == "book" else "CPAPER" if kind == "inproceedings" else "JOUR" if kind == "article" else "ELEC"), "ID  - " + r["id"], "TI  - " + r["title"], *["AU  - " + a for a in r["authors"]], *["A2  - " + a for a in r.get("editors", [])]]
+        if r['id'] in access_notes:
+            rows.append('N1  - ' + access_notes[r['id']])
         if r.get("publisher"):
             rows.append("PB  - " + r["publisher"])
         if r.get("date"):

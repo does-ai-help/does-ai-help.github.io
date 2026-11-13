@@ -258,19 +258,44 @@ def apply_browser_receipt(result, receipt, source, release):
     return result
 
 
+def access_deferral_valid(decision, result, source, release, today):
+    from browser_review import fingerprint
+    if result['identity_status'] not in {'unresolved', 'unverified-deferred'} or result.get('conflicts'):
+        return False
+    if any(o.get('access', {}).get('status') in {404, 410} for o in result.get('observations', [])):
+        return False
+    try:
+        approved = dt.date.fromisoformat(decision['approved_on'])
+        expires = dt.date.fromisoformat(decision['expires_on'])
+        current = dt.date.fromisoformat(today)
+    except (KeyError, ValueError, TypeError):
+        return False
+    return bool(decision.get('decision') == 'retain-unverified-access-blocked'
+                and decision.get('release_month') == release['release']
+                and approved.strftime('%Y-%m') == expires.strftime('%Y-%m') == release['release']
+                and approved <= current <= expires and (expires - approved).days <= 31
+                and decision.get('approved_by') and decision.get('approval_basis') and decision.get('reason')
+                and decision.get('id') == source['id']
+                and decision.get('url') == source['url']
+                and decision.get('expected_title') == source['title']
+                and decision.get('source_fingerprint') == fingerprint(source))
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--strict", action="store_true", help="Exit nonzero for unresolved checked identities or any mismatch")
     parser.add_argument("--workers", type=int, default=5)
     parser.add_argument("--output", type=Path, default=ROOT / "build/reference-verification.json")
     parser.add_argument("--limit", type=int)
-    parser.add_argument("--retry-unresolved", action="store_true", help="Retry unresolved identities using a complete same-database audit from the last 24 hours")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--retry-unresolved", action="store_true", help="Retry unresolved identities using a complete same-database audit from the last 24 hours")
+    mode.add_argument("--apply-review-decisions", action="store_true", help="Apply explicit editorial decisions to a matching recent audit, without network requests")
     args = parser.parse_args()
     database_bytes = (ROOT / "data/sources.json").read_bytes()
     records = json.loads(database_bytes)
     all_records = records
     previous = None
-    if args.retry_unresolved:
+    if args.retry_unresolved or args.apply_review_decisions:
         previous = json.loads(args.output.read_text())
         age = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(previous["checked_at"])
         if not previous.get("complete") or previous.get("database_sha256") != hashlib.sha256(database_bytes).hexdigest() or not 0 <= age.total_seconds() <= 86400:
@@ -279,8 +304,11 @@ def main():
         records = [r for r in records if r["id"] in retry_ids]
     if args.limit:
         records = records[:args.limit]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-        results = list(pool.map(check, records))
+    if args.apply_review_decisions:
+        results = previous['records']
+    else:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
+            results = list(pool.map(check, records))
     if previous:
         new = {r["id"]: r for r in results}
         results = [new.get(r["id"], r) for r in previous["records"]]
@@ -291,11 +319,16 @@ def main():
     byid = {r["id"]: r for r in all_records}
     exceptions = {e["id"]: e for e in json.loads((ROOT / "data/identity-exceptions.json").read_text())}
     for result in results:
+        if result['identity_status'] == 'unverified-deferred':
+            result['identity_status'] = 'unresolved'
+        result.pop('access_deferral', None)
         receipt = browser_checks.get(result["id"])
         apply_browser_receipt(result, receipt, byid[result["id"]], release)
         ex = exceptions.get(result["id"], {})
         if exception_valid(ex, result, today):
             result.update(identity_status="manual-confirmation", manual_review=ex)
+        if access_deferral_valid(ex, result, byid[result['id']], release, today):
+            result.update(identity_status='unverified-deferred', access_deferral=ex)
     # DOI duplicates may be related versions, but unrelated identities need inspection.
     duplicates = []
     groups = {}
@@ -306,17 +339,23 @@ def main():
         if len(group) > 1:
             duplicates.append({"doi": doi, "ids": [r["id"] for r in group]})
     failures = [r["id"] for r in results if r["identity_status"] == "mismatch" or (r["checked_reference"] and r["identity_status"] == "unresolved")]
+    deferred = [r['id'] for r in results if r['identity_status'] == 'unverified-deferred']
     fingerprint = hashlib.sha256(database_bytes).hexdigest()
     report = {"checked_at": previous["checked_at"] if previous else dt.datetime.now(dt.timezone.utc).isoformat(), "retry_completed_at": dt.datetime.now(dt.timezone.utc).isoformat() if previous else None, "scope": "Live access and bibliographic identity, not scientific validity or claim support. Similarity checks can miss errors; substantive and version warnings require editorial review.",
               "database_sha256": fingerprint, "complete": len(results) == len(all_records), "counts": dict(Counter(r["identity_status"] for r in results)),
-              "blocking_ids": failures, "duplicate_dois": duplicates, "records": results}
+              "blocking_ids": failures, "deferred_unverified_ids": deferred,
+              "review_decisions_applied_at": dt.datetime.now(dt.timezone.utc).isoformat() if args.apply_review_decisions else None,
+              "review_decisions_only": args.apply_review_decisions,
+              "duplicate_dois": duplicates, "records": results}
+    if args.apply_review_decisions:
+        report['retry_completed_at'] = previous.get('retry_completed_at')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
     with args.output.with_suffix(".csv").open("w", newline="") as stream:
         writer = csv.writer(stream)
-        writer.writerow(["id", "identity_status", "title", "url", "doi", "warnings"])
-        writer.writerows([r["id"], r["identity_status"], r["expected_title"], r["url"], r["doi"], "; ".join(r["conflicts"] + r["warnings"])] for r in results)
-    args.output.with_suffix(".md").write_text("# Reference identity audit\n\nChecked: " + report["checked_at"] + "\n\n" + report["scope"] + "\n\nCounts: " + str(report["counts"]) + "\n\nBlocking IDs: " + (", ".join(failures) or "none") + "\n\nSee the accompanying JSON/CSV for observed metadata, redirects, access failures and warnings.\n")
+        writer.writerow(["id", "identity_status", "title", "url", "doi", "warnings", "access_decision"])
+        writer.writerows([r["id"], r["identity_status"], r["expected_title"], r["url"], r["doi"], "; ".join(r["conflicts"] + r["warnings"]), r.get('access_deferral', {}).get('decision', '')] for r in results)
+    args.output.with_suffix(".md").write_text("# Reference identity audit\n\nChecked: " + report["checked_at"] + "\n\n" + report["scope"] + "\n\nCounts: " + str(report["counts"]) + "\n\nBlocking IDs: " + (", ".join(failures) or "none") + "\n\nRetained but currently unverified (explicit monthly editorial deferral, not confirmation): " + (", ".join(deferred) or "none") + "\n\nEditorial deferrals do not refresh access timestamps or establish source correctness. See the accompanying JSON/CSV for observations and decisions.\n")
     print(json.dumps({k: report[k] for k in ("counts", "complete", "blocking_ids")}, indent=2))
     if args.strict and (failures or not report["complete"]):
         raise SystemExit(1)

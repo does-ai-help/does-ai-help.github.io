@@ -2,7 +2,7 @@
 
 **Does AI Help?** Changes from the published October edition to the November preparation draft.
 
-**Status:** draft notes for version **2026.11.0-preview.6**, prepared **12 November 2026**. The intended publication date is **13 November**, subject to editorial approval. The current evidence cutoff is **12 November**. These notes do not announce a completed release, a new immutable tag or a completed release-wide verification audit.
+**Status:** draft notes for version **2026.11.0-preview.7**, prepared **13 November 2026**. The intended publication date is **13 November**, subject to editorial approval. The current evidence cutoff is **12 November**; source-verification follow-up continued on **13 November**. These notes do not announce a completed release or a new immutable tag.
 
 [Read the November review](./) · [Browse the evidence map](bibliography.html) · [Short update summary](updates.html) · [Published October edition](https://does-ai-help.github.io/)
 
@@ -128,10 +128,16 @@ These are changes in emphasis and integration, not a numerical verdict obtained 
 
 Final November publication still requires editorial approval, release-wide identity/access checks and appropriately dated alternative-browser refreshes. Selected inspections retain their actual dates; this draft does not claim that all references were rechecked in November.
 
-Full-text follow-up remains important for the final Wiles article, AutoDNA, NBER 36003 and selected NBER, ILO and Joule material. Subscription-limited and abstract-only evidence keeps its narrower scope. Mathematical claims and formal-verification artifacts have not been independently reproduced here.
+The 12 November preparation pass completed the full automated identity/link audit and recorded monthly browser revisits for the explicitly selected watchlist. On 13 November, local Chrome inspection of reader-opened tabs and Gravity Linux's official repository resolved ten previously problematic reference identities. Gravity's live-domain filtering remains a separate access condition, not evidence against the source's authenticity or an independent website-safety verdict. [Detailed verification results and remaining actions](downloads/does-ai-help-release-readiness-2026.11.0-preview.7.md) distinguish confirmed sources, failed access and pending decisions.
+
+A later new-network check on 13 November confirmed that both live Gravity pages load and match the pinned sources. HESA also loaded successfully after an intermediate security-check page. The Daily Californian article and three LKML messages remain currently unverified; the explicit editorial decision below makes these four access failures non-blocking, without implying verification.
+
+The human coauthor subsequently approved retaining those four references as **currently unverified and non-blocking for November**. This is a limited editorial access decision, not source confirmation. The records carry visible notices and citation-manager notes; their prior reading history remains separate. [The downloadable decision manifest](downloads/does-ai-help-access-deferrals-2026.11.0-preview.7.json) identifies the exact citations, approval and month-end expiry. These sources will be reconsidered in the next monthly review rather than holding up November for repairs to third-party access.
+
+Verification covers authentic sources, bibliographic identity, versions, the support for cited statements within the material actually read, and relationships between sources. This is a reference review, not a reproduction study: rerunning experiments, compiling third-party proofs or independently establishing the cited theses is not a release requirement. Subscription-limited and abstract-only evidence retains its narrower scope; fuller reading is desirable where feasible, not a reason to imply that unavailable methods have been inspected.
 
 Evolving project-policy status, security exploitation reports, fixed packages and repository pins need release-time review. Final date, cutoff, version, checksums and tag must be set together deliberately. The published October baseline must remain preserved.
 
-[Read the release-readiness checklist](downloads/does-ai-help-release-checklist-2026.11.0-preview.6.md) · [Suggest evidence or corrections on GitHub](https://github.com/does-ai-help/does-ai-help.github.io/issues/new/choose) · [Propose a change](https://github.com/does-ai-help/does-ai-help.github.io/pulls)
+[Read the release-readiness checklist](downloads/does-ai-help-release-checklist-2026.11.0-preview.7.md) · [Suggest evidence or corrections on GitHub](https://github.com/does-ai-help/does-ai-help.github.io/issues/new/choose) · [Propose a change](https://github.com/does-ai-help/does-ai-help.github.io/pulls)
 
 Community suggestions are reviewed for subsequent monthly editions. Please identify the relevant source and claim, distinguish new evidence from commentary, and disclose access or methodological limitations when known.

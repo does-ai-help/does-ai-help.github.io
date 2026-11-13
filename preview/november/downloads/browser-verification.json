@@ -321,8 +321,8 @@
       "outcome": "identity-confirmed",
       "scientific_correctness_verified": false,
       "timestamp_basis": "Batch recording/completion time; observations collected during the local Chrome review on this date."
-    }
-    ,{
+    },
+    {
       "id": "ref-10b59b402b",
       "method": "local-chrome-native",
       "release_month": "2026-10",
@@ -336,55 +336,1540 @@
         "title": "Introducing SWE-bench Verified",
         "publication_date": "2024-08-13",
         "resolved_url": "https://openai.com/index/introducing-swe-bench-verified/",
-        "authors": ["Neil Chowdhury", "James Aung", "Chan Jun Shern", "Oliver Jaffe", "Dane Sherburn", "Giulio Starace", "Evan Mays", "Rachel Dias", "Marwan Aljubeh", "Mia Glaese", "Carlos E. Jimenez", "John Yang", "Leyton Ho", "Tejal Patwardhan", "Kevin Liu", "Aleksander Madry"]
+        "authors": [
+          "Neil Chowdhury",
+          "James Aung",
+          "Chan Jun Shern",
+          "Oliver Jaffe",
+          "Dane Sherburn",
+          "Giulio Starace",
+          "Evan Mays",
+          "Rachel Dias",
+          "Marwan Aljubeh",
+          "Mia Glaese",
+          "Carlos E. Jimenez",
+          "John Yang",
+          "Leyton Ho",
+          "Tejal Patwardhan",
+          "Kevin Liu",
+          "Aleksander Madry"
+        ]
       },
       "scope": "Primary heading, publication date, separate update date and named Authors section in local Chrome accessibility view.",
       "notes": "Publication is 13 August 2024; update is 24 February 2025. OpenAI is publisher, with named authors credited. This recheck updates citation identity only; benchmark findings were not independently validated."
-    }
-    ,{
-      "id": "ref-47ac0a3015", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
-      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2", "source_fingerprint": "700ebfb88a23d61ec3163aab0a67c76d45b84920fcd7a8a24a27c8485136ee5e",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
-      "observed": {"title": "The New Developer: AI Skill Threat, Identity Change & Developer Thriving in the Transition to AI-Assisted Software Development", "authors": ["Catherine M. Hicks", "Carol Lee", "Kristen Foster-Marks"], "publication_date": "2025-03-15", "doi": "10.31234/osf.io/2gej5_v2", "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"},
+    },
+    {
+      "id": "ref-47ac0a3015",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+      "source_fingerprint": "700ebfb88a23d61ec3163aab0a67c76d45b84920fcd7a8a24a27c8485136ee5e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "The New Developer: AI Skill Threat, Identity Change & Developer Thriving in the Transition to AI-Assisted Software Development",
+        "authors": [
+          "Catherine M. Hicks",
+          "Carol Lee",
+          "Kristen Foster-Marks"
+        ],
+        "publication_date": "2025-03-15",
+        "doi": "10.31234/osf.io/2gej5_v2",
+        "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"
+      },
       "scope": "OSF title, bylines, version-2 DOI, submitted/last-edited dates, data/preregistration declarations and embedded PDF first page and filename (55 pages).",
       "notes": "OSF retains the older title while its embedded AIST_ Preprint Update.pdf has the revised AI Skill Threat title, matching the supplied PDF. Preprint version 2 and embedded file's internal Version: 1 are distinct. Raw data are not public; no scientific claim or preregistration compliance independently validated.",
       "timestamp_basis": "Batch recording time following the observed local Chrome checks."
     },
     {
-      "id": "ref-283d4e8368", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
-      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932", "source_fingerprint": "aa54cbc8388465451d78005f475600027fe0ab0d3d694bc727a0d5fa149f1c83",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
-      "observed": {"title": "Self-Regulated AI Use Hinders Long-Term Learning", "authors": ["Stefanos Poulidis", "Hamsa Bastani", "Osbert Bastani"], "publication_date": "2025-10-16", "doi": "10.2139/ssrn.5604932", "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932"},
+      "id": "ref-283d4e8368",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+      "source_fingerprint": "aa54cbc8388465451d78005f475600027fe0ab0d3d694bc727a0d5fa149f1c83",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Self-Regulated AI Use Hinders Long-Term Learning",
+        "authors": [
+          "Stefanos Poulidis",
+          "Hamsa Bastani",
+          "Osbert Bastani"
+        ],
+        "publication_date": "2025-10-16",
+        "doi": "10.2139/ssrn.5604932",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932"
+      },
       "scope": "SSRN heading, three bylines, 63-page count, posting date, written date, 1 August 2026 revision and DOI in suggested citation.",
       "notes": "Matches supplied ssrn-5604932.pdf. Written, posted and revised dates are distinct. Scientific appraisal uses scoped reading of the supplied PDF, not browser metadata alone; no replication.",
       "timestamp_basis": "Batch recording time following the observed local Chrome checks."
     },
     {
-      "id": "ref-776550e112", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
-      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078", "source_fingerprint": "85ab5909c48f1eb11762ac8a7c04c0f7f66091cdc36cf8b28137f4e3297466d2",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
-      "observed": {"title": "Does Working with AI Agents Change How Developers Code, Test, and Review?", "authors": ["Muhammad Hamza", "Dominik Siemon", "Wardah Naeem Awan"], "publication_date": "2026-07-18", "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"},
+      "id": "ref-776550e112",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+      "source_fingerprint": "85ab5909c48f1eb11762ac8a7c04c0f7f66091cdc36cf8b28137f4e3297466d2",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+        "authors": [
+          "Muhammad Hamza",
+          "Dominik Siemon",
+          "Wardah Naeem Awan"
+        ],
+        "publication_date": "2026-07-18",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"
+      },
       "scope": "Original SSRN title, authors, posted 18 July 2026, written 25 June 2026 and no-download notice; reached through the actual 7070979 version-menu link.",
       "notes": "Original record is not the supplied PDF's version. Retained as identity-checked related version; not independently appraised or counted as replication.",
       "timestamp_basis": "Batch recording time following the observed local Chrome checks."
     },
     {
-      "id": "hamza-preprint2026", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T08:11:25+00:00",
-      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979", "source_fingerprint": "318fc32e30a804c4ba5fc5047988b8debade99b7c685db7e746d50a38eaf6cf6",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
-      "observed": {"title": "Does Working with AI Agents Change How Developers Code, Test, and Review?", "authors": ["Muhammad Hamza", "Dominik Siemon", "Wardah Naeem Awan"], "publication_date": "2026-07-24", "doi": "10.2139/ssrn.7070979", "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979"},
+      "id": "hamza-preprint2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T08:11:25+00:00",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979",
+      "source_fingerprint": "318fc32e30a804c4ba5fc5047988b8debade99b7c685db7e746d50a38eaf6cf6",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+        "authors": [
+          "Muhammad Hamza",
+          "Dominik Siemon",
+          "Wardah Naeem Awan"
+        ],
+        "publication_date": "2026-07-24",
+        "doi": "10.2139/ssrn.7070979",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979"
+      },
       "scope": "SSRN title, bylines, 12-page count, posted/written dates, suggested-citation DOI and expanded version menu linking 6996078.",
       "notes": "Matches supplied ssrn-7070979.pdf; posted 24 July and written 7 July 2026. The unfinished LIPIcs DOI in the preprint is not used as a real identifier. The subsequently published paper has its own verified DOI.",
       "timestamp_basis": "Batch recording time following the observed local Chrome checks."
     },
     {
-      "id": "ref-e299630b86", "method": "local-chrome-native", "release_month": "2026-10", "checked_at": "2026-10-13T16:10:55+00:00",
-      "source_url": "https://openai.com/index/ten-advances-in-mathematics", "source_fingerprint": "ec17dd50ca8a97ba0200301feed7d11580f8989a42de5080cd0f4ca3cdc9a6af",
-      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)", "outcome": "identity-confirmed", "scientific_correctness_verified": false,
-      "observed": {"title": "Ten advances in mathematics and theoretical computer science", "publication_date": "2026-08-01", "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"},
+      "id": "ref-e299630b86",
+      "method": "local-chrome-native",
+      "release_month": "2026-10",
+      "checked_at": "2026-10-13T16:10:55+00:00",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source_fingerprint": "ec17dd50ca8a97ba0200301feed7d11580f8989a42de5080cd0f4ca3cdc9a6af",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "scientific_correctness_verified": false,
+      "observed": {
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "publication_date": "2026-08-01",
+        "resolved_url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
       "scope": "Loaded official announcement in local Chrome: page title, 1 August 2026 date, official publisher address and links to mathematical papers.",
       "notes": "New inspection binds the corrected citation identity. OpenAI institutional attribution was checked separately in primary web-retrieved header text; no individual byline was exposed in Chrome's accessibility header. Linked manuscripts and mathematical correctness were not inspected or certified.",
       "timestamp_basis": "Recording time following the observed local Chrome check."
+    },
+    {
+      "id": "ahm2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:14:32Z",
+      "source_url": "https://www.ahmath.org/statements",
+      "source_fingerprint": "206d1c440f2469390f3b47e840c96088b7dcc0475dc2526db77a34092ebbef8b",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "AHM Statement on OpenAI’s October 6 Release of Mathematical Documents",
+        "resolved_url": "https://www.ahmath.org/statements"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Statement and institutional signature read; a normative position, not a proof-validity assessment."
+    },
+    {
+      "id": "nscc2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:14:39Z",
+      "source_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education",
+      "source_fingerprint": "292983dd99c1445dbe9618c4eadcba247c57a556767125cda8c7bc25e88103f9",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The Changing Landscape of Postsecondary Education",
+        "resolved_url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Dated institutional article read. Enrollment changes do not identify an AI causal effect."
+    },
+    {
+      "id": "hesa2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:14:42Z",
+      "source_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+      "source_fingerprint": "c56c35eda1ba0ce6b9409ffec43b6d9b327a510da0e8549c27d7e554ed0e9bf3",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Performing security verification",
+        "resolved_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Cloudflare verification prevented source inspection; no challenge bypassed."
+    },
+    {
+      "id": "ref-db9d091351",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:14:57Z",
+      "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source_fingerprint": "cb6cfc33faa6ac441c48658eec7c67db21d7732f1f804c1311c76bbb6f520bff",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "How AI is expanding what people do at work",
+        "resolved_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary article, date and task-crossover denominators inspected."
+    },
+    {
+      "id": "ref-e299630b86",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:14:58Z",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source_fingerprint": "ec17dd50ca8a97ba0200301feed7d11580f8989a42de5080cd0f4ca3cdc9a6af",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "resolved_url": "https://openai.com/index/ten-advances-in-mathematics"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary announcement and attribution statement inspected; claims remain attributed to the developer."
+    },
+    {
+      "id": "ref-33e5e5bcd6",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:14:59Z",
+      "source_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "source_fingerprint": "1f23301db5389c3d6399af23eb63603d16a2cc9d48599c751cfcf83a52e3e3a8",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Why SWE-bench Verified no longer measures frontier coding capabilities",
+        "resolved_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary article inspected; 59.4% concerns the selected 138-problem audit, not the whole benchmark."
+    },
+    {
+      "id": "ref-10b59b402b",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:15:01Z",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified",
+      "source_fingerprint": "7786df848b3a06afc6c6c11e7d9388cd4d633af9c421aa6fb1ef202534eabb63",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Introducing SWE-bench Verified",
+        "resolved_url": "https://openai.com/index/introducing-swe-bench-verified"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary article shows initial publication 13 August 2024 and update 24 February 2025."
+    },
+    {
+      "id": "openainavier2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:15:03Z",
+      "source_url": "https://openai.com/index/navier-stokes-solution/",
+      "source_fingerprint": "9f13ad4d3abf4e8bc98d0e7f0ff7ba989a6b1d3c28e1441802d212849228ea61",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "On the Navier–Stokes Millennium Prize Problem",
+        "resolved_url": "https://openai.com/index/navier-stokes-solution/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary announcement and forced-problem formulation inspected; no certification of the proof or prize status."
+    },
+    {
+      "id": "ref-776550e112",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:09Z",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+      "source_fingerprint": "85ab5909c48f1eb11762ac8a7c04c0f7f66091cdc36cf8b28137f4e3297466d2",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Performing security verification",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "SSRN security check prevented reading the record."
+    },
+    {
+      "id": "ref-47ac0a3015",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:13Z",
+      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+      "source_fingerprint": "700ebfb88a23d61ec3163aab0a67c76d45b84920fcd7a8a24a27c8485136ee5e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "OSF",
+        "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Only the empty application shell rendered; no bibliographic identity confirmed."
+    },
+    {
+      "id": "ref-c91813d328",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:15Z",
+      "source_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation",
+      "source_fingerprint": "3aee07a52fca7a61d3898498b00e419d4995ab8acc137cfadf0b02e1735bd348",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "How the OWASP LLM Top 10 Applies to Code Generation",
+        "resolved_url": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Article heading and substantive text inspected; an undated guidance article, not a new empirical result."
+    },
+    {
+      "id": "apachehttp21196182026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:19Z",
+      "source_url": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-119618",
+      "source_fingerprint": "a38ae18606b31061840c2d0f8f0ce62cfe90a224651c6d7f6ab638c1ad648973",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "CVE-2026-119618 (critical): mod_http2: heap corruption and RCE in assign_headers",
+        "resolved_url": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-119618"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Exact advisory entry inspected: httpd 2.4.55–2.4.70, fix 2.4.71, standalone mod_h2 2.0.8–2.0.42, dual finder credits."
+    },
+    {
+      "id": "cve1196182026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:35Z",
+      "source_url": "https://www.cve.org/CVERecord?id=CVE-2026-119618",
+      "source_fingerprint": "033505405eb2b454eeead55bf9abca2baccf81466e883aa07b3f7e176dc9059d",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers",
+        "resolved_url": "https://www.cve.org/CVERecord?id=CVE-2026-119618"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Loaded CNA record inspected after the initial loading shell; published and updated 11 November 2026."
+    },
+    {
+      "id": "redhatapache2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:38Z",
+      "source_url": "https://access.redhat.com/security/cve/cve-2026-119618",
+      "source_fingerprint": "9c9633a98966b9b4aab7819df6e00ba791a354fe691209f74a151db832d1b32f",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "CVE-2026-119618",
+        "resolved_url": "https://access.redhat.com/security/cve/cve-2026-119618"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Product-security entry inspected; only HTTP/2-enabled configurations affected. No deployment-specific patch compliance asserted."
+    },
+    {
+      "id": "omarchymac2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:42Z",
+      "source_url": "https://github.com/omacom/omarchy-mac/tree/667500c5eefab78424af66350f5ea7bf40fdede6",
+      "source_fingerprint": "e0c58cae27202f724925a58786c0d768b3451dd54739af809060b82762e0bdc5",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "GitHub - omacom/omarchy-mac at 667500c5eefab78424af66350f5ea7bf40fdede6 · GitHub",
+        "resolved_url": "https://github.com/omacom/omarchy-mac/tree/667500c5eefab78424af66350f5ea7bf40fdede6"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Pinned repository and README identity inspected; not a forensic or licensing-compliance audit."
+    },
+    {
+      "id": "m1n1license2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:44Z",
+      "source_url": "https://github.com/AsahiLinux/m1n1/commit/ce2b8a43cea4220b602af1005dc9dbfc59c9624e",
+      "source_fingerprint": "0ebac9ca85135f38d1a1e3fe75e616872741b5188651fa778d45f5a443166c9a",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "all: Relicence under the terms of the GNU General Public License v2",
+        "resolved_url": "https://github.com/AsahiLinux/m1n1/commit/ce2b8a43cea4220b602af1005dc9dbfc59c9624e"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Pinned commit message and James Calligeros sign-off inspected; large diffs partly hidden."
+    },
+    {
+      "id": "torvaldstools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:18:46Z",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3242",
+      "source_fingerprint": "5b264420b4f71e51ec7dfba37e930a119f6b7095bfb760ef029437701090e4a5",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "HTTP ERROR 502",
+        "resolved_url": "https://lkml.org/lkml/2026/10/13/3242"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "LKML mirror failed; no new message-body verification claimed."
+    },
+    {
+      "id": "candidate-cnbc-2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:02Z",
+      "source_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+      "source_fingerprint": "2411e031caab978c9e2b6194370f044da72e7c501d44d68edf5d6aa3bfcfa1ee",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "AI is automating coding. So why are software developer job postings on the rise?",
+        "resolved_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Headline, Corynn Winston byline, publication date and key points inspected."
+    },
+    {
+      "id": "mukherjee2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:07Z",
+      "source_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap",
+      "source_fingerprint": "ec1b430b3c58f4a0aa237cd68b95cc56fd56aa640c1a3fd6752f771ae9db9299",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "AI Is Eating Software and Investors Have Noticed",
+        "resolved_url": "https://www.advisorperspectives.com/articles/2026/10/08/ai-eating-software-investors-noticed?topic=small-cap"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Andy Mukherjee/Bloomberg byline and 8 October 2026 date inspected."
+    },
+    {
+      "id": "hamza-preprint2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:07Z",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979",
+      "source_fingerprint": "318fc32e30a804c4ba5fc5047988b8debade99b7c685db7e746d50a38eaf6cf6",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Just a moment...",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7070979"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "SSRN security check prevented inspection. Temporary challenge parameters deliberately not retained."
+    },
+    {
+      "id": "candidate-sciencedirect-2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:12Z",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066",
+      "source_fingerprint": "63be52490beca617848344295923387e8aab52af56620eef4697f74eaca0214f",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The impact of generative artificial intelligence on software development performance: a study based on the theory of technology dominance",
+        "resolved_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720626000066"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Two authors, journal, April 2026 issue, DOI and abstract inspected; subscription preview, not full text."
+    },
+    {
+      "id": "gates2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:15Z",
+      "source_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "source_fingerprint": "1d504de3e27091a971ae171dedeb97fbb4796b7fc8930f5041f020d11ef7dda6",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The turbulent AI era is here. The choices we make now are critical.",
+        "resolved_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Bill Gates byline and 26 August 2026 date inspected; opinion, not outcome measurement."
+    },
+    {
+      "id": "ref-11a15eb594",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:18Z",
+      "source_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work",
+      "source_fingerprint": "8ea86c607a3cb70fd53f24c934a07852584998f59acb220c63b14d2dc2192141",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Which AI Coding Tools Do Developers Actually Use at Work?",
+        "resolved_url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Mikhail Bogdanov byline, 2 April 2026 date and survey-wave descriptions inspected."
+    },
+    {
+      "id": "ref-283d4e8368",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:18Z",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932",
+      "source_fingerprint": "aa54cbc8388465451d78005f475600027fe0ab0d3d694bc727a0d5fa149f1c83",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Just a moment...",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5604932"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "SSRN security check prevented inspection. Existing supplied-PDF provenance is not a fresh browser confirmation."
+    },
+    {
+      "id": "ref-fb7d2bc1f2",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:25Z",
+      "source_url": "https://tidyfirst.substack.com/p/measuring-developer-productivity",
+      "source_fingerprint": "a8521a42578348808633f2b0f687b07c0977617e3d1901af1b2585b444887669",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Measuring developer productivity? A response to McKinsey",
+        "resolved_url": "https://newsletter.kentbeck.com/p/measuring-developer-productivity"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Observed redirect from tidyfirst.substack.com; Kent Beck and Gergely Orosz byline and 29 August 2023 date visible.",
+      "redirect_basis": "Observed redirect from tidyfirst.substack.com; Kent Beck and Gergely Orosz byline and 29 August 2023 date visible."
+    },
+    {
+      "id": "wilestemporary2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:37Z",
+      "source_url": "https://www.nature.com/articles/s41562-026-02566-6",
+      "source_fingerprint": "4e9d3cf4da36b2ec63c4b61d26fd66c7a8c59d892f181fe44e24a8d2217ed486",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Generative AI and the temporary upskilling of knowledge workers",
+        "resolved_url": "https://www.nature.com/articles/s41562-026-02566-6"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Publisher abstract, eight authors and 26 October 2026 date inspected. Final N=487; older author copy N=573 is not substituted. Main text subscription-limited."
+    },
+    {
+      "id": "wuautodna2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:38Z",
+      "source_url": "https://www.nature.com/articles/s41586-026-11228-6",
+      "source_fingerprint": "940f9900ac9cb9e06599a2a8ca8e56dbc174bda3972096b7de1e85760fedfdfb",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "An AI-native experimental laboratory for autonomous biomolecular operations",
+        "resolved_url": "https://www.nature.com/articles/s41586-026-11228-6"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Publisher abstract, fifteen authors and 4 November 2026 date inspected. Maintenance/replenishment still requires humans; not an unrestricted autonomy claim."
+    },
+    {
+      "id": "barwickshared2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:19:40Z",
+      "source_url": "https://www.nber.org/papers/w36003",
+      "source_fingerprint": "78ba87d811a1f5a5e46024b3a1296faf4f5a4c9d03f782896165baf3f787ddfc",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains",
+        "resolved_url": "https://www.nber.org/papers/w36003"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary abstract, five authors, working-paper number and DOI inspected. Reported 51.6% sales and 47.0% orders refer to selected small platform sellers; full methods not read."
+    },
+    {
+      "id": "norwayschools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:06Z",
+      "source_url": "https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/",
+      "source_fingerprint": "79cf66508a661e2e88eaf48e1ca63be5e1796fbe43cf6cbc6b5a0b53a44ce210",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Performing security verification",
+        "resolved_url": "https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Government page blocked by security verification."
+    },
+    {
+      "id": "jabarianvoice2025",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:06Z",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709",
+      "source_fingerprint": "6e6ccbaad35e1fd8565e0d32732b82b97906535e709bd1b06d7156b774084581",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Just a moment...",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "SSRN security check prevented inspection."
+    },
+    {
+      "id": "andrewscpython2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:09Z",
+      "source_url": "https://broyojo.com/python-formalization/",
+      "source_fingerprint": "cc762760c73f9ac35b8352fdb40479b39754cd50868f2aa6e30f564a70147f90",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Formalizing CPython",
+        "resolved_url": "https://broyojo.com/python-formalization/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Authors and 10 November 2026 date inspected. Coverage concerns a Lean model and reported bug candidates, not certification of all CPython."
+    },
+    {
+      "id": "openssh106p22026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:14Z",
+      "source_url": "https://www.openssh.org/txt/release-10.6p2",
+      "source_fingerprint": "9542306ceee7d229620ddf0651bd3b1a540776e678b014db8a046541ba885d24",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Portable OpenSSH 10.6p2 was released on 2026-11-05.",
+        "resolved_url": "https://www.openssh.org/txt/release-10.6p2"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Official plain-text release statement read; maintainers explicitly describe more frequent releases and independent rediscovery of AI-found issues."
+    },
+    {
+      "id": "kultekinssh2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:18Z",
+      "source_url": "https://sshhole.com/",
+      "source_fingerprint": "7ecb8de434bf433cbb6b78bbf560f768a6eb5e7c34c6c8069a6d170ef4b04689",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "*sshole",
+        "resolved_url": "https://sshhole.com/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Researcher site and specific musl/non-PAM/password-authentication conditions inspected. No exploit or suggested commands executed."
+    },
+    {
+      "id": "anthropics12026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:23Z",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source_fingerprint": "8532cddfc432f8d9d52c39436e3edd1d5cd83a8bceda06bdd3948a9b8d1a6c9a",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Anthropic, PBC - S-1 (Q2)",
+        "resolved_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "SEC-hosted registration-statement cover and 26 October 2026 filing date inspected; not an audit of financial claims."
+    },
+    {
+      "id": "djadphp2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:26Z",
+      "source_url": "https://djad04.github.io/php2shell-deep-dive/",
+      "source_fingerprint": "2509c435af7adfd6bbf34e219f4f2590e249d234d30775d896ece992c6623104",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "PHP2SHELL Deep Dive",
+        "resolved_url": "https://djad04.github.io/php2shell-deep-dive/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Original technical exposition and author's stated scope inspected; secondary analysis, no exploit reproduction."
+    },
+    {
+      "id": "activtrakworkplace2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:29Z",
+      "source_url": "https://www.activtrak.com/resources/state-of-the-workplace/",
+      "source_fingerprint": "e52bd66ce61b7060cc0f04643486b57d21acb4a69dbc5dfca25a50f47c7f043c",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "2026 State of the Workplace – ActivTrak",
+        "resolved_url": "https://www.activtrak.com/resources/state-of-the-workplace/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Page title visible but main content empty; report body not inspected in this browser pass."
+    },
+    {
+      "id": "luopitfalls2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:32Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42832657/",
+      "source_fingerprint": "d2e0a0d18022ca54cfad8ac3840ca7a6b6b285f9a728d88d26698bd44de4f22e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Checking your browser – reCAPTCHA",
+        "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/42832657/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "PubMed browser challenge prevented inspection; no CAPTCHA completed."
+    },
+    {
+      "id": "laneadoption2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:37Z",
+      "source_url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "source_fingerprint": "eecea8a2f5d4edc60ef6445cb8a410be5db199e163bd7ef371c89be68a2c9e80",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "AI adoption in Europe",
+        "resolved_url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Official ECB speech, Philip R. Lane attribution and 30 October 2026 date inspected."
+    },
+    {
+      "id": "vanarkambition2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:53Z",
+      "source_url": "https://aiambitiongap.bytes.co.uk/download/",
+      "source_fingerprint": "eb29d0d533c4bf0b1153cbe369580f78c32c9b0df2cf65263479d8b3e4914326",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Your copy of The AI Ambition Gap | Bytes × The Productivity Institute",
+        "resolved_url": "https://aiambitiongap.bytes.co.uk/download/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Publisher landing page and funnel denominators inspected; not a fresh reading of all 44 report pages."
+    },
+    {
+      "id": "wmfbrief2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:20:56Z",
+      "source_url": "https://commons.wikimedia.org/wiki/File:26.10.29_WMF_motion_and_amicus_In_re_OAI.pdf",
+      "source_fingerprint": "53ae794bc5375fc8d562d6ea384b5b901406713524bbd49bccdf7f39b707756b",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "File:26.10.29 WMF motion and amicus In re OAI.pdf",
+        "resolved_url": "https://commons.wikimedia.org/wiki/File:26.10.29_WMF_motion_and_amicus_In_re_OAI.pdf"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Commons description, 30-page file identity and upload metadata inspected; upload date is not necessarily filing date."
+    },
+    {
+      "id": "vanoosteromcuts2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:04Z",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-26/dutch-government-plans-to-cut-25-000-jobs-in-ai-led-overhaul",
+      "source_fingerprint": "553aea4fb7c62362537dd8d7f1250f2767382717bc2095348bbf534a33b36558",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Dutch Government Plans to Cut 25,000 Jobs in AI-Led Overhaul",
+        "resolved_url": "https://www.bloomberg.com/news/articles/2026-10-26/dutch-government-plans-to-cut-25-000-jobs-in-ai-led-overhaul"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Patrick Van Oosterom byline and date inspected. Planned cuts over years are not measured AI-caused dismissals."
+    },
+    {
+      "id": "dutchrestructuring2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:07Z",
+      "source_url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/26/kabinet-werkt-aan-slagvaardige-overheid-eenvoudiger-slimmer-en-kleiner",
+      "source_fingerprint": "be014179dc20b79bb8196833fb2bd06c78b9fff715ed199f7c8036904a06d73b",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Kabinet werkt aan slagvaardige overheid: eenvoudiger, slimmer en kleiner",
+        "resolved_url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/26/kabinet-werkt-aan-slagvaardige-overheid-eenvoudiger-slimmer-en-kleiner"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Dated government announcement inspected; a restructuring policy, not an evaluation of realized AI productivity."
+    },
+    {
+      "id": "mckinseyroi2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:11Z",
+      "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "source_fingerprint": "3663c7ff198ab39e5342644eaf49d713d505a95efa56295a589e62e4bc04663c",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The state of AI in 2026: On the road to ROI",
+        "resolved_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary survey page, four bylines and 25 August 2026 date inspected; adoption and reported returns not equated."
+    },
+    {
+      "id": "gmyrekdivide2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:13Z",
+      "source_url": "https://www.ilo.org/publications/disruption-without-dividend-how-digital-divide-and-task-differences-split",
+      "source_fingerprint": "0b8d470f0e836fcbf5e03820b70e9f898137004df41f3c3e5e07e108133f2ab0",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Disruption without dividend? - How the digital divide and task differences split GenAI’s global impact",
+        "resolved_url": "https://www.ilo.org/publications/disruption-without-dividend-how-digital-divide-and-task-differences-split"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "ILO working paper 166 and 17 March 2026 date inspected. DOI registry legitimately omits the subtitle."
+    },
+    {
+      "id": "strogatzfuture2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:16Z",
+      "source_url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "source_fingerprint": "1807bb9b34222a23fba50ab36edeb8c1cce0fae30c38a4e6fb22d53ef23c8ec5",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "A Mathematician Reads the AI Future",
+        "resolved_url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Steven Strogatz byline, 25 October 2026 date and opening text inspected; earlier supplied PDF remains the full-text reading source."
+    },
+    {
+      "id": "baimehomework2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:18Z",
+      "source_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "source_fingerprint": "6fcd5c709f50f55275ac5f55de25e9b6980627cab28a29408774efa98990dcdf",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Sorry, you have been blocked",
+        "resolved_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Daily Californian denied access; no new confirmation of its content."
+    },
+    {
+      "id": "hartaltmanmath2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:40Z",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "source_fingerprint": "c6495a4bcb8d317ff81122334bbf20e5e976a1a7a570175c36b18c8427b47182",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+        "resolved_url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Robert Hart byline, date and interview attribution inspected; participant statements are not independent validation."
+    },
+    {
+      "id": "bonifieldram2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:41Z",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "source_fingerprint": "e876abee2f6d715421b43a8907f94e2f61aa3850434a300d5c5172dd1f2d484c",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+        "resolved_url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Stevie Bonifield byline, date and shared Cheeky Pint interview provenance inspected."
+    },
+    {
+      "id": "feinerwikimedia2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:41Z",
+      "source_url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source_fingerprint": "b0537e1f94bd04004b16f8792a3221255a2e405cc72f1df1d0750d2882f6eece",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+        "resolved_url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Lauren Feiner byline, date and distinction between model training and regurgitation inspected; not a court holding."
+    },
+    {
+      "id": "howartheth2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:45Z",
+      "source_url": "https://www.science.org/content/article/ai-cracks-27-year-old-pillar-computer-science-openai-and-anthropic-claim",
+      "source_fingerprint": "66ca51b0f50e9400a0becd162b61bf9255833a32aa9e4cacd575c248997e1973",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "AI cracks a 27-year-old pillar of computer science, OpenAI and Anthropic claim",
+        "resolved_url": "https://www.science.org/content/article/ai-cracks-27-year-old-pillar-computer-science-openai-and-anthropic-claim"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Tom Howarth byline, 28 October 2026 date and qualified claim language inspected."
+    },
+    {
+      "id": "coffeefailure2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:48Z",
+      "source_url": "https://coffeecupai.com/blog/95-ai-failure-stat-one-year-later-junk/",
+      "source_fingerprint": "8931469d9a40a89fd8fdd42f878855ba405987432d42e9daffbcd339d1fa824d",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The 95% AI failure stat, one year later: junk number, real problem",
+        "resolved_url": "https://coffeecupai.com/blog/95-ai-failure-stat-one-year-later-junk/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Dated commentary and criticism of the NANDA denominator inspected; synthesis, not another independent survey."
+    },
+    {
+      "id": "howlettquantum2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:50Z",
+      "source_url": "https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem/",
+      "source_fingerprint": "2270ac998de7abc58022bfe2477553e453818f3f83416c1af97ce31d10d85956",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "OpenAI just scooped mathematicians’ work on another million-dollar problem",
+        "resolved_url": "https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Joseph Howlett byline, date and opening reporting inspected; no independent proof validation."
+    },
+    {
+      "id": "yotzovfirm2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:51Z",
+      "source_url": "https://www.nber.org/papers/w34836",
+      "source_fingerprint": "5b4e614e62f2cd83bca97a37b8cd68f20ee1634e50c1ef55adf1b79f46bfa7fd",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Firm Data on AI",
+        "resolved_url": "https://www.nber.org/papers/w34836"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "NBER page explicitly identifies October 2026 revision and nearly 9,000 executives; not conflated with its earlier winter survey."
+    },
+    {
+      "id": "bicktasks2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:21:52Z",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "source_fingerprint": "5310e55d858150c24ded90e84ce256b78ac4c2279fa5df4a2ecad51d8a1db5ef",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "What Work Does Generative AI Do?",
+        "resolved_url": "https://www.nber.org/papers/w35677"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "NBER title, four authors, August 2026 issue, DOI and adoption-versus-exposure distinction inspected."
+    },
+    {
+      "id": "wizphptel2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:07Z",
+      "source_url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "source_fingerprint": "beed6cd947270332990dbc81a81dfad23eaff074964147a5005d1b08456dc584",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+        "resolved_url": "https://www.wiz.io/blog/php2shell-exploitation-so-far"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Dated vendor telemetry statement inspected: limited attempts and no successful attacks observed in that telemetry as of its date, not absence of exploitation elsewhere."
+    },
+    {
+      "id": "censysphp2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:10Z",
+      "source_url": "https://php2shell.censys.com/",
+      "source_fingerprint": "dfa84387710c108b2c83c457af76a327cef24dd665d397e3c03eeb01957b36ec",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Censys PHP2Shell Exposure Tracker",
+        "resolved_url": "https://php2shell.censys.com/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Tracker methodology and reported-version limitations visible; live counts did not render and no new exposure total is asserted."
+    },
+    {
+      "id": "w3php2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:13Z",
+      "source_url": "https://w3techs.com/technologies/details/pl-php",
+      "source_fingerprint": "e32bd8858cc2b4e1f3ebf583fadc38dffb511487377584baf60d5d62ccd868a3",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Usage statistics of PHP for websites",
+        "resolved_url": "https://w3techs.com/technologies/details/pl-php"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Primary statistics-page identity inspected; no revised market-share figure extracted in this pass."
+    },
+    {
+      "id": "vandenbergagents2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:17Z",
+      "source_url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "source_fingerprint": "2fcf8d62e59298cb875c26ac33698cce57d5b222092a612321c45db401514a1e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The Mythical Man-Month in the age of AI",
+        "resolved_url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Jan van den Berg byline and 27 October 2026 date inspected; conceptual argument, not a team experiment."
+    },
+    {
+      "id": "voytkoquality2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:20Z",
+      "source_url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "source_fingerprint": "6247e061b3e61a753ab9c4552fcc29623cdc117cb00f7b2b255f11401c90a48c",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Software may be getting worse, but it used to be horrible",
+        "resolved_url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Jake Voytko byline and 27 October 2026 date inspected; historical practitioner perspective, not a longitudinal quality estimate."
+    },
+    {
+      "id": "karkideskilling2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:23Z",
+      "source_url": "https://www.degruyterbrill.com/document/doi/10.1515/humaff-2026-0080/html",
+      "source_fingerprint": "9b4c38aa6005f1579c418175f9744293cca371d054758e0aad3fd82187000007",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Empty publisher page",
+        "resolved_url": "https://www.degruyterbrill.com/document/doi/10.1515/humaff-2026-0080/html"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "No title or article body rendered; identity not confirmed through this channel."
+    },
+    {
+      "id": "stewartbuyouts2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:27Z",
+      "source_url": "https://www.businessinsider.com/microsoft-is-offering-buyouts-read-the-memo-2026-10",
+      "source_fingerprint": "612bd66b675e34474191bc2b6a962dc8b17c83eff4de92641d4144894b42112c",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Microsoft is offering buyouts to around 60,000 employees. Read the memo.",
+        "resolved_url": "https://www.businessinsider.com/microsoft-is-offering-buyouts-read-the-memo-2026-10"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Ashley Stewart byline, date and memo attribution inspected; eligible employees are not completed departures."
+    },
+    {
+      "id": "modh2archive2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:57Z",
+      "source_url": "https://github.com/icing/mod_h2/blob/f1417a5d8ac478273aba14ffc591b46e321085b1/README.md",
+      "source_fingerprint": "63327dad3726c76947dcfa93dde9d477d21d3eff6cc00eaf25b1ed7f48a4ee93",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "mod_http2 - http/2 for Apache httpd",
+        "resolved_url": "https://github.com/icing/mod_h2/blob/f1417a5d8ac478273aba14ffc591b46e321085b1/README.md"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Pinned README archive notice read. Maintenance continues in Apache httpd; not abandonment of the module itself."
+    },
+    {
+      "id": "sonpatching2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:22:58Z",
+      "source_url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "source_fingerprint": "eab0ba105c36b99073d4496cc3b0ff4ad1c056bb42c515c93f32bc32fdb77cf3",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+        "resolved_url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Hugh Son byline, date and executive quotation inspected. Combined compliance/patching cost not attributed entirely to AI patching."
+    },
+    {
+      "id": "cisakev2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:23:26Z",
+      "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "source_fingerprint": "458017507df1b280c7ce9b0218820e3779ad15630b8203a97ae499432d271629",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "CISA Catalog of Known Exploited Vulnerabilities",
+        "resolved_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Official feed version 2026.11.10 inspected. PHP CVEs 109618/109619 and Brotli 111497 present; Apache 119618 absent in that snapshot. Absence is not proof of no exploitation."
+    },
+    {
+      "id": "pincharttools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:27:40Z",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3226",
+      "source_fingerprint": "d53510328a4d26cd72ba28ecea6bed3f521f61c01fa0405e96ff496f0ae66b84",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Browser navigation failed",
+        "resolved_url": "https://lkml.org/lkml/2026/10/13/3226"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Failure recorded at this timestamp from two local Chrome attempts during the 22:18–22:20 UTC inspection window; no message body obtained."
+    },
+    {
+      "id": "cooktools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:27:40Z",
+      "source_url": "https://lkml.org/lkml/2026/10/14/2388",
+      "source_fingerprint": "9517ec6215f9f0c7715e1cf58f42cd8ca5fd8dd170b3e7cb54b1ef03b04d4f98",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Browser navigation failed",
+        "resolved_url": "https://lkml.org/lkml/2026/10/14/2388"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Failure recorded at this timestamp from the local Chrome attempt during the 22:19–22:20 UTC inspection window; no message body obtained."
+    },
+    {
+      "id": "openainavierpaper2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:27:40Z",
+      "source_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "source_fingerprint": "19efeb8a20d5bdb92e8a3af5f196f5266ccb0c3d99c8f9197990b67caff9a9ea",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "PDF navigation timed out",
+        "resolved_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Timeout recorded at this timestamp from the 22:22–22:23 UTC Chrome inspection window; primary announcement independently readable, PDF not newly inspected."
+    },
+    {
+      "id": "accenturetalent2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:27:40Z",
+      "source_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/documents/accenture-investor-day-fy27-transcript-our-talent-strategy.pdf",
+      "source_fingerprint": "194ea6aac60cc0387e903f95e6f8f2cf9330d8eaa00fef7ee4aabb9d3cec9d07",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "PDF navigation timed out",
+        "resolved_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/documents/accenture-investor-day-fy27-transcript-our-talent-strategy.pdf"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Timeout recorded at this timestamp from the 22:22–22:23 UTC Chrome inspection window; transcript not newly inspected."
+    },
+    {
+      "id": "gravityabout2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-12T22:27:40Z",
+      "source_url": "https://gravitylinux.org/about/",
+      "source_fingerprint": "18dc765d8f28cb8b4f6a831adda5e5919e1a0f65f138daf98c8b4cfa6b67baf4",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Browser certificate warning",
+        "resolved_url": "https://gravitylinux.org/about/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Certificate common-name error recorded at this timestamp from the 22:17–22:18 UTC Chrome inspection window. Security warning not bypassed."
+    },
+    {
+      "id": "ref-776550e112",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.476Z",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078",
+      "source_fingerprint": "85ab5909c48f1eb11762ac8a7c04c0f7f66091cdc36cf8b28137f4e3297466d2",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Does Working with AI Agents Change How Developers Code, Test, and Review?",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6996078"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened SSRN tab: three authors, posted 18 July 2026, written 25 June 2026, abstract and two-version indicator inspected. Original record explicitly has no downloadable PDF; not counted as a separate experiment from later versions."
+    },
+    {
+      "id": "ref-47ac0a3015",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.489Z",
+      "source_url": "https://osf.io/preprints/psyarxiv/2gej5_v2",
+      "source_fingerprint": "700ebfb88a23d61ec3163aab0a67c76d45b84920fcd7a8a24a27c8485136ee5e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The New Developer: AI Skill Threat, Identity Change & Developer Thriving In The Transition To AI-Assisted Software Development",
+        "resolved_url": "https://osf.io/preprints/psyarxiv/2gej5_v2"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened OSF v2 page: three authors, DOI 10.31234/osf.io/2gej5_v2, submitted 15 March 2025, edited 27 August 2025. Embedded 55-page AIST_ Preprint Update.pdf retains the revised AI Skill Threat title and March draft date. Page version 2 and embedded file Version: 1 are distinct; no new identity mismatch."
+    },
+    {
+      "id": "norwayschools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.500Z",
+      "source_url": "https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/",
+      "source_fingerprint": "79cf66508a661e2e88eaf48e1ca63be5e1796fbe43cf6cbc6b5a0b53a44ce210",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Kunstig intelligens skal i all hovedsak ikke brukes i barneskolen",
+        "resolved_url": "https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened government announcement dated 19 June 2026 inspected. Grade-specific recommendations and exceptions for pupils needing AI tools preserved; policy, not a causal learning experiment."
+    },
+    {
+      "id": "jabarianvoice2025",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.512Z",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709",
+      "source_fingerprint": "6e6ccbaad35e1fd8565e0d32732b82b97906535e709bd1b06d7156b774084581",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
+        "resolved_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened SSRN page: Brian Jabarian and Luca Henkel, original posting 18 August 2025, revision 11 September 2026, 127 pages and DOI 10.2139/ssrn.5395709 confirmed. Abstract's 12% is a relative offer-rate effect; humans retain hiring decisions. Existing author-PDF appraisal remains the substantive reading source."
+    },
+    {
+      "id": "activtrakworkplace2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.524Z",
+      "source_url": "https://www.activtrak.com/resources/state-of-the-workplace/",
+      "source_fingerprint": "e52bd66ce61b7060cc0f04643486b57d21acb4a69dbc5dfca25a50f47c7f043c",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "2026 State of the Workplace",
+        "resolved_url": "https://www.activtrak.com/resources/state-of-the-workplace/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened full HTML report rendered. Main sample: 1,111 companies, 163,638 employees, over 443 million hours during 2023–2025; smaller datasets have separate denominators. Publisher-defined productive time and burnout/disengagement proxies are not delivered outcomes or clinical diagnoses. Direct report PDF link visible, not newly downloaded."
+    },
+    {
+      "id": "luopitfalls2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.536Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42832657/",
+      "source_fingerprint": "d2e0a0d18022ca54cfad8ac3840ca7a6b6b285f9a728d88d26698bd44de4f22e",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "The more you automate, the less you see: Hidden pitfalls of autonomous AI scientists",
+        "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/42832657/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened PubMed record confirms three authors, PMID 42832657, DOI 10.1073/pnas.2610214123, online date 5 October and issue date 13 October 2026. Abstract and competing-interest disclosure read; full journal methods not newly appraised."
+    },
+    {
+      "id": "openaiphp2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:17:44.549Z",
+      "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source_fingerprint": "5eb97178ba4db2da3f16a532efd6f38d0dbae5dd816dfcab3206009b58aa86a2",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+        "resolved_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened primary OpenAI article: author OpenAI and 21 October 2026 date confirmed. Maintainer-led remediation, Calif discovery and independent Wiz reporting distinguished from developer forecasts of future discovery rates."
+    },
+    {
+      "id": "gravityabout2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:19:21.983Z",
+      "source_url": "https://gravitylinux.org/about/",
+      "source_fingerprint": "18dc765d8f28cb8b4f6a831adda5e5919e1a0f65f138daf98c8b4cfa6b67baf4",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "About",
+        "resolved_url": "https://github.com/GravityLinux/website/blob/cfc74e6b3fcdb2f794fbf725464f27b506ad8d21/content/about.md"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Deliberate alternative primary-source inspection, not a redirect. Human reports DNS4EU blocks the live domain with a harmful-content warning while mobile access works. Official website repository source inspected in local Chrome and checked against GitHub API/file history. FAQ explicitly names LLM policy differences. No DNS setting or security protection changed; website safety not assessed.",
+      "redirect_basis": "Deliberate alternative primary-source inspection, not a redirect. Human reports DNS4EU blocks the live domain with a harmful-content warning while mobile access works. Official website repository source inspected in local Chrome and checked against GitHub API/file history. FAQ explicitly names LLM policy differences. No DNS setting or security protection changed; website safety not assessed."
+    },
+    {
+      "id": "gravitypolicy2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:19:22.992Z",
+      "source_url": "https://gravitylinux.org/policies/llm/",
+      "source_fingerprint": "c65fe4320a73b0e54629fc9e7928f507c0f722cc28e89263bcf97ee303cb2d42",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "LLM Use and Clean-Room Policy",
+        "resolved_url": "https://github.com/GravityLinux/website/blob/2d7bbba836646caed9441ed998021b3f18c479da/content/policies/llm.md"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Deliberate alternative primary-source inspection, not a redirect. Official pinned website source read in Chrome and checked through GitHub API/file history because the live domain is blocked locally by DNS4EU, as reported by the human coauthor. Current policy requires Assisted-By: LLM, human sign-off, disclosure and clean-room provenance. Does not establish legal compliance or policy effectiveness.",
+      "redirect_basis": "Deliberate alternative primary-source inspection, not a redirect. Official pinned website source read in Chrome and checked through GitHub API/file history because the live domain is blocked locally by DNS4EU, as reported by the human coauthor. Current policy requires Assisted-By: LLM, human sign-off, disclosure and clean-room provenance. Does not establish legal compliance or policy effectiveness."
+    },
+    {
+      "id": "accenturetalent2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T07:19:22.992Z",
+      "source_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/documents/accenture-investor-day-fy27-transcript-our-talent-strategy.pdf",
+      "source_fingerprint": "194ea6aac60cc0387e903f95e6f8f2cf9330d8eaa00fef7ee4aabb9d3cec9d07",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "FY27 Investor Day: Session Transcript: Our Talent Strategy",
+        "resolved_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/documents/accenture-investor-day-fy27-transcript-our-talent-strategy.pdf"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "User-opened official PDF rendered in Chrome. Cover visually confirms five pages, 14 October 2026 event date, Julie Sweet and Kate Clifford. This is an identity/cover check; the earlier selected-passage appraisal is retained, not represented as a new full-transcript reading."
+    },
+    {
+      "id": "gravityabout2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:07.580Z",
+      "source_url": "https://gravitylinux.org/about/",
+      "source_fingerprint": "18dc765d8f28cb8b4f6a831adda5e5919e1a0f65f138daf98c8b4cfa6b67baf4",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "About — Gravity Linux",
+        "resolved_url": "https://gravitylinux.org/about/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Live canonical page now loads normally after the human coauthor reported switching networks/DNS. FAQ matches the pinned official source inspected earlier, including the stated LLM-policy fork rationale. This confirms source accessibility on this connection, not website safety or an independent diagnosis of DNS4EU filtering."
+    },
+    {
+      "id": "gravitypolicy2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:07.742Z",
+      "source_url": "https://gravitylinux.org/policies/llm/",
+      "source_fingerprint": "c65fe4320a73b0e54629fc9e7928f507c0f722cc28e89263bcf97ee303cb2d42",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "LLM Use and Clean-Room Policy",
+        "resolved_url": "https://gravitylinux.org/policies/llm/"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Live canonical policy now readable on the changed connection and consistent with the earlier official repository inspection. No DNS setting, certificate validation or security protection changed by the reviewer. Earlier blocked access and repository-fallback receipts retained."
+    },
+    {
+      "id": "hesa2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:11.809Z",
+      "source_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+      "source_fingerprint": "c56c35eda1ba0ce6b9409ffec43b6d9b327a510da0e8549c27d7e554ed0e9bf3",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Just a moment...",
+        "resolved_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Initial new-network visit showed an empty security-check page. This is an intermediate failed-access observation, not the final outcome; the later 08:58 observation confirms successful loading. Temporary challenge tokens are not retained."
+    },
+    {
+      "id": "baimehomework2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:15.572Z",
+      "source_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "source_fingerprint": "6fcd5c709f50f55275ac5f55de25e9b6980627cab28a29408774efa98990dcdf",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Attention Required! | Cloudflare",
+        "resolved_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "Still denied on the new connection: Sorry, you have been blocked. No article body obtained and no access control bypassed."
+    },
+    {
+      "id": "torvaldstools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:18.390Z",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3242",
+      "source_fingerprint": "5b264420b4f71e51ec7dfba37e930a119f6b7095bfb760ef029437701090e4a5",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Making sure you're not a bot!",
+        "resolved_url": "https://lkml.org/lkml/2026/10/13/3242"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "New connection reaches an Anubis bot-check page rather than the message body; another normal navigation subsequently failed. No challenge-solving or bypass performed; message identity not newly confirmed."
+    },
+    {
+      "id": "pincharttools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:18.669Z",
+      "source_url": "https://lkml.org/lkml/2026/10/13/3226",
+      "source_fingerprint": "d53510328a4d26cd72ba28ecea6bed3f521f61c01fa0405e96ff496f0ae66b84",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "HTTP ERROR 502",
+        "resolved_url": "https://lkml.org/lkml/2026/10/13/3226"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "New-network visit still shows the LKML mirror's HTTP 502 failure; message body not inspected."
+    },
+    {
+      "id": "cooktools2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:57:18.730Z",
+      "source_url": "https://lkml.org/lkml/2026/10/14/2388",
+      "source_fingerprint": "9517ec6215f9f0c7715e1cf58f42cd8ca5fd8dd170b3e7cb54b1ef03b04d4f98",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "access-blocked",
+      "observed": {
+        "title": "Browser navigation failed",
+        "resolved_url": "https://lkml.org/lkml/2026/10/14/2388"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "New-network navigation failed with an HTTP response-code error; message body not inspected and no success receipt fabricated."
+    },
+    {
+      "id": "hesa2026",
+      "method": "local-chrome-native",
+      "release_month": "2026-11",
+      "checked_at": "2026-11-13T08:58:00.766Z",
+      "source_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row",
+      "source_fingerprint": "c56c35eda1ba0ce6b9409ffec43b6d9b327a510da0e8549c27d7e554ed0e9bf3",
+      "reviewer": "GPT 6.1 (AI-assisted local Chrome inspection)",
+      "outcome": "identity-confirmed",
+      "observed": {
+        "title": "UK higher education student numbers fall for second year in a row",
+        "resolved_url": "https://www.hesa.ac.uk/news/27-01-2026/uk-he-student-numbers-fall-second-year-in-a-row"
+      },
+      "scope": "Source identity and selected visible text only; not scientific replication or independent certification.",
+      "notes": "After the initial intermediate security-check page, the canonical HESA page loaded normally in Chrome on the changed connection. Confirmed 27 January 2026 date, HESA/Jisc attribution and text covering academic year 2024/25. Overall enrollment decline is distinguished from computing growth of 7% and AI-subject growth of 21%; no inference that AI caused enrollment changes. No CAPTCHA or warning bypassed."
     }
   ]
 }

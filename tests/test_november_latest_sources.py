@@ -95,7 +95,7 @@ class LatestNovemberSourcesTests(unittest.TestCase):
             self.assertEqual(log['selected_count'], len(set(log['selected_ids'])))
             for key in log['selected_ids']:
                 source = self.sources[key]
-                self.assertEqual(source['verification']['checked_on'], log['searched_on'])
+                self.assertGreaterEqual(source['verification']['checked_on'], log['searched_on'])
                 self.assertLessEqual(source['date'], log['searched_on'])
                 self.assertTrue(set(source.get('related_to', [])).issubset(self.sources))
         self.assertEqual(self.sources['andrewscpython2026']['authors'], ['Andrews, David', 'Zhang, Chao'])
@@ -112,7 +112,8 @@ class LatestNovemberSourcesTests(unittest.TestCase):
         self.assertIn('2024 intervention', self.sources['wangfeedback2026']['limitations'])
         self.assertEqual(self.sources['jabarianvoice2025']['date'], '2025-08-18')
         self.assertIn('one percentage point', self.sources['jabarianvoice2025']['summary'])
-        self.assertIn('403', self.sources['barwickshared2026']['limitations'])
+        self.assertIn('full paper not obtained', self.sources['barwickshared2026']['limitations'])
+        self.assertIn('local Chrome', self.sources['barwickshared2026']['limitations'])
         self.assertIn('10 November', self.sources['gallupproductivity2026']['date_basis'])
 
     def test_historical_counts_remain_valid_after_later_batches(self):

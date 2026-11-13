@@ -1,0 +1,15 @@
+{
+  "release_month": "2026-11",
+  "decision": "retain-unverified-access-blocked",
+  "approved_on": "2026-11-13",
+  "expires_on": "2026-11-30",
+  "approved_by": "Witold Bołt, human coauthor",
+  "approval_basis": "Explicit instruction: We will not be able to fix this soon. So let's just flag this as unverified and continue.",
+  "reason": "Current article/message content cannot be reverified because access is denied or the archive fails. Retain earlier dated reading history as contextual material, label current access unverified, and do not block this November release solely on these four access failures. Revisit in the next monthly release; this is not manual identity confirmation.",
+  "records": [
+    {"id": "baimehomework2026", "expected_title": "AI use leads UC Berkeley math professor to see ‘no point’ in grading homework", "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html", "source_fingerprint": "6fcd5c709f50f55275ac5f55de25e9b6980627cab28a29408774efa98990dcdf"},
+    {"id": "torvaldstools2026", "expected_title": "Re: [PATCH] docs: remove Assisted-by references", "url": "https://lkml.org/lkml/2026/10/13/3242", "source_fingerprint": "5b264420b4f71e51ec7dfba37e930a119f6b7095bfb760ef029437701090e4a5"},
+    {"id": "pincharttools2026", "expected_title": "Re: [PATCH] docs: remove Assisted-by references", "url": "https://lkml.org/lkml/2026/10/13/3226", "source_fingerprint": "d53510328a4d26cd72ba28ecea6bed3f521f61c01fa0405e96ff496f0ae66b84"},
+    {"id": "cooktools2026", "expected_title": "Re: [PATCH] docs: remove Assisted-by references", "url": "https://lkml.org/lkml/2026/10/14/2388", "source_fingerprint": "9517ec6215f9f0c7715e1cf58f42cd8ca5fd8dd170b3e7cb54b1ef03b04d4f98"}
+  ]
+}

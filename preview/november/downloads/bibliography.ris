@@ -158,15 +158,15 @@ TY  - ELEC
 ID  - gravityabout2026
 TI  - About - Gravity Linux
 AU  - Gravity Linux contributors
-DA  - 2026-09-12
-N1  - Date basis: Latest file-affecting commit b1a74639fe8931640f7f8eecb99f8b77f257463a committed 12 September 2026 at 01:32:06 UTC. Also the initial repository import of this file; not proof of first public deployment, the fork date or initial composition.
+DA  - 2026-10-14
+N1  - Date basis: Latest file-affecting commit cfc74e6b3fcdb2f794fbf725464f27b506ad8d21 committed 14 October 2026 at 06:54:59 UTC. This revision updates the Discord invite; not a new fork or policy-adoption date.
 PY  - 2026
 UR  - https://gravitylinux.org/about/
 AB  - Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.
 N1  - Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits.
 KW  - engineering
 KW  - governance
-N1  - Version: Repository source matches the cited About FAQ; date is the file's committed revision date, not the date of the separately dated introductory blog.
+N1  - Version: Current official repository source still attributes the initial fork to LLM-policy differences. The file-revision date is not a deployment, initial composition or fork date. Live-domain access is locally filtered by DNS4EU according to the human coauthor; the pinned official source is an alternative access route, not a declaration that the domain is safe.
 ER  -
 
 TY  - JOUR
@@ -1490,8 +1490,8 @@ TY  - ELEC
 ID  - gravitypolicy2026
 TI  - LLM Use and Clean-Room Policy
 AU  - Gravity Linux contributors
-DA  - 2026-09-15
-N1  - Date basis: Latest file-affecting commit d0bdd17839e9975a00d9201e842705acf2ca5a69 committed 15 September 2026 at 01:05:56 UTC, although authored 12 September. Citation uses committed revision date; policy adoption and deployment dates are not inferred.
+DA  - 2026-10-13
+N1  - Date basis: Latest file-affecting commit 2d7bbba836646caed9441ed998021b3f18c479da committed 13 October 2026 at 22:02:14 UTC clarifies commit-message requirements. Revision date, not inferred adoption/deployment date.
 PY  - 2026
 UR  - https://gravitylinux.org/policies/llm/
 AB  - Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.
@@ -1499,7 +1499,7 @@ N1  - Not unconditional acceptance. The project's safeguards and claimed effecti
 KW  - engineering
 KW  - governance
 KW  - quality
-N1  - Version: Initially imported in b1a74639fe8931640f7f8eecb99f8b77f257463a on 12 September; revised communication policy in d0bdd17839e9975a00d9201e842705acf2ca5a69, committed 15 September. The source text matches the cited live policy.
+N1  - Version: Current pinned source requires Assisted-By: LLM for assisted code, disclosure, human Developer Certificate of Origin sign-off and clean-room provenance. The permitted-use position is conditional, not unconditional acceptance; no legal-compliance finding is made. Live-domain filtering was reported by the human coauthor, not independently classified here.
 ER  -
 
 TY  - ELEC
@@ -4672,7 +4672,7 @@ N1  - Date basis: Primary indexed NBER issue month; no exact day established.
 PY  - 2026
 UR  - https://www.nber.org/papers/w36003
 AB  - Studies embedded AI on a Chinese e-commerce platform, linking adoption to operations and sales. Reports substantial sales gains among small firms rather than only task-level performance.
-N1  - One platform and selected small sellers; sales are not profit, welfare or aggregate productivity. Identification assumptions need full-text scrutiny. Direct page/PDF returned 403; only the public primary indexed abstract and metadata were inspected. No causal estimate independently reproduced.
+N1  - One platform and selected small sellers; sales are not profit, welfare or aggregate productivity. Identification assumptions need full-text scrutiny. Primary landing page and abstract inspected in local Chrome; full paper not obtained. Estimates remain attributed to the working paper.
 KW  - business
 KW  - productivity
 KW  - work
@@ -6851,6 +6851,7 @@ TY  - ELEC
 ID  - baimehomework2026
 TI  - AI use leads UC Berkeley math professor to see ‘no point’ in grading homework
 AU  - Baime, Audrey
+N1  - Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation.
 DA  - 2026-10-23
 N1  - Date basis: Article byline and 23 October date in Chrome, distinguished from the site's current-day masthead.
 PY  - 2026
@@ -6974,6 +6975,7 @@ TY  - ELEC
 ID  - torvaldstools2026
 TI  - Re: [PATCH] docs: remove Assisted-by references
 AU  - Torvalds, Linus
+N1  - Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation.
 DA  - 2026-10-13
 N1  - Date basis: Message Date header displayed in local Chrome: 13 October 2026, 13:45:09 -0700. Not the archive update date.
 PY  - 2026
@@ -6991,6 +6993,7 @@ TY  - ELEC
 ID  - pincharttools2026
 TI  - Re: [PATCH] docs: remove Assisted-by references
 AU  - Pinchart, Laurent
+N1  - Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation.
 DA  - 2026-10-13
 N1  - Date basis: Message Date header displayed in local Chrome: 13 October 2026, 22:16:28 +0200.
 PY  - 2026
@@ -7008,6 +7011,7 @@ TY  - ELEC
 ID  - cooktools2026
 TI  - Re: [PATCH] docs: remove Assisted-by references
 AU  - Cook, Kees
+N1  - Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation.
 DA  - 2026-10-14
 N1  - Date basis: Message Date header displayed in local Chrome: 14 October 2026, 11:47:46 -0700.
 PY  - 2026

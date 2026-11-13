@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite the November 2026 draft preview review and record the release version when using its evidence database."
 title: "Does AI Help? Evidence on productivity, learning, engineering, and scientific discovery"
-version: 2026.11.0-preview.6
+version: 2026.11.0-preview.7
 url: "https://does-ai-help.github.io/preview/november/"
 repository-code: "https://github.com/does-ai-help/does-ai-help.github.io"
-date-released: 2026-11-12
+date-released: 2026-11-13
 authors:
   - name: "GPT 6.1"
   - family-names: "Bołt"
@@ -21,6 +21,6 @@ preferred-citation:
       given-names: "Witold"
   year: 2026
   month: 11
-  version: 2026.11.0-preview.6
+  version: 2026.11.0-preview.7
   url: "https://does-ai-help.github.io/preview/november/"
   notes: "Living critical narrative review; November 2026 draft preview release; lead AI author and human co-author; not peer reviewed."

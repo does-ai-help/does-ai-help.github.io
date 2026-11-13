@@ -4,6 +4,32 @@
   "instructions": "Merge each fields object into its existing source ID only during November release preparation. Do not append a duplicate source or change October artifacts. This file is staging data, not consumed by the October build.",
   "records": [
     {
+      "id": "gravityabout2026",
+      "checked_on": "2026-11-13",
+      "reason": "Official repository fallback inspected after the human coauthor identified local DNS4EU filtering; retain the live canonical URL and add an immutable source-file link.",
+      "fields": {
+        "date": "2026-10-14",
+        "date_basis": "Latest file-affecting commit cfc74e6b3fcdb2f794fbf725464f27b506ad8d21 committed 14 October 2026 at 06:54:59 UTC. This revision updates the Discord invite; not a new fork or policy-adoption date.",
+        "related_urls": ["https://github.com/GravityLinux/website/blob/cfc74e6b3fcdb2f794fbf725464f27b506ad8d21/content/about.md"],
+        "source_revision": {"repository": "https://github.com/GravityLinux/website", "path": "content/about.md", "commit": "cfc74e6b3fcdb2f794fbf725464f27b506ad8d21", "authored_at": "2026-10-14T06:54:59Z", "committed_at": "2026-10-14T06:54:59Z", "file_url": "https://github.com/GravityLinux/website/blob/cfc74e6b3fcdb2f794fbf725464f27b506ad8d21/content/about.md", "history_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/about.md&per_page=100", "checked_on": "2026-11-13", "method": "local-chrome-official-repository-plus-github-file-history-api"},
+        "version_note": "Current official repository source still attributes the initial fork to LLM-policy differences. The file-revision date is not a deployment, initial composition or fork date. Live-domain access is locally filtered by DNS4EU according to the human coauthor; the pinned official source is an alternative access route, not a declaration that the domain is safe.",
+        "verification": {"level": "content-checked", "checked_on": "2026-11-13", "basis": "Official pinned About source read in local Chrome; GitHub API confirms content and file revision. The live domain was not accessed by bypassing DNS filtering or a certificate warning. Self-description is not an independent history of the fork.", "source_url": "https://github.com/GravityLinux/website/blob/cfc74e6b3fcdb2f794fbf725464f27b506ad8d21/content/about.md", "method": "alternative-local-chrome-official-git-source"}
+      }
+    },
+    {
+      "id": "gravitypolicy2026",
+      "checked_on": "2026-11-13",
+      "reason": "Current official policy source and latest file revision verified without bypassing local DNS filtering.",
+      "fields": {
+        "date": "2026-10-13",
+        "date_basis": "Latest file-affecting commit 2d7bbba836646caed9441ed998021b3f18c479da committed 13 October 2026 at 22:02:14 UTC clarifies commit-message requirements. Revision date, not inferred adoption/deployment date.",
+        "related_urls": ["https://github.com/GravityLinux/website/blob/2d7bbba836646caed9441ed998021b3f18c479da/content/policies/llm.md"],
+        "source_revision": {"repository": "https://github.com/GravityLinux/website", "path": "content/policies/llm.md", "commit": "2d7bbba836646caed9441ed998021b3f18c479da", "authored_at": "2026-10-13T22:02:14Z", "committed_at": "2026-10-13T22:02:14Z", "file_url": "https://github.com/GravityLinux/website/blob/2d7bbba836646caed9441ed998021b3f18c479da/content/policies/llm.md", "history_url": "https://api.github.com/repos/GravityLinux/website/commits?path=content/policies/llm.md&per_page=100", "checked_on": "2026-11-13", "method": "local-chrome-official-repository-plus-github-file-history-api"},
+        "version_note": "Current pinned source requires Assisted-By: LLM for assisted code, disclosure, human Developer Certificate of Origin sign-off and clean-room provenance. The permitted-use position is conditional, not unconditional acceptance; no legal-compliance finding is made. Live-domain filtering was reported by the human coauthor, not independently classified here.",
+        "verification": {"level": "content-checked", "checked_on": "2026-11-13", "basis": "Official policy source inspected in local Chrome at a pinned file revision; GitHub API/file history crosschecked. Primary-source fallback used because DNS4EU blocks the live website locally according to the human coauthor. No security protection bypassed.", "source_url": "https://github.com/GravityLinux/website/blob/2d7bbba836646caed9441ed998021b3f18c479da/content/policies/llm.md", "method": "alternative-local-chrome-official-git-source"}
+      }
+    },
+    {
       "id": "ref-712e3405f2",
       "checked_on": "2026-11-01",
       "reason": "Existing identity-only reference substantively appraised; add DOI and authoritative author-copy access without creating another study record.",

@@ -77,6 +77,17 @@ def main():
         age = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(audit["checked_at"])
         if age.total_seconds() < 0 or age.days > 7 or not audit.get("complete") or audit.get("blocking_ids"):
             errors.append("Identity audit is incomplete, stale, future-dated, or has unresolved release blockers")
+        from verify_references import access_deferral_valid
+        decisions = {d['id']: d for d in json.loads((ROOT / 'data/identity-exceptions.json').read_text())}
+        today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+        for result in audit.get('records', []):
+            status = result['identity_status']
+            if status == 'mismatch' or (result['checked_reference'] and status == 'unresolved'):
+                errors.append('Unresolved identity without a valid access decision: ' + result['id'])
+            if status == 'unverified-deferred':
+                source = source_by_id.get(result['id'])
+                if not source or not access_deferral_valid(decisions.get(result['id'], {}), result, source, release, today):
+                    errors.append('Invalid or expired unverified-access decision: ' + result['id'])
     ids = [r["id"] for r in records]
     if len(ids) != len(set(ids)):
         errors.append("Duplicate source IDs")
@@ -116,7 +127,16 @@ def main():
             url = urlsplit(link)
             if url.scheme or url.netloc:
                 continue
-            target = (p.parent / unquote(url.path)).resolve() if url.path else p
+            if url.path.startswith('/'):
+                prefix = urlsplit(release.get('canonical_url', '')).path
+                if prefix not in {'', '/'} and url.path == '/':
+                    continue  # Preview link to the separately preserved published edition.
+                relative = url.path[len(prefix):] if prefix not in {'', '/'} and url.path.startswith(prefix) else url.path.lstrip('/')
+                target = (ROOT / 'site' / unquote(relative)).resolve()
+            else:
+                target = (p.parent / unquote(url.path)).resolve() if url.path else p
+            if target.is_dir():
+                target = target / 'index.html'
             if not target.exists():
                 errors.append(f"Missing local resource: {p.name}: {link}")
             if url.fragment and target in pages and unquote(url.fragment) not in pages[target].ids:

@@ -28,7 +28,8 @@ class NovemberIntakeTests(unittest.TestCase):
             fields = update['fields']
             self.assertEqual(fields['verification']['checked_on'], update['checked_on'])
             self.assertLessEqual(fields['date'], update['checked_on'])
-            self.assertFalse(set(fields['topics']) - set(taxonomy['topics']))
+            merged = next(r for r in self.base if r['id'] == update['id']) | fields
+            self.assertFalse(set(merged['topics']) - set(taxonomy['topics']))
         paper = next(r['fields'] for r in updates['records'] if r['id'] == 'ref-712e3405f2')
         self.assertEqual(paper['doi'], '10.1145/3706598.3713778')
         self.assertEqual(len(paper['authors']), 7)

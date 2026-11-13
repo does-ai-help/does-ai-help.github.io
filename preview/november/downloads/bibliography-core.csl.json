@@ -392,13 +392,13 @@
     ],
     "abstract": "Gravity's own account says it initially forked from Asahi over policy differences, specifically LLM use, while retaining the shared objective of Linux support on Apple Silicon.",
     "keyword": "engineering; governance",
-    "note": "Method: project-account. Status: project-documentation. Verification: content-checked (Official About FAQ, especially Gravity Linux vs Asahi Linux; web retrieval.). Limitations: Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits. Date basis: Latest file-affecting commit b1a74639fe8931640f7f8eecb99f8b77f257463a committed 12 September 2026 at 01:32:06 UTC. Also the initial repository import of this file; not proof of first public deployment, the fork date or initial composition. Version: Repository source matches the cited About FAQ; date is the file's committed revision date, not the date of the separately dated introductory blog.",
+    "note": "Method: project-account. Status: project-documentation. Verification: content-checked (Official pinned About source read in local Chrome; GitHub API confirms content and file revision. The live domain was not accessed by bypassing DNS filtering or a certificate warning. Self-description is not an independent history of the fork.). Limitations: Self-description establishes the project's stated rationale, not an independent causal history or evidence that the fork improves engineering outcomes. Does not establish the prevalence of such splits. Date basis: Latest file-affecting commit cfc74e6b3fcdb2f794fbf725464f27b506ad8d21 committed 14 October 2026 at 06:54:59 UTC. This revision updates the Discord invite; not a new fork or policy-adoption date. Version: Current official repository source still attributes the initial fork to LLM-policy differences. The file-revision date is not a deployment, initial composition or fork date. Live-domain access is locally filtered by DNS4EU according to the human coauthor; the pinned official source is an alternative access route, not a declaration that the domain is safe.",
     "issued": {
       "date-parts": [
         [
           2026,
-          9,
-          12
+          10,
+          14
         ]
       ]
     },
@@ -406,7 +406,7 @@
       "date-parts": [
         [
           2026,
-          10,
+          11,
           13
         ]
       ]
@@ -2559,13 +2559,13 @@
     ],
     "abstract": "Gravity permits and encourages responsible LLM use while requiring disclosure and demonstrable clean-room provenance. Exposure through an agent can taint the contributor; rewriting proprietary material through an LLM is prohibited.",
     "keyword": "engineering; governance; quality",
-    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official policy sections on permission, human responsibility, contamination, disclosure and process records; web retrieval.). Limitations: Not unconditional acceptance. The project's safeguards and claimed effectiveness are not independently validated; its legal interpretation is not a legal opinion from this review. Date basis: Latest file-affecting commit d0bdd17839e9975a00d9201e842705acf2ca5a69 committed 15 September 2026 at 01:05:56 UTC, although authored 12 September. Citation uses committed revision date; policy adoption and deployment dates are not inferred. Version: Initially imported in b1a74639fe8931640f7f8eecb99f8b77f257463a on 12 September; revised communication policy in d0bdd17839e9975a00d9201e842705acf2ca5a69, committed 15 September. The source text matches the cited live policy.",
+    "note": "Method: project-policy. Status: project-documentation. Verification: content-checked (Official policy source inspected in local Chrome at a pinned file revision; GitHub API/file history crosschecked. Primary-source fallback used because DNS4EU blocks the live website locally according to the human coauthor. No security protection bypassed.). Limitations: Not unconditional acceptance. The project's safeguards and claimed effectiveness are not independently validated; its legal interpretation is not a legal opinion from this review. Date basis: Latest file-affecting commit 2d7bbba836646caed9441ed998021b3f18c479da committed 13 October 2026 at 22:02:14 UTC clarifies commit-message requirements. Revision date, not inferred adoption/deployment date. Version: Current pinned source requires Assisted-By: LLM for assisted code, disclosure, human Developer Certificate of Origin sign-off and clean-room provenance. The permitted-use position is conditional, not unconditional acceptance; no legal-compliance finding is made. Live-domain filtering was reported by the human coauthor, not independently classified here.",
     "issued": {
       "date-parts": [
         [
           2026,
-          9,
-          15
+          10,
+          13
         ]
       ]
     },
@@ -2573,7 +2573,7 @@
       "date-parts": [
         [
           2026,
-          10,
+          11,
           13
         ]
       ]
@@ -9755,7 +9755,7 @@
     ],
     "abstract": "Reports Richard Borcherds's shift from correctness-based homework marking to completion credit, alongside concerns about AI and accounts of course-level policy discretion.",
     "keyword": "mathematics; science; learning; methods; governance",
-    "note": "Method: reported-interview. Status: journalism. Verification: content-checked (Full rendered article, Audrey Baime byline, date and distinction between Borcherds's remarks and Anne Marie Richard's reported institutional comments inspected in native local Chrome. Photo credit not substituted for author.). Limitations: One reported interview, not a learning experiment or evidence that Berkeley abolished homework grading. Completion credit remains. Predictions about future mathematicians and claims about detector suitability are attributed statements, not independently established outcomes. Date basis: Article byline and 23 October date in Chrome, distinguished from the site's current-day masthead.",
+    "note": "Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation. Earlier reading history: Method: reported-interview. Status: journalism. Verification: content-checked (Full rendered article, Audrey Baime byline, date and distinction between Borcherds's remarks and Anne Marie Richard's reported institutional comments inspected in native local Chrome. Photo credit not substituted for author.). Limitations: One reported interview, not a learning experiment or evidence that Berkeley abolished homework grading. Completion credit remains. Predictions about future mathematicians and claims about detector suitability are attributed statements, not independently established outcomes. Date basis: Article byline and 23 October date in Chrome, distinguished from the site's current-day masthead.",
     "issued": {
       "date-parts": [
         [
@@ -10002,7 +10002,7 @@
     ],
     "abstract": "Torvalds opposes categorical tool bans and argues that contributors should understand their changes regardless of the tools used. His compiler and editor analogies defend tool use; they do not measure AI reliability or productivity.",
     "keyword": "engineering; governance; judgment; learning",
-    "note": "Method: maintainer-policy-discussion. Status: mailing-list-message. Verification: content-checked (Full rendered message, author, Date header and quoted parent context inspected in the user's existing local Chrome tab.). Limitations: A maintainer's normative position in a contested thread, not an experiment, representative survey or proof of a merged policy change. Understanding is asserted as an expectation, not independently measured. Date basis: Message Date header displayed in local Chrome: 13 October 2026, 13:45:09 -0700. Not the archive update date.",
+    "note": "Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation. Earlier reading history: Method: maintainer-policy-discussion. Status: mailing-list-message. Verification: content-checked (Full rendered message, author, Date header and quoted parent context inspected in the user's existing local Chrome tab.). Limitations: A maintainer's normative position in a contested thread, not an experiment, representative survey or proof of a merged policy change. Understanding is asserted as an expectation, not independently measured. Date basis: Message Date header displayed in local Chrome: 13 October 2026, 13:45:09 -0700. Not the archive update date.",
     "issued": {
       "date-parts": [
         [
@@ -10036,7 +10036,7 @@
     ],
     "abstract": "Pinchart argues that explicit expectations retain value despite imperfect enforcement and questions AI-written commit explanations. The quoted exchange proposes human-written rationale as a way to discourage submissions that their senders do not understand.",
     "keyword": "engineering; governance; learning; trust",
-    "note": "Method: maintainer-policy-discussion. Status: mailing-list-message. Verification: content-checked (Full rendered message, metadata and quoted Cook/Pinchart exchange inspected in local Chrome; distinguishes the author's reply from quoted text.). Limitations: Does not establish that manual writing guarantees understanding or that generated prose can be reliably detected. References to Mesa are the participant's comparison, not an independently checked Mesa-policy citation. Date basis: Message Date header displayed in local Chrome: 13 October 2026, 22:16:28 +0200.",
+    "note": "Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation. Earlier reading history: Method: maintainer-policy-discussion. Status: mailing-list-message. Verification: content-checked (Full rendered message, metadata and quoted Cook/Pinchart exchange inspected in local Chrome; distinguishes the author's reply from quoted text.). Limitations: Does not establish that manual writing guarantees understanding or that generated prose can be reliably detected. References to Mesa are the participant's comparison, not an independently checked Mesa-policy citation. Date basis: Message Date header displayed in local Chrome: 13 October 2026, 22:16:28 +0200.",
     "issued": {
       "date-parts": [
         [
@@ -10070,7 +10070,7 @@
     ],
     "abstract": "Cook separates an origin declaration from evidence of understanding. He describes useful AI drafting, review-volume constraints, testing and contributor trust as distinct considerations; a binary tool tag does not establish patch quality.",
     "keyword": "engineering; governance; quality; trust; verification",
-    "note": "Method: maintainer-policy-discussion. Status: mailing-list-message. Verification: content-checked (Full rendered follow-up, metadata, review criteria and closing discussion inspected in local Chrome; linked bot implementation not evaluated.). Limitations: Practitioner self-report and policy reasoning, not measured improvement. Reported review mechanisms and Sashiko features were not independently evaluated. Trust filters can have participation costs; their effectiveness is not established here. Date basis: Message Date header displayed in local Chrome: 14 October 2026, 11:47:46 -0700.",
+    "note": "Currently unverified for this release: access blocked; retained as context by explicit editorial decision, not manual confirmation. Earlier reading history: Method: maintainer-policy-discussion. Status: mailing-list-message. Verification: content-checked (Full rendered follow-up, metadata, review criteria and closing discussion inspected in local Chrome; linked bot implementation not evaluated.). Limitations: Practitioner self-report and policy reasoning, not measured improvement. Reported review mechanisms and Sashiko features were not independently evaluated. Trust filters can have participation costs; their effectiveness is not established here. Date basis: Message Date header displayed in local Chrome: 14 October 2026, 11:47:46 -0700.",
     "issued": {
       "date-parts": [
         [

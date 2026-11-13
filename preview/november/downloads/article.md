@@ -428,6 +428,10 @@ This is a living critical narrative review with an accompanying evidence map. It
 
 The initial collection was supplied and developed over time, then supplemented through primary-source searches of arXiv, journal and publisher sites, research organizations, and selected expert analyses. Searches were organized around productivity experiments, agentic engineering, learning and transfer, AI-supported science, business outcomes, and labor transitions. This release does not claim PRISMA compliance, exhaustive coverage, a preregistered search strategy, or a pooled meta-analytic effect. Coverage is weighted toward English-language sources and the settings in which current evidence is most visible.
 
+### Current-release access limitations
+
+Four contextual references could not be reverified for November because their websites deny access or their archive fails: the Daily Californian account of homework assessment and three Linux mailing-list messages on Assisted-by attribution. They are retained with their earlier dated reading history, not presented as newly confirmed sources or independent research evidence. The human coauthor approved keeping these records explicitly unverified and non-blocking for this release; they will be revisited in the next monthly review. [@baimehomework2026; @torvaldstools2026; @pincharttools2026; @cooktools2026]
+
 ### Verification and appraisal
 
 The targeted pre-publication search for companion reviews is documented in the [search and reading log](downloads/related-reviews.md). It adds complementary syntheses without claiming exhaustive coverage or counting their constituent studies as independent new evidence.

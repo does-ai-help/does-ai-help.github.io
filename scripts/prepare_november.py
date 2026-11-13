@@ -2,6 +2,7 @@
 """Assemble an explicitly provisional November preview without editing October."""
 import argparse
 import copy
+import csv
 import hashlib
 import json
 import os
@@ -10,7 +11,7 @@ import shutil
 import subprocess
 import sys
 import zipfile
-from datetime import date
+from datetime import date, datetime
 from html import escape
 from pathlib import Path
 
@@ -38,7 +39,11 @@ def assemble():
         source['staging_status'] = 'included-in-draft-preview'
         records.append(source)
         by_id[source['id']] = source
+    identity_aliases = load('november/identity-title-aliases.json')
     for source in records:
+        aliases = identity_aliases.get(source['id'], [])
+        if aliases:
+            source['title_aliases'] = list(dict.fromkeys(source.get('title_aliases', []) + aliases))
         if source['publication_status'] == 'peer-reviewed-conference-paper':
             source['publication_status'] = 'peer-reviewed-conference'
     urls = [r['url'].rstrip('/') for r in records]
@@ -77,6 +82,105 @@ def run(args, work):
     env = dict(os.environ)
     env['PATH'] = '/Library/TeX/texbin:' + env.get('PATH', '')
     subprocess.run(args, cwd=work, env=env, check=True)
+
+
+def stage_browser_checks(work, records, meta):
+    from browser_review import fingerprint, receipt_errors
+    by_id = {record['id']: record for record in records}
+    history = load('data/browser-verification.json')
+    with (ROOT / 'november/release-browser-checks.tsv').open() as stream:
+        for row in csv.DictReader(stream, delimiter='\t'):
+            source = by_id[row['id']]
+            receipt = {
+                'id': row['id'], 'method': 'local-chrome-native',
+                'release_month': meta['release'], 'checked_at': row['checked_at'],
+                'source_url': source['url'], 'source_fingerprint': fingerprint(source),
+                'reviewer': 'GPT 6.1 (AI-assisted local Chrome inspection)',
+                'outcome': row['outcome'],
+                'observed': {'title': row['observed_title'], 'resolved_url': row['resolved_url'] or source['url']},
+                'scope': 'Source identity and selected visible text only; not scientific replication or independent certification.',
+                'notes': row['notes'],
+            }
+            if row['resolved_url']:
+                receipt['redirect_basis'] = row['notes']
+            # Building an archived preview preserves history; the release gate
+            # separately checks freshness against the actual current time.
+            observed_at = datetime.fromisoformat(row['checked_at'])
+            errors = receipt_errors(receipt, source, meta, now=observed_at)
+            if observed_at.date() > date.fromisoformat(meta['release_date']):
+                errors.append('Observation exceeds the preview date')
+            if errors:
+                raise ValueError(f"Invalid November browser receipt {row['id']}: {errors}")
+            history['checks'].append(receipt)
+    (work / 'data/browser-verification.json').write_text(json.dumps(history, ensure_ascii=False, indent=2) + '\n')
+    policy = load('data/browser-review-policy.json')
+    additions = load('november/browser-observations.json')['monthly_watchlist_additions_on_promotion']
+    policy['selected_ids'] = sorted(set(policy['selected_ids']) | set(additions))
+    (work / 'data/browser-review-policy.json').write_text(json.dumps(policy, ensure_ascii=False, indent=2) + '\n')
+
+
+def stage_saved_audit(work):
+    digest = hashlib.sha256((work / 'data/sources.json').read_bytes()).hexdigest()
+    for saved in sorted((ROOT / 'november').glob('verification-*'), reverse=True):
+        report = saved / 'reference-verification.json'
+        if not report.exists():
+            continue
+        audit = json.loads(report.read_text())
+        if not audit.get('complete') or audit.get('database_sha256') != digest:
+            continue
+        (work / 'build').mkdir(exist_ok=True)
+        for name in ['reference-verification.json', 'reference-verification.md', 'reference-verification.csv', 'access-report.json', 'browser-review-queue.json']:
+            if (saved / name).exists():
+                shutil.copyfile(saved / name, work / 'build' / name)
+        return True
+    return False
+
+
+def stage_access_deferrals(work, records, meta):
+    from verify_references import access_deferral_valid
+    policy = load('november/access-deferrals.json')
+    common = {key: value for key, value in policy.items() if key != 'records'}
+    sources = {record['id']: record for record in records}
+    decisions = [{**common, **record} for record in policy['records']]
+    for decision in decisions:
+        source = sources[decision['id']]
+        result = {'identity_status': 'unresolved', 'conflicts': [], 'observations': []}
+        if not access_deferral_valid(decision, result, source, meta, policy['approved_on']):
+            raise ValueError('Invalid access deferral: ' + decision['id'])
+    existing = load('data/identity-exceptions.json')
+    (work / 'data/identity-exceptions.json').write_text(json.dumps(existing + decisions, ensure_ascii=False, indent=2) + '\n')
+    return decisions
+
+
+def flag_deferred_access(text, decisions, version):
+    manifest = f'downloads/does-ai-help-access-deferrals-{version}.json'
+    notice = ('<p class="access-deferral"><strong>Currently unverified for November.</strong> '
+              'Access blocked; retained as contextual material by explicit editorial decision. '
+              'Earlier reading history is not a successful current check. '
+              f'<a href="{manifest}">Access decision and monthly review</a>.</p>')
+    for decision in decisions:
+        key = decision['id']
+        for start, end in [(f'<article class="source-row" id="{key}"', '</article>'),
+                           (f'<li id="ref-{key}">', '</li>'),
+                           (f'<template data-reference-id="{key}">', '</template>')]:
+            position = text.find(start)
+            if position < 0:
+                continue
+            stop = text.index(end, position)
+            block = text[position:stop]
+            block = block.replace('<span class="status checked">content checked</span>', '<span class="status">Currently unverified</span>')
+            block = block.replace('<strong>Verification:</strong>', '<strong>Earlier reading history:</strong>')
+            if start.startswith('<article') and '<details>' in block:
+                block = block.replace('<details>', notice + '<details>', 1)
+                text = text[:position] + block + text[stop:]
+            else:
+                text = text[:position] + block + notice + text[stop:]
+    if decisions:
+        text = text.replace('checked reference identities', 'historically inspected reference records')
+        text = text.replace('checked identities', 'historically inspected identities')
+        text = text.replace('>Checked identities<', '>Historically inspected<')
+        text = text.replace('<p class="evidence-note">', '<p class="evidence-note">Four contextual references remain unverified for November; their reading-history classifications are retained separately. ')
+    return text
 
 
 def existing_pdf_for_web_update(article, records, meta):
@@ -129,6 +233,9 @@ def main():
         shutil.copyfile(ROOT / 'site' / name, work / 'site' / name)
     (work / 'data/sources.json').write_text(json.dumps(records, ensure_ascii=False, indent=2) + '\n')
     (work / 'data/release.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n')
+    stage_browser_checks(work, records, meta)
+    access_decisions = stage_access_deferrals(work, records, meta)
+    has_audit = stage_saved_audit(work)
     (work / 'manuscript/article.md').write_text(article)
     summary = ROOT / 'november/UPDATE-SUMMARY.md'
     summary_html_source = summary.read_text().replace('../manuscript/', 'downloads/appraisals/')
@@ -153,6 +260,8 @@ def main():
         run([sys.executable, 'scripts/build_pdf.py'], work)
     from download_names import download_names
     names = download_names(meta)
+    (work / 'site/downloads' / f"does-ai-help-access-deferrals-{meta['version']}.json").write_text(
+        json.dumps(load('november/access-deferrals.json'), ensure_ascii=False, indent=2) + '\n')
     if existing_pdf is not None:
         for filename in [f"does-ai-help-{meta['release']}.pdf", names[f"does-ai-help-{meta['release']}.pdf"]]:
             (work / 'site/downloads' / filename).write_bytes(existing_pdf)
@@ -161,6 +270,7 @@ def main():
               + escape(config['notice']) + ' <a href="/">Read the published October edition</a>.</aside>')
     for page in (work / 'site').glob('*.html'):
         text = page.read_text().replace('href="/"', f'href="{config["preview_path"]}"')
+        text = flag_deferred_access(text, access_decisions, meta['version'])
         text = text.replace('<head>', '<head><meta name="robots" content="noindex,follow">')
         text = text.replace('</header>', '</header>' + banner, 1)
         text = re.sub(r'<p><a href="[^"]+/releases/tag/[^"]+">Permanent versioned release</a></p>',
@@ -188,8 +298,17 @@ def main():
               'release_receipts_complete': False,
               'note': 'Existing source inspections retain their dates. No new release-wide live audit or monthly Chrome refresh is claimed.'}
     download = work / 'site/downloads'
-    (download / names['reference-verification.json']).write_text(json.dumps(status, indent=2) + '\n')
-    (download / names['reference-verification.md']).write_text('# Preview Verification Status\n\n' + status['note'] + '\n\nFinal November editorial, live reference and browser checks remain pending.\n')
+    if not has_audit:
+        for filename in ['reference-verification.json', names['reference-verification.json']]:
+            (download / filename).write_text(json.dumps(status, indent=2) + '\n')
+        for filename in ['reference-verification.md', names['reference-verification.md']]:
+            (download / filename).write_text('# Preview Verification Status\n\n' + status['note'] + '\n\nFinal November editorial, live reference and browser checks remain pending.\n')
+    readiness = ROOT / 'november/RELEASE-READINESS.md'
+    if readiness.exists():
+        followup_name = f"does-ai-help-verification-followup-{meta['version']}.md"
+        readiness_text = readiness.read_text().replace('(verification-followup-2026-11-13.md)', f'({followup_name})')
+        (download / f"does-ai-help-release-readiness-{meta['version']}.md").write_text(readiness_text)
+        shutil.copyfile(ROOT / 'november/verification-followup-2026-11-13.md', download / followup_name)
     # Canonical text endings keep generated CSV/RIS and copied Markdown diffable.
     text_types = {'.md', '.ris', '.bib', '.csv', '.json', '.jsonl', '.cff', '.html', '.js', '.css', '.svg'}
     for file in (work / 'site').rglob('*'):

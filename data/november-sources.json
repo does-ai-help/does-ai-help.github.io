@@ -364,9 +364,9 @@
     "container_title": "NBER Working Paper Series", "topics": ["business", "productivity", "work", "diversity", "methods"],
     "method": "matched-difference-in-differences-and-instrumental-variable-firm-analysis", "publication_status": "working-paper",
     "summary": "Studies embedded AI on a Chinese e-commerce platform, linking adoption to operations and sales. Reports substantial sales gains among small firms rather than only task-level performance.",
-    "limitations": "One platform and selected small sellers; sales are not profit, welfare or aggregate productivity. Identification assumptions need full-text scrutiny. Direct page/PDF returned 403; only the public primary indexed abstract and metadata were inspected. No causal estimate independently reproduced.",
-    "verified": true, "reading_scope": "primary-indexed-nber-abstract-and-metadata-only",
-    "verification": {"level": "content-checked", "checked_on": "2026-11-11", "basis": "NBER-indexed title, five authors, DOI, issue month and abstract inspected. Page and PDF failed direct access; no full-text or local Chrome review claimed.", "source_url": "https://www.nber.org/papers/w36003", "method": "primary-indexed-abstract-and-metadata-check"},
+    "limitations": "One platform and selected small sellers; sales are not profit, welfare or aggregate productivity. Identification assumptions need full-text scrutiny. Primary landing page and abstract inspected in local Chrome; full paper not obtained. Estimates remain attributed to the working paper.",
+    "verified": true, "reading_scope": "primary-nber-abstract-and-metadata-only",
+    "verification": {"level": "content-checked", "checked_on": "2026-11-12", "basis": "Local Chrome confirms the primary NBER title, five authors, DOI, issue month and abstract. Full methods not inspected; no experimental or econometric reproduction is claimed or required.", "source_url": "https://www.nber.org/papers/w36003", "method": "local-chrome-primary-abstract-and-metadata-check"},
     "editorial_priority": "context-pending-full-text-review", "requires_monthly_recheck": true, "related_to": ["yotzovfirm2026", "rasobubble2026"],
     "added_in": "2026-11", "target_release": "2026-11", "staging_status": "appraised-not-yet-published"
   },

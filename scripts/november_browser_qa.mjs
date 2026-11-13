@@ -112,6 +112,18 @@ try {
   const row=page.locator('#ref-712e3405f2');
   await row.locator('summary').click();
   assert.equal(await row.locator('a[href="https://doi.org/10.1145/3706598.3713778"]').count(),1);
+  const accessPolicy=JSON.parse(fs.readFileSync(path.join(root,'november/access-deferrals.json')));
+  for(const decision of accessPolicy.records){
+    await page.locator('#search').fill(decision.id);
+    const deferredRow=page.locator('#'+decision.id);
+    assert.equal(await deferredRow.isVisible(),true);
+    assert.equal(await deferredRow.locator('.status').innerText(),'Currently unverified');
+    assert.ok((await deferredRow.locator('.access-deferral').innerText()).includes('Currently unverified for November'));
+  }
+  const policyResponse=await page.request.get(origin+prefix+`downloads/does-ai-help-access-deferrals-${release.version}.json`);
+  assert.equal(policyResponse.ok(),true);
+  assert.equal((await policyResponse.json()).records.length,4);
+  await page.screenshot({path:path.join(output,'access-deferral-desktop.png')});
   await page.goto(origin+prefix+'cite.html');
   assert.ok((await page.locator('.citation-example').innerText()).includes(release.version));
   assert.equal(await page.getByRole('link',{name:'Permanent versioned release'}).count(),0);

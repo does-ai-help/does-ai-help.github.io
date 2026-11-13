@@ -1,6 +1,6 @@
 # November 2026 Preview: Evidence Update
 
-Version **2026.11.0-preview.6**, prepared **12 November 2026**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
+Version **2026.11.0-preview.7**, prepared **13 November 2026**, with evidence cutoff **12 November**. This is a working draft for the public preview, not a final monthly release. October version 2026.10.15 remains the published edition. The live preview advances when the preparation branch is pushed and deployed.
 
 ## Scale and Scope
 
